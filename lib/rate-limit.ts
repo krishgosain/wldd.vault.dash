@@ -1,5 +1,11 @@
-// In-memory per-IP rate limiter and short-window result cache for the live
-// search endpoint (Section 11: 5-10 searches/IP/hour; cache 6-12h).
+// In-memory per-IP rate limiter and result cache for the live search
+// endpoint (Section 11, revised: 5-10 searches/IP/hour; cache 12-24h).
+//
+// The cache window was extended from the original 6-12h to 12-24h once the
+// pipeline moved to Tavily + Gemini free tiers (see lib/fetch-brand-data.ts)
+// — it's no longer just avoiding a redundant paid call, it's protecting a
+// shared monthly Tavily credit pool and a shared daily Gemini request pool
+// that the whole public site draws from.
 //
 // This resets on cold start / is per-instance on serverless — acceptable per
 // the brief ("a simple in-memory or edge-config-based limiter... is
@@ -7,7 +13,7 @@
 
 const WINDOW_MS = 60 * 60 * 1000; // 1 hour
 const MAX_REQUESTS_PER_WINDOW = 8;
-const CACHE_TTL_MS = 8 * 60 * 60 * 1000; // 8 hours
+const CACHE_TTL_MS = 18 * 60 * 60 * 1000; // 18 hours (within the 12-24h target window)
 
 const hits = new Map<string, number[]>();
 

@@ -30,8 +30,11 @@ jobs:
 
       - name: Refresh tracked brands
         env:
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-          ANTHROPIC_MODEL: ${{ vars.ANTHROPIC_MODEL }}
+          TAVILY_API_KEY: ${{ secrets.TAVILY_API_KEY }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_MODEL: ${{ vars.GEMINI_MODEL }}
+          TAVILY_MONTHLY_CREDIT_BUDGET: ${{ vars.TAVILY_MONTHLY_CREDIT_BUDGET }}
+          GEMINI_DAILY_REQUEST_BUDGET: ${{ vars.GEMINI_DAILY_REQUEST_BUDGET }}
         run: |
           if [ -n "${{ github.event.inputs.only }}" ]; then
             npm run refresh -- --only=${{ github.event.inputs.only }}
@@ -43,7 +46,8 @@ jobs:
         run: |
           git config user.name "wldd-revtracker-bot"
           git config user.email "actions@github.com"
-          git add data/brands data/api-spend-log.json
+          git add data/brands
+          [ -f data/api-usage-log.json ] && git add data/api-usage-log.json || true
           if git diff --cached --quiet; then
             echo "No brand data changes to commit."
           else

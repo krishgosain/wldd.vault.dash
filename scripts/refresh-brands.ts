@@ -1,8 +1,9 @@
-// Daily refresh job (BUILD BRIEF Section 3 + 12). For each tracked brand in
-// lib/brands.ts, calls the Anthropic API (with web_search) once, normalizes
-// the response into the Section 5 schema, and writes/overwrites that
-// brand's /data/brands/{slug}.json — preserving any historical trend points
-// already on disk (from a manual historical import, see
+// Daily refresh job (BUILD BRIEF Section 3 + 12, pipeline revised per
+// Section 3 update). For each tracked brand in lib/brands.ts, runs the
+// Tavily search -> Gemini synthesis pipeline (lib/fetch-brand-data.ts) once,
+// normalizes the response into the Section 5 schema, and writes/overwrites
+// that brand's /data/brands/{slug}.json — preserving any historical trend
+// points already on disk (from a manual historical import, see
 // scripts/import-historical.ts) rather than clobbering them.
 //
 // Run via: npm run refresh            (all tracked brands)
@@ -14,7 +15,8 @@ import "dotenv/config";
 import { BRAND_CONFIG, brandSlug } from "../lib/brands";
 import { fetchBrandProfile } from "../lib/fetch-brand-data";
 import { readBrandFile, writeBrandFile } from "../lib/data";
-import { logSpend } from "../lib/spend-log";
+import { logUsage, checkQuotaAvailable, getUsageSummary } from "../lib/quota";
+import { QuotaExceededError } from "../lib/errors";
 import type { BrandData, TrendPoint } from "../lib/types";
 
 function mergeTrend(existing: TrendPoint[], incoming: TrendPoint[], key: "date" | "period"): TrendPoint[] {
@@ -41,11 +43,11 @@ async function refreshOne(name: string, hint: string | undefined, slug: string) 
   }
 
   writeBrandFile(slug, brand as BrandData);
-  logSpend({
+  logUsage({
     source: "daily_refresh",
     brand: name,
-    input_tokens: usage.input_tokens,
-    output_tokens: usage.output_tokens,
+    tavily_credits: usage.tavily_credits,
+    gemini_requests: usage.gemini_requests,
   });
   console.log(`done (tier=${brand.marketing_spend.tier})`);
 }
@@ -61,7 +63,24 @@ async function main() {
   }
 
   let failures = 0;
-  for (const entry of targets) {
+  let skippedForQuota = 0;
+
+  for (let i = 0; i < targets.length; i++) {
+    const entry = targets[i];
+
+    // Stop spending once our tracked Tavily/Gemini budget looks exhausted —
+    // better to leave the rest for tomorrow's run than to hammer a
+    // provider that's about to start rejecting calls anyway.
+    const quota = checkQuotaAvailable();
+    if (!quota.ok) {
+      skippedForQuota = targets.length - i;
+      console.warn(
+        `\nStopping early: ${quota.provider} budget looks exhausted for this period. ` +
+          `${skippedForQuota} brand(s) remaining will run on the next scheduled refresh.`
+      );
+      break;
+    }
+
     const slug = brandSlug(entry);
     const hint = [
       entry.parent ? `Parent/owner: ${entry.parent}.` : "",
@@ -78,16 +97,31 @@ async function main() {
     try {
       await refreshOne(entry.name, hint, slug);
     } catch (err) {
+      if (err instanceof QuotaExceededError) {
+        skippedForQuota = targets.length - i;
+        console.warn(`\n${err.provider} rejected the call as over quota for ${entry.name}; stopping early.`);
+        break;
+      }
       failures += 1;
       console.error(`\nFailed to refresh ${entry.name}:`, err instanceof Error ? err.message : err);
     }
   }
 
+  const summary = getUsageSummary();
+  console.log(
+    `\nUsage so far — Tavily: ${summary.tavilyCreditsThisMonth} credits this month ` +
+      `(${summary.tavilyBudgetRemaining} remaining of budget), Gemini: ${summary.geminiRequestsToday} requests today ` +
+      `(${summary.geminiBudgetRemaining} remaining of budget).`
+  );
+
+  const attempted = targets.length - skippedForQuota;
   if (failures > 0) {
-    console.error(`\n${failures} of ${targets.length} brand(s) failed to refresh.`);
+    console.error(`${failures} of ${attempted} attempted brand(s) failed to refresh.`);
     process.exitCode = 1;
+  } else if (skippedForQuota > 0) {
+    console.log(`Refreshed ${attempted} brand(s); ${skippedForQuota} deferred to the next run due to quota.`);
   } else {
-    console.log(`\nAll ${targets.length} brand(s) refreshed successfully.`);
+    console.log(`All ${targets.length} brand(s) refreshed successfully.`);
   }
 }
 

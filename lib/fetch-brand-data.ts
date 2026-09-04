@@ -1,16 +1,96 @@
-import Anthropic from "@anthropic-ai/sdk";
 import { slugify } from "./slug";
+import { QuotaExceededError } from "./errors";
 import type { BrandData } from "./types";
 
-// Shared "ask Claude, with live web search, for a brand's financial profile"
-// call — used by both the daily refresh script (scripts/refresh-brands.ts)
-// and the live search API route (app/api/search-brand/route.ts). Section 3
-// of the build brief specifies this as the single data-sourcing mechanism.
+// Two-step, free-tier data pipeline — used by both the daily refresh script
+// (scripts/refresh-brands.ts) and the live search API route
+// (app/api/search-brand/route.ts):
+//
+//   Step 1 — Search: Tavily (tavily.com) fetches clean web content for the
+//            brand. Free tier: 1,000 credits/month, no card required.
+//   Step 2 — Synthesis: Google Gemini (Flash or Flash-Lite ONLY — see below)
+//            reasons over that text and returns the structured JSON per the
+//            schema in Section 5 of the build brief. Free tier: no card,
+//            roughly 5-15 requests/min and 1,000-1,500 requests/day.
+//
+// CRITICAL CONSTRAINT: Gemini is called with NO tools — in particular, never
+// Gemini's built-in "Grounding with Google Search". That feature requires
+// billing to be enabled on the Google Cloud project and costs money per
+// request even within its "free" monthly quota, which defeats the entire
+// point of this two-step design. All web access happens in Step 1 via
+// Tavily; Gemini only ever reasons over the plain text we hand it — it never
+// searches on its own.
 
-const MODEL = process.env.ANTHROPIC_MODEL || "claude-sonnet-5";
+const TAVILY_API_KEY = process.env.TAVILY_API_KEY;
+const GEMINI_API_KEY = process.env.GEMINI_API_KEY;
+
+// Must be a Flash or Flash-Lite model — those are the free-tier-eligible
+// Gemini models. Do not point this at a Pro model or enable any tool use.
+const GEMINI_MODEL = process.env.GEMINI_MODEL || "gemini-2.5-flash";
+if (!/flash/i.test(GEMINI_MODEL)) {
+  throw new Error(
+    `GEMINI_MODEL="${GEMINI_MODEL}" is not a Flash/Flash-Lite model. Only Gemini Flash or ` +
+      `Flash-Lite models are free-tier eligible for this pipeline — refusing to start with a ` +
+      `different model family.`
+  );
+}
+
+interface TavilyResult {
+  title: string;
+  url: string;
+  content: string;
+  published_date?: string;
+}
+
+interface TavilySearchResponse {
+  answer?: string;
+  results: TavilyResult[];
+}
+
+// Step 1 — Search. One Tavily "basic" search per brand (1 credit) to keep
+// the shared monthly credit pool sustainable across ~30 tracked brands
+// refreshed daily plus public live searches.
+async function tavilySearch(brandName: string, hint?: string): Promise<{ context: string; credits: number }> {
+  if (!TAVILY_API_KEY) {
+    throw new Error("TAVILY_API_KEY is not set");
+  }
+
+  const query = `${brandName} revenue operating profit marketing advertising spend stock price recent news ${hint ?? ""}`.trim();
+
+  const res = await fetch("https://api.tavily.com/search", {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({
+      api_key: TAVILY_API_KEY,
+      query,
+      search_depth: "basic",
+      max_results: 8,
+      include_answer: true,
+    }),
+  });
+
+  if (res.status === 429 || res.status === 432 || res.status === 433) {
+    throw new QuotaExceededError("tavily", `Tavily quota/rate limit hit (HTTP ${res.status}).`);
+  }
+  if (!res.ok) {
+    const body = await res.text().catch(() => "");
+    throw new Error(`Tavily search failed for "${brandName}": HTTP ${res.status} ${body}`);
+  }
+
+  const data = (await res.json()) as TavilySearchResponse;
+  const parts: string[] = [];
+  if (data.answer) parts.push(`Summary: ${data.answer}`);
+  for (const r of data.results ?? []) {
+    const snippet = (r.content ?? "").slice(0, 1500);
+    parts.push(`Source: ${r.title}\nURL: ${r.url}\nPublished: ${r.published_date ?? "unknown"}\n${snippet}`);
+  }
+
+  return { context: parts.join("\n\n---\n\n"), credits: 1 };
+}
 
 const SCHEMA_AND_METHODOLOGY = `
-You are a financial research analyst. Research the brand named below using web search and
+You are a financial research analyst. You will be given web search results about a brand
+(gathered separately — you do not have search access yourself). Using ONLY the provided context,
 return ONLY a single JSON object (no prose, no markdown fences) matching this TypeScript shape:
 
 {
@@ -87,60 +167,80 @@ total used and how the visibility share was estimated. This tier must still prod
 range.
 
 Rule: always use the highest tier available. Never blend tiers. Never omit the derivation string
-for tier 3 or 4. marketing_spend must always be populated — this is the most important field.
+for tier 3 or 4. marketing_spend must always be populated — this is the most important field. If
+the provided context doesn't contain enough signal even for Tier 4, make your best reasoned
+estimate anyway and say so plainly in the derivation — never output zero or omit the field.
 
-Every other financial field may be null with confidence "not_found" if nothing credible is found
-— do not fabricate a disclosed figure. Cite a real source URL for every non-null field where
-possible. Return ONLY the JSON object.
+Every other financial field may be null with confidence "not_found" if the context doesn't
+support it — do not fabricate a disclosed figure. Cite a real source URL (from the context) for
+every non-null field where possible. Return ONLY the JSON object.
 `;
 
-function buildPrompt(brandName: string, hint?: string) {
-  return `Brand to research: "${brandName}"${hint ? `\nContext: ${hint}` : ""}\n\n${SCHEMA_AND_METHODOLOGY}`;
+function buildPrompt(brandName: string, hint: string | undefined, context: string): string {
+  return (
+    `Brand to research: "${brandName}"${hint ? `\nContext: ${hint}` : ""}\n\n` +
+    `--- WEB SEARCH RESULTS (already fetched for you) ---\n${context || "(no results found)"}\n--- END WEB SEARCH RESULTS ---\n\n` +
+    SCHEMA_AND_METHODOLOGY
+  );
+}
+
+// Step 2 — Synthesis. Gemini reasons over the Tavily context only. No tools,
+// no grounding — see the module-level comment for why that's non-negotiable.
+async function geminiSynthesize(
+  brandName: string,
+  hint: string | undefined,
+  context: string
+): Promise<{ json: Record<string, unknown>; requests: number }> {
+  if (!GEMINI_API_KEY) {
+    throw new Error("GEMINI_API_KEY is not set");
+  }
+
+  const res = await fetch(
+    `https://generativelanguage.googleapis.com/v1beta/models/${GEMINI_MODEL}:generateContent?key=${GEMINI_API_KEY}`,
+    {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        contents: [{ role: "user", parts: [{ text: buildPrompt(brandName, hint, context) }] }],
+        generationConfig: {
+          responseMimeType: "application/json",
+          temperature: 0.2,
+          maxOutputTokens: 4096,
+        },
+        // Deliberately no `tools` field — Grounding with Google Search must
+        // never be enabled here (it requires billing and costs money per
+        // request). Gemini only reasons over the Tavily text above.
+      }),
+    }
+  );
+
+  if (res.status === 429) {
+    throw new QuotaExceededError("gemini", "Gemini quota/rate limit hit (HTTP 429).");
+  }
+  if (!res.ok) {
+    const body = await res.text().catch(() => "");
+    throw new Error(`Gemini synthesis failed for "${brandName}": HTTP ${res.status} ${body}`);
+  }
+
+  const data = await res.json();
+  const text: string = data?.candidates?.[0]?.content?.parts?.[0]?.text ?? "";
+  const jsonMatch = text.match(/\{[\s\S]*\}/);
+  if (!jsonMatch) {
+    throw new Error(`No JSON object found in Gemini response for "${brandName}"`);
+  }
+
+  return { json: JSON.parse(jsonMatch[0]), requests: 1 };
 }
 
 export interface RawFetchResult {
   json: Record<string, unknown>;
-  usage: { input_tokens: number; output_tokens: number };
+  usage: { tavily_credits: number; gemini_requests: number };
 }
 
-export async function fetchBrandProfileRaw(
-  brandName: string,
-  hint?: string
-): Promise<RawFetchResult> {
-  const apiKey = process.env.ANTHROPIC_API_KEY;
-  if (!apiKey) {
-    throw new Error("ANTHROPIC_API_KEY is not set");
-  }
-  const client = new Anthropic({ apiKey });
-
-  const message = await client.messages.create({
-    model: MODEL,
-    max_tokens: 4096,
-    tools: [
-      {
-        type: "web_search_20250305",
-        name: "web_search",
-        max_uses: 6,
-      } as unknown as Anthropic.Tool,
-    ],
-    messages: [{ role: "user", content: buildPrompt(brandName, hint) }],
-  });
-
-  const textBlock = message.content.find((b) => b.type === "text");
-  const text = textBlock && "text" in textBlock ? textBlock.text : "";
-  const jsonMatch = text.match(/\{[\s\S]*\}/);
-  if (!jsonMatch) {
-    throw new Error(`No JSON object found in model response for "${brandName}"`);
-  }
-  const json = JSON.parse(jsonMatch[0]);
-
-  return {
-    json,
-    usage: {
-      input_tokens: message.usage?.input_tokens ?? 0,
-      output_tokens: message.usage?.output_tokens ?? 0,
-    },
-  };
+export async function fetchBrandProfileRaw(brandName: string, hint?: string): Promise<RawFetchResult> {
+  const { context, credits } = await tavilySearch(brandName, hint);
+  const { json, requests } = await geminiSynthesize(brandName, hint, context);
+  return { json, usage: { tavily_credits: credits, gemini_requests: requests } };
 }
 
 // Normalizes the raw model JSON (which may be missing fields or slightly
