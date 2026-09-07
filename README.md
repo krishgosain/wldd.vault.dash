@@ -70,7 +70,7 @@ npm run refresh -- --only=netflix,tcs  # a subset, useful for testing
 | --- | --- | --- |
 | `TAVILY_API_KEY` | GitHub Actions secret + Vercel env | Step 1 (search) of the data pipeline. Free tier: 1,000 credits/month, no card. |
 | `GEMINI_API_KEY` | GitHub Actions secret + Vercel env | Step 2 (synthesis) of the data pipeline. Free tier: no card, ~1,000-1,500 requests/day. |
-| `GEMINI_MODEL` | optional, defaults to `gemini-2.5-flash` | Must be a Flash/Flash-Lite model — the pipeline refuses to start otherwise. |
+| `GEMINI_MODEL` | optional, defaults to `gemini-3.6-flash` | Must be a Flash/Flash-Lite model — the pipeline refuses to start otherwise. |
 | `TAVILY_MONTHLY_CREDIT_BUDGET` | optional, defaults to `900` | Safety threshold `lib/quota.ts` checks before spending another Tavily credit. |
 | `GEMINI_DAILY_REQUEST_BUDGET` | optional, defaults to `900` | Safety threshold `lib/quota.ts` checks before spending another Gemini request. |
 | `VERCEL_DEPLOY_HOOK_URL` | GitHub Actions repo variable, optional | If set, the daily refresh workflow pings this to trigger a redeploy after committing new data. |

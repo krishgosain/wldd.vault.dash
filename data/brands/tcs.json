@@ -1,50 +1,120 @@
 {
-  "name": "TCS",
+  "name": "Tata Consultancy Services",
   "slug": "tcs",
   "parent": "Tata Group",
   "entity_type": "public_standalone",
   "category": "IT Services",
-  "description": "TCS is a brand/product of Tata Group.",
-  "last_refreshed": "1970-01-01T00:00:00.000Z",
+  "description": "Tata Consultancy Services (TCS) is an Indian multinational IT services, consulting, and business solutions provider, operating as a flagship listed company under the Tata Group.",
+  "last_refreshed": "2026-09-07T19:50:50.243Z",
   "stock": {
     "applicable": true,
-    "value": null,
-    "currency": "USD",
+    "value": 2353.6,
+    "currency": "INR",
     "ticker": "TCS.NS",
-    "as_of": null,
-    "note": "Awaiting first refresh.",
+    "as_of": "2026-07-09",
+    "note": "Reflects standalone share price on NSE",
     "confidence": "disclosed"
   },
   "revenue": {
-    "value": null,
-    "currency": "USD",
-    "period": "",
-    "confidence": "not_found",
-    "source": null
+    "value": 2670210000000,
+    "currency": "INR",
+    "period": "FY2026",
+    "confidence": "disclosed",
+    "source": {
+      "name": "Reuters",
+      "url": "https://www.reuters.com/markets/companies/TCS.NS",
+      "date": "2026-03-31"
+    }
   },
   "operating_profit": {
-    "value": null,
-    "currency": "USD",
-    "period": "",
-    "confidence": "not_found",
-    "source": null
+    "value": 700130000000,
+    "currency": "INR",
+    "period": "FY2026",
+    "confidence": "disclosed",
+    "source": {
+      "name": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Tata_Consultancy_Services",
+      "date": "2026-03-31"
+    }
   },
   "expenses": {
-    "breakdown": [],
-    "confidence": "not_found"
+    "breakdown": [
+      {
+        "label": "Cost of Revenue (Q1 FY27)",
+        "value": 434910000000,
+        "confidence": "disclosed"
+      },
+      {
+        "label": "Selling, General, and Administrative Expenses (Q1 FY27)",
+        "value": 9750000000,
+        "confidence": "disclosed"
+      }
+    ],
+    "confidence": "disclosed"
   },
   "marketing_spend": {
-    "value_low": 0,
-    "value_high": 0,
-    "currency": "USD",
-    "period": "",
-    "tier": "4_triangulated",
-    "derivation": "Placeholder — this brand has not yet been through a live data refresh, so no real marketing-spend estimate exists yet. Run `npm run refresh` with TAVILY_API_KEY and GEMINI_API_KEY set (or wait for the next scheduled 09:00 IST run) to replace this with a researched, tiered estimate per the Section 6 methodology.",
-    "source": null
+    "value_low": 13351050000,
+    "value_high": 26702100000,
+    "currency": "INR",
+    "period": "FY2026",
+    "tier": "3_modeled",
+    "derivation": "Estimated at 0.5% to 1.0% of total revenue (₹2,670,210 million in FY2026), reflecting typical B2B enterprise IT services marketing intensity focused on thought leadership, client events, and brand sponsorships.",
+    "source": {
+      "name": "Reuters",
+      "url": "https://www.reuters.com/markets/companies/TCS.NS",
+      "date": "2026-03-31"
+    }
   },
   "trend_history": {
-    "stock": [],
-    "revenue": []
+    "stock": [
+      {
+        "date": "2026-07-09",
+        "value": 2353.6
+      }
+    ],
+    "revenue": [
+      {
+        "period": "Dec 2025",
+        "value": 670870000000
+      },
+      {
+        "period": "Jun 2026",
+        "value": 722750000000
+      },
+      {
+        "period": "Mar 2026",
+        "value": 706980000000
+      },
+      {
+        "period": "Sep 2025",
+        "value": 657990000000
+      }
+    ]
   },
-  "business_updates": []
+  "business_updates": [
+    {
+      "headline": "TCS reports Q1 FY27 revenue of ₹722.75 billion, beating market estimates",
+      "date": "2026-07-09",
+      "source": {
+        "name": "Google Finance",
+        "url": "https://www.google.com/finance/quote/TCS:NSE"
+      }
+    },
+    {
+      "headline": "AI services scale to $1.8 billion in annualized revenue driven by enterprise demand",
+      "date": "2026-01-15",
+      "source": {
+        "name": "Tickertape",
+        "url": "https://www.tickertape.in/stocks/tata-consultancy-services-TCS"
+      }
+    },
+    {
+      "headline": "SIT probe initiated into POSH complaints at TCS Nashik branch",
+      "date": "2026-04-14",
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Tata_Consultancy_Services"
+      }
+    }
+  ]
 }

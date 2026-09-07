@@ -26,7 +26,7 @@ const GEMINI_API_KEY = process.env.GEMINI_API_KEY;
 
 // Must be a Flash or Flash-Lite model — those are the free-tier-eligible
 // Gemini models. Do not point this at a Pro model or enable any tool use.
-const GEMINI_MODEL = process.env.GEMINI_MODEL || "gemini-2.5-flash";
+const GEMINI_MODEL = process.env.GEMINI_MODEL || "gemini-3.6-flash";
 if (!/flash/i.test(GEMINI_MODEL)) {
   throw new Error(
     `GEMINI_MODEL="${GEMINI_MODEL}" is not a Flash/Flash-Lite model. Only Gemini Flash or ` +
@@ -205,7 +205,7 @@ async function geminiSynthesize(
         generationConfig: {
           responseMimeType: "application/json",
           temperature: 0.2,
-          maxOutputTokens: 4096,
+          maxOutputTokens: 8192,
         },
         // Deliberately no `tools` field — Grounding with Google Search must
         // never be enabled here (it requires billing and costs money per
@@ -223,13 +223,26 @@ async function geminiSynthesize(
   }
 
   const data = await res.json();
+  const finishReason = data?.candidates?.[0]?.finishReason;
   const text: string = data?.candidates?.[0]?.content?.parts?.[0]?.text ?? "";
   const jsonMatch = text.match(/\{[\s\S]*\}/);
   if (!jsonMatch) {
-    throw new Error(`No JSON object found in Gemini response for "${brandName}"`);
+    throw new Error(`No JSON object found in Gemini response for "${brandName}" (finishReason: ${finishReason})`);
   }
 
-  return { json: JSON.parse(jsonMatch[0]), requests: 1 };
+  try {
+    return { json: JSON.parse(jsonMatch[0]), requests: 1 };
+  } catch (err) {
+    if (finishReason === "MAX_TOKENS") {
+      throw new Error(
+        `Gemini response for "${brandName}" was truncated before completing valid JSON (hit maxOutputTokens). ` +
+          `Increase maxOutputTokens in lib/fetch-brand-data.ts if this recurs.`
+      );
+    }
+    throw new Error(
+      `Gemini returned malformed JSON for "${brandName}" (finishReason: ${finishReason}): ${(err as Error).message}`
+    );
+  }
 }
 
 export interface RawFetchResult {
