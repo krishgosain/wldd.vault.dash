@@ -113,7 +113,7 @@
   --color-positive: var(--positive);
   --color-negative: var(--negative);
   --color-warning: var(--warning);
-  --font-sans: var(--font-inter);
+  --font-sans: var(--font-poppins);
   --font-heading: var(--font-sans);
   --color-sidebar-ring: var(--sidebar-ring);
   --color-sidebar-border: var(--sidebar-border);
@@ -168,6 +168,36 @@
 .badge-modeled { color: var(--badge-modeled); }
 .badge-triangulated { color: var(--badge-triangulated); }
 .badge-not-found { color: var(--badge-not-found); }
+
+/* Pill announcement chip + gradient CTA, matching the SaaS template look.
+   Theme-aware: dark mode is a near-literal port of the template (white-on-
+   black gradient button); light mode inverts it (black-on-white). */
+.pill {
+  display: inline-flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 0.5rem 1rem;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: color-mix(in srgb, var(--foreground) 4%, transparent);
+  font-size: 0.75rem;
+  color: var(--muted);
+}
+
+.btn-gradient {
+  background: linear-gradient(
+    to bottom,
+    var(--foreground),
+    color-mix(in srgb, var(--foreground) 95%, transparent),
+    color-mix(in srgb, var(--foreground) 60%, transparent)
+  );
+  color: var(--background);
+  transition: transform 0.15s ease;
+}
+.btn-gradient:hover { transform: scale(1.05); }
+.btn-gradient:active { transform: scale(0.95); }
 
 @layer base {
   * {
