@@ -4,47 +4,111 @@
   "parent": null,
   "entity_type": "public_standalone",
   "category": "Audio Streaming",
-  "description": "Spotify is a publicly listed company. Description pending first data refresh.",
-  "last_refreshed": "1970-01-01T00:00:00.000Z",
+  "description": "Spotify Technology S.A. (Luxembourg-domiciled, NYSE: SPOT) is the world's largest audio-streaming platform. India operations are not separately disclosed in company filings.",
+  "last_refreshed": "2026-09-08T12:00:00.000Z",
   "stock": {
     "applicable": true,
-    "value": null,
+    "value": 544.15,
     "currency": "USD",
     "ticker": "SPOT",
-    "as_of": null,
-    "note": "Awaiting first refresh.",
+    "as_of": "2026-09-02",
+    "note": "52-week range $405-$745.",
     "confidence": "disclosed"
   },
   "revenue": {
-    "value": null,
-    "currency": "USD",
-    "period": "",
-    "confidence": "not_found",
-    "source": null
+    "value": 4530000000,
+    "currency": "EUR",
+    "period": "Q4 2025",
+    "confidence": "disclosed",
+    "source": {
+      "name": "Spotify newsroom (Q4 2025 shareholder letter)",
+      "url": "",
+      "date": "2026-02-10"
+    }
   },
   "operating_profit": {
-    "value": null,
-    "currency": "USD",
-    "period": "",
-    "confidence": "not_found",
-    "source": null
+    "value": 701000000,
+    "currency": "EUR",
+    "period": "Q4 2025",
+    "confidence": "disclosed",
+    "source": {
+      "name": "Spotify newsroom (Q4 2025 shareholder letter)",
+      "url": "",
+      "date": "2026-02-10"
+    }
   },
   "expenses": {
-    "breakdown": [],
-    "confidence": "not_found"
+    "breakdown": [
+      {
+        "label": "FY2025 operating income",
+        "value": 2200000000,
+        "confidence": "disclosed"
+      }
+    ],
+    "confidence": "disclosed"
   },
   "marketing_spend": {
-    "value_low": 0,
-    "value_high": 0,
-    "currency": "USD",
-    "period": "",
-    "tier": "4_triangulated",
-    "derivation": "Placeholder — this brand has not yet been through a live data refresh, so no real marketing-spend estimate exists yet. Run `npm run refresh` with TAVILY_API_KEY and GEMINI_API_KEY set (or wait for the next scheduled 09:00 IST run) to replace this with a researched, tiered estimate per the Section 6 methodology.",
-    "source": null
+    "value_low": 1426000000,
+    "value_high": 1426000000,
+    "currency": "EUR",
+    "period": "FY2025 (global, disclosed)",
+    "tier": "1_disclosed",
+    "derivation": "Spotify's FY2025 20-F (SEC) reports Sales & marketing of €1,426m (8% of FY2025 revenue), versus €1,392m in 2024 and €1,533m in 2023. India-specific spend is not disclosed; given India's low ARPU and heavy free-tier reliance, India is a small share of this global figure.",
+    "source": {
+      "name": "Spotify FY2025 20-F (SEC)",
+      "url": "",
+      "date": "2026-02-10"
+    }
   },
   "trend_history": {
-    "stock": [],
-    "revenue": []
+    "stock": [
+      {
+        "date": "2026-09-02",
+        "value": 544.15
+      }
+    ],
+    "revenue": [
+      {
+        "period": "FY2023 S&M",
+        "value": 1533000000
+      },
+      {
+        "period": "FY2024 S&M",
+        "value": 1392000000
+      },
+      {
+        "period": "FY2025 S&M",
+        "value": 1426000000
+      }
+    ]
   },
-  "business_updates": []
+  "business_updates": [
+    {
+      "headline": "Leadership transition: Daniel Ek to Executive Chairman; Alex Norström and Gustav Söderström become co-CEOs",
+      "date": "2026-02-10",
+      "source": {
+        "name": "Spotify newsroom",
+        "url": "",
+        "date": "2026-02-10"
+      }
+    },
+    {
+      "headline": "Record Q4 2025 MAU net adds (+38M)",
+      "date": "2026-02-10",
+      "source": {
+        "name": "Spotify newsroom",
+        "url": "",
+        "date": "2026-02-10"
+      }
+    },
+    {
+      "headline": "Third US price hike in four years; 2026 declared the 'year of raising ambition'",
+      "date": "2026-02-10",
+      "source": {
+        "name": "Spotify newsroom",
+        "url": "",
+        "date": "2026-02-10"
+      }
+    }
+  ]
 }

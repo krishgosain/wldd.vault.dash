@@ -266,14 +266,22 @@ export default function BrandProfile({ brand }: { brand: BrandData }) {
                   <span className="font-medium">{u.headline}</span>
                   <span className="shrink-0 text-xs text-muted">{u.date}</span>
                 </div>
-                <a
-                  href={u.source.url}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-xs text-accent hover:underline"
-                >
-                  {u.source.name}
-                </a>
+                {u.source.url ? (
+                  <a
+                    href={u.source.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-xs text-accent hover:underline"
+                  >
+                    {u.source.name}
+                    {u.source.date ? ` · ${u.source.date}` : ""}
+                  </a>
+                ) : (
+                  <span className="text-xs text-muted">
+                    {u.source.name}
+                    {u.source.date ? ` · ${u.source.date}` : ""}
+                  </span>
+                )}
               </li>
             ))}
           </ul>

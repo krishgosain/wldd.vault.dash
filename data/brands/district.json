@@ -4,47 +4,112 @@
   "parent": "Eternal Ltd (formerly Zomato)",
   "entity_type": "public_parent",
   "category": "Events / Ticketing",
-  "description": "District is a brand/product of Eternal Ltd (formerly Zomato).",
-  "last_refreshed": "1970-01-01T00:00:00.000Z",
+  "description": "District is Eternal Ltd's (NSE/BSE: ETERNAL, formerly Zomato) 'going-out' vertical spanning dining and entertainment ticketing, built partly on the Aug 2024 Paytm ticketing acquisition. Stock price reflects all of Eternal.",
+  "last_refreshed": "2026-09-08T12:00:00.000Z",
   "stock": {
     "applicable": true,
-    "value": null,
-    "currency": "USD",
+    "value": 328.1,
+    "currency": "INR",
     "ticker": "ETERNAL.NS",
-    "as_of": null,
-    "note": "Reflects the listed parent company, not this brand specifically. Awaiting first refresh.",
+    "as_of": "2026-08-31",
+    "note": "Reflects all of Eternal Ltd, not District specifically. 52-week range ₹212.60-₹368.45; market cap ~₹3.12 lakh crore.",
     "confidence": "disclosed"
   },
   "revenue": {
-    "value": null,
-    "currency": "USD",
-    "period": "",
-    "confidence": "not_found",
-    "source": null
+    "value": 202430000000,
+    "currency": "INR",
+    "period": "FY2025 (Eternal consolidated)",
+    "confidence": "disclosed",
+    "source": {
+      "name": "Eternal Annual Report FY25 via Medianama",
+      "url": "",
+      "date": "2025-07-01"
+    }
   },
   "operating_profit": {
-    "value": null,
-    "currency": "USD",
-    "period": "",
-    "confidence": "not_found",
-    "source": null
+    "value": 5270000000,
+    "currency": "INR",
+    "period": "FY2025 (Eternal consolidated profit)",
+    "confidence": "disclosed",
+    "source": {
+      "name": "Eternal Annual Report FY25 via Medianama",
+      "url": "",
+      "date": "2025-07-01"
+    }
   },
   "expenses": {
-    "breakdown": [],
-    "confidence": "not_found"
+    "breakdown": [
+      {
+        "label": "Eternal adjusted EBITDA (FY25)",
+        "value": 10790000000,
+        "confidence": "disclosed"
+      },
+      {
+        "label": "District Q3 FY26 EBITDA loss",
+        "value": -1210000000,
+        "confidence": "disclosed"
+      }
+    ],
+    "confidence": "disclosed"
   },
   "marketing_spend": {
-    "value_low": 0,
-    "value_high": 0,
-    "currency": "USD",
-    "period": "",
-    "tier": "4_triangulated",
-    "derivation": "Placeholder — this brand has not yet been through a live data refresh, so no real marketing-spend estimate exists yet. Run `npm run refresh` with TAVILY_API_KEY and GEMINI_API_KEY set (or wait for the next scheduled 09:00 IST run) to replace this with a researched, tiered estimate per the Section 6 methodology.",
-    "source": null
+    "value_low": 19720000000,
+    "value_high": 19720000000,
+    "currency": "INR",
+    "period": "FY2025 (Eternal parent-level, disclosed)",
+    "tier": "1_disclosed",
+    "derivation": "Per Medianama (Jul 2025), Eternal's FY25 'Advertisement and sales promotion expenses grew 38% YoY to Rs 1,972 crore in FY25… marketing of the District app contributed to this rise' (FY24: ₹1,432 crore). PMAR 2026 also names Eternal Ltd/Zomato in the top-10 at ₹1,000-1,100 crore AdEx (2025), corroborating at Tier 2. District-only marketing is not separately split out, so the ₹1,972 crore parent line is used as the disclosed anchor.",
+    "source": {
+      "name": "Medianama (Eternal FY25 annual report)",
+      "url": "",
+      "date": "2025-07-01"
+    }
   },
   "trend_history": {
-    "stock": [],
-    "revenue": []
+    "stock": [
+      {
+        "date": "2026-08-31",
+        "value": 328.1
+      }
+    ],
+    "revenue": [
+      {
+        "period": "FY2024 (Eternal)",
+        "value": 121140000000
+      },
+      {
+        "period": "FY2025 (Eternal)",
+        "value": 202430000000
+      }
+    ]
   },
-  "business_updates": []
+  "business_updates": [
+    {
+      "headline": "Eternal doubling down on District despite a ₹121 crore quarterly EBITDA loss",
+      "date": "2026-01-01",
+      "source": {
+        "name": "Medianama",
+        "url": "",
+        "date": "2026-01-01"
+      }
+    },
+    {
+      "headline": "Deepinder Goyal stepping down as Group CEO",
+      "date": "2026-01-01",
+      "source": {
+        "name": "Company disclosures",
+        "url": "",
+        "date": "2026-01-01"
+      }
+    },
+    {
+      "headline": "District scaling ticketing and live events following the Paytm acquisition",
+      "date": "2025-08-01",
+      "source": {
+        "name": "Company disclosures",
+        "url": "",
+        "date": "2025-08-01"
+      }
+    }
+  ]
 }

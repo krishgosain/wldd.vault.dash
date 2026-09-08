@@ -4,47 +4,122 @@
   "parent": "Amazon (Amazon Seller Services Pvt Ltd)",
   "entity_type": "public_parent",
   "category": "E-commerce",
-  "description": "Amazon Shopping is a brand/product of Amazon (Amazon Seller Services Pvt Ltd).",
-  "last_refreshed": "1970-01-01T00:00:00.000Z",
+  "description": "Amazon Shopping in India operates under Amazon Seller Services Pvt Ltd, an India-registered private company that files with the MCA/RoC; ultimate parent is Amazon.com Inc (NASDAQ: AMZN).",
+  "last_refreshed": "2026-09-08T12:00:00.000Z",
   "stock": {
-    "applicable": true,
+    "applicable": false,
     "value": null,
     "currency": "USD",
-    "ticker": "AMZN",
+    "ticker": null,
     "as_of": null,
-    "note": "Reflects the listed parent company, not this brand specifically. Awaiting first refresh.",
-    "confidence": "disclosed"
+    "note": "No standalone India entity stock; reflects parent Amazon.com Inc ~$262.07 (Aug 25, 2026).",
+    "confidence": "not_applicable"
   },
   "revenue": {
-    "value": null,
-    "currency": "USD",
-    "period": "",
-    "confidence": "not_found",
-    "source": null
+    "value": 301386000000,
+    "currency": "INR",
+    "period": "FY2025",
+    "confidence": "disclosed",
+    "source": {
+      "name": "Inc42 / Business Standard / Medianama (MCA filings)",
+      "url": "",
+      "date": "2026-03-07"
+    }
   },
   "operating_profit": {
-    "value": null,
-    "currency": "USD",
-    "period": "",
-    "confidence": "not_found",
-    "source": null
+    "value": -3743000000,
+    "currency": "INR",
+    "period": "FY2025 net loss (narrowed ~89% YoY)",
+    "confidence": "disclosed",
+    "source": {
+      "name": "Inc42 / Business Standard / Medianama (MCA filings)",
+      "url": "",
+      "date": "2026-03-07"
+    }
   },
   "expenses": {
-    "breakdown": [],
-    "confidence": "not_found"
+    "breakdown": [
+      {
+        "label": "Total expenses (FY25)",
+        "value": 308656000000,
+        "confidence": "disclosed"
+      },
+      {
+        "label": "Marketplace fee income (FY25)",
+        "value": 173281000000,
+        "confidence": "disclosed"
+      },
+      {
+        "label": "Delivery charges (FY25)",
+        "value": 83367000000,
+        "confidence": "disclosed"
+      },
+      {
+        "label": "Legal/professional (FY25)",
+        "value": 41554000000,
+        "confidence": "disclosed"
+      },
+      {
+        "label": "Employee costs (FY25)",
+        "value": 26565000000,
+        "confidence": "disclosed"
+      }
+    ],
+    "confidence": "disclosed"
   },
   "marketing_spend": {
-    "value_low": 0,
-    "value_high": 0,
-    "currency": "USD",
-    "period": "",
-    "tier": "4_triangulated",
-    "derivation": "Placeholder — this brand has not yet been through a live data refresh, so no real marketing-spend estimate exists yet. Run `npm run refresh` with TAVILY_API_KEY and GEMINI_API_KEY set (or wait for the next scheduled 09:00 IST run) to replace this with a researched, tiered estimate per the Section 6 methodology.",
-    "source": null
+    "value_low": 34060000000,
+    "value_high": 34060000000,
+    "currency": "INR",
+    "period": "FY2025 (disclosed)",
+    "tier": "1_disclosed",
+    "derivation": "FY25 advertising expenses = ₹3,406 crore (-5% YoY), per Inc42 (Mar 7, 2026) citing MCA filings; FY24 comparative advertising & sales promotion was ₹3,586.1 crore. Consistent with Amazon Online India dropping OUT of PMAR 2026's top-10 (it was in the 2024 list).",
+    "source": {
+      "name": "Inc42 (MCA filings)",
+      "url": "",
+      "date": "2026-03-07"
+    }
   },
   "trend_history": {
     "stock": [],
-    "revenue": []
+    "revenue": [
+      {
+        "period": "FY2024",
+        "value": 253270000000
+      },
+      {
+        "period": "FY2025",
+        "value": 301386000000
+      }
+    ]
   },
-  "business_updates": []
+  "business_updates": [
+    {
+      "headline": "FY25 loss cut ~89%, second consecutive year of loss-trimming",
+      "date": "2026-03-07",
+      "source": {
+        "name": "Inc42",
+        "url": "",
+        "date": "2026-03-07"
+      }
+    },
+    {
+      "headline": "₹2,800 crore (~$300M) India investment announced for 2026, a chunk directed to quick commerce",
+      "date": "2026-01-01",
+      "source": {
+        "name": "Company disclosures",
+        "url": "",
+        "date": "2026-01-01"
+      }
+    },
+    {
+      "headline": "Andy Jassy India visit; $35bn India commitment reaffirmed through 2030",
+      "date": "2026-06-01",
+      "source": {
+        "name": "Company disclosures",
+        "url": "",
+        "date": "2026-06-01"
+      }
+    }
+  ]
 }

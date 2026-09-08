@@ -4,28 +4,32 @@
   "parent": "Wispr AI",
   "entity_type": "foreign_private",
   "category": "Consumer Tech / AI",
-  "description": "Wispr Flow is a brand/product of Wispr AI.",
-  "last_refreshed": "1970-01-01T00:00:00.000Z",
+  "description": "Wispr Flow (maker: Wispr AI) is a San Francisco-based foreign private company with no Indian corporate registration, co-founded by Tanay Kothari and Sahaj Garg. Scaling India go-to-market since Nov 2025.",
+  "last_refreshed": "2026-09-08T12:00:00.000Z",
   "stock": {
     "applicable": false,
     "value": null,
     "currency": "USD",
     "ticker": null,
     "as_of": null,
-    "note": "Privately held — no public stock.",
+    "note": "Private; valuation ~$2bn after a $280M Series B (Menlo Ventures-led, Aug 17, 2026); total funding $361M, up from a $700M valuation in Nov 2025.",
     "confidence": "not_applicable"
   },
   "revenue": {
-    "value": null,
+    "value": 10000000,
     "currency": "USD",
-    "period": "",
-    "confidence": "not_found",
-    "source": null
+    "period": "2026 (estimate, ARR)",
+    "confidence": "press_estimate",
+    "source": {
+      "name": "Getlatka",
+      "url": "",
+      "date": "2026-09-02"
+    }
   },
   "operating_profit": {
     "value": null,
     "currency": "USD",
-    "period": "",
+    "period": "2026",
     "confidence": "not_found",
     "source": null
   },
@@ -34,17 +38,45 @@
     "confidence": "not_found"
   },
   "marketing_spend": {
-    "value_low": 0,
-    "value_high": 0,
+    "value_low": 3000000,
+    "value_high": 6000000,
     "currency": "USD",
-    "period": "",
-    "tier": "4_triangulated",
-    "derivation": "Placeholder — this brand has not yet been through a live data refresh, so no real marketing-spend estimate exists yet. Run `npm run refresh` with TAVILY_API_KEY and GEMINI_API_KEY set (or wait for the next scheduled 09:00 IST run) to replace this with a researched, tiered estimate per the Section 6 methodology.",
+    "period": "2025-26 (modeled, global)",
+    "tier": "3_modeled",
+    "derivation": "Private, not in PMAR — Tiers 1-2 don't apply. Early-stage AI SaaS companies spend heavily off a small revenue base; on ~$10M ARR, even 30-60% of revenue directed to marketing models to ~$3-6M global spend. India-specific spend is minimal (organic/GTM-seeding as the India+UK expansion is recent) — roughly ₹2-8 crore.",
     "source": null
   },
   "trend_history": {
     "stock": [],
     "revenue": []
   },
-  "business_updates": []
+  "business_updates": [
+    {
+      "headline": "$280M Series B at a $2bn valuation, led by Menlo Ventures",
+      "date": "2026-08-17",
+      "source": {
+        "name": "Menlo Ventures / press",
+        "url": "",
+        "date": "2026-08-17"
+      }
+    },
+    {
+      "headline": "Launched proprietary speech model 'Canto' and Wispr Flow Notetaker",
+      "date": "2026-08-01",
+      "source": {
+        "name": "Company disclosures",
+        "url": "",
+        "date": "2026-08-01"
+      }
+    },
+    {
+      "headline": "India + UK go-to-market expansion; Android app launched since Nov 2025",
+      "date": "2025-11-01",
+      "source": {
+        "name": "Company disclosures",
+        "url": "",
+        "date": "2025-11-01"
+      }
+    }
+  ]
 }

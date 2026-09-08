@@ -4,92 +4,97 @@
   "parent": "OpenAI",
   "entity_type": "foreign_private",
   "category": "Consumer Tech / AI",
-  "description": "ChatGPT is a flagship generative artificial intelligence chatbot developed by foreign private entity OpenAI.",
-  "last_refreshed": "2026-09-07T19:52:05.646Z",
+  "description": "ChatGPT is OpenAI's flagship generative-AI chatbot. OpenAI Global LLC is a US-based foreign private company (capped-profit, under the OpenAI nonprofit) with no Indian corporate registration; India is ChatGPT's largest user market (>72M daily users, late 2025).",
+  "last_refreshed": "2026-09-08T12:00:00.000Z",
   "stock": {
     "applicable": false,
     "value": null,
     "currency": "USD",
     "ticker": null,
     "as_of": null,
-    "note": "Reflects parent entity OpenAI, which is a private company and not publicly traded.",
+    "note": "Private; filed a confidential S-1 June 8, 2026 (not yet public). Last primary valuation ~$852B post-money after a ~$122B round closed Mar 31, 2026.",
     "confidence": "not_applicable"
   },
   "revenue": {
-    "value": 8000000000,
+    "value": 13000000000,
     "currency": "USD",
-    "period": "FY2025",
+    "period": "2025 (actual, leaked financials)",
     "confidence": "press_estimate",
     "source": {
-      "name": "Business of Apps",
-      "url": "https://www.businessofapps.com/data/chatgpt-statistics",
-      "date": "2026-07-16"
+      "name": "MLQ / TradingKey",
+      "url": "",
+      "date": "2026-01-01"
     }
   },
   "operating_profit": {
-    "value": null,
+    "value": -20900000000,
     "currency": "USD",
-    "period": "FY2025",
-    "confidence": "not_found",
-    "source": null
+    "period": "2025 (actual, leaked financials)",
+    "confidence": "press_estimate",
+    "source": {
+      "name": "MLQ / TradingKey",
+      "url": "",
+      "date": "2026-01-01"
+    }
   },
   "expenses": {
-    "breakdown": [],
-    "confidence": "not_found"
+    "breakdown": [
+      {
+        "label": "Microsoft Azure / compute",
+        "value": 17200000000,
+        "confidence": "modeled"
+      }
+    ],
+    "confidence": "press_estimate"
   },
   "marketing_spend": {
     "value_low": 400000000,
-    "value_high": 800000000,
+    "value_high": 650000000,
     "currency": "USD",
-    "period": "FY2025",
+    "period": "2025 (modeled)",
     "tier": "3_modeled",
-    "derivation": "Modeled using a standard 5% to 10% marketing-to-revenue ratio for high-growth software and viral AI platforms, applied against ChatGPT's reported FY2025 revenue of $8 billion.",
+    "derivation": "No India entity or PMAR listing, so Tiers 1-2 don't apply. TradingKey (2026) reported 2025 marketing expenditure 'surged 418% YoY' without an absolute figure. Applying a plausible 3-5% of 2025 revenue (~$13B, per leaked financials via MLQ/TradingKey) yields ~$0.4-0.65B global marketing spend; India-specific spend is not separately reported.",
     "source": {
-      "name": "Business of Apps",
-      "url": "https://www.businessofapps.com/data/chatgpt-statistics",
-      "date": "2026-07-16"
+      "name": "TradingKey / MLQ",
+      "url": "",
+      "date": "2026-01-01"
     }
   },
   "trend_history": {
     "stock": [],
     "revenue": [
       {
-        "period": "FY2023",
-        "value": 1200000000
-      },
-      {
-        "period": "FY2024",
-        "value": 3500000000
-      },
-      {
-        "period": "FY2025",
-        "value": 8000000000
+        "period": "2025",
+        "value": 13000000000
       }
     ]
   },
   "business_updates": [
     {
-      "headline": "OpenAI's ad business hits $1 billion annualized revenue",
-      "date": "2026-08-31",
+      "headline": "Filed confidential S-1; IPO targeted ~fall 2026 above $1T valuation",
+      "date": "2026-06-08",
       "source": {
-        "name": "CNBC",
-        "url": "https://www.cnbc.com/2026/08/31/open-ai-chatgpt-ads-revenue.html"
+        "name": "FutureSearch",
+        "url": "",
+        "date": "2026-06-08"
       }
     },
     {
-      "headline": "OpenAI CFO tells shareholders enterprise revenue has overtaken ChatGPT consumer subscriptions",
-      "date": "2026-08-14",
+      "headline": "Amazon strategic partnership: up to $50B investment plus a $38B seven-year AWS compute deal",
+      "date": "2026-02-27",
       "source": {
-        "name": "The Next Web",
-        "url": "https://thenextweb.com/news/openai-enterprise-revenue-overtakes-consumer-friar"
+        "name": "Sacra",
+        "url": "",
+        "date": "2026-02-27"
       }
     },
     {
-      "headline": "OpenAI projects $2.5 billion in advertising revenue for 2026",
-      "date": "2026-04-01",
+      "headline": "Ads business hit $1B annualized run rate",
+      "date": "2026-08-01",
       "source": {
-        "name": "Wikipedia",
-        "url": "https://en.wikipedia.org/wiki/OpenAI"
+        "name": "Sacra",
+        "url": "",
+        "date": "2026-08-01"
       }
     }
   ]

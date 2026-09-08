@@ -4,47 +4,116 @@
   "parent": "Hector Beverages Pvt Ltd (RCPL)",
   "entity_type": "india_private_registered",
   "category": "F&B",
-  "description": "Paper Boat is a brand/product of Hector Beverages Pvt Ltd (RCPL).",
-  "last_refreshed": "1970-01-01T00:00:00.000Z",
+  "description": "Paper Boat is made by Hector Beverages Pvt Ltd, an India-registered private company filing with the MCA/RoC. Ownership note: a Tata Consumer Products majority stake is NOT confirmed in searchable sources — Tata reportedly explored acquiring Paper Boat in 2018, but founder Neeraj Kakkar denied any sell-out at the time. Confirmed backers are GIC, Sofina, A91 Partners, Catamaran and Peak XV (~$143M raised). Do not assert a Tata majority without a fresh MCA shareholding check.",
+  "last_refreshed": "2026-09-08T12:00:00.000Z",
   "stock": {
     "applicable": false,
     "value": null,
     "currency": "INR",
     "ticker": null,
     "as_of": null,
-    "note": "Privately held — no public stock.",
+    "note": "Private company.",
     "confidence": "not_applicable"
   },
   "revenue": {
-    "value": null,
+    "value": 7600000000,
     "currency": "INR",
-    "period": "",
-    "confidence": "not_found",
-    "source": null
+    "period": "FY2026",
+    "confidence": "disclosed",
+    "source": {
+      "name": "Lapaas Voice (MCA filings)",
+      "url": "",
+      "date": "2026-01-01"
+    }
   },
   "operating_profit": {
-    "value": null,
+    "value": 20000000,
     "currency": "INR",
-    "period": "",
-    "confidence": "not_found",
-    "source": null
+    "period": "FY2026 net profit (down 96% YoY)",
+    "confidence": "disclosed",
+    "source": {
+      "name": "Lapaas Voice (MCA filings)",
+      "url": "",
+      "date": "2026-01-01"
+    }
   },
   "expenses": {
-    "breakdown": [],
-    "confidence": "not_found"
+    "breakdown": [
+      {
+        "label": "Material costs (FY25)",
+        "value": 4440000000,
+        "confidence": "disclosed"
+      },
+      {
+        "label": "Employee costs (FY25)",
+        "value": 903500000,
+        "confidence": "disclosed"
+      },
+      {
+        "label": "Selling & distribution (FY25)",
+        "value": 584700000,
+        "confidence": "disclosed"
+      }
+    ],
+    "confidence": "disclosed"
   },
   "marketing_spend": {
-    "value_low": 0,
-    "value_high": 0,
+    "value_low": 250000000,
+    "value_high": 450000000,
     "currency": "INR",
-    "period": "",
-    "tier": "4_triangulated",
-    "derivation": "Placeholder — this brand has not yet been through a live data refresh, so no real marketing-spend estimate exists yet. Run `npm run refresh` with TAVILY_API_KEY and GEMINI_API_KEY set (or wait for the next scheduled 09:00 IST run) to replace this with a researched, tiered estimate per the Section 6 methodology.",
-    "source": null
+    "period": "FY2025 (disclosed-partial)",
+    "tier": "1_disclosed",
+    "derivation": "FY25 filings show selling & distribution costs of ₹58.47 crore, with advertising bundled into total expenses of ₹716.53 crore rather than cleanly isolated as its own line. Using selling & distribution as the best disclosed proxy, advertising specifically is estimated at ~₹25-45 crore as a subset of that figure for FY25.",
+    "source": {
+      "name": "CEOsofBharat (MCA filings)",
+      "url": "",
+      "date": "2025-01-01"
+    }
   },
   "trend_history": {
     "stock": [],
-    "revenue": []
+    "revenue": [
+      {
+        "period": "FY2024",
+        "value": 5746000000
+      },
+      {
+        "period": "FY2025",
+        "value": 6682800000
+      },
+      {
+        "period": "FY2026",
+        "value": 7600000000
+      }
+    ]
   },
-  "business_updates": []
+  "business_updates": [
+    {
+      "headline": "FY25 return to profit (₹46 crore) after a heavy FY24 loss (-₹334.1 crore)",
+      "date": "2025-10-01",
+      "source": {
+        "name": "Entrackr / Tofler via Indian Retailer",
+        "url": "",
+        "date": "2025-10-01"
+      }
+    },
+    {
+      "headline": "FY26 revenue crossed ₹760 crore but profit collapsed 96% to ₹2 crore on a higher cost base",
+      "date": "2026-01-01",
+      "source": {
+        "name": "Lapaas Voice",
+        "url": "",
+        "date": "2026-01-01"
+      }
+    },
+    {
+      "headline": "Revenue mix shifting toward third-party traded goods (66% of FY25 revenue)",
+      "date": "2025-10-01",
+      "source": {
+        "name": "Entrackr / Tofler",
+        "url": "",
+        "date": "2025-10-01"
+      }
+    }
+  ]
 }
