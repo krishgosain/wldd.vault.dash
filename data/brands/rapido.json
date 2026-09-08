@@ -1,0 +1,96 @@
+{
+  "name": "Rapido",
+  "slug": "rapido",
+  "parent": "Roppen Transportation Services Pvt Ltd",
+  "entity_type": "india_private_registered",
+  "category": "Ride-hailing",
+  "description": "Rapido is an Indian ride-hailing and logistics platform operating bike taxis, auto-rickshaws, and cabs, owned and operated by Roppen Transportation Services Pvt. Ltd.",
+  "last_refreshed": "2026-09-07T19:52:27.131Z",
+  "stock": {
+    "applicable": false,
+    "value": null,
+    "currency": "INR",
+    "ticker": null,
+    "as_of": null,
+    "note": "Unlisted private company",
+    "confidence": "not_applicable"
+  },
+  "revenue": {
+    "value": 934.44,
+    "currency": "INR Crore",
+    "period": "FY2025",
+    "confidence": "disclosed",
+    "source": {
+      "name": "Startuptalky",
+      "url": "https://startuptalky.com/rapido-business-model",
+      "date": "2026"
+    }
+  },
+  "operating_profit": {
+    "value": -258.4,
+    "currency": "INR Crore",
+    "period": "FY2025",
+    "confidence": "disclosed",
+    "source": {
+      "name": "Startuptalky",
+      "url": "https://startuptalky.com/rapido-business-model",
+      "date": "2026"
+    }
+  },
+  "expenses": {
+    "breakdown": [],
+    "confidence": "not_found"
+  },
+  "marketing_spend": {
+    "value_low": 140.17,
+    "value_high": 233.61,
+    "currency": "INR Crore",
+    "period": "FY2025",
+    "tier": "3_modeled",
+    "derivation": "Modeled using a category-typical marketing and driver acquisition expense ratio of 15%–25% applied to Rapido's reported FY25 operating revenue of ₹934.44 crore.",
+    "source": {
+      "name": "Startuptalky",
+      "url": "https://startuptalky.com/rapido-business-model",
+      "date": "2026"
+    }
+  },
+  "trend_history": {
+    "stock": [],
+    "revenue": [
+      {
+        "period": "FY2024",
+        "value": 648
+      },
+      {
+        "period": "FY2025",
+        "value": 934.44
+      }
+    ]
+  },
+  "business_updates": [
+    {
+      "headline": "Rapido raises $240 million in funding led by Prosus at a $3 billion valuation",
+      "date": "2026-05",
+      "source": {
+        "name": "Startuptalky",
+        "url": "https://startuptalky.com/rapido-business-model"
+      }
+    },
+    {
+      "headline": "Rapido expands operations to over 400 cities with 9 million driver-partners",
+      "date": "2026-05",
+      "source": {
+        "name": "Drudhh",
+        "url": "https://drudhh.com/rapido-deep-analysis"
+      }
+    },
+    {
+      "headline": "Rapido receives Karnataka cab licence valid until August 2031",
+      "date": "2026",
+      "source": {
+        "name": "Startuptalky",
+        "url": "https://startuptalky.com/rapido-business-model"
+      }
+    }
+  ]
+}

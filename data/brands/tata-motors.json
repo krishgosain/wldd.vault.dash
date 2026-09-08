@@ -1,0 +1,50 @@
+{
+  "name": "Tata Motors",
+  "slug": "tata-motors",
+  "parent": null,
+  "entity_type": "public_standalone",
+  "category": "Auto",
+  "description": "Tata Motors is a publicly listed company. Description pending first data refresh.",
+  "last_refreshed": "1970-01-01T00:00:00.000Z",
+  "stock": {
+    "applicable": true,
+    "value": null,
+    "currency": "USD",
+    "ticker": "TATAMOTORS.NS",
+    "as_of": null,
+    "note": "Awaiting first refresh.",
+    "confidence": "disclosed"
+  },
+  "revenue": {
+    "value": null,
+    "currency": "USD",
+    "period": "",
+    "confidence": "not_found",
+    "source": null
+  },
+  "operating_profit": {
+    "value": null,
+    "currency": "USD",
+    "period": "",
+    "confidence": "not_found",
+    "source": null
+  },
+  "expenses": {
+    "breakdown": [],
+    "confidence": "not_found"
+  },
+  "marketing_spend": {
+    "value_low": 0,
+    "value_high": 0,
+    "currency": "USD",
+    "period": "",
+    "tier": "4_triangulated",
+    "derivation": "Placeholder — this brand has not yet been through a live data refresh, so no real marketing-spend estimate exists yet. Run `npm run refresh` with TAVILY_API_KEY and GEMINI_API_KEY set (or wait for the next scheduled 09:00 IST run) to replace this with a researched, tiered estimate per the Section 6 methodology.",
+    "source": null
+  },
+  "trend_history": {
+    "stock": [],
+    "revenue": []
+  },
+  "business_updates": []
+}

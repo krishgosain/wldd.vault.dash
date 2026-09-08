@@ -1,0 +1,96 @@
+{
+  "name": "ChatGPT",
+  "slug": "chatgpt",
+  "parent": "OpenAI",
+  "entity_type": "foreign_private",
+  "category": "Consumer Tech / AI",
+  "description": "ChatGPT is a flagship generative artificial intelligence chatbot developed by foreign private entity OpenAI.",
+  "last_refreshed": "2026-09-07T19:52:05.646Z",
+  "stock": {
+    "applicable": false,
+    "value": null,
+    "currency": "USD",
+    "ticker": null,
+    "as_of": null,
+    "note": "Reflects parent entity OpenAI, which is a private company and not publicly traded.",
+    "confidence": "not_applicable"
+  },
+  "revenue": {
+    "value": 8000000000,
+    "currency": "USD",
+    "period": "FY2025",
+    "confidence": "press_estimate",
+    "source": {
+      "name": "Business of Apps",
+      "url": "https://www.businessofapps.com/data/chatgpt-statistics",
+      "date": "2026-07-16"
+    }
+  },
+  "operating_profit": {
+    "value": null,
+    "currency": "USD",
+    "period": "FY2025",
+    "confidence": "not_found",
+    "source": null
+  },
+  "expenses": {
+    "breakdown": [],
+    "confidence": "not_found"
+  },
+  "marketing_spend": {
+    "value_low": 400000000,
+    "value_high": 800000000,
+    "currency": "USD",
+    "period": "FY2025",
+    "tier": "3_modeled",
+    "derivation": "Modeled using a standard 5% to 10% marketing-to-revenue ratio for high-growth software and viral AI platforms, applied against ChatGPT's reported FY2025 revenue of $8 billion.",
+    "source": {
+      "name": "Business of Apps",
+      "url": "https://www.businessofapps.com/data/chatgpt-statistics",
+      "date": "2026-07-16"
+    }
+  },
+  "trend_history": {
+    "stock": [],
+    "revenue": [
+      {
+        "period": "FY2023",
+        "value": 1200000000
+      },
+      {
+        "period": "FY2024",
+        "value": 3500000000
+      },
+      {
+        "period": "FY2025",
+        "value": 8000000000
+      }
+    ]
+  },
+  "business_updates": [
+    {
+      "headline": "OpenAI's ad business hits $1 billion annualized revenue",
+      "date": "2026-08-31",
+      "source": {
+        "name": "CNBC",
+        "url": "https://www.cnbc.com/2026/08/31/open-ai-chatgpt-ads-revenue.html"
+      }
+    },
+    {
+      "headline": "OpenAI CFO tells shareholders enterprise revenue has overtaken ChatGPT consumer subscriptions",
+      "date": "2026-08-14",
+      "source": {
+        "name": "The Next Web",
+        "url": "https://thenextweb.com/news/openai-enterprise-revenue-overtakes-consumer-friar"
+      }
+    },
+    {
+      "headline": "OpenAI projects $2.5 billion in advertising revenue for 2026",
+      "date": "2026-04-01",
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/OpenAI"
+      }
+    }
+  ]
+}

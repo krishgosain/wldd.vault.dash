@@ -1,0 +1,50 @@
+{
+  "name": "Paper Boat",
+  "slug": "paper-boat",
+  "parent": "Hector Beverages Pvt Ltd (RCPL)",
+  "entity_type": "india_private_registered",
+  "category": "F&B",
+  "description": "Paper Boat is a brand/product of Hector Beverages Pvt Ltd (RCPL).",
+  "last_refreshed": "1970-01-01T00:00:00.000Z",
+  "stock": {
+    "applicable": false,
+    "value": null,
+    "currency": "INR",
+    "ticker": null,
+    "as_of": null,
+    "note": "Privately held — no public stock.",
+    "confidence": "not_applicable"
+  },
+  "revenue": {
+    "value": null,
+    "currency": "INR",
+    "period": "",
+    "confidence": "not_found",
+    "source": null
+  },
+  "operating_profit": {
+    "value": null,
+    "currency": "INR",
+    "period": "",
+    "confidence": "not_found",
+    "source": null
+  },
+  "expenses": {
+    "breakdown": [],
+    "confidence": "not_found"
+  },
+  "marketing_spend": {
+    "value_low": 0,
+    "value_high": 0,
+    "currency": "INR",
+    "period": "",
+    "tier": "4_triangulated",
+    "derivation": "Placeholder — this brand has not yet been through a live data refresh, so no real marketing-spend estimate exists yet. Run `npm run refresh` with TAVILY_API_KEY and GEMINI_API_KEY set (or wait for the next scheduled 09:00 IST run) to replace this with a researched, tiered estimate per the Section 6 methodology.",
+    "source": null
+  },
+  "trend_history": {
+    "stock": [],
+    "revenue": []
+  },
+  "business_updates": []
+}

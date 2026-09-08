@@ -1,0 +1,120 @@
+{
+  "name": "Tata Consultancy Services",
+  "slug": "tcs",
+  "parent": "Tata Group",
+  "entity_type": "public_standalone",
+  "category": "IT Services",
+  "description": "Tata Consultancy Services (TCS) is an Indian multinational IT services, consulting, and business solutions provider, operating as a flagship listed company under the Tata Group.",
+  "last_refreshed": "2026-09-07T19:50:50.243Z",
+  "stock": {
+    "applicable": true,
+    "value": 2353.6,
+    "currency": "INR",
+    "ticker": "TCS.NS",
+    "as_of": "2026-07-09",
+    "note": "Reflects standalone share price on NSE",
+    "confidence": "disclosed"
+  },
+  "revenue": {
+    "value": 2670210000000,
+    "currency": "INR",
+    "period": "FY2026",
+    "confidence": "disclosed",
+    "source": {
+      "name": "Reuters",
+      "url": "https://www.reuters.com/markets/companies/TCS.NS",
+      "date": "2026-03-31"
+    }
+  },
+  "operating_profit": {
+    "value": 700130000000,
+    "currency": "INR",
+    "period": "FY2026",
+    "confidence": "disclosed",
+    "source": {
+      "name": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Tata_Consultancy_Services",
+      "date": "2026-03-31"
+    }
+  },
+  "expenses": {
+    "breakdown": [
+      {
+        "label": "Cost of Revenue (Q1 FY27)",
+        "value": 434910000000,
+        "confidence": "disclosed"
+      },
+      {
+        "label": "Selling, General, and Administrative Expenses (Q1 FY27)",
+        "value": 9750000000,
+        "confidence": "disclosed"
+      }
+    ],
+    "confidence": "disclosed"
+  },
+  "marketing_spend": {
+    "value_low": 13351050000,
+    "value_high": 26702100000,
+    "currency": "INR",
+    "period": "FY2026",
+    "tier": "3_modeled",
+    "derivation": "Estimated at 0.5% to 1.0% of total revenue (₹2,670,210 million in FY2026), reflecting typical B2B enterprise IT services marketing intensity focused on thought leadership, client events, and brand sponsorships.",
+    "source": {
+      "name": "Reuters",
+      "url": "https://www.reuters.com/markets/companies/TCS.NS",
+      "date": "2026-03-31"
+    }
+  },
+  "trend_history": {
+    "stock": [
+      {
+        "date": "2026-07-09",
+        "value": 2353.6
+      }
+    ],
+    "revenue": [
+      {
+        "period": "Dec 2025",
+        "value": 670870000000
+      },
+      {
+        "period": "Jun 2026",
+        "value": 722750000000
+      },
+      {
+        "period": "Mar 2026",
+        "value": 706980000000
+      },
+      {
+        "period": "Sep 2025",
+        "value": 657990000000
+      }
+    ]
+  },
+  "business_updates": [
+    {
+      "headline": "TCS reports Q1 FY27 revenue of ₹722.75 billion, beating market estimates",
+      "date": "2026-07-09",
+      "source": {
+        "name": "Google Finance",
+        "url": "https://www.google.com/finance/quote/TCS:NSE"
+      }
+    },
+    {
+      "headline": "AI services scale to $1.8 billion in annualized revenue driven by enterprise demand",
+      "date": "2026-01-15",
+      "source": {
+        "name": "Tickertape",
+        "url": "https://www.tickertape.in/stocks/tata-consultancy-services-TCS"
+      }
+    },
+    {
+      "headline": "SIT probe initiated into POSH complaints at TCS Nashik branch",
+      "date": "2026-04-14",
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Tata_Consultancy_Services"
+      }
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "name": "Netflix",
+  "slug": "netflix",
+  "parent": null,
+  "entity_type": "public_standalone",
+  "category": "OTT",
+  "description": "Netflix is a global subscription media streaming provider offering films, television series, and video games.",
+  "last_refreshed": "2026-09-07T19:49:52.971Z",
+  "stock": {
+    "applicable": true,
+    "value": 78.32,
+    "currency": "USD",
+    "ticker": "NFLX",
+    "as_of": "2026-09-07",
+    "note": "Reflects Netflix standalone public equity listing on NASDAQ.",
+    "confidence": "disclosed"
+  },
+  "revenue": {
+    "value": 48371000000,
+    "currency": "USD",
+    "period": "TTM Q2 2026",
+    "confidence": "disclosed",
+    "source": {
+      "name": "Macrotrends",
+      "url": "https://www.macrotrends.net/stocks/charts/NFLX/netflix/revenue",
+      "date": "2026-06-30"
+    }
+  },
+  "operating_profit": {
+    "value": null,
+    "currency": "USD",
+    "period": "TTM Q2 2026",
+    "confidence": "not_found",
+    "source": null
+  },
+  "expenses": {
+    "breakdown": [],
+    "confidence": "not_found"
+  },
+  "marketing_spend": {
+    "value_low": 3870000000,
+    "value_high": 4840000000,
+    "currency": "USD",
+    "period": "TTM Q2 2026",
+    "tier": "3_modeled",
+    "derivation": "Modeled using a category standard marketing-to-revenue benchmark of 8% to 10% applied to Netflix's trailing twelve-month revenue of $48.371 billion.",
+    "source": {
+      "name": "Macrotrends",
+      "url": "https://www.macrotrends.net/stocks/charts/NFLX/netflix/revenue",
+      "date": "2026-06-30"
+    }
+  },
+  "trend_history": {
+    "stock": [
+      {
+        "date": "2026-08-28",
+        "value": 81.72
+      },
+      {
+        "date": "2026-09-07",
+        "value": 78.32
+      }
+    ],
+    "revenue": [
+      {
+        "period": "2023",
+        "value": 33723297000
+      },
+      {
+        "period": "2024",
+        "value": 39000966000
+      },
+      {
+        "period": "2025",
+        "value": 45183036000
+      },
+      {
+        "period": "TTM Q2 2026",
+        "value": 48371000000
+      }
+    ]
+  },
+  "business_updates": [
+    {
+      "headline": "Netflix raises UK prices for ad-supported and standard tiers starting September 2026",
+      "date": "2026-09-03",
+      "source": {
+        "name": "Robinhood",
+        "url": "https://robinhood.com/us/en/stocks/NFLX"
+      }
+    },
+    {
+      "headline": "Ad-supported tier reaches 250 million monthly active users as company targets $3B in ad revenue for 2026",
+      "date": "2026-07-16",
+      "source": {
+        "name": "Simply Wall St",
+        "url": "https://simplywall.st/stocks/us/media/nasdaq-nflx/netflix"
+      }
+    }
+  ]
+}
