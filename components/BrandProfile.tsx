@@ -187,7 +187,9 @@ export default function BrandProfile({ brand }: { brand: BrandData }) {
           value={
             brand.stock.applicable
               ? formatMoney(brand.stock.value, brand.stock.currency)
-              : "Private"
+              : brand.entity_type === "public_parent"
+                ? "Not separately listed"
+                : "Private"
           }
           badge={
             <ConfidenceBadge
