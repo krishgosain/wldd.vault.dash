@@ -4,15 +4,15 @@
   "parent": "Meta Platforms",
   "entity_type": "public_parent",
   "category": "Social",
-  "description": "Instagram is a brand/product of Meta Platforms.",
-  "last_refreshed": "1970-01-01T00:00:00.000Z",
+  "description": "Instagram is a product of Meta Platforms, Inc. (NASDAQ: META). Meta does not break out Instagram-specific revenue or marketing spend; figures below are Meta-wide.",
+  "last_refreshed": "2026-09-09T12:00:00.000Z",
   "stock": {
     "applicable": true,
-    "value": null,
+    "value": 613.26,
     "currency": "USD",
     "ticker": "META",
-    "as_of": null,
-    "note": "Reflects the listed parent company, not this brand specifically. Awaiting first refresh.",
+    "as_of": "2026-09-08",
+    "note": "Parent Meta Platforms, Inc. (NASDAQ: META); Instagram is not separately listed.",
     "confidence": "disclosed"
   },
   "revenue": {
@@ -34,16 +34,25 @@
     "confidence": "not_found"
   },
   "marketing_spend": {
-    "value_low": 0,
-    "value_high": 0,
+    "value_low": 2090000000.0,
+    "value_high": 2090000000.0,
     "currency": "USD",
-    "period": "",
-    "tier": "4_triangulated",
-    "derivation": "Placeholder — this brand has not yet been through a live data refresh, so no real marketing-spend estimate exists yet. Run `npm run refresh` with TAVILY_API_KEY and GEMINI_API_KEY set (or wait for the next scheduled 09:00 IST run) to replace this with a researched, tiered estimate per the Section 6 methodology.",
-    "source": null
+    "period": "FY2025 (Meta-wide)",
+    "tier": "1_disclosed",
+    "derivation": "Meta's own disclosed marketing/advertising spend (i.e. what Meta itself spends to advertise its products, not Instagram-specific and not to be confused with Meta's ad revenue) was ~$2.09 billion in 2025, up ~$300M YoY. Meta does not disclose an Instagram-only marketing figure; this is the closest disclosed Meta-wide number.",
+    "source": {
+      "name": "Statista — Meta annual ad spend 2014-2025",
+      "url": "https://www.statista.com/statistics/685531/facebook-ad-expense/",
+      "date": "2026-02-01"
+    }
   },
   "trend_history": {
-    "stock": [],
+    "stock": [
+      {
+        "date": "2026-09-08",
+        "value": 613.26
+      }
+    ],
     "revenue": []
   },
   "business_updates": []

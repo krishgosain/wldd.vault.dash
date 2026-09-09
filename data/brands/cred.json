@@ -5,7 +5,7 @@
   "entity_type": "india_private_registered",
   "category": "Fintech",
   "description": "CRED is a brand/product of Dreamplug Technologies Pvt Ltd.",
-  "last_refreshed": "1970-01-01T00:00:00.000Z",
+  "last_refreshed": "2026-09-09T12:00:00.000Z",
   "stock": {
     "applicable": false,
     "value": null,
@@ -16,35 +16,58 @@
     "confidence": "not_applicable"
   },
   "revenue": {
-    "value": null,
+    "value": 27350000000.0,
     "currency": "INR",
-    "period": "",
-    "confidence": "not_found",
-    "source": null
+    "period": "FY2025",
+    "confidence": "disclosed",
+    "source": {
+      "name": "Economic Times via Medial — CRED FY25 revenue rises 16% to Rs 2,735 crore",
+      "url": "https://medial.app/news/cred-fy25-revenue-rises-16percent-to-rs-2735-crore-losses-narrow-the-economic-times-459fba755c916",
+      "date": "2025-12-01"
+    }
   },
   "operating_profit": {
-    "value": null,
+    "value": -14570000000.0,
     "currency": "INR",
-    "period": "",
-    "confidence": "not_found",
-    "source": null
+    "period": "FY2025 net loss",
+    "confidence": "disclosed",
+    "source": {
+      "name": "Economic Times via Medial — CRED FY25 revenue rises 16%, losses narrow",
+      "url": "https://medial.app/news/cred-fy25-revenue-rises-16percent-to-rs-2735-crore-losses-narrow-the-economic-times-459fba755c916",
+      "date": "2025-12-01"
+    }
   },
   "expenses": {
     "breakdown": [],
     "confidence": "not_found"
   },
   "marketing_spend": {
-    "value_low": 0,
-    "value_high": 0,
+    "value_low": 5000000000.0,
+    "value_high": 7000000000.0,
     "currency": "INR",
-    "period": "",
+    "period": "FY2025 (triangulated)",
     "tier": "4_triangulated",
-    "derivation": "Placeholder — this brand has not yet been through a live data refresh, so no real marketing-spend estimate exists yet. Run `npm run refresh` with TAVILY_API_KEY and GEMINI_API_KEY set (or wait for the next scheduled 09:00 IST run) to replace this with a researched, tiered estimate per the Section 6 methodology.",
+    "derivation": "A specific FY25 marketing-spend figure was not located. Historical disclosed figures show a steady decline as a share of revenue: ₹976 crore in FY22 and ₹713 crore in FY23 (down 27% YoY). Triangulated FY25 range of ₹500-700 crore assumes the same declining trend continued as CRED's revenue grew and the company matured past its aggressive early-growth ad blitz (e.g. the Rahul Dravid campaigns).",
     "source": null
   },
   "trend_history": {
     "stock": [],
-    "revenue": []
+    "revenue": [
+      {
+        "period": "FY2025",
+        "value": 27350000000.0
+      }
+    ]
   },
-  "business_updates": []
+  "business_updates": [
+    {
+      "headline": "CRED's FY25 revenue rises 16% to ₹2,735 crore as losses narrow to ₹1,457 crore",
+      "date": "2025-12-01",
+      "source": {
+        "name": "Economic Times via Medial",
+        "url": "https://medial.app/news/cred-fy25-revenue-rises-16percent-to-rs-2735-crore-losses-narrow-the-economic-times-459fba755c916",
+        "date": "2025-12-01"
+      }
+    }
+  ]
 }

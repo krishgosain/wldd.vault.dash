@@ -4,47 +4,74 @@
   "parent": "Zerodha Broking Ltd",
   "entity_type": "india_private_registered",
   "category": "Fintech / Broking",
-  "description": "Zerodha is a brand/product of Zerodha Broking Ltd.",
-  "last_refreshed": "1970-01-01T00:00:00.000Z",
+  "description": "Zerodha is a brand/product of Zerodha Broking Ltd, India's largest stockbroker by active clients; famously bootstrapped and profitable with no external funding.",
+  "last_refreshed": "2026-09-09T12:00:00.000Z",
   "stock": {
     "applicable": false,
     "value": null,
     "currency": "INR",
     "ticker": null,
     "as_of": null,
-    "note": "Privately held — no public stock.",
+    "note": "Privately held (founder-owned) — no public stock.",
     "confidence": "not_applicable"
   },
   "revenue": {
-    "value": null,
+    "value": 88470000000.0,
     "currency": "INR",
-    "period": "",
-    "confidence": "not_found",
-    "source": null
+    "period": "FY2025",
+    "confidence": "disclosed",
+    "source": {
+      "name": "The Head and Tale — Zerodha FY25 revenue drops 11.5% to Rs 8,847 crore",
+      "url": "https://theheadandtale.com/fintech-news/zerodha-fy25-revenue-drops-11-5--to-rs-8847-crore/",
+      "date": "2025-11-01"
+    }
   },
   "operating_profit": {
-    "value": null,
+    "value": 42370000000.0,
     "currency": "INR",
-    "period": "",
-    "confidence": "not_found",
-    "source": null
+    "period": "FY2025 net profit",
+    "confidence": "disclosed",
+    "source": {
+      "name": "Indian Startup News — Zerodha fails to cross Rs 10,000 crore revenue mark in FY25; net profit falls 23% to Rs 4,237 crore",
+      "url": "https://indianstartupnews.com/news/zerodha-fails-to-cross-rs-10000-crore-revenue-mark-in-fy25-net-profit-falls-23-to-rs-4237-crore-10802936",
+      "date": "2025-11-01"
+    }
   },
   "expenses": {
     "breakdown": [],
-    "confidence": "not_found"
+    "confidence": "disclosed"
   },
   "marketing_spend": {
     "value_low": 0,
-    "value_high": 0,
+    "value_high": 50000000.0,
     "currency": "INR",
-    "period": "",
+    "period": "FY2025 (triangulated — documented zero-ad-spend policy)",
     "tier": "4_triangulated",
-    "derivation": "Placeholder — this brand has not yet been through a live data refresh, so no real marketing-spend estimate exists yet. Run `npm run refresh` with TAVILY_API_KEY and GEMINI_API_KEY set (or wait for the next scheduled 09:00 IST run) to replace this with a researched, tiered estimate per the Section 6 methodology.",
-    "source": null
+    "derivation": "Zerodha has publicly and repeatedly stated it has never run a paid advertising campaign — no Google Ads, no Meta campaigns, no celebrity endorsements, no billboards — per CEO Nithin Kamath. Growth comes entirely from word-of-mouth, referrals (~30% of new investors), free educational content (Varsity), and open APIs (Kite Connect). The ₹0-5 crore range accounts for minor incidental spend (e.g. referral-program payouts, sponsorships) that may not constitute 'advertising' in the strict sense but isn't captured elsewhere; it is not a modeled ad-spend estimate since the company's policy is explicitly to spend nothing on ads.",
+    "source": {
+      "name": "Inc42 — Zerodha now has over 1.6 Cr users without advertising: Nithin Kamath",
+      "url": "https://inc42.com/buzz/zerodha-now-has-over-1-6-cr-users-without-advertising-nithin-kamath/",
+      "date": "2026-01-01"
+    }
   },
   "trend_history": {
     "stock": [],
-    "revenue": []
+    "revenue": [
+      {
+        "period": "FY2025",
+        "value": 88470000000.0
+      }
+    ]
   },
-  "business_updates": []
+  "business_updates": [
+    {
+      "headline": "Zerodha FY25: revenue falls 11.5% to ₹8,847 crore, net profit falls 22.9% to ₹4,237 crore amid F&O regulatory changes and lower trading activity",
+      "date": "2025-11-01",
+      "source": {
+        "name": "Indian Startup News",
+        "url": "https://indianstartupnews.com/news/zerodha-fails-to-cross-rs-10000-crore-revenue-mark-in-fy25-net-profit-falls-23-to-rs-4237-crore-10802936",
+        "date": "2025-11-01"
+      }
+    }
+  ]
 }

@@ -4,47 +4,75 @@
   "parent": "The Coca-Cola Company",
   "entity_type": "public_parent",
   "category": "F&B",
-  "description": "Coca-Cola is a brand/product of The Coca-Cola Company.",
-  "last_refreshed": "1970-01-01T00:00:00.000Z",
+  "description": "Coca-Cola's India operations run primarily through Hindustan Coca-Cola Beverages Pvt Ltd (HCCB), a separately MCA-registered bottling entity. Figures below are HCCB's India financials; stock price is the global parent KO (NYSE).",
+  "last_refreshed": "2026-09-09T12:00:00.000Z",
   "stock": {
     "applicable": true,
-    "value": null,
+    "value": 91.97,
     "currency": "USD",
     "ticker": "KO",
-    "as_of": null,
-    "note": "Reflects the listed parent company, not this brand specifically. Awaiting first refresh.",
+    "as_of": "2026-09-08",
+    "note": "Parent The Coca-Cola Company (NYSE: KO); HCCB itself is not separately listed.",
     "confidence": "disclosed"
   },
   "revenue": {
-    "value": null,
-    "currency": "USD",
-    "period": "",
-    "confidence": "not_found",
-    "source": null
+    "value": 127512900000.00002,
+    "currency": "INR",
+    "period": "FY2025 (HCCB, revenue from operations)",
+    "confidence": "disclosed",
+    "source": {
+      "name": "Business Standard — Hindustan Coca-Cola Beverages FY25 profit slumps 73%",
+      "url": "https://www.business-standard.com/companies/quarterly-results/hindustan-coca-cola-beverages-fy25-profit-dips-73-to-756-crore-125102401012_1.html",
+      "date": "2025-10-24"
+    }
   },
   "operating_profit": {
-    "value": null,
-    "currency": "USD",
-    "period": "",
-    "confidence": "not_found",
-    "source": null
+    "value": 7566400000.0,
+    "currency": "INR",
+    "period": "FY2025 net profit (HCCB)",
+    "confidence": "disclosed",
+    "source": {
+      "name": "Business Standard — HCCB FY25 profit slumps 73%",
+      "url": "https://www.business-standard.com/companies/quarterly-results/hindustan-coca-cola-beverages-fy25-profit-dips-73-to-756-crore-125102401012_1.html",
+      "date": "2025-10-24"
+    }
   },
   "expenses": {
     "breakdown": [],
     "confidence": "not_found"
   },
   "marketing_spend": {
-    "value_low": 0,
-    "value_high": 0,
-    "currency": "USD",
-    "period": "",
-    "tier": "4_triangulated",
-    "derivation": "Placeholder — this brand has not yet been through a live data refresh, so no real marketing-spend estimate exists yet. Run `npm run refresh` with TAVILY_API_KEY and GEMINI_API_KEY set (or wait for the next scheduled 09:00 IST run) to replace this with a researched, tiered estimate per the Section 6 methodology.",
+    "value_low": 6375000000.0,
+    "value_high": 12750000000.0,
+    "currency": "INR",
+    "period": "FY2025 (modeled, HCCB India)",
+    "tier": "3_modeled",
+    "derivation": "A specific HCCB FY25 advertising-expense line was not located in aggregator snippets. Modeled at ~5-10% of HCCB's FY25 India revenue (₹12,751 crore), in line with typical FMCG beverage ad-to-sales ratios, giving ~₹638-1,275 crore. Recommend pulling HCCB's MCA-filed annual report for the disclosed figure.",
     "source": null
   },
   "trend_history": {
-    "stock": [],
-    "revenue": []
+    "stock": [
+      {
+        "date": "2026-09-08",
+        "value": 91.97
+      }
+    ],
+    "revenue": [
+      {
+        "period": "FY2025",
+        "value": 127512900000.00002
+      }
+    ]
   },
-  "business_updates": []
+  "business_updates": [
+    {
+      "headline": "HCCB FY25 profit falls 73% to ₹756.64 crore as revenue dips 9% to ₹12,751.29 crore, largely due to a high FY24 base from bottling-divestment gains",
+      "date": "2025-10-24",
+      "source": {
+        "name": "Business Standard",
+        "url": "https://www.business-standard.com/companies/quarterly-results/hindustan-coca-cola-beverages-fy25-profit-dips-73-to-756-crore-125102401012_1.html",
+        "date": "2025-10-24"
+      }
+    }
+  ]
 }

@@ -1,50 +1,102 @@
 {
   "name": "Meesho",
   "slug": "meesho",
-  "parent": "Fashnear Technologies Pvt Ltd",
-  "entity_type": "india_private_registered",
+  "parent": null,
+  "entity_type": "public_standalone",
   "category": "E-commerce",
-  "description": "Meesho is a brand/product of Fashnear Technologies Pvt Ltd.",
-  "last_refreshed": "1970-01-01T00:00:00.000Z",
+  "description": "Meesho Ltd (formerly Fashnear Technologies) IPO'd on NSE/BSE on Dec 5, 2025, and now trades as a standalone public company.",
+  "last_refreshed": "2026-09-09T12:00:00.000Z",
   "stock": {
-    "applicable": false,
-    "value": null,
+    "applicable": true,
+    "value": 210.05,
     "currency": "INR",
-    "ticker": null,
-    "as_of": null,
-    "note": "Privately held — no public stock.",
-    "confidence": "not_applicable"
+    "ticker": "MEESHO.NS",
+    "as_of": "2026-09-07",
+    "note": "Listed Dec 5, 2025 following its ₹5,421.20 crore IPO.",
+    "confidence": "disclosed"
   },
   "revenue": {
-    "value": null,
+    "value": 93899000000.0,
     "currency": "INR",
-    "period": "",
-    "confidence": "not_found",
-    "source": null
+    "period": "FY2025 (operating revenue)",
+    "confidence": "disclosed",
+    "source": {
+      "name": "Inc42 — IPO-bound Meesho's revenue nears INR 10K Cr mark",
+      "url": "https://inc42.com/buzz/ipo-bound-meeshos-revenue-nears-inr-10k-cr-mark/",
+      "date": "2025-07-01"
+    }
   },
   "operating_profit": {
-    "value": null,
+    "value": -39147000000.0,
     "currency": "INR",
-    "period": "",
-    "confidence": "not_found",
-    "source": null
+    "period": "FY2025 net loss",
+    "confidence": "disclosed",
+    "source": {
+      "name": "Inc42 — Meesho FY25 financials",
+      "url": "https://inc42.com/buzz/ipo-bound-meeshos-revenue-nears-inr-10k-cr-mark/",
+      "date": "2025-07-01"
+    }
   },
   "expenses": {
-    "breakdown": [],
-    "confidence": "not_found"
+    "breakdown": [
+      {
+        "label": "Advertising & sales promotion (FY25)",
+        "value": 6435000000.0,
+        "confidence": "disclosed"
+      },
+      {
+        "label": "Reverse-flip / IPO-transition tax (one-time, FY25)",
+        "value": 38830000000.0,
+        "confidence": "disclosed"
+      }
+    ],
+    "confidence": "disclosed"
   },
   "marketing_spend": {
-    "value_low": 0,
-    "value_high": 0,
+    "value_low": 6435000000.0,
+    "value_high": 6435000000.0,
     "currency": "INR",
-    "period": "",
-    "tier": "4_triangulated",
-    "derivation": "Placeholder — this brand has not yet been through a live data refresh, so no real marketing-spend estimate exists yet. Run `npm run refresh` with TAVILY_API_KEY and GEMINI_API_KEY set (or wait for the next scheduled 09:00 IST run) to replace this with a researched, tiered estimate per the Section 6 methodology.",
-    "source": null
+    "period": "FY2025",
+    "tier": "1_disclosed",
+    "derivation": "Disclosed: total advertising and sales-promotion expense rose 40% YoY to ₹643.5 crore (₹6,435 million) in FY25, of which ₹548.1 crore was digital marketing and ₹95.4 crore TV/print/events. Ad+promo fell to 2.15% of marketplace NMV from 4.82% in FY23.",
+    "source": {
+      "name": "SocialSamosa — Meesho ramps up ad spends to 2.4% of NMV",
+      "url": "https://www.storyboard18.com/advertising/meesho-ramps-up-ad-spends-to-2-4-of-nmv-as-q3-losses-widen-88556.htm",
+      "date": "2026-02-01"
+    }
   },
   "trend_history": {
-    "stock": [],
-    "revenue": []
+    "stock": [
+      {
+        "date": "2026-09-07",
+        "value": 210.05
+      }
+    ],
+    "revenue": [
+      {
+        "period": "FY2025",
+        "value": 93899000000.0
+      }
+    ]
   },
-  "business_updates": []
+  "business_updates": [
+    {
+      "headline": "Meesho lists on NSE/BSE Dec 5, 2025 after ₹5,421.20 crore IPO",
+      "date": "2025-12-05",
+      "source": {
+        "name": "INDmoney — Meesho IPO",
+        "url": "https://www.indmoney.com/ipo/meesho-ipo",
+        "date": "2025-12-05"
+      }
+    },
+    {
+      "headline": "Meesho FY25 operating revenue rises 23% to ₹9,389.9 crore; loss widens to ₹3,914.7 crore, mostly one-time IPO-transition tax items (reverse-flip cost ₹3,883 crore)",
+      "date": "2025-07-01",
+      "source": {
+        "name": "Inc42",
+        "url": "https://inc42.com/buzz/ipo-bound-meeshos-revenue-nears-inr-10k-cr-mark/",
+        "date": "2025-07-01"
+      }
+    }
+  ]
 }

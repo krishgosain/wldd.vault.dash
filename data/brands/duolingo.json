@@ -4,23 +4,27 @@
   "parent": null,
   "entity_type": "public_standalone",
   "category": "EdTech",
-  "description": "Duolingo is a publicly listed company. Description pending first data refresh.",
-  "last_refreshed": "1970-01-01T00:00:00.000Z",
+  "description": "Duolingo, Inc. is the publicly listed parent of the Duolingo language-learning app (NASDAQ: DUOL).",
+  "last_refreshed": "2026-09-09T12:00:00.000Z",
   "stock": {
     "applicable": true,
-    "value": null,
+    "value": 154.46,
     "currency": "USD",
     "ticker": "DUOL",
-    "as_of": null,
-    "note": "Awaiting first refresh.",
+    "as_of": "2026-09-07",
+    "note": "NASDAQ: DUOL.",
     "confidence": "disclosed"
   },
   "revenue": {
-    "value": null,
+    "value": 298500000.0,
     "currency": "USD",
-    "period": "",
-    "confidence": "not_found",
-    "source": null
+    "period": "Q2 2026",
+    "confidence": "disclosed",
+    "source": {
+      "name": "Duolingo Q2 2026 shareholder letter",
+      "url": "https://investors.duolingo.com/static-files/3c8277ee-bc94-4f5d-9b77-0db3e46f88b8",
+      "date": "2026-08-01"
+    }
   },
   "operating_profit": {
     "value": null,
@@ -34,17 +38,41 @@
     "confidence": "not_found"
   },
   "marketing_spend": {
-    "value_low": 0,
-    "value_high": 0,
+    "value_low": 125680000.0,
+    "value_high": 125680000.0,
     "currency": "USD",
-    "period": "",
-    "tier": "4_triangulated",
-    "derivation": "Placeholder — this brand has not yet been through a live data refresh, so no real marketing-spend estimate exists yet. Run `npm run refresh` with TAVILY_API_KEY and GEMINI_API_KEY set (or wait for the next scheduled 09:00 IST run) to replace this with a researched, tiered estimate per the Section 6 methodology.",
-    "source": null
+    "period": "FY2025 (full year, 10-K)",
+    "tier": "1_disclosed",
+    "derivation": "Disclosed in Duolingo's FY2025 10-K: sales and marketing expense was ~$125.68 million for the full year, up 38.9% YoY — a record for the company as it scales influencer and performance-marketing investment toward its 100M-DAU goal.",
+    "source": {
+      "name": "Statista — Duolingo annual sales and marketing spend 2025",
+      "url": "https://www.statista.com/statistics/1248057/duolingo-annual-sales-and-marketing-expenses/",
+      "date": "2026-02-01"
+    }
   },
   "trend_history": {
-    "stock": [],
-    "revenue": []
+    "stock": [
+      {
+        "date": "2026-09-07",
+        "value": 154.46
+      }
+    ],
+    "revenue": [
+      {
+        "period": "Q2 2026",
+        "value": 298500000.0
+      }
+    ]
   },
-  "business_updates": []
+  "business_updates": [
+    {
+      "headline": "Duolingo Q2 2026 revenue grows 18% YoY to $298.5M as sales & marketing spend rises 35%",
+      "date": "2026-08-01",
+      "source": {
+        "name": "Class Central — Duolingo Q2 2026 report",
+        "url": "https://www.classcentral.com/report/duolingo-q2-2026/",
+        "date": "2026-08-01"
+      }
+    }
+  ]
 }

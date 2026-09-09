@@ -4,47 +4,100 @@
   "parent": null,
   "entity_type": "public_standalone",
   "category": "Food Delivery / Quick Commerce",
-  "description": "Swiggy is a publicly listed company. Description pending first data refresh.",
-  "last_refreshed": "1970-01-01T00:00:00.000Z",
+  "description": "Swiggy Ltd (NSE: SWIGGY), listed Nov 2024.",
+  "last_refreshed": "2026-09-09T12:00:00.000Z",
   "stock": {
     "applicable": true,
-    "value": null,
-    "currency": "USD",
+    "value": 278.75,
+    "currency": "INR",
     "ticker": "SWIGGY.NS",
-    "as_of": null,
-    "note": "Awaiting first refresh.",
+    "as_of": "2026-09-07",
+    "note": "NSE: SWIGGY.",
     "confidence": "disclosed"
   },
   "revenue": {
-    "value": null,
-    "currency": "USD",
-    "period": "",
-    "confidence": "not_found",
-    "source": null
+    "value": 152267500000.0,
+    "currency": "INR",
+    "period": "FY2025 (consolidated, revenue from operations)",
+    "confidence": "disclosed",
+    "source": {
+      "name": "Indian Retailer — Swiggy Q4 loss doubles, FY25 revenue rises 35%",
+      "url": "https://www.indianretailer.com/news/swiggy-q4-loss-doubles-rs-1081-cr-fy25-revenue-rises-35-rs-5227-cr",
+      "date": "2025-05-01"
+    }
   },
   "operating_profit": {
-    "value": null,
-    "currency": "USD",
-    "period": "",
-    "confidence": "not_found",
-    "source": null
+    "value": -31167900000.0,
+    "currency": "INR",
+    "period": "FY2025 net loss (consolidated)",
+    "confidence": "disclosed",
+    "source": {
+      "name": "Indian Retailer — Swiggy Q4 FY25 results",
+      "url": "https://www.indianretailer.com/news/swiggy-q4-loss-doubles-rs-1081-cr-fy25-revenue-rises-35-rs-5227-cr",
+      "date": "2025-05-01"
+    }
   },
   "expenses": {
-    "breakdown": [],
-    "confidence": "not_found"
+    "breakdown": [
+      {
+        "label": "Advertising & sales promotion (FY25)",
+        "value": 27117000000.0,
+        "confidence": "disclosed"
+      },
+      {
+        "label": "Delivery & related charges (FY25)",
+        "value": 44292000000.0,
+        "confidence": "disclosed"
+      },
+      {
+        "label": "Employee benefits expense (FY25)",
+        "value": 25488600000.0,
+        "confidence": "disclosed"
+      },
+      {
+        "label": "Total expenses (FY25)",
+        "value": 187254500000.0,
+        "confidence": "disclosed"
+      }
+    ],
+    "confidence": "disclosed"
   },
   "marketing_spend": {
-    "value_low": 0,
-    "value_high": 0,
-    "currency": "USD",
-    "period": "",
-    "tier": "4_triangulated",
-    "derivation": "Placeholder — this brand has not yet been through a live data refresh, so no real marketing-spend estimate exists yet. Run `npm run refresh` with TAVILY_API_KEY and GEMINI_API_KEY set (or wait for the next scheduled 09:00 IST run) to replace this with a researched, tiered estimate per the Section 6 methodology.",
-    "source": null
+    "value_low": 27117000000.0,
+    "value_high": 27117000000.0,
+    "currency": "INR",
+    "period": "FY2025",
+    "tier": "1_disclosed",
+    "derivation": "Disclosed in FY25 annual results: advertising and sales-promotion expense was ₹2,711.70 crore, up from ₹1,850.79 crore in FY24, as Instamart quick-commerce expansion drove aggressive customer acquisition.",
+    "source": {
+      "name": "Business Standard — Swiggy FY25 consolidated results",
+      "url": "https://www.business-standard.com/markets/capital-market-news/swiggy-q2-net-loss-widens-to-rs-1-092-cr-125103001258_1.html",
+      "date": "2025-05-01"
+    }
   },
   "trend_history": {
-    "stock": [],
-    "revenue": []
+    "stock": [
+      {
+        "date": "2026-09-07",
+        "value": 278.75
+      }
+    ],
+    "revenue": [
+      {
+        "period": "FY2025",
+        "value": 152267500000.0
+      }
+    ]
   },
-  "business_updates": []
+  "business_updates": [
+    {
+      "headline": "Swiggy FY25: consolidated revenue up 35% to ₹15,226.75 crore, net loss widens to ₹3,116.79 crore on higher delivery, marketing and employee costs",
+      "date": "2025-05-01",
+      "source": {
+        "name": "Indian Retailer",
+        "url": "https://www.indianretailer.com/news/swiggy-q4-loss-doubles-rs-1081-cr-fy25-revenue-rises-35-rs-5227-cr",
+        "date": "2025-05-01"
+      }
+    }
+  ]
 }
