@@ -12,19 +12,10 @@ import {
 } from "recharts";
 import type { BrandData } from "@/lib/types";
 import { financialConfidenceToBadge, marketingTierToBadge } from "@/lib/confidence";
+import { formatMoney } from "@/lib/format";
 import ConfidenceBadge from "./ConfidenceBadge";
 
 const NEVER_REFRESHED = new Date(0).toISOString();
-
-function formatMoney(value: number | null, currency: string) {
-  if (value === null || value === undefined) return "—";
-  const abs = Math.abs(value);
-  let short = value.toLocaleString("en-US");
-  if (abs >= 1e9) short = `${(value / 1e9).toFixed(2)}B`;
-  else if (abs >= 1e6) short = `${(value / 1e6).toFixed(1)}M`;
-  else if (abs >= 1e3) short = `${(value / 1e3).toFixed(1)}K`;
-  return `${currency} ${short}`;
-}
 
 function trendArrow(series: { value: number }[]) {
   if (series.length < 2) return null;
@@ -101,10 +92,12 @@ function Sparkline({
   data,
   dataKey,
   xKey,
+  currency,
 }: {
   data: { value: number }[];
   dataKey: string;
   xKey: string;
+  currency: string;
 }) {
   if (!data || data.length === 0) {
     return (
@@ -120,10 +113,12 @@ function Sparkline({
         <XAxis dataKey={xKey} tick={{ fontSize: 10, fill: "var(--muted)" }} minTickGap={20} />
         <YAxis
           tick={{ fontSize: 10, fill: "var(--muted)" }}
-          width={44}
+          tickFormatter={(v: number) => formatMoney(v, currency)}
+          width={72}
           domain={["auto", "auto"]}
         />
         <Tooltip
+          formatter={(v) => [formatMoney(typeof v === "number" ? v : Number(v), currency), "Value"]}
           contentStyle={{
             background: "var(--surface)",
             border: "1px solid var(--border)",
@@ -225,13 +220,13 @@ export default function BrandProfile({ brand }: { brand: BrandData }) {
         <div className="rounded-xl border border-border bg-surface p-4">
           <h2 className="text-sm font-semibold">Stock price trend</h2>
           <div className="mt-2">
-            <Sparkline data={stockSeries} dataKey="value" xKey="date" />
+            <Sparkline data={stockSeries} dataKey="value" xKey="date" currency={brand.stock.currency} />
           </div>
         </div>
         <div className="rounded-xl border border-border bg-surface p-4">
           <h2 className="text-sm font-semibold">Revenue trend</h2>
           <div className="mt-2">
-            <Sparkline data={revenueSeries} dataKey="value" xKey="period" />
+            <Sparkline data={revenueSeries} dataKey="value" xKey="period" currency={brand.revenue.currency} />
           </div>
         </div>
       </div>
