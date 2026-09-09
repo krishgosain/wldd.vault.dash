@@ -4,54 +4,85 @@
   "parent": "Roppen Transportation Services Pvt Ltd",
   "entity_type": "india_private_registered",
   "category": "Ride-hailing",
-  "description": "Rapido is an Indian ride-hailing and logistics platform operating bike taxis, auto-rickshaws, and cabs, owned and operated by Roppen Transportation Services Pvt. Ltd.",
-  "last_refreshed": "2026-09-07T19:52:27.131Z",
+  "description": "Rapido is operated by Roppen Transportation Services Pvt Ltd, a Bengaluru-headquartered India-registered private company backed by TVS, Swiggy, Prosus, Accel and WestBridge, filing consolidated financials with the RoC.",
+  "last_refreshed": "2026-09-08T12:00:00.000Z",
   "stock": {
     "applicable": false,
     "value": null,
-    "currency": "INR",
+    "currency": "USD",
     "ticker": null,
     "as_of": null,
-    "note": "Unlisted private company",
+    "note": "Private; reported ~$2.3bn valuation (press/secondary transactions).",
     "confidence": "not_applicable"
   },
   "revenue": {
-    "value": 934.44,
-    "currency": "INR Crore",
+    "value": 9344400000,
+    "currency": "INR",
     "period": "FY2025",
     "confidence": "disclosed",
     "source": {
-      "name": "Startuptalky",
-      "url": "https://startuptalky.com/rapido-business-model",
-      "date": "2026"
+      "name": "Entrackr / Business Standard / Medianama (RoC filings)",
+      "url": "",
+      "date": "2026-01-01"
     }
   },
   "operating_profit": {
-    "value": -258.4,
-    "currency": "INR Crore",
-    "period": "FY2025",
+    "value": -2584000000,
+    "currency": "INR",
+    "period": "FY2025 net loss (narrowed ~30.5% YoY)",
     "confidence": "disclosed",
     "source": {
-      "name": "Startuptalky",
-      "url": "https://startuptalky.com/rapido-business-model",
-      "date": "2026"
+      "name": "Entrackr / Business Standard / Medianama (RoC filings)",
+      "url": "",
+      "date": "2026-01-01"
     }
   },
   "expenses": {
-    "breakdown": [],
-    "confidence": "not_found"
+    "breakdown": [
+      {
+        "label": "Delivery revenue (FY25, largest stream)",
+        "value": 3397000000,
+        "confidence": "disclosed"
+      },
+      {
+        "label": "Subscriptions revenue (FY25, 14x growth)",
+        "value": 2751000000,
+        "confidence": "disclosed"
+      },
+      {
+        "label": "Platform/mobility revenue (FY25)",
+        "value": 2766000000,
+        "confidence": "disclosed"
+      },
+      {
+        "label": "Employee costs (FY25)",
+        "value": 2070000000,
+        "confidence": "disclosed"
+      },
+      {
+        "label": "R&D (FY25)",
+        "value": 1080000000,
+        "confidence": "disclosed"
+      },
+      {
+        "label": "Captain payments (FY25)",
+        "value": 5000000000,
+        "confidence": "disclosed"
+      }
+    ],
+    "confidence": "disclosed"
   },
   "marketing_spend": {
-    "value_low": 140.17,
-    "value_high": 233.61,
-    "currency": "INR Crore",
-    "period": "FY2025",
-    "tier": "3_modeled",
-    "derivation": "Modeled using a category-typical marketing and driver acquisition expense ratio of 15%–25% applied to Rapido's reported FY25 operating revenue of ₹934.44 crore.",
+    "value_low": 2520000000,
+    "value_high": 2520000000,
+    "currency": "INR",
+    "period": "FY2025 (disclosed)",
+    "tier": "1_disclosed",
+    "derivation": "FY25 advertising & promotion expenses = ₹252 crore, per consolidated RoC filings reported by Entrackr/SocialSamosa (Jan 2026).",
     "source": {
-      "name": "Startuptalky",
-      "url": "https://startuptalky.com/rapido-business-model",
-      "date": "2026"
+      "name": "Entrackr / SocialSamosa (RoC filings)",
+      "url": "",
+      "date": "2026-01-01"
     }
   },
   "trend_history": {
@@ -59,37 +90,40 @@
     "revenue": [
       {
         "period": "FY2024",
-        "value": 648
+        "value": 6480000000
       },
       {
         "period": "FY2025",
-        "value": 934.44
+        "value": 9344400000
       }
     ]
   },
   "business_updates": [
     {
-      "headline": "Rapido raises $240 million in funding led by Prosus at a $3 billion valuation",
-      "date": "2026-05",
+      "headline": "Crossed ₹1,000 crore total income in FY25; delivery overtook ride-hailing as the biggest revenue stream",
+      "date": "2026-01-01",
       "source": {
-        "name": "Startuptalky",
-        "url": "https://startuptalky.com/rapido-business-model"
+        "name": "Entrackr",
+        "url": "",
+        "date": "2026-01-01"
       }
     },
     {
-      "headline": "Rapido expands operations to over 400 cities with 9 million driver-partners",
-      "date": "2026-05",
+      "headline": "Launched food-delivery brand 'Ownly' to challenge Zomato/Swiggy",
+      "date": "2025-01-01",
       "source": {
-        "name": "Drudhh",
-        "url": "https://drudhh.com/rapido-deep-analysis"
+        "name": "Company disclosures",
+        "url": "",
+        "date": "2025-01-01"
       }
     },
     {
-      "headline": "Rapido receives Karnataka cab licence valid until August 2031",
-      "date": "2026",
+      "headline": "Uber CEO Dara Khosrowshahi publicly named Rapido a bigger rival",
+      "date": "2025-01-01",
       "source": {
-        "name": "Startuptalky",
-        "url": "https://startuptalky.com/rapido-business-model"
+        "name": "Press reports",
+        "url": "",
+        "date": "2025-01-01"
       }
     }
   ]

@@ -1,50 +1,78 @@
 {
   "name": "Nykaa",
   "slug": "nykaa",
-  "parent": "FSN E-Commerce Ventures Ltd",
+  "parent": null,
   "entity_type": "public_standalone",
   "category": "E-commerce / Beauty",
-  "description": "Nykaa is a brand/product of FSN E-Commerce Ventures Ltd.",
-  "last_refreshed": "1970-01-01T00:00:00.000Z",
+  "description": "Nykaa is the flagship consumer brand of FSN E-Commerce Ventures Ltd (NSE: NYKAA).",
+  "last_refreshed": "2026-09-09T12:00:00.000Z",
   "stock": {
     "applicable": true,
-    "value": null,
-    "currency": "USD",
+    "value": 339,
+    "currency": "INR",
     "ticker": "NYKAA.NS",
-    "as_of": null,
-    "note": "Awaiting first refresh.",
+    "as_of": "2026-09-09",
+    "note": "NSE: NYKAA.",
     "confidence": "disclosed"
   },
   "revenue": {
-    "value": null,
-    "currency": "USD",
-    "period": "",
-    "confidence": "not_found",
-    "source": null
+    "value": 106490000000.0,
+    "currency": "INR",
+    "period": "FY2025",
+    "confidence": "disclosed",
+    "source": {
+      "name": "Nykaa FY25 investor presentation / results",
+      "url": "https://www.nykaa.com/media/wysiwyg/uiTools/2025-5/Investor-Presentation-Q4-and-FY25.pdf",
+      "date": "2025-05-01"
+    }
   },
   "operating_profit": {
-    "value": null,
-    "currency": "USD",
-    "period": "",
-    "confidence": "not_found",
-    "source": null
+    "value": 2590000000.0,
+    "currency": "INR",
+    "period": "FY2025 net profit",
+    "confidence": "disclosed",
+    "source": {
+      "name": "Nykaa FY25 investor presentation / results",
+      "url": "https://www.nykaa.com/media/wysiwyg/uiTools/2025-5/Investor-Presentation-Q4-and-FY25.pdf",
+      "date": "2025-05-01"
+    }
   },
   "expenses": {
     "breakdown": [],
     "confidence": "not_found"
   },
   "marketing_spend": {
-    "value_low": 0,
-    "value_high": 0,
-    "currency": "USD",
-    "period": "",
-    "tier": "4_triangulated",
-    "derivation": "Placeholder — this brand has not yet been through a live data refresh, so no real marketing-spend estimate exists yet. Run `npm run refresh` with TAVILY_API_KEY and GEMINI_API_KEY set (or wait for the next scheduled 09:00 IST run) to replace this with a researched, tiered estimate per the Section 6 methodology.",
+    "value_low": 3200000000.0,
+    "value_high": 5300000000.0,
+    "currency": "INR",
+    "period": "FY2025 (modeled)",
+    "tier": "3_modeled",
+    "derivation": "A specific FY25 advertising-expense line was not located in aggregator snippets (recommend pulling the FSN E-Commerce annual report directly). Modeled at ~3-5% of FY25 revenue (₹10,649 crore), a typical range for scaled Indian e-commerce/beauty platforms, giving ~₹320-530 crore.",
     "source": null
   },
   "trend_history": {
-    "stock": [],
-    "revenue": []
+    "stock": [
+      {
+        "date": "2026-09-09",
+        "value": 339
+      }
+    ],
+    "revenue": [
+      {
+        "period": "FY2025",
+        "value": 106490000000.0
+      }
+    ]
   },
-  "business_updates": []
+  "business_updates": [
+    {
+      "headline": "Nykaa FY25: revenue up 24%, profit up 81% to ₹259 crore on ₹10,649 crore revenue, led by beauty and fashion",
+      "date": "2025-05-01",
+      "source": {
+        "name": "Nykaa investor presentation",
+        "url": "https://www.nykaa.com/media/wysiwyg/uiTools/2025-5/Investor-Presentation-Q4-and-FY25.pdf",
+        "date": "2025-05-01"
+      }
+    }
+  ]
 }

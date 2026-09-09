@@ -35,7 +35,7 @@ export const BRAND_CONFIG: BrandConfigEntry[] = [
   { name: "boAt", parent: "Imagine Marketing Ltd", entity_type: "india_private_registered", category: "Consumer Electronics" },
   { name: "Zerodha", parent: "Zerodha Broking Ltd", entity_type: "india_private_registered", category: "Fintech / Broking" },
   { name: "CRED", parent: "Dreamplug Technologies Pvt Ltd", entity_type: "india_private_registered", category: "Fintech" },
-  { name: "Meesho", parent: "Fashnear Technologies Pvt Ltd", entity_type: "india_private_registered", category: "E-commerce" },
+  { name: "Meesho", parent: null, entity_type: "public_standalone", category: "E-commerce", ticker: "MEESHO.NS", note: "IPO'd Dec 5, 2025 on NSE/BSE — formerly Fashnear Technologies Pvt Ltd, private" },
   { name: "Ola Electric", parent: null, entity_type: "public_standalone", category: "Auto / EV", ticker: "OLAELEC.NS" },
   { name: "Uber", parent: null, entity_type: "public_standalone", category: "Ride-hailing", ticker: "UBER" },
   { name: "Duolingo", parent: null, entity_type: "public_standalone", category: "EdTech", ticker: "DUOL" },

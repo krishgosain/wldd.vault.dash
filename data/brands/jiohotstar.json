@@ -4,47 +4,99 @@
   "parent": "JioStar (Reliance/Disney JV)",
   "entity_type": "india_private_registered",
   "category": "OTT",
-  "description": "JioHotstar is a brand/product of JioStar (Reliance/Disney JV).",
-  "last_refreshed": "1970-01-01T00:00:00.000Z",
+  "description": "JioHotstar is the OTT platform of JioStar, an India-registered JV (Reliance 56%, Disney 37%, Bodhi Tree 7%) formed Nov 14, 2024 from the merger of Star India and Viacom18. Consolidated via Reliance Industries (NSE/BSE: RELIANCE); Disney equity-accounts its 37% stake.",
+  "last_refreshed": "2026-09-08T12:00:00.000Z",
   "stock": {
     "applicable": false,
     "value": null,
     "currency": "INR",
     "ticker": null,
     "as_of": null,
-    "note": "Privately held — no public stock.",
+    "note": "Not separately listed; consolidated into parent Reliance Industries (RELIANCE.NS). Disney (NYSE: DIS) equity-accounts its 37% stake.",
     "confidence": "not_applicable"
   },
   "revenue": {
-    "value": null,
+    "value": 310480000000,
     "currency": "INR",
-    "period": "",
-    "confidence": "not_found",
-    "source": null
+    "period": "FY2026 (ended Mar 31, 2026)",
+    "confidence": "disclosed",
+    "source": {
+      "name": "Reliance filings via Indiantelevision / Pitchonnet",
+      "url": "",
+      "date": "2026-05-01"
+    }
   },
   "operating_profit": {
-    "value": null,
+    "value": 32100000000,
     "currency": "INR",
-    "period": "",
-    "confidence": "not_found",
-    "source": null
+    "period": "FY2026 net profit",
+    "confidence": "disclosed",
+    "source": {
+      "name": "Reliance filings via Indiantelevision / Pitchonnet",
+      "url": "",
+      "date": "2026-05-01"
+    }
   },
   "expenses": {
-    "breakdown": [],
-    "confidence": "not_found"
+    "breakdown": [
+      {
+        "label": "EBITDA (FY26)",
+        "value": 48850000000,
+        "confidence": "disclosed"
+      },
+      {
+        "label": "Onerous sports-contract provision (FY26, down from ₹25,760cr in FY25)",
+        "value": 177420000000,
+        "confidence": "disclosed"
+      }
+    ],
+    "confidence": "disclosed"
   },
   "marketing_spend": {
-    "value_low": 0,
-    "value_high": 0,
+    "value_low": 15500000000,
+    "value_high": 24800000000,
     "currency": "INR",
-    "period": "",
-    "tier": "4_triangulated",
-    "derivation": "Placeholder — this brand has not yet been through a live data refresh, so no real marketing-spend estimate exists yet. Run `npm run refresh` with TAVILY_API_KEY and GEMINI_API_KEY set (or wait for the next scheduled 09:00 IST run) to replace this with a researched, tiered estimate per the Section 6 methodology.",
+    "period": "FY2026 (modeled)",
+    "tier": "3_modeled",
+    "derivation": "Files with MCA but no discrete advertising line surfaced; JioStar is not individually named in PMAR's top-10 as a standalone entrant. OTT/broadcast players typically spend ~5-8% of revenue on marketing/subscriber acquisition; on ₹31,048 crore FY26 revenue this models to ~₹1,550-2,480 crore, elevated by IPL 2025 and the JioHotstar launch push.",
     "source": null
   },
   "trend_history": {
     "stock": [],
-    "revenue": []
+    "revenue": [
+      {
+        "period": "FY2026",
+        "value": 310480000000
+      }
+    ]
   },
-  "business_updates": []
+  "business_updates": [
+    {
+      "headline": "FY26 turnaround to ₹3,210 crore net profit from near-breakeven FY25",
+      "date": "2026-05-01",
+      "source": {
+        "name": "Reliance filings",
+        "url": "",
+        "date": "2026-05-01"
+      }
+    },
+    {
+      "headline": "Disney's India equity loss narrowed to $64m for the quarter ended Mar 28, 2026 (from $103m)",
+      "date": "2026-05-01",
+      "source": {
+        "name": "Disney SEC filing",
+        "url": "",
+        "date": "2026-05-01"
+      }
+    },
+    {
+      "headline": "Scaled subscriber base on IPL 2025 and ICC Champions Trophy coverage",
+      "date": "2025-06-01",
+      "source": {
+        "name": "Company disclosures",
+        "url": "",
+        "date": "2025-06-01"
+      }
+    }
+  ]
 }

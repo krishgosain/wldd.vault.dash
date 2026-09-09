@@ -4,28 +4,28 @@
   "parent": "Amazon",
   "entity_type": "public_parent",
   "category": "Quick Commerce",
-  "description": "Amazon Now is a brand/product of Amazon.",
-  "last_refreshed": "1970-01-01T00:00:00.000Z",
+  "description": "Amazon Now is Amazon India's quick-commerce business unit, operated under Amazon's India entities (Amazon Seller Services) with no separate listed/registered entity broken out. Ultimate parent Amazon.com Inc (NASDAQ: AMZN).",
+  "last_refreshed": "2026-09-08T12:00:00.000Z",
   "stock": {
-    "applicable": true,
+    "applicable": false,
     "value": null,
     "currency": "USD",
-    "ticker": "AMZN",
+    "ticker": null,
     "as_of": null,
-    "note": "Reflects the listed parent company, not this brand specifically. Awaiting first refresh.",
-    "confidence": "disclosed"
+    "note": "No standalone entity; reflects parent Amazon.com Inc ~$262.07 (Aug 25, 2026).",
+    "confidence": "not_applicable"
   },
   "revenue": {
     "value": null,
     "currency": "USD",
-    "period": "",
+    "period": "FY2026",
     "confidence": "not_found",
     "source": null
   },
   "operating_profit": {
     "value": null,
     "currency": "USD",
-    "period": "",
+    "period": "FY2026",
     "confidence": "not_found",
     "source": null
   },
@@ -34,17 +34,45 @@
     "confidence": "not_found"
   },
   "marketing_spend": {
-    "value_low": 0,
-    "value_high": 0,
-    "currency": "USD",
-    "period": "",
+    "value_low": 1000000000,
+    "value_high": 3000000000,
+    "currency": "INR",
+    "period": "FY2026 (triangulated, launch-phase)",
     "tier": "4_triangulated",
-    "derivation": "Placeholder — this brand has not yet been through a live data refresh, so no real marketing-spend estimate exists yet. Run `npm run refresh` with TAVILY_API_KEY and GEMINI_API_KEY set (or wait for the next scheduled 09:00 IST run) to replace this with a researched, tiered estimate per the Section 6 methodology.",
+    "derivation": "No standalone financials, so Tiers 1-3 are constrained. PMAR 2026 fully folded quick-commerce AdEx into its expanded ₹1.55 lakh crore market total. Blinkit, Zepto and Swiggy Instamart dominate q-commerce share-of-voice; Amazon Now is a late (2025) entrant with lower visibility (~5-10% of category marketing). Against category leaders each spending hundreds of crores, this triangulates to ~₹100-300 crore for FY26 — a rough, low-confidence launch-phase estimate.",
     "source": null
   },
   "trend_history": {
     "stock": [],
     "revenue": []
   },
-  "business_updates": []
+  "business_updates": [
+    {
+      "headline": "Plans to scale to 300 cities 'very soon'; ~30 cities as of Sept 1, 2026",
+      "date": "2026-09-01",
+      "source": {
+        "name": "Business Standard",
+        "url": "",
+        "date": "2026-09-01"
+      }
+    },
+    {
+      "headline": "100+ Urban Fulfilment Centres planned to add apparel/electronics to the minutes-delivery network",
+      "date": "2026-01-01",
+      "source": {
+        "name": "Company disclosures",
+        "url": "",
+        "date": "2026-01-01"
+      }
+    },
+    {
+      "headline": "Prime members reported to triple shopping frequency after adopting Amazon Now",
+      "date": "2026-06-01",
+      "source": {
+        "name": "Amazon India",
+        "url": "",
+        "date": "2026-06-01"
+      }
+    }
+  ]
 }

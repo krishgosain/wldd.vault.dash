@@ -4,47 +4,103 @@
   "parent": "Krafton Inc.",
   "entity_type": "public_parent",
   "category": "Gaming",
-  "description": "BGMI is a brand/product of Krafton Inc..",
-  "last_refreshed": "1970-01-01T00:00:00.000Z",
+  "description": "BGMI (Battlegrounds Mobile India) is an India-exclusive title published by Krafton Inc (KRX/KOSPI: 259960) via Krafton India. Stock price reflects all of Krafton, not BGMI specifically; BGMI-level absolute revenue is not broken out.",
+  "last_refreshed": "2026-09-08T12:00:00.000Z",
   "stock": {
     "applicable": true,
-    "value": null,
-    "currency": "USD",
+    "value": 224000,
+    "currency": "KRW",
     "ticker": "259960.KS",
-    "as_of": null,
-    "note": "Reflects the listed parent company, not this brand specifically. Awaiting first refresh.",
+    "as_of": "2026-09-02",
+    "note": "Reflects Krafton Inc as a whole; down ~32% YoY.",
     "confidence": "disclosed"
   },
   "revenue": {
-    "value": null,
-    "currency": "USD",
-    "period": "",
-    "confidence": "not_found",
-    "source": null
+    "value": 3326600000000,
+    "currency": "KRW",
+    "period": "FY2025 (Krafton consolidated)",
+    "confidence": "disclosed",
+    "source": {
+      "name": "Krafton IR",
+      "url": "",
+      "date": "2026-02-09"
+    }
   },
   "operating_profit": {
-    "value": null,
-    "currency": "USD",
-    "period": "",
-    "confidence": "not_found",
-    "source": null
+    "value": 1054400000000,
+    "currency": "KRW",
+    "period": "FY2025 (Krafton consolidated)",
+    "confidence": "disclosed",
+    "source": {
+      "name": "Krafton IR",
+      "url": "",
+      "date": "2026-02-09"
+    }
   },
   "expenses": {
-    "breakdown": [],
-    "confidence": "not_found"
+    "breakdown": [
+      {
+        "label": "Mobile segment revenue (FY25, largest segment)",
+        "value": 1740700000000,
+        "confidence": "disclosed"
+      }
+    ],
+    "confidence": "disclosed"
   },
   "marketing_spend": {
-    "value_low": 0,
-    "value_high": 0,
-    "currency": "USD",
-    "period": "",
-    "tier": "4_triangulated",
-    "derivation": "Placeholder — this brand has not yet been through a live data refresh, so no real marketing-spend estimate exists yet. Run `npm run refresh` with TAVILY_API_KEY and GEMINI_API_KEY set (or wait for the next scheduled 09:00 IST run) to replace this with a researched, tiered estimate per the Section 6 methodology.",
+    "value_low": 1250000000,
+    "value_high": 3000000000,
+    "currency": "INR",
+    "period": "2025 (modeled, BGMI India)",
+    "tier": "3_modeled",
+    "derivation": "Krafton does not break out BGMI India marketing, and BGMI as an individual title is not in PMAR's India top-10. Mobile-gaming publishers typically spend ~10-15% of title revenue on marketing/user acquisition; BGMI drove a 27% paying-user jump via India-exclusive skins and brand collaborations. With a plausible BGMI India revenue base of $150-250M, 10-15% models to ~₹125-300 crore for 2025.",
     "source": null
   },
   "trend_history": {
-    "stock": [],
-    "revenue": []
+    "stock": [
+      {
+        "date": "2026-09-02",
+        "value": 224000
+      }
+    ],
+    "revenue": [
+      {
+        "period": "FY2024 (Krafton)",
+        "value": 2710000000000
+      },
+      {
+        "period": "FY2025 (Krafton)",
+        "value": 3326600000000
+      }
+    ]
   },
-  "business_updates": []
+  "business_updates": [
+    {
+      "headline": "Neptune (adtech) to build an India-focused advertising business using BGMI traffic",
+      "date": "2026-02-09",
+      "source": {
+        "name": "Krafton IR",
+        "url": "",
+        "date": "2026-02-09"
+      }
+    },
+    {
+      "headline": "India-exclusive skins and local brand partnerships drove +27% paying users",
+      "date": "2026-02-09",
+      "source": {
+        "name": "Krafton IR",
+        "url": "",
+        "date": "2026-02-09"
+      }
+    },
+    {
+      "headline": "Krafton's $150M India-ecosystem pledge; investments include Cashfree ($53M)",
+      "date": "2026-01-01",
+      "source": {
+        "name": "Company disclosures",
+        "url": "",
+        "date": "2026-01-01"
+      }
+    }
+  ]
 }

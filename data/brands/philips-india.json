@@ -4,47 +4,94 @@
   "parent": "Koninklijke Philips N.V.",
   "entity_type": "india_private_registered",
   "category": "Consumer Electronics",
-  "description": "Philips India is a brand/product of Koninklijke Philips N.V..",
-  "last_refreshed": "1970-01-01T00:00:00.000Z",
+  "description": "Philips India Limited (CIN U31902WB1930PLC006663) is an unlisted public company registered with the MCA in Newtown, Kolkata, and a subsidiary of Royal Philips (Euronext: PHIA). Health Systems (50.4%), Innovation Services (36%) and Personal Health (12.5%) make up the FY25 revenue mix.",
+  "last_refreshed": "2026-09-08T12:00:00.000Z",
   "stock": {
     "applicable": false,
     "value": null,
     "currency": "INR",
-    "ticker": "PHIA.AS",
+    "ticker": null,
     "as_of": null,
-    "note": "Privately held — no public stock.",
+    "note": "Unlisted in India. Parent Royal Philips (Euronext: PHIA) FY25 revenue €17.8bn, returned to profit (€897m) — reflects the global business, not India specifically.",
     "confidence": "not_applicable"
   },
   "revenue": {
-    "value": null,
+    "value": 66306000000,
     "currency": "INR",
-    "period": "",
-    "confidence": "not_found",
-    "source": null
+    "period": "FY2025 (year ended Mar 2025)",
+    "confidence": "disclosed",
+    "source": {
+      "name": "Tofler (MCA filings)",
+      "url": "",
+      "date": "2025-09-23"
+    }
   },
   "operating_profit": {
-    "value": null,
+    "value": 5912000000,
     "currency": "INR",
-    "period": "",
-    "confidence": "not_found",
-    "source": null
+    "period": "FY2025 EBITDA",
+    "confidence": "disclosed",
+    "source": {
+      "name": "Tofler (MCA filings)",
+      "url": "",
+      "date": "2025-09-23"
+    }
   },
   "expenses": {
-    "breakdown": [],
-    "confidence": "not_found"
+    "breakdown": [
+      {
+        "label": "Net profit (FY25)",
+        "value": 3093000000,
+        "confidence": "disclosed"
+      }
+    ],
+    "confidence": "disclosed"
   },
   "marketing_spend": {
-    "value_low": 0,
-    "value_high": 0,
+    "value_low": 500000000,
+    "value_high": 1200000000,
     "currency": "INR",
-    "period": "",
+    "period": "FY2025 (triangulated)",
     "tier": "4_triangulated",
-    "derivation": "Placeholder — this brand has not yet been through a live data refresh, so no real marketing-spend estimate exists yet. Run `npm run refresh` with TAVILY_API_KEY and GEMINI_API_KEY set (or wait for the next scheduled 09:00 IST run) to replace this with a researched, tiered estimate per the Section 6 methodology.",
+    "derivation": "Files Schedule III accounts but no advertising line surfaced in available aggregator snippets, and the brand doesn't appear in PMAR's top-10. Personal Health is only ~12.5% of ₹6,630 crore revenue (~₹829 crore); at a 5-8% consumer A&P ratio → ~₹40-66 crore. Adding B2B healthcare brand-building spend on top gives a triangulated ₹50-120 crore for FY25 — the lowest-confidence tier, pending a direct pull of the Schedule III notes.",
     "source": null
   },
   "trend_history": {
     "stock": [],
-    "revenue": []
+    "revenue": [
+      {
+        "period": "FY2025",
+        "value": 66306000000
+      }
+    ]
   },
-  "business_updates": []
+  "business_updates": [
+    {
+      "headline": "Parent Royal Philips returned to full-year profit in FY25 after three loss years",
+      "date": "2026-02-10",
+      "source": {
+        "name": "Sharecast / Hargreaves Lansdown",
+        "url": "",
+        "date": "2026-02-10"
+      }
+    },
+    {
+      "headline": "Philips India net profit +20% in FY25 on healthcare-equipment demand",
+      "date": "2025-09-23",
+      "source": {
+        "name": "Tofler",
+        "url": "",
+        "date": "2025-09-23"
+      }
+    },
+    {
+      "headline": "Continued expansion of Bangalore/Pune innovation and R&D centres",
+      "date": "2026-01-01",
+      "source": {
+        "name": "Company disclosures",
+        "url": "",
+        "date": "2026-01-01"
+      }
+    }
+  ]
 }

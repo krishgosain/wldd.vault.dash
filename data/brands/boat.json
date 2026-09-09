@@ -4,8 +4,8 @@
   "parent": "Imagine Marketing Ltd",
   "entity_type": "india_private_registered",
   "category": "Consumer Electronics",
-  "description": "boAt is a brand/product of Imagine Marketing Ltd.",
-  "last_refreshed": "1970-01-01T00:00:00.000Z",
+  "description": "boAt is a brand/product of Imagine Marketing Ltd, India's leading audio and wearables D2C brand.",
+  "last_refreshed": "2026-09-09T12:00:00.000Z",
   "stock": {
     "applicable": false,
     "value": null,
@@ -16,35 +16,68 @@
     "confidence": "not_applicable"
   },
   "revenue": {
-    "value": null,
+    "value": 30978000000.0,
     "currency": "INR",
-    "period": "",
-    "confidence": "not_found",
-    "source": null
+    "period": "FY2025 (consolidated)",
+    "confidence": "disclosed",
+    "source": {
+      "name": "Business Standard — boAt revenue fivefold growth FY25",
+      "url": "https://www.business-standard.com/companies/news/boat-revenue-fivefold-growth-fy25-profit-return-125111302039_1.html",
+      "date": "2025-11-13"
+    }
   },
   "operating_profit": {
-    "value": null,
+    "value": 600000000.0,
     "currency": "INR",
-    "period": "",
-    "confidence": "not_found",
-    "source": null
+    "period": "FY2025 net profit (consolidated)",
+    "confidence": "disclosed",
+    "source": {
+      "name": "HDFC Sky — boAt parent Imagine Marketing swings to Rs 60 Cr profit",
+      "url": "https://hdfcsky.com/news/boat-parent-imagine-marketing-swings-to-rs-60-crore-profit-in-fy25-after-two-years-of-losses",
+      "date": "2025-10-01"
+    }
   },
   "expenses": {
-    "breakdown": [],
-    "confidence": "not_found"
+    "breakdown": [
+      {
+        "label": "EBITDA (FY25)",
+        "value": 1420000000.0,
+        "confidence": "disclosed"
+      }
+    ],
+    "confidence": "disclosed"
   },
   "marketing_spend": {
-    "value_low": 0,
-    "value_high": 0,
+    "value_low": 3900000000.0,
+    "value_high": 3900000000.0,
     "currency": "INR",
-    "period": "",
-    "tier": "4_triangulated",
-    "derivation": "Placeholder — this brand has not yet been through a live data refresh, so no real marketing-spend estimate exists yet. Run `npm run refresh` with TAVILY_API_KEY and GEMINI_API_KEY set (or wait for the next scheduled 09:00 IST run) to replace this with a researched, tiered estimate per the Section 6 methodology.",
-    "source": null
+    "period": "FY2025",
+    "tier": "1_disclosed",
+    "derivation": "Disclosed in FY25 annual report: advertising expenditure rose ~7% YoY to ₹390 crore.",
+    "source": {
+      "name": "Storyboard18 / bestmediainfo — boAt swings to profit in FY25",
+      "url": "https://bestmediainfo.com/mediainfo/mediainfo-marketing/boat-swings-to-profit-in-fy25-with-rs-60-crore-pat-on-rs-3098-crore-revenue-10534243",
+      "date": "2025-11-13"
+    }
   },
   "trend_history": {
     "stock": [],
-    "revenue": []
+    "revenue": [
+      {
+        "period": "FY2025",
+        "value": 30978000000.0
+      }
+    ]
   },
-  "business_updates": []
+  "business_updates": [
+    {
+      "headline": "boAt (Imagine Marketing) returns to profit in FY25 with ₹60 crore net gain as revenue tops ₹3,000 crore",
+      "date": "2025-11-13",
+      "source": {
+        "name": "Business Standard",
+        "url": "https://www.business-standard.com/companies/news/boat-revenue-fivefold-growth-fy25-profit-return-125111302039_1.html",
+        "date": "2025-11-13"
+      }
+    }
+  ]
 }

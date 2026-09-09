@@ -51,7 +51,7 @@ export default function BrandCard({ brand }: { brand: BrandData }) {
           </span>
         ) : (
           <span className="rounded-full bg-foreground/5 px-2 py-0.5 text-xs font-medium text-muted">
-            Private
+            {brand.entity_type === "public_parent" ? "Not separately listed" : "Private"}
           </span>
         )}
         {trend && trend.dir !== "flat" && (

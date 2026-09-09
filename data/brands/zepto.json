@@ -4,47 +4,76 @@
   "parent": "Kiranakart Technologies Pvt Ltd",
   "entity_type": "india_private_registered",
   "category": "Quick Commerce",
-  "description": "Zepto is a brand/product of Kiranakart Technologies Pvt Ltd.",
-  "last_refreshed": "1970-01-01T00:00:00.000Z",
+  "description": "Zepto is a brand/product of Kiranakart Technologies Pvt Ltd. Pre-IPO as of FY25 (DRHP filed; not yet listed) — remains privately held for now.",
+  "last_refreshed": "2026-09-09T12:00:00.000Z",
   "stock": {
     "applicable": false,
     "value": null,
     "currency": "INR",
     "ticker": null,
     "as_of": null,
-    "note": "Privately held — no public stock.",
+    "note": "Privately held — pre-IPO as of FY25 (DRHP filed for a planned listing; not yet trading).",
     "confidence": "not_applicable"
   },
   "revenue": {
-    "value": null,
+    "value": 96688000000.0,
     "currency": "INR",
-    "period": "",
-    "confidence": "not_found",
-    "source": null
+    "period": "FY2025",
+    "confidence": "disclosed",
+    "source": {
+      "name": "Analytics Insight — Zepto FY25 sales surge 129% to Rs 9,669 crore",
+      "url": "https://www.analyticsinsight.net/news/zepto-fy25-sales-surge-129-to-rs-9669-crore-while-net-loss-widens",
+      "date": "2025-08-01"
+    }
   },
   "operating_profit": {
     "value": null,
     "currency": "INR",
-    "period": "",
+    "period": "FY2025",
     "confidence": "not_found",
     "source": null
   },
   "expenses": {
-    "breakdown": [],
-    "confidence": "not_found"
+    "breakdown": [
+      {
+        "label": "Advertising & promotional expense (FY25)",
+        "value": 11866000000.0,
+        "confidence": "disclosed"
+      }
+    ],
+    "confidence": "disclosed"
   },
   "marketing_spend": {
-    "value_low": 0,
-    "value_high": 0,
+    "value_low": 11866000000.0,
+    "value_high": 11866000000.0,
     "currency": "INR",
-    "period": "",
-    "tier": "4_triangulated",
-    "derivation": "Placeholder — this brand has not yet been through a live data refresh, so no real marketing-spend estimate exists yet. Run `npm run refresh` with TAVILY_API_KEY and GEMINI_API_KEY set (or wait for the next scheduled 09:00 IST run) to replace this with a researched, tiered estimate per the Section 6 methodology.",
-    "source": null
+    "period": "FY2025",
+    "tier": "1_disclosed",
+    "derivation": "Disclosed: Zepto's advertising and promotional expense rose from ₹303.5 crore in FY24 to ₹1,186.6 crore in FY25 (~10.7-12% of revenue), as the quick-commerce player scaled aggressively pre-IPO. Note: some press reports cite a higher FY25 'total revenue' figure of ₹11,110 crore alongside this — the ₹9,668.8 crore figure used here is consistently reported as 'total sales'/revenue from operations across multiple sources; the ₹11,110 crore figure could not be confirmed as the audited revenue-from-operations line and was excluded.",
+    "source": {
+      "name": "Univest — Zepto IPO DRHP: user base dips, marketing costs surge FY26",
+      "url": "https://univest.in/blogs/zepto-ipo-user-base-marketing-costs",
+      "date": "2026-01-01"
+    }
   },
   "trend_history": {
     "stock": [],
-    "revenue": []
+    "revenue": [
+      {
+        "period": "FY2025",
+        "value": 96688000000.0
+      }
+    ]
   },
-  "business_updates": []
+  "business_updates": [
+    {
+      "headline": "Zepto FY25 sales surge 129% to ₹9,669 crore while net loss widens; advertising expense rises to ₹1,186.6 crore",
+      "date": "2025-08-01",
+      "source": {
+        "name": "Analytics Insight",
+        "url": "https://www.analyticsinsight.net/news/zepto-fy25-sales-surge-129-to-rs-9669-crore-while-net-loss-widens",
+        "date": "2025-08-01"
+      }
+    }
+  ]
 }
