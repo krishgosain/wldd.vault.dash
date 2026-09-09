@@ -1,15 +1,6 @@
 import Link from "next/link";
 import type { BrandData } from "@/lib/types";
-
-function formatMoney(value: number | null, currency: string) {
-  if (value === null || value === undefined) return "—";
-  const abs = Math.abs(value);
-  let short = String(value);
-  if (abs >= 1e9) short = `${(value / 1e9).toFixed(2)}B`;
-  else if (abs >= 1e6) short = `${(value / 1e6).toFixed(1)}M`;
-  else if (abs >= 1e3) short = `${(value / 1e3).toFixed(1)}K`;
-  return `${currency} ${short}`;
-}
+import { formatMoney } from "@/lib/format";
 
 export default function BrandCard({ brand }: { brand: BrandData }) {
   const stockSeries = brand.trend_history?.stock ?? [];
