@@ -4,70 +4,95 @@
   "parent": null,
   "entity_type": "public_standalone",
   "category": "Audio Streaming",
-  "description": "Spotify Technology S.A. (Luxembourg-domiciled, NYSE: SPOT) is the world's largest audio-streaming platform. India operations are not separately disclosed in company filings.",
-  "last_refreshed": "2026-09-08T12:00:00.000Z",
+  "description": "Spotify is a public standalone audio streaming service offering ad-supported free listening and paid Premium subscription plans for music, podcasts, and audio content.",
+  "last_refreshed": "2026-09-13T08:30:22.247Z",
   "stock": {
     "applicable": true,
-    "value": 544.15,
+    "value": 525.75,
     "currency": "USD",
-    "ticker": "SPOT",
-    "as_of": "2026-09-02",
-    "note": "52-week range $405-$745.",
+    "ticker": "NYSE:SPOT",
+    "as_of": "2026-09-11",
+    "note": "Reflects Spotify Technology S.A. share price on the NYSE",
     "confidence": "disclosed"
   },
   "revenue": {
-    "value": 4530000000,
+    "value": 18110000000,
     "currency": "EUR",
-    "period": "Q4 2025",
+    "period": "FY2025",
     "confidence": "disclosed",
     "source": {
-      "name": "Spotify newsroom (Q4 2025 shareholder letter)",
-      "url": "",
-      "date": "2026-02-10"
+      "name": "Simply Wall St",
+      "url": "https://simplywall.st/stocks/us/media/nyse-spot/spotify-technology",
+      "date": "2026-06-30"
     }
   },
   "operating_profit": {
-    "value": 701000000,
+    "value": 3340000000,
     "currency": "EUR",
-    "period": "Q4 2025",
+    "period": "FY2025",
     "confidence": "disclosed",
     "source": {
-      "name": "Spotify newsroom (Q4 2025 shareholder letter)",
-      "url": "",
-      "date": "2026-02-10"
+      "name": "Simply Wall St",
+      "url": "https://simplywall.st/stocks/us/media/nyse-spot/spotify-technology",
+      "date": "2026-06-30"
     }
   },
   "expenses": {
     "breakdown": [
       {
-        "label": "FY2025 operating income",
-        "value": 2200000000,
+        "label": "Cost of Revenue",
+        "value": 12180000000,
+        "confidence": "disclosed"
+      },
+      {
+        "label": "Other Expenses",
+        "value": 2600000000,
         "confidence": "disclosed"
       }
     ],
     "confidence": "disclosed"
   },
   "marketing_spend": {
-    "value_low": 1426000000,
-    "value_high": 1426000000,
+    "value_low": 1811000000,
+    "value_high": 2354000000,
     "currency": "EUR",
-    "period": "FY2025 (global, disclosed)",
-    "tier": "1_disclosed",
-    "derivation": "Spotify's FY2025 20-F (SEC) reports Sales & marketing of €1,426m (8% of FY2025 revenue), versus €1,392m in 2024 and €1,533m in 2023. India-specific spend is not disclosed; given India's low ARPU and heavy free-tier reliance, India is a small share of this global figure.",
+    "period": "FY2025",
+    "tier": "3_modeled",
+    "derivation": "Modeled by applying a category-typical marketing-to-revenue ratio of 10% to 13% for mature consumer tech and audio streaming platforms against Spotify's FY2025 reported revenue of €18.11 billion.",
     "source": {
-      "name": "Spotify FY2025 20-F (SEC)",
-      "url": "",
-      "date": "2026-02-10"
+      "name": "Simply Wall St",
+      "url": "https://simplywall.st/stocks/us/media/nyse-spot/spotify-technology",
+      "date": "2026-06-30"
     }
   },
   "trend_history": {
     "stock": [
       {
+        "date": "2026-01-01",
+        "value": 581.66
+      },
+      {
         "date": "2026-09-02",
         "value": 544.15
+      },
+      {
+        "date": "2026-09-11",
+        "value": 525.75
       }
     ],
     "revenue": [
+      {
+        "period": "2023",
+        "value": 14337000000
+      },
+      {
+        "period": "2024",
+        "value": 16960000000
+      },
+      {
+        "period": "2025",
+        "value": 19444000000
+      },
       {
         "period": "FY2023 S&M",
         "value": 1533000000
@@ -84,30 +109,19 @@
   },
   "business_updates": [
     {
-      "headline": "Leadership transition: Daniel Ek to Executive Chairman; Alex Norström and Gustav Söderström become co-CEOs",
-      "date": "2026-02-10",
+      "headline": "Spotify surpasses 300 million premium subscribers in Q2 2026",
+      "date": "2026-06-30",
       "source": {
-        "name": "Spotify newsroom",
-        "url": "",
-        "date": "2026-02-10"
+        "name": "Barron's",
+        "url": "https://www.barrons.com/articles/spotify-earnings-stock-price-d2b38442"
       }
     },
     {
-      "headline": "Record Q4 2025 MAU net adds (+38M)",
-      "date": "2026-02-10",
+      "headline": "Q2 2026 revenue grows 15% YoY to €4.8 billion with record 33.4% gross margin",
+      "date": "2026-06-30",
       "source": {
-        "name": "Spotify newsroom",
-        "url": "",
-        "date": "2026-02-10"
-      }
-    },
-    {
-      "headline": "Third US price hike in four years; 2026 declared the 'year of raising ambition'",
-      "date": "2026-02-10",
-      "source": {
-        "name": "Spotify newsroom",
-        "url": "",
-        "date": "2026-02-10"
+        "name": "Perplexity Finance",
+        "url": "https://www.perplexity.ai/finance/SPOT/earnings"
       }
     }
   ]

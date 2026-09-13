@@ -1,28 +1,28 @@
 {
-  "name": "Tata Consultancy Services",
+  "name": "TCS",
   "slug": "tcs",
   "parent": "Tata Group",
   "entity_type": "public_standalone",
   "category": "IT Services",
-  "description": "Tata Consultancy Services (TCS) is an Indian multinational IT services, consulting, and business solutions provider, operating as a flagship listed company under the Tata Group.",
-  "last_refreshed": "2026-09-07T19:50:50.243Z",
+  "description": "Tata Consultancy Services (TCS) is an Indian multinational information technology services and consulting company owned by Tata Group.",
+  "last_refreshed": "2026-09-13T08:35:11.878Z",
   "stock": {
     "applicable": true,
-    "value": 2353.6,
+    "value": 2200.8,
     "currency": "INR",
     "ticker": "TCS.NS",
-    "as_of": "2026-07-09",
-    "note": "Reflects standalone share price on NSE",
+    "as_of": "2026-09-11",
+    "note": "Traded on National Stock Exchange (NSE) and Bombay Stock Exchange (BSE)",
     "confidence": "disclosed"
   },
   "revenue": {
-    "value": 2670210000000,
+    "value": 2714230000000,
     "currency": "INR",
     "period": "FY2026",
     "confidence": "disclosed",
     "source": {
-      "name": "Reuters",
-      "url": "https://www.reuters.com/markets/companies/TCS.NS",
+      "name": "Tata Consultancy Services - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Tata_Consultancy_Services",
       "date": "2026-03-31"
     }
   },
@@ -32,7 +32,7 @@
     "period": "FY2026",
     "confidence": "disclosed",
     "source": {
-      "name": "Wikipedia",
+      "name": "Tata Consultancy Services - Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Tata_Consultancy_Services",
       "date": "2026-03-31"
     }
@@ -40,28 +40,33 @@
   "expenses": {
     "breakdown": [
       {
-        "label": "Cost of Revenue (Q1 FY27)",
+        "label": "Cost of revenue (Q1 FY2027)",
         "value": 434910000000,
         "confidence": "disclosed"
       },
       {
-        "label": "Selling, General, and Administrative Expenses (Q1 FY27)",
+        "label": "Selling, general, and admin expenses (Q1 FY2027)",
         "value": 9750000000,
+        "confidence": "disclosed"
+      },
+      {
+        "label": "Operating expense (Q1 FY2027)",
+        "value": 114650000000,
         "confidence": "disclosed"
       }
     ],
     "confidence": "disclosed"
   },
   "marketing_spend": {
-    "value_low": 13351050000,
-    "value_high": 26702100000,
+    "value_low": 13570000000,
+    "value_high": 27140000000,
     "currency": "INR",
     "period": "FY2026",
     "tier": "3_modeled",
-    "derivation": "Estimated at 0.5% to 1.0% of total revenue (₹2,670,210 million in FY2026), reflecting typical B2B enterprise IT services marketing intensity focused on thought leadership, client events, and brand sponsorships.",
+    "derivation": "Modeled using a standard IT services sector benchmark ratio of 0.5% to 1.0% of annual revenue applied to TCS's FY2026 total reported revenue of ₹271,423 crore.",
     "source": {
-      "name": "Reuters",
-      "url": "https://www.reuters.com/markets/companies/TCS.NS",
+      "name": "Tata Consultancy Services - Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Tata_Consultancy_Services",
       "date": "2026-03-31"
     }
   },
@@ -70,6 +75,10 @@
       {
         "date": "2026-07-09",
         "value": 2353.6
+      },
+      {
+        "date": "2026-09-11",
+        "value": 2200.8
       }
     ],
     "revenue": [
@@ -86,6 +95,22 @@
         "value": 706980000000
       },
       {
+        "period": "Q1 FY2027",
+        "value": 722750000000
+      },
+      {
+        "period": "Q2 FY2026",
+        "value": 657990000000
+      },
+      {
+        "period": "Q3 FY2026",
+        "value": 670870000000
+      },
+      {
+        "period": "Q4 FY2026",
+        "value": 706980000000
+      },
+      {
         "period": "Sep 2025",
         "value": 657990000000
       }
@@ -93,27 +118,19 @@
   },
   "business_updates": [
     {
-      "headline": "TCS reports Q1 FY27 revenue of ₹722.75 billion, beating market estimates",
-      "date": "2026-07-09",
+      "headline": "TCS unveiled a $1.5 billion contract with a luxury carmaker",
+      "date": "2026-09-11",
       "source": {
-        "name": "Google Finance",
-        "url": "https://www.google.com/finance/quote/TCS:NSE"
+        "name": "Reuters",
+        "url": "https://www.reuters.com/markets/companies/TCS.NS"
       }
     },
     {
-      "headline": "AI services scale to $1.8 billion in annualized revenue driven by enterprise demand",
-      "date": "2026-01-15",
+      "headline": "CLSA downgraded TCS to 'Hold' citing limited valuation upside and longer AI productivity gestation period",
+      "date": "2026-09-11",
       "source": {
-        "name": "Tickertape",
-        "url": "https://www.tickertape.in/stocks/tata-consultancy-services-TCS"
-      }
-    },
-    {
-      "headline": "SIT probe initiated into POSH complaints at TCS Nashik branch",
-      "date": "2026-04-14",
-      "source": {
-        "name": "Wikipedia",
-        "url": "https://en.wikipedia.org/wiki/Tata_Consultancy_Services"
+        "name": "Perplexity",
+        "url": "https://www.perplexity.ai/finance/TCS.NS?comparing=TCS.NS%2CNOW%2CINTU%2CSNOW%2CORCL%2C4432.T"
       }
     }
   ]

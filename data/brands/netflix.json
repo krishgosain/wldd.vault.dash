@@ -4,60 +4,70 @@
   "parent": null,
   "entity_type": "public_standalone",
   "category": "OTT",
-  "description": "Netflix Inc (NASDAQ: NFLX) is the world's largest subscription video-streaming service. India operations are not broken out separately in company filings.",
-  "last_refreshed": "2026-09-08T12:00:00.000Z",
+  "description": "Netflix, Inc. is a global streaming service provider offering subscription-based TV series, films, and mobile games.",
+  "last_refreshed": "2026-09-13T08:30:42.566Z",
   "stock": {
     "applicable": true,
-    "value": 82.34,
+    "value": 77.28,
     "currency": "USD",
     "ticker": "NFLX",
-    "as_of": "2026-09-02",
-    "note": "Netflix executed a 10-for-1 forward stock split effective Nov 17, 2025 — the ~$82 price reflects the split, not a decline from the pre-split ~$1,000+ level.",
+    "as_of": "2026-09-13",
+    "note": "Reflects Netflix Inc common stock price",
     "confidence": "disclosed"
   },
   "revenue": {
-    "value": 45200000000,
+    "value": 12560000000,
     "currency": "USD",
-    "period": "FY2025",
+    "period": "Q2 FY2026",
     "confidence": "disclosed",
     "source": {
-      "name": "Netflix Q4 2025 shareholder letter",
-      "url": "",
-      "date": "2026-01-20"
+      "name": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NFLX",
+      "date": "2026-09-13"
     }
   },
   "operating_profit": {
-    "value": 13300000000,
+    "value": 3401248000,
     "currency": "USD",
-    "period": "FY2025",
+    "period": "Q2 FY2026",
     "confidence": "disclosed",
     "source": {
-      "name": "Netflix Q4 2025 shareholder letter",
-      "url": "",
-      "date": "2026-01-20"
+      "name": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NFLX",
+      "date": "2026-09-13"
     }
   },
   "expenses": {
     "breakdown": [
       {
-        "label": "Net income (FY2025)",
-        "value": 11000000000,
+        "label": "Cost of revenue",
+        "value": 6040000000,
+        "confidence": "disclosed"
+      },
+      {
+        "label": "Selling, general, and admin expenses",
+        "value": 1320000000,
+        "confidence": "disclosed"
+      },
+      {
+        "label": "Research and development expenses",
+        "value": 1010000000,
         "confidence": "disclosed"
       }
     ],
     "confidence": "disclosed"
   },
   "marketing_spend": {
-    "value_low": 1780000000,
-    "value_high": 2000000000,
+    "value_low": 1000000000,
+    "value_high": 1260000000,
     "currency": "USD",
-    "period": "FY2025 (global anchor, disclosed) / India modeled",
-    "tier": "1_disclosed",
-    "derivation": "Netflix's FY2025 10-K (SEC) attributes the rise in sales & marketing to 'a $222 million increase in marketing expenses'; global advertising expense was ~$1.78bn in 2024 (Netflix filings / Statista). India-specific spend is not disclosed; applying Netflix's ~6-7% global marketing-to-revenue ratio to an (undisclosed, sub-$1bn) India revenue base gives a modeled India figure of ~₹300-500 crore for FY25. The disclosed 10-K S&M line is used as the hard global anchor.",
+    "period": "Q2 FY2026",
+    "tier": "3_modeled",
+    "derivation": "Modeled as 8% to 10% of total revenue ($12.56B in Q2 FY26), which is standard for global OTT streaming platforms.",
     "source": {
-      "name": "Netflix FY2025 10-K (SEC)",
-      "url": "",
-      "date": "2026-01-20"
+      "name": "Google Finance",
+      "url": "https://www.google.com/finance/quote/NFLX:NASDAQ",
+      "date": "2026-07-17"
     }
   },
   "trend_history": {
@@ -65,41 +75,54 @@
       {
         "date": "2026-09-02",
         "value": 82.34
+      },
+      {
+        "date": "2026-09-10",
+        "value": 76.01
+      },
+      {
+        "date": "2026-09-12",
+        "value": 77.28
       }
     ],
     "revenue": [
       {
         "period": "FY2025",
         "value": 45200000000
+      },
+      {
+        "period": "Q1 FY2026",
+        "value": 12250000000
+      },
+      {
+        "period": "Q2 FY2026",
+        "value": 12560000000
+      },
+      {
+        "period": "Q3 FY2025",
+        "value": 11510000000
+      },
+      {
+        "period": "Q4 FY2025",
+        "value": 12050000000
       }
     ]
   },
   "business_updates": [
     {
-      "headline": "Pending ~$83bn deal for Warner Bros. Discovery's streaming/studio assets",
-      "date": "2026-01-01",
+      "headline": "Florida files lawsuit accusing Netflix of tracking children for advertising purposes",
+      "date": "2026-09-12",
       "source": {
-        "name": "TheWrap",
-        "url": "",
-        "date": "2026-01-01"
+        "name": "Robinhood",
+        "url": "https://robinhood.com/us/en/stocks/NFLX"
       }
     },
     {
-      "headline": "Crossed 325M paid subscribers; stopped per-quarter subscriber disclosure",
-      "date": "2026-01-20",
+      "headline": "Netflix releases Q2 FY26 results and announces shift to annual engagement reports starting in 2027",
+      "date": "2026-07-17",
       "source": {
-        "name": "Netflix Q4 2025 shareholder letter",
-        "url": "",
-        "date": "2026-01-20"
-      }
-    },
-    {
-      "headline": "Testing AI ad-creation tools for advertisers",
-      "date": "2026-01-01",
-      "source": {
-        "name": "Netflix",
-        "url": "",
-        "date": "2026-01-01"
+        "name": "Morningstar",
+        "url": "https://www.morningstar.com/stocks/xnas/nflx/quote"
       }
     }
   ]

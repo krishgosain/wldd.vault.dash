@@ -4,74 +4,119 @@
   "parent": "Amazon",
   "entity_type": "public_parent",
   "category": "OTT",
-  "description": "Prime Video is a service of Amazon; the Prime subscription is carried within Amazon Seller Services Pvt Ltd in India. Following the June 2024 MX Player acquisition, the ad-supported tier runs under Amazon MX Player. No standalone Prime Video India financials are disclosed.",
-  "last_refreshed": "2026-09-08T12:00:00.000Z",
+  "description": "Prime Video is an over-the-top streaming and video-on-demand service operated as a subsidiary business segment of Amazon.com, Inc.",
+  "last_refreshed": "2026-09-13T08:32:59.234Z",
   "stock": {
     "applicable": false,
-    "value": null,
+    "value": 265.13,
     "currency": "USD",
-    "ticker": null,
-    "as_of": null,
-    "note": "No standalone entity; reflects parent Amazon.com Inc ~$262.07 (Aug 25, 2026).",
+    "ticker": "AMZN",
+    "as_of": "2026-09-13",
+    "note": "Reflects parent company Amazon.com, Inc., as Prime Video is not individually listed.",
     "confidence": "not_applicable"
   },
   "revenue": {
-    "value": null,
+    "value": 13500000000,
     "currency": "USD",
-    "period": "FY2025",
-    "confidence": "not_found",
-    "source": null
+    "period": "FY2024",
+    "confidence": "press_estimate",
+    "source": {
+      "name": "Business of Apps",
+      "url": "https://www.businessofapps.com/data/amazon-prime-video-statistics",
+      "date": "2026"
+    }
   },
   "operating_profit": {
     "value": null,
     "currency": "USD",
-    "period": "FY2025",
+    "period": "FY2024",
     "confidence": "not_found",
     "source": null
   },
   "expenses": {
-    "breakdown": [],
-    "confidence": "not_found"
+    "breakdown": [
+      {
+        "label": "Content Spend",
+        "value": 18900000000,
+        "confidence": "disclosed"
+      }
+    ],
+    "confidence": "press_estimate"
   },
   "marketing_spend": {
-    "value_low": 3000000000,
-    "value_high": 6000000000,
-    "currency": "INR",
-    "period": "FY2026 (triangulated, India)",
-    "tier": "4_triangulated",
-    "derivation": "No standalone India financials, so Tiers 1-3 don't apply. Prime Video is a top-tier OTT advertiser in India via tentpole originals, sports promos and the MX Player free tier. Given campaign presence comparable to Netflix/JioHotstar, this triangulates to ~₹300-600 crore/year — a rough, low-confidence estimate that likely partially overlaps Amazon India's consolidated ad spend.",
-    "source": null
+    "value_low": 1350000000,
+    "value_high": 2025000000,
+    "currency": "USD",
+    "period": "FY2024",
+    "tier": "3_modeled",
+    "derivation": "Calculated using a 10% to 15% standard OTT category marketing-to-revenue ratio applied against Prime Video's estimated FY2024 revenue of $13.5 billion.",
+    "source": {
+      "name": "Business of Apps",
+      "url": "https://www.businessofapps.com/data/amazon-prime-video-statistics",
+      "date": "2026"
+    }
   },
   "trend_history": {
-    "stock": [],
-    "revenue": []
+    "stock": [
+      {
+        "date": "2026-09-13",
+        "value": 265.13
+      }
+    ],
+    "revenue": [
+      {
+        "period": "2018",
+        "value": 4400000000
+      },
+      {
+        "period": "2019",
+        "value": 5400000000
+      },
+      {
+        "period": "2020",
+        "value": 7800000000
+      },
+      {
+        "period": "2021",
+        "value": 10300000000
+      },
+      {
+        "period": "2022",
+        "value": 11500000000
+      },
+      {
+        "period": "2023",
+        "value": 12800000000
+      },
+      {
+        "period": "2024",
+        "value": 13500000000
+      }
+    ]
   },
   "business_updates": [
     {
-      "headline": "Amazon MX Player integration (acquired Jun 2024) building out the ad-supported tier",
-      "date": "2024-06-01",
+      "headline": "Prime Video ads expand globally, reaching an average ad-supported audience of 315 million viewers in Q1 2026",
+      "date": "2026",
       "source": {
-        "name": "Company disclosures",
-        "url": "",
-        "date": "2024-06-01"
+        "name": "Data Insights Reports",
+        "url": "https://www.datainsightsreports.com/companies/AMZN"
       }
     },
     {
-      "headline": "Expanding regional-language originals and sports coverage in India",
-      "date": "2026-01-01",
+      "headline": "Prime Video introduces ad-supported tier with a $2.99 per month ad-free upgrade option",
+      "date": "2024",
       "source": {
-        "name": "Company disclosures",
-        "url": "",
-        "date": "2026-01-01"
+        "name": "Business of Apps",
+        "url": "https://www.businessofapps.com/data/amazon-prime-video-statistics"
       }
     },
     {
-      "headline": "Bundling with Amazon Now to lift cross-service engagement",
-      "date": "2026-01-01",
+      "headline": "Prime Video content spend rises 13.8% year-over-year to $18.9 billion",
+      "date": "2023",
       "source": {
-        "name": "Company disclosures",
-        "url": "",
-        "date": "2026-01-01"
+        "name": "Business of Apps",
+        "url": "https://www.businessofapps.com/data/amazon-prime-video-statistics"
       }
     }
   ]

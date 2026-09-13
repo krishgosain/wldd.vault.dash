@@ -4,65 +4,62 @@
   "parent": null,
   "entity_type": "public_standalone",
   "category": "Auto",
-  "description": "Tata Motors demerged effective Oct 1, 2025 into two listed entities: Tata Motors Passenger Vehicles (TMPV) and Tata Motors Ltd, the commercial-vehicle entity (listed Nov 12, 2025). Figures below are FY25 consolidated (pre-demerger) unless noted.",
-  "last_refreshed": "2026-09-08T12:00:00.000Z",
+  "description": "Tata Motors is an Indian multinational automobile manufacturing company producing commercial and passenger vehicles.",
+  "last_refreshed": "2026-09-13T08:29:45.225Z",
   "stock": {
     "applicable": true,
-    "value": 458,
+    "value": 472.55,
     "currency": "INR",
-    "ticker": "TMLCV.NS",
-    "as_of": "2026-01-30",
-    "note": "Post-demerger CV entity (Tata Motors Ltd); listed at ₹335 on Nov 12, 2025, ~₹458-460 by Jan 30, 2026. PV entity (TMPV) traded ~₹350 (unlisted-market quote, Jan 30, 2026). Freshest available quotes are ~Jan 2026 — recommend a live refresh.",
+    "ticker": "TATAMOTORS.NS",
+    "as_of": "2026-08-24",
+    "note": "Share price on NSE",
     "confidence": "disclosed"
   },
   "revenue": {
-    "value": 4397000000000,
+    "value": 838550000000,
     "currency": "INR",
-    "period": "FY2025 (consolidated, pre-demerger)",
+    "period": "FY2026",
     "confidence": "disclosed",
     "source": {
-      "name": "Tata Motors Q4 FY25 press release",
-      "url": "",
-      "date": "2025-05-01"
+      "name": "Reuters",
+      "url": "https://www.reuters.com/markets/companies/TATM.NS",
+      "date": "2026-08-01"
     }
   },
   "operating_profit": {
-    "value": 343000000000,
+    "value": 5426000000,
     "currency": "INR",
-    "period": "FY2025 PBT (before exceptional items)",
+    "period": "FY2026",
     "confidence": "disclosed",
     "source": {
-      "name": "Tata Motors Q4 FY25 press release",
-      "url": "",
-      "date": "2025-05-01"
+      "name": "INDmoney",
+      "url": "https://www.indmoney.com/stocks/tata-motors-ltd-share-price",
+      "date": "2026-08-01"
     }
   },
   "expenses": {
-    "breakdown": [
-      {
-        "label": "EBITDA (FY25 consolidated)",
-        "value": 576000000000,
-        "confidence": "disclosed"
-      },
-      {
-        "label": "CV segment EBITDA (FY25)",
-        "value": 88390000000,
-        "confidence": "disclosed"
-      }
-    ],
-    "confidence": "disclosed"
+    "breakdown": [],
+    "confidence": "not_found"
   },
   "marketing_spend": {
-    "value_low": 8750000000,
-    "value_high": 17500000000,
+    "value_low": 12578000000,
+    "value_high": 20963000000,
     "currency": "INR",
-    "period": "FY2025 (modeled, India CV+PV only)",
+    "period": "FY2026",
     "tier": "3_modeled",
-    "derivation": "A specific FY25 advertising/sales-promotion line was not located in the FY25 'Other expenses' note in aggregator snippets (recommend pulling the annual-report PDF directly). Tata Motors did not feature in PMAR 2026's top-10. Modeled at ~1-2% of India CV+PV revenue (~₹87,500 crore) → ~₹875-1,750 crore. Group-wide spend would be higher but is dominated by JLR/overseas marketing.",
+    "derivation": "Modeled using an auto industry benchmark of 1.5% to 2.5% of total annual revenue against FY2026 revenue of ₹838,550 million.",
     "source": null
   },
   "trend_history": {
     "stock": [
+      {
+        "date": "2025-08-01",
+        "value": 669
+      },
+      {
+        "date": "2025-10-01",
+        "value": 412.45
+      },
       {
         "date": "2025-11-12",
         "value": 335
@@ -70,41 +67,38 @@
       {
         "date": "2026-01-30",
         "value": 458
+      },
+      {
+        "date": "2026-08-01",
+        "value": 406.45
+      },
+      {
+        "date": "2026-08-24",
+        "value": 472.55
       }
     ],
     "revenue": [
       {
+        "period": "FY2024",
+        "value": 800700000000
+      },
+      {
         "period": "FY2025",
-        "value": 4397000000000
+        "value": 582170000000
+      },
+      {
+        "period": "FY2026",
+        "value": 838550000000
       }
     ]
   },
   "business_updates": [
     {
-      "headline": "Demerger completed; commercial-vehicle entity listed Nov 12, 2025",
-      "date": "2025-11-12",
+      "headline": "Tata Motors commercial vehicle business lists on NSE following demerger from passenger vehicle segment",
+      "date": "2026-09-11",
       "source": {
-        "name": "Business Standard",
-        "url": "",
-        "date": "2025-11-12"
-      }
-    },
-    {
-      "headline": "Planned €3.8bn acquisition of Iveco Group, expected to roughly triple CV revenue base",
-      "date": "2025-11-01",
-      "source": {
-        "name": "Business Standard",
-        "url": "",
-        "date": "2025-11-01"
-      }
-    },
-    {
-      "headline": "Automotive business turned net cash / debt-free in FY25; ₹6/share final dividend declared",
-      "date": "2025-05-01",
-      "source": {
-        "name": "Tata Motors 80th AGM",
-        "url": "",
-        "date": "2025-05-01"
+        "name": "CNBC-TV18",
+        "url": "https://www.instagram.com/reel/DQ8g3VUCEF4?hl=en"
       }
     }
   ]

@@ -4,32 +4,32 @@
   "parent": "Wispr AI",
   "entity_type": "foreign_private",
   "category": "Consumer Tech / AI",
-  "description": "Wispr Flow (maker: Wispr AI) is a San Francisco-based foreign private company with no Indian corporate registration, co-founded by Tanay Kothari and Sahaj Garg. Scaling India go-to-market since Nov 2025.",
-  "last_refreshed": "2026-09-08T12:00:00.000Z",
+  "description": "Wispr Flow is an AI-powered voice-to-text dictation application developed by Wispr AI.",
+  "last_refreshed": "2026-09-13T08:34:32.586Z",
   "stock": {
     "applicable": false,
     "value": null,
     "currency": "USD",
     "ticker": null,
     "as_of": null,
-    "note": "Private; valuation ~$2bn after a $280M Series B (Menlo Ventures-led, Aug 17, 2026); total funding $361M, up from a $700M valuation in Nov 2025.",
+    "note": "Private company; stock is not publicly traded.",
     "confidence": "not_applicable"
   },
   "revenue": {
     "value": 10000000,
     "currency": "USD",
-    "period": "2026 (estimate, ARR)",
+    "period": "FY2025",
     "confidence": "press_estimate",
     "source": {
-      "name": "Getlatka",
-      "url": "",
-      "date": "2026-09-02"
+      "name": "GetLatka",
+      "url": "https://getlatka.com/companies/wisprflow.ai",
+      "date": "2025-10-01"
     }
   },
   "operating_profit": {
     "value": null,
     "currency": "USD",
-    "period": "2026",
+    "period": "FY2025",
     "confidence": "not_found",
     "source": null
   },
@@ -38,44 +38,54 @@
     "confidence": "not_found"
   },
   "marketing_spend": {
-    "value_low": 3000000,
-    "value_high": 6000000,
+    "value_low": 2000000,
+    "value_high": 4000000,
     "currency": "USD",
-    "period": "2025-26 (modeled, global)",
+    "period": "FY2025",
     "tier": "3_modeled",
-    "derivation": "Private, not in PMAR — Tiers 1-2 don't apply. Early-stage AI SaaS companies spend heavily off a small revenue base; on ~$10M ARR, even 30-60% of revenue directed to marketing models to ~$3-6M global spend. India-specific spend is minimal (organic/GTM-seeding as the India+UK expansion is recent) — roughly ₹2-8 crore.",
-    "source": null
+    "derivation": "Modeled by applying a standard 20% to 40% sales and marketing spend ratio typical for high-growth AI SaaS startups against Wispr Flow's reported $10M ARR reached in late 2025.",
+    "source": {
+      "name": "Postbeam",
+      "url": "https://www.postbeam.ai/blog/how-wisprflow-grows",
+      "date": "2026-05-01"
+    }
   },
   "trend_history": {
     "stock": [],
-    "revenue": []
+    "revenue": [
+      {
+        "period": "2021",
+        "value": 0
+      },
+      {
+        "period": "FY2025",
+        "value": 10000000
+      }
+    ]
   },
   "business_updates": [
     {
-      "headline": "$280M Series B at a $2bn valuation, led by Menlo Ventures",
+      "headline": "Wispr Flow raised $280 million in Series B funding at a $2 billion valuation led by Menlo Ventures",
       "date": "2026-08-17",
       "source": {
-        "name": "Menlo Ventures / press",
-        "url": "",
-        "date": "2026-08-17"
+        "name": "Reuters",
+        "url": "https://www.reuters.com/technology/wispr-flow-valued-2-billion-latest-funding-round-2026-08-17"
       }
     },
     {
-      "headline": "Launched proprietary speech model 'Canto' and Wispr Flow Notetaker",
-      "date": "2026-08-01",
+      "headline": "Wispr Flow unveiled preview of Canto, its first proprietary speech-recognition AI model",
+      "date": "2026-08-17",
       "source": {
-        "name": "Company disclosures",
-        "url": "",
-        "date": "2026-08-01"
+        "name": "Reuters",
+        "url": "https://www.reuters.com/technology/wispr-flow-valued-2-billion-latest-funding-round-2026-08-17"
       }
     },
     {
-      "headline": "India + UK go-to-market expansion; Android app launched since Nov 2025",
-      "date": "2025-11-01",
+      "headline": "Wispr Flow launches an Android app for AI-powered dictation",
+      "date": "2026-02-23",
       "source": {
-        "name": "Company disclosures",
-        "url": "",
-        "date": "2025-11-01"
+        "name": "TechCrunch",
+        "url": "https://en.wikipedia.org/wiki/Wispr_Flow"
       }
     }
   ]

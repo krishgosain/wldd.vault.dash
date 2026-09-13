@@ -4,85 +4,54 @@
   "parent": "Roppen Transportation Services Pvt Ltd",
   "entity_type": "india_private_registered",
   "category": "Ride-hailing",
-  "description": "Rapido is operated by Roppen Transportation Services Pvt Ltd, a Bengaluru-headquartered India-registered private company backed by TVS, Swiggy, Prosus, Accel and WestBridge, filing consolidated financials with the RoC.",
-  "last_refreshed": "2026-09-08T12:00:00.000Z",
+  "description": "Rapido is an Indian ride-hailing and logistics platform providing bike taxi, auto-rickshaw, cab, and delivery services, operated by Roppen Transportation Services Pvt Ltd.",
+  "last_refreshed": "2026-09-13T08:34:50.883Z",
   "stock": {
     "applicable": false,
     "value": null,
-    "currency": "USD",
+    "currency": "INR",
     "ticker": null,
     "as_of": null,
-    "note": "Private; reported ~$2.3bn valuation (press/secondary transactions).",
+    "note": "Roppen Transportation Services Pvt Ltd is an unlisted private company.",
     "confidence": "not_applicable"
   },
   "revenue": {
-    "value": 9344400000,
-    "currency": "INR",
-    "period": "FY2025",
+    "value": 934.44,
+    "currency": "INR Crore",
+    "period": "FY25",
     "confidence": "disclosed",
     "source": {
-      "name": "Entrackr / Business Standard / Medianama (RoC filings)",
-      "url": "",
-      "date": "2026-01-01"
+      "name": "Rediff Moneynews",
+      "url": "https://money.rediff.com/news/market/rapido-loss-narrows-revenue-rises-44-in-fy25/40628320260122",
+      "date": "2026-01-22"
     }
   },
   "operating_profit": {
-    "value": -2584000000,
-    "currency": "INR",
-    "period": "FY2025 net loss (narrowed ~30.5% YoY)",
+    "value": -258,
+    "currency": "INR Crore",
+    "period": "FY25",
     "confidence": "disclosed",
     "source": {
-      "name": "Entrackr / Business Standard / Medianama (RoC filings)",
-      "url": "",
-      "date": "2026-01-01"
+      "name": "Rediff Moneynews",
+      "url": "https://money.rediff.com/news/market/rapido-loss-narrows-revenue-rises-44-in-fy25/40628320260122",
+      "date": "2026-01-22"
     }
   },
   "expenses": {
-    "breakdown": [
-      {
-        "label": "Delivery revenue (FY25, largest stream)",
-        "value": 3397000000,
-        "confidence": "disclosed"
-      },
-      {
-        "label": "Subscriptions revenue (FY25, 14x growth)",
-        "value": 2751000000,
-        "confidence": "disclosed"
-      },
-      {
-        "label": "Platform/mobility revenue (FY25)",
-        "value": 2766000000,
-        "confidence": "disclosed"
-      },
-      {
-        "label": "Employee costs (FY25)",
-        "value": 2070000000,
-        "confidence": "disclosed"
-      },
-      {
-        "label": "R&D (FY25)",
-        "value": 1080000000,
-        "confidence": "disclosed"
-      },
-      {
-        "label": "Captain payments (FY25)",
-        "value": 5000000000,
-        "confidence": "disclosed"
-      }
-    ],
-    "confidence": "disclosed"
+    "breakdown": [],
+    "confidence": "not_found"
   },
   "marketing_spend": {
-    "value_low": 2520000000,
-    "value_high": 2520000000,
-    "currency": "INR",
-    "period": "FY2025 (disclosed)",
-    "tier": "1_disclosed",
-    "derivation": "FY25 advertising & promotion expenses = ₹252 crore, per consolidated RoC filings reported by Entrackr/SocialSamosa (Jan 2026).",
+    "value_low": 140.16,
+    "value_high": 233.61,
+    "currency": "INR Crore",
+    "period": "FY25",
+    "tier": "3_modeled",
+    "derivation": "Modeled based on Rapido's FY25 operational revenue of ₹934.44 crore, applying an estimated ride-hailing industry marketing-to-revenue benchmark ratio of 15% to 25%.",
     "source": {
-      "name": "Entrackr / SocialSamosa (RoC filings)",
-      "url": "",
-      "date": "2026-01-01"
+      "name": "Rediff Moneynews",
+      "url": "https://money.rediff.com/news/market/rapido-loss-narrows-revenue-rises-44-in-fy25/40628320260122",
+      "date": "2026-01-22"
     }
   },
   "trend_history": {
@@ -95,35 +64,36 @@
       {
         "period": "FY2025",
         "value": 9344400000
+      },
+      {
+        "period": "FY23",
+        "value": 443
+      },
+      {
+        "period": "FY24",
+        "value": 648
+      },
+      {
+        "period": "FY25",
+        "value": 934.44
       }
     ]
   },
   "business_updates": [
     {
-      "headline": "Crossed ₹1,000 crore total income in FY25; delivery overtook ride-hailing as the biggest revenue stream",
-      "date": "2026-01-01",
+      "headline": "Rapido parent company Roppen Transportation narrows FY25 loss to Rs 258 crore with 44% revenue growth",
+      "date": "2026-01-22",
       "source": {
-        "name": "Entrackr",
-        "url": "",
-        "date": "2026-01-01"
+        "name": "Rediff Moneynews",
+        "url": "https://money.rediff.com/news/market/rapido-loss-narrows-revenue-rises-44-in-fy25/40628320260122"
       }
     },
     {
-      "headline": "Launched food-delivery brand 'Ownly' to challenge Zomato/Swiggy",
-      "date": "2025-01-01",
+      "headline": "Rapido parent company plans an IPO by the end of 2026",
+      "date": "2026-01-22",
       "source": {
-        "name": "Company disclosures",
-        "url": "",
-        "date": "2025-01-01"
-      }
-    },
-    {
-      "headline": "Uber CEO Dara Khosrowshahi publicly named Rapido a bigger rival",
-      "date": "2025-01-01",
-      "source": {
-        "name": "Press reports",
-        "url": "",
-        "date": "2025-01-01"
+        "name": "Rediff Moneynews",
+        "url": "https://money.rediff.com/news/market/rapido-loss-narrows-revenue-rises-44-in-fy25/40628320260122"
       }
     }
   ]

@@ -1,87 +1,86 @@
 {
   "name": "Amazon Shopping",
   "slug": "amazon-shopping",
-  "parent": "Amazon (Amazon Seller Services Pvt Ltd)",
+  "parent": "Amazon.com, Inc.",
   "entity_type": "public_parent",
   "category": "E-commerce",
-  "description": "Amazon Shopping in India operates under Amazon Seller Services Pvt Ltd, an India-registered private company that files with the MCA/RoC; ultimate parent is Amazon.com Inc (NASDAQ: AMZN).",
-  "last_refreshed": "2026-09-08T12:00:00.000Z",
+  "description": "Amazon Shopping is the primary global e-commerce retail platform operated by parent company Amazon.com, Inc.",
+  "last_refreshed": "2026-09-13T08:32:20.305Z",
   "stock": {
-    "applicable": false,
-    "value": null,
+    "applicable": true,
+    "value": 256.78,
     "currency": "USD",
-    "ticker": null,
-    "as_of": null,
-    "note": "No standalone India entity stock; reflects parent Amazon.com Inc ~$262.07 (Aug 25, 2026).",
-    "confidence": "not_applicable"
+    "ticker": "AMZN",
+    "as_of": "2026-08-14",
+    "note": "Reflects parent company Amazon.com, Inc., not this individual platform brand specifically",
+    "confidence": "disclosed"
   },
   "revenue": {
-    "value": 301386000000,
-    "currency": "INR",
-    "period": "FY2025",
+    "value": 181520000000,
+    "currency": "USD",
+    "period": "Q1 2026",
     "confidence": "disclosed",
     "source": {
-      "name": "Inc42 / Business Standard / Medianama (MCA filings)",
-      "url": "",
-      "date": "2026-03-07"
+      "name": "Data Insights Reports",
+      "url": "https://www.datainsightsreports.com/companies/AMZN",
+      "date": "2026"
     }
   },
   "operating_profit": {
-    "value": -3743000000,
-    "currency": "INR",
-    "period": "FY2025 net loss (narrowed ~89% YoY)",
+    "value": 23900000000,
+    "currency": "USD",
+    "period": "Q1 2026",
     "confidence": "disclosed",
     "source": {
-      "name": "Inc42 / Business Standard / Medianama (MCA filings)",
-      "url": "",
-      "date": "2026-03-07"
+      "name": "Data Insights Reports",
+      "url": "https://www.datainsightsreports.com/companies/AMZN",
+      "date": "2026"
     }
   },
   "expenses": {
     "breakdown": [
       {
-        "label": "Total expenses (FY25)",
-        "value": 308656000000,
+        "label": "Cost of goods sold",
+        "value": 87460000000,
         "confidence": "disclosed"
       },
       {
-        "label": "Marketplace fee income (FY25)",
-        "value": 173281000000,
+        "label": "Selling, general, and admin expenses",
+        "value": 44850000000,
         "confidence": "disclosed"
       },
       {
-        "label": "Delivery charges (FY25)",
-        "value": 83367000000,
-        "confidence": "disclosed"
-      },
-      {
-        "label": "Legal/professional (FY25)",
-        "value": 41554000000,
-        "confidence": "disclosed"
-      },
-      {
-        "label": "Employee costs (FY25)",
-        "value": 26565000000,
+        "label": "Research and development expenses",
+        "value": 24910000000,
         "confidence": "disclosed"
       }
     ],
     "confidence": "disclosed"
   },
   "marketing_spend": {
-    "value_low": 34060000000,
-    "value_high": 34060000000,
-    "currency": "INR",
-    "period": "FY2025 (disclosed)",
-    "tier": "1_disclosed",
-    "derivation": "FY25 advertising expenses = ₹3,406 crore (-5% YoY), per Inc42 (Mar 7, 2026) citing MCA filings; FY24 comparative advertising & sales promotion was ₹3,586.1 crore. Consistent with Amazon Online India dropping OUT of PMAR 2026's top-10 (it was in the 2024 list).",
+    "value_low": 7260800000,
+    "value_high": 10891200000,
+    "currency": "USD",
+    "period": "Q1 2026",
+    "tier": "3_modeled",
+    "derivation": "Calculated as 4% to 6% of Q1 2026 total revenue ($181.52B), representing typical sales, promotion, and user-acquisition intensity for mega-scale e-commerce platforms.",
     "source": {
-      "name": "Inc42 (MCA filings)",
-      "url": "",
-      "date": "2026-03-07"
+      "name": "Google Finance",
+      "url": "https://www.google.com/finance/quote/AMZN:NASDAQ",
+      "date": "2026"
     }
   },
   "trend_history": {
-    "stock": [],
+    "stock": [
+      {
+        "date": "2025-12-31",
+        "value": 249.02
+      },
+      {
+        "date": "2026-08-14",
+        "value": 256.78
+      }
+    ],
     "revenue": [
       {
         "period": "FY2024",
@@ -90,35 +89,48 @@
       {
         "period": "FY2025",
         "value": 301386000000
+      },
+      {
+        "period": "Q1 2026",
+        "value": 181520000000
+      },
+      {
+        "period": "Q2 2026",
+        "value": 200610000000
+      },
+      {
+        "period": "Q3 2025",
+        "value": 180170000000
+      },
+      {
+        "period": "Q4 2025",
+        "value": 213390000000
       }
     ]
   },
   "business_updates": [
     {
-      "headline": "FY25 loss cut ~89%, second consecutive year of loss-trimming",
-      "date": "2026-03-07",
+      "headline": "Amazon reports robust Q1 2026 net sales of $181.5 billion, up 17% YoY",
+      "date": "2026-04-30",
       "source": {
-        "name": "Inc42",
-        "url": "",
-        "date": "2026-03-07"
+        "name": "Data Insights Reports",
+        "url": "https://www.datainsightsreports.com/companies/AMZN"
       }
     },
     {
-      "headline": "₹2,800 crore (~$300M) India investment announced for 2026, a chunk directed to quick commerce",
+      "headline": "Amazon Ads launches First Day Ready campaign connecting brands to Gen Z in colleges",
+      "date": "2026-09-01",
+      "source": {
+        "name": "Morningstar",
+        "url": "https://www.morningstar.com/stocks/xnas/amzn/quote"
+      }
+    },
+    {
+      "headline": "Massive AI investments yield $15 billion annualized revenue run-rate for Amazon",
       "date": "2026-01-01",
       "source": {
-        "name": "Company disclosures",
-        "url": "",
-        "date": "2026-01-01"
-      }
-    },
-    {
-      "headline": "Andy Jassy India visit; $35bn India commitment reaffirmed through 2030",
-      "date": "2026-06-01",
-      "source": {
-        "name": "Company disclosures",
-        "url": "",
-        "date": "2026-06-01"
+        "name": "Koala Gains",
+        "url": "https://koalagains.com/stocks/NASDAQ/AMZN"
       }
     }
   ]

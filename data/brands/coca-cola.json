@@ -4,51 +4,66 @@
   "parent": "The Coca-Cola Company",
   "entity_type": "public_parent",
   "category": "F&B",
-  "description": "Coca-Cola's India operations run primarily through Hindustan Coca-Cola Beverages Pvt Ltd (HCCB), a separately MCA-registered bottling entity. Figures below are HCCB's India financials; stock price is the global parent KO (NYSE).",
-  "last_refreshed": "2026-09-09T12:00:00.000Z",
+  "description": "Coca-Cola is a global non-alcoholic beverage brand owned by parent company The Coca-Cola Company (NYSE: KO), operating in India via Coca-Cola India Pvt Ltd and bottling partner Hindustan Coca-Cola Beverages Pvt Ltd.",
+  "last_refreshed": "2026-09-13T08:35:31.349Z",
   "stock": {
-    "applicable": true,
-    "value": 91.97,
+    "applicable": false,
+    "value": null,
     "currency": "USD",
     "ticker": "KO",
-    "as_of": "2026-09-08",
-    "note": "Parent The Coca-Cola Company (NYSE: KO); HCCB itself is not separately listed.",
-    "confidence": "disclosed"
+    "as_of": null,
+    "note": "Ticker KO reflects parent company The Coca-Cola Company, not the brand directly.",
+    "confidence": "not_applicable"
   },
   "revenue": {
-    "value": 127512900000.00002,
+    "value": 50425600000,
     "currency": "INR",
-    "period": "FY2025 (HCCB, revenue from operations)",
+    "period": "FY2025",
     "confidence": "disclosed",
     "source": {
-      "name": "Business Standard — Hindustan Coca-Cola Beverages FY25 profit slumps 73%",
-      "url": "https://www.business-standard.com/companies/quarterly-results/hindustan-coca-cola-beverages-fy25-profit-dips-73-to-756-crore-125102401012_1.html",
-      "date": "2025-10-24"
+      "name": "The Financial Express",
+      "url": "https://www.financialexpress.com/business/news/ipo-on-the-cards-for-coca-colas-india-arm-hindustan-coca-cola-says-news-is-speculative/4107986",
+      "date": "2026-06-02"
     }
   },
   "operating_profit": {
-    "value": 7566400000.0,
+    "value": 615030000,
     "currency": "INR",
-    "period": "FY2025 net profit (HCCB)",
+    "period": "FY2025",
     "confidence": "disclosed",
     "source": {
-      "name": "Business Standard — HCCB FY25 profit slumps 73%",
-      "url": "https://www.business-standard.com/companies/quarterly-results/hindustan-coca-cola-beverages-fy25-profit-dips-73-to-756-crore-125102401012_1.html",
-      "date": "2025-10-24"
+      "name": "The Financial Express",
+      "url": "https://www.financialexpress.com/business/news/ipo-on-the-cards-for-coca-colas-india-arm-hindustan-coca-cola-says-news-is-speculative/4107986",
+      "date": "2026-06-02"
     }
   },
   "expenses": {
-    "breakdown": [],
-    "confidence": "not_found"
+    "breakdown": [
+      {
+        "label": "Advertising and sales promotion",
+        "value": 13111300000,
+        "confidence": "disclosed"
+      },
+      {
+        "label": "Total expenses",
+        "value": 43283700000,
+        "confidence": "disclosed"
+      }
+    ],
+    "confidence": "disclosed"
   },
   "marketing_spend": {
-    "value_low": 6375000000.0,
-    "value_high": 12750000000.0,
+    "value_low": 13111300000,
+    "value_high": 13111300000,
     "currency": "INR",
-    "period": "FY2025 (modeled, HCCB India)",
-    "tier": "3_modeled",
-    "derivation": "A specific HCCB FY25 advertising-expense line was not located in aggregator snippets. Modeled at ~5-10% of HCCB's FY25 India revenue (₹12,751 crore), in line with typical FMCG beverage ad-to-sales ratios, giving ~₹638-1,275 crore. Recommend pulling HCCB's MCA-filed annual report for the disclosed figure.",
-    "source": null
+    "period": "FY2025",
+    "tier": "1_disclosed",
+    "derivation": "Disclosed advertising and sales promotion expense for Coca-Cola India Pvt Ltd in FY25 financial results reported via Tofler/PTI.",
+    "source": {
+      "name": "Rediff Moneynews",
+      "url": "https://money.rediff.com/news/market/coca-cola-india-fy25-profit-up-46-3/38900520251219",
+      "date": "2025-12-19"
+    }
   },
   "trend_history": {
     "stock": [
@@ -59,19 +74,38 @@
     ],
     "revenue": [
       {
+        "period": "FY2024",
+        "value": 47133800000
+      },
+      {
         "period": "FY2025",
-        "value": 127512900000.00002
+        "value": 50425600000
       }
     ]
   },
   "business_updates": [
     {
-      "headline": "HCCB FY25 profit falls 73% to ₹756.64 crore as revenue dips 9% to ₹12,751.29 crore, largely due to a high FY24 base from bottling-divestment gains",
-      "date": "2025-10-24",
+      "headline": "Hemant Rupani appointed as CEO of Hindustan Coca-Cola Beverages",
+      "date": "2026-08-29",
+      "source": {
+        "name": "Livemint",
+        "url": "https://www.livemint.com/companies/people/hemant-rupani-to-take-over-as-ceo-of-hindustan-coca-cola-beverages-in-september-11752561862283.html"
+      }
+    },
+    {
+      "headline": "Coca-Cola explores IPO for India bottling unit HCCB in 2027 following 40% stake sale to Jubilant Bhartia Group",
+      "date": "2026-06-02",
       "source": {
         "name": "Business Standard",
-        "url": "https://www.business-standard.com/companies/quarterly-results/hindustan-coca-cola-beverages-fy25-profit-dips-73-to-756-crore-125102401012_1.html",
-        "date": "2025-10-24"
+        "url": "https://www.business-standard.com/topic/hindustan-coca-cola-beverages"
+      }
+    },
+    {
+      "headline": "Hindustan Coca-Cola Beverages Bidadi plant certified carbon neutral under PAS 2060",
+      "date": "2026-06-02",
+      "source": {
+        "name": "Business Standard",
+        "url": "https://www.business-standard.com/topic/hindustan-coca-cola-beverages"
       }
     }
   ]

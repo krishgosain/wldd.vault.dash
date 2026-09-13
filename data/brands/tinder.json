@@ -4,56 +4,80 @@
   "parent": "Match Group",
   "entity_type": "public_parent",
   "category": "Social / Dating",
-  "description": "Tinder is Match Group Inc's (NASDAQ: MTCH) largest brand and is broken out in the company's segment disclosure. Stock price reflects all of Match Group, not Tinder specifically.",
-  "last_refreshed": "2026-09-08T12:00:00.000Z",
+  "description": "Tinder is a leading global online dating application operated by Match Group, Inc. (NASDAQ: MTCH).",
+  "last_refreshed": "2026-09-13T08:31:03.269Z",
   "stock": {
-    "applicable": true,
-    "value": 40.5,
+    "applicable": false,
+    "value": null,
     "currency": "USD",
-    "ticker": "MTCH",
-    "as_of": "2026-09-02",
-    "note": "Reflects Match Group as a whole. 52-week range $28.81-$41.40.",
-    "confidence": "disclosed"
+    "ticker": null,
+    "as_of": "2026-09-12",
+    "note": "Reflects parent company Match Group (NASDAQ: MTCH) stock trading at $42.39 as of September 12, 2026; Tinder does not have an independent ticker.",
+    "confidence": "not_applicable"
   },
   "revenue": {
-    "value": 463800000,
+    "value": 863934000,
     "currency": "USD",
-    "period": "Q4 2025 (Tinder direct revenue)",
+    "period": "Q1 2026",
     "confidence": "disclosed",
     "source": {
-      "name": "Match Group Q4 2025 8-K (SEC)",
-      "url": "",
-      "date": "2026-02-03"
+      "name": "PR Newswire",
+      "url": "https://www.prnewswire.com/news-releases/match-group-announces-first-quarter-results-302763209.html",
+      "date": "2026-03-31"
     }
   },
   "operating_profit": {
-    "value": null,
+    "value": 270183000,
     "currency": "USD",
-    "period": "Q4 2025",
-    "confidence": "not_found",
-    "source": null
+    "period": "Q1 2026",
+    "confidence": "disclosed",
+    "source": {
+      "name": "PR Newswire",
+      "url": "https://www.prnewswire.com/news-releases/match-group-announces-first-quarter-results-302763209.html",
+      "date": "2026-03-31"
+    }
   },
   "expenses": {
     "breakdown": [
       {
-        "label": "Match Group FY2025 net income (all brands)",
-        "value": 613000000,
+        "label": "Cost of revenue",
+        "value": 210656000,
+        "confidence": "disclosed"
+      },
+      {
+        "label": "Selling and marketing expense",
+        "value": 163030000,
+        "confidence": "disclosed"
+      },
+      {
+        "label": "Product development expense",
+        "value": 116805000,
+        "confidence": "disclosed"
+      },
+      {
+        "label": "General and administrative expense",
+        "value": 89128000,
+        "confidence": "disclosed"
+      },
+      {
+        "label": "Depreciation",
+        "value": 14132000,
         "confidence": "disclosed"
       }
     ],
     "confidence": "disclosed"
   },
   "marketing_spend": {
-    "value_low": 230000000,
-    "value_high": 230000000,
+    "value_low": 163030000,
+    "value_high": 163030000,
     "currency": "USD",
-    "period": "2026 budget (global, brand-level, disclosed)",
+    "period": "Q1 2026",
     "tier": "1_disclosed",
-    "derivation": "Per the Match Group Q4 2025 8-K (SEC, Feb 3, 2026), there is 'a $50 million increase in Tinder marketing spend, for a total budget of approximately $230 million' for 2026. India-specific Tinder spend is not disclosed; this brand-level global figure is the highest-confidence tier available.",
+    "derivation": "Match Group, Inc. reported selling and marketing expense of $163,030 thousand ($163.03 million) for the three months ended March 31, 2026 in its Q1 financial statement.",
     "source": {
-      "name": "Match Group Q4 2025 8-K (SEC)",
-      "url": "",
-      "date": "2026-02-03"
+      "name": "PR Newswire",
+      "url": "https://www.prnewswire.com/news-releases/match-group-announces-first-quarter-results-302763209.html",
+      "date": "2026-03-31"
     }
   },
   "trend_history": {
@@ -61,9 +85,25 @@
       {
         "date": "2026-09-02",
         "value": 40.5
+      },
+      {
+        "date": "2026-09-12",
+        "value": 42.39
       }
     ],
     "revenue": [
+      {
+        "period": "Q1 2025",
+        "value": 831178000
+      },
+      {
+        "period": "Q1 2026",
+        "value": 863934000
+      },
+      {
+        "period": "Q2 2026",
+        "value": 853110000
+      },
       {
         "period": "Q4 2025",
         "value": 463800000
@@ -72,30 +112,19 @@
   },
   "business_updates": [
     {
-      "headline": "2026 marketing budget raised to ~$230M, plus a $60M AI/product budget",
-      "date": "2026-02-03",
+      "headline": "Match Group reports Q1 revenue beat as Tinder turnaround gains momentum and AI transformation pushes forward",
+      "date": "2026-05-01",
       "source": {
-        "name": "Match Group 8-K",
-        "url": "",
-        "date": "2026-02-03"
+        "name": "Reuters",
+        "url": "https://www.reuters.com/markets/companies/MTCH.O"
       }
     },
     {
-      "headline": "FaceCheck rollout cut bad-actor interactions by more than 50%",
-      "date": "2026-02-03",
+      "headline": "Match Group announces $100 million investment in dating platform Sniffies",
+      "date": "2026-05-01",
       "source": {
-        "name": "Match Group 8-K",
-        "url": "",
-        "date": "2026-02-03"
-      }
-    },
-    {
-      "headline": "Hinge India organic MAUs grew 40% to over 1 million without marketing spend",
-      "date": "2026-02-03",
-      "source": {
-        "name": "Match Group 8-K",
-        "url": "",
-        "date": "2026-02-03"
+        "name": "Reuters",
+        "url": "https://www.reuters.com/markets/companies/MTCH.O"
       }
     }
   ]

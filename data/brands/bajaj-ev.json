@@ -1,102 +1,104 @@
 {
   "name": "Bajaj EV",
   "slug": "bajaj-ev",
-  "parent": "Bajaj Auto Ltd",
+  "parent": "Bajaj Auto Ltd.",
   "entity_type": "public_parent",
   "category": "Auto / EV",
-  "description": "Bajaj EV (Chetak e-scooter + e-3W) is the EV segment of listed parent Bajaj Auto Ltd (NSE: BAJAJ-AUTO), not a separately incorporated entity — figures are disclosed within Bajaj Auto's consolidated results.",
-  "last_refreshed": "2026-09-08T12:00:00.000Z",
+  "description": "Bajaj EV is the electric vehicle brand and product segment of listed parent company Bajaj Auto Ltd, producing electric two-wheelers and three-wheelers.",
+  "last_refreshed": "2026-09-13T08:34:06.694Z",
   "stock": {
-    "applicable": true,
-    "value": 12361,
+    "applicable": false,
+    "value": 11768,
     "currency": "INR",
     "ticker": "BAJAJ-AUTO.NS",
-    "as_of": "2026-09-01",
-    "note": "Reflects Bajaj Auto Ltd as a whole, not the EV segment specifically. Day range ₹12,090-₹12,470.",
-    "confidence": "disclosed"
+    "as_of": "2026-09-11",
+    "note": "Reflects parent company Bajaj Auto Ltd, not Bajaj EV specifically",
+    "confidence": "not_applicable"
   },
   "revenue": {
-    "value": 55000000000,
+    "value": null,
     "currency": "INR",
-    "period": "FY2025 (EV business, ~20% of domestic business)",
-    "confidence": "disclosed",
-    "source": {
-      "name": "Motoroids / Autocarpro",
-      "url": "",
-      "date": "2025-05-01"
-    }
+    "period": "FY2026",
+    "confidence": "not_found",
+    "source": null
   },
   "operating_profit": {
     "value": null,
     "currency": "INR",
-    "period": "FY2025",
+    "period": "FY2026",
     "confidence": "not_found",
     "source": null
   },
   "expenses": {
-    "breakdown": [
-      {
-        "label": "Bajaj Auto FY25 group revenue",
-        "value": 500000000000,
-        "confidence": "disclosed"
-      },
-      {
-        "label": "Bajaj Auto FY25 group PAT",
-        "value": 80000000000,
-        "confidence": "disclosed"
-      }
-    ],
-    "confidence": "disclosed"
+    "breakdown": [],
+    "confidence": "not_found"
   },
   "marketing_spend": {
-    "value_low": 1100000000,
-    "value_high": 2200000000,
+    "value_low": 1860,
+    "value_high": 3100,
     "currency": "INR",
-    "period": "FY2025 (modeled, EV segment)",
+    "period": "FY2026",
     "tier": "3_modeled",
-    "derivation": "Bajaj Auto doesn't split out EV marketing spend, and the EV business isn't in PMAR's top-10. Auto/EV brands typically spend ~2-4% of segment revenue on advertising during a land-grab phase; on EV revenue of ₹5,500 crore this models to ~₹110-220 crore for FY25, elevated by the Chetak 35-series launch and a 4,000+ touchpoint retail expansion.",
-    "source": null
+    "derivation": "Estimated by taking parent Bajaj Auto Ltd's FY26 sales and after-sales expenses of ₹12,400 million and modeling a 15% to 25% strategic allocation dedicated to promoting the Bajaj EV segment.",
+    "source": {
+      "name": "Bajaj Auto Annual Report",
+      "url": "https://investors.bajajauto.com/management-discussion-analysis",
+      "date": "2026-03-31"
+    }
   },
   "trend_history": {
     "stock": [
       {
         "date": "2026-09-01",
         "value": 12361
+      },
+      {
+        "date": "2026-09-11",
+        "value": 11768
       }
     ],
     "revenue": [
       {
+        "period": "FY2024",
+        "value": 446852.3
+      },
+      {
+        "period": "FY2025",
+        "value": 500103.1
+      },
+      {
         "period": "FY2025 (EV segment)",
         "value": 55000000000
+      },
+      {
+        "period": "FY2026",
+        "value": 587324.8
       }
     ]
   },
   "business_updates": [
     {
-      "headline": "Chetak crossed 700,000 cumulative sales; doubled e2W market share to ~22-23% in two years",
-      "date": "2026-01-01",
+      "headline": "Bajaj Auto August 2026 sales rose 28% YoY to 535,764 units",
+      "date": "2026-08-31",
       "source": {
-        "name": "Autocarpro",
-        "url": "",
-        "date": "2026-01-01"
+        "name": "Screener / Bajaj Auto Ltd",
+        "url": "https://www.screener.in/company/BAJAJ-AUTO/consolidated"
       }
     },
     {
-      "headline": "₹5,633 crore share buyback at ₹12,000/share, plus ₹150/share dividend",
-      "date": "2026-01-01",
+      "headline": "Bajaj Auto launched RE EV 9.0 electric 3-wheeler in passenger segment with Li-Ion battery and two-speed AMT",
+      "date": "2026-03-31",
       "source": {
-        "name": "Company disclosures",
-        "url": "",
-        "date": "2026-01-01"
+        "name": "Bajaj Auto Annual Report",
+        "url": "https://investors.bajajauto.com/management-discussion-analysis"
       }
     },
     {
-      "headline": "New Chetak 'C-series' line-up with higher speeds and features",
-      "date": "2026-01-01",
+      "headline": "Crisil reaffirmed Bajaj Auto credit ratings at AAA/Stable",
+      "date": "2026-08-15",
       "source": {
-        "name": "Company disclosures",
-        "url": "",
-        "date": "2026-01-01"
+        "name": "Screener / Bajaj Auto Ltd",
+        "url": "https://www.screener.in/company/BAJAJ-AUTO/consolidated"
       }
     }
   ]

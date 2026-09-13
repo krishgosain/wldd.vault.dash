@@ -1,65 +1,58 @@
 {
   "name": "JioHotstar",
   "slug": "jiohotstar",
-  "parent": "JioStar (Reliance/Disney JV)",
+  "parent": "JioStar",
   "entity_type": "india_private_registered",
   "category": "OTT",
-  "description": "JioHotstar is the OTT platform of JioStar, an India-registered JV (Reliance 56%, Disney 37%, Bodhi Tree 7%) formed Nov 14, 2024 from the merger of Star India and Viacom18. Consolidated via Reliance Industries (NSE/BSE: RELIANCE); Disney equity-accounts its 37% stake.",
-  "last_refreshed": "2026-09-08T12:00:00.000Z",
+  "description": "JioHotstar is a major Indian over-the-top streaming platform operated by JioStar, a joint venture controlled by Reliance Industries in partnership with The Walt Disney Company.",
+  "last_refreshed": "2026-09-13T08:32:01.757Z",
   "stock": {
     "applicable": false,
     "value": null,
     "currency": "INR",
     "ticker": null,
     "as_of": null,
-    "note": "Not separately listed; consolidated into parent Reliance Industries (RELIANCE.NS). Disney (NYSE: DIS) equity-accounts its 37% stake.",
+    "note": "Reflects parent joint venture JioStar, which is majority-owned and consolidated by Reliance Industries (RELIANCE.NS), with Disney equity-accounting its stake.",
     "confidence": "not_applicable"
   },
   "revenue": {
-    "value": 310480000000,
+    "value": 72320000000,
     "currency": "INR",
-    "period": "FY2026 (ended Mar 31, 2026)",
+    "period": "Q2 FY2026",
     "confidence": "disclosed",
     "source": {
-      "name": "Reliance filings via Indiantelevision / Pitchonnet",
-      "url": "",
-      "date": "2026-05-01"
+      "name": "The Financial Express",
+      "url": "https://www.financialexpress.com/business/industry-reliance-industries-confirms-merger-of-star-television-productions-with-jiostar-4062501",
+      "date": "2026-01-01"
     }
   },
   "operating_profit": {
-    "value": 32100000000,
+    "value": 13220000000,
     "currency": "INR",
-    "period": "FY2026 net profit",
+    "period": "Q2 FY2026",
     "confidence": "disclosed",
     "source": {
-      "name": "Reliance filings via Indiantelevision / Pitchonnet",
-      "url": "",
-      "date": "2026-05-01"
+      "name": "The Financial Express",
+      "url": "https://www.financialexpress.com/business/industry-reliance-industries-confirms-merger-of-star-television-productions-with-jiostar-4062501",
+      "date": "2026-01-01"
     }
   },
   "expenses": {
-    "breakdown": [
-      {
-        "label": "EBITDA (FY26)",
-        "value": 48850000000,
-        "confidence": "disclosed"
-      },
-      {
-        "label": "Onerous sports-contract provision (FY26, down from ₹25,760cr in FY25)",
-        "value": 177420000000,
-        "confidence": "disclosed"
-      }
-    ],
-    "confidence": "disclosed"
+    "breakdown": [],
+    "confidence": "not_found"
   },
   "marketing_spend": {
-    "value_low": 15500000000,
-    "value_high": 24800000000,
+    "value_low": 7230000000,
+    "value_high": 10850000000,
     "currency": "INR",
-    "period": "FY2026 (modeled)",
+    "period": "Q2 FY2026",
     "tier": "3_modeled",
-    "derivation": "Files with MCA but no discrete advertising line surfaced; JioStar is not individually named in PMAR's top-10 as a standalone entrant. OTT/broadcast players typically spend ~5-8% of revenue on marketing/subscriber acquisition; on ₹31,048 crore FY26 revenue this models to ~₹1,550-2,480 crore, elevated by IPL 2025 and the JioHotstar launch push.",
-    "source": null
+    "derivation": "Modeled using an OTT industry standard marketing-to-revenue benchmark ratio of 10%-15% applied against parent entity JioStar's Q2 FY26 reported revenue of ₹7,232 crore.",
+    "source": {
+      "name": "The Financial Express",
+      "url": "https://www.financialexpress.com/business/industry-reliance-industries-confirms-merger-of-star-television-productions-with-jiostar-4062501",
+      "date": "2026-01-01"
+    }
   },
   "trend_history": {
     "stock": [],
@@ -67,35 +60,36 @@
       {
         "period": "FY2026",
         "value": 310480000000
+      },
+      {
+        "period": "Q2 FY2026",
+        "value": 72320000000
       }
     ]
   },
   "business_updates": [
     {
-      "headline": "FY26 turnaround to ₹3,210 crore net profit from near-breakeven FY25",
-      "date": "2026-05-01",
+      "headline": "Reliance Industries confirms merger of Star Television Productions with JioStar",
+      "date": "2026-01-01",
       "source": {
-        "name": "Reliance filings",
-        "url": "",
-        "date": "2026-05-01"
+        "name": "The Financial Express",
+        "url": "https://www.financialexpress.com/business/industry-reliance-industries-confirms-merger-of-star-television-productions-with-jiostar-4062501"
       }
     },
     {
-      "headline": "Disney's India equity loss narrowed to $64m for the quarter ended Mar 28, 2026 (from $103m)",
-      "date": "2026-05-01",
+      "headline": "Reliance's media arm achieves Rs 34,917 crore revenue in FY26 as JioHotstar crosses 1 billion downloads",
+      "date": "2026-01-01",
       "source": {
-        "name": "Disney SEC filing",
-        "url": "",
-        "date": "2026-05-01"
+        "name": "The Economic Times",
+        "url": "https://economictimes.indiatimes.com/topic/reliance-jiostar"
       }
     },
     {
-      "headline": "Scaled subscriber base on IPL 2025 and ICC Champions Trophy coverage",
-      "date": "2025-06-01",
+      "headline": "Reliance-Disney JV Launches JioHotstar combining JioCinema and Disney+ Hotstar",
+      "date": "2025-02-15",
       "source": {
-        "name": "Company disclosures",
-        "url": "",
-        "date": "2025-06-01"
+        "name": "Outlook Business",
+        "url": "https://www.outlookbusiness.com/corporate/reliance-disney-jv-launches-jiohotstar-what-it-means-for-jiocinema-hotstar-subscribers"
       }
     }
   ]

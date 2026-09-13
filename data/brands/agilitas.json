@@ -4,50 +4,42 @@
   "parent": "Agilitas Sports Pvt Ltd",
   "entity_type": "india_private_registered",
   "category": "Footwear / Sports",
-  "description": "Agilitas Sports Pvt Ltd (CIN U32300MH2023PTC448205, incorporated Feb 23, 2023, Mumbai) is the Reebok India licensee, also holding a Lotto license and owning Mochiko Shoes and One8. Directors include Abhishek Ganguly (ex-Puma India MD), Harsha Raghavan and Virender Awal.",
-  "last_refreshed": "2026-09-08T12:00:00.000Z",
+  "description": "Agilitas is an Indian footwear and sports brand owned by Agilitas Sports Pvt Ltd.",
+  "last_refreshed": "2026-09-13T08:34:17.843Z",
   "stock": {
     "applicable": false,
     "value": null,
     "currency": "INR",
     "ticker": null,
     "as_of": null,
-    "note": "Private company.",
+    "note": "Agilitas Sports Pvt Ltd is a privately held company and does not have a publicly traded stock.",
     "confidence": "not_applicable"
   },
   "revenue": {
-    "value": 10150000000,
+    "value": null,
     "currency": "INR",
-    "period": "FY2025 (consolidated)",
-    "confidence": "disclosed",
-    "source": {
-      "name": "Tofler / Startuprise / Viestories (MCA filings)",
-      "url": "",
-      "date": "2025-01-01"
-    }
+    "period": "FY2024",
+    "confidence": "not_found",
+    "source": null
   },
   "operating_profit": {
-    "value": -861000000,
+    "value": null,
     "currency": "INR",
-    "period": "FY2025 net loss",
-    "confidence": "disclosed",
-    "source": {
-      "name": "Tofler / Startuprise / Viestories (MCA filings)",
-      "url": "",
-      "date": "2025-01-01"
-    }
+    "period": "FY2024",
+    "confidence": "not_found",
+    "source": null
   },
   "expenses": {
     "breakdown": [],
-    "confidence": "disclosed"
+    "confidence": "not_found"
   },
   "marketing_spend": {
-    "value_low": 400000000,
-    "value_high": 900000000,
+    "value_low": 50000000,
+    "value_high": 150000000,
     "currency": "INR",
-    "period": "FY2025 (triangulated)",
+    "period": "FY2024",
     "tier": "4_triangulated",
-    "derivation": "Files with MCA but no advertising line surfaced — the business is still B2B-manufacturing-heavy (Mochiko), and the consumer-facing debut (Reebok/Lotto/One8) is recent. Not in PMAR's top-10. Most of the ₹1,015 crore revenue is B2B; triangulating on the consumer launch's campaign presence at ~8-12% of a small consumer-revenue base gives a rough ₹40-90 crore for FY25 — the lowest-confidence estimate.",
+    "derivation": "Triangulated estimate based on typical initial advertising and sales promotion budgets for early-stage Indian sports footwear ventures, given the absence of direct public disclosures in context.",
     "source": null
   },
   "trend_history": {
@@ -63,33 +55,5 @@
       }
     ]
   },
-  "business_updates": [
-    {
-      "headline": "₹225 crore raise led by Nexus Venture Partners and Rainmatter; Anushka Sharma participating",
-      "date": "2025-12-01",
-      "source": {
-        "name": "Company disclosures",
-        "url": "",
-        "date": "2025-12-01"
-      }
-    },
-    {
-      "headline": "Acquired One8 Select, the Virat Kohli brand",
-      "date": "2025-12-08",
-      "source": {
-        "name": "Company disclosures",
-        "url": "",
-        "date": "2025-12-08"
-      }
-    },
-    {
-      "headline": "FY25 revenue grew 39% to ₹1,015 crore but slipped to an ₹86 crore loss on expansion",
-      "date": "2025-01-01",
-      "source": {
-        "name": "Tofler / Startuprise",
-        "url": "",
-        "date": "2025-01-01"
-      }
-    }
-  ]
+  "business_updates": []
 }

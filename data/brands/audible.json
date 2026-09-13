@@ -4,28 +4,28 @@
   "parent": "Amazon",
   "entity_type": "public_parent",
   "category": "Audio Streaming",
-  "description": "Audible is Amazon's audiobook service; India operations (paid Audible India launched 2018, Audible Suno 2019) run within Amazon's broader corporate structure with no distinct, disclosed India MCA-filing entity for the audiobook business specifically.",
-  "last_refreshed": "2026-09-08T12:00:00.000Z",
+  "description": "Audible is an online audiobook and spoken-word entertainment subscription service operated as a subsidiary of Amazon.",
+  "last_refreshed": "2026-09-13T08:31:41.018Z",
   "stock": {
     "applicable": false,
     "value": null,
     "currency": "USD",
     "ticker": null,
     "as_of": null,
-    "note": "No standalone Audible entity; reflects parent Amazon.com Inc (NASDAQ: AMZN) ~$262.07 (Aug 25, 2026), not Audible specifically.",
+    "note": "Reflects parent company Amazon (NASDAQ: AMZN); Audible does not have a separate publicly traded stock.",
     "confidence": "not_applicable"
   },
   "revenue": {
     "value": null,
     "currency": "USD",
-    "period": "FY2025",
+    "period": "",
     "confidence": "not_found",
     "source": null
   },
   "operating_profit": {
     "value": null,
     "currency": "USD",
-    "period": "FY2025",
+    "period": "",
     "confidence": "not_found",
     "source": null
   },
@@ -35,11 +35,11 @@
   },
   "marketing_spend": {
     "value_low": 150000000,
-    "value_high": 400000000,
-    "currency": "INR",
-    "period": "FY2026 (triangulated, India)",
-    "tier": "4_triangulated",
-    "derivation": "No India entity, no PMAR entry, and no disclosed India revenue base, so Tiers 1-3 don't apply. Audible is a modest player within India's small audio-content ad category, with campaign presence in ad-trade press low relative to Spotify/Pocket FM/Kuku FM. Triangulated at ~₹15-40 crore/year — the lowest-confidence estimate in this portfolio.",
+    "value_high": 350000000,
+    "currency": "USD",
+    "period": "FY2025",
+    "tier": "3_modeled",
+    "derivation": "Modeled using category-typical digital streaming marketing-to-revenue ratios (12-18%) applied to estimated Audible subscription revenues within Amazon's subscription services segment.",
     "source": null
   },
   "trend_history": {
@@ -48,30 +48,11 @@
   },
   "business_updates": [
     {
-      "headline": "Rolling out AI-narrated audiobooks globally",
-      "date": "2026-01-01",
+      "headline": "Amazon announced Q2 2026 financial results, reporting net sales up 20% year-over-year and operating income reaching $27.5 billion.",
+      "date": "2026-08-01",
       "source": {
-        "name": "Company disclosures",
-        "url": "",
-        "date": "2026-01-01"
-      }
-    },
-    {
-      "headline": "Continued Audible India catalogue expansion in regional languages",
-      "date": "2026-01-01",
-      "source": {
-        "name": "Company disclosures",
-        "url": "",
-        "date": "2026-01-01"
-      }
-    },
-    {
-      "headline": "Bundled within Amazon Prime ecosystem promotions",
-      "date": "2026-01-01",
-      "source": {
-        "name": "Company disclosures",
-        "url": "",
-        "date": "2026-01-01"
+        "name": "Amazon Investor Relations",
+        "url": "https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-Second-Quarter-Results"
       }
     }
   ]

@@ -1,18 +1,18 @@
 {
   "name": "Paper Boat",
   "slug": "paper-boat",
-  "parent": "Hector Beverages Pvt Ltd (RCPL)",
+  "parent": "Hector Beverages Pvt Ltd",
   "entity_type": "india_private_registered",
   "category": "F&B",
-  "description": "Paper Boat is made by Hector Beverages Pvt Ltd, an India-registered private company filing with the MCA/RoC. Ownership note: a Tata Consumer Products majority stake is NOT confirmed in searchable sources — Tata reportedly explored acquiring Paper Boat in 2018, but founder Neeraj Kakkar denied any sell-out at the time. Confirmed backers are GIC, Sofina, A91 Partners, Catamaran and Peak XV (~$143M raised). Do not assert a Tata majority without a fresh MCA shareholding check.",
-  "last_refreshed": "2026-09-08T12:00:00.000Z",
+  "description": "Paper Boat is an Indian beverage and food brand offering traditional packaged juices, coconut water, snacks, and dry fruits, produced by Hector Beverages Pvt Ltd.",
+  "last_refreshed": "2026-09-13T08:33:48.744Z",
   "stock": {
     "applicable": false,
     "value": null,
     "currency": "INR",
     "ticker": null,
     "as_of": null,
-    "note": "Private company.",
+    "note": "Hector Beverages Pvt Ltd is an unlisted private registered entity.",
     "confidence": "not_applicable"
   },
   "revenue": {
@@ -21,65 +21,79 @@
     "period": "FY2026",
     "confidence": "disclosed",
     "source": {
-      "name": "Lapaas Voice (MCA filings)",
-      "url": "",
-      "date": "2026-01-01"
+      "name": "Entrackr",
+      "url": "https://entrackr.com/fintrackr/paper-boat-parent-reports-rs-760-cr-revenue-in-fy26-profit-shrinks-96-12241163",
+      "date": "unknown"
     }
   },
   "operating_profit": {
-    "value": 20000000,
+    "value": 414000000,
     "currency": "INR",
-    "period": "FY2026 net profit (down 96% YoY)",
+    "period": "FY2026",
     "confidence": "disclosed",
     "source": {
-      "name": "Lapaas Voice (MCA filings)",
-      "url": "",
-      "date": "2026-01-01"
+      "name": "Zane Marketing",
+      "url": "https://zane.marketing/news/paper-boat-fy26-revenue-profit-decline",
+      "date": "unknown"
     }
   },
   "expenses": {
     "breakdown": [
       {
-        "label": "Material costs (FY25)",
-        "value": 4440000000,
+        "label": "Material consumption",
+        "value": 4850000000,
         "confidence": "disclosed"
       },
       {
-        "label": "Employee costs (FY25)",
-        "value": 903500000,
+        "label": "Other operating expenses (legal, travel, rent, professional)",
+        "value": 830000000,
         "confidence": "disclosed"
       },
       {
-        "label": "Selling & distribution (FY25)",
-        "value": 584700000,
+        "label": "Selling and distribution expenses",
+        "value": 670000000,
+        "confidence": "disclosed"
+      },
+      {
+        "label": "Advertising and promotional expenses",
+        "value": 280000000,
+        "confidence": "disclosed"
+      },
+      {
+        "label": "Job work charges",
+        "value": 250000000,
         "confidence": "disclosed"
       }
     ],
     "confidence": "disclosed"
   },
   "marketing_spend": {
-    "value_low": 250000000,
-    "value_high": 450000000,
+    "value_low": 280000000,
+    "value_high": 280000000,
     "currency": "INR",
-    "period": "FY2025 (disclosed-partial)",
+    "period": "FY2026",
     "tier": "1_disclosed",
-    "derivation": "FY25 filings show selling & distribution costs of ₹58.47 crore, with advertising bundled into total expenses of ₹716.53 crore rather than cleanly isolated as its own line. Using selling & distribution as the best disclosed proxy, advertising specifically is estimated at ~₹25-45 crore as a subset of that figure for FY25.",
+    "derivation": "Disclosed in annual financial statements sourced from the Registrar of Companies (RoC), reporting advertising and promotional expenses of Rs 28 crore for FY26.",
     "source": {
-      "name": "CEOsofBharat (MCA filings)",
-      "url": "",
-      "date": "2025-01-01"
+      "name": "Entrackr",
+      "url": "https://entrackr.com/fintrackr/paper-boat-parent-reports-rs-760-cr-revenue-in-fy26-profit-shrinks-96-12241163",
+      "date": "unknown"
     }
   },
   "trend_history": {
     "stock": [],
     "revenue": [
       {
+        "period": "FY2023",
+        "value": 5039600000
+      },
+      {
         "period": "FY2024",
-        "value": 5746000000
+        "value": 5848500000
       },
       {
         "period": "FY2025",
-        "value": 6682800000
+        "value": 6680000000
       },
       {
         "period": "FY2026",
@@ -89,30 +103,27 @@
   },
   "business_updates": [
     {
-      "headline": "FY25 return to profit (₹46 crore) after a heavy FY24 loss (-₹334.1 crore)",
-      "date": "2025-10-01",
+      "headline": "Paper Boat parent Hector Beverages reports ₹760 crore revenue in FY26 while profit plunges 96% to ₹2 crore",
+      "date": "unknown",
       "source": {
-        "name": "Entrackr / Tofler via Indian Retailer",
-        "url": "",
-        "date": "2025-10-01"
+        "name": "Entrackr",
+        "url": "https://entrackr.com/fintrackr/paper-boat-parent-reports-rs-760-cr-revenue-in-fy26-profit-shrinks-96-12241163"
       }
     },
     {
-      "headline": "FY26 revenue crossed ₹760 crore but profit collapsed 96% to ₹2 crore on a higher cost base",
-      "date": "2026-01-01",
+      "headline": "Shift to third-party manufacturing drives traded goods to 75% of operating revenue in FY26",
+      "date": "unknown",
       "source": {
-        "name": "Lapaas Voice",
-        "url": "",
-        "date": "2026-01-01"
+        "name": "Zane Marketing",
+        "url": "https://zane.marketing/news/paper-boat-fy26-revenue-profit-decline"
       }
     },
     {
-      "headline": "Revenue mix shifting toward third-party traded goods (66% of FY25 revenue)",
-      "date": "2025-10-01",
+      "headline": "Hector Beverages achieves financial turnaround in FY25 reporting ₹46 crore profit",
+      "date": "unknown",
       "source": {
-        "name": "Entrackr / Tofler",
-        "url": "",
-        "date": "2025-10-01"
+        "name": "ETManufacturing",
+        "url": "https://manufacturing.economictimes.indiatimes.com/news/food-beverages/hector-beverages-reports-46-cr-profit-in-fy25-marks-significant-growth-with-16-3-rise-in-sales/124662577"
       }
     }
   ]
