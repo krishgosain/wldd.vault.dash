@@ -4,28 +4,28 @@
   "parent": "Amazon",
   "entity_type": "public_parent",
   "category": "Quick Commerce",
-  "description": "Amazon Now is a quick commerce delivery service operated by parent company Amazon.com, Inc. for rapid fulfillment of groceries and essentials.",
-  "last_refreshed": "2026-09-13T08:32:37.246Z",
+  "description": "Amazon Now is the quick commerce delivery service operated as a business unit of e-commerce parent Amazon.com, Inc.",
+  "last_refreshed": "2026-09-14T09:14:13.185Z",
   "stock": {
     "applicable": false,
-    "value": 265.13,
+    "value": null,
     "currency": "USD",
     "ticker": "AMZN",
-    "as_of": "2026-08-14",
-    "note": "Reflects parent company Amazon.com, Inc. (AMZN), as Amazon Now is an internal service brand without a separate listing.",
+    "as_of": "2026-04-01",
+    "note": "Reflects parent company Amazon.com, Inc. (NASDAQ: AMZN), not Amazon Now as a standalone entity.",
     "confidence": "not_applicable"
   },
   "revenue": {
     "value": null,
     "currency": "USD",
-    "period": "Q1 2026",
+    "period": "FY2025",
     "confidence": "not_found",
     "source": null
   },
   "operating_profit": {
     "value": null,
     "currency": "USD",
-    "period": "Q1 2026",
+    "period": "FY2025",
     "confidence": "not_found",
     "source": null
   },
@@ -34,17 +34,13 @@
     "confidence": "not_found"
   },
   "marketing_spend": {
-    "value_low": 100000000,
-    "value_high": 300000000,
+    "value_low": 50000000,
+    "value_high": 150000000,
     "currency": "USD",
-    "period": "Q1 2026",
+    "period": "FY2025",
     "tier": "3_modeled",
-    "derivation": "Modeled using a standard 3% to 5% marketing-to-revenue ratio applied against estimated regional quick commerce gross sales within Amazon's broader $181.52B Q1 2026 net sales context.",
-    "source": {
-      "name": "Amazon.com Announces First Quarter Results",
-      "url": "https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-First-Quarter-Results/default.aspx",
-      "date": "2026-03-31"
-    }
+    "derivation": "Modeled using a quick-commerce benchmark marketing ratio of 5-10% applied against estimated quick commerce service gross scale.",
+    "source": null
   },
   "trend_history": {
     "stock": [
@@ -62,19 +58,19 @@
   },
   "business_updates": [
     {
-      "headline": "FTC alleges Amazon generated billions of dollars in hidden advertising fees",
-      "date": "2026-08-14",
+      "headline": "Amazon reports FY2025 total revenue of $717 billion supported by retail and ad expansion",
+      "date": "2026-01-01",
       "source": {
-        "name": "Morningstar",
-        "url": "https://www.morningstar.com/stocks/xnas/amzn/quote"
+        "name": "MEXC Blog",
+        "url": "https://blog.mexc.com/finance/amazon-stock-long-term-investment-analysis"
       }
     },
     {
-      "headline": "Amazon Business reaches $60 billion in annualized gross sales",
-      "date": "2026-06-30",
+      "headline": "Amazon operating income reaches $18.4 billion with strong contributions from advertising and AWS",
+      "date": "2026-01-01",
       "source": {
-        "name": "StockTitan",
-        "url": "https://www.stocktitan.net/overview/AMZN"
+        "name": "Barchart",
+        "url": "https://www.barchart.com/story/news/33155432/amzn-stock-forecast-1-way-for-amazon-to-boost-billions-in-new-revenue"
       }
     }
   ]

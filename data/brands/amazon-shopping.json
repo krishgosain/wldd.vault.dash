@@ -4,70 +4,54 @@
   "parent": "Amazon.com, Inc.",
   "entity_type": "public_parent",
   "category": "E-commerce",
-  "description": "Amazon Shopping is the primary global e-commerce retail platform operated by parent company Amazon.com, Inc.",
-  "last_refreshed": "2026-09-13T08:32:20.305Z",
+  "description": "Amazon Shopping is the flagship e-commerce and retail marketplace operated by publicly listed technology conglomerate Amazon.com, Inc.",
+  "last_refreshed": "2026-09-14T09:13:54.854Z",
   "stock": {
     "applicable": true,
-    "value": 256.78,
+    "value": 265.13,
     "currency": "USD",
     "ticker": "AMZN",
-    "as_of": "2026-08-14",
-    "note": "Reflects parent company Amazon.com, Inc., not this individual platform brand specifically",
+    "as_of": null,
+    "note": "Stock value reflects parent entity Amazon.com, Inc. (AMZN), not the Amazon Shopping platform standalone.",
     "confidence": "disclosed"
   },
   "revenue": {
     "value": 181520000000,
     "currency": "USD",
-    "period": "Q1 2026",
+    "period": "Q1 FY2026",
     "confidence": "disclosed",
     "source": {
-      "name": "Data Insights Reports",
-      "url": "https://www.datainsightsreports.com/companies/AMZN",
-      "date": "2026"
+      "name": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AMZN",
+      "date": "2026-08-14"
     }
   },
   "operating_profit": {
-    "value": 23900000000,
+    "value": 30250000000,
     "currency": "USD",
-    "period": "Q1 2026",
+    "period": "Q1 FY2026",
     "confidence": "disclosed",
     "source": {
-      "name": "Data Insights Reports",
-      "url": "https://www.datainsightsreports.com/companies/AMZN",
-      "date": "2026"
+      "name": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AMZN",
+      "date": "2026-08-14"
     }
   },
   "expenses": {
-    "breakdown": [
-      {
-        "label": "Cost of goods sold",
-        "value": 87460000000,
-        "confidence": "disclosed"
-      },
-      {
-        "label": "Selling, general, and admin expenses",
-        "value": 44850000000,
-        "confidence": "disclosed"
-      },
-      {
-        "label": "Research and development expenses",
-        "value": 24910000000,
-        "confidence": "disclosed"
-      }
-    ],
-    "confidence": "disclosed"
+    "breakdown": [],
+    "confidence": "not_found"
   },
   "marketing_spend": {
-    "value_low": 7260800000,
-    "value_high": 10891200000,
+    "value_low": 9000000000,
+    "value_high": 11000000000,
     "currency": "USD",
-    "period": "Q1 2026",
+    "period": "Q1 FY2026",
     "tier": "3_modeled",
-    "derivation": "Calculated as 4% to 6% of Q1 2026 total revenue ($181.52B), representing typical sales, promotion, and user-acquisition intensity for mega-scale e-commerce platforms.",
+    "derivation": "Estimated by applying a standard 5%-6% marketing-to-revenue ratio typical for retail tech platforms to Amazon's reported Q1 FY2026 revenue of $181.52B.",
     "source": {
-      "name": "Google Finance",
-      "url": "https://www.google.com/finance/quote/AMZN:NASDAQ",
-      "date": "2026"
+      "name": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AMZN",
+      "date": "2026-08-14"
     }
   },
   "trend_history": {
@@ -78,7 +62,7 @@
       },
       {
         "date": "2026-08-14",
-        "value": 256.78
+        "value": 265.13
       }
     ],
     "revenue": [
@@ -92,6 +76,10 @@
       },
       {
         "period": "Q1 2026",
+        "value": 181520000000
+      },
+      {
+        "period": "Q1 FY2026",
         "value": 181520000000
       },
       {
@@ -110,15 +98,7 @@
   },
   "business_updates": [
     {
-      "headline": "Amazon reports robust Q1 2026 net sales of $181.5 billion, up 17% YoY",
-      "date": "2026-04-30",
-      "source": {
-        "name": "Data Insights Reports",
-        "url": "https://www.datainsightsreports.com/companies/AMZN"
-      }
-    },
-    {
-      "headline": "Amazon Ads launches First Day Ready campaign connecting brands to Gen Z in colleges",
+      "headline": "Amazon Ads Launches 'First Day Ready,' a Multi-Brand Campaign Connecting Brands to Gen Z at College's Biggest Moment",
       "date": "2026-09-01",
       "source": {
         "name": "Morningstar",
@@ -126,11 +106,11 @@
       }
     },
     {
-      "headline": "Massive AI investments yield $15 billion annualized revenue run-rate for Amazon",
-      "date": "2026-01-01",
+      "headline": "Amazon's stock slips as the FTC alleges billions of dollars in hidden ad fees",
+      "date": "2026-09-01",
       "source": {
-        "name": "Koala Gains",
-        "url": "https://koalagains.com/stocks/NASDAQ/AMZN"
+        "name": "Morningstar",
+        "url": "https://www.morningstar.com/stocks/xnas/amzn/quote"
       }
     }
   ]

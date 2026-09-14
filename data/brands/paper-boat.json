@@ -4,92 +4,62 @@
   "parent": "Hector Beverages Pvt Ltd",
   "entity_type": "india_private_registered",
   "category": "F&B",
-  "description": "Paper Boat is an Indian beverage and food brand offering traditional packaged juices, coconut water, snacks, and dry fruits, produced by Hector Beverages Pvt Ltd.",
-  "last_refreshed": "2026-09-13T08:33:48.744Z",
+  "description": "Paper Boat is an Indian brand of traditional beverages and packaged snacks produced and owned by Hector Beverages Pvt. Ltd.",
+  "last_refreshed": "2026-09-14T09:14:57.770Z",
   "stock": {
     "applicable": false,
     "value": null,
     "currency": "INR",
     "ticker": null,
     "as_of": null,
-    "note": "Hector Beverages Pvt Ltd is an unlisted private registered entity.",
+    "note": "Not applicable as Hector Beverages Pvt Ltd is a privately held unlisted company.",
     "confidence": "not_applicable"
   },
   "revenue": {
-    "value": 7600000000,
+    "value": 584.85,
     "currency": "INR",
-    "period": "FY2026",
+    "period": "FY2024",
     "confidence": "disclosed",
     "source": {
-      "name": "Entrackr",
-      "url": "https://entrackr.com/fintrackr/paper-boat-parent-reports-rs-760-cr-revenue-in-fy26-profit-shrinks-96-12241163",
-      "date": "unknown"
+      "name": "YourStory",
+      "url": "https://yourstory.com/2024/10/paperboat-hector-beverages-curbs-annual-loss-revenue-rises",
+      "date": "2024-10"
     }
   },
   "operating_profit": {
-    "value": 414000000,
+    "value": -47.14,
     "currency": "INR",
-    "period": "FY2026",
+    "period": "FY2024",
     "confidence": "disclosed",
     "source": {
-      "name": "Zane Marketing",
-      "url": "https://zane.marketing/news/paper-boat-fy26-revenue-profit-decline",
-      "date": "unknown"
+      "name": "YourStory",
+      "url": "https://yourstory.com/2024/10/paperboat-hector-beverages-curbs-annual-loss-revenue-rises",
+      "date": "2024-10"
     }
   },
   "expenses": {
-    "breakdown": [
-      {
-        "label": "Material consumption",
-        "value": 4850000000,
-        "confidence": "disclosed"
-      },
-      {
-        "label": "Other operating expenses (legal, travel, rent, professional)",
-        "value": 830000000,
-        "confidence": "disclosed"
-      },
-      {
-        "label": "Selling and distribution expenses",
-        "value": 670000000,
-        "confidence": "disclosed"
-      },
-      {
-        "label": "Advertising and promotional expenses",
-        "value": 280000000,
-        "confidence": "disclosed"
-      },
-      {
-        "label": "Job work charges",
-        "value": 250000000,
-        "confidence": "disclosed"
-      }
-    ],
-    "confidence": "disclosed"
+    "breakdown": [],
+    "confidence": "not_found"
   },
   "marketing_spend": {
-    "value_low": 280000000,
-    "value_high": 280000000,
+    "value_low": 58.49,
+    "value_high": 87.73,
     "currency": "INR",
-    "period": "FY2026",
-    "tier": "1_disclosed",
-    "derivation": "Disclosed in annual financial statements sourced from the Registrar of Companies (RoC), reporting advertising and promotional expenses of Rs 28 crore for FY26.",
-    "source": {
-      "name": "Entrackr",
-      "url": "https://entrackr.com/fintrackr/paper-boat-parent-reports-rs-760-cr-revenue-in-fy26-profit-shrinks-96-12241163",
-      "date": "unknown"
-    }
+    "period": "FY2024",
+    "tier": "3_modeled",
+    "derivation": "Calculated using a 10% to 15% revenue ratio typical for established Indian fast-moving consumer beverage brands, applied to Hector Beverages' reported FY24 operating revenue of Rs 584.85 crore.",
+    "source": null
   },
   "trend_history": {
     "stock": [],
     "revenue": [
       {
         "period": "FY2023",
-        "value": 5039600000
+        "value": 503.96
       },
       {
         "period": "FY2024",
-        "value": 5848500000
+        "value": 584.85
       },
       {
         "period": "FY2025",
@@ -103,27 +73,19 @@
   },
   "business_updates": [
     {
-      "headline": "Paper Boat parent Hector Beverages reports ₹760 crore revenue in FY26 while profit plunges 96% to ₹2 crore",
-      "date": "unknown",
+      "headline": "Paper Boat curbs annual loss by 48% to Rs 47.14 crore; revenue rises 16% to Rs 584.85 crore in FY24",
+      "date": "2024-10",
       "source": {
-        "name": "Entrackr",
-        "url": "https://entrackr.com/fintrackr/paper-boat-parent-reports-rs-760-cr-revenue-in-fy26-profit-shrinks-96-12241163"
+        "name": "YourStory",
+        "url": "https://yourstory.com/2024/10/paperboat-hector-beverages-curbs-annual-loss-revenue-rises"
       }
     },
     {
-      "headline": "Shift to third-party manufacturing drives traded goods to 75% of operating revenue in FY26",
-      "date": "unknown",
+      "headline": "Paper Boat parent Hector Beverages raises $50M funding from Singapore's GIC",
+      "date": "2022-08",
       "source": {
-        "name": "Zane Marketing",
-        "url": "https://zane.marketing/news/paper-boat-fy26-revenue-profit-decline"
-      }
-    },
-    {
-      "headline": "Hector Beverages achieves financial turnaround in FY25 reporting ₹46 crore profit",
-      "date": "unknown",
-      "source": {
-        "name": "ETManufacturing",
-        "url": "https://manufacturing.economictimes.indiatimes.com/news/food-beverages/hector-beverages-reports-46-cr-profit-in-fy25-marks-significant-growth-with-16-3-rise-in-sales/124662577"
+        "name": "YourStory",
+        "url": "https://yourstory.com/2022/08/gic-invests-in-paper-boat-parent-company-hector-beverages"
       }
     }
   ]

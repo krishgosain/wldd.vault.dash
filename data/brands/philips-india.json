@@ -4,54 +4,51 @@
   "parent": "Koninklijke Philips N.V.",
   "entity_type": "india_private_registered",
   "category": "Consumer Electronics",
-  "description": "Philips India Limited is the unlisted Indian subsidiary of Dutch health tech and consumer appliance company Koninklijke Philips N.V., operating across healthcare systems and personal healthcare.",
-  "last_refreshed": "2026-09-13T08:30:02.749Z",
+  "description": "Philips India is an Indian private registered subsidiary of publicly listed parent Koninklijke Philips N.V., providing consumer electronics, healthcare solutions, and personal care products.",
+  "last_refreshed": "2026-09-14T09:12:08.750Z",
   "stock": {
     "applicable": false,
     "value": null,
-    "currency": "INR",
-    "ticker": null,
-    "as_of": null,
-    "note": "Philips India is an unlisted entity; parent Koninklijke Philips N.V. is listed on Euronext Amsterdam (PHIA.AS) and NYSE (PHG).",
+    "currency": "EUR",
+    "ticker": "PHIA.AS",
+    "as_of": "2026-03-03",
+    "note": "Reflects parent company Koninklijke Philips N.V. (Euronext Amsterdam: PHIA), not Philips India specifically.",
     "confidence": "not_applicable"
   },
   "revenue": {
-    "value": 65420000000,
+    "value": null,
     "currency": "INR",
     "period": "FY2025",
-    "confidence": "disclosed",
-    "source": {
-      "name": "UnlistedZone",
-      "url": "https://unlistedzone.com/philips-india-limited-fy25-financial-performance-analysis",
-      "date": "2025-01-01"
-    }
+    "confidence": "not_found",
+    "source": null
   },
   "operating_profit": {
-    "value": 5910000000,
+    "value": null,
     "currency": "INR",
     "period": "FY2025",
-    "confidence": "disclosed",
-    "source": {
-      "name": "UnlistedZone",
-      "url": "https://unlistedzone.com/philips-india-limited-fy25-financial-performance-analysis",
-      "date": "2025-01-01"
-    }
+    "confidence": "not_found",
+    "source": null
   },
   "expenses": {
     "breakdown": [],
     "confidence": "not_found"
   },
   "marketing_spend": {
-    "value_low": 1962600000,
-    "value_high": 3271000000,
+    "value_low": 1500000000,
+    "value_high": 3000000000,
     "currency": "INR",
     "period": "FY2025",
-    "tier": "3_modeled",
-    "derivation": "Modeled at 3% to 5% of reported FY25 revenue (₹6,542 crore) based on category-typical marketing expense benchmarks for consumer health and appliances in India.",
+    "tier": "4_triangulated",
+    "derivation": "Triangulated using Indian consumer electronics industry AdEx benchmarks and relative brand market visibility, as exact local filing spend was not provided in context.",
     "source": null
   },
   "trend_history": {
-    "stock": [],
+    "stock": [
+      {
+        "date": "2026-03-03",
+        "value": 25.69
+      }
+    ],
     "revenue": [
       {
         "period": "FY2023",
@@ -69,11 +66,19 @@
   },
   "business_updates": [
     {
-      "headline": "Philips India reports FY25 revenue of ₹6,542 crore with EBITDA growing 32% to ₹591 crore",
-      "date": "2025-01-01",
+      "headline": "Philips Reiterates Timing of 2026 Outlook",
+      "date": "2026-02-17",
       "source": {
-        "name": "UnlistedZone",
-        "url": "https://unlistedzone.com/philips-india-limited-fy25-financial-performance-analysis"
+        "name": "MarketWatch",
+        "url": "https://www.marketwatch.com/investing/stock/phia?countrycode=nl&gaa_at=eafs&gaa_n=AWEtsqfG6erBKf8FfN3VOekjezznrfktGqNoZLjVASGOO64zx_VmUbcMjFJ9&gaa_ts=69a75b3a&gaa_sig=WCq3VuucpOZJTA4tzE0bxT3_WRzoU-Mui0OS7XoSBFaMauS_WvDmCn-sobghI0VL-0MqnPw2kxwzVlIp_we3xQ%3D%3D"
+      }
+    },
+    {
+      "headline": "Philips Agrees to $1 Billion U.S. Ventilator Settlement",
+      "date": "2026-02-12",
+      "source": {
+        "name": "MarketWatch",
+        "url": "https://www.marketwatch.com/investing/stock/phia?countrycode=nl&gaa_at=eafs&gaa_n=AWEtsqfG6erBKf8FfN3VOekjezznrfktGqNoZLjVASGOO64zx_VmUbcMjFJ9&gaa_ts=69a75b3a&gaa_sig=WCq3VuucpOZJTA4tzE0bxT3_WRzoU-Mui0OS7XoSBFaMauS_WvDmCn-sobghI0VL-0MqnPw2kxwzVlIp_we3xQ%3D%3D"
       }
     }
   ]

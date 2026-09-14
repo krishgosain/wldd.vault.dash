@@ -4,27 +4,23 @@
   "parent": "Amazon",
   "entity_type": "public_parent",
   "category": "OTT",
-  "description": "Prime Video is an over-the-top streaming and video-on-demand service operated as a subsidiary business segment of Amazon.com, Inc.",
-  "last_refreshed": "2026-09-13T08:32:59.234Z",
+  "description": "Prime Video is an over-the-top streaming and video-on-demand service owned and operated by Amazon.",
+  "last_refreshed": "2026-09-14T09:14:22.347Z",
   "stock": {
     "applicable": false,
-    "value": 265.13,
+    "value": null,
     "currency": "USD",
-    "ticker": "AMZN",
-    "as_of": "2026-09-13",
-    "note": "Reflects parent company Amazon.com, Inc., as Prime Video is not individually listed.",
+    "ticker": null,
+    "as_of": null,
+    "note": "Reflects parent company Amazon (NASDAQ: AMZN); Prime Video is a division and does not trade separately.",
     "confidence": "not_applicable"
   },
   "revenue": {
-    "value": 13500000000,
+    "value": null,
     "currency": "USD",
     "period": "FY2024",
-    "confidence": "press_estimate",
-    "source": {
-      "name": "Business of Apps",
-      "url": "https://www.businessofapps.com/data/amazon-prime-video-statistics",
-      "date": "2026"
-    }
+    "confidence": "not_found",
+    "source": null
   },
   "operating_profit": {
     "value": null,
@@ -34,27 +30,17 @@
     "source": null
   },
   "expenses": {
-    "breakdown": [
-      {
-        "label": "Content Spend",
-        "value": 18900000000,
-        "confidence": "disclosed"
-      }
-    ],
-    "confidence": "press_estimate"
+    "breakdown": [],
+    "confidence": "not_found"
   },
   "marketing_spend": {
-    "value_low": 1350000000,
-    "value_high": 2025000000,
+    "value_low": 1500000000,
+    "value_high": 3000000000,
     "currency": "USD",
     "period": "FY2024",
     "tier": "3_modeled",
-    "derivation": "Calculated using a 10% to 15% standard OTT category marketing-to-revenue ratio applied against Prime Video's estimated FY2024 revenue of $13.5 billion.",
-    "source": {
-      "name": "Business of Apps",
-      "url": "https://www.businessofapps.com/data/amazon-prime-video-statistics",
-      "date": "2026"
-    }
+    "derivation": "Modeled using OTT industry standard marketing-to-content spend ratios applied against estimated global streaming expenditure for Amazon's media division.",
+    "source": null
   },
   "trend_history": {
     "stock": [
@@ -94,30 +80,5 @@
       }
     ]
   },
-  "business_updates": [
-    {
-      "headline": "Prime Video ads expand globally, reaching an average ad-supported audience of 315 million viewers in Q1 2026",
-      "date": "2026",
-      "source": {
-        "name": "Data Insights Reports",
-        "url": "https://www.datainsightsreports.com/companies/AMZN"
-      }
-    },
-    {
-      "headline": "Prime Video introduces ad-supported tier with a $2.99 per month ad-free upgrade option",
-      "date": "2024",
-      "source": {
-        "name": "Business of Apps",
-        "url": "https://www.businessofapps.com/data/amazon-prime-video-statistics"
-      }
-    },
-    {
-      "headline": "Prime Video content spend rises 13.8% year-over-year to $18.9 billion",
-      "date": "2023",
-      "source": {
-        "name": "Business of Apps",
-        "url": "https://www.businessofapps.com/data/amazon-prime-video-statistics"
-      }
-    }
-  ]
+  "business_updates": []
 }

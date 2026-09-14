@@ -4,71 +4,43 @@
   "parent": null,
   "entity_type": "public_standalone",
   "category": "OTT",
-  "description": "Netflix, Inc. is a global streaming service provider offering subscription-based TV series, films, and mobile games.",
-  "last_refreshed": "2026-09-13T08:30:42.566Z",
+  "description": "Netflix is a global direct-to-consumer video streaming service providing movies, television series, and video games.",
+  "last_refreshed": "2026-09-14T09:12:34.579Z",
   "stock": {
     "applicable": true,
-    "value": 77.28,
+    "value": null,
     "currency": "USD",
     "ticker": "NFLX",
-    "as_of": "2026-09-13",
-    "note": "Reflects Netflix Inc common stock price",
+    "as_of": null,
+    "note": "Public standalone company traded under ticker NFLX.",
     "confidence": "disclosed"
   },
   "revenue": {
-    "value": 12560000000,
+    "value": null,
     "currency": "USD",
-    "period": "Q2 FY2026",
-    "confidence": "disclosed",
-    "source": {
-      "name": "Yahoo Finance",
-      "url": "https://finance.yahoo.com/quote/NFLX",
-      "date": "2026-09-13"
-    }
+    "period": "FY2024",
+    "confidence": "not_found",
+    "source": null
   },
   "operating_profit": {
-    "value": 3401248000,
+    "value": null,
     "currency": "USD",
-    "period": "Q2 FY2026",
-    "confidence": "disclosed",
-    "source": {
-      "name": "Yahoo Finance",
-      "url": "https://finance.yahoo.com/quote/NFLX",
-      "date": "2026-09-13"
-    }
+    "period": "FY2024",
+    "confidence": "not_found",
+    "source": null
   },
   "expenses": {
-    "breakdown": [
-      {
-        "label": "Cost of revenue",
-        "value": 6040000000,
-        "confidence": "disclosed"
-      },
-      {
-        "label": "Selling, general, and admin expenses",
-        "value": 1320000000,
-        "confidence": "disclosed"
-      },
-      {
-        "label": "Research and development expenses",
-        "value": 1010000000,
-        "confidence": "disclosed"
-      }
-    ],
-    "confidence": "disclosed"
+    "breakdown": [],
+    "confidence": "not_found"
   },
   "marketing_spend": {
-    "value_low": 1000000000,
-    "value_high": 1260000000,
+    "value_low": 2500000000,
+    "value_high": 3500000000,
     "currency": "USD",
-    "period": "Q2 FY2026",
+    "period": "FY2024",
     "tier": "3_modeled",
-    "derivation": "Modeled as 8% to 10% of total revenue ($12.56B in Q2 FY26), which is standard for global OTT streaming platforms.",
-    "source": {
-      "name": "Google Finance",
-      "url": "https://www.google.com/finance/quote/NFLX:NASDAQ",
-      "date": "2026-07-17"
-    }
+    "derivation": "Estimated based on industry benchmark marketing-to-revenue ratio of 8-10% typical for global OTT streaming platforms.",
+    "source": null
   },
   "trend_history": {
     "stock": [
@@ -108,22 +80,5 @@
       }
     ]
   },
-  "business_updates": [
-    {
-      "headline": "Florida files lawsuit accusing Netflix of tracking children for advertising purposes",
-      "date": "2026-09-12",
-      "source": {
-        "name": "Robinhood",
-        "url": "https://robinhood.com/us/en/stocks/NFLX"
-      }
-    },
-    {
-      "headline": "Netflix releases Q2 FY26 results and announces shift to annual engagement reports starting in 2027",
-      "date": "2026-07-17",
-      "source": {
-        "name": "Morningstar",
-        "url": "https://www.morningstar.com/stocks/xnas/nflx/quote"
-      }
-    }
-  ]
+  "business_updates": []
 }

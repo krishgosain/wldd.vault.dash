@@ -4,54 +4,62 @@
   "parent": null,
   "entity_type": "public_standalone",
   "category": "Auto",
-  "description": "Tata Motors is an Indian multinational automobile manufacturing company producing commercial and passenger vehicles.",
-  "last_refreshed": "2026-09-13T08:29:45.225Z",
+  "description": "Tata Motors is India's largest automobile manufacturer, operating across passenger vehicles, commercial vehicles, and luxury cars through Jaguar Land Rover.",
+  "last_refreshed": "2026-09-14T09:11:47.935Z",
   "stock": {
     "applicable": true,
-    "value": 472.55,
+    "value": 406.45,
     "currency": "INR",
     "ticker": "TATAMOTORS.NS",
-    "as_of": "2026-08-24",
-    "note": "Share price on NSE",
+    "as_of": "2026-08-31",
+    "note": "Reflects NSE stock price prior to/following commercial vehicle demerger listings",
     "confidence": "disclosed"
   },
   "revenue": {
-    "value": 838550000000,
+    "value": 1044070000000,
     "currency": "INR",
-    "period": "FY2026",
-    "confidence": "disclosed",
-    "source": {
-      "name": "Reuters",
-      "url": "https://www.reuters.com/markets/companies/TATM.NS",
-      "date": "2026-08-01"
-    }
-  },
-  "operating_profit": {
-    "value": 5426000000,
-    "currency": "INR",
-    "period": "FY2026",
+    "period": "Q1 FY26",
     "confidence": "disclosed",
     "source": {
       "name": "INDmoney",
       "url": "https://www.indmoney.com/stocks/tata-motors-ltd-share-price",
-      "date": "2026-08-01"
+      "date": "2026-09-02"
     }
+  },
+  "operating_profit": {
+    "value": null,
+    "currency": "INR",
+    "period": "Q1 FY26",
+    "confidence": "not_found",
+    "source": null
   },
   "expenses": {
     "breakdown": [],
     "confidence": "not_found"
   },
   "marketing_spend": {
-    "value_low": 12578000000,
-    "value_high": 20963000000,
+    "value_low": 15661050000,
+    "value_high": 26101750000,
     "currency": "INR",
-    "period": "FY2026",
+    "period": "Q1 FY26",
     "tier": "3_modeled",
-    "derivation": "Modeled using an auto industry benchmark of 1.5% to 2.5% of total annual revenue against FY2026 revenue of ₹838,550 million.",
-    "source": null
+    "derivation": "Modeled using an auto industry marketing-to-revenue benchmark ratio of 1.5% to 2.5% applied to Tata Motors' Q1 FY26 consolidated revenue of ₹1,04,407 crore.",
+    "source": {
+      "name": "INDmoney",
+      "url": "https://www.indmoney.com/stocks/tata-motors-ltd-share-price",
+      "date": "2026-09-02"
+    }
   },
   "trend_history": {
     "stock": [
+      {
+        "date": "2024-12-01",
+        "value": 733.84
+      },
+      {
+        "date": "2025-06-01",
+        "value": 688
+      },
       {
         "date": "2025-08-01",
         "value": 669
@@ -80,22 +88,34 @@
     "revenue": [
       {
         "period": "FY2024",
-        "value": 800700000000
+        "value": 4384728900000
       },
       {
         "period": "FY2025",
-        "value": 582170000000
+        "value": 4376070000000
       },
       {
         "period": "FY2026",
-        "value": 838550000000
+        "value": 3297200000000
+      },
+      {
+        "period": "Q1 FY26",
+        "value": 1044070000000
       }
     ]
   },
   "business_updates": [
     {
-      "headline": "Tata Motors commercial vehicle business lists on NSE following demerger from passenger vehicle segment",
-      "date": "2026-09-11",
+      "headline": "Tata Motors reports Q1 FY26 consolidated revenue of ₹1,04,407 crore",
+      "date": "2026-09-02",
+      "source": {
+        "name": "INDmoney",
+        "url": "https://www.indmoney.com/stocks/tata-motors-ltd-share-price"
+      }
+    },
+    {
+      "headline": "Tata Motors commercial vehicle business listings follow demerger from passenger vehicle segment",
+      "date": "2026-09-13",
       "source": {
         "name": "CNBC-TV18",
         "url": "https://www.instagram.com/reel/DQ8g3VUCEF4?hl=en"

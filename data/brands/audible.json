@@ -1,31 +1,31 @@
 {
   "name": "Audible",
   "slug": "audible",
-  "parent": "Amazon",
+  "parent": "Amazon.com, Inc.",
   "entity_type": "public_parent",
   "category": "Audio Streaming",
-  "description": "Audible is an online audiobook and spoken-word entertainment subscription service operated as a subsidiary of Amazon.",
-  "last_refreshed": "2026-09-13T08:31:41.018Z",
+  "description": "Audible is a digital audiobook and podcast service that operates as a wholly owned subsidiary of Amazon.com, Inc.",
+  "last_refreshed": "2026-09-14T09:13:20.180Z",
   "stock": {
     "applicable": false,
     "value": null,
     "currency": "USD",
     "ticker": null,
     "as_of": null,
-    "note": "Reflects parent company Amazon (NASDAQ: AMZN); Audible does not have a separate publicly traded stock.",
+    "note": "Audible is a subsidiary of Amazon (NASDAQ: AMZN) and does not have an active separate stock ticker.",
     "confidence": "not_applicable"
   },
   "revenue": {
     "value": null,
     "currency": "USD",
-    "period": "",
+    "period": "FY2025",
     "confidence": "not_found",
     "source": null
   },
   "operating_profit": {
     "value": null,
     "currency": "USD",
-    "period": "",
+    "period": "FY2025",
     "confidence": "not_found",
     "source": null
   },
@@ -34,12 +34,12 @@
     "confidence": "not_found"
   },
   "marketing_spend": {
-    "value_low": 150000000,
-    "value_high": 350000000,
+    "value_low": 50000000,
+    "value_high": 150000000,
     "currency": "USD",
     "period": "FY2025",
-    "tier": "3_modeled",
-    "derivation": "Modeled using category-typical digital streaming marketing-to-revenue ratios (12-18%) applied to estimated Audible subscription revenues within Amazon's subscription services segment.",
+    "tier": "4_triangulated",
+    "derivation": "Reasoned estimate based on audio streaming category benchmarks and Audible's dominant market share as a digital spoken-word platform, as specific spend figures are undisclosed in the context.",
     "source": null
   },
   "trend_history": {
@@ -48,11 +48,11 @@
   },
   "business_updates": [
     {
-      "headline": "Amazon announced Q2 2026 financial results, reporting net sales up 20% year-over-year and operating income reaching $27.5 billion.",
-      "date": "2026-08-01",
+      "headline": "Audible ownership profile maintained as wholly owned subsidiary of Amazon",
+      "date": "2025-12-24",
       "source": {
-        "name": "Amazon Investor Relations",
-        "url": "https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-Second-Quarter-Results"
+        "name": "ChampSignal",
+        "url": "https://champsignal.com/ownership/audible.com"
       }
     }
   ]

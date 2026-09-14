@@ -4,43 +4,67 @@
   "parent": "Agilitas Sports Pvt Ltd",
   "entity_type": "india_private_registered",
   "category": "Footwear / Sports",
-  "description": "Agilitas is an Indian footwear and sports brand owned by Agilitas Sports Pvt Ltd.",
-  "last_refreshed": "2026-09-13T08:34:17.843Z",
+  "description": "Agilitas is an Indian sportswear and athleisure brand that provides vertically integrated footwear manufacturing, design, and retail solutions under Agilitas Sports Pvt Ltd.",
+  "last_refreshed": "2026-09-14T09:15:35.711Z",
   "stock": {
     "applicable": false,
     "value": null,
     "currency": "INR",
     "ticker": null,
     "as_of": null,
-    "note": "Agilitas Sports Pvt Ltd is a privately held company and does not have a publicly traded stock.",
+    "note": "Private company, stock not publicly traded",
     "confidence": "not_applicable"
   },
   "revenue": {
-    "value": null,
-    "currency": "INR",
-    "period": "FY2024",
-    "confidence": "not_found",
-    "source": null
+    "value": 141290000,
+    "currency": "USD",
+    "period": "FY2026",
+    "confidence": "press_estimate",
+    "source": {
+      "name": "CB Insights",
+      "url": "https://www.cbinsights.com/company/agilitas-sports/financials",
+      "date": ""
+    }
   },
   "operating_profit": {
     "value": null,
-    "currency": "INR",
-    "period": "FY2024",
+    "currency": "USD",
+    "period": "FY2026",
     "confidence": "not_found",
     "source": null
   },
   "expenses": {
-    "breakdown": [],
-    "confidence": "not_found"
+    "breakdown": [
+      {
+        "label": "Employee Expenses",
+        "value": 4591,
+        "confidence": "disclosed"
+      },
+      {
+        "label": "Operating Expenses",
+        "value": 3597,
+        "confidence": "disclosed"
+      },
+      {
+        "label": "Interest Expenses",
+        "value": 2463,
+        "confidence": "disclosed"
+      }
+    ],
+    "confidence": "disclosed"
   },
   "marketing_spend": {
-    "value_low": 50000000,
-    "value_high": 150000000,
-    "currency": "INR",
-    "period": "FY2024",
-    "tier": "4_triangulated",
-    "derivation": "Triangulated estimate based on typical initial advertising and sales promotion budgets for early-stage Indian sports footwear ventures, given the absence of direct public disclosures in context.",
-    "source": null
+    "value_low": 14129000,
+    "value_high": 21193500,
+    "currency": "USD",
+    "period": "FY2026",
+    "tier": "3_modeled",
+    "derivation": "Modeled using a category-typical marketing spend benchmark of 10% to 15% of total revenue for fast-growing Indian D2C sportswear and footwear brands, applied against FY2026 revenue of $141.29M.",
+    "source": {
+      "name": "CB Insights",
+      "url": "https://www.cbinsights.com/company/agilitas-sports/financials",
+      "date": ""
+    }
   },
   "trend_history": {
     "stock": [],
@@ -52,8 +76,29 @@
       {
         "period": "FY2025",
         "value": 10150000000
+      },
+      {
+        "period": "FY2026",
+        "value": 141290000
       }
     ]
   },
-  "business_updates": []
+  "business_updates": [
+    {
+      "headline": "Agilitas Sports raises ₹225 Crore ($24M) in venture funding led by Nexus Venture Partners and Rainmatter",
+      "date": "2026-06-04",
+      "source": {
+        "name": "Inc42 / EquityZen",
+        "url": "https://equityzen.com/company/agilitassports"
+      }
+    },
+    {
+      "headline": "Agilitas valuation reaches $228.87M in late 2025",
+      "date": "2025-12-01",
+      "source": {
+        "name": "CB Insights",
+        "url": "https://www.cbinsights.com/company/agilitas-sports/financials"
+      }
+    }
+  ]
 }

@@ -4,8 +4,8 @@
   "parent": "Wispr AI",
   "entity_type": "foreign_private",
   "category": "Consumer Tech / AI",
-  "description": "Wispr Flow is an AI-powered voice-to-text dictation application developed by Wispr AI.",
-  "last_refreshed": "2026-09-13T08:34:32.586Z",
+  "description": "Wispr Flow is an AI-powered voice-to-text dictation application and voice operating system developed by Wispr AI.",
+  "last_refreshed": "2026-09-14T09:15:47.851Z",
   "stock": {
     "applicable": false,
     "value": null,
@@ -16,15 +16,11 @@
     "confidence": "not_applicable"
   },
   "revenue": {
-    "value": 10000000,
+    "value": null,
     "currency": "USD",
     "period": "FY2025",
-    "confidence": "press_estimate",
-    "source": {
-      "name": "GetLatka",
-      "url": "https://getlatka.com/companies/wisprflow.ai",
-      "date": "2025-10-01"
-    }
+    "confidence": "not_found",
+    "source": null
   },
   "operating_profit": {
     "value": null,
@@ -38,16 +34,16 @@
     "confidence": "not_found"
   },
   "marketing_spend": {
-    "value_low": 2000000,
-    "value_high": 4000000,
+    "value_low": 15000000,
+    "value_high": 30000000,
     "currency": "USD",
-    "period": "FY2025",
+    "period": "2025-2026",
     "tier": "3_modeled",
-    "derivation": "Modeled by applying a standard 20% to 40% sales and marketing spend ratio typical for high-growth AI SaaS startups against Wispr Flow's reported $10M ARR reached in late 2025.",
+    "derivation": "Modeled assuming 15-25% allocation to growth marketing and user acquisition relative to recent venture capital deployment following a $280M Series B raise and rapid quarterly growth.",
     "source": {
-      "name": "Postbeam",
-      "url": "https://www.postbeam.ai/blog/how-wisprflow-grows",
-      "date": "2026-05-01"
+      "name": "TechCrunch",
+      "url": "https://techcrunch.com/2026/08/17/wispr-raises-280m-at-2b-valuation-as-it-looks-beyond-dictation",
+      "date": "2026-08-17"
     }
   },
   "trend_history": {
@@ -65,27 +61,19 @@
   },
   "business_updates": [
     {
-      "headline": "Wispr Flow raised $280 million in Series B funding at a $2 billion valuation led by Menlo Ventures",
+      "headline": "Wispr raises $280M at $2B valuation led by Menlo Ventures to expand beyond dictation",
       "date": "2026-08-17",
-      "source": {
-        "name": "Reuters",
-        "url": "https://www.reuters.com/technology/wispr-flow-valued-2-billion-latest-funding-round-2026-08-17"
-      }
-    },
-    {
-      "headline": "Wispr Flow unveiled preview of Canto, its first proprietary speech-recognition AI model",
-      "date": "2026-08-17",
-      "source": {
-        "name": "Reuters",
-        "url": "https://www.reuters.com/technology/wispr-flow-valued-2-billion-latest-funding-round-2026-08-17"
-      }
-    },
-    {
-      "headline": "Wispr Flow launches an Android app for AI-powered dictation",
-      "date": "2026-02-23",
       "source": {
         "name": "TechCrunch",
-        "url": "https://en.wikipedia.org/wiki/Wispr_Flow"
+        "url": "https://techcrunch.com/2026/08/17/wispr-raises-280m-at-2b-valuation-as-it-looks-beyond-dictation"
+      }
+    },
+    {
+      "headline": "Wispr unveils Canto, its proprietary speech-recognition model to reduce dictation error rates",
+      "date": "2026-08-17",
+      "source": {
+        "name": "Reuters",
+        "url": "https://www.reuters.com/technology/wispr-flow-valued-2-billion-latest-funding-round-2026-08-17"
       }
     }
   ]

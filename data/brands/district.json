@@ -1,31 +1,31 @@
 {
   "name": "District",
   "slug": "district",
-  "parent": "Eternal Ltd",
+  "parent": "Eternal Ltd (formerly Zomato)",
   "entity_type": "public_parent",
   "category": "Events / Ticketing",
-  "description": "District is a dining-out, movies, and live event ticketing platform operating as a segment of Eternal Ltd (formerly Zomato).",
-  "last_refreshed": "2026-09-13T08:31:22.594Z",
+  "description": "District is an events, ticketing, and going-out platform developed and operated as a subsidiary service of Eternal Ltd (formerly Zomato).",
+  "last_refreshed": "2026-09-14T09:13:06.392Z",
   "stock": {
     "applicable": false,
-    "value": 322.1,
+    "value": null,
     "currency": "INR",
-    "ticker": "ETERNAL.NS",
-    "as_of": "2026-09-11",
-    "note": "Reflects parent company Eternal Ltd (ETERNAL.NS), not District specifically.",
+    "ticker": null,
+    "as_of": null,
+    "note": "District does not have an independent stock listing; parent company is Eternal Ltd (NSE: ETERNAL).",
     "confidence": "not_applicable"
   },
   "revenue": {
     "value": null,
     "currency": "INR",
-    "period": "FY2026",
+    "period": "FY2025",
     "confidence": "not_found",
     "source": null
   },
   "operating_profit": {
     "value": null,
     "currency": "INR",
-    "period": "FY2026",
+    "period": "FY2025",
     "confidence": "not_found",
     "source": null
   },
@@ -34,12 +34,12 @@
     "confidence": "not_found"
   },
   "marketing_spend": {
-    "value_low": 2980000000,
-    "value_high": 4960000000,
+    "value_low": 50000000,
+    "value_high": 200000000,
     "currency": "INR",
-    "period": "FY2026",
+    "period": "FY2025",
     "tier": "3_modeled",
-    "derivation": "Modeled by taking District's reported 9.8% revenue contribution against Eternal Ltd's FY26 consolidated revenue (₹20,243 crore, yielding ~₹1,984 crore segment revenue) and applying a typical consumer tech/ticketing marketing-to-revenue ratio of 15% to 25%.",
+    "derivation": "Estimated based on launch-phase marketing and user acquisition expenditures typical for new consumer tech verticals under major Indian platforms, allocating approximately INR 5-20 Cr for promotional campaigns and performance marketing.",
     "source": null
   },
   "trend_history": {
@@ -64,14 +64,5 @@
       }
     ]
   },
-  "business_updates": [
-    {
-      "headline": "District (Going-Out) accounts for 9.8% of Eternal Ltd's adjusted revenue mix in Q4 FY26",
-      "date": "2026-03-31",
-      "source": {
-        "name": "Finology",
-        "url": "https://ticker.finology.in/company/ETERNAL"
-      }
-    }
-  ]
+  "business_updates": []
 }

@@ -4,50 +4,68 @@
   "parent": "Bajaj Auto Ltd.",
   "entity_type": "public_parent",
   "category": "Auto / EV",
-  "description": "Bajaj EV is the electric vehicle brand and product segment of listed parent company Bajaj Auto Ltd, producing electric two-wheelers and three-wheelers.",
-  "last_refreshed": "2026-09-13T08:34:06.694Z",
+  "description": "Bajaj EV is the electric vehicle division of listed parent company Bajaj Auto Ltd., best known for manufacturing and marketing the Chetak electric scooter.",
+  "last_refreshed": "2026-09-14T09:15:18.930Z",
   "stock": {
     "applicable": false,
-    "value": 11768,
+    "value": null,
     "currency": "INR",
     "ticker": "BAJAJ-AUTO.NS",
-    "as_of": "2026-09-11",
-    "note": "Reflects parent company Bajaj Auto Ltd, not Bajaj EV specifically",
+    "as_of": "2026-08-31",
+    "note": "Reflects parent company Bajaj Auto Ltd. stock price, as Bajaj EV does not have a separate ticker.",
     "confidence": "not_applicable"
   },
   "revenue": {
-    "value": null,
+    "value": 20870.23,
     "currency": "INR",
-    "period": "FY2026",
-    "confidence": "not_found",
-    "source": null
+    "period": "Q1 FY27",
+    "confidence": "disclosed",
+    "source": {
+      "name": "BAJAJ-AUTO Share Price Today: Bajaj Auto NSE",
+      "url": "https://www.tickertape.in/stocks/bajaj-auto-BAJA",
+      "date": "2026-06-30"
+    }
   },
   "operating_profit": {
-    "value": null,
+    "value": 4531.15,
     "currency": "INR",
-    "period": "FY2026",
-    "confidence": "not_found",
-    "source": null
+    "period": "Q1 FY27",
+    "confidence": "disclosed",
+    "source": {
+      "name": "Bajaj Auto Financial Statements",
+      "url": "https://www.kotakneo.com/stocks/bajaj-auto-share-price/company-financial",
+      "date": "2026-06-30"
+    }
   },
   "expenses": {
-    "breakdown": [],
-    "confidence": "not_found"
+    "breakdown": [
+      {
+        "label": "Operating Expenses",
+        "value": 17157.68,
+        "confidence": "disclosed"
+      }
+    ],
+    "confidence": "disclosed"
   },
   "marketing_spend": {
-    "value_low": 1860,
-    "value_high": 3100,
+    "value_low": 417.4,
+    "value_high": 626.1,
     "currency": "INR",
-    "period": "FY2026",
+    "period": "Q1 FY27",
     "tier": "3_modeled",
-    "derivation": "Estimated by taking parent Bajaj Auto Ltd's FY26 sales and after-sales expenses of ₹12,400 million and modeling a 15% to 25% strategic allocation dedicated to promoting the Bajaj EV segment.",
+    "derivation": "Modeled by applying a standard automobile category marketing spend ratio of 2% to 3% to parent company Bajaj Auto's Q1 FY27 operating revenue of Rs 20,870.23 crore.",
     "source": {
-      "name": "Bajaj Auto Annual Report",
-      "url": "https://investors.bajajauto.com/management-discussion-analysis",
-      "date": "2026-03-31"
+      "name": "BAJAJ-AUTO Share Price Today: Bajaj Auto NSE",
+      "url": "https://www.tickertape.in/stocks/bajaj-auto-BAJA",
+      "date": "2026-06-30"
     }
   },
   "trend_history": {
     "stock": [
+      {
+        "date": "2026-08-31",
+        "value": 12361
+      },
       {
         "date": "2026-09-01",
         "value": 12361
@@ -58,6 +76,18 @@
       }
     ],
     "revenue": [
+      {
+        "period": "2024",
+        "value": 447089.1
+      },
+      {
+        "period": "2025",
+        "value": 508298.8
+      },
+      {
+        "period": "2026",
+        "value": 627353.3
+      },
       {
         "period": "FY2024",
         "value": 446852.3
@@ -78,27 +108,27 @@
   },
   "business_updates": [
     {
-      "headline": "Bajaj Auto August 2026 sales rose 28% YoY to 535,764 units",
+      "headline": "Chetak electric scooter sales surge 307% YoY to over 47,000 units in July 2026",
+      "date": "2026-07-31",
+      "source": {
+        "name": "Perplexity",
+        "url": "https://www.perplexity.ai/finance/BAJAJ-AUTO.NS"
+      }
+    },
+    {
+      "headline": "Bajaj Auto stock touches 52-week high of Rs 12,361 driven by wholesale volumes and export growth",
       "date": "2026-08-31",
       "source": {
-        "name": "Screener / Bajaj Auto Ltd",
-        "url": "https://www.screener.in/company/BAJAJ-AUTO/consolidated"
+        "name": "Perplexity",
+        "url": "https://www.perplexity.ai/finance/BAJAJ-AUTO.NS"
       }
     },
     {
-      "headline": "Bajaj Auto launched RE EV 9.0 electric 3-wheeler in passenger segment with Li-Ion battery and two-speed AMT",
-      "date": "2026-03-31",
+      "headline": "Bajaj Auto reports Q1 FY27 net profit of Rs 3,225.63 crore on sales of Rs 20,870.23 crore",
+      "date": "2026-06-30",
       "source": {
-        "name": "Bajaj Auto Annual Report",
-        "url": "https://investors.bajajauto.com/management-discussion-analysis"
-      }
-    },
-    {
-      "headline": "Crisil reaffirmed Bajaj Auto credit ratings at AAA/Stable",
-      "date": "2026-08-15",
-      "source": {
-        "name": "Screener / Bajaj Auto Ltd",
-        "url": "https://www.screener.in/company/BAJAJ-AUTO/consolidated"
+        "name": "BAJAJ-AUTO Share Price Today: Bajaj Auto NSE",
+        "url": "https://www.tickertape.in/stocks/bajaj-auto-BAJA"
       }
     }
   ]

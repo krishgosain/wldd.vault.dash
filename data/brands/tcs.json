@@ -4,70 +4,61 @@
   "parent": "Tata Group",
   "entity_type": "public_standalone",
   "category": "IT Services",
-  "description": "Tata Consultancy Services (TCS) is an Indian multinational information technology services and consulting company owned by Tata Group.",
-  "last_refreshed": "2026-09-13T08:35:11.878Z",
+  "description": "Tata Consultancy Services (TCS) is a major Indian IT services, consulting, and business solutions provider operating as a publicly listed subsidiary of Tata Group.",
+  "last_refreshed": "2026-09-14T09:16:21.356Z",
   "stock": {
     "applicable": true,
-    "value": 2200.8,
+    "value": 2204.1,
     "currency": "INR",
     "ticker": "TCS.NS",
     "as_of": "2026-09-11",
-    "note": "Traded on National Stock Exchange (NSE) and Bombay Stock Exchange (BSE)",
+    "note": "Reflects TCS standalone listed equity price on NSE/BSE",
     "confidence": "disclosed"
   },
   "revenue": {
-    "value": 2714230000000,
+    "value": 2553240000000,
     "currency": "INR",
-    "period": "FY2026",
+    "period": "FY2025",
     "confidence": "disclosed",
     "source": {
-      "name": "Tata Consultancy Services - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Tata_Consultancy_Services",
-      "date": "2026-03-31"
+      "name": "Aditya Trading",
+      "url": "https://adityatrading.in/stocks/tcs",
+      "date": "unknown"
     }
   },
   "operating_profit": {
-    "value": 700130000000,
+    "value": null,
     "currency": "INR",
-    "period": "FY2026",
-    "confidence": "disclosed",
-    "source": {
-      "name": "Tata Consultancy Services - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Tata_Consultancy_Services",
-      "date": "2026-03-31"
-    }
+    "period": "FY2025",
+    "confidence": "not_found",
+    "source": null
   },
   "expenses": {
     "breakdown": [
       {
-        "label": "Cost of revenue (Q1 FY2027)",
+        "label": "Cost of revenue (Q1 FY27 / Jun 2026)",
         "value": 434910000000,
         "confidence": "disclosed"
       },
       {
-        "label": "Selling, general, and admin expenses (Q1 FY2027)",
+        "label": "Selling, general, and admin expenses (Q1 FY27 / Jun 2026)",
         "value": 9750000000,
-        "confidence": "disclosed"
-      },
-      {
-        "label": "Operating expense (Q1 FY2027)",
-        "value": 114650000000,
         "confidence": "disclosed"
       }
     ],
     "confidence": "disclosed"
   },
   "marketing_spend": {
-    "value_low": 13570000000,
-    "value_high": 27140000000,
+    "value_low": 12766200000,
+    "value_high": 25532400000,
     "currency": "INR",
-    "period": "FY2026",
+    "period": "FY2025",
     "tier": "3_modeled",
-    "derivation": "Modeled using a standard IT services sector benchmark ratio of 0.5% to 1.0% of annual revenue applied to TCS's FY2026 total reported revenue of ₹271,423 crore.",
+    "derivation": "Modeled using a standard global IT services industry benchmark of 0.5% to 1.0% of annual revenue applied to TCS's reported FY25 consolidated revenue of ₹255,324 crore.",
     "source": {
-      "name": "Tata Consultancy Services - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Tata_Consultancy_Services",
-      "date": "2026-03-31"
+      "name": "Aditya Trading",
+      "url": "https://adityatrading.in/stocks/tcs",
+      "date": "unknown"
     }
   },
   "trend_history": {
@@ -78,7 +69,7 @@
       },
       {
         "date": "2026-09-11",
-        "value": 2200.8
+        "value": 2204.1
       }
     ],
     "revenue": [
@@ -118,19 +109,11 @@
   },
   "business_updates": [
     {
-      "headline": "TCS unveiled a $1.5 billion contract with a luxury carmaker",
-      "date": "2026-09-11",
+      "headline": "TCS unveiled a $1.5 billion contract with a European luxury carmaker, acquiring its consulting unit.",
+      "date": "unknown",
       "source": {
         "name": "Reuters",
         "url": "https://www.reuters.com/markets/companies/TCS.NS"
-      }
-    },
-    {
-      "headline": "CLSA downgraded TCS to 'Hold' citing limited valuation upside and longer AI productivity gestation period",
-      "date": "2026-09-11",
-      "source": {
-        "name": "Perplexity",
-        "url": "https://www.perplexity.ai/finance/TCS.NS?comparing=TCS.NS%2CNOW%2CINTU%2CSNOW%2CORCL%2C4432.T"
       }
     }
   ]

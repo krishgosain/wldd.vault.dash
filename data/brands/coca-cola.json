@@ -4,72 +4,53 @@
   "parent": "The Coca-Cola Company",
   "entity_type": "public_parent",
   "category": "F&B",
-  "description": "Coca-Cola is a global non-alcoholic beverage brand owned by parent company The Coca-Cola Company (NYSE: KO), operating in India via Coca-Cola India Pvt Ltd and bottling partner Hindustan Coca-Cola Beverages Pvt Ltd.",
-  "last_refreshed": "2026-09-13T08:35:31.349Z",
+  "description": "Coca-Cola is a global non-alcoholic beverage brand manufactured and marketed by parent entity The Coca-Cola Company.",
+  "last_refreshed": "2026-09-14T09:16:41.069Z",
   "stock": {
-    "applicable": false,
-    "value": null,
+    "applicable": true,
+    "value": 88.42,
     "currency": "USD",
     "ticker": "KO",
-    "as_of": null,
-    "note": "Ticker KO reflects parent company The Coca-Cola Company, not the brand directly.",
-    "confidence": "not_applicable"
-  },
-  "revenue": {
-    "value": 50425600000,
-    "currency": "INR",
-    "period": "FY2025",
-    "confidence": "disclosed",
-    "source": {
-      "name": "The Financial Express",
-      "url": "https://www.financialexpress.com/business/news/ipo-on-the-cards-for-coca-colas-india-arm-hindustan-coca-cola-says-news-is-speculative/4107986",
-      "date": "2026-06-02"
-    }
-  },
-  "operating_profit": {
-    "value": 615030000,
-    "currency": "INR",
-    "period": "FY2025",
-    "confidence": "disclosed",
-    "source": {
-      "name": "The Financial Express",
-      "url": "https://www.financialexpress.com/business/news/ipo-on-the-cards-for-coca-colas-india-arm-hindustan-coca-cola-says-news-is-speculative/4107986",
-      "date": "2026-06-02"
-    }
-  },
-  "expenses": {
-    "breakdown": [
-      {
-        "label": "Advertising and sales promotion",
-        "value": 13111300000,
-        "confidence": "disclosed"
-      },
-      {
-        "label": "Total expenses",
-        "value": 43283700000,
-        "confidence": "disclosed"
-      }
-    ],
+    "as_of": "2026-09-09",
+    "note": "Reflects parent company stock (NYSE: KO).",
     "confidence": "disclosed"
   },
-  "marketing_spend": {
-    "value_low": 13111300000,
-    "value_high": 13111300000,
-    "currency": "INR",
+  "revenue": {
+    "value": null,
+    "currency": "USD",
     "period": "FY2025",
-    "tier": "1_disclosed",
-    "derivation": "Disclosed advertising and sales promotion expense for Coca-Cola India Pvt Ltd in FY25 financial results reported via Tofler/PTI.",
-    "source": {
-      "name": "Rediff Moneynews",
-      "url": "https://money.rediff.com/news/market/coca-cola-india-fy25-profit-up-46-3/38900520251219",
-      "date": "2025-12-19"
-    }
+    "confidence": "not_found",
+    "source": null
+  },
+  "operating_profit": {
+    "value": null,
+    "currency": "USD",
+    "period": "Q1 2026",
+    "confidence": "not_found",
+    "source": null
+  },
+  "expenses": {
+    "breakdown": [],
+    "confidence": "not_found"
+  },
+  "marketing_spend": {
+    "value_low": 4000000000,
+    "value_high": 4500000000,
+    "currency": "USD",
+    "period": "FY2025",
+    "tier": "3_modeled",
+    "derivation": "Estimated using an industry-standard 9-10% marketing-to-revenue ratio typical for global F&B and beverage brands, as exact monetary marketing figures were not disclosed in the provided context.",
+    "source": null
   },
   "trend_history": {
     "stock": [
       {
         "date": "2026-09-08",
         "value": 91.97
+      },
+      {
+        "date": "2026-09-09",
+        "value": 88.42
       }
     ],
     "revenue": [
@@ -85,27 +66,19 @@
   },
   "business_updates": [
     {
-      "headline": "Hemant Rupani appointed as CEO of Hindustan Coca-Cola Beverages",
-      "date": "2026-08-29",
+      "headline": "Coca-Cola Reports First Quarter 2026 Results with 19% Operating Income Growth",
+      "date": "2026-05-01",
       "source": {
-        "name": "Livemint",
-        "url": "https://www.livemint.com/companies/people/hemant-rupani-to-take-over-as-ceo-of-hindustan-coca-cola-beverages-in-september-11752561862283.html"
+        "name": "Coca-Cola Investor Relations",
+        "url": "https://investors.coca-colacompany.com/news-events/press-releases/detail/1158/coca-cola-reports-first-quarter-2026-results-and-updates-full-year-guidance"
       }
     },
     {
-      "headline": "Coca-Cola explores IPO for India bottling unit HCCB in 2027 following 40% stake sale to Jubilant Bhartia Group",
-      "date": "2026-06-02",
+      "headline": "Hindustan Coca-Cola Beverages reports 73% profit drop, plans $1 billion IPO",
+      "date": "2026-01-01",
       "source": {
-        "name": "Business Standard",
-        "url": "https://www.business-standard.com/topic/hindustan-coca-cola-beverages"
-      }
-    },
-    {
-      "headline": "Hindustan Coca-Cola Beverages Bidadi plant certified carbon neutral under PAS 2060",
-      "date": "2026-06-02",
-      "source": {
-        "name": "Business Standard",
-        "url": "https://www.business-standard.com/topic/hindustan-coca-cola-beverages"
+        "name": "Food Tech Notion",
+        "url": "https://www.linkedin.com/posts/food-tech-notion_cocacola-ipo-fmcg-activity-7388781933331271680-lzuC"
       }
     }
   ]

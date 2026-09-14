@@ -4,66 +4,47 @@
   "parent": null,
   "entity_type": "public_standalone",
   "category": "Audio Streaming",
-  "description": "Spotify is a public standalone audio streaming service offering ad-supported free listening and paid Premium subscription plans for music, podcasts, and audio content.",
-  "last_refreshed": "2026-09-13T08:30:22.247Z",
+  "description": "Spotify is a audio streaming platform offering ad-supported and paid premium audio content subscriptions globally.",
+  "last_refreshed": "2026-09-14T09:12:23.910Z",
   "stock": {
     "applicable": true,
     "value": 525.75,
     "currency": "USD",
-    "ticker": "NYSE:SPOT",
-    "as_of": "2026-09-11",
-    "note": "Reflects Spotify Technology S.A. share price on the NYSE",
+    "ticker": "SPOT",
+    "as_of": "2026-09-14",
+    "note": "Reflects Spotify Technology S.A. share price.",
     "confidence": "disclosed"
   },
   "revenue": {
-    "value": 18110000000,
-    "currency": "EUR",
+    "value": 19444000000,
+    "currency": "USD",
     "period": "FY2025",
     "confidence": "disclosed",
     "source": {
-      "name": "Simply Wall St",
-      "url": "https://simplywall.st/stocks/us/media/nyse-spot/spotify-technology",
-      "date": "2026-06-30"
+      "name": "Macrotrends",
+      "url": "https://www.macrotrends.net/stocks/charts/SPOT/spotify-technology/revenue",
+      "date": "2026-09-14"
     }
   },
   "operating_profit": {
-    "value": 3340000000,
-    "currency": "EUR",
+    "value": null,
+    "currency": "USD",
     "period": "FY2025",
-    "confidence": "disclosed",
-    "source": {
-      "name": "Simply Wall St",
-      "url": "https://simplywall.st/stocks/us/media/nyse-spot/spotify-technology",
-      "date": "2026-06-30"
-    }
+    "confidence": "not_found",
+    "source": null
   },
   "expenses": {
-    "breakdown": [
-      {
-        "label": "Cost of Revenue",
-        "value": 12180000000,
-        "confidence": "disclosed"
-      },
-      {
-        "label": "Other Expenses",
-        "value": 2600000000,
-        "confidence": "disclosed"
-      }
-    ],
-    "confidence": "disclosed"
+    "breakdown": [],
+    "confidence": "not_found"
   },
   "marketing_spend": {
-    "value_low": 1811000000,
-    "value_high": 2354000000,
-    "currency": "EUR",
+    "value_low": 1944400000,
+    "value_high": 2333280000,
+    "currency": "USD",
     "period": "FY2025",
     "tier": "3_modeled",
-    "derivation": "Modeled by applying a category-typical marketing-to-revenue ratio of 10% to 13% for mature consumer tech and audio streaming platforms against Spotify's FY2025 reported revenue of €18.11 billion.",
-    "source": {
-      "name": "Simply Wall St",
-      "url": "https://simplywall.st/stocks/us/media/nyse-spot/spotify-technology",
-      "date": "2026-06-30"
-    }
+    "derivation": "Modeled using a standard 10%–12% marketing-to-revenue benchmark ratio for audio streaming platforms applied against Spotify's reported FY2025 revenue of $19.444 billion.",
+    "source": null
   },
   "trend_history": {
     "stock": [
@@ -77,6 +58,10 @@
       },
       {
         "date": "2026-09-11",
+        "value": 525.75
+      },
+      {
+        "date": "2026-09-14",
         "value": 525.75
       }
     ],
@@ -94,12 +79,24 @@
         "value": 19444000000
       },
       {
+        "period": "FY2023",
+        "value": 14337000000
+      },
+      {
         "period": "FY2023 S&M",
         "value": 1533000000
       },
       {
+        "period": "FY2024",
+        "value": 16960000000
+      },
+      {
         "period": "FY2024 S&M",
         "value": 1392000000
+      },
+      {
+        "period": "FY2025",
+        "value": 19444000000
       },
       {
         "period": "FY2025 S&M",
@@ -109,19 +106,27 @@
   },
   "business_updates": [
     {
-      "headline": "Spotify surpasses 300 million premium subscribers in Q2 2026",
-      "date": "2026-06-30",
+      "headline": "Spotify Expands Repurchase Program With Additional $1.5 Billion Authorization",
+      "date": "2026-09-03",
       "source": {
-        "name": "Barron's",
-        "url": "https://www.barrons.com/articles/spotify-earnings-stock-price-d2b38442"
+        "name": "Simply Wall St",
+        "url": "https://simplywall.st/stocks/us/media/nyse-spot/spotify-technology"
       }
     },
     {
-      "headline": "Q2 2026 revenue grows 15% YoY to €4.8 billion with record 33.4% gross margin",
-      "date": "2026-06-30",
+      "headline": "Spotify Technology S.A. Announces Resignation of Heidi O'Neill from Board of Directors",
+      "date": "2026-09-03",
       "source": {
-        "name": "Perplexity Finance",
-        "url": "https://www.perplexity.ai/finance/SPOT/earnings"
+        "name": "Simply Wall St",
+        "url": "https://simplywall.st/stocks/us/media/nyse-spot/spotify-technology"
+      }
+    },
+    {
+      "headline": "Spotify Premium Subscribers Cross 300 Million Mark in Q2 2026",
+      "date": "2026-08-01",
+      "source": {
+        "name": "Barron's",
+        "url": "https://www.barrons.com/articles/spotify-earnings-stock-price-d2b38442"
       }
     }
   ]

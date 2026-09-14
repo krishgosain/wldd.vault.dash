@@ -4,62 +4,68 @@
   "parent": "Roppen Transportation Services Pvt Ltd",
   "entity_type": "india_private_registered",
   "category": "Ride-hailing",
-  "description": "Rapido is an Indian ride-hailing and logistics platform providing bike taxi, auto-rickshaw, cab, and delivery services, operated by Roppen Transportation Services Pvt Ltd.",
-  "last_refreshed": "2026-09-13T08:34:50.883Z",
+  "description": "Rapido is an Indian ride-hailing and logistics platform offering bike taxi, auto, cab, and delivery services, owned by Roppen Transportation Services Pvt Ltd.",
+  "last_refreshed": "2026-09-14T09:16:01.494Z",
   "stock": {
     "applicable": false,
     "value": null,
     "currency": "INR",
     "ticker": null,
     "as_of": null,
-    "note": "Roppen Transportation Services Pvt Ltd is an unlisted private company.",
+    "note": "Rapido is a privately registered company in India and is not publicly traded.",
     "confidence": "not_applicable"
   },
   "revenue": {
-    "value": 934.44,
-    "currency": "INR Crore",
-    "period": "FY25",
+    "value": 4430000000,
+    "currency": "INR",
+    "period": "FY2023",
     "confidence": "disclosed",
     "source": {
-      "name": "Rediff Moneynews",
-      "url": "https://money.rediff.com/news/market/rapido-loss-narrows-revenue-rises-44-in-fy25/40628320260122",
-      "date": "2026-01-22"
+      "name": "Instagram",
+      "url": "https://www.instagram.com/reel/C7T2lFvyIjt",
+      "date": ""
     }
   },
   "operating_profit": {
-    "value": -258,
-    "currency": "INR Crore",
-    "period": "FY25",
-    "confidence": "disclosed",
-    "source": {
-      "name": "Rediff Moneynews",
-      "url": "https://money.rediff.com/news/market/rapido-loss-narrows-revenue-rises-44-in-fy25/40628320260122",
-      "date": "2026-01-22"
-    }
+    "value": null,
+    "currency": "INR",
+    "period": "FY2023",
+    "confidence": "not_found",
+    "source": null
   },
   "expenses": {
-    "breakdown": [],
-    "confidence": "not_found"
+    "breakdown": [
+      {
+        "label": "Total Expenditure",
+        "value": 11721000000,
+        "confidence": "disclosed"
+      }
+    ],
+    "confidence": "disclosed"
   },
   "marketing_spend": {
-    "value_low": 140.16,
-    "value_high": 233.61,
-    "currency": "INR Crore",
-    "period": "FY25",
-    "tier": "3_modeled",
-    "derivation": "Modeled based on Rapido's FY25 operational revenue of ₹934.44 crore, applying an estimated ride-hailing industry marketing-to-revenue benchmark ratio of 15% to 25%.",
+    "value_low": 11721000000,
+    "value_high": 11721000000,
+    "currency": "INR",
+    "period": "FY2023",
+    "tier": "1_disclosed",
+    "derivation": "Disclosed marketing expenditure reported at Rs 1,172.1 crore in FY23 financial reports.",
     "source": {
-      "name": "Rediff Moneynews",
-      "url": "https://money.rediff.com/news/market/rapido-loss-narrows-revenue-rises-44-in-fy25/40628320260122",
-      "date": "2026-01-22"
+      "name": "Instagram",
+      "url": "https://www.instagram.com/reel/C7T2lFvyIjt",
+      "date": ""
     }
   },
   "trend_history": {
     "stock": [],
     "revenue": [
       {
+        "period": "FY2023",
+        "value": 4430000000
+      },
+      {
         "period": "FY2024",
-        "value": 6480000000
+        "value": 6000000000
       },
       {
         "period": "FY2025",
@@ -81,19 +87,11 @@
   },
   "business_updates": [
     {
-      "headline": "Rapido parent company Roppen Transportation narrows FY25 loss to Rs 258 crore with 44% revenue growth",
-      "date": "2026-01-22",
+      "headline": "Rapido expands offerings beyond cabs to metro ticket booking via ONDC and bus ticketing through Zingbus integration",
+      "date": "",
       "source": {
-        "name": "Rediff Moneynews",
-        "url": "https://money.rediff.com/news/market/rapido-loss-narrows-revenue-rises-44-in-fy25/40628320260122"
-      }
-    },
-    {
-      "headline": "Rapido parent company plans an IPO by the end of 2026",
-      "date": "2026-01-22",
-      "source": {
-        "name": "Rediff Moneynews",
-        "url": "https://money.rediff.com/news/market/rapido-loss-narrows-revenue-rises-44-in-fy25/40628320260122"
+        "name": "Instagram",
+        "url": "https://www.instagram.com/reel/C7T2lFvyIjt"
       }
     }
   ]

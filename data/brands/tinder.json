@@ -4,38 +4,34 @@
   "parent": "Match Group",
   "entity_type": "public_parent",
   "category": "Social / Dating",
-  "description": "Tinder is a leading global online dating application operated by Match Group, Inc. (NASDAQ: MTCH).",
-  "last_refreshed": "2026-09-13T08:31:03.269Z",
+  "description": "Tinder is a global online dating application operated as a subsidiary brand of public parent company Match Group, Inc.",
+  "last_refreshed": "2026-09-14T09:12:54.204Z",
   "stock": {
     "applicable": false,
     "value": null,
     "currency": "USD",
     "ticker": null,
-    "as_of": "2026-09-12",
-    "note": "Reflects parent company Match Group (NASDAQ: MTCH) stock trading at $42.39 as of September 12, 2026; Tinder does not have an independent ticker.",
+    "as_of": null,
+    "note": "Reflects parent company Match Group, Inc. (NASDAQ: MTCH); Tinder does not have its own stock listing.",
     "confidence": "not_applicable"
   },
   "revenue": {
-    "value": 863934000,
+    "value": 457000000,
     "currency": "USD",
-    "period": "Q1 2026",
+    "period": "Q2 2026",
     "confidence": "disclosed",
     "source": {
-      "name": "PR Newswire",
-      "url": "https://www.prnewswire.com/news-releases/match-group-announces-first-quarter-results-302763209.html",
-      "date": "2026-03-31"
+      "name": "Match Group Earnings Report / Perplexity Finance",
+      "url": "https://www.perplexity.ai/finance/MTCH/earnings",
+      "date": "2026-09-14"
     }
   },
   "operating_profit": {
-    "value": 270183000,
+    "value": null,
     "currency": "USD",
-    "period": "Q1 2026",
-    "confidence": "disclosed",
-    "source": {
-      "name": "PR Newswire",
-      "url": "https://www.prnewswire.com/news-releases/match-group-announces-first-quarter-results-302763209.html",
-      "date": "2026-03-31"
-    }
+    "period": "Q2 2026",
+    "confidence": "not_found",
+    "source": null
   },
   "expenses": {
     "breakdown": [
@@ -73,11 +69,11 @@
     "currency": "USD",
     "period": "Q1 2026",
     "tier": "1_disclosed",
-    "derivation": "Match Group, Inc. reported selling and marketing expense of $163,030 thousand ($163.03 million) for the three months ended March 31, 2026 in its Q1 financial statement.",
+    "derivation": "Disclosed consolidated selling and marketing expense for parent Match Group, Inc. in Q1 2026 financial results statement.",
     "source": {
-      "name": "PR Newswire",
+      "name": "PR Newswire / Match Group Q1 Financial Results",
       "url": "https://www.prnewswire.com/news-releases/match-group-announces-first-quarter-results-302763209.html",
-      "date": "2026-03-31"
+      "date": "2026-05-01"
     }
   },
   "trend_history": {
@@ -102,7 +98,7 @@
       },
       {
         "period": "Q2 2026",
-        "value": 853110000
+        "value": 457000000
       },
       {
         "period": "Q4 2025",
@@ -112,15 +108,15 @@
   },
   "business_updates": [
     {
-      "headline": "Match Group reports Q1 revenue beat as Tinder turnaround gains momentum and AI transformation pushes forward",
-      "date": "2026-05-01",
+      "headline": "Match Group posts Q2 2026 Tinder direct revenue of $457 million and projects Tinder revenue growth in 2027",
+      "date": "2026-09-14",
       "source": {
-        "name": "Reuters",
-        "url": "https://www.reuters.com/markets/companies/MTCH.O"
+        "name": "Perplexity Finance",
+        "url": "https://www.perplexity.ai/finance/MTCH/earnings"
       }
     },
     {
-      "headline": "Match Group announces $100 million investment in dating platform Sniffies",
+      "headline": "Match Group invests $100 million in Sniffies while pursuing AI-led transformation for Tinder",
       "date": "2026-05-01",
       "source": {
         "name": "Reuters",

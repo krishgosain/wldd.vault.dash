@@ -4,15 +4,15 @@
   "parent": "OpenAI",
   "entity_type": "foreign_private",
   "category": "Consumer Tech / AI",
-  "description": "ChatGPT is a generative AI chatbot and software product developed by private artificial intelligence research company OpenAI.",
-  "last_refreshed": "2026-09-13T08:29:29.691Z",
+  "description": "ChatGPT is an artificial intelligence chatbot developed and operated by private AI company OpenAI.",
+  "last_refreshed": "2026-09-14T09:11:30.136Z",
   "stock": {
     "applicable": false,
     "value": null,
     "currency": "USD",
     "ticker": null,
     "as_of": null,
-    "note": "OpenAI is a private company and does not have a publicly traded stock ticker.",
+    "note": "OpenAI is a private entity and ChatGPT does not have an independent stock ticker.",
     "confidence": "not_applicable"
   },
   "revenue": {
@@ -38,12 +38,12 @@
     "confidence": "not_found"
   },
   "marketing_spend": {
-    "value_low": 800000000,
-    "value_high": 1200000000,
+    "value_low": 1200000000,
+    "value_high": 2000000000,
     "currency": "USD",
     "period": "FY2025",
     "tier": "3_modeled",
-    "derivation": "Modeled using an industry-standard Consumer Tech/SaaS benchmark of 10% to 15% applied to ChatGPT's reported $8 billion revenue in 2025.",
+    "derivation": "Calculated by applying a standard consumer AI software marketing-to-revenue ratio of 15% to 25% against ChatGPT's reported FY2025 revenue of $8 billion.",
     "source": {
       "name": "Business of Apps",
       "url": "https://www.businessofapps.com/data/chatgpt-statistics",
@@ -73,27 +73,19 @@
   },
   "business_updates": [
     {
-      "headline": "ChatGPT Advertising Network Reaches $100M Annualized Revenue in First Two Months",
-      "date": "2026-04-01",
+      "headline": "OpenAI ChatGPT ad network hits $1 billion annualized revenue run rate",
+      "date": "2026",
       "source": {
-        "name": "The Daily Upside",
-        "url": "https://www.thedailyupside.com/technology/artificial-intelligence/as-costs-mount-openai-touts-early-advertising-win"
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/media-advertising/articles/openai-chatgpt-ads-hit-1-132117654.html"
       }
     },
     {
-      "headline": "ChatGPT Hits 700 Million Active Users and Generates $8 Billion in Revenue for 2025",
-      "date": "2026-07-16",
+      "headline": "OpenAI CFO reveals enterprise revenue has overtaken ChatGPT consumer revenues",
+      "date": "2026",
       "source": {
-        "name": "Business of Apps",
-        "url": "https://www.businessofapps.com/data/chatgpt-statistics"
-      }
-    },
-    {
-      "headline": "OpenAI Reports Second-Quarter Revenue Growth to $6.7 Billion Amid Widening Losses Ahead of Planned IPO",
-      "date": "2026-08-01",
-      "source": {
-        "name": "The Wall Street Journal",
-        "url": "https://www.wsj.com/tech/ai/openais-second-quarter-sales-show-tepid-growth-compared-with-anthropic-5cb42998?eafs_enabled=false"
+        "name": "The Next Web",
+        "url": "https://thenextweb.com/news/openai-enterprise-revenue-overtakes-consumer-friar"
       }
     }
   ]

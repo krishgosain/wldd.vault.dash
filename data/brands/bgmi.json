@@ -4,37 +4,37 @@
   "parent": "Krafton Inc.",
   "entity_type": "public_parent",
   "category": "Gaming",
-  "description": "BGMI (Battlegrounds Mobile India) is a mobile battle royale game developed and published by Krafton Inc., a South Korea-based video game publisher.",
-  "last_refreshed": "2026-09-13T08:33:19.087Z",
+  "description": "BGMI (Battlegrounds Mobile India) is a mobile battle royale game owned and operated by South Korean video game holding company Krafton Inc.",
+  "last_refreshed": "2026-09-14T09:14:41.308Z",
   "stock": {
     "applicable": false,
-    "value": null,
+    "value": 208500,
     "currency": "KRW",
-    "ticker": null,
-    "as_of": null,
-    "note": "BGMI is a game brand owned by Krafton Inc. (259960.KS) and does not have its own ticker.",
+    "ticker": "259960.KS",
+    "as_of": "2026-09-10",
+    "note": "Reflects parent company Krafton Inc. (259960.KS), not BGMI specifically",
     "confidence": "not_applicable"
   },
   "revenue": {
-    "value": 4450000000000,
+    "value": 1000000000000,
     "currency": "KRW",
-    "period": "TTM",
+    "period": "Q1 2026",
     "confidence": "disclosed",
     "source": {
-      "name": "Investing.com",
-      "url": "https://www.investing.com/equities/krafton",
-      "date": "2026-09-12"
+      "name": "Outlook Respawn",
+      "url": "https://respawn.outlookindia.com/gaming/gaming-news/krafton-q1-2026-earnings-pubg-bgmi-record-revenue",
+      "date": "2026-05-04"
     }
   },
   "operating_profit": {
-    "value": 1510000000000,
+    "value": 561600000000,
     "currency": "KRW",
-    "period": "TTM",
+    "period": "Q1 2026",
     "confidence": "disclosed",
     "source": {
-      "name": "Investing.com",
-      "url": "https://www.investing.com/equities/krafton",
-      "date": "2026-09-12"
+      "name": "Stockopedia",
+      "url": "https://www.stockopedia.com/share-prices/krafton-KRX:259960",
+      "date": "2026-05-04"
     }
   },
   "expenses": {
@@ -42,23 +42,23 @@
     "confidence": "not_found"
   },
   "marketing_spend": {
-    "value_low": 222500000000,
-    "value_high": 445000000000,
+    "value_low": 100000000000,
+    "value_high": 150000000000,
     "currency": "KRW",
-    "period": "TTM",
+    "period": "Q1 2026",
     "tier": "3_modeled",
-    "derivation": "Estimated at 5% to 10% of parent company Krafton's total annual revenue of 4.45 trillion KRW, adhering to standard gaming industry marketing spend benchmarks for major live-service titles.",
-    "source": {
-      "name": "Investing.com",
-      "url": "https://www.investing.com/equities/krafton",
-      "date": "2026-09-12"
-    }
+    "derivation": "Estimated by applying a standard mobile gaming industry marketing-to-revenue ratio of 10% to 15% against the PUBG franchise (including BGMI) Q1 2026 revenue of 1 trillion KRW.",
+    "source": null
   },
   "trend_history": {
     "stock": [
       {
         "date": "2026-09-02",
         "value": 224000
+      },
+      {
+        "date": "2026-09-10",
+        "value": 208500
       }
     ],
     "revenue": [
@@ -69,16 +69,28 @@
       {
         "period": "FY2025 (Krafton)",
         "value": 3326600000000
+      },
+      {
+        "period": "Q1 2026",
+        "value": 1000000000000
       }
     ]
   },
   "business_updates": [
     {
-      "headline": "Esports Nations Cup Confirms New Official Publishing Partners",
-      "date": "2025-12-01",
+      "headline": "BGMI 4.3 update: Krafton collaborates with CSK & KKR for IPL '26",
+      "date": "2026-05-04",
       "source": {
-        "name": "Yahoo Finance",
-        "url": "https://finance.yahoo.com/quote/259960.KS/news?fr=sycsrp_catchall"
+        "name": "StockAnalysis",
+        "url": "https://stockanalysis.com/quote/krx/259960"
+      }
+    },
+    {
+      "headline": "Krafton Q1 2026 Earnings: Revenue Jumps 57%, PUBG Franchise Tops 1 Trillion Won",
+      "date": "2026-05-04",
+      "source": {
+        "name": "Outlook Respawn",
+        "url": "https://respawn.outlookindia.com/gaming/gaming-news/krafton-q1-2026-earnings-pubg-bgmi-record-revenue"
       }
     }
   ]
