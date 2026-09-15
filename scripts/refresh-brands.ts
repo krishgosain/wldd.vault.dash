@@ -16,8 +16,19 @@ import { BRAND_CONFIG, brandSlug } from "../lib/brands";
 import { fetchBrandProfile } from "../lib/fetch-brand-data";
 import { readBrandFile, writeBrandFile } from "../lib/data";
 import { logUsage, checkQuotaAvailable, getUsageSummary } from "../lib/quota";
+import { readNextStartSlug, writeNextStartSlug } from "../lib/refresh-state";
 import { QuotaExceededError } from "../lib/errors";
 import type { BrandData, TrendPoint } from "../lib/types";
+
+// A brief pause between brands, independent of the per-call retry backoff in
+// lib/fetch-brand-data.ts. Gemini's free tier caps requests per minute (not
+// just per day), and firing every brand back-to-back with zero pacing can
+// trip that limit well before the daily budget is anywhere near exhausted.
+const DELAY_BETWEEN_BRANDS_MS = 2000;
+
+function sleep(ms: number) {
+  return new Promise((resolve) => setTimeout(resolve, ms));
+}
 
 function mergeTrend(existing: TrendPoint[], incoming: TrendPoint[], key: "date" | "period"): TrendPoint[] {
   const byKey = new Map<string, TrendPoint>();
@@ -52,11 +63,25 @@ async function refreshOne(name: string, hint: string | undefined, slug: string) 
   console.log(`done (tier=${brand.marketing_spend.tier})`);
 }
 
+// Rotates BRAND_CONFIG so it starts at `startSlug` (wrapping around), so a
+// quota cutoff strands a different tail of brands each run instead of
+// always the same ones after the first N in the fixed config order.
+function rotateFrom(brands: typeof BRAND_CONFIG, startSlug: string | null): typeof BRAND_CONFIG {
+  if (!startSlug) return brands;
+  const startIndex = brands.findIndex((b) => brandSlug(b) === startSlug);
+  if (startIndex <= 0) return brands;
+  return [...brands.slice(startIndex), ...brands.slice(0, startIndex)];
+}
+
 async function main() {
   const onlyArg = process.argv.find((a) => a.startsWith("--only="));
   const only = onlyArg ? new Set(onlyArg.replace("--only=", "").split(",")) : null;
 
-  const targets = BRAND_CONFIG.filter((b) => !only || only.has(brandSlug(b)));
+  // Rotation only applies to full runs — an explicit --only subset is a
+  // deliberate, ordered request (e.g. manual testing/debugging) and
+  // shouldn't be reshuffled.
+  const orderedBrands = only ? BRAND_CONFIG : rotateFrom(BRAND_CONFIG, readNextStartSlug());
+  const targets = orderedBrands.filter((b) => !only || only.has(brandSlug(b)));
   if (targets.length === 0) {
     console.log("No matching brands to refresh.");
     return;
@@ -66,6 +91,7 @@ async function main() {
   let skippedForQuota = 0;
 
   for (let i = 0; i < targets.length; i++) {
+    if (i > 0) await sleep(DELAY_BETWEEN_BRANDS_MS);
     const entry = targets[i];
 
     // Stop spending once our tracked Tavily/Gemini budget looks exhausted —
@@ -74,6 +100,7 @@ async function main() {
     const quota = checkQuotaAvailable();
     if (!quota.ok) {
       skippedForQuota = targets.length - i;
+      if (!only) writeNextStartSlug(brandSlug(entry));
       console.warn(
         `\nStopping early: ${quota.provider} budget looks exhausted for this period. ` +
           `${skippedForQuota} brand(s) remaining will run on the next scheduled refresh.`
@@ -99,6 +126,7 @@ async function main() {
     } catch (err) {
       if (err instanceof QuotaExceededError) {
         skippedForQuota = targets.length - i;
+        if (!only) writeNextStartSlug(brandSlug(entry));
         console.warn(`\n${err.provider} rejected the call as over quota for ${entry.name}; stopping early.`);
         break;
       }
@@ -106,6 +134,10 @@ async function main() {
       console.error(`\nFailed to refresh ${entry.name}:`, err instanceof Error ? err.message : err);
     }
   }
+
+  // Completed the full rotation with no quota cutoff — reset the cursor so
+  // the next run starts from the top of BRAND_CONFIG again.
+  if (!only && skippedForQuota === 0) writeNextStartSlug(null);
 
   const summary = getUsageSummary();
   console.log(
