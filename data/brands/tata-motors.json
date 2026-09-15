@@ -4,15 +4,15 @@
   "parent": null,
   "entity_type": "public_standalone",
   "category": "Auto",
-  "description": "Tata Motors is India's largest automobile manufacturer, operating across passenger vehicles, commercial vehicles, and luxury cars through Jaguar Land Rover.",
-  "last_refreshed": "2026-09-14T09:11:47.935Z",
+  "description": "Tata Motors Limited is a major Indian commercial mobility and automotive manufacturer producing trucks, buses, vans, and commercial vehicles.",
+  "last_refreshed": "2026-09-15T11:44:53.984Z",
   "stock": {
     "applicable": true,
-    "value": 406.45,
+    "value": 303.5,
     "currency": "INR",
     "ticker": "TATAMOTORS.NS",
-    "as_of": "2026-08-31",
-    "note": "Reflects NSE stock price prior to/following commercial vehicle demerger listings",
+    "as_of": "2026-09-15",
+    "note": "Reflects Tata Motors stock price on NSE",
     "confidence": "disclosed"
   },
   "revenue": {
@@ -23,38 +23,42 @@
     "source": {
       "name": "INDmoney",
       "url": "https://www.indmoney.com/stocks/tata-motors-ltd-share-price",
-      "date": "2026-09-02"
+      "date": "2026-08-13"
     }
   },
   "operating_profit": {
-    "value": null,
+    "value": 11250000000,
     "currency": "INR",
-    "period": "Q1 FY26",
-    "confidence": "not_found",
-    "source": null
+    "period": "Mar 2026",
+    "confidence": "disclosed",
+    "source": {
+      "name": "INDmoney",
+      "url": "https://www.indmoney.com/stocks/tata-motors-ltd-share-price",
+      "date": "2026-03-31"
+    }
   },
   "expenses": {
     "breakdown": [],
     "confidence": "not_found"
   },
   "marketing_spend": {
-    "value_low": 15661050000,
-    "value_high": 26101750000,
+    "value_low": 41762800000,
+    "value_high": 83525600000,
     "currency": "INR",
-    "period": "Q1 FY26",
+    "period": "FY2026 (Annualized)",
     "tier": "3_modeled",
-    "derivation": "Modeled using an auto industry marketing-to-revenue benchmark ratio of 1.5% to 2.5% applied to Tata Motors' Q1 FY26 consolidated revenue of ₹1,04,407 crore.",
-    "source": {
-      "name": "INDmoney",
-      "url": "https://www.indmoney.com/stocks/tata-motors-ltd-share-price",
-      "date": "2026-09-02"
-    }
+    "derivation": "Modeled using a standard Auto industry marketing-to-revenue ratio of 1.0% to 2.0% applied to annualized Q1 FY26 consolidated revenue of ₹4,17,628 crore.",
+    "source": null
   },
   "trend_history": {
     "stock": [
       {
         "date": "2024-12-01",
         "value": 733.84
+      },
+      {
+        "date": "2025-01-01",
+        "value": 710
       },
       {
         "date": "2025-06-01",
@@ -83,6 +87,10 @@
       {
         "date": "2026-08-24",
         "value": 472.55
+      },
+      {
+        "date": "2026-09-15",
+        "value": 303.5
       }
     ],
     "revenue": [
@@ -99,6 +107,14 @@
         "value": 3297200000000
       },
       {
+        "period": "Mar 2025",
+        "value": 577880000000
+      },
+      {
+        "period": "Mar 2026",
+        "value": 833900000000
+      },
+      {
         "period": "Q1 FY26",
         "value": 1044070000000
       }
@@ -106,19 +122,19 @@
   },
   "business_updates": [
     {
-      "headline": "Tata Motors reports Q1 FY26 consolidated revenue of ₹1,04,407 crore",
-      "date": "2026-09-02",
+      "headline": "Tata Motors reported a consolidated revenue of ₹1,04,407 crore in Q1 FY26",
+      "date": "2026-08-13",
       "source": {
         "name": "INDmoney",
         "url": "https://www.indmoney.com/stocks/tata-motors-ltd-share-price"
       }
     },
     {
-      "headline": "Tata Motors commercial vehicle business listings follow demerger from passenger vehicle segment",
-      "date": "2026-09-13",
+      "headline": "Following 2025 demerger, Tata Motors continues commercial vehicle leadership while passenger vehicles operate under Tata Motors Passenger Vehicles Ltd",
+      "date": "2026-01-01",
       "source": {
-        "name": "CNBC-TV18",
-        "url": "https://www.instagram.com/reel/DQ8g3VUCEF4?hl=en"
+        "name": "Perplexity Finance",
+        "url": "https://www.perplexity.ai/finance/TATAMOTORS.NS?comparing=TATAMOTORS.NS%2C7205.T%2CEBUS.AS%2CTRATF%2C1211.HK%2CFSS"
       }
     }
   ]

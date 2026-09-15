@@ -4,15 +4,15 @@
   "parent": "OpenAI",
   "entity_type": "foreign_private",
   "category": "Consumer Tech / AI",
-  "description": "ChatGPT is an artificial intelligence chatbot developed and operated by private AI company OpenAI.",
-  "last_refreshed": "2026-09-14T09:11:30.136Z",
+  "description": "ChatGPT is a generative artificial intelligence chatbot developed by OpenAI, serving as its flagship consumer and enterprise AI application.",
+  "last_refreshed": "2026-09-15T11:44:34.112Z",
   "stock": {
     "applicable": false,
     "value": null,
     "currency": "USD",
     "ticker": null,
     "as_of": null,
-    "note": "OpenAI is a private entity and ChatGPT does not have an independent stock ticker.",
+    "note": "OpenAI is a private unlisted company preparing for a planned IPO.",
     "confidence": "not_applicable"
   },
   "revenue": {
@@ -34,20 +34,41 @@
     "source": null
   },
   "expenses": {
-    "breakdown": [],
-    "confidence": "not_found"
+    "breakdown": [
+      {
+        "label": "Research and Development",
+        "value": 19180000000,
+        "confidence": "disclosed"
+      },
+      {
+        "label": "Cost of Revenue",
+        "value": 7500000000,
+        "confidence": "disclosed"
+      },
+      {
+        "label": "Sales and Marketing",
+        "value": 5730000000,
+        "confidence": "disclosed"
+      },
+      {
+        "label": "General and Administrative",
+        "value": 1570000000,
+        "confidence": "disclosed"
+      }
+    ],
+    "confidence": "press_estimate"
   },
   "marketing_spend": {
-    "value_low": 1200000000,
-    "value_high": 2000000000,
+    "value_low": 5730000000,
+    "value_high": 5730000000,
     "currency": "USD",
     "period": "FY2025",
-    "tier": "3_modeled",
-    "derivation": "Calculated by applying a standard consumer AI software marketing-to-revenue ratio of 15% to 25% against ChatGPT's reported FY2025 revenue of $8 billion.",
+    "tier": "1_disclosed",
+    "derivation": "OpenAI's audited financial figures, reported by Financial Times and Motley Fool, disclosed $5.73 billion spent on Sales and Marketing in 2025.",
     "source": {
-      "name": "Business of Apps",
-      "url": "https://www.businessofapps.com/data/chatgpt-statistics",
-      "date": "2026-07-16"
+      "name": "The Motley Fool",
+      "url": "https://www.fool.com/investing/2026/06/17/openai-s-financials-were-just-leaked-you-won-t-believe-how-much-the-company-is-losing",
+      "date": "2026-06-17"
     }
   },
   "trend_history": {
@@ -73,19 +94,27 @@
   },
   "business_updates": [
     {
-      "headline": "OpenAI ChatGPT ad network hits $1 billion annualized revenue run rate",
-      "date": "2026",
+      "headline": "OpenAI's ChatGPT ad business hits $1 billion run rate in six months",
+      "date": "2026-08-01",
       "source": {
         "name": "Yahoo Finance",
-        "url": "https://finance.yahoo.com/media-advertising/articles/openai-chatgpt-ads-hit-1-132117654.html"
+        "url": "https://finance.yahoo.com/media-advertising/articles/openais-chatgpt-ad-business-hits-153400849.html"
       }
     },
     {
-      "headline": "OpenAI CFO reveals enterprise revenue has overtaken ChatGPT consumer revenues",
-      "date": "2026",
+      "headline": "ChatGPT crosses 1 billion monthly active users",
+      "date": "2026-06-01",
       "source": {
-        "name": "The Next Web",
-        "url": "https://thenextweb.com/news/openai-enterprise-revenue-overtakes-consumer-friar"
+        "name": "AI Business Weekly",
+        "url": "https://aibusinessweekly.net/p/openai-statistics"
+      }
+    },
+    {
+      "headline": "OpenAI reports $6.7 billion Q2 2026 revenue as it works toward planned 2027 IPO",
+      "date": "2026-09-15",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/media-advertising/articles/openai-chatgpt-ads-hit-1-132117654.html"
       }
     }
   ]

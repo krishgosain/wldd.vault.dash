@@ -307,6 +307,20 @@
       "tavily_credits": 1,
       "gemini_requests": 1,
       "timestamp": "2026-09-14T09:16:41.069Z"
+    },
+    {
+      "source": "daily_refresh",
+      "brand": "ChatGPT",
+      "tavily_credits": 1,
+      "gemini_requests": 1,
+      "timestamp": "2026-09-15T11:44:34.120Z"
+    },
+    {
+      "source": "daily_refresh",
+      "brand": "Tata Motors",
+      "tavily_credits": 1,
+      "gemini_requests": 1,
+      "timestamp": "2026-09-15T11:44:53.984Z"
     }
   ]
 }
