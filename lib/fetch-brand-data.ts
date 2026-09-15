@@ -57,35 +57,48 @@ async function tavilySearch(brandName: string, hint?: string): Promise<{ context
 
   const query = `${brandName} revenue operating profit marketing advertising spend stock price recent news ${hint ?? ""}`.trim();
 
-  const res = await fetch("https://api.tavily.com/search", {
-    method: "POST",
-    headers: { "Content-Type": "application/json" },
-    body: JSON.stringify({
-      api_key: TAVILY_API_KEY,
-      query,
-      search_depth: "basic",
-      max_results: 8,
-      include_answer: true,
-    }),
-  });
+  let lastError: Error | null = null;
 
-  if (res.status === 429 || res.status === 432 || res.status === 433) {
-    throw new QuotaExceededError("tavily", `Tavily quota/rate limit hit (HTTP ${res.status}).`);
-  }
-  if (!res.ok) {
-    const body = await res.text().catch(() => "");
-    throw new Error(`Tavily search failed for "${brandName}": HTTP ${res.status} ${body}`);
+  for (let attempt = 0; attempt <= RETRY_DELAYS_MS.length; attempt++) {
+    if (attempt > 0) await sleep(RETRY_DELAYS_MS[attempt - 1]);
+
+    const res = await fetch("https://api.tavily.com/search", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        api_key: TAVILY_API_KEY,
+        query,
+        search_depth: "basic",
+        max_results: 8,
+        include_answer: true,
+      }),
+    });
+
+    if (res.status === 429 || res.status === 432 || res.status === 433) {
+      throw new QuotaExceededError("tavily", `Tavily quota/rate limit hit (HTTP ${res.status}).`);
+    }
+
+    if (!res.ok) {
+      const body = await res.text().catch(() => "");
+      lastError = new Error(`Tavily search failed for "${brandName}": HTTP ${res.status} ${body}`);
+      if (RETRYABLE_STATUS.has(res.status) && attempt < RETRY_DELAYS_MS.length) {
+        continue; // transient backend hiccup — back off and retry
+      }
+      throw lastError;
+    }
+
+    const data = (await res.json()) as TavilySearchResponse;
+    const parts: string[] = [];
+    if (data.answer) parts.push(`Summary: ${data.answer}`);
+    for (const r of data.results ?? []) {
+      const snippet = (r.content ?? "").slice(0, 1500);
+      parts.push(`Source: ${r.title}\nURL: ${r.url}\nPublished: ${r.published_date ?? "unknown"}\n${snippet}`);
+    }
+
+    return { context: parts.join("\n\n---\n\n"), credits: 1 };
   }
 
-  const data = (await res.json()) as TavilySearchResponse;
-  const parts: string[] = [];
-  if (data.answer) parts.push(`Summary: ${data.answer}`);
-  for (const r of data.results ?? []) {
-    const snippet = (r.content ?? "").slice(0, 1500);
-    parts.push(`Source: ${r.title}\nURL: ${r.url}\nPublished: ${r.published_date ?? "unknown"}\n${snippet}`);
-  }
-
-  return { context: parts.join("\n\n---\n\n"), credits: 1 };
+  throw lastError ?? new Error(`Tavily search failed for "${brandName}" after retries.`);
 }
 
 const SCHEMA_AND_METHODOLOGY = `
@@ -184,6 +197,18 @@ function buildPrompt(brandName: string, hint: string | undefined, context: strin
   );
 }
 
+// Transient Gemini errors worth retrying: 503 ("model overloaded" — Google's
+// own message says this is usually short-lived) and 500/504, which are also
+// typically momentary backend hiccups rather than anything wrong with our
+// request. 429 is NOT retried here — that's quota/rate-limit exhaustion,
+// handled separately as a QuotaExceededError so the whole run backs off.
+const RETRYABLE_STATUS = new Set([500, 503, 504]);
+const RETRY_DELAYS_MS = [1000, 3000, 8000]; // up to 4 attempts total
+
+function sleep(ms: number) {
+  return new Promise((resolve) => setTimeout(resolve, ms));
+}
+
 // Step 2 — Synthesis. Gemini reasons over the Tavily context only. No tools,
 // no grounding — see the module-level comment for why that's non-negotiable.
 async function geminiSynthesize(
@@ -195,36 +220,58 @@ async function geminiSynthesize(
     throw new Error("GEMINI_API_KEY is not set");
   }
 
-  const res = await fetch(
-    `https://generativelanguage.googleapis.com/v1beta/models/${GEMINI_MODEL}:generateContent?key=${GEMINI_API_KEY}`,
-    {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({
-        contents: [{ role: "user", parts: [{ text: buildPrompt(brandName, hint, context) }] }],
-        generationConfig: {
-          responseMimeType: "application/json",
-          temperature: 0.2,
-          maxOutputTokens: 8192,
-        },
-        // Deliberately no `tools` field — Grounding with Google Search must
-        // never be enabled here (it requires billing and costs money per
-        // request). Gemini only reasons over the Tavily text above.
-      }),
+  let lastError: Error | null = null;
+
+  for (let attempt = 0; attempt <= RETRY_DELAYS_MS.length; attempt++) {
+    if (attempt > 0) await sleep(RETRY_DELAYS_MS[attempt - 1]);
+
+    const res = await fetch(
+      `https://generativelanguage.googleapis.com/v1beta/models/${GEMINI_MODEL}:generateContent?key=${GEMINI_API_KEY}`,
+      {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          contents: [{ role: "user", parts: [{ text: buildPrompt(brandName, hint, context) }] }],
+          generationConfig: {
+            responseMimeType: "application/json",
+            temperature: 0.2,
+            maxOutputTokens: 8192,
+          },
+          // Deliberately no `tools` field — Grounding with Google Search must
+          // never be enabled here (it requires billing and costs money per
+          // request). Gemini only reasons over the Tavily text above.
+        }),
+      }
+    );
+
+    if (res.status === 429) {
+      throw new QuotaExceededError("gemini", "Gemini quota/rate limit hit (HTTP 429).");
     }
-  );
 
-  if (res.status === 429) {
-    throw new QuotaExceededError("gemini", "Gemini quota/rate limit hit (HTTP 429).");
-  }
-  if (!res.ok) {
-    const body = await res.text().catch(() => "");
-    throw new Error(`Gemini synthesis failed for "${brandName}": HTTP ${res.status} ${body}`);
+    if (!res.ok) {
+      const body = await res.text().catch(() => "");
+      lastError = new Error(`Gemini synthesis failed for "${brandName}": HTTP ${res.status} ${body}`);
+      if (RETRYABLE_STATUS.has(res.status) && attempt < RETRY_DELAYS_MS.length) {
+        continue; // transient — back off and retry
+      }
+      throw lastError;
+    }
+
+    return parseGeminiResponse(brandName, await res.json());
   }
 
-  const data = await res.json();
-  const finishReason = data?.candidates?.[0]?.finishReason;
-  const text: string = data?.candidates?.[0]?.content?.parts?.[0]?.text ?? "";
+  // Unreachable in practice (the loop always returns or throws above), but
+  // keeps TypeScript happy about the function's return type.
+  throw lastError ?? new Error(`Gemini synthesis failed for "${brandName}" after retries.`);
+}
+
+function parseGeminiResponse(
+  brandName: string,
+  data: unknown
+): { json: Record<string, unknown>; requests: number } {
+  const d = data as { candidates?: [{ finishReason?: string; content?: { parts?: [{ text?: string }] } }] };
+  const finishReason = d?.candidates?.[0]?.finishReason;
+  const text: string = d?.candidates?.[0]?.content?.parts?.[0]?.text ?? "";
   const jsonMatch = text.match(/\{[\s\S]*\}/);
   if (!jsonMatch) {
     throw new Error(`No JSON object found in Gemini response for "${brandName}" (finishReason: ${finishReason})`);
