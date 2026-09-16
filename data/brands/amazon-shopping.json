@@ -1,64 +1,66 @@
 {
   "name": "Amazon Shopping",
   "slug": "amazon-shopping",
-  "parent": "Amazon.com, Inc.",
+  "parent": "Amazon",
   "entity_type": "public_parent",
   "category": "E-commerce",
-  "description": "Amazon Shopping is the flagship e-commerce and retail marketplace operated by publicly listed technology conglomerate Amazon.com, Inc.",
-  "last_refreshed": "2026-09-14T09:13:54.854Z",
+  "description": "Amazon Shopping is the e-commerce retail platform operated by global technology and retail parent company Amazon.com, Inc.",
+  "last_refreshed": "2026-09-16T08:51:04.181Z",
   "stock": {
-    "applicable": true,
-    "value": 265.13,
+    "applicable": false,
+    "value": 243.18,
     "currency": "USD",
     "ticker": "AMZN",
-    "as_of": null,
-    "note": "Stock value reflects parent entity Amazon.com, Inc. (AMZN), not the Amazon Shopping platform standalone.",
-    "confidence": "disclosed"
+    "as_of": "2026-04-01",
+    "note": "Reflects parent company Amazon.com, Inc. (NASDAQ: AMZN), not the Amazon Shopping brand specifically.",
+    "confidence": "not_applicable"
   },
   "revenue": {
-    "value": 181520000000,
+    "value": 717000000000,
     "currency": "USD",
-    "period": "Q1 FY2026",
+    "period": "FY2025",
     "confidence": "disclosed",
     "source": {
-      "name": "Yahoo Finance",
-      "url": "https://finance.yahoo.com/quote/AMZN",
-      "date": "2026-08-14"
+      "name": "MEXC Blog",
+      "url": "https://blog.mexc.com/finance/amazon-stock-long-term-investment-analysis",
+      "date": "2026-01-01"
     }
   },
   "operating_profit": {
-    "value": 30250000000,
+    "value": null,
     "currency": "USD",
-    "period": "Q1 FY2026",
-    "confidence": "disclosed",
-    "source": {
-      "name": "Yahoo Finance",
-      "url": "https://finance.yahoo.com/quote/AMZN",
-      "date": "2026-08-14"
-    }
+    "period": "FY2025",
+    "confidence": "not_found",
+    "source": null
   },
   "expenses": {
-    "breakdown": [],
-    "confidence": "not_found"
+    "breakdown": [
+      {
+        "label": "Capital Expenditures (AI, robotics, custom chips)",
+        "value": 200000000000,
+        "confidence": "disclosed"
+      }
+    ],
+    "confidence": "press_estimate"
   },
   "marketing_spend": {
-    "value_low": 9000000000,
-    "value_high": 11000000000,
+    "value_low": 21510000000,
+    "value_high": 35850000000,
     "currency": "USD",
-    "period": "Q1 FY2026",
+    "period": "FY2025",
     "tier": "3_modeled",
-    "derivation": "Estimated by applying a standard 5%-6% marketing-to-revenue ratio typical for retail tech platforms to Amazon's reported Q1 FY2026 revenue of $181.52B.",
-    "source": {
-      "name": "Yahoo Finance",
-      "url": "https://finance.yahoo.com/quote/AMZN",
-      "date": "2026-08-14"
-    }
+    "derivation": "Modeled using a standard 3–5% marketing-to-revenue benchmark for large-scale e-commerce tech platforms applied to Amazon's FY2025 revenue of $717 billion.",
+    "source": null
   },
   "trend_history": {
     "stock": [
       {
         "date": "2025-12-31",
         "value": 249.02
+      },
+      {
+        "date": "2026-04-01",
+        "value": 243.18
       },
       {
         "date": "2026-08-14",
@@ -72,7 +74,7 @@
       },
       {
         "period": "FY2025",
-        "value": 301386000000
+        "value": 717000000000
       },
       {
         "period": "Q1 2026",
@@ -98,19 +100,19 @@
   },
   "business_updates": [
     {
-      "headline": "Amazon Ads Launches 'First Day Ready,' a Multi-Brand Campaign Connecting Brands to Gen Z at College's Biggest Moment",
-      "date": "2026-09-01",
+      "headline": "Amazon reaches approximately $717 billion in annual revenue for 2025, up 12% year-over-year",
+      "date": "2026-01-01",
       "source": {
-        "name": "Morningstar",
-        "url": "https://www.morningstar.com/stocks/xnas/amzn/quote"
+        "name": "MEXC Blog",
+        "url": "https://blog.mexc.com/finance/amazon-stock-long-term-investment-analysis"
       }
     },
     {
-      "headline": "Amazon's stock slips as the FTC alleges billions of dollars in hidden ad fees",
-      "date": "2026-09-01",
+      "headline": "Amazon plans $200B CapEx investments focusing on AI robotics and custom chips to lower fulfillment and shipping costs",
+      "date": "2026-01-01",
       "source": {
-        "name": "Morningstar",
-        "url": "https://www.morningstar.com/stocks/xnas/amzn/quote"
+        "name": "MEXC Blog",
+        "url": "https://blog.mexc.com/finance/amazon-stock-long-term-investment-analysis"
       }
     }
   ]

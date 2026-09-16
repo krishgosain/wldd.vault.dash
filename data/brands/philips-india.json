@@ -4,15 +4,15 @@
   "parent": "Koninklijke Philips N.V.",
   "entity_type": "india_private_registered",
   "category": "Consumer Electronics",
-  "description": "Philips India is an Indian private registered subsidiary of publicly listed parent Koninklijke Philips N.V., providing consumer electronics, healthcare solutions, and personal care products.",
-  "last_refreshed": "2026-09-14T09:12:08.750Z",
+  "description": "Philips India is the Indian subsidiary of global health technology and consumer electronics major Koninklijke Philips N.V.",
+  "last_refreshed": "2026-09-16T08:47:52.083Z",
   "stock": {
     "applicable": false,
     "value": null,
-    "currency": "EUR",
-    "ticker": "PHIA.AS",
-    "as_of": "2026-03-03",
-    "note": "Reflects parent company Koninklijke Philips N.V. (Euronext Amsterdam: PHIA), not Philips India specifically.",
+    "currency": "INR",
+    "ticker": null,
+    "as_of": null,
+    "note": "Philips India is a privately registered entity in India (CIN: U31902WB1930PLC006663); parent Koninklijke Philips N.V. is publicly listed on Euronext under ticker PHIA.AS.",
     "confidence": "not_applicable"
   },
   "revenue": {
@@ -35,11 +35,11 @@
   },
   "marketing_spend": {
     "value_low": 1500000000,
-    "value_high": 3000000000,
+    "value_high": 2500000000,
     "currency": "INR",
     "period": "FY2025",
     "tier": "4_triangulated",
-    "derivation": "Triangulated using Indian consumer electronics industry AdEx benchmarks and relative brand market visibility, as exact local filing spend was not provided in context.",
+    "derivation": "Estimated using category-level Indian AdEx benchmarks for consumer electronics and personal care appliances, assuming an estimated 8-12% share of category marketing spend for Philips India.",
     "source": null
   },
   "trend_history": {
@@ -66,19 +66,19 @@
   },
   "business_updates": [
     {
-      "headline": "Philips Reiterates Timing of 2026 Outlook",
-      "date": "2026-02-17",
+      "headline": "Philips reports Q2 2026 comparable sales growth of 4% driven by all business segments",
+      "date": "2026-07-28",
       "source": {
-        "name": "MarketWatch",
-        "url": "https://www.marketwatch.com/investing/stock/phia?countrycode=nl&gaa_at=eafs&gaa_n=AWEtsqfG6erBKf8FfN3VOekjezznrfktGqNoZLjVASGOO64zx_VmUbcMjFJ9&gaa_ts=69a75b3a&gaa_sig=WCq3VuucpOZJTA4tzE0bxT3_WRzoU-Mui0OS7XoSBFaMauS_WvDmCn-sobghI0VL-0MqnPw2kxwzVlIp_we3xQ%3D%3D"
+        "name": "Philips",
+        "url": "https://x.com/Philips"
       }
     },
     {
-      "headline": "Philips Agrees to $1 Billion U.S. Ventilator Settlement",
-      "date": "2026-02-12",
+      "headline": "Philips reports Q1 2026 results with 6% order intake growth and 4% comparable sales growth",
+      "date": "2026-05-28",
       "source": {
-        "name": "MarketWatch",
-        "url": "https://www.marketwatch.com/investing/stock/phia?countrycode=nl&gaa_at=eafs&gaa_n=AWEtsqfG6erBKf8FfN3VOekjezznrfktGqNoZLjVASGOO64zx_VmUbcMjFJ9&gaa_ts=69a75b3a&gaa_sig=WCq3VuucpOZJTA4tzE0bxT3_WRzoU-Mui0OS7XoSBFaMauS_WvDmCn-sobghI0VL-0MqnPw2kxwzVlIp_we3xQ%3D%3D"
+        "name": "Philips",
+        "url": "https://x.com/Philips"
       }
     }
   ]

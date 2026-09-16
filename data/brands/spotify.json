@@ -4,32 +4,32 @@
   "parent": null,
   "entity_type": "public_standalone",
   "category": "Audio Streaming",
-  "description": "Spotify is a audio streaming platform offering ad-supported and paid premium audio content subscriptions globally.",
-  "last_refreshed": "2026-09-14T09:12:23.910Z",
+  "description": "Spotify Technology S.A. is a global digital audio streaming platform providing access to music, podcasts, and audiobooks.",
+  "last_refreshed": "2026-09-16T08:48:26.074Z",
   "stock": {
     "applicable": true,
     "value": 525.75,
     "currency": "USD",
     "ticker": "SPOT",
     "as_of": "2026-09-14",
-    "note": "Reflects Spotify Technology S.A. share price.",
+    "note": "Reflects Spotify Technology S.A. standalone stock price on the NYSE.",
     "confidence": "disclosed"
   },
   "revenue": {
-    "value": 19444000000,
-    "currency": "USD",
-    "period": "FY2025",
+    "value": 4780000000,
+    "currency": "EUR",
+    "period": "Q2 2026",
     "confidence": "disclosed",
     "source": {
-      "name": "Macrotrends",
-      "url": "https://www.macrotrends.net/stocks/charts/SPOT/spotify-technology/revenue",
-      "date": "2026-09-14"
+      "name": "Investing.com",
+      "url": "https://www.investing.com/equities/spotify-technology-earnings",
+      "date": "2026-08-04"
     }
   },
   "operating_profit": {
     "value": null,
-    "currency": "USD",
-    "period": "FY2025",
+    "currency": "EUR",
+    "period": "Q2 2026",
     "confidence": "not_found",
     "source": null
   },
@@ -38,13 +38,17 @@
     "confidence": "not_found"
   },
   "marketing_spend": {
-    "value_low": 1944400000,
-    "value_high": 2333280000,
-    "currency": "USD",
-    "period": "FY2025",
+    "value_low": 478000000,
+    "value_high": 573600000,
+    "currency": "EUR",
+    "period": "Q2 2026",
     "tier": "3_modeled",
-    "derivation": "Modeled using a standard 10%–12% marketing-to-revenue benchmark ratio for audio streaming platforms applied against Spotify's reported FY2025 revenue of $19.444 billion.",
-    "source": null
+    "derivation": "Modeled using an industry-typical marketing-to-revenue benchmark of 10% to 12% applied against Spotify's Q2 2026 revenue of 4.78 billion EUR.",
+    "source": {
+      "name": "Investing.com",
+      "url": "https://www.investing.com/equities/spotify-technology-earnings",
+      "date": "2026-08-04"
+    }
   },
   "trend_history": {
     "stock": [
@@ -101,10 +105,30 @@
       {
         "period": "FY2025 S&M",
         "value": 1426000000
+      },
+      {
+        "period": "Q1 2026",
+        "value": 4530000000
+      },
+      {
+        "period": "Q2 2026",
+        "value": 4780000000
+      },
+      {
+        "period": "Q4 2025",
+        "value": 4530000000
       }
     ]
   },
   "business_updates": [
+    {
+      "headline": "Spotify reached 300 million premium subscribers in Q2 2026",
+      "date": "2026-08-04",
+      "source": {
+        "name": "Barron's",
+        "url": "https://www.barrons.com/articles/spotify-earnings-stock-price-d2b38442"
+      }
+    },
     {
       "headline": "Spotify Expands Repurchase Program With Additional $1.5 Billion Authorization",
       "date": "2026-09-03",
@@ -119,14 +143,6 @@
       "source": {
         "name": "Simply Wall St",
         "url": "https://simplywall.st/stocks/us/media/nyse-spot/spotify-technology"
-      }
-    },
-    {
-      "headline": "Spotify Premium Subscribers Cross 300 Million Mark in Q2 2026",
-      "date": "2026-08-01",
-      "source": {
-        "name": "Barron's",
-        "url": "https://www.barrons.com/articles/spotify-earnings-stock-price-d2b38442"
       }
     }
   ]

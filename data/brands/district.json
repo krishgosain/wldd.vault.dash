@@ -1,31 +1,31 @@
 {
   "name": "District",
   "slug": "district",
-  "parent": "Eternal Ltd (formerly Zomato)",
+  "parent": "Eternal Ltd",
   "entity_type": "public_parent",
   "category": "Events / Ticketing",
-  "description": "District is an events, ticketing, and going-out platform developed and operated as a subsidiary service of Eternal Ltd (formerly Zomato).",
-  "last_refreshed": "2026-09-14T09:13:06.392Z",
+  "description": "District is a live events and online ticketing platform operated as a brand vertical by parent entity Eternal Ltd (formerly Zomato Limited).",
+  "last_refreshed": "2026-09-16T08:49:53.505Z",
   "stock": {
     "applicable": false,
     "value": null,
     "currency": "INR",
     "ticker": null,
     "as_of": null,
-    "note": "District does not have an independent stock listing; parent company is Eternal Ltd (NSE: ETERNAL).",
+    "note": "Reflects parent entity Eternal Ltd (ETERNAL.NS); District is a brand segment and does not have a separate listing.",
     "confidence": "not_applicable"
   },
   "revenue": {
     "value": null,
     "currency": "INR",
-    "period": "FY2025",
+    "period": "FY2026",
     "confidence": "not_found",
     "source": null
   },
   "operating_profit": {
     "value": null,
     "currency": "INR",
-    "period": "FY2025",
+    "period": "FY2026",
     "confidence": "not_found",
     "source": null
   },
@@ -34,12 +34,12 @@
     "confidence": "not_found"
   },
   "marketing_spend": {
-    "value_low": 50000000,
-    "value_high": 200000000,
+    "value_low": 500000000,
+    "value_high": 1000000000,
     "currency": "INR",
-    "period": "FY2025",
+    "period": "FY2026",
     "tier": "3_modeled",
-    "derivation": "Estimated based on launch-phase marketing and user acquisition expenditures typical for new consumer tech verticals under major Indian platforms, allocating approximately INR 5-20 Cr for promotional campaigns and performance marketing.",
+    "derivation": "Modeled using consumer ticketing industry benchmarks, estimating annual ad and promotion spend at ₹50 Cr to ₹100 Cr to build brand equity and compete in the live events market under parent Eternal Ltd.",
     "source": null
   },
   "trend_history": {
@@ -64,5 +64,22 @@
       }
     ]
   },
-  "business_updates": []
+  "business_updates": [
+    {
+      "headline": "Eternal Ltd expands beyond restaurant delivery through its dedicated live events and online ticketing platform District.",
+      "date": "2026-03-01",
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Eternal_Limited"
+      }
+    },
+    {
+      "headline": "Eternal Ltd continues operational investments in its 'Going out' and ticketing business segment.",
+      "date": "2026-07-01",
+      "source": {
+        "name": "Dhan",
+        "url": "https://dhan.co/stocks/zomato-ltd-share-price"
+      }
+    }
+  ]
 }

@@ -4,15 +4,15 @@
   "parent": "OpenAI",
   "entity_type": "foreign_private",
   "category": "Consumer Tech / AI",
-  "description": "ChatGPT is a generative artificial intelligence chatbot developed by OpenAI, serving as its flagship consumer and enterprise AI application.",
-  "last_refreshed": "2026-09-15T11:44:34.112Z",
+  "description": "ChatGPT is an artificial intelligence conversational platform developed by OpenAI offering subscription plans, enterprise access, and advertising solutions.",
+  "last_refreshed": "2026-09-16T08:47:12.738Z",
   "stock": {
     "applicable": false,
     "value": null,
     "currency": "USD",
     "ticker": null,
     "as_of": null,
-    "note": "OpenAI is a private unlisted company preparing for a planned IPO.",
+    "note": "OpenAI is a private company preparing for a planned IPO.",
     "confidence": "not_applicable"
   },
   "revenue": {
@@ -23,7 +23,7 @@
     "source": {
       "name": "Business of Apps",
       "url": "https://www.businessofapps.com/data/chatgpt-statistics",
-      "date": "2026-07-16"
+      "date": "2026"
     }
   },
   "operating_profit": {
@@ -34,41 +34,20 @@
     "source": null
   },
   "expenses": {
-    "breakdown": [
-      {
-        "label": "Research and Development",
-        "value": 19180000000,
-        "confidence": "disclosed"
-      },
-      {
-        "label": "Cost of Revenue",
-        "value": 7500000000,
-        "confidence": "disclosed"
-      },
-      {
-        "label": "Sales and Marketing",
-        "value": 5730000000,
-        "confidence": "disclosed"
-      },
-      {
-        "label": "General and Administrative",
-        "value": 1570000000,
-        "confidence": "disclosed"
-      }
-    ],
-    "confidence": "press_estimate"
+    "breakdown": [],
+    "confidence": "not_found"
   },
   "marketing_spend": {
-    "value_low": 5730000000,
-    "value_high": 5730000000,
+    "value_low": 800000000,
+    "value_high": 1200000000,
     "currency": "USD",
     "period": "FY2025",
-    "tier": "1_disclosed",
-    "derivation": "OpenAI's audited financial figures, reported by Financial Times and Motley Fool, disclosed $5.73 billion spent on Sales and Marketing in 2025.",
+    "tier": "3_modeled",
+    "derivation": "Modeled at 10% to 15% of ChatGPT's $8 billion FY2025 revenue, based on typical sales and marketing spend ratios for hyper-growth consumer tech platforms.",
     "source": {
-      "name": "The Motley Fool",
-      "url": "https://www.fool.com/investing/2026/06/17/openai-s-financials-were-just-leaked-you-won-t-believe-how-much-the-company-is-losing",
-      "date": "2026-06-17"
+      "name": "Business of Apps",
+      "url": "https://www.businessofapps.com/data/chatgpt-statistics",
+      "date": "2026"
     }
   },
   "trend_history": {
@@ -94,27 +73,27 @@
   },
   "business_updates": [
     {
-      "headline": "OpenAI's ChatGPT ad business hits $1 billion run rate in six months",
-      "date": "2026-08-01",
+      "headline": "ChatGPT Ads expands across Europe",
+      "date": "2026-08-18",
       "source": {
-        "name": "Yahoo Finance",
-        "url": "https://finance.yahoo.com/media-advertising/articles/openais-chatgpt-ad-business-hits-153400849.html"
+        "name": "OpenAI",
+        "url": "https://openai.com/index/a-business-that-scales-with-the-value-of-intelligence"
       }
     },
     {
-      "headline": "ChatGPT crosses 1 billion monthly active users",
+      "headline": "OpenAI ChatGPT ads hit $1 billion annualized revenue run rate",
       "date": "2026-06-01",
-      "source": {
-        "name": "AI Business Weekly",
-        "url": "https://aibusinessweekly.net/p/openai-statistics"
-      }
-    },
-    {
-      "headline": "OpenAI reports $6.7 billion Q2 2026 revenue as it works toward planned 2027 IPO",
-      "date": "2026-09-15",
       "source": {
         "name": "Yahoo Finance",
         "url": "https://finance.yahoo.com/media-advertising/articles/openai-chatgpt-ads-hit-1-132117654.html"
+      }
+    },
+    {
+      "headline": "OpenAI completes $122 billion funding round at $852 billion valuation",
+      "date": "2026-04-28",
+      "source": {
+        "name": "CNBC",
+        "url": "https://www.cnbc.com/2026/04/28/openai-reportedly-missed-revenue-targets-shares-of-oracle-and-these-chip-stocks-are-falling.html"
       }
     }
   ]

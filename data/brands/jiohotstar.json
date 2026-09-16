@@ -4,37 +4,37 @@
   "parent": "JioStar",
   "entity_type": "india_private_registered",
   "category": "OTT",
-  "description": "JioHotstar is India's largest OTT streaming platform created through the merger of JioCinema and Disney+ Hotstar under JioStar, a joint venture controlled by Reliance Industries and Walt Disney.",
-  "last_refreshed": "2026-09-14T09:13:40.103Z",
+  "description": "JioHotstar is a Indian digital streaming and video-on-demand platform operated by JioStar, a joint venture between Reliance Industries and The Walt Disney Company.",
+  "last_refreshed": "2026-09-16T08:50:39.168Z",
   "stock": {
     "applicable": false,
     "value": null,
     "currency": "INR",
     "ticker": null,
     "as_of": null,
-    "note": "Not directly listed; owned via JioStar joint venture (Reliance Industries / Disney).",
+    "note": "JioHotstar is an OTT platform owned by JioStar, a joint venture consolidated via Reliance Industries (RELIANCE.NS) and equity-accounted by The Walt Disney Company (DIS).",
     "confidence": "not_applicable"
   },
   "revenue": {
-    "value": 72320000000,
+    "value": 310480000000,
     "currency": "INR",
-    "period": "Q2 FY2026",
+    "period": "FY26",
     "confidence": "disclosed",
     "source": {
-      "name": "The Financial Express",
-      "url": "https://www.financialexpress.com/business/industry-reliance-industries-confirms-merger-of-star-television-productions-with-jiostar-4062501",
-      "date": "2026-09-01"
+      "name": "The Economic Times",
+      "url": "https://economictimes.indiatimes.com/industry/media/entertainment/jiostar-losses-weigh-less-on-disney-as-india-jv-performance-improves/articleshow/131296128.cms",
+      "date": "2026-05-01"
     }
   },
   "operating_profit": {
-    "value": 13220000000,
+    "value": 48850000000,
     "currency": "INR",
-    "period": "Q2 FY2026",
+    "period": "FY26",
     "confidence": "disclosed",
     "source": {
-      "name": "The Financial Express",
-      "url": "https://www.financialexpress.com/business/industry-reliance-industries-confirms-merger-of-star-television-productions-with-jiostar-4062501",
-      "date": "2026-09-01"
+      "name": "The Economic Times",
+      "url": "https://economictimes.indiatimes.com/industry/media/entertainment/jiostar-losses-weigh-less-on-disney-as-india-jv-performance-improves/articleshow/131296128.cms",
+      "date": "2026-05-01"
     }
   },
   "expenses": {
@@ -42,16 +42,16 @@
     "confidence": "not_found"
   },
   "marketing_spend": {
-    "value_low": 43390000000,
-    "value_high": 57850000000,
+    "value_low": 46572000000,
+    "value_high": 62096000000,
     "currency": "INR",
-    "period": "FY2026",
+    "period": "FY26",
     "tier": "3_modeled",
-    "derivation": "Modeled using a category-typical OTT marketing-to-revenue ratio of 15%-20% applied to JioStar's annualized revenue base of ₹28,928 crore (extrapolated from Q2 FY26 revenues of ₹7,232 crore).",
+    "derivation": "Estimated by applying an OTT industry-standard marketing-to-revenue benchmark ratio of 15% to 20% against JioStar's disclosed FY26 operating revenue of Rs 31,048 crore.",
     "source": {
-      "name": "The Financial Express",
-      "url": "https://www.financialexpress.com/business/industry-reliance-industries-confirms-merger-of-star-television-productions-with-jiostar-4062501",
-      "date": "2026-09-01"
+      "name": "The Economic Times",
+      "url": "https://economictimes.indiatimes.com/industry/media/entertainment/jiostar-losses-weigh-less-on-disney-as-india-jv-performance-improves/articleshow/131296128.cms",
+      "date": "2026-05-01"
     }
   },
   "trend_history": {
@@ -62,38 +62,46 @@
         "value": 310480000000
       },
       {
+        "period": "FY26",
+        "value": 310480000000
+      },
+      {
         "period": "Q1 FY2026",
         "value": 96010000000
       },
       {
         "period": "Q2 FY2026",
         "value": 72320000000
+      },
+      {
+        "period": "Q2 FY26",
+        "value": 72320000000
       }
     ]
   },
   "business_updates": [
     {
-      "headline": "Reliance Industries completes merger of Star Television Productions with JioStar",
-      "date": "2026-09-01",
-      "source": {
-        "name": "The Financial Express",
-        "url": "https://www.financialexpress.com/business/industry-reliance-industries-confirms-merger-of-star-television-productions-with-jiostar-4062501"
-      }
-    },
-    {
-      "headline": "JioHotstar surpasses 300 million paid subscribers and 500 million monthly active users",
-      "date": "2026-09-01",
+      "headline": "JioStar reports Rs 3,210 crore profit in FY26 as JioHotstar hits 1 billion downloads",
+      "date": "2026-05-01",
       "source": {
         "name": "The Economic Times",
-        "url": "https://economictimes.indiatimes.com/topic/reliance-jiostar"
+        "url": "https://economictimes.indiatimes.com/industry/media/entertainment/jiostar-losses-weigh-less-on-disney-as-india-jv-performance-improves/articleshow/131296128.cms"
       }
     },
     {
-      "headline": "Disney reports $103 million Q2 equity loss from JioStar JV following merger accounting adjustments",
-      "date": "2026-09-01",
+      "headline": "Reliance merges Star Television Productions with JioStar to create combined media entity",
+      "date": "2025-12-01",
+      "source": {
+        "name": "The Statesman",
+        "url": "https://www.thestatesman.com/business/reliance-merges-star-tv-with-its-subsidiary-to-form-jiostar-india-1503520580.html/amp"
+      }
+    },
+    {
+      "headline": "Reliance-Disney JV officially launches unified JioHotstar platform integrating JioCinema and Disney+ Hotstar",
+      "date": "2025-02-01",
       "source": {
         "name": "Outlook Business",
-        "url": "https://www.outlookbusiness.com/news/disney-reports-103m-q2-equity-loss-from-jiostar-jv-136m-six-month-hit"
+        "url": "https://www.outlookbusiness.com/corporate/reliance-disney-jv-launches-jiohotstar-what-it-means-for-jiocinema-hotstar-subscribers"
       }
     }
   ]

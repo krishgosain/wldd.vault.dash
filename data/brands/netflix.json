@@ -4,28 +4,28 @@
   "parent": null,
   "entity_type": "public_standalone",
   "category": "OTT",
-  "description": "Netflix is a global direct-to-consumer video streaming service providing movies, television series, and video games.",
-  "last_refreshed": "2026-09-14T09:12:34.579Z",
+  "description": "Netflix is a subscription-based streaming service offering movies, television shows, and original content across multiple devices globally.",
+  "last_refreshed": "2026-09-16T08:48:51.516Z",
   "stock": {
     "applicable": true,
     "value": null,
     "currency": "USD",
     "ticker": "NFLX",
     "as_of": null,
-    "note": "Public standalone company traded under ticker NFLX.",
+    "note": "Publicly traded company on NASDAQ under ticker NFLX.",
     "confidence": "disclosed"
   },
   "revenue": {
     "value": null,
     "currency": "USD",
-    "period": "FY2024",
+    "period": "FY2025",
     "confidence": "not_found",
     "source": null
   },
   "operating_profit": {
     "value": null,
     "currency": "USD",
-    "period": "FY2024",
+    "period": "FY2025",
     "confidence": "not_found",
     "source": null
   },
@@ -34,12 +34,12 @@
     "confidence": "not_found"
   },
   "marketing_spend": {
-    "value_low": 2500000000,
-    "value_high": 3500000000,
+    "value_low": 2000000000,
+    "value_high": 3000000000,
     "currency": "USD",
-    "period": "FY2024",
+    "period": "FY2025",
     "tier": "3_modeled",
-    "derivation": "Estimated based on industry benchmark marketing-to-revenue ratio of 8-10% typical for global OTT streaming platforms.",
+    "derivation": "Modeled using category-typical benchmark ratios of 8%–10% of total revenue allocated toward marketing and demand creation for global subscription OTT platforms, as specific filing disclosures were omitted from the provided text.",
     "source": null
   },
   "trend_history": {
@@ -80,5 +80,22 @@
       }
     ]
   },
-  "business_updates": []
+  "business_updates": [
+    {
+      "headline": "Netflix explores live linear TV channels and third-party streaming bundles to boost engagement and ad business",
+      "date": "2026-07-01",
+      "source": {
+        "name": "Netflix - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Netflix"
+      }
+    },
+    {
+      "headline": "Netflix reportedly in early talks to acquire film discovery platform Letterboxd",
+      "date": "2026-07-01",
+      "source": {
+        "name": "Netflix - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Netflix"
+      }
+    }
+  ]
 }
