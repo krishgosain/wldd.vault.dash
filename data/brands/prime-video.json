@@ -4,15 +4,15 @@
   "parent": "Amazon",
   "entity_type": "public_parent",
   "category": "OTT",
-  "description": "Prime Video is an over-the-top streaming and video-on-demand service owned and operated by Amazon.",
-  "last_refreshed": "2026-09-14T09:14:22.347Z",
+  "description": "Prime Video is a global subscription video-on-demand streaming and rental service operated as a business segment of parent company Amazon.",
+  "last_refreshed": "2026-09-30T09:56:50.408Z",
   "stock": {
     "applicable": false,
     "value": null,
     "currency": "USD",
-    "ticker": null,
+    "ticker": "AMZN",
     "as_of": null,
-    "note": "Reflects parent company Amazon (NASDAQ: AMZN); Prime Video is a division and does not trade separately.",
+    "note": "Reflects parent company Amazon (NASDAQ: AMZN), not Prime Video specifically.",
     "confidence": "not_applicable"
   },
   "revenue": {
@@ -25,7 +25,7 @@
   "operating_profit": {
     "value": null,
     "currency": "USD",
-    "period": "FY2024",
+    "period": "",
     "confidence": "not_found",
     "source": null
   },
@@ -34,13 +34,17 @@
     "confidence": "not_found"
   },
   "marketing_spend": {
-    "value_low": 1500000000,
-    "value_high": 3000000000,
+    "value_low": 4440000000,
+    "value_high": 6660000000,
     "currency": "USD",
     "period": "FY2024",
     "tier": "3_modeled",
-    "derivation": "Modeled using OTT industry standard marketing-to-content spend ratios applied against estimated global streaming expenditure for Amazon's media division.",
-    "source": null
+    "derivation": "Calculated by applying a standard OTT industry marketing spend benchmark (10%-15% of revenue) to Amazon's subscription services segment revenue of $44.4 billion in 2024.",
+    "source": {
+      "name": "Barchart",
+      "url": "https://www.barchart.com/story/news/33155432/amzn-stock-forecast-1-way-for-amazon-to-boost-billions-in-new-revenue",
+      "date": "2026-01-01"
+    }
   },
   "trend_history": {
     "stock": [
@@ -80,5 +84,30 @@
       }
     ]
   },
-  "business_updates": []
+  "business_updates": [
+    {
+      "headline": "Prime Video ad-supported model reaches 315 million average viewers globally across 16 countries",
+      "date": "2026-01-01",
+      "source": {
+        "name": "Quartz",
+        "url": "https://qz.com/can-amazon-s-advertising-revenue-momentum-drive-upside-for-amzn-stock"
+      }
+    },
+    {
+      "headline": "Amazon Ads expands Prime Video advertising to Belgium, Denmark, Norway, and Turkey in 2026",
+      "date": "2026-01-01",
+      "source": {
+        "name": "Quartz",
+        "url": "https://qz.com/can-amazon-s-advertising-revenue-momentum-drive-upside-for-amzn-stock"
+      }
+    },
+    {
+      "headline": "TD Cowen raises Amazon price target to $315 on strong advertising and Prime Video growth projections",
+      "date": "2026-01-01",
+      "source": {
+        "name": "CoinCentral",
+        "url": "https://coincentral.com/amazon-amzn-stock-td-cowen-raises-price-target-to-315-on-ad-revenue-growth"
+      }
+    }
+  ]
 }

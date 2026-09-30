@@ -4,37 +4,37 @@
   "parent": "Krafton Inc.",
   "entity_type": "public_parent",
   "category": "Gaming",
-  "description": "BGMI (Battlegrounds Mobile India) is a mobile battle royale game owned and operated by South Korean video game holding company Krafton Inc.",
-  "last_refreshed": "2026-09-14T09:14:41.308Z",
+  "description": "BGMI (Battlegrounds Mobile India) is a mobile battle royale game developed and published by South Korean video game developer Krafton Inc.",
+  "last_refreshed": "2026-09-30T09:57:16.701Z",
   "stock": {
     "applicable": false,
-    "value": 208500,
+    "value": 195800,
     "currency": "KRW",
     "ticker": "259960.KS",
-    "as_of": "2026-09-10",
-    "note": "Reflects parent company Krafton Inc. (259960.KS), not BGMI specifically",
+    "as_of": "2026-09-30",
+    "note": "Reflects parent company Krafton Inc., not the BGMI game title directly.",
     "confidence": "not_applicable"
   },
   "revenue": {
-    "value": 1000000000000,
+    "value": 2660000000000,
     "currency": "KRW",
-    "period": "Q1 2026",
+    "period": "1H 2026",
     "confidence": "disclosed",
     "source": {
-      "name": "Outlook Respawn",
-      "url": "https://respawn.outlookindia.com/gaming/gaming-news/krafton-q1-2026-earnings-pubg-bgmi-record-revenue",
-      "date": "2026-05-04"
+      "name": "Stock Analysis",
+      "url": "https://stockanalysis.com/quote/krx/259960",
+      "date": "2026-09-30"
     }
   },
   "operating_profit": {
-    "value": 561600000000,
+    "value": 411000000000,
     "currency": "KRW",
-    "period": "Q1 2026",
+    "period": "Q2 2026",
     "confidence": "disclosed",
     "source": {
-      "name": "Stockopedia",
+      "name": "Stockopedia / Krafton Announcement",
       "url": "https://www.stockopedia.com/share-prices/krafton-KRX:259960",
-      "date": "2026-05-04"
+      "date": "2026-09-30"
     }
   },
   "expenses": {
@@ -42,12 +42,12 @@
     "confidence": "not_found"
   },
   "marketing_spend": {
-    "value_low": 100000000000,
-    "value_high": 150000000000,
+    "value_low": 266000000000,
+    "value_high": 399000000000,
     "currency": "KRW",
-    "period": "Q1 2026",
+    "period": "1H 2026",
     "tier": "3_modeled",
-    "derivation": "Estimated by applying a standard mobile gaming industry marketing-to-revenue ratio of 10% to 15% against the PUBG franchise (including BGMI) Q1 2026 revenue of 1 trillion KRW.",
+    "derivation": "Modeled at 10-15% of Krafton's 1H 2026 revenue of KRW 2.66 trillion, based on standard gaming sector user-acquisition and marketing spend benchmarks.",
     "source": null
   },
   "trend_history": {
@@ -57,11 +57,27 @@
         "value": 224000
       },
       {
+        "date": "2026-09-03",
+        "value": 218000
+      },
+      {
         "date": "2026-09-10",
         "value": 208500
+      },
+      {
+        "date": "2026-09-30",
+        "value": 195800
       }
     ],
     "revenue": [
+      {
+        "period": "2024",
+        "value": 2709774110000
+      },
+      {
+        "period": "2025",
+        "value": 3326553690000
+      },
       {
         "period": "FY2024 (Krafton)",
         "value": 2710000000000
@@ -78,19 +94,19 @@
   },
   "business_updates": [
     {
-      "headline": "BGMI 4.3 update: Krafton collaborates with CSK & KKR for IPL '26",
-      "date": "2026-05-04",
+      "headline": "BGMI 4.3 update: Krafton collaborates with CSK & KKR for IPL '26; check team-themed skins and more",
+      "date": "2026-09-30",
       "source": {
-        "name": "StockAnalysis",
+        "name": "Stock Analysis",
         "url": "https://stockanalysis.com/quote/krx/259960"
       }
     },
     {
-      "headline": "Krafton Q1 2026 Earnings: Revenue Jumps 57%, PUBG Franchise Tops 1 Trillion Won",
-      "date": "2026-05-04",
+      "headline": "Krafton expands incubator to take over user acquisition for startups in India",
+      "date": "2026-09-30",
       "source": {
-        "name": "Outlook Respawn",
-        "url": "https://respawn.outlookindia.com/gaming/gaming-news/krafton-q1-2026-earnings-pubg-bgmi-record-revenue"
+        "name": "Stock Analysis",
+        "url": "https://stockanalysis.com/quote/krx/259960"
       }
     }
   ]

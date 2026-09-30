@@ -4,28 +4,28 @@
   "parent": "Amazon",
   "entity_type": "public_parent",
   "category": "Quick Commerce",
-  "description": "Amazon Now is the quick commerce delivery service operated as a business unit of e-commerce parent Amazon.com, Inc.",
-  "last_refreshed": "2026-09-14T09:14:13.185Z",
+  "description": "Amazon Now is the quick commerce ultra-fast delivery offering operated by parent company Amazon.com, Inc.",
+  "last_refreshed": "2026-09-30T09:56:30.900Z",
   "stock": {
     "applicable": false,
-    "value": null,
+    "value": 249.67,
     "currency": "USD",
     "ticker": "AMZN",
-    "as_of": "2026-04-01",
-    "note": "Reflects parent company Amazon.com, Inc. (NASDAQ: AMZN), not Amazon Now as a standalone entity.",
+    "as_of": "2026-09-30",
+    "note": "Stock metrics reflect parent company Amazon.com, Inc. (AMZN) as Amazon Now is not independently listed.",
     "confidence": "not_applicable"
   },
   "revenue": {
     "value": null,
     "currency": "USD",
-    "period": "FY2025",
+    "period": "Q2 2026",
     "confidence": "not_found",
     "source": null
   },
   "operating_profit": {
     "value": null,
     "currency": "USD",
-    "period": "FY2025",
+    "period": "Q2 2026",
     "confidence": "not_found",
     "source": null
   },
@@ -34,43 +34,67 @@
     "confidence": "not_found"
   },
   "marketing_spend": {
-    "value_low": 50000000,
-    "value_high": 150000000,
+    "value_low": 10314000000,
+    "value_high": 10314000000,
     "currency": "USD",
-    "period": "FY2025",
-    "tier": "3_modeled",
-    "derivation": "Modeled using a quick-commerce benchmark marketing ratio of 5-10% applied against estimated quick commerce service gross scale.",
-    "source": null
+    "period": "Q1 2026",
+    "tier": "1_disclosed",
+    "derivation": "Parent company Amazon.com, Inc. reported consolidated Sales and marketing expense of $10,314 million ($10.314B) in its Q1 2026 financial statement.",
+    "source": {
+      "name": "Amazon.com, Inc. - Amazon.com Announces First Quarter Results",
+      "url": "https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-First-Quarter-Results/default.aspx",
+      "date": "2026-03-31"
+    }
   },
   "trend_history": {
     "stock": [
       {
         "date": "2026-08-14",
         "value": 265.13
+      },
+      {
+        "date": "2026-09-29",
+        "value": 247.32
+      },
+      {
+        "date": "2026-09-30",
+        "value": 249.67
       }
     ],
     "revenue": [
       {
         "period": "Q1 2026",
         "value": 181519000000
+      },
+      {
+        "period": "Q2 2026",
+        "value": 200600000000
       }
     ]
   },
   "business_updates": [
     {
-      "headline": "Amazon reports FY2025 total revenue of $717 billion supported by retail and ad expansion",
-      "date": "2026-01-01",
+      "headline": "Amazon reported Q2 2026 revenue of $200.6 billion (up 20% YoY) and raised 2026 cash CapEx guidance to $220 billion.",
+      "date": "2026-09-30",
       "source": {
-        "name": "MEXC Blog",
-        "url": "https://blog.mexc.com/finance/amazon-stock-long-term-investment-analysis"
+        "name": "Simply Wall St",
+        "url": "https://simplywall.st/stocks/us/retail/nasdaq-amzn/amazoncom"
       }
     },
     {
-      "headline": "Amazon operating income reaches $18.4 billion with strong contributions from advertising and AWS",
-      "date": "2026-01-01",
+      "headline": "AWS operations disrupted by drone strikes in the UAE causing regional cloud outages.",
+      "date": "2026-09-26",
       "source": {
-        "name": "Barchart",
-        "url": "https://www.barchart.com/story/news/33155432/amzn-stock-forecast-1-way-for-amazon-to-boost-billions-in-new-revenue"
+        "name": "Simply Wall St",
+        "url": "https://simplywall.st/stocks/us/retail/nasdaq-amzn/amazoncom"
+      }
+    },
+    {
+      "headline": "Kevin R. Mandia elected to Amazon Board of Directors and appointed to Audit and Security Committees.",
+      "date": "2026-09-08",
+      "source": {
+        "name": "Simply Wall St",
+        "url": "https://simplywall.st/stocks/us/retail/nasdaq-amzn/amazoncom"
       }
     }
   ]
