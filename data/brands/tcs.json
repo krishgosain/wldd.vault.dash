@@ -4,62 +4,51 @@
   "parent": "Tata Group",
   "entity_type": "public_standalone",
   "category": "IT Services",
-  "description": "Tata Consultancy Services (TCS) is a major Indian IT services, consulting, and business solutions provider operating as a publicly listed subsidiary of Tata Group.",
-  "last_refreshed": "2026-09-14T09:16:21.356Z",
+  "description": "Tata Consultancy Services (TCS) is an Indian multinational information technology services and consulting company, majority-owned by Tata Sons as part of the Tata Group.",
+  "last_refreshed": "2026-10-11T10:16:03.710Z",
   "stock": {
     "applicable": true,
-    "value": 2204.1,
+    "value": 2075,
     "currency": "INR",
     "ticker": "TCS.NS",
-    "as_of": "2026-09-11",
-    "note": "Reflects TCS standalone listed equity price on NSE/BSE",
+    "as_of": "2026-10-02",
+    "note": "Reflects TCS standalone equity share price on NSE/BSE.",
     "confidence": "disclosed"
   },
   "revenue": {
-    "value": 2553240000000,
+    "value": 2714230000000,
     "currency": "INR",
-    "period": "FY2025",
+    "period": "FY2026",
     "confidence": "disclosed",
     "source": {
-      "name": "Aditya Trading",
-      "url": "https://adityatrading.in/stocks/tcs",
-      "date": "unknown"
+      "name": "Wikipedia - Tata Consultancy Services",
+      "url": "https://en.wikipedia.org/wiki/Tata_Consultancy_Services",
+      "date": "2026-01-01"
     }
   },
   "operating_profit": {
-    "value": null,
+    "value": 700130000000,
     "currency": "INR",
-    "period": "FY2025",
-    "confidence": "not_found",
-    "source": null
+    "period": "FY2026",
+    "confidence": "disclosed",
+    "source": {
+      "name": "Wikipedia - Tata Consultancy Services",
+      "url": "https://en.wikipedia.org/wiki/Tata_Consultancy_Services",
+      "date": "2026-01-01"
+    }
   },
   "expenses": {
-    "breakdown": [
-      {
-        "label": "Cost of revenue (Q1 FY27 / Jun 2026)",
-        "value": 434910000000,
-        "confidence": "disclosed"
-      },
-      {
-        "label": "Selling, general, and admin expenses (Q1 FY27 / Jun 2026)",
-        "value": 9750000000,
-        "confidence": "disclosed"
-      }
-    ],
-    "confidence": "disclosed"
+    "breakdown": [],
+    "confidence": "not_found"
   },
   "marketing_spend": {
-    "value_low": 12766200000,
-    "value_high": 25532400000,
+    "value_low": 13570000000,
+    "value_high": 40710000000,
     "currency": "INR",
-    "period": "FY2025",
+    "period": "FY2026",
     "tier": "3_modeled",
-    "derivation": "Modeled using a standard global IT services industry benchmark of 0.5% to 1.0% of annual revenue applied to TCS's reported FY25 consolidated revenue of ₹255,324 crore.",
-    "source": {
-      "name": "Aditya Trading",
-      "url": "https://adityatrading.in/stocks/tcs",
-      "date": "unknown"
-    }
+    "derivation": "Estimated as 0.5% to 1.5% of total FY2026 revenue (₹2,714,230,000,000), aligned with standard global IT services industry benchmarks for B2B sales promotion, brand partnerships, and global event sponsorships.",
+    "source": null
   },
   "trend_history": {
     "stock": [
@@ -70,12 +59,28 @@
       {
         "date": "2026-09-11",
         "value": 2204.1
+      },
+      {
+        "date": "2026-10-02",
+        "value": 2075
       }
     ],
     "revenue": [
       {
         "period": "Dec 2025",
         "value": 670870000000
+      },
+      {
+        "period": "FY2024",
+        "value": 2408930000000
+      },
+      {
+        "period": "FY2025",
+        "value": 2553240000000
+      },
+      {
+        "period": "FY2026",
+        "value": 2670210000000
       },
       {
         "period": "Jun 2026",
@@ -109,11 +114,27 @@
   },
   "business_updates": [
     {
-      "headline": "TCS unveiled a $1.5 billion contract with a European luxury carmaker, acquiring its consulting unit.",
-      "date": "unknown",
+      "headline": "TCS and IEM Kolkata partner to establish an AI-focused Centre of Excellence to advance industry-academia innovation",
+      "date": "2026-09-28",
       "source": {
-        "name": "Reuters",
-        "url": "https://www.reuters.com/markets/companies/TCS.NS"
+        "name": "TCS Investor Relations",
+        "url": "https://www.tcs.com/investor-relations"
+      }
+    },
+    {
+      "headline": "TCS launches next-gen system-on-chip design services for automotive and semiconductor companies",
+      "date": "2026-09-17",
+      "source": {
+        "name": "TCS Investor Relations",
+        "url": "https://www.tcs.com/investor-relations"
+      }
+    },
+    {
+      "headline": "TCS deepens partnership with Google Cloud to power AI-native autonomous enterprises",
+      "date": "2026-04-24",
+      "source": {
+        "name": "TCS Investor Relations",
+        "url": "https://www.tcs.com/investor-relations"
       }
     }
   ]

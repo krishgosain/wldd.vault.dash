@@ -4,84 +4,100 @@
   "parent": "PhonePe Pvt Ltd",
   "entity_type": "india_private_registered",
   "category": "Fintech",
-  "description": "PhonePe is a brand/product of PhonePe Pvt Ltd, majority-owned by Walmart; not separately listed (IPO in preparation as of FY25).",
-  "last_refreshed": "2026-09-09T12:00:00.000Z",
+  "description": "PhonePe is an Indian digital payments and fintech company majority-owned by US retail corporation Walmart Inc.",
+  "last_refreshed": "2026-10-11T10:18:04.684Z",
   "stock": {
     "applicable": false,
     "value": null,
     "currency": "INR",
     "ticker": null,
     "as_of": null,
-    "note": "Privately held — no public stock (IPO in preparation).",
+    "note": "PhonePe is a private registered entity majority-owned by Walmart and is not separately listed.",
     "confidence": "not_applicable"
   },
   "revenue": {
-    "value": 71150000000.0,
-    "currency": "INR",
+    "value": 761000000,
+    "currency": "USD",
     "period": "FY2025",
     "confidence": "disclosed",
     "source": {
-      "name": "Entrackr — PhonePe posts Rs 7,115 Cr revenue and Rs 630 Cr adjusted PAT in FY25",
-      "url": "https://entrackr.com/fintrackr/phonepe-posts-rs-7115-cr-revenue-and-rs-630-cr-adjusted-pat-in-fy25-10487742",
-      "date": "2025-09-22"
+      "name": "Multiples.vc",
+      "url": "https://multiples.vc/private-comps/phonepe",
+      "date": "2025-10-01"
     }
   },
   "operating_profit": {
-    "value": -17270000000.0,
+    "value": -14440000000,
     "currency": "INR",
-    "period": "FY2025 net loss (reported basis)",
+    "period": "H1 FY2026",
     "confidence": "disclosed",
     "source": {
-      "name": "Inc42 — PhonePe FY25: loss narrows 13.5% to INR 1,727 Cr",
-      "url": "https://inc42.com/buzz/phonepe-fy25-loss-narrows-13-5-to-inr-1727-cr-revenue-crosses-inr-7000-cr-mark/",
-      "date": "2025-09-22"
+      "name": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/news/walmart-backed-phonepe-shelves-ipo-130247711.html",
+      "date": "2026-03-01"
     }
   },
   "expenses": {
-    "breakdown": [
-      {
-        "label": "Adjusted PAT (FY25)",
-        "value": 6300000000.0,
-        "confidence": "disclosed"
-      },
-      {
-        "label": "Adjusted EBITDA excl. ESOP (FY25)",
-        "value": 14770000000.0,
-        "confidence": "disclosed"
-      }
-    ],
-    "confidence": "disclosed"
+    "breakdown": [],
+    "confidence": "not_found"
   },
   "marketing_spend": {
-    "value_low": 5420000000.0,
-    "value_high": 5420000000.0,
-    "currency": "INR",
+    "value_low": 114000000,
+    "value_high": 152000000,
+    "currency": "USD",
     "period": "FY2025",
-    "tier": "1_disclosed",
-    "derivation": "Disclosed: advertising and sales-promotion expenses fell 21.6% YoY to ₹542 crore in FY25 (from ₹691 crore in FY24), as the company trimmed marketing spend ahead of its planned IPO.",
+    "tier": "3_modeled",
+    "derivation": "Modeled using a standard fintech marketing-to-revenue benchmark ratio of 15% to 20% applied against PhonePe's reported FY2025 revenue of $761 million.",
     "source": {
-      "name": "Entrackr — PhonePe FY25 results",
-      "url": "https://entrackr.com/fintrackr/phonepe-posts-rs-7115-cr-revenue-and-rs-630-cr-adjusted-pat-in-fy25-10487742",
-      "date": "2025-09-22"
+      "name": "Multiples.vc",
+      "url": "https://multiples.vc/private-comps/phonepe",
+      "date": "2025-10-01"
     }
   },
   "trend_history": {
     "stock": [],
     "revenue": [
       {
+        "period": "CY2020",
+        "value": 26000000
+      },
+      {
+        "period": "CY2022",
+        "value": 325000000
+      },
+      {
+        "period": "CY2023",
+        "value": 504000000
+      },
+      {
         "period": "FY2025",
-        "value": 71150000000.0
+        "value": 761000000
       }
     ]
   },
   "business_updates": [
     {
-      "headline": "PhonePe FY25: revenue up 40% to ₹7,115 crore, reported net loss narrows 13% to ₹1,727 crore, adjusted PAT rises to ₹630 crore ahead of planned IPO",
-      "date": "2025-09-22",
+      "headline": "PhonePe pauses $1.3B IPO plans due to global market volatility",
+      "date": "2026-03-01",
       "source": {
-        "name": "Entrackr",
-        "url": "https://entrackr.com/fintrackr/phonepe-posts-rs-7115-cr-revenue-and-rs-630-cr-adjusted-pat-in-fy25-10487742",
-        "date": "2025-09-22"
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/news/walmart-backed-phonepe-shelves-ipo-130247711.html"
+      }
+    },
+    {
+      "headline": "PhonePe processes 9.3 billion UPI transactions worth ₹13.1 trillion in February 2026",
+      "date": "2026-02-28",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/news/walmart-backed-phonepe-shelves-ipo-130247711.html"
+      }
+    },
+    {
+      "headline": "Walmart ownership stake updated to 71.77% in PhonePe's revised draft prospectus",
+      "date": "2026-10-08",
+      "source": {
+        "name": "Instagram / Marketing Stories",
+        "url": "https://www.instagram.com/reel/DUkcE_-Ex2j?hl=en"
       }
     }
   ]

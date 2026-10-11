@@ -4,28 +4,28 @@
   "parent": "Wispr AI",
   "entity_type": "foreign_private",
   "category": "Consumer Tech / AI",
-  "description": "Wispr Flow is an AI-powered voice-to-text dictation application and voice operating system developed by Wispr AI.",
-  "last_refreshed": "2026-09-14T09:15:47.851Z",
+  "description": "Wispr Flow is a cross-platform, AI-powered dictation and natural speech-to-text application developed by Wispr AI.",
+  "last_refreshed": "2026-10-11T10:15:15.077Z",
   "stock": {
     "applicable": false,
     "value": null,
     "currency": "USD",
     "ticker": null,
     "as_of": null,
-    "note": "Private company; stock is not publicly traded.",
+    "note": "Wispr AI is a private company and its shares are not publicly traded.",
     "confidence": "not_applicable"
   },
   "revenue": {
     "value": null,
     "currency": "USD",
-    "period": "FY2025",
+    "period": "FY2026",
     "confidence": "not_found",
     "source": null
   },
   "operating_profit": {
     "value": null,
     "currency": "USD",
-    "period": "FY2025",
+    "period": "FY2026",
     "confidence": "not_found",
     "source": null
   },
@@ -34,16 +34,16 @@
     "confidence": "not_found"
   },
   "marketing_spend": {
-    "value_low": 15000000,
-    "value_high": 30000000,
+    "value_low": 2000000,
+    "value_high": 5000000,
     "currency": "USD",
-    "period": "2025-2026",
+    "period": "FY2026",
     "tier": "3_modeled",
-    "derivation": "Modeled assuming 15-25% allocation to growth marketing and user acquisition relative to recent venture capital deployment following a $280M Series B raise and rapid quarterly growth.",
+    "derivation": "Modeled using Similarweb traffic metrics (~5.5M monthly visits, 26.6% paid search/social traffic) with an estimated average CPC of $0.50-$1.00, combined with creator spend for their 512.9M-view UGC video program.",
     "source": {
-      "name": "TechCrunch",
-      "url": "https://techcrunch.com/2026/08/17/wispr-raises-280m-at-2b-valuation-as-it-looks-beyond-dictation",
-      "date": "2026-08-17"
+      "name": "Postbeam",
+      "url": "https://www.postbeam.ai/blog/how-wisprflow-grows",
+      "date": "2026-08-01"
     }
   },
   "trend_history": {
@@ -61,19 +61,27 @@
   },
   "business_updates": [
     {
-      "headline": "Wispr raises $280M at $2B valuation led by Menlo Ventures to expand beyond dictation",
+      "headline": "Wispr raises $280M Series B funding at $2B valuation led by Menlo Ventures",
       "date": "2026-08-17",
       "source": {
-        "name": "TechCrunch",
-        "url": "https://techcrunch.com/2026/08/17/wispr-raises-280m-at-2b-valuation-as-it-looks-beyond-dictation"
+        "name": "SiliconANGLE",
+        "url": "https://siliconangle.com/2026/08/17/wispr-raises-280m-to-power-up-natural-speech-to-text-using-ai"
       }
     },
     {
-      "headline": "Wispr unveils Canto, its proprietary speech-recognition model to reduce dictation error rates",
-      "date": "2026-08-17",
+      "headline": "Wispr Flow announces $25M Series A2 round following 10x revenue growth",
+      "date": "2026-08-01",
       "source": {
-        "name": "Reuters",
-        "url": "https://www.reuters.com/technology/wispr-flow-valued-2-billion-latest-funding-round-2026-08-17"
+        "name": "LinkedIn",
+        "url": "https://www.linkedin.com/posts/wisprflow_were-thrilled-to-announce-that-wispr-flow-activity-7397306261098315776-LiM7"
+      }
+    },
+    {
+      "headline": "Wispr Flow updates pricing plans to free tier and $15/month Pro subscription",
+      "date": "2026-08-01",
+      "source": {
+        "name": "Zack Proser Blog",
+        "url": "https://zackproser.com/blog/wisprflow-pricing-guide-2026"
       }
     }
   ]

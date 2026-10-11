@@ -4,99 +4,97 @@
   "parent": null,
   "entity_type": "public_standalone",
   "category": "Food Delivery / Quick Commerce",
-  "description": "Swiggy Ltd (NSE: SWIGGY), listed Nov 2024.",
-  "last_refreshed": "2026-09-09T12:00:00.000Z",
+  "description": "Swiggy Limited is an India-based consumer technology company operating food delivery, quick commerce (Instamart), dining out solutions, and hyperlocal logistics services.",
+  "last_refreshed": "2026-10-11T10:17:42.795Z",
   "stock": {
     "applicable": true,
-    "value": 278.75,
+    "value": 278.1,
     "currency": "INR",
     "ticker": "SWIGGY.NS",
-    "as_of": "2026-09-07",
-    "note": "NSE: SWIGGY.",
+    "as_of": "2026-09-18",
+    "note": "Closing price on National Stock Exchange (NSE)",
     "confidence": "disclosed"
   },
   "revenue": {
-    "value": 152267500000.0,
+    "value": 7112,
     "currency": "INR",
-    "period": "FY2025 (consolidated, revenue from operations)",
+    "period": "Q1 FY2027",
     "confidence": "disclosed",
     "source": {
-      "name": "Indian Retailer — Swiggy Q4 loss doubles, FY25 revenue rises 35%",
-      "url": "https://www.indianretailer.com/news/swiggy-q4-loss-doubles-rs-1081-cr-fy25-revenue-rises-35-rs-5227-cr",
-      "date": "2025-05-01"
+      "name": "Tickertape / Swiggy Q1 Press Release",
+      "url": "https://www.tickertape.in/stocks/swiggy-SWIG",
+      "date": "2026-07-30"
     }
   },
   "operating_profit": {
-    "value": -31167900000.0,
+    "value": -651,
     "currency": "INR",
-    "period": "FY2025 net loss (consolidated)",
+    "period": "Q1 FY2027",
     "confidence": "disclosed",
     "source": {
-      "name": "Indian Retailer — Swiggy Q4 FY25 results",
-      "url": "https://www.indianretailer.com/news/swiggy-q4-loss-doubles-rs-1081-cr-fy25-revenue-rises-35-rs-5227-cr",
-      "date": "2025-05-01"
+      "name": "Indian Startup News / NDTV Profit",
+      "url": "https://www.facebook.com/indianstartupnews/posts/swiggy-reported-a-373-year-on-year-increase-in-revenue-from-operations-to-rs-681/1679923623767196",
+      "date": "2026-08-01"
     }
   },
   "expenses": {
-    "breakdown": [
-      {
-        "label": "Advertising & sales promotion (FY25)",
-        "value": 27117000000.0,
-        "confidence": "disclosed"
-      },
-      {
-        "label": "Delivery & related charges (FY25)",
-        "value": 44292000000.0,
-        "confidence": "disclosed"
-      },
-      {
-        "label": "Employee benefits expense (FY25)",
-        "value": 25488600000.0,
-        "confidence": "disclosed"
-      },
-      {
-        "label": "Total expenses (FY25)",
-        "value": 187254500000.0,
-        "confidence": "disclosed"
-      }
-    ],
-    "confidence": "disclosed"
+    "breakdown": [],
+    "confidence": "not_found"
   },
   "marketing_spend": {
-    "value_low": 27117000000.0,
-    "value_high": 27117000000.0,
+    "value_low": 711.2,
+    "value_high": 1066.8,
     "currency": "INR",
-    "period": "FY2025",
-    "tier": "1_disclosed",
-    "derivation": "Disclosed in FY25 annual results: advertising and sales-promotion expense was ₹2,711.70 crore, up from ₹1,850.79 crore in FY24, as Instamart quick-commerce expansion drove aggressive customer acquisition.",
-    "source": {
-      "name": "Business Standard — Swiggy FY25 consolidated results",
-      "url": "https://www.business-standard.com/markets/capital-market-news/swiggy-q2-net-loss-widens-to-rs-1-092-cr-125103001258_1.html",
-      "date": "2025-05-01"
-    }
+    "period": "Q1 FY2027",
+    "tier": "3_modeled",
+    "derivation": "Estimated as 10% to 15% of Q1 FY2027 adjusted revenue (INR 7,112 crore) based on standard industry customer acquisition and demand creation spending ratios for quick commerce and food delivery platforms.",
+    "source": null
   },
   "trend_history": {
     "stock": [
       {
         "date": "2026-09-07",
         "value": 278.75
+      },
+      {
+        "date": "2026-09-18",
+        "value": 278.1
       }
     ],
     "revenue": [
       {
         "period": "FY2025",
-        "value": 152267500000.0
+        "value": 152267500000
+      },
+      {
+        "period": "Q1 FY2027",
+        "value": 7112
       }
     ]
   },
   "business_updates": [
     {
-      "headline": "Swiggy FY25: consolidated revenue up 35% to ₹15,226.75 crore, net loss widens to ₹3,116.79 crore on higher delivery, marketing and employee costs",
-      "date": "2025-05-01",
+      "headline": "Swiggy reports Q1 FY27 adjusted revenue of INR 7,112 crore; Instamart reaches contribution breakeven in May 2026",
+      "date": "2026-07-30",
       "source": {
-        "name": "Indian Retailer",
-        "url": "https://www.indianretailer.com/news/swiggy-q4-loss-doubles-rs-1081-cr-fy25-revenue-rises-35-rs-5227-cr",
-        "date": "2025-05-01"
+        "name": "NDTV Profit",
+        "url": "https://www.youtube.com/watch?v=O9c_in_lu6o"
+      }
+    },
+    {
+      "headline": "Swiggy sets target to achieve INR 100 billion in annual core earnings by FY2031",
+      "date": "2026-08-15",
+      "source": {
+        "name": "Reuters",
+        "url": "https://www.reuters.com/markets/companies/SWIG.NS"
+      }
+    },
+    {
+      "headline": "Food safety crackdown suspends permits of warehouses across major quick commerce platforms including Swiggy",
+      "date": "2026-09-01",
+      "source": {
+        "name": "Reuters",
+        "url": "https://www.reuters.com/markets/companies/SWIG.NS"
       }
     }
   ]

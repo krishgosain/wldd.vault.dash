@@ -4,56 +4,65 @@
   "parent": "Roppen Transportation Services Pvt Ltd",
   "entity_type": "india_private_registered",
   "category": "Ride-hailing",
-  "description": "Rapido is an Indian ride-hailing and logistics platform offering bike taxi, auto, cab, and delivery services, owned by Roppen Transportation Services Pvt Ltd.",
-  "last_refreshed": "2026-09-14T09:16:01.494Z",
+  "description": "Rapido is an Indian online ride-hailing and bike taxi aggregator service operated by Roppen Transportation Services Pvt Ltd.",
+  "last_refreshed": "2026-10-11T10:15:43.009Z",
   "stock": {
     "applicable": false,
     "value": null,
     "currency": "INR",
     "ticker": null,
     "as_of": null,
-    "note": "Rapido is a privately registered company in India and is not publicly traded.",
+    "note": "Private unlisted entity; traded on unlisted markets under Roppen Transportation Services Pvt Ltd.",
     "confidence": "not_applicable"
   },
   "revenue": {
-    "value": 4430000000,
+    "value": 9340000000,
     "currency": "INR",
-    "period": "FY2023",
+    "period": "FY2025",
     "confidence": "disclosed",
     "source": {
-      "name": "Instagram",
-      "url": "https://www.instagram.com/reel/C7T2lFvyIjt",
-      "date": ""
+      "name": "Drudhh",
+      "url": "https://drudhh.com/rapido-deep-analysis",
+      "date": "2026"
     }
   },
   "operating_profit": {
-    "value": null,
+    "value": -2580000000,
     "currency": "INR",
-    "period": "FY2023",
-    "confidence": "not_found",
-    "source": null
+    "period": "FY2025",
+    "confidence": "disclosed",
+    "source": {
+      "name": "Moneycontrol",
+      "url": "https://www.moneycontrol.com/news/business/startup/rapido-crosses-rs-1-000-crore-income-in-fy25-pares-losses-to-rs-258-crore-13783539.html",
+      "date": "2026"
+    }
   },
   "expenses": {
     "breakdown": [
       {
-        "label": "Total Expenditure",
-        "value": 11721000000,
+        "label": "Marketing Expenses",
+        "value": 852300000,
+        "confidence": "disclosed"
+      },
+      {
+        "label": "Employee Expenses",
+        "value": 437700000,
         "confidence": "disclosed"
       }
     ],
     "confidence": "disclosed"
   },
   "marketing_spend": {
-    "value_low": 11721000000,
-    "value_high": 11721000000,
+    "value_low": 852300000,
+    "value_high": 852300000,
     "currency": "INR",
-    "period": "FY2023",
+    "period": "FY2025",
     "tier": "1_disclosed",
-    "derivation": "Disclosed marketing expenditure reported at Rs 1,172.1 crore in FY23 financial reports.",
+    "derivation": "Disclosed marketing expenses of ₹85.23 crore (8,523 lakhs) in Roppen Transportation Services Pvt Ltd's financial profile for FY 2024-25.",
     "source": {
-      "name": "Instagram",
-      "url": "https://www.instagram.com/reel/C7T2lFvyIjt",
-      "date": ""
+      "name": "Tracxn",
+      "url": "https://tracxn.com/d/legal-entities/india/roppen-transportation-services-private-limited/__HUZ2wakxPnhZkeEpflU9cNcXb0lI5IllIrVKyQCIrm4",
+      "date": "2026"
     }
   },
   "trend_history": {
@@ -65,11 +74,11 @@
       },
       {
         "period": "FY2024",
-        "value": 6000000000
+        "value": 6480000000
       },
       {
         "period": "FY2025",
-        "value": 9344400000
+        "value": 9340000000
       },
       {
         "period": "FY23",
@@ -87,11 +96,27 @@
   },
   "business_updates": [
     {
-      "headline": "Rapido expands offerings beyond cabs to metro ticket booking via ONDC and bus ticketing through Zingbus integration",
-      "date": "",
+      "headline": "Rapido raised $240 million led by Prosus in $730 million primary and secondary deal, valuing company at $3 billion",
+      "date": "2026-05",
       "source": {
-        "name": "Instagram",
-        "url": "https://www.instagram.com/reel/C7T2lFvyIjt"
+        "name": "Drudhh",
+        "url": "https://drudhh.com/rapido-deep-analysis"
+      }
+    },
+    {
+      "headline": "Consumer watchdog slaps ₹10 lakh fine on Rapido for misleading ads and unfair practices",
+      "date": "2026-09-15",
+      "source": {
+        "name": "The Hindu",
+        "url": "https://siliconvalleyinvestclub.com/companies/rapido"
+      }
+    },
+    {
+      "headline": "Rapido's Ownly eyes six-city expansion as it doubles down on zero-commission food delivery",
+      "date": "2026-08-07",
+      "source": {
+        "name": "Business Line",
+        "url": "https://siliconvalleyinvestclub.com/companies/rapido"
       }
     }
   ]

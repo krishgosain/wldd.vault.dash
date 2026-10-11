@@ -1,82 +1,83 @@
 {
   "name": "boAt",
   "slug": "boat",
-  "parent": "Imagine Marketing Ltd",
+  "parent": "Imagine Marketing Ltd.",
   "entity_type": "india_private_registered",
   "category": "Consumer Electronics",
-  "description": "boAt is a brand/product of Imagine Marketing Ltd, India's leading audio and wearables D2C brand.",
-  "last_refreshed": "2026-09-09T12:00:00.000Z",
+  "description": "boAt is an Indian consumer electronics brand specializing in audio gear and smartwatches, owned by Imagine Marketing Ltd.",
+  "last_refreshed": "2026-10-11T10:19:03.671Z",
   "stock": {
     "applicable": false,
     "value": null,
     "currency": "INR",
     "ticker": null,
     "as_of": null,
-    "note": "Privately held — no public stock.",
+    "note": "Unlisted private company",
     "confidence": "not_applicable"
   },
   "revenue": {
-    "value": 30978000000.0,
+    "value": 2873,
     "currency": "INR",
-    "period": "FY2025 (consolidated)",
+    "period": "FY2022",
     "confidence": "disclosed",
     "source": {
-      "name": "Business Standard — boAt revenue fivefold growth FY25",
-      "url": "https://www.business-standard.com/companies/news/boat-revenue-fivefold-growth-fy25-profit-return-125111302039_1.html",
-      "date": "2025-11-13"
+      "name": "unlistedhub.in",
+      "url": "https://unlistedhub.in/unlisted-stock/boat-shares-since-growth-insights",
+      "date": ""
     }
   },
   "operating_profit": {
-    "value": 600000000.0,
+    "value": 84.5,
     "currency": "INR",
-    "period": "FY2025 net profit (consolidated)",
+    "period": "FY2026",
     "confidence": "disclosed",
     "source": {
-      "name": "HDFC Sky — boAt parent Imagine Marketing swings to Rs 60 Cr profit",
-      "url": "https://hdfcsky.com/news/boat-parent-imagine-marketing-swings-to-rs-60-crore-profit-in-fy25-after-two-years-of-losses",
-      "date": "2025-10-01"
+      "name": "Business Standard",
+      "url": "https://www.business-standard.com/companies/quarterly-results/boat-fy26-net-profit-rises-38-to-84-5-crore-wearables-turn-profitable-126082600278_1.html",
+      "date": ""
     }
   },
   "expenses": {
-    "breakdown": [
-      {
-        "label": "EBITDA (FY25)",
-        "value": 1420000000.0,
-        "confidence": "disclosed"
-      }
-    ],
-    "confidence": "disclosed"
+    "breakdown": [],
+    "confidence": "not_found"
   },
   "marketing_spend": {
-    "value_low": 3900000000.0,
-    "value_high": 3900000000.0,
+    "value_low": 230,
+    "value_high": 345,
     "currency": "INR",
-    "period": "FY2025",
-    "tier": "1_disclosed",
-    "derivation": "Disclosed in FY25 annual report: advertising expenditure rose ~7% YoY to ₹390 crore.",
-    "source": {
-      "name": "Storyboard18 / bestmediainfo — boAt swings to profit in FY25",
-      "url": "https://bestmediainfo.com/mediainfo/mediainfo-marketing/boat-swings-to-profit-in-fy25-with-rs-60-crore-pat-on-rs-3098-crore-revenue-10534243",
-      "date": "2025-11-13"
-    }
+    "period": "FY2022",
+    "tier": "3_modeled",
+    "derivation": "Modeled at 8% to 12% of FY2022 revenue (₹2,873 crore), based on standard D2C and consumer electronics marketing-to-revenue ratios in India.",
+    "source": null
   },
   "trend_history": {
     "stock": [],
     "revenue": [
       {
+        "period": "FY2022",
+        "value": 2873
+      },
+      {
         "period": "FY2025",
-        "value": 30978000000.0
+        "value": 30978000000
       }
     ]
   },
   "business_updates": [
     {
-      "headline": "boAt (Imagine Marketing) returns to profit in FY25 with ₹60 crore net gain as revenue tops ₹3,000 crore",
-      "date": "2025-11-13",
+      "headline": "boAt FY26 net profit rises 38% to ₹84.5 crore as wearables turn profitable",
+      "date": "",
       "source": {
         "name": "Business Standard",
-        "url": "https://www.business-standard.com/companies/news/boat-revenue-fivefold-growth-fy25-profit-return-125111302039_1.html",
-        "date": "2025-11-13"
+        "url": "https://www.business-standard.com/companies/quarterly-results/boat-fy26-net-profit-rises-38-to-84-5-crore-wearables-turn-profitable-126082600278_1.html"
+      }
+    },
+    {
+      "headline": "Imagine Marketing plans ₹2,000 crore raise via IPO",
+      "date": "",
+      "source": {
+        "name": "Inc42",
+        "url": "https://www.facebook.com/Inc42/videos/%F0%9D%90%85%F0%9D%90%AB%F0%9D%90%A8%F0%9D%90%A6-%F0%9D%90%8D%F0%9D%90%9E%F0%9D%90%9A%F0%9D%90%AB-%F0%9D%90%8B%F0%9D%90%A8%F0%9D%90%AC%F0%9D%90%AC%F0%9D%90%9E%F0%9D%90%AC-%F0%9D%90%93%F0%9D%90%A8-%F0%9D%9F%94%F0%9D%9F%8E-%F0%9D%90%82%F0%9D%90%AB-%F0%9D%90%8F%F0%9D%90%AB%F0%9D%90%A8%F0%9D%90%9F%F0%9D%90%A2%F0%9D%90%AD-%F0%9D%90%9Bo%F0%9D%90%80%F0%9D%90%AD%F0%9D%90%AC-%F0%9D%90%82%F0%9D%90%A8%F0%9D%90%A6%F0%9D%90%9E%F0%9D%90%9B%F0%9D%90%9A%F0%9D%90%9C%F0%9D%90%A4-%F0%9D%90%92%F0%9D%90%AD%F0%9D%90%A8%F0%9D%90%AB%F0%9D%90%B2-boats-growth-story-has-com/1472998377138466"
       }
     }
   ]

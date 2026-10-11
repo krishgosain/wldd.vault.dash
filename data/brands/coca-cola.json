@@ -4,30 +4,38 @@
   "parent": "The Coca-Cola Company",
   "entity_type": "public_parent",
   "category": "F&B",
-  "description": "Coca-Cola is a global non-alcoholic beverage brand manufactured and marketed by parent entity The Coca-Cola Company.",
-  "last_refreshed": "2026-09-14T09:16:41.069Z",
+  "description": "Coca-Cola is a global non-alcoholic beverage brand owned by parent entity The Coca-Cola Company (NYSE: KO), with Indian operations handled through Coca-Cola India and bottling partner Hindustan Coca-Cola Beverages Pvt Ltd.",
+  "last_refreshed": "2026-10-11T10:16:26.000Z",
   "stock": {
-    "applicable": true,
-    "value": 88.42,
+    "applicable": false,
+    "value": null,
     "currency": "USD",
     "ticker": "KO",
-    "as_of": "2026-09-09",
-    "note": "Reflects parent company stock (NYSE: KO).",
-    "confidence": "disclosed"
+    "as_of": null,
+    "note": "Reflects parent company The Coca-Cola Company (NYSE: KO), not the Indian brand entity specifically.",
+    "confidence": "not_applicable"
   },
   "revenue": {
-    "value": null,
-    "currency": "USD",
+    "value": 50425600000,
+    "currency": "INR",
     "period": "FY2025",
-    "confidence": "not_found",
-    "source": null
+    "confidence": "disclosed",
+    "source": {
+      "name": "ET BrandEquity",
+      "url": "https://brandequity.economictimes.indiatimes.com/tag/hindustan+coca-cola+beverages",
+      "date": "FY2025"
+    }
   },
   "operating_profit": {
-    "value": null,
-    "currency": "USD",
-    "period": "Q1 2026",
-    "confidence": "not_found",
-    "source": null
+    "value": 6150000000,
+    "currency": "INR",
+    "period": "FY2025",
+    "confidence": "disclosed",
+    "source": {
+      "name": "Outlook Business",
+      "url": "https://www.outlookbusiness.com/topic/hindustan-coca-cola-beverages-hccb",
+      "date": "FY2025"
+    }
   },
   "expenses": {
     "breakdown": [],
@@ -35,11 +43,11 @@
   },
   "marketing_spend": {
     "value_low": 4000000000,
-    "value_high": 4500000000,
-    "currency": "USD",
+    "value_high": 6000000000,
+    "currency": "INR",
     "period": "FY2025",
     "tier": "3_modeled",
-    "derivation": "Estimated using an industry-standard 9-10% marketing-to-revenue ratio typical for global F&B and beverage brands, as exact monetary marketing figures were not disclosed in the provided context.",
+    "derivation": "Modeled using a standard 8%-12% FMCG/beverage industry marketing-to-revenue ratio applied to Coca-Cola India's reported FY25 revenue of ₹5,042.56 crore.",
     "source": null
   },
   "trend_history": {
@@ -55,6 +63,10 @@
     ],
     "revenue": [
       {
+        "period": "FY2023",
+        "value": 46085100000
+      },
+      {
         "period": "FY2024",
         "value": 47133800000
       },
@@ -66,19 +78,27 @@
   },
   "business_updates": [
     {
-      "headline": "Coca-Cola Reports First Quarter 2026 Results with 19% Operating Income Growth",
-      "date": "2026-05-01",
+      "headline": "The Coca-Cola Company explores 2027 Indian stock market IPO for bottling unit HCCH targeting $10 billion valuation",
+      "date": "2026-06-01",
       "source": {
-        "name": "Coca-Cola Investor Relations",
-        "url": "https://investors.coca-colacompany.com/news-events/press-releases/detail/1158/coca-cola-reports-first-quarter-2026-results-and-updates-full-year-guidance"
+        "name": "The Coca-Cola Company Investor Relations",
+        "url": "http://investors.coca-colacompany.com/news-events/press-releases/detail/1161/the-coca-cola-company-exploring-potential-public-listing-in-india-for-hindustan-coca-cola-holdings-pvt-ltd-parent-company-of-its-largest-bottler-in-india"
       }
     },
     {
-      "headline": "Hindustan Coca-Cola Beverages reports 73% profit drop, plans $1 billion IPO",
-      "date": "2026-01-01",
+      "headline": "Hindustan Coca-Cola Beverages plans ₹3,000 crore investment in Gujarat facility in Rajkot",
+      "date": "2026",
       "source": {
-        "name": "Food Tech Notion",
-        "url": "https://www.linkedin.com/posts/food-tech-notion_cocacola-ipo-fmcg-activity-7388781933331271680-lzuC"
+        "name": "Business Standard",
+        "url": "https://www.business-standard.com/topic/hindustan-coca-cola-beverages-pvt-ltd"
+      }
+    },
+    {
+      "headline": "HCCB Bidadi bottling plant certified as carbon neutral under PAS 2060 standard",
+      "date": "2026",
+      "source": {
+        "name": "Business Standard",
+        "url": "https://www.business-standard.com/topic/hindustan-coca-cola-beverages-pvt-ltd"
       }
     }
   ]

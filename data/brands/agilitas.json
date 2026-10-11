@@ -4,15 +4,15 @@
   "parent": "Agilitas Sports Pvt Ltd",
   "entity_type": "india_private_registered",
   "category": "Footwear / Sports",
-  "description": "Agilitas is an Indian sportswear and athleisure brand that provides vertically integrated footwear manufacturing, design, and retail solutions under Agilitas Sports Pvt Ltd.",
-  "last_refreshed": "2026-09-14T09:15:35.711Z",
+  "description": "Agilitas is an Indian vertically integrated sportswear and footwear company operating end-to-end manufacturing, brand management, and retail operations.",
+  "last_refreshed": "2026-10-11T10:14:53.931Z",
   "stock": {
     "applicable": false,
     "value": null,
     "currency": "INR",
     "ticker": null,
     "as_of": null,
-    "note": "Private company, stock not publicly traded",
+    "note": "Not listed on any stock exchange as it is a private entity.",
     "confidence": "not_applicable"
   },
   "revenue": {
@@ -23,13 +23,13 @@
     "source": {
       "name": "CB Insights",
       "url": "https://www.cbinsights.com/company/agilitas-sports/financials",
-      "date": ""
+      "date": "2026"
     }
   },
   "operating_profit": {
     "value": null,
-    "currency": "USD",
-    "period": "FY2026",
+    "currency": "INR",
+    "period": "FY2025",
     "confidence": "not_found",
     "source": null
   },
@@ -37,17 +37,17 @@
     "breakdown": [
       {
         "label": "Employee Expenses",
-        "value": 4591,
+        "value": 2147,
         "confidence": "disclosed"
       },
       {
         "label": "Operating Expenses",
-        "value": 3597,
+        "value": 1618,
         "confidence": "disclosed"
       },
       {
         "label": "Interest Expenses",
-        "value": 2463,
+        "value": 5441,
         "confidence": "disclosed"
       }
     ],
@@ -59,11 +59,11 @@
     "currency": "USD",
     "period": "FY2026",
     "tier": "3_modeled",
-    "derivation": "Modeled using a category-typical marketing spend benchmark of 10% to 15% of total revenue for fast-growing Indian D2C sportswear and footwear brands, applied against FY2026 revenue of $141.29M.",
+    "derivation": "Modeled at 10% to 15% of FY2026 reported revenue ($141.29M), based on typical marketing reinvestment rates for high-growth athletic footwear and sportswear brands.",
     "source": {
       "name": "CB Insights",
       "url": "https://www.cbinsights.com/company/agilitas-sports/financials",
-      "date": ""
+      "date": "2026"
     }
   },
   "trend_history": {
@@ -85,19 +85,27 @@
   },
   "business_updates": [
     {
-      "headline": "Agilitas Sports raises ₹225 Crore ($24M) in venture funding led by Nexus Venture Partners and Rainmatter",
-      "date": "2026-06-04",
+      "headline": "Agilitas Sports raises ₹225 Crore ($23.68M) in fresh VC funding led by Nexus Venture Partners and Rainmatter",
+      "date": "2026-06-01",
       "source": {
-        "name": "Inc42 / EquityZen",
-        "url": "https://equityzen.com/company/agilitassports"
+        "name": "Preqin / Instagram",
+        "url": "https://www.preqin.com/data/profile/asset/agilitas-sports-private-limited/545107"
       }
     },
     {
-      "headline": "Agilitas valuation reaches $228.87M in late 2025",
-      "date": "2025-12-01",
+      "headline": "Agilitas Sports acquires One8 Select brand in footwear consolidation",
+      "date": "2025-12-08",
       "source": {
-        "name": "CB Insights",
-        "url": "https://www.cbinsights.com/company/agilitas-sports/financials"
+        "name": "PitchBook",
+        "url": "https://pitchbook.com/profiles/company/527580-10"
+      }
+    },
+    {
+      "headline": "Agilitas Sports acquires footwear manufacturer Mochiko Shoes",
+      "date": "2023-09-14",
+      "source": {
+        "name": "PitchBook",
+        "url": "https://pitchbook.com/profiles/company/527580-10"
       }
     }
   ]

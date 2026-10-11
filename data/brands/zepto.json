@@ -1,78 +1,99 @@
 {
   "name": "Zepto",
   "slug": "zepto",
-  "parent": "Kiranakart Technologies Pvt Ltd",
+  "parent": "Kiranakart Technologies Pvt Ltd.",
   "entity_type": "india_private_registered",
   "category": "Quick Commerce",
-  "description": "Zepto is a brand/product of Kiranakart Technologies Pvt Ltd. Pre-IPO as of FY25 (DRHP filed; not yet listed) — remains privately held for now.",
-  "last_refreshed": "2026-09-09T12:00:00.000Z",
+  "description": "Zepto is an Indian quick-commerce company offering rapid delivery of groceries and consumer products, owned by Kiranakart Technologies Pvt Ltd.",
+  "last_refreshed": "2026-10-11T10:17:26.360Z",
   "stock": {
     "applicable": false,
     "value": null,
     "currency": "INR",
     "ticker": null,
     "as_of": null,
-    "note": "Privately held — pre-IPO as of FY25 (DRHP filed for a planned listing; not yet trading).",
+    "note": "Zepto is a privately held entity and does not have a public stock ticker.",
     "confidence": "not_applicable"
   },
   "revenue": {
-    "value": 96688000000.0,
+    "value": 115500000000,
     "currency": "INR",
-    "period": "FY2025",
+    "period": "FY2026",
     "confidence": "disclosed",
     "source": {
-      "name": "Analytics Insight — Zepto FY25 sales surge 129% to Rs 9,669 crore",
-      "url": "https://www.analyticsinsight.net/news/zepto-fy25-sales-surge-129-to-rs-9669-crore-while-net-loss-widens",
-      "date": "2025-08-01"
+      "name": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/zepto-ipo-filing-reveals-fast-050717430.html",
+      "date": "unknown"
     }
   },
   "operating_profit": {
-    "value": null,
+    "value": -59100000000,
     "currency": "INR",
-    "period": "FY2025",
-    "confidence": "not_found",
-    "source": null
+    "period": "FY2026",
+    "confidence": "disclosed",
+    "source": {
+      "name": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/zepto-ipo-filing-reveals-fast-050717430.html",
+      "date": "unknown"
+    }
   },
   "expenses": {
-    "breakdown": [
-      {
-        "label": "Advertising & promotional expense (FY25)",
-        "value": 11866000000.0,
-        "confidence": "disclosed"
-      }
-    ],
-    "confidence": "disclosed"
+    "breakdown": [],
+    "confidence": "not_found"
   },
   "marketing_spend": {
-    "value_low": 11866000000.0,
-    "value_high": 11866000000.0,
+    "value_low": 11550000000,
+    "value_high": 17325000000,
     "currency": "INR",
-    "period": "FY2025",
-    "tier": "1_disclosed",
-    "derivation": "Disclosed: Zepto's advertising and promotional expense rose from ₹303.5 crore in FY24 to ₹1,186.6 crore in FY25 (~10.7-12% of revenue), as the quick-commerce player scaled aggressively pre-IPO. Note: some press reports cite a higher FY25 'total revenue' figure of ₹11,110 crore alongside this — the ₹9,668.8 crore figure used here is consistently reported as 'total sales'/revenue from operations across multiple sources; the ₹11,110 crore figure could not be confirmed as the audited revenue-from-operations line and was excluded.",
+    "period": "FY2026",
+    "tier": "3_modeled",
+    "derivation": "Modeled by applying a standard quick-commerce marketing spend benchmark ratio of 10% to 15% to Zepto's disclosed FY2026 operating revenue of ₹115.5 billion.",
     "source": {
-      "name": "Univest — Zepto IPO DRHP: user base dips, marketing costs surge FY26",
-      "url": "https://univest.in/blogs/zepto-ipo-user-base-marketing-costs",
-      "date": "2026-01-01"
+      "name": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/zepto-ipo-filing-reveals-fast-050717430.html",
+      "date": "unknown"
     }
   },
   "trend_history": {
     "stock": [],
     "revenue": [
       {
+        "period": "FY2024",
+        "value": 44540000000
+      },
+      {
         "period": "FY2025",
-        "value": 96688000000.0
+        "value": 93660000000
+      },
+      {
+        "period": "FY2026",
+        "value": 115500000000
       }
     ]
   },
   "business_updates": [
     {
-      "headline": "Zepto FY25 sales surge 129% to ₹9,669 crore while net loss widens; advertising expense rises to ₹1,186.6 crore",
-      "date": "2025-08-01",
+      "headline": "Zepto files draft IPO prospectus revealing 104% YoY operating revenue growth to ₹115.5 billion alongside ₹59.1 billion net loss for FY2026",
+      "date": "unknown",
       "source": {
-        "name": "Analytics Insight",
-        "url": "https://www.analyticsinsight.net/news/zepto-fy25-sales-surge-129-to-rs-9669-crore-while-net-loss-widens",
-        "date": "2025-08-01"
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/zepto-ipo-filing-reveals-fast-050717430.html"
+      }
+    },
+    {
+      "headline": "Zepto launches transformer-based dual-sequence reranker for real-time user personalization",
+      "date": "2026-06-25",
+      "source": {
+        "name": "LeadIQ",
+        "url": "https://leadiq.com/c/zepto/61813f69990e636b3e3e93db"
+      }
+    },
+    {
+      "headline": "Zepto defers public market listing plans to seek ₹1,000 crore pre-IPO placement",
+      "date": "2026-08-01",
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Zepto_(company)"
       }
     }
   ]
