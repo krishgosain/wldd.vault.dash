@@ -4,65 +4,54 @@
   "parent": null,
   "entity_type": "public_standalone",
   "category": "E-commerce",
-  "description": "Meesho Ltd (formerly Fashnear Technologies) IPO'd on NSE/BSE on Dec 5, 2025, and now trades as a standalone public company.",
-  "last_refreshed": "2026-09-09T12:00:00.000Z",
+  "description": "Meesho is an Indian online marketplace and social commerce platform facilitating zero-commission e-commerce across India.",
+  "last_refreshed": "2026-10-25T08:39:58.583Z",
   "stock": {
     "applicable": true,
-    "value": 210.05,
+    "value": 220.11,
     "currency": "INR",
     "ticker": "MEESHO.NS",
-    "as_of": "2026-09-07",
-    "note": "Listed Dec 5, 2025 following its ₹5,421.20 crore IPO.",
+    "as_of": "2026-10-25",
+    "note": "Reflects Meesho Limited stock price on NSE",
     "confidence": "disclosed"
   },
   "revenue": {
-    "value": 93899000000.0,
+    "value": 37130000000,
     "currency": "INR",
-    "period": "FY2025 (operating revenue)",
+    "period": "Q1 FY27",
     "confidence": "disclosed",
     "source": {
-      "name": "Inc42 — IPO-bound Meesho's revenue nears INR 10K Cr mark",
-      "url": "https://inc42.com/buzz/ipo-bound-meeshos-revenue-nears-inr-10k-cr-mark/",
-      "date": "2025-07-01"
+      "name": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/MEESHO.NS",
+      "date": "2026-10-25"
     }
   },
   "operating_profit": {
-    "value": -39147000000.0,
+    "value": -1330000000,
     "currency": "INR",
-    "period": "FY2025 net loss",
+    "period": "Q1 FY27",
     "confidence": "disclosed",
     "source": {
-      "name": "Inc42 — Meesho FY25 financials",
-      "url": "https://inc42.com/buzz/ipo-bound-meeshos-revenue-nears-inr-10k-cr-mark/",
-      "date": "2025-07-01"
+      "name": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/MEESHO.NS",
+      "date": "2026-10-25"
     }
   },
   "expenses": {
-    "breakdown": [
-      {
-        "label": "Advertising & sales promotion (FY25)",
-        "value": 6435000000.0,
-        "confidence": "disclosed"
-      },
-      {
-        "label": "Reverse-flip / IPO-transition tax (one-time, FY25)",
-        "value": 38830000000.0,
-        "confidence": "disclosed"
-      }
-    ],
-    "confidence": "disclosed"
+    "breakdown": [],
+    "confidence": "not_found"
   },
   "marketing_spend": {
-    "value_low": 6435000000.0,
-    "value_high": 6435000000.0,
+    "value_low": 5570000000,
+    "value_high": 9280000000,
     "currency": "INR",
-    "period": "FY2025",
-    "tier": "1_disclosed",
-    "derivation": "Disclosed: total advertising and sales-promotion expense rose 40% YoY to ₹643.5 crore (₹6,435 million) in FY25, of which ₹548.1 crore was digital marketing and ₹95.4 crore TV/print/events. Ad+promo fell to 2.15% of marketplace NMV from 4.82% in FY23.",
+    "period": "Q1 FY27",
+    "tier": "3_modeled",
+    "derivation": "Modeled for Q1 FY27 by applying a standard category marketing spend ratio of 15% to 25% for Indian e-commerce platforms to Meesho's reported Q1 FY27 revenue of 37.13 billion INR.",
     "source": {
-      "name": "SocialSamosa — Meesho ramps up ad spends to 2.4% of NMV",
-      "url": "https://www.storyboard18.com/advertising/meesho-ramps-up-ad-spends-to-2-4-of-nmv-as-q3-losses-widen-88556.htm",
-      "date": "2026-02-01"
+      "name": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/MEESHO.NS",
+      "date": "2026-10-25"
     }
   },
   "trend_history": {
@@ -70,32 +59,50 @@
       {
         "date": "2026-09-07",
         "value": 210.05
+      },
+      {
+        "date": "2026-10-25",
+        "value": 220.11
       }
     ],
     "revenue": [
       {
         "period": "FY2025",
-        "value": 93899000000.0
+        "value": 93899000000
+      },
+      {
+        "period": "FY25",
+        "value": 93890000000
+      },
+      {
+        "period": "Q1 FY27",
+        "value": 37130000000
       }
     ]
   },
   "business_updates": [
     {
-      "headline": "Meesho lists on NSE/BSE Dec 5, 2025 after ₹5,421.20 crore IPO",
-      "date": "2025-12-05",
+      "headline": "India’s Meesho to acquire B2B commerce platform Kirana Club",
+      "date": "2026-06-25",
       "source": {
-        "name": "INDmoney — Meesho IPO",
-        "url": "https://www.indmoney.com/ipo/meesho-ipo",
-        "date": "2025-12-05"
+        "name": "Retail Insight Network",
+        "url": "https://finance.yahoo.com/quote/MEESHO.NS/latest-news"
       }
     },
     {
-      "headline": "Meesho FY25 operating revenue rises 23% to ₹9,389.9 crore; loss widens to ₹3,914.7 crore, mostly one-time IPO-transition tax items (reverse-flip cost ₹3,883 crore)",
-      "date": "2025-07-01",
+      "headline": "Indian e-commerce firm Meesho's quarterly loss spikes as it ramps up marketing",
+      "date": "2026-02-25",
       "source": {
-        "name": "Inc42",
-        "url": "https://inc42.com/buzz/ipo-bound-meeshos-revenue-nears-inr-10k-cr-mark/",
-        "date": "2025-07-01"
+        "name": "Reuters",
+        "url": "https://finance.yahoo.com/quote/MEESHO.NS/news"
+      }
+    },
+    {
+      "headline": "Meesho went public through an initial public offering raising $603 million",
+      "date": "2025-12-05",
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Meesho"
       }
     }
   ]

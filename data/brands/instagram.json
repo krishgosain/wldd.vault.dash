@@ -4,46 +4,60 @@
   "parent": "Meta Platforms",
   "entity_type": "public_parent",
   "category": "Social",
-  "description": "Instagram is a product of Meta Platforms, Inc. (NASDAQ: META). Meta does not break out Instagram-specific revenue or marketing spend; figures below are Meta-wide.",
-  "last_refreshed": "2026-09-09T12:00:00.000Z",
+  "description": "Instagram is a photo and video sharing social networking platform owned by parent company Meta Platforms.",
+  "last_refreshed": "2026-10-25T08:43:12.771Z",
   "stock": {
-    "applicable": true,
-    "value": 613.26,
+    "applicable": false,
+    "value": null,
     "currency": "USD",
     "ticker": "META",
-    "as_of": "2026-09-08",
-    "note": "Parent Meta Platforms, Inc. (NASDAQ: META); Instagram is not separately listed.",
-    "confidence": "disclosed"
+    "as_of": "2026-10-23",
+    "note": "Reflects parent company Meta Platforms, Inc. (NASDAQ: META), as Instagram is not independently listed.",
+    "confidence": "not_applicable"
   },
   "revenue": {
-    "value": null,
+    "value": 64601000000,
     "currency": "USD",
-    "period": "",
-    "confidence": "not_found",
-    "source": null
+    "period": "Q3 2026",
+    "confidence": "disclosed",
+    "source": {
+      "name": "Marketing4eCommerce",
+      "url": "https://marketing4ecommerce.net/en/metas-revenue-increases-while-its-operating-income-decreases",
+      "date": "2026-10-23"
+    }
   },
   "operating_profit": {
-    "value": null,
+    "value": 12988000000,
     "currency": "USD",
-    "period": "",
-    "confidence": "not_found",
-    "source": null
+    "period": "Q3 2026",
+    "confidence": "disclosed",
+    "source": {
+      "name": "Marketing4eCommerce",
+      "url": "https://marketing4ecommerce.net/en/metas-revenue-increases-while-its-operating-income-decreases",
+      "date": "2026-10-23"
+    }
   },
   "expenses": {
-    "breakdown": [],
-    "confidence": "not_found"
+    "breakdown": [
+      {
+        "label": "Multistate teen mental health legal settlement charge",
+        "value": 9890000000,
+        "confidence": "disclosed"
+      }
+    ],
+    "confidence": "disclosed"
   },
   "marketing_spend": {
-    "value_low": 2090000000.0,
-    "value_high": 2090000000.0,
+    "value_low": 3230050000,
+    "value_high": 6460100000,
     "currency": "USD",
-    "period": "FY2025 (Meta-wide)",
-    "tier": "1_disclosed",
-    "derivation": "Meta's own disclosed marketing/advertising spend (i.e. what Meta itself spends to advertise its products, not Instagram-specific and not to be confused with Meta's ad revenue) was ~$2.09 billion in 2025, up ~$300M YoY. Meta does not disclose an Instagram-only marketing figure; this is the closest disclosed Meta-wide number.",
+    "period": "Q3 2026",
+    "tier": "3_modeled",
+    "derivation": "Calculated using an estimated sales and marketing expenditure benchmark of 5% to 10% applied to Meta Platforms' Q3 2026 consolidated revenue of $64.601 billion.",
     "source": {
-      "name": "Statista — Meta annual ad spend 2014-2025",
-      "url": "https://www.statista.com/statistics/685531/facebook-ad-expense/",
-      "date": "2026-02-01"
+      "name": "Marketing4eCommerce",
+      "url": "https://marketing4ecommerce.net/en/metas-revenue-increases-while-its-operating-income-decreases",
+      "date": "2026-10-23"
     }
   },
   "trend_history": {
@@ -51,9 +65,59 @@
       {
         "date": "2026-09-08",
         "value": 613.26
+      },
+      {
+        "date": "2026-10-19",
+        "value": 541.67
+      },
+      {
+        "date": "2026-10-23",
+        "value": 648.85
       }
     ],
-    "revenue": []
+    "revenue": [
+      {
+        "period": "FY2025",
+        "value": 201000000000
+      },
+      {
+        "period": "Q1 2026",
+        "value": 56311000000
+      },
+      {
+        "period": "Q2 2026",
+        "value": 60801000000
+      },
+      {
+        "period": "Q3 2026",
+        "value": 64601000000
+      }
+    ]
   },
-  "business_updates": []
+  "business_updates": [
+    {
+      "headline": "Meta agrees to $9.89 billion multistate legal settlement over social media impact on youth mental health",
+      "date": "2026-10-23",
+      "source": {
+        "name": "Marketing4eCommerce",
+        "url": "https://marketing4ecommerce.net/en/metas-revenue-increases-while-its-operating-income-decreases"
+      }
+    },
+    {
+      "headline": "Meta introduces AI-based assistant for creators to guide content strategy and audience engagement",
+      "date": "2026-06-01",
+      "source": {
+        "name": "Wikipedia - Meta Platforms",
+        "url": "https://en.wikipedia.org/wiki/Meta_Platforms"
+      }
+    },
+    {
+      "headline": "Meta reports 26% year-over-year Q3 2026 revenue growth to $64.6 billion",
+      "date": "2026-10-23",
+      "source": {
+        "name": "Bozeman Daily Chronicle / AP",
+        "url": "https://www.bozemandailychronicle.com/wire/business/meta-q3-revenue-tops-estimates-and-zuckerberg-says-muse-accounts-have-topped-10-million/article_d5c8eecd-38b4-5998-b14f-0acb1e0a8fe4.html"
+      }
+    }
+  ]
 }

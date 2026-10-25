@@ -496,6 +496,90 @@
       "tavily_credits": 1,
       "gemini_requests": 1,
       "timestamp": "2026-10-11T10:19:03.672Z"
+    },
+    {
+      "source": "daily_refresh",
+      "brand": "Zerodha",
+      "tavily_credits": 1,
+      "gemini_requests": 1,
+      "timestamp": "2026-10-25T08:39:12.497Z"
+    },
+    {
+      "source": "daily_refresh",
+      "brand": "CRED",
+      "tavily_credits": 1,
+      "gemini_requests": 1,
+      "timestamp": "2026-10-25T08:39:31.039Z"
+    },
+    {
+      "source": "daily_refresh",
+      "brand": "Meesho",
+      "tavily_credits": 1,
+      "gemini_requests": 1,
+      "timestamp": "2026-10-25T08:39:58.583Z"
+    },
+    {
+      "source": "daily_refresh",
+      "brand": "Ola Electric",
+      "tavily_credits": 1,
+      "gemini_requests": 1,
+      "timestamp": "2026-10-25T08:40:18.339Z"
+    },
+    {
+      "source": "daily_refresh",
+      "brand": "Uber",
+      "tavily_credits": 1,
+      "gemini_requests": 1,
+      "timestamp": "2026-10-25T08:40:52.241Z"
+    },
+    {
+      "source": "daily_refresh",
+      "brand": "Duolingo",
+      "tavily_credits": 1,
+      "gemini_requests": 1,
+      "timestamp": "2026-10-25T08:41:15.513Z"
+    },
+    {
+      "source": "daily_refresh",
+      "brand": "Instagram",
+      "tavily_credits": 1,
+      "gemini_requests": 1,
+      "timestamp": "2026-10-25T08:43:12.771Z"
+    },
+    {
+      "source": "daily_refresh",
+      "brand": "ChatGPT",
+      "tavily_credits": 1,
+      "gemini_requests": 1,
+      "timestamp": "2026-10-25T08:43:39.345Z"
+    },
+    {
+      "source": "daily_refresh",
+      "brand": "Tata Motors",
+      "tavily_credits": 1,
+      "gemini_requests": 1,
+      "timestamp": "2026-10-25T08:44:03.719Z"
+    },
+    {
+      "source": "daily_refresh",
+      "brand": "Philips India",
+      "tavily_credits": 1,
+      "gemini_requests": 1,
+      "timestamp": "2026-10-25T08:44:34.319Z"
+    },
+    {
+      "source": "daily_refresh",
+      "brand": "Spotify",
+      "tavily_credits": 1,
+      "gemini_requests": 1,
+      "timestamp": "2026-10-25T08:45:02.156Z"
+    },
+    {
+      "source": "daily_refresh",
+      "brand": "Netflix",
+      "tavily_credits": 1,
+      "gemini_requests": 1,
+      "timestamp": "2026-10-25T08:46:08.788Z"
     }
   ]
 }

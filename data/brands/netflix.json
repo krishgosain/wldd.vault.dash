@@ -4,42 +4,50 @@
   "parent": null,
   "entity_type": "public_standalone",
   "category": "OTT",
-  "description": "Netflix is a subscription-based streaming service offering movies, television shows, and original content across multiple devices globally.",
-  "last_refreshed": "2026-09-16T08:48:51.516Z",
+  "description": "Netflix, Inc. is a standalone public entertainment streaming company providing subscription video-on-demand content globally.",
+  "last_refreshed": "2026-10-25T08:46:08.787Z",
   "stock": {
     "applicable": true,
-    "value": null,
+    "value": 68.46,
     "currency": "USD",
     "ticker": "NFLX",
-    "as_of": null,
-    "note": "Publicly traded company on NASDAQ under ticker NFLX.",
+    "as_of": "2026-10-20",
+    "note": "Traded on NASDAQ",
     "confidence": "disclosed"
   },
   "revenue": {
-    "value": null,
+    "value": 45200000000,
     "currency": "USD",
     "period": "FY2025",
-    "confidence": "not_found",
-    "source": null
+    "confidence": "disclosed",
+    "source": {
+      "name": "stockrow",
+      "url": "https://stockrow.com/NFLX",
+      "date": "2026-10-20"
+    }
   },
   "operating_profit": {
-    "value": null,
+    "value": 13300000000,
     "currency": "USD",
     "period": "FY2025",
-    "confidence": "not_found",
-    "source": null
+    "confidence": "disclosed",
+    "source": {
+      "name": "stockrow",
+      "url": "https://stockrow.com/NFLX",
+      "date": "2026-10-20"
+    }
   },
   "expenses": {
     "breakdown": [],
     "confidence": "not_found"
   },
   "marketing_spend": {
-    "value_low": 2000000000,
-    "value_high": 3000000000,
+    "value_low": 3616000000,
+    "value_high": 4520000000,
     "currency": "USD",
     "period": "FY2025",
     "tier": "3_modeled",
-    "derivation": "Modeled using category-typical benchmark ratios of 8%–10% of total revenue allocated toward marketing and demand creation for global subscription OTT platforms, as specific filing disclosures were omitted from the provided text.",
+    "derivation": "Estimated at 8% to 10% of FY2025 revenue ($45.2 billion), based on standard streaming video-on-demand industry benchmarks for global subscriber retention and marketing.",
     "source": null
   },
   "trend_history": {
@@ -55,9 +63,21 @@
       {
         "date": "2026-09-12",
         "value": 77.28
+      },
+      {
+        "date": "2026-10-20",
+        "value": 68.46
       }
     ],
     "revenue": [
+      {
+        "period": "FY2021",
+        "value": 29700000000
+      },
+      {
+        "period": "FY2024",
+        "value": 39000000000
+      },
       {
         "period": "FY2025",
         "value": 45200000000
@@ -77,24 +97,28 @@
       {
         "period": "Q4 FY2025",
         "value": 12050000000
+      },
+      {
+        "period": "TTM Q3 2026",
+        "value": 49735000000
       }
     ]
   },
   "business_updates": [
     {
-      "headline": "Netflix explores live linear TV channels and third-party streaming bundles to boost engagement and ad business",
-      "date": "2026-07-01",
+      "headline": "Netflix lowers 2026 advertising revenue expectations to $2.7 billion due to slower ad-product rollouts",
+      "date": "2026-10-20",
       "source": {
-        "name": "Netflix - Wikipedia",
-        "url": "https://en.wikipedia.org/wiki/Netflix"
+        "name": "Stock Titan",
+        "url": "https://www.stocktitan.net/news/NFLX/netflix-q3-2026-earnings-revenue-12-billion-35pct-margin.html"
       }
     },
     {
-      "headline": "Netflix reportedly in early talks to acquire film discovery platform Letterboxd",
-      "date": "2026-07-01",
+      "headline": "Netflix lands exclusive streaming rights in Spain and Andorra for FIFA World Cup 2030",
+      "date": "2026-10-20",
       "source": {
-        "name": "Netflix - Wikipedia",
-        "url": "https://en.wikipedia.org/wiki/Netflix"
+        "name": "Morningstar",
+        "url": "https://www.morningstar.com/stocks/xnas/nflx/quote"
       }
     }
   ]

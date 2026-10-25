@@ -4,51 +4,51 @@
   "parent": null,
   "entity_type": "public_standalone",
   "category": "Audio Streaming",
-  "description": "Spotify Technology S.A. is a global digital audio streaming platform providing access to music, podcasts, and audiobooks.",
-  "last_refreshed": "2026-09-16T08:48:26.074Z",
+  "description": "Spotify is a standalone public music and audio streaming company providing subscription and ad-supported digital content streaming services globally.",
+  "last_refreshed": "2026-10-25T08:45:02.156Z",
   "stock": {
     "applicable": true,
-    "value": 525.75,
+    "value": 576.52,
     "currency": "USD",
     "ticker": "SPOT",
-    "as_of": "2026-09-14",
-    "note": "Reflects Spotify Technology S.A. standalone stock price on the NYSE.",
+    "as_of": "2026-10-23",
+    "note": "Traded on NYSE under ticker SPOT",
     "confidence": "disclosed"
   },
   "revenue": {
-    "value": 4780000000,
+    "value": 4969000000,
     "currency": "EUR",
-    "period": "Q2 2026",
+    "period": "Q3 2026",
     "confidence": "disclosed",
     "source": {
-      "name": "Investing.com",
-      "url": "https://www.investing.com/equities/spotify-technology-earnings",
-      "date": "2026-08-04"
+      "name": "The Globe and Mail",
+      "url": "https://www.theglobeandmail.com/investing/markets/stocks/SPOT-N/pressreleases/8382481/spotify-posts-strong-revenue-and-operating-profit-growth-in-q3-2026-filing",
+      "date": "2026-10-22"
     }
   },
   "operating_profit": {
-    "value": null,
+    "value": 672000000,
     "currency": "EUR",
-    "period": "Q2 2026",
-    "confidence": "not_found",
-    "source": null
+    "period": "Q3 2026",
+    "confidence": "disclosed",
+    "source": {
+      "name": "The Globe and Mail",
+      "url": "https://www.theglobeandmail.com/investing/markets/stocks/SPOT-N/pressreleases/8382481/spotify-posts-strong-revenue-and-operating-profit-growth-in-q3-2026-filing",
+      "date": "2026-10-22"
+    }
   },
   "expenses": {
     "breakdown": [],
     "confidence": "not_found"
   },
   "marketing_spend": {
-    "value_low": 478000000,
-    "value_high": 573600000,
+    "value_low": 496900000,
+    "value_high": 596280000,
     "currency": "EUR",
-    "period": "Q2 2026",
+    "period": "Q3 2026",
     "tier": "3_modeled",
-    "derivation": "Modeled using an industry-typical marketing-to-revenue benchmark of 10% to 12% applied against Spotify's Q2 2026 revenue of 4.78 billion EUR.",
-    "source": {
-      "name": "Investing.com",
-      "url": "https://www.investing.com/equities/spotify-technology-earnings",
-      "date": "2026-08-04"
-    }
+    "derivation": "Modeled at 10%-12% of Q3 2026 total revenue (€4,969M) based on standard media streaming industry sales and marketing ratios.",
+    "source": null
   },
   "trend_history": {
     "stock": [
@@ -67,16 +67,32 @@
       {
         "date": "2026-09-14",
         "value": 525.75
+      },
+      {
+        "date": "2026-10-23",
+        "value": 576.52
       }
     ],
     "revenue": [
       {
+        "period": "2020",
+        "value": 7880000000
+      },
+      {
+        "period": "2021",
+        "value": 9660000000
+      },
+      {
+        "period": "2022",
+        "value": 11720000000
+      },
+      {
         "period": "2023",
-        "value": 14337000000
+        "value": 13240000000
       },
       {
         "period": "2024",
-        "value": 16960000000
+        "value": 15620000000
       },
       {
         "period": "2025",
@@ -108,11 +124,15 @@
       },
       {
         "period": "Q1 2026",
-        "value": 4530000000
+        "value": 4500000000
       },
       {
         "period": "Q2 2026",
-        "value": 4780000000
+        "value": 4777000000
+      },
+      {
+        "period": "Q3 2026",
+        "value": 4969000000
       },
       {
         "period": "Q4 2025",
@@ -122,24 +142,24 @@
   },
   "business_updates": [
     {
-      "headline": "Spotify reached 300 million premium subscribers in Q2 2026",
-      "date": "2026-08-04",
+      "headline": "Spotify Posts Strong Revenue and Operating Profit Growth in Q3 2026 Filing",
+      "date": "2026-10-22",
       "source": {
-        "name": "Barron's",
-        "url": "https://www.barrons.com/articles/spotify-earnings-stock-price-d2b38442"
+        "name": "The Globe and Mail",
+        "url": "https://www.theglobeandmail.com/investing/markets/stocks/SPOT-N/pressreleases/8382481/spotify-posts-strong-revenue-and-operating-profit-growth-in-q3-2026-filing"
+      }
+    },
+    {
+      "headline": "Spotify Stock Rises Following Q3 '26 Subscription and Adverts Growth",
+      "date": "2026-10-22",
+      "source": {
+        "name": "Digital Music News",
+        "url": "https://www.digitalmusicnews.com/2026/10/22/spotify-stock-q3-2026-earnings"
       }
     },
     {
       "headline": "Spotify Expands Repurchase Program With Additional $1.5 Billion Authorization",
-      "date": "2026-09-03",
-      "source": {
-        "name": "Simply Wall St",
-        "url": "https://simplywall.st/stocks/us/media/nyse-spot/spotify-technology"
-      }
-    },
-    {
-      "headline": "Spotify Technology S.A. Announces Resignation of Heidi O'Neill from Board of Directors",
-      "date": "2026-09-03",
+      "date": "2026-09-01",
       "source": {
         "name": "Simply Wall St",
         "url": "https://simplywall.st/stocks/us/media/nyse-spot/spotify-technology"

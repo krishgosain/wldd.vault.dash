@@ -4,15 +4,15 @@
   "parent": "Koninklijke Philips N.V.",
   "entity_type": "india_private_registered",
   "category": "Consumer Electronics",
-  "description": "Philips India is the Indian subsidiary of global health technology and consumer electronics major Koninklijke Philips N.V.",
-  "last_refreshed": "2026-09-16T08:47:52.083Z",
+  "description": "Philips India Limited is an active unlisted public company operating in healthcare technology and personal health, and is a subsidiary of Dutch multinational Koninklijke Philips N.V.",
+  "last_refreshed": "2026-10-25T08:44:34.318Z",
   "stock": {
     "applicable": false,
     "value": null,
     "currency": "INR",
     "ticker": null,
     "as_of": null,
-    "note": "Philips India is a privately registered entity in India (CIN: U31902WB1930PLC006663); parent Koninklijke Philips N.V. is publicly listed on Euronext under ticker PHIA.AS.",
+    "note": "Philips India Limited is an unlisted public company; parent entity Koninklijke Philips N.V. trades on Euronext Amsterdam (PHIA.AS) and the NYSE (PHG).",
     "confidence": "not_applicable"
   },
   "revenue": {
@@ -23,11 +23,15 @@
     "source": null
   },
   "operating_profit": {
-    "value": null,
+    "value": 4480000000,
     "currency": "INR",
     "period": "FY2025",
-    "confidence": "not_found",
-    "source": null
+    "confidence": "disclosed",
+    "source": {
+      "name": "unlistedcart.com",
+      "url": "https://unlistedcart.com/philips-india-limited",
+      "date": "2025-01-01"
+    }
   },
   "expenses": {
     "breakdown": [],
@@ -38,9 +42,13 @@
     "value_high": 2500000000,
     "currency": "INR",
     "period": "FY2025",
-    "tier": "4_triangulated",
-    "derivation": "Estimated using category-level Indian AdEx benchmarks for consumer electronics and personal care appliances, assuming an estimated 8-12% share of category marketing spend for Philips India.",
-    "source": null
+    "tier": "3_modeled",
+    "derivation": "Estimated based on FY2024-25 Profit Before Tax of ~₹448 crore and Profit After Tax of ~₹309 crore, implying a revenue base of ~₹3,500-4,500 crore, multiplied by a typical consumer electronics and personal health industry ad-spend ratio of 4-6%.",
+    "source": {
+      "name": "unlistedcart.com",
+      "url": "https://unlistedcart.com/philips-india-limited",
+      "date": "2025-01-01"
+    }
   },
   "trend_history": {
     "stock": [
@@ -66,19 +74,11 @@
   },
   "business_updates": [
     {
-      "headline": "Philips reports Q2 2026 comparable sales growth of 4% driven by all business segments",
-      "date": "2026-07-28",
+      "headline": "Philips India reports improved FY2024-25 performance with PBT reaching ~₹448 crore and PAT reaching ~₹309 crore",
+      "date": "2025-01-01",
       "source": {
-        "name": "Philips",
-        "url": "https://x.com/Philips"
-      }
-    },
-    {
-      "headline": "Philips reports Q1 2026 results with 6% order intake growth and 4% comparable sales growth",
-      "date": "2026-05-28",
-      "source": {
-        "name": "Philips",
-        "url": "https://x.com/Philips"
+        "name": "unlistedcart.com",
+        "url": "https://unlistedcart.com/philips-india-limited"
       }
     }
   ]

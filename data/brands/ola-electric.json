@@ -4,95 +4,109 @@
   "parent": null,
   "entity_type": "public_standalone",
   "category": "Auto / EV",
-  "description": "Ola Electric Mobility Ltd (NSE: OLAELEC), India's EV two-wheeler maker.",
-  "last_refreshed": "2026-09-09T12:00:00.000Z",
+  "description": "Ola Electric Mobility Ltd is an Indian vertically integrated electric vehicle manufacturer focused on electric two-wheelers and battery technology.",
+  "last_refreshed": "2026-10-25T08:40:18.338Z",
   "stock": {
     "applicable": true,
-    "value": 37.4,
+    "value": 35.17,
     "currency": "INR",
     "ticker": "OLAELEC.NS",
-    "as_of": "2026-09-09",
-    "note": "NSE: OLAELEC.",
+    "as_of": "2026-10-16",
+    "note": "Reflects share price of Ola Electric Mobility Ltd on NSE/BSE",
     "confidence": "disclosed"
   },
   "revenue": {
-    "value": 46450000000.0,
+    "value": 45140000000,
     "currency": "INR",
     "period": "FY2025",
     "confidence": "disclosed",
     "source": {
-      "name": "Ola Electric Q4 & FY25 press release",
-      "url": "https://cdn.olaelectric.com/sites/evdp/pages/investor/financials/q4/Ola_Electric_Mobility_Limited_Press_Release_Q4_FY25.pdf",
-      "date": "2025-05-30"
+      "name": "INDmoney",
+      "url": "https://www.indmoney.com/stocks/ola-electric-mobility-ltd-share-price",
+      "date": "2026-10-16"
     }
   },
   "operating_profit": {
-    "value": null,
+    "value": -17620000000,
     "currency": "INR",
     "period": "FY2025",
-    "confidence": "not_found",
-    "source": null
+    "confidence": "disclosed",
+    "source": {
+      "name": "INDmoney",
+      "url": "https://www.indmoney.com/stocks/ola-electric-mobility-ltd-share-price",
+      "date": "2026-10-16"
+    }
   },
   "expenses": {
-    "breakdown": [
-      {
-        "label": "Total expenses (FY25)",
-        "value": 62530000000.0,
-        "confidence": "disclosed"
-      },
-      {
-        "label": "Cost of materials consumed (FY25)",
-        "value": 36000000000.0,
-        "confidence": "disclosed"
-      },
-      {
-        "label": "Employee benefits expense (FY25)",
-        "value": 4630000000.0,
-        "confidence": "disclosed"
-      },
-      {
-        "label": "Other expenses (FY25)",
-        "value": 20820000000.0,
-        "confidence": "disclosed"
-      }
-    ],
-    "confidence": "disclosed"
+    "breakdown": [],
+    "confidence": "not_found"
   },
   "marketing_spend": {
-    "value_low": 2330000000.0,
-    "value_high": 2330000000.0,
+    "value_low": 1350000000,
+    "value_high": 2250000000,
     "currency": "INR",
     "period": "FY2025",
-    "tier": "1_disclosed",
-    "derivation": "Disclosed: advertising and promotional expenses jumped over 100% YoY to more than ₹233 crore in FY25, as the company stepped up customer acquisition and retention efforts amid intensifying EV competition.",
-    "source": {
-      "name": "The Tech Portal / Autocar Professional — Ola Electric FY25 results",
-      "url": "https://www.autocarpro.in/news/ola-electric-reports-wider-losses-despite-revenue-growth-in-fy25-126676",
-      "date": "2025-05-30"
-    }
+    "tier": "3_modeled",
+    "derivation": "Modeled using an industry standard 3% to 5% marketing-to-revenue benchmark for consumer electric two-wheeler automotive brands applied to reported FY2025 revenue of ₹4,514 Crore.",
+    "source": null
   },
   "trend_history": {
     "stock": [
       {
         "date": "2026-09-09",
         "value": 37.4
+      },
+      {
+        "date": "2026-09-11",
+        "value": 39.02
+      },
+      {
+        "date": "2026-10-16",
+        "value": 35.17
+      },
+      {
+        "date": "2026-10-23",
+        "value": 31.94
       }
     ],
     "revenue": [
       {
+        "period": "FY2022",
+        "value": 3734200000
+      },
+      {
+        "period": "FY2023",
+        "value": 26309300000
+      },
+      {
+        "period": "FY2024",
+        "value": 50100000000
+      },
+      {
         "period": "FY2025",
-        "value": 46450000000.0
+        "value": 45140000000
+      },
+      {
+        "period": "FY2026",
+        "value": 22530000000
       }
     ]
   },
   "business_updates": [
     {
-      "headline": "Ola Electric Q4 FY25 net loss widens to ₹870 crore; FY25 total expenses ₹6,253 crore with going-concern flag from auditors on negative operating cash flow (-₹2,391 crore)",
-      "date": "2025-05-30",
+      "headline": "Ola Electric announces mass rollout of MoveOS 5",
+      "date": "2025-12-31",
       "source": {
-        "name": "Business Standard",
-        "url": "https://www.business-standard.com/amp/markets/capital-market-news/ola-electric-drops-after-q4-net-loss-widens-to-rs-870-cr-125053000665_1.html",
-        "date": "2025-05-30"
+        "name": "Ola Electric Investor Relations",
+        "url": "https://www.olaelectric.com/investor-relations"
+      }
+    },
+    {
+      "headline": "Ola Electric reports Q3 FY26 revenue down 55% YoY with volumes dropping 61% YoY",
+      "date": "2026-02-15",
+      "source": {
+        "name": "CNBC TV18",
+        "url": "https://www.youtube.com/watch?v=inf2uwaOcBo"
       }
     }
   ]

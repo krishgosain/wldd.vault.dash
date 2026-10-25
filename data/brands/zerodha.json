@@ -1,76 +1,111 @@
 {
   "name": "Zerodha",
   "slug": "zerodha",
-  "parent": "Zerodha Broking Ltd",
+  "parent": "Zerodha Broking Ltd.",
   "entity_type": "india_private_registered",
   "category": "Fintech / Broking",
-  "description": "Zerodha is a brand/product of Zerodha Broking Ltd, India's largest stockbroker by active clients; famously bootstrapped and profitable with no external funding.",
-  "last_refreshed": "2026-09-09T12:00:00.000Z",
+  "description": "Zerodha is an Indian online stockbroking platform and financial services firm owned by Zerodha Broking Ltd.",
+  "last_refreshed": "2026-10-25T08:39:12.492Z",
   "stock": {
     "applicable": false,
     "value": null,
     "currency": "INR",
     "ticker": null,
     "as_of": null,
-    "note": "Privately held (founder-owned) — no public stock.",
+    "note": "Zerodha is a privately held unlisted company.",
     "confidence": "not_applicable"
   },
   "revenue": {
-    "value": 88470000000.0,
+    "value": 88470000000,
     "currency": "INR",
     "period": "FY2025",
     "confidence": "disclosed",
     "source": {
-      "name": "The Head and Tale — Zerodha FY25 revenue drops 11.5% to Rs 8,847 crore",
-      "url": "https://theheadandtale.com/fintech-news/zerodha-fy25-revenue-drops-11-5--to-rs-8847-crore/",
-      "date": "2025-11-01"
+      "name": "The Economic Times",
+      "url": "https://m.economictimes.com/markets/stocks/earnings/zerodhas-fy26-net-profit-rises-1-2-to-4283-crore-amid-revenue-slowdown/articleshow/133553571.cms",
+      "date": "2026-04-01"
     }
   },
   "operating_profit": {
-    "value": 42370000000.0,
+    "value": 42830000000,
     "currency": "INR",
-    "period": "FY2025 net profit",
+    "period": "FY2026",
     "confidence": "disclosed",
     "source": {
-      "name": "Indian Startup News — Zerodha fails to cross Rs 10,000 crore revenue mark in FY25; net profit falls 23% to Rs 4,237 crore",
-      "url": "https://indianstartupnews.com/news/zerodha-fails-to-cross-rs-10000-crore-revenue-mark-in-fy25-net-profit-falls-23-to-rs-4237-crore-10802936",
-      "date": "2025-11-01"
+      "name": "The Economic Times",
+      "url": "https://m.economictimes.com/markets/stocks/earnings/zerodhas-fy26-net-profit-rises-1-2-to-4283-crore-amid-revenue-slowdown/articleshow/133553571.cms",
+      "date": "2026-04-01"
     }
   },
   "expenses": {
-    "breakdown": [],
+    "breakdown": [
+      {
+        "label": "Employee Expenses",
+        "value": 708200000,
+        "confidence": "disclosed"
+      },
+      {
+        "label": "Marketing Expenses",
+        "value": 480300000,
+        "confidence": "disclosed"
+      },
+      {
+        "label": "Information Technology Expenses",
+        "value": 699400000,
+        "confidence": "disclosed"
+      }
+    ],
     "confidence": "disclosed"
   },
   "marketing_spend": {
-    "value_low": 0,
-    "value_high": 50000000.0,
+    "value_low": 480300000,
+    "value_high": 480300000,
     "currency": "INR",
-    "period": "FY2025 (triangulated — documented zero-ad-spend policy)",
-    "tier": "4_triangulated",
-    "derivation": "Zerodha has publicly and repeatedly stated it has never run a paid advertising campaign — no Google Ads, no Meta campaigns, no celebrity endorsements, no billboards — per CEO Nithin Kamath. Growth comes entirely from word-of-mouth, referrals (~30% of new investors), free educational content (Varsity), and open APIs (Kite Connect). The ₹0-5 crore range accounts for minor incidental spend (e.g. referral-program payouts, sponsorships) that may not constitute 'advertising' in the strict sense but isn't captured elsewhere; it is not a modeled ad-spend estimate since the company's policy is explicitly to spend nothing on ads.",
+    "period": "FY2025",
+    "tier": "1_disclosed",
+    "derivation": "Disclosed as Marketing Expenses of ₹48.03 crore (4,803 Lakhs) in FY 2024-25 financial performance metrics reported via Tracxn.",
     "source": {
-      "name": "Inc42 — Zerodha now has over 1.6 Cr users without advertising: Nithin Kamath",
-      "url": "https://inc42.com/buzz/zerodha-now-has-over-1-6-cr-users-without-advertising-nithin-kamath/",
-      "date": "2026-01-01"
+      "name": "Tracxn",
+      "url": "https://tracxn.com/d/legal-entities/india/zerodha-broking-limited/__v553aNZpzCj2Bvf4xhnL-tRmJFFZ-TN4gXVbm8w0W1Y",
+      "date": "2026-04-01"
     }
   },
   "trend_history": {
     "stock": [],
     "revenue": [
       {
+        "period": "FY2022",
+        "value": 28030000000
+      },
+      {
+        "period": "FY2023",
+        "value": 69100000000
+      },
+      {
+        "period": "FY2024",
+        "value": 71410000000
+      },
+      {
         "period": "FY2025",
-        "value": 88470000000.0
+        "value": 88470000000
       }
     ]
   },
   "business_updates": [
     {
-      "headline": "Zerodha FY25: revenue falls 11.5% to ₹8,847 crore, net profit falls 22.9% to ₹4,237 crore amid F&O regulatory changes and lower trading activity",
+      "headline": "Zerodha signals potential move to charge brokerage fees for equity delivery trades in FY26",
       "date": "2025-11-01",
       "source": {
-        "name": "Indian Startup News",
-        "url": "https://indianstartupnews.com/news/zerodha-fails-to-cross-rs-10000-crore-revenue-mark-in-fy25-net-profit-falls-23-to-rs-4237-crore-10802936",
-        "date": "2025-11-01"
+        "name": "Inc42 Media",
+        "url": "https://www.linkedin.com/posts/inc42_news-zerodha-revenue-activity-7273716356959617024-y3jS"
+      }
+    },
+    {
+      "headline": "Zerodha invests in Tijori Finance to scale AI-driven market research tools",
+      "date": "2025-11-01",
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Zerodha"
       }
     }
   ]

@@ -4,50 +4,66 @@
   "parent": null,
   "entity_type": "public_standalone",
   "category": "Auto",
-  "description": "Tata Motors Limited is a major Indian automobile manufacturer that designs, manufactures, and sells passenger, commercial, and luxury vehicles globally, including through Jaguar Land Rover.",
-  "last_refreshed": "2026-09-16T08:47:33.889Z",
+  "description": "Tata Motors Limited is a major Indian multinational automotive manufacturing enterprise that produces passenger cars, commercial trucks, buses, and electric vehicles.",
+  "last_refreshed": "2026-10-25T08:44:03.719Z",
   "stock": {
     "applicable": true,
-    "value": 472.55,
+    "value": 421.05,
     "currency": "INR",
     "ticker": "TATAMOTORS.NS",
-    "as_of": "2026-09-16",
-    "note": "Reflects the trading stock price of Tata Motors on NSE/BSE.",
+    "as_of": "2026-10-16",
+    "note": "Reflects Tata Motors share price on the NSE",
     "confidence": "disclosed"
   },
   "revenue": {
-    "value": 1044070000000,
-    "currency": "INR",
-    "period": "Q1 FY2026",
-    "confidence": "disclosed",
-    "source": {
-      "name": "INDMoney",
-      "url": "https://www.indmoney.com/stocks/tata-motors-ltd-share-price",
-      "date": "2026-09-02"
-    }
-  },
-  "operating_profit": {
-    "value": 7617000000,
+    "value": 838550000000,
     "currency": "INR",
     "period": "FY2026",
     "confidence": "disclosed",
     "source": {
-      "name": "Screener",
-      "url": "https://www.screener.in/company/TMCV/consolidated",
-      "date": "2026-09-02"
+      "name": "StockScans",
+      "url": "https://www.stockscans.in/company/NSE:TMCV",
+      "date": "2026-10-16"
+    }
+  },
+  "operating_profit": {
+    "value": 76170000000,
+    "currency": "INR",
+    "period": "FY2026",
+    "confidence": "disclosed",
+    "source": {
+      "name": "StockScans",
+      "url": "https://www.stockscans.in/company/NSE:TMCV",
+      "date": "2026-10-16"
     }
   },
   "expenses": {
-    "breakdown": [],
-    "confidence": "not_found"
+    "breakdown": [
+      {
+        "label": "Total Operating Expenses",
+        "value": 762380000000,
+        "confidence": "disclosed"
+      },
+      {
+        "label": "Depreciation",
+        "value": 19450000000,
+        "confidence": "disclosed"
+      },
+      {
+        "label": "Interest Expense",
+        "value": 8740000000,
+        "confidence": "disclosed"
+      }
+    ],
+    "confidence": "disclosed"
   },
   "marketing_spend": {
-    "value_low": 10440700000,
-    "value_high": 15661050000,
+    "value_low": 12578000000,
+    "value_high": 20963800000,
     "currency": "INR",
-    "period": "Q1 FY2026",
+    "period": "FY2026",
     "tier": "3_modeled",
-    "derivation": "Estimated applying an auto-industry standard marketing-to-revenue benchmark of 1.0% to 1.5% against the reported Q1 FY26 consolidated revenue of ₹1,04,407 crore.",
+    "derivation": "Modeled using a typical automotive sector marketing-to-revenue ratio of 1.5% to 2.5% applied against Tata Motors' FY2026 reported revenue of ₹83,855 crore.",
     "source": null
   },
   "trend_history": {
@@ -95,6 +111,10 @@
       {
         "date": "2026-09-16",
         "value": 472.55
+      },
+      {
+        "date": "2026-10-16",
+        "value": 421.05
       }
     ],
     "revenue": [
@@ -104,11 +124,11 @@
       },
       {
         "period": "FY2025",
-        "value": 4376070000000
+        "value": 582170000000
       },
       {
         "period": "FY2026",
-        "value": 3297200000000
+        "value": 838550000000
       },
       {
         "period": "Mar 2025",
@@ -130,11 +150,19 @@
   },
   "business_updates": [
     {
-      "headline": "Tata Motors reported Q1 FY26 consolidated revenue of ₹1,04,407 crore",
-      "date": "2026-09-02",
+      "headline": "Tata Motors launched the Harrier.ev SUV, reaching 10,000 bookings on day one",
+      "date": "2025-06-01",
       "source": {
-        "name": "INDMoney",
-        "url": "https://www.indmoney.com/stocks/tata-motors-ltd-share-price"
+        "name": "Tata Motors Consolidated Q1 FY26 Results",
+        "url": "https://www.tatamotors.com/press-releases/tata-motors-consolidated-q1-fy26-results"
+      }
+    },
+    {
+      "headline": "Tata Commercial Vehicles launched Ace Pro four-wheel mini-truck for urban freight and cargo mobility",
+      "date": "2025-06-01",
+      "source": {
+        "name": "Tata Motors Consolidated Q1 FY26 Results",
+        "url": "https://www.tatamotors.com/press-releases/tata-motors-consolidated-q1-fy26-results"
       }
     }
   ]

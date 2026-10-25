@@ -4,37 +4,37 @@
   "parent": "Dreamplug Technologies Pvt Ltd",
   "entity_type": "india_private_registered",
   "category": "Fintech",
-  "description": "CRED is a brand/product of Dreamplug Technologies Pvt Ltd.",
-  "last_refreshed": "2026-09-09T12:00:00.000Z",
+  "description": "CRED is an Indian financial technology platform operated by Dreamplug Technologies Private Limited that offers credit card bill payments, lending, and consumer financial management services.",
+  "last_refreshed": "2026-10-25T08:39:31.039Z",
   "stock": {
     "applicable": false,
     "value": null,
     "currency": "INR",
     "ticker": null,
     "as_of": null,
-    "note": "Privately held — no public stock.",
+    "note": "Private unlisted company",
     "confidence": "not_applicable"
   },
   "revenue": {
-    "value": 27350000000.0,
+    "value": 24730000000,
     "currency": "INR",
-    "period": "FY2025",
+    "period": "FY2024",
     "confidence": "disclosed",
     "source": {
-      "name": "Economic Times via Medial — CRED FY25 revenue rises 16% to Rs 2,735 crore",
-      "url": "https://medial.app/news/cred-fy25-revenue-rises-16percent-to-rs-2735-crore-losses-narrow-the-economic-times-459fba755c916",
-      "date": "2025-12-01"
+      "name": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Cred_(company)",
+      "date": "2024"
     }
   },
   "operating_profit": {
-    "value": -14570000000.0,
+    "value": -16440000000,
     "currency": "INR",
-    "period": "FY2025 net loss",
+    "period": "FY2024",
     "confidence": "disclosed",
     "source": {
-      "name": "Economic Times via Medial — CRED FY25 revenue rises 16%, losses narrow",
-      "url": "https://medial.app/news/cred-fy25-revenue-rises-16percent-to-rs-2735-crore-losses-narrow-the-economic-times-459fba755c916",
-      "date": "2025-12-01"
+      "name": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Cred_(company)",
+      "date": "2024"
     }
   },
   "expenses": {
@@ -42,31 +42,46 @@
     "confidence": "not_found"
   },
   "marketing_spend": {
-    "value_low": 5000000000.0,
-    "value_high": 7000000000.0,
+    "value_low": 7419000000,
+    "value_high": 9892000000,
     "currency": "INR",
-    "period": "FY2025 (triangulated)",
-    "tier": "4_triangulated",
-    "derivation": "A specific FY25 marketing-spend figure was not located. Historical disclosed figures show a steady decline as a share of revenue: ₹976 crore in FY22 and ₹713 crore in FY23 (down 27% YoY). Triangulated FY25 range of ₹500-700 crore assumes the same declining trend continued as CRED's revenue grew and the company matured past its aggressive early-growth ad blitz (e.g. the Rahul Dravid campaigns).",
-    "source": null
+    "period": "FY2024",
+    "tier": "3_modeled",
+    "derivation": "Modeled assuming a standard 30% to 40% marketing-to-revenue ratio typical for high-growth consumer fintech platforms, applied to CRED's reported FY24 revenue of ₹2,473 crore.",
+    "source": {
+      "name": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Cred_(company)",
+      "date": "2024"
+    }
   },
   "trend_history": {
     "stock": [],
     "revenue": [
       {
+        "period": "FY2024",
+        "value": 24730000000
+      },
+      {
         "period": "FY2025",
-        "value": 27350000000.0
+        "value": 27350000000
       }
     ]
   },
   "business_updates": [
     {
-      "headline": "CRED's FY25 revenue rises 16% to ₹2,735 crore as losses narrow to ₹1,457 crore",
-      "date": "2025-12-01",
+      "headline": "CRED reported FY24 revenue of ₹2,473 crore with net loss of ₹1,644 crore",
+      "date": "2024-01-01",
       "source": {
-        "name": "Economic Times via Medial",
-        "url": "https://medial.app/news/cred-fy25-revenue-rises-16percent-to-rs-2735-crore-losses-narrow-the-economic-times-459fba755c916",
-        "date": "2025-12-01"
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Cred_(company)"
+      }
+    },
+    {
+      "headline": "CRED valuation stands at approximately US$4.5 billion",
+      "date": "2026-01-01",
+      "source": {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Cred_(company)"
       }
     }
   ]

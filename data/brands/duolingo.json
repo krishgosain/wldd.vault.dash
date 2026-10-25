@@ -4,50 +4,54 @@
   "parent": null,
   "entity_type": "public_standalone",
   "category": "EdTech",
-  "description": "Duolingo, Inc. is the publicly listed parent of the Duolingo language-learning app (NASDAQ: DUOL).",
-  "last_refreshed": "2026-09-09T12:00:00.000Z",
+  "description": "Duolingo, Inc. is a publicly traded mobile learning platform offering language learning and digital education programs.",
+  "last_refreshed": "2026-10-25T08:41:15.513Z",
   "stock": {
     "applicable": true,
-    "value": 154.46,
+    "value": 139.5,
     "currency": "USD",
     "ticker": "DUOL",
-    "as_of": "2026-09-07",
-    "note": "NASDAQ: DUOL.",
+    "as_of": "2026-10-14",
+    "note": "Standalone public listing on NASDAQ",
     "confidence": "disclosed"
   },
   "revenue": {
-    "value": 298500000.0,
+    "value": 298500000,
     "currency": "USD",
     "period": "Q2 2026",
     "confidence": "disclosed",
     "source": {
-      "name": "Duolingo Q2 2026 shareholder letter",
-      "url": "https://investors.duolingo.com/static-files/3c8277ee-bc94-4f5d-9b77-0db3e46f88b8",
+      "name": "Quiver Quantitative",
+      "url": "https://www.quiverquant.com/news/Duolingo+(DUOL)+Stock+Falls+on+Q2+2026+Earnings",
       "date": "2026-08-01"
     }
   },
   "operating_profit": {
-    "value": null,
+    "value": 33900000,
     "currency": "USD",
-    "period": "",
-    "confidence": "not_found",
-    "source": null
+    "period": "Q2 2026",
+    "confidence": "disclosed",
+    "source": {
+      "name": "Quiver Quantitative",
+      "url": "https://www.quiverquant.com/news/Duolingo+(DUOL)+Stock+Falls+on+Q2+2026+Earnings",
+      "date": "2026-08-01"
+    }
   },
   "expenses": {
     "breakdown": [],
     "confidence": "not_found"
   },
   "marketing_spend": {
-    "value_low": 125680000.0,
-    "value_high": 125680000.0,
+    "value_low": 53730000,
+    "value_high": 59700000,
     "currency": "USD",
-    "period": "FY2025 (full year, 10-K)",
-    "tier": "1_disclosed",
-    "derivation": "Disclosed in Duolingo's FY2025 10-K: sales and marketing expense was ~$125.68 million for the full year, up 38.9% YoY — a record for the company as it scales influencer and performance-marketing investment toward its 100M-DAU goal.",
+    "period": "Q2 2026",
+    "tier": "3_modeled",
+    "derivation": "Calculated by applying an estimated 18%-20% sales and marketing spend ratio to Q2 2026 revenue ($298.5 million), taking into account reported 35.3% quarter-over-quarter growth in sales and marketing expenses.",
     "source": {
-      "name": "Statista — Duolingo annual sales and marketing spend 2025",
-      "url": "https://www.statista.com/statistics/1248057/duolingo-annual-sales-and-marketing-expenses/",
-      "date": "2026-02-01"
+      "name": "YouTube / Earnings Analysis",
+      "url": "https://www.youtube.com/watch?v=5bYvnSZyh3U",
+      "date": "2026-08-01"
     }
   },
   "trend_history": {
@@ -55,23 +59,42 @@
       {
         "date": "2026-09-07",
         "value": 154.46
+      },
+      {
+        "date": "2026-10-14",
+        "value": 139.73
       }
     ],
     "revenue": [
       {
+        "period": "FY2025",
+        "value": 1040000000
+      },
+      {
+        "period": "Q1 2026",
+        "value": 291900000
+      },
+      {
         "period": "Q2 2026",
-        "value": 298500000.0
+        "value": 298500000
       }
     ]
   },
   "business_updates": [
     {
-      "headline": "Duolingo Q2 2026 revenue grows 18% YoY to $298.5M as sales & marketing spend rises 35%",
+      "headline": "Duolingo reports Q2 2026 revenue of $298.5M, up 18.3% YoY, while marketing spend increases 35.3%",
       "date": "2026-08-01",
       "source": {
-        "name": "Class Central — Duolingo Q2 2026 report",
-        "url": "https://www.classcentral.com/report/duolingo-q2-2026/",
-        "date": "2026-08-01"
+        "name": "Quiver Quantitative",
+        "url": "https://www.quiverquant.com/news/Duolingo+(DUOL)+Stock+Falls+on+Q2+2026+Earnings"
+      }
+    },
+    {
+      "headline": "Securities Fraud Class Action Lawsuit Notice Issued to Duolingo Investors",
+      "date": "2026-10-09",
+      "source": {
+        "name": "Gotrade / Business Wire",
+        "url": "https://www.heygotrade.com/en/us-stock/duol"
       }
     }
   ]
