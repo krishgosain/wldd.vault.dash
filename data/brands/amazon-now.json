@@ -4,28 +4,28 @@
   "parent": "Amazon",
   "entity_type": "public_parent",
   "category": "Quick Commerce",
-  "description": "Amazon Now is the quick commerce ultra-fast delivery offering operated by parent company Amazon.com, Inc.",
-  "last_refreshed": "2026-09-30T09:56:30.900Z",
+  "description": "Amazon Now is the quick commerce delivery brand operated by parent company Amazon, Inc.",
+  "last_refreshed": "2026-10-29T10:21:05.294Z",
   "stock": {
     "applicable": false,
-    "value": 249.67,
+    "value": null,
     "currency": "USD",
-    "ticker": "AMZN",
-    "as_of": "2026-09-30",
-    "note": "Stock metrics reflect parent company Amazon.com, Inc. (AMZN) as Amazon Now is not independently listed.",
+    "ticker": null,
+    "as_of": null,
+    "note": "Amazon Now is a product/service line under parent company Amazon.com, Inc. (NASDAQ: AMZN).",
     "confidence": "not_applicable"
   },
   "revenue": {
     "value": null,
     "currency": "USD",
-    "period": "Q2 2026",
+    "period": "Q1 2026",
     "confidence": "not_found",
     "source": null
   },
   "operating_profit": {
     "value": null,
     "currency": "USD",
-    "period": "Q2 2026",
+    "period": "Q1 2026",
     "confidence": "not_found",
     "source": null
   },
@@ -39,11 +39,11 @@
     "currency": "USD",
     "period": "Q1 2026",
     "tier": "1_disclosed",
-    "derivation": "Parent company Amazon.com, Inc. reported consolidated Sales and marketing expense of $10,314 million ($10.314B) in its Q1 2026 financial statement.",
+    "derivation": "Disclosed in Amazon.com, Inc.'s Q1 2026 financial report under 'Sales and marketing' operating expenses ($10,314 million).",
     "source": {
-      "name": "Amazon.com, Inc. - Amazon.com Announces First Quarter Results",
+      "name": "Amazon.com IR",
       "url": "https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-First-Quarter-Results/default.aspx",
-      "date": "2026-03-31"
+      "date": "2026-04-30"
     }
   },
   "trend_history": {
@@ -59,9 +59,29 @@
       {
         "date": "2026-09-30",
         "value": 249.67
+      },
+      {
+        "date": "2026-10-28",
+        "value": 254.6
       }
     ],
     "revenue": [
+      {
+        "period": "2022",
+        "value": 513983000000
+      },
+      {
+        "period": "2023",
+        "value": 574785000000
+      },
+      {
+        "period": "2024",
+        "value": 637959000000
+      },
+      {
+        "period": "2025",
+        "value": 716924000000
+      },
       {
         "period": "Q1 2026",
         "value": 181519000000
@@ -74,27 +94,11 @@
   },
   "business_updates": [
     {
-      "headline": "Amazon reported Q2 2026 revenue of $200.6 billion (up 20% YoY) and raised 2026 cash CapEx guidance to $220 billion.",
-      "date": "2026-09-30",
+      "headline": "Amazon reports Q1 2026 net sales of $181.5 billion, up from $155.7 billion in Q1 2025",
+      "date": "2026-04-30",
       "source": {
-        "name": "Simply Wall St",
-        "url": "https://simplywall.st/stocks/us/retail/nasdaq-amzn/amazoncom"
-      }
-    },
-    {
-      "headline": "AWS operations disrupted by drone strikes in the UAE causing regional cloud outages.",
-      "date": "2026-09-26",
-      "source": {
-        "name": "Simply Wall St",
-        "url": "https://simplywall.st/stocks/us/retail/nasdaq-amzn/amazoncom"
-      }
-    },
-    {
-      "headline": "Kevin R. Mandia elected to Amazon Board of Directors and appointed to Audit and Security Committees.",
-      "date": "2026-09-08",
-      "source": {
-        "name": "Simply Wall St",
-        "url": "https://simplywall.st/stocks/us/retail/nasdaq-amzn/amazoncom"
+        "name": "Amazon.com IR",
+        "url": "https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-First-Quarter-Results/default.aspx"
       }
     }
   ]

@@ -4,28 +4,32 @@
   "parent": "Eternal Ltd",
   "entity_type": "public_parent",
   "category": "Events / Ticketing",
-  "description": "District is a live events and online ticketing platform operated as a brand vertical by parent entity Eternal Ltd (formerly Zomato Limited).",
-  "last_refreshed": "2026-09-16T08:49:53.505Z",
+  "description": "District is an dining, entertainment, and event discovery platform operating as the going-out business segment of Eternal Ltd (formerly Zomato).",
+  "last_refreshed": "2026-10-29T10:19:25.690Z",
   "stock": {
     "applicable": false,
     "value": null,
     "currency": "INR",
-    "ticker": null,
-    "as_of": null,
-    "note": "Reflects parent entity Eternal Ltd (ETERNAL.NS); District is a brand segment and does not have a separate listing.",
+    "ticker": "ETERNAL.NS",
+    "as_of": "2026-10-29",
+    "note": "Reflects parent company Eternal Ltd, not District specifically",
     "confidence": "not_applicable"
   },
   "revenue": {
-    "value": null,
+    "value": 2770000000,
     "currency": "INR",
-    "period": "FY2026",
-    "confidence": "not_found",
-    "source": null
+    "period": "Q4 FY2026",
+    "confidence": "disclosed",
+    "source": {
+      "name": "Ticker Finology",
+      "url": "https://ticker.finology.in/company/ETERNAL",
+      "date": "2026-10-29"
+    }
   },
   "operating_profit": {
     "value": null,
     "currency": "INR",
-    "period": "FY2026",
+    "period": "Q4 FY2026",
     "confidence": "not_found",
     "source": null
   },
@@ -34,13 +38,17 @@
     "confidence": "not_found"
   },
   "marketing_spend": {
-    "value_low": 500000000,
-    "value_high": 1000000000,
+    "value_low": 277000000,
+    "value_high": 554000000,
     "currency": "INR",
-    "period": "FY2026",
+    "period": "Q4 FY2026",
     "tier": "3_modeled",
-    "derivation": "Modeled using consumer ticketing industry benchmarks, estimating annual ad and promotion spend at ₹50 Cr to ₹100 Cr to build brand equity and compete in the live events market under parent Eternal Ltd.",
-    "source": null
+    "derivation": "Modeled by applying a standard category marketing ratio of 10%-20% for consumer tech ticketing and discovery platforms against District's reported quarterly segment revenue of Rs 277 crore.",
+    "source": {
+      "name": "Ticker Finology",
+      "url": "https://ticker.finology.in/company/ETERNAL",
+      "date": "2026-10-29"
+    }
   },
   "trend_history": {
     "stock": [
@@ -61,24 +69,20 @@
       {
         "period": "FY2025 (Eternal)",
         "value": 202430000000
+      },
+      {
+        "period": "Q4 FY2026",
+        "value": 2770000000
       }
     ]
   },
   "business_updates": [
     {
-      "headline": "Eternal Ltd expands beyond restaurant delivery through its dedicated live events and online ticketing platform District.",
-      "date": "2026-03-01",
+      "headline": "India's Eternal expects faster Blinkit growth as quarterly profit nearly doubles",
+      "date": "2026-10-21",
       "source": {
-        "name": "Wikipedia",
-        "url": "https://en.wikipedia.org/wiki/Eternal_Limited"
-      }
-    },
-    {
-      "headline": "Eternal Ltd continues operational investments in its 'Going out' and ticketing business segment.",
-      "date": "2026-07-01",
-      "source": {
-        "name": "Dhan",
-        "url": "https://dhan.co/stocks/zomato-ltd-share-price"
+        "name": "Reuters",
+        "url": "https://www.reuters.com/markets/companies/ETEA.NS"
       }
     }
   ]

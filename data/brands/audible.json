@@ -4,28 +4,28 @@
   "parent": "Amazon",
   "entity_type": "public_parent",
   "category": "Audio Streaming",
-  "description": "Audible is an online audiobook and podcast service owned by Amazon.",
-  "last_refreshed": "2026-09-16T08:50:17.665Z",
+  "description": "Audible is an audio streaming and audiobook platform operating as a wholly-owned subsidiary of Amazon.",
+  "last_refreshed": "2026-10-29T10:19:41.362Z",
   "stock": {
     "applicable": false,
     "value": null,
     "currency": "USD",
     "ticker": null,
     "as_of": null,
-    "note": "Audible is a subsidiary of Amazon (NASDAQ: AMZN) and does not trade as a separate public stock.",
+    "note": "Audible is a wholly-owned subsidiary of Amazon.com, Inc. (NASDAQ: AMZN) and does not have an independent stock ticker.",
     "confidence": "not_applicable"
   },
   "revenue": {
     "value": null,
     "currency": "USD",
-    "period": "Q2 2026",
+    "period": "FY2025",
     "confidence": "not_found",
     "source": null
   },
   "operating_profit": {
     "value": null,
     "currency": "USD",
-    "period": "Q2 2026",
+    "period": "FY2025",
     "confidence": "not_found",
     "source": null
   },
@@ -34,12 +34,12 @@
     "confidence": "not_found"
   },
   "marketing_spend": {
-    "value_low": 150000000,
+    "value_low": 100000000,
     "value_high": 300000000,
     "currency": "USD",
     "period": "FY2025",
     "tier": "3_modeled",
-    "derivation": "Estimated using a 10-15% marketing-to-revenue ratio standard for digital consumer subscription audio services, applied against estimated standalone business size within Amazon's subscription services segment.",
+    "derivation": "Modeled using audio streaming category benchmark ad spend ratios (10-15% of estimated revenue) for major digital subscription platforms, as Amazon does not separately report Audible's standalone financial metrics.",
     "source": null
   },
   "trend_history": {
@@ -48,11 +48,11 @@
   },
   "business_updates": [
     {
-      "headline": "Amazon reports Q2 2026 net sales of $200.6 billion, up 20% year-over-year",
-      "date": "2026-07-30",
+      "headline": "Amazon acquires Audible as a wholly-owned subsidiary via tender offer",
+      "date": "2008-03-11",
       "source": {
-        "name": "Amazon Investor Relations",
-        "url": "https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-Second-Quarter-Results"
+        "name": "SEC Edgar",
+        "url": "https://www.sec.gov/Archives/edgar/data/1018724/000119312508062806/dex99a1j.htm"
       }
     }
   ]

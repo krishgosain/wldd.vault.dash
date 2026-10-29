@@ -4,28 +4,28 @@
   "parent": "Bajaj Auto Ltd.",
   "entity_type": "public_parent",
   "category": "Auto / EV",
-  "description": "Bajaj EV is the electric vehicle division of Bajaj Auto Ltd., manufacturing electric two-wheelers like the Chetak and electric three-wheelers.",
-  "last_refreshed": "2026-10-08T10:51:06.526Z",
+  "description": "Bajaj EV is the electric mobility division of Bajaj Auto Ltd., manufacturing electric two-wheelers and three-wheelers.",
+  "last_refreshed": "2026-10-29T10:22:43.609Z",
   "stock": {
     "applicable": false,
-    "value": null,
+    "value": 10335,
     "currency": "INR",
-    "ticker": null,
-    "as_of": null,
-    "note": "Reflects parent company Bajaj Auto Ltd. (NSE: BAJAJ-AUTO), not this specific brand division.",
+    "ticker": "BAJAJ-AUTO.NS",
+    "as_of": "2026-10-29",
+    "note": "Reflects parent company Bajaj Auto Ltd., not Bajaj EV specifically.",
     "confidence": "not_applicable"
   },
   "revenue": {
     "value": null,
     "currency": "INR",
-    "period": "FY2025",
+    "period": "TTM",
     "confidence": "not_found",
     "source": null
   },
   "operating_profit": {
     "value": null,
     "currency": "INR",
-    "period": "FY2025",
+    "period": "TTM",
     "confidence": "not_found",
     "source": null
   },
@@ -37,14 +37,10 @@
     "value_low": 1500000000,
     "value_high": 3000000000,
     "currency": "INR",
-    "period": "FY2025",
+    "period": "FY2026",
     "tier": "3_modeled",
-    "derivation": "Modeled assuming marketing and sales promotion spend equals 1.5% to 3.0% of estimated electric vehicle division turnover, in line with Indian automobile industry category benchmarks.",
-    "source": {
-      "name": "Bajaj Auto Annual Report 2025",
-      "url": "https://investors.bajajauto.com/ar25",
-      "date": "2025-08-06"
-    }
+    "derivation": "Modeled assuming a 15-25% allocation of Bajaj Auto's overall sales and after-sales expenditure towards marketing and expanding the Bajaj EV distribution footprint.",
+    "source": null
   },
   "trend_history": {
     "stock": [
@@ -59,6 +55,14 @@
       {
         "date": "2026-09-11",
         "value": 11768
+      },
+      {
+        "date": "2026-10-26",
+        "value": 10028
+      },
+      {
+        "date": "2026-10-29",
+        "value": 10335
       }
     ],
     "revenue": [
@@ -75,6 +79,10 @@
         "value": 627353.3
       },
       {
+        "period": "Dec 2025",
+        "value": 166404900000
+      },
+      {
         "period": "FY2024",
         "value": 446852.3
       },
@@ -89,24 +97,36 @@
       {
         "period": "FY2026",
         "value": 587324.8
+      },
+      {
+        "period": "Jun 2026",
+        "value": 223766900000
+      },
+      {
+        "period": "Mar 2026",
+        "value": 197265900000
+      },
+      {
+        "period": "Sep 2025",
+        "value": 163105400000
       }
     ]
   },
   "business_updates": [
     {
-      "headline": "Bajaj Auto Reports Strong Q4 FY26; Board Approves ₹5,633 Crore Buyback",
-      "date": "2026-10-06",
+      "headline": "Bajaj Auto launches RE EV 9.0 electric passenger 3-wheeler",
+      "date": "2026-03-31",
       "source": {
-        "name": "CNBC-TV18",
-        "url": "https://www.youtube.com/watch?v=jfu21e1kays&vl=en-US"
+        "name": "Bajaj Auto Annual Report",
+        "url": "https://investors.bajajauto.com/management-discussion-analysis"
       }
     },
     {
-      "headline": "Indian e-bike rental startup Yulu raises $93 million to help fund expansion",
-      "date": "2026-08-12",
+      "headline": "Bajaj Auto plans EV distribution expansion to 600 stores",
+      "date": "2024-04-18",
       "source": {
-        "name": "Reuters",
-        "url": "https://www.reuters.com/company/bajaj-auto-ltd"
+        "name": "CNBC TV18",
+        "url": "https://www.youtube.com/watch?v=q0Jjx2kEuus"
       }
     }
   ]

@@ -1,31 +1,31 @@
 {
   "name": "Prime Video",
   "slug": "prime-video",
-  "parent": "Amazon",
+  "parent": "Amazon.com, Inc.",
   "entity_type": "public_parent",
   "category": "OTT",
-  "description": "Prime Video is a global subscription video-on-demand streaming and rental service operated as a business segment of parent company Amazon.",
-  "last_refreshed": "2026-09-30T09:56:50.408Z",
+  "description": "Prime Video is an over-the-top (OTT) video streaming service owned and operated by Amazon.com, Inc.",
+  "last_refreshed": "2026-10-29T10:21:20.954Z",
   "stock": {
     "applicable": false,
     "value": null,
     "currency": "USD",
-    "ticker": "AMZN",
+    "ticker": null,
     "as_of": null,
-    "note": "Reflects parent company Amazon (NASDAQ: AMZN), not Prime Video specifically.",
+    "note": "Prime Video does not have a standalone stock ticker; parent company Amazon.com, Inc. trades on NASDAQ under ticker AMZN.",
     "confidence": "not_applicable"
   },
   "revenue": {
     "value": null,
     "currency": "USD",
-    "period": "FY2024",
+    "period": "FY2025",
     "confidence": "not_found",
     "source": null
   },
   "operating_profit": {
     "value": null,
     "currency": "USD",
-    "period": "",
+    "period": "FY2025",
     "confidence": "not_found",
     "source": null
   },
@@ -34,17 +34,13 @@
     "confidence": "not_found"
   },
   "marketing_spend": {
-    "value_low": 4440000000,
-    "value_high": 6660000000,
+    "value_low": 2000000000,
+    "value_high": 4000000000,
     "currency": "USD",
-    "period": "FY2024",
+    "period": "FY2025",
     "tier": "3_modeled",
-    "derivation": "Calculated by applying a standard OTT industry marketing spend benchmark (10%-15% of revenue) to Amazon's subscription services segment revenue of $44.4 billion in 2024.",
-    "source": {
-      "name": "Barchart",
-      "url": "https://www.barchart.com/story/news/33155432/amzn-stock-forecast-1-way-for-amazon-to-boost-billions-in-new-revenue",
-      "date": "2026-01-01"
-    }
+    "derivation": "Modeled based on standard OTT marketing-to-revenue benchmarks of 10%-15% applied against estimated Prime Video global subscription and ad sales revenues.",
+    "source": null
   },
   "trend_history": {
     "stock": [
@@ -86,27 +82,19 @@
   },
   "business_updates": [
     {
-      "headline": "Prime Video ad-supported model reaches 315 million average viewers globally across 16 countries",
-      "date": "2026-01-01",
+      "headline": "Delivered strong viewership for inaugural season of NBA on Prime Video, with a peak of 6.5 million U.S. viewers for Game 7 of the Eastern Conference Semifinals.",
+      "date": "2026-07-29",
       "source": {
-        "name": "Quartz",
-        "url": "https://qz.com/can-amazon-s-advertising-revenue-momentum-drive-upside-for-amzn-stock"
+        "name": "Business Wire",
+        "url": "https://www.businesswire.com/news/home/20260729379483/en/Amazon.com-Announces-Second-Quarter-Results"
       }
     },
     {
-      "headline": "Amazon Ads expands Prime Video advertising to Belgium, Denmark, Norway, and Turkey in 2026",
-      "date": "2026-01-01",
+      "headline": "Debuted exclusive coverage of NBA SoFi Play-In Tournament, averaging nearly 2.8 million U.S. viewers across six exclusive broadcasts.",
+      "date": "2026-04-30",
       "source": {
-        "name": "Quartz",
-        "url": "https://qz.com/can-amazon-s-advertising-revenue-momentum-drive-upside-for-amzn-stock"
-      }
-    },
-    {
-      "headline": "TD Cowen raises Amazon price target to $315 on strong advertising and Prime Video growth projections",
-      "date": "2026-01-01",
-      "source": {
-        "name": "CoinCentral",
-        "url": "https://coincentral.com/amazon-amzn-stock-td-cowen-raises-price-target-to-315-on-ad-revenue-growth"
+        "name": "Amazon Investor Relations",
+        "url": "https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-First-Quarter-Results/default.aspx"
       }
     }
   ]

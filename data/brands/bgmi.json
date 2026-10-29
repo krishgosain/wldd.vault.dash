@@ -4,51 +4,47 @@
   "parent": "Krafton Inc.",
   "entity_type": "public_parent",
   "category": "Gaming",
-  "description": "BGMI (Battlegrounds Mobile India) is a mobile battle royale game developed and published by South Korean video game developer Krafton Inc.",
-  "last_refreshed": "2026-09-30T09:57:16.701Z",
+  "description": "Battlegrounds Mobile India (BGMI) is a popular battle royale mobile game developed and published by South Korean gaming publisher Krafton Inc. specifically for the Indian market.",
+  "last_refreshed": "2026-10-29T10:21:47.372Z",
   "stock": {
     "applicable": false,
-    "value": 195800,
+    "value": null,
     "currency": "KRW",
-    "ticker": "259960.KS",
-    "as_of": "2026-09-30",
-    "note": "Reflects parent company Krafton Inc., not the BGMI game title directly.",
+    "ticker": null,
+    "as_of": null,
+    "note": "Reflects a brand/game title owned by Krafton Inc. (259960.KS), which is listed on the Korea Exchange.",
     "confidence": "not_applicable"
   },
   "revenue": {
-    "value": 2660000000000,
+    "value": null,
     "currency": "KRW",
-    "period": "1H 2026",
-    "confidence": "disclosed",
-    "source": {
-      "name": "Stock Analysis",
-      "url": "https://stockanalysis.com/quote/krx/259960",
-      "date": "2026-09-30"
-    }
+    "period": "FY2024",
+    "confidence": "not_found",
+    "source": null
   },
   "operating_profit": {
-    "value": 411000000000,
+    "value": null,
     "currency": "KRW",
-    "period": "Q2 2026",
-    "confidence": "disclosed",
-    "source": {
-      "name": "Stockopedia / Krafton Announcement",
-      "url": "https://www.stockopedia.com/share-prices/krafton-KRX:259960",
-      "date": "2026-09-30"
-    }
+    "period": "FY2024",
+    "confidence": "not_found",
+    "source": null
   },
   "expenses": {
     "breakdown": [],
     "confidence": "not_found"
   },
   "marketing_spend": {
-    "value_low": 266000000000,
-    "value_high": 399000000000,
+    "value_low": 50000000000,
+    "value_high": 100000000000,
     "currency": "KRW",
-    "period": "1H 2026",
+    "period": "FY2024",
     "tier": "3_modeled",
-    "derivation": "Modeled at 10-15% of Krafton's 1H 2026 revenue of KRW 2.66 trillion, based on standard gaming sector user-acquisition and marketing spend benchmarks.",
-    "source": null
+    "derivation": "Modeled using a standard mobile gaming industry marketing-to-revenue ratio of 10-15% applied to BGMI's estimated revenue share within parent Krafton Inc.'s total 2024 revenue of 2.71 trillion KRW.",
+    "source": {
+      "name": "Koala Gains",
+      "url": "https://koalagains.com/stocks/KOSPI/259960",
+      "date": "2026-10-29"
+    }
   },
   "trend_history": {
     "stock": [
@@ -94,19 +90,27 @@
   },
   "business_updates": [
     {
-      "headline": "BGMI 4.3 update: Krafton collaborates with CSK & KKR for IPL '26; check team-themed skins and more",
-      "date": "2026-09-30",
+      "headline": "BGMI 4.3 update collaborates with CSK and KKR for Indian Premier League 2026 season",
+      "date": "2026-04-30",
       "source": {
         "name": "Stock Analysis",
         "url": "https://stockanalysis.com/quote/krx/259960"
       }
     },
     {
-      "headline": "Krafton expands incubator to take over user acquisition for startups in India",
-      "date": "2026-09-30",
+      "headline": "Krafton expands startup incubator program in India to boost local game ecosystem and user acquisition",
+      "date": "2026-04-30",
       "source": {
         "name": "Stock Analysis",
         "url": "https://stockanalysis.com/quote/krx/259960"
+      }
+    },
+    {
+      "headline": "Krafton achieves record Q3 2025 revenue driven by BGMI growth in India and PUBG ecosystem content",
+      "date": "2025-11-01",
+      "source": {
+        "name": "Flash Stock Sentinel",
+        "url": "https://flash.stocksentinel.ai/stock/259960.KS"
       }
     }
   ]

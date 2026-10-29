@@ -4,36 +4,36 @@
   "parent": "Hector Beverages Pvt Ltd",
   "entity_type": "india_private_registered",
   "category": "F&B",
-  "description": "Paper Boat is an Indian brand of traditional ethnic beverages and food products manufactured and marketed by Hector Beverages Pvt Ltd.",
-  "last_refreshed": "2026-09-30T09:57:35.128Z",
+  "description": "Paper Boat is a brand of traditional Indian beverages and foods produced and marketed by unlisted entity Hector Beverages Pvt Ltd.",
+  "last_refreshed": "2026-10-29T10:22:21.786Z",
   "stock": {
     "applicable": false,
     "value": null,
     "currency": "INR",
     "ticker": null,
     "as_of": null,
-    "note": "Unlisted private entity",
+    "note": "Hector Beverages Pvt Ltd is a privately held entity.",
     "confidence": "not_applicable"
   },
   "revenue": {
     "value": 7600000000,
     "currency": "INR",
-    "period": "FY2026",
+    "period": "FY26",
     "confidence": "disclosed",
     "source": {
-      "name": "Entrackr",
-      "url": "https://entrackr.com/fintrackr/paper-boat-parent-reports-rs-760-cr-revenue-in-fy26-profit-shrinks-96-12241163",
+      "name": "Zane Marketing",
+      "url": "https://zane.marketing/news/paper-boat-fy26-revenue-profit-decline",
       "date": "unknown"
     }
   },
   "operating_profit": {
-    "value": 20000000,
+    "value": 414000000,
     "currency": "INR",
-    "period": "FY2026",
+    "period": "FY26",
     "confidence": "disclosed",
     "source": {
-      "name": "Entrackr",
-      "url": "https://entrackr.com/fintrackr/paper-boat-parent-reports-rs-760-cr-revenue-in-fy26-profit-shrinks-96-12241163",
+      "name": "Zane Marketing",
+      "url": "https://zane.marketing/news/paper-boat-fy26-revenue-profit-decline",
       "date": "unknown"
     }
   },
@@ -45,17 +45,7 @@
         "confidence": "disclosed"
       },
       {
-        "label": "Other operating expenses (legal, professional, travelling, rent)",
-        "value": 830000000,
-        "confidence": "disclosed"
-      },
-      {
-        "label": "Selling and distribution expenses",
-        "value": 670000000,
-        "confidence": "disclosed"
-      },
-      {
-        "label": "Advertising and promotional expenses",
+        "label": "Advertising and promotion",
         "value": 280000000,
         "confidence": "disclosed"
       },
@@ -71,12 +61,12 @@
     "value_low": 280000000,
     "value_high": 280000000,
     "currency": "INR",
-    "period": "FY2026",
+    "period": "FY26",
     "tier": "1_disclosed",
-    "derivation": "Disclosed in annual financial statements sourced from the Registrar of Companies (RoC) as advertising and promotional expenses of Rs 28 crore for FY26.",
+    "derivation": "Directly reported as advertising and promotion expenditure of Rs 28 crore (representing 3.7% of operating revenue) in Hector Beverages' FY26 financial report.",
     "source": {
-      "name": "Entrackr",
-      "url": "https://entrackr.com/fintrackr/paper-boat-parent-reports-rs-760-cr-revenue-in-fy26-profit-shrinks-96-12241163",
+      "name": "Zane Marketing",
+      "url": "https://zane.marketing/news/paper-boat-fy26-revenue-profit-decline",
       "date": "unknown"
     }
   },
@@ -98,24 +88,36 @@
       {
         "period": "FY2026",
         "value": 7600000000
+      },
+      {
+        "period": "FY24",
+        "value": 5744800000
+      },
+      {
+        "period": "FY25",
+        "value": 6682800000
+      },
+      {
+        "period": "FY26",
+        "value": 7600000000
       }
     ]
   },
   "business_updates": [
     {
-      "headline": "Paper Boat parent reports Rs 760 Cr revenue in FY26; profit shrinks 96%",
+      "headline": "Hector Beverages reports FY26 revenue of Rs 760 crore as PAT falls to Rs 2 crore",
       "date": "unknown",
       "source": {
-        "name": "Entrackr",
-        "url": "https://entrackr.com/fintrackr/paper-boat-parent-reports-rs-760-cr-revenue-in-fy26-profit-shrinks-96-12241163"
+        "name": "Zane Marketing",
+        "url": "https://zane.marketing/news/paper-boat-fy26-revenue-profit-decline"
       }
     },
     {
-      "headline": "Paper Boat Grew Revenue 14% in FY26 — But Its Profit Nearly Vanished",
+      "headline": "Traded goods expand to 75% of operating revenue as company shifts towards contract manufacturing",
       "date": "unknown",
       "source": {
-        "name": "StartupUnplugged",
-        "url": "https://startupunplugged.com/news/paper-boat-grew-revenue-14-in-fy26-but-its-profit-nearly-vanished"
+        "name": "Zane Marketing",
+        "url": "https://zane.marketing/news/paper-boat-fy26-revenue-profit-decline"
       }
     }
   ]

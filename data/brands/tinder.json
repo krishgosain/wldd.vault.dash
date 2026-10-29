@@ -4,32 +4,32 @@
   "parent": "Match Group",
   "entity_type": "public_parent",
   "category": "Social / Dating",
-  "description": "Tinder is a global online dating application operated by its publicly traded parent company, Match Group, Inc.",
-  "last_refreshed": "2026-09-16T08:49:34.114Z",
+  "description": "Tinder is a global online dating application operating as a flagship product and brand under its publicly traded parent company, Match Group, Inc.",
+  "last_refreshed": "2026-10-29T10:19:11.609Z",
   "stock": {
     "applicable": false,
-    "value": 42.39,
+    "value": 45.21,
     "currency": "USD",
-    "ticker": "MTCH",
-    "as_of": "2026-09-12",
-    "note": "Reflects parent company Match Group, Inc. (MTCH), as Tinder is not independently listed.",
+    "ticker": "NASDAQ:MTCH",
+    "as_of": "2026-10-26",
+    "note": "Reflects parent company Match Group, Inc., not Tinder directly.",
     "confidence": "not_applicable"
   },
   "revenue": {
-    "value": 457000000,
+    "value": 863934000,
     "currency": "USD",
-    "period": "Q2 2026",
+    "period": "Q1 2026",
     "confidence": "disclosed",
     "source": {
-      "name": "Match Group Earnings Release",
-      "url": "https://www.perplexity.ai/finance/MTCH/earnings",
-      "date": "2026-08-04"
+      "name": "PRNewswire",
+      "url": "https://www.prnewswire.com/news-releases/match-group-announces-first-quarter-results-302763209.html",
+      "date": "2026-05-01"
     }
   },
   "operating_profit": {
     "value": null,
     "currency": "USD",
-    "period": "Q2 2026",
+    "period": "Q1 2026",
     "confidence": "not_found",
     "source": null
   },
@@ -54,21 +54,31 @@
         "label": "General and administrative expense",
         "value": 89128000,
         "confidence": "disclosed"
+      },
+      {
+        "label": "Impairment and amortization of intangibles",
+        "value": 33767000,
+        "confidence": "disclosed"
+      },
+      {
+        "label": "Depreciation",
+        "value": 14132000,
+        "confidence": "disclosed"
       }
     ],
     "confidence": "disclosed"
   },
   "marketing_spend": {
-    "value_low": 625541000,
-    "value_high": 625541000,
+    "value_low": 163030000,
+    "value_high": 163030000,
     "currency": "USD",
-    "period": "FY2025",
+    "period": "Q1 2026",
     "tier": "1_disclosed",
-    "derivation": "Disclosed selling and marketing expense for parent company Match Group, Inc. in its full-year financial disclosures.",
+    "derivation": "Disclosed selling and marketing expense for parent company Match Group, Inc. in Q1 2026 financial results statement.",
     "source": {
-      "name": "Match Group Announces Fourth Quarter and Full-Year Results",
-      "url": "https://ir.mtch.com/investor-relations/news-events/news-events/news-details/2026/Match-Group-Announces-Fourth-Quarter-and-Full-Year-Results",
-      "date": "2026-02-01"
+      "name": "PRNewswire",
+      "url": "https://www.prnewswire.com/news-releases/match-group-announces-first-quarter-results-302763209.html",
+      "date": "2026-05-01"
     }
   },
   "trend_history": {
@@ -80,9 +90,33 @@
       {
         "date": "2026-09-12",
         "value": 42.39
+      },
+      {
+        "date": "2026-10-26",
+        "value": 45.21
+      },
+      {
+        "date": "2026-10-28",
+        "value": 42.06
       }
     ],
     "revenue": [
+      {
+        "period": "2022",
+        "value": 3188843000
+      },
+      {
+        "period": "2023",
+        "value": 3364504000
+      },
+      {
+        "period": "2024",
+        "value": 3479373000
+      },
+      {
+        "period": "2025",
+        "value": 3487197000
+      },
       {
         "period": "Q1 2025",
         "value": 831178000
@@ -103,18 +137,18 @@
   },
   "business_updates": [
     {
-      "headline": "Tinder direct revenue reaches $457 million in Q2 2026 as parent Match Group posts $853 million total revenue",
-      "date": "2026-08-04",
+      "headline": "Match Group Advances 2% amid Bumble Private Acquisition Announcement",
+      "date": "2026-10-13",
       "source": {
-        "name": "Match Group Earnings Release",
-        "url": "https://www.perplexity.ai/finance/MTCH/earnings"
+        "name": "24/7 Wall Street",
+        "url": "https://www.heygotrade.com/en/us-stock/mtch"
       }
     },
     {
-      "headline": "Match Group reports Q1 2026 revenue of $863.9 million with $194 million operating cash flow",
+      "headline": "Match Group Announces First Quarter 2026 Results",
       "date": "2026-05-01",
       "source": {
-        "name": "PR Newswire - Match Group First Quarter Results",
+        "name": "PRNewswire",
         "url": "https://www.prnewswire.com/news-releases/match-group-announces-first-quarter-results-302763209.html"
       }
     }

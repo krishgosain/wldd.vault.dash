@@ -580,6 +580,83 @@
       "tavily_credits": 1,
       "gemini_requests": 1,
       "timestamp": "2026-10-25T08:46:08.788Z"
+    },
+    {
+      "source": "daily_refresh",
+      "brand": "Tinder",
+      "tavily_credits": 1,
+      "gemini_requests": 1,
+      "timestamp": "2026-10-29T10:19:11.614Z"
+    },
+    {
+      "source": "daily_refresh",
+      "brand": "District",
+      "tavily_credits": 1,
+      "gemini_requests": 1,
+      "timestamp": "2026-10-29T10:19:25.691Z"
+    },
+    {
+      "source": "daily_refresh",
+      "brand": "Audible",
+      "tavily_credits": 1,
+      "gemini_requests": 1,
+      "timestamp": "2026-10-29T10:19:41.362Z"
+    },
+    {
+      "source": "daily_refresh",
+      "brand": "JioHotstar",
+      "tavily_credits": 1,
+      "gemini_requests": 1,
+      "timestamp": "2026-10-29T10:20:06.094Z"
+    },
+    {
+      "source": "daily_refresh",
+      "brand": "Amazon Shopping",
+      "tavily_credits": 1,
+      "gemini_requests": 1,
+      "timestamp": "2026-10-29T10:20:46.169Z"
+    },
+    {
+      "source": "daily_refresh",
+      "brand": "Amazon Now",
+      "tavily_credits": 1,
+      "gemini_requests": 1,
+      "timestamp": "2026-10-29T10:21:05.295Z"
+    },
+    {
+      "source": "daily_refresh",
+      "brand": "Prime Video",
+      "tavily_credits": 1,
+      "gemini_requests": 1,
+      "timestamp": "2026-10-29T10:21:20.954Z"
+    },
+    {
+      "source": "daily_refresh",
+      "brand": "BGMI",
+      "tavily_credits": 1,
+      "gemini_requests": 1,
+      "timestamp": "2026-10-29T10:21:47.373Z"
+    },
+    {
+      "source": "daily_refresh",
+      "brand": "Paper Boat",
+      "tavily_credits": 1,
+      "gemini_requests": 1,
+      "timestamp": "2026-10-29T10:22:21.787Z"
+    },
+    {
+      "source": "daily_refresh",
+      "brand": "Bajaj EV",
+      "tavily_credits": 1,
+      "gemini_requests": 1,
+      "timestamp": "2026-10-29T10:22:43.609Z"
+    },
+    {
+      "source": "daily_refresh",
+      "brand": "Agilitas",
+      "tavily_credits": 1,
+      "gemini_requests": 1,
+      "timestamp": "2026-10-29T10:23:11.177Z"
     }
   ]
 }

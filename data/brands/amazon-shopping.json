@@ -1,56 +1,84 @@
 {
   "name": "Amazon Shopping",
   "slug": "amazon-shopping",
-  "parent": "Amazon",
+  "parent": "Amazon.com, Inc.",
   "entity_type": "public_parent",
   "category": "E-commerce",
-  "description": "Amazon Shopping is the e-commerce retail platform operated by global technology and retail parent company Amazon.com, Inc.",
-  "last_refreshed": "2026-09-16T08:51:04.181Z",
+  "description": "Amazon Shopping is the flagship online retail marketplace platform owned and operated by parent company Amazon.com, Inc.",
+  "last_refreshed": "2026-10-29T10:20:46.169Z",
   "stock": {
     "applicable": false,
-    "value": 243.18,
+    "value": 254.6,
     "currency": "USD",
     "ticker": "AMZN",
-    "as_of": "2026-04-01",
-    "note": "Reflects parent company Amazon.com, Inc. (NASDAQ: AMZN), not the Amazon Shopping brand specifically.",
+    "as_of": "2026-10-28",
+    "note": "Reflects parent company Amazon.com, Inc., not this brand specifically",
     "confidence": "not_applicable"
   },
   "revenue": {
-    "value": 717000000000,
+    "value": 716924000000,
     "currency": "USD",
     "period": "FY2025",
     "confidence": "disclosed",
     "source": {
-      "name": "MEXC Blog",
-      "url": "https://blog.mexc.com/finance/amazon-stock-long-term-investment-analysis",
-      "date": "2026-01-01"
+      "name": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AMZN",
+      "date": "2026-10-28"
     }
   },
   "operating_profit": {
-    "value": null,
+    "value": 77670000000,
     "currency": "USD",
     "period": "FY2025",
-    "confidence": "not_found",
-    "source": null
+    "confidence": "disclosed",
+    "source": {
+      "name": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AMZN",
+      "date": "2026-10-28"
+    }
   },
   "expenses": {
     "breakdown": [
       {
-        "label": "Capital Expenditures (AI, robotics, custom chips)",
-        "value": 200000000000,
+        "label": "Cost of sales",
+        "value": 87463000000,
+        "confidence": "disclosed"
+      },
+      {
+        "label": "Fulfillment",
+        "value": 27289000000,
+        "confidence": "disclosed"
+      },
+      {
+        "label": "Technology and infrastructure",
+        "value": 29567000000,
+        "confidence": "disclosed"
+      },
+      {
+        "label": "Sales and marketing",
+        "value": 10314000000,
+        "confidence": "disclosed"
+      },
+      {
+        "label": "General and administrative",
+        "value": 2587000000,
         "confidence": "disclosed"
       }
     ],
-    "confidence": "press_estimate"
+    "confidence": "disclosed"
   },
   "marketing_spend": {
-    "value_low": 21510000000,
-    "value_high": 35850000000,
+    "value_low": 10314000000,
+    "value_high": 10314000000,
     "currency": "USD",
-    "period": "FY2025",
-    "tier": "3_modeled",
-    "derivation": "Modeled using a standard 3–5% marketing-to-revenue benchmark for large-scale e-commerce tech platforms applied to Amazon's FY2025 revenue of $717 billion.",
-    "source": null
+    "period": "Q1 2026",
+    "tier": "1_disclosed",
+    "derivation": "Disclosed Sales and Marketing expense line item of $10,314 million in Amazon's Q1 2026 financial report.",
+    "source": {
+      "name": "Amazon IR",
+      "url": "https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-First-Quarter-Results/default.aspx",
+      "date": "2026-04-30"
+    }
   },
   "trend_history": {
     "stock": [
@@ -65,16 +93,28 @@
       {
         "date": "2026-08-14",
         "value": 265.13
+      },
+      {
+        "date": "2026-10-28",
+        "value": 254.6
       }
     ],
     "revenue": [
       {
+        "period": "FY2022",
+        "value": 513983000000
+      },
+      {
+        "period": "FY2023",
+        "value": 574785000000
+      },
+      {
         "period": "FY2024",
-        "value": 253270000000
+        "value": 637959000000
       },
       {
         "period": "FY2025",
-        "value": 717000000000
+        "value": 716924000000
       },
       {
         "period": "Q1 2026",
@@ -100,19 +140,19 @@
   },
   "business_updates": [
     {
-      "headline": "Amazon reaches approximately $717 billion in annual revenue for 2025, up 12% year-over-year",
-      "date": "2026-01-01",
+      "headline": "Amazon launches new Bee 'personal AI' devices that listen to conversations",
+      "date": "2026-10-15",
       "source": {
-        "name": "MEXC Blog",
-        "url": "https://blog.mexc.com/finance/amazon-stock-long-term-investment-analysis"
+        "name": "CNBC",
+        "url": "https://www.cnbc.com/quotes/AMZN"
       }
     },
     {
-      "headline": "Amazon plans $200B CapEx investments focusing on AI robotics and custom chips to lower fulfillment and shipping costs",
-      "date": "2026-01-01",
+      "headline": "AWS, Anthropic race to deploy army of specialized engineers to prove AI pays off",
+      "date": "2026-10-15",
       "source": {
-        "name": "MEXC Blog",
-        "url": "https://blog.mexc.com/finance/amazon-stock-long-term-investment-analysis"
+        "name": "CNBC",
+        "url": "https://www.cnbc.com/quotes/AMZN"
       }
     }
   ]

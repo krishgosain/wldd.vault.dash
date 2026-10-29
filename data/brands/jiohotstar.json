@@ -4,37 +4,37 @@
   "parent": "JioStar",
   "entity_type": "india_private_registered",
   "category": "OTT",
-  "description": "JioHotstar is a Indian digital streaming and video-on-demand platform operated by JioStar, a joint venture between Reliance Industries and The Walt Disney Company.",
-  "last_refreshed": "2026-09-16T08:50:39.168Z",
+  "description": "JioHotstar is a major Indian digital streaming platform operated by JioStar India Private Limited, a joint venture between Reliance Industries (63.16%) and The Walt Disney Company (36.84%).",
+  "last_refreshed": "2026-10-29T10:20:06.093Z",
   "stock": {
     "applicable": false,
     "value": null,
     "currency": "INR",
     "ticker": null,
     "as_of": null,
-    "note": "JioHotstar is an OTT platform owned by JioStar, a joint venture consolidated via Reliance Industries (RELIANCE.NS) and equity-accounted by The Walt Disney Company (DIS).",
+    "note": "Not applicable; JioHotstar is operated by JioStar India Private Limited, an unlisted private joint venture.",
     "confidence": "not_applicable"
   },
   "revenue": {
     "value": 310480000000,
     "currency": "INR",
-    "period": "FY26",
+    "period": "FY2026",
     "confidence": "disclosed",
     "source": {
-      "name": "The Economic Times",
-      "url": "https://economictimes.indiatimes.com/industry/media/entertainment/jiostar-losses-weigh-less-on-disney-as-india-jv-performance-improves/articleshow/131296128.cms",
-      "date": "2026-05-01"
+      "name": "BW Marketing World",
+      "url": "https://www.bwmarketingworld.com/article/jiostar-posts-3-210-cr-profit-as-disney-s-india-losses-narrow-38-608124",
+      "date": "2026-05-25"
     }
   },
   "operating_profit": {
     "value": 48850000000,
     "currency": "INR",
-    "period": "FY26",
+    "period": "FY2026",
     "confidence": "disclosed",
     "source": {
-      "name": "The Economic Times",
-      "url": "https://economictimes.indiatimes.com/industry/media/entertainment/jiostar-losses-weigh-less-on-disney-as-india-jv-performance-improves/articleshow/131296128.cms",
-      "date": "2026-05-01"
+      "name": "BW Marketing World",
+      "url": "https://www.bwmarketingworld.com/article/jiostar-posts-3-210-cr-profit-as-disney-s-india-losses-narrow-38-608124",
+      "date": "2026-05-25"
     }
   },
   "expenses": {
@@ -42,16 +42,16 @@
     "confidence": "not_found"
   },
   "marketing_spend": {
-    "value_low": 46572000000,
-    "value_high": 62096000000,
+    "value_low": 24838400000,
+    "value_high": 37257600000,
     "currency": "INR",
-    "period": "FY26",
+    "period": "FY2026",
     "tier": "3_modeled",
-    "derivation": "Estimated by applying an OTT industry-standard marketing-to-revenue benchmark ratio of 15% to 20% against JioStar's disclosed FY26 operating revenue of Rs 31,048 crore.",
+    "derivation": "Estimated at 8%–12% of JioStar's reported FY2026 operating revenue of ₹31,048 crore, based on typical advertising and promotional reinvestment benchmarks for major OTT and media networks in India.",
     "source": {
-      "name": "The Economic Times",
-      "url": "https://economictimes.indiatimes.com/industry/media/entertainment/jiostar-losses-weigh-less-on-disney-as-india-jv-performance-improves/articleshow/131296128.cms",
-      "date": "2026-05-01"
+      "name": "BW Marketing World",
+      "url": "https://www.bwmarketingworld.com/article/jiostar-posts-3-210-cr-profit-as-disney-s-india-losses-narrow-38-608124",
+      "date": "2026-05-25"
     }
   },
   "trend_history": {
@@ -81,27 +81,27 @@
   },
   "business_updates": [
     {
-      "headline": "JioStar reports Rs 3,210 crore profit in FY26 as JioHotstar hits 1 billion downloads",
-      "date": "2026-05-01",
+      "headline": "JioStar posts ₹3,210 crore profit and ₹31,048 crore operating revenue for FY2026",
+      "date": "2026-05-25",
       "source": {
-        "name": "The Economic Times",
-        "url": "https://economictimes.indiatimes.com/industry/media/entertainment/jiostar-losses-weigh-less-on-disney-as-india-jv-performance-improves/articleshow/131296128.cms"
+        "name": "BW Marketing World",
+        "url": "https://www.bwmarketingworld.com/article/jiostar-posts-3-210-cr-profit-as-disney-s-india-losses-narrow-38-608124"
       }
     },
     {
-      "headline": "Reliance merges Star Television Productions with JioStar to create combined media entity",
-      "date": "2025-12-01",
+      "headline": "JioHotstar plans $444 million investment in South Indian regional content over 5 years",
+      "date": "2025-12-09",
       "source": {
-        "name": "The Statesman",
-        "url": "https://www.thestatesman.com/business/reliance-merges-star-tv-with-its-subsidiary-to-form-jiostar-india-1503520580.html/amp"
+        "name": "Reuters / Yahoo Finance",
+        "url": "https://finance.yahoo.com/news/reliance-disneys-jiohotstar-invest-444-133111191.html"
       }
     },
     {
-      "headline": "Reliance-Disney JV officially launches unified JioHotstar platform integrating JioCinema and Disney+ Hotstar",
-      "date": "2025-02-01",
+      "headline": "JioHotstar official launch integrates JioCinema and Disney+ Hotstar with over 500 million user base",
+      "date": "2025-02-14",
       "source": {
-        "name": "Outlook Business",
-        "url": "https://www.outlookbusiness.com/corporate/reliance-disney-jv-launches-jiohotstar-what-it-means-for-jiocinema-hotstar-subscribers"
+        "name": "Baiduwiki",
+        "url": "https://baike.baidu.com/en/item/JioStar/6987364"
       }
     }
   ]
