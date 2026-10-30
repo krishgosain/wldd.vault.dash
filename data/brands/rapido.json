@@ -4,70 +4,55 @@
   "parent": "Roppen Transportation Services Pvt Ltd",
   "entity_type": "india_private_registered",
   "category": "Ride-hailing",
-  "description": "Rapido is an Indian online ride-hailing and bike taxi aggregator service operated by Roppen Transportation Services Pvt Ltd.",
-  "last_refreshed": "2026-10-11T10:15:43.009Z",
+  "description": "Rapido is an Indian ride-hailing platform providing bike taxi, auto-rickshaw, and delivery services, operated by Roppen Transportation Services Pvt Ltd.",
+  "last_refreshed": "2026-10-30T10:21:46.681Z",
   "stock": {
     "applicable": false,
     "value": null,
     "currency": "INR",
     "ticker": null,
     "as_of": null,
-    "note": "Private unlisted entity; traded on unlisted markets under Roppen Transportation Services Pvt Ltd.",
+    "note": "Privately held company; unlisted shares traded on OTC markets.",
     "confidence": "not_applicable"
   },
   "revenue": {
-    "value": 9340000000,
-    "currency": "INR",
-    "period": "FY2025",
-    "confidence": "disclosed",
+    "value": 112000000,
+    "currency": "USD",
+    "period": "May 2026",
+    "confidence": "press_estimate",
     "source": {
-      "name": "Drudhh",
-      "url": "https://drudhh.com/rapido-deep-analysis",
-      "date": "2026"
+      "name": "Multiples",
+      "url": "https://multiples.vc/private-comps/rapido",
+      "date": "2026-05-01"
     }
   },
   "operating_profit": {
-    "value": -2580000000,
-    "currency": "INR",
-    "period": "FY2025",
-    "confidence": "disclosed",
-    "source": {
-      "name": "Moneycontrol",
-      "url": "https://www.moneycontrol.com/news/business/startup/rapido-crosses-rs-1-000-crore-income-in-fy25-pares-losses-to-rs-258-crore-13783539.html",
-      "date": "2026"
-    }
+    "value": null,
+    "currency": "USD",
+    "period": "",
+    "confidence": "not_found",
+    "source": null
   },
   "expenses": {
-    "breakdown": [
-      {
-        "label": "Marketing Expenses",
-        "value": 852300000,
-        "confidence": "disclosed"
-      },
-      {
-        "label": "Employee Expenses",
-        "value": 437700000,
-        "confidence": "disclosed"
-      }
-    ],
-    "confidence": "disclosed"
+    "breakdown": [],
+    "confidence": "not_found"
   },
   "marketing_spend": {
-    "value_low": 852300000,
-    "value_high": 852300000,
-    "currency": "INR",
-    "period": "FY2025",
-    "tier": "1_disclosed",
-    "derivation": "Disclosed marketing expenses of ₹85.23 crore (8,523 lakhs) in Roppen Transportation Services Pvt Ltd's financial profile for FY 2024-25.",
-    "source": {
-      "name": "Tracxn",
-      "url": "https://tracxn.com/d/legal-entities/india/roppen-transportation-services-private-limited/__HUZ2wakxPnhZkeEpflU9cNcXb0lI5IllIrVKyQCIrm4",
-      "date": "2026"
-    }
+    "value_low": 16800000,
+    "value_high": 28000000,
+    "currency": "USD",
+    "period": "2026",
+    "tier": "3_modeled",
+    "derivation": "Estimated using a standard 15-25% marketing-to-revenue ratio typical for high-growth Indian ride-hailing platforms applied to Rapido's reported $112M revenue.",
+    "source": null
   },
   "trend_history": {
     "stock": [],
     "revenue": [
+      {
+        "period": "Aug 2019",
+        "value": 100000000
+      },
       {
         "period": "FY2023",
         "value": 4430000000
@@ -91,32 +76,28 @@
       {
         "period": "FY25",
         "value": 934.44
+      },
+      {
+        "period": "May 2026",
+        "value": 112000000
       }
     ]
   },
   "business_updates": [
     {
-      "headline": "Rapido raised $240 million led by Prosus in $730 million primary and secondary deal, valuing company at $3 billion",
-      "date": "2026-05",
+      "headline": "RTO files FIR against Roppen Transportation Services over unauthorized bike taxi rides in Pune",
+      "date": "2026-10-16",
       "source": {
-        "name": "Drudhh",
-        "url": "https://drudhh.com/rapido-deep-analysis"
+        "name": "CB Insights",
+        "url": "https://www.cbinsights.com/company/rapido"
       }
     },
     {
-      "headline": "Consumer watchdog slaps ₹10 lakh fine on Rapido for misleading ads and unfair practices",
-      "date": "2026-09-15",
+      "headline": "Swiggy clears divestment of its stake in Rapido operator Roppen Transportation for nearly Rs2.4bn",
+      "date": "2026-09-01",
       "source": {
-        "name": "The Hindu",
-        "url": "https://siliconvalleyinvestclub.com/companies/rapido"
-      }
-    },
-    {
-      "headline": "Rapido's Ownly eyes six-city expansion as it doubles down on zero-commission food delivery",
-      "date": "2026-08-07",
-      "source": {
-        "name": "Business Line",
-        "url": "https://siliconvalleyinvestclub.com/companies/rapido"
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/news/rapido-magicpin-target-zomato-swiggy-093653916.html"
       }
     }
   ]

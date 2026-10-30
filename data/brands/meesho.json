@@ -4,55 +4,43 @@
   "parent": null,
   "entity_type": "public_standalone",
   "category": "E-commerce",
-  "description": "Meesho is an Indian online marketplace and social commerce platform facilitating zero-commission e-commerce across India.",
-  "last_refreshed": "2026-10-25T08:39:58.583Z",
+  "description": "Meesho Limited is an Indian e-commerce marketplace platform providing social commerce and direct retail services.",
+  "last_refreshed": "2026-10-30T10:25:38.113Z",
   "stock": {
     "applicable": true,
-    "value": 220.11,
+    "value": 223.01,
     "currency": "INR",
     "ticker": "MEESHO.NS",
-    "as_of": "2026-10-25",
-    "note": "Reflects Meesho Limited stock price on NSE",
+    "as_of": "2026-10-30",
+    "note": "Reflects standalone share price for Meesho Limited on the NSE.",
     "confidence": "disclosed"
   },
   "revenue": {
-    "value": 37130000000,
+    "value": null,
     "currency": "INR",
-    "period": "Q1 FY27",
-    "confidence": "disclosed",
-    "source": {
-      "name": "Yahoo Finance",
-      "url": "https://finance.yahoo.com/quote/MEESHO.NS",
-      "date": "2026-10-25"
-    }
+    "period": "FY2026",
+    "confidence": "not_found",
+    "source": null
   },
   "operating_profit": {
-    "value": -1330000000,
+    "value": null,
     "currency": "INR",
-    "period": "Q1 FY27",
-    "confidence": "disclosed",
-    "source": {
-      "name": "Yahoo Finance",
-      "url": "https://finance.yahoo.com/quote/MEESHO.NS",
-      "date": "2026-10-25"
-    }
+    "period": "FY2026",
+    "confidence": "not_found",
+    "source": null
   },
   "expenses": {
     "breakdown": [],
     "confidence": "not_found"
   },
   "marketing_spend": {
-    "value_low": 5570000000,
-    "value_high": 9280000000,
+    "value_low": 3000000000,
+    "value_high": 6000000000,
     "currency": "INR",
-    "period": "Q1 FY27",
-    "tier": "3_modeled",
-    "derivation": "Modeled for Q1 FY27 by applying a standard category marketing spend ratio of 15% to 25% for Indian e-commerce platforms to Meesho's reported Q1 FY27 revenue of 37.13 billion INR.",
-    "source": {
-      "name": "Yahoo Finance",
-      "url": "https://finance.yahoo.com/quote/MEESHO.NS",
-      "date": "2026-10-25"
-    }
+    "period": "FY2025",
+    "tier": "4_triangulated",
+    "derivation": "Estimated based on Indian e-commerce industry ad spend benchmarks and category visibility share relative to key competitors due to lack of explicit disclosures in context.",
+    "source": null
   },
   "trend_history": {
     "stock": [
@@ -63,6 +51,10 @@
       {
         "date": "2026-10-25",
         "value": 220.11
+      },
+      {
+        "date": "2026-10-30",
+        "value": 223.01
       }
     ],
     "revenue": [
@@ -82,27 +74,11 @@
   },
   "business_updates": [
     {
-      "headline": "India’s Meesho to acquire B2B commerce platform Kirana Club",
-      "date": "2026-06-25",
-      "source": {
-        "name": "Retail Insight Network",
-        "url": "https://finance.yahoo.com/quote/MEESHO.NS/latest-news"
-      }
-    },
-    {
-      "headline": "Indian e-commerce firm Meesho's quarterly loss spikes as it ramps up marketing",
-      "date": "2026-02-25",
+      "headline": "E-commerce firm Meesho notches $8.8 billion valuation in stock debut after $604 million IPO",
+      "date": "2025-12-10",
       "source": {
         "name": "Reuters",
-        "url": "https://finance.yahoo.com/quote/MEESHO.NS/news"
-      }
-    },
-    {
-      "headline": "Meesho went public through an initial public offering raising $603 million",
-      "date": "2025-12-05",
-      "source": {
-        "name": "Wikipedia",
-        "url": "https://en.wikipedia.org/wiki/Meesho"
+        "url": "https://www.reuters.com/world/india/indias-meesho-debuts-46-premium-after-604-million-ipo-2025-12-10"
       }
     }
   ]

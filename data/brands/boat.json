@@ -4,37 +4,37 @@
   "parent": "Imagine Marketing Ltd.",
   "entity_type": "india_private_registered",
   "category": "Consumer Electronics",
-  "description": "boAt is an Indian consumer electronics brand specializing in audio gear and smartwatches, owned by Imagine Marketing Ltd.",
-  "last_refreshed": "2026-10-11T10:19:03.671Z",
+  "description": "boAt is an Indian consumer electronics and audio brand operated by Imagine Marketing Ltd.",
+  "last_refreshed": "2026-10-30T10:24:30.550Z",
   "stock": {
     "applicable": false,
     "value": null,
     "currency": "INR",
     "ticker": null,
     "as_of": null,
-    "note": "Unlisted private company",
+    "note": "Imagine Marketing Ltd. is a privately held Indian entity preparing for an IPO.",
     "confidence": "not_applicable"
   },
   "revenue": {
-    "value": 2873,
+    "value": 30970000000,
     "currency": "INR",
-    "period": "FY2022",
+    "period": "FY2025",
     "confidence": "disclosed",
     "source": {
-      "name": "unlistedhub.in",
-      "url": "https://unlistedhub.in/unlisted-stock/boat-shares-since-growth-insights",
-      "date": ""
+      "name": "Planify",
+      "url": "https://www.facebook.com/planify.in/posts/boat-%F0%9D%97%A3%F0%9D%97%AE%F0%9D%97%BF%F0%9D%97%B2%F0%9D%97%BB%F0%9D%98%81-%F0%9D%97%9C%F0%9D%97%BA%F0%9D%97%AE%F0%9D%97%B4%F0%9D%97%B6%F0%9D%97%BB%F0%9D%97%B2-%F0%9D%97%A0%F0%9D%97%AE%F0%9D%97%BF%F0%9D%97%B8%F0%9D%97%B2%F0%9D%98%81%F0%9D%97%B6%F0%9D%97%BB%F0%9D%97%B4-%F0%9D%98%86%F0%9D%97%B2%F0%9D%98%80-%F0%9D%9F%AE%F0%9D%9F%AC%F0%9D%9F%AC%F0%9D%9F%AC-%F0%9D%97%96%F0%9D%97%BF-%F0%9D%97%9C%F0%9D%97%A3%F0%9D%97%A2-%F0%9D%97%AE-%F0%9D%98%83%F0%9D%97%AE%F0%9D%97%B9%F0%9D%98%82%F0%9D%97%AE%F0%9D%98%81%F0%9D%97%B6%F0%9D%97%BC%F0%9D%97%BB-%F0%9D%97%BC%F0%9D%97%B3-%F0%9D%9F%AD%F0%9D%9F%B1-%F0%9D%9F%AE%F0%9D%97%AF%F0%9D%97%BB-%F0%9D%9F%AD%F0%9D%9F%AF%F0%9D%97%B8-%F0%9D%97%96%F0%9D%97%BF%F0%9D%98%80-%F0%9D%9F%AD%F0%9D%9F%B4%F0%9D%97%B8/1203721941770463",
+      "date": "unknown"
     }
   },
   "operating_profit": {
-    "value": 84.5,
+    "value": 610000000,
     "currency": "INR",
-    "period": "FY2026",
+    "period": "FY2025",
     "confidence": "disclosed",
     "source": {
-      "name": "Business Standard",
-      "url": "https://www.business-standard.com/companies/quarterly-results/boat-fy26-net-profit-rises-38-to-84-5-crore-wearables-turn-profitable-126082600278_1.html",
-      "date": ""
+      "name": "Planify",
+      "url": "https://www.facebook.com/planify.in/posts/boat-%F0%9D%97%A3%F0%9D%97%AE%F0%9D%97%BF%F0%9D%97%B2%F0%9D%97%BB%F0%9D%98%81-%F0%9D%97%9C%F0%9D%97%BA%F0%9D%97%AE%F0%9D%97%B4%F0%9D%97%B6%F0%9D%97%BB%F0%9D%97%B2-%F0%9D%97%A0%F0%9D%97%AE%F0%9D%97%BF%F0%9D%97%B8%F0%9D%97%B2%F0%9D%98%81%F0%9D%97%B6%F0%9D%97%BB%F0%9D%97%B4-%F0%9D%98%86%F0%9D%97%B2%F0%9D%98%80-%F0%9D%9F%AE%F0%9D%9F%AC%F0%9D%9F%AC%F0%9D%9F%AC-%F0%9D%97%96%F0%9D%97%BF-%F0%9D%97%9C%F0%9D%97%A3%F0%9D%97%A2-%F0%9D%97%AE-%F0%9D%98%83%F0%9D%97%AE%F0%9D%97%B9%F0%9D%98%82%F0%9D%97%AE%F0%9D%98%81%F0%9D%97%B6%F0%9D%97%BC%F0%9D%97%BB-%F0%9D%97%BC%F0%9D%97%B3-%F0%9D%9F%AD%F0%9D%9F%B1-%F0%9D%9F%AE%F0%9D%97%AF%F0%9D%97%BB-%F0%9D%9F%AD%F0%9D%9F%AF%F0%9D%97%B8-%F0%9D%97%96%F0%9D%97%BF%F0%9D%98%80-%F0%9D%9F%AD%F0%9D%9F%B4%F0%9D%97%B8/1203721941770463",
+      "date": "unknown"
     }
   },
   "expenses": {
@@ -42,13 +42,17 @@
     "confidence": "not_found"
   },
   "marketing_spend": {
-    "value_low": 230,
-    "value_high": 345,
+    "value_low": 2477600000,
+    "value_high": 3716400000,
     "currency": "INR",
-    "period": "FY2022",
+    "period": "FY2025",
     "tier": "3_modeled",
-    "derivation": "Modeled at 8% to 12% of FY2022 revenue (₹2,873 crore), based on standard D2C and consumer electronics marketing-to-revenue ratios in India.",
-    "source": null
+    "derivation": "Calculated by applying a standard consumer tech D2C brand marketing ratio of 8% to 12% against boAt's disclosed FY25 revenue of ₹3,097 crore.",
+    "source": {
+      "name": "Planify",
+      "url": "https://www.facebook.com/planify.in/posts/boat-%F0%9D%97%A3%F0%9D%97%AE%F0%9D%97%BF%F0%9D%97%B2%F0%9D%97%BB%F0%9D%98%81-%F0%9D%97%9C%F0%9D%97%BA%F0%9D%97%AE%F0%9D%97%B4%F0%9D%97%B6%F0%9D%97%BB%F0%9D%97%B2-%F0%9D%97%A0%F0%9D%97%AE%F0%9D%97%BF%F0%9D%97%B8%F0%9D%97%B2%F0%9D%98%81%F0%9D%97%B6%F0%9D%97%BB%F0%9D%97%B4-%F0%9D%98%86%F0%9D%97%B2%F0%9D%98%80-%F0%9D%9F%AE%F0%9D%9F%AC%F0%9D%9F%AC%F0%9D%9F%AC-%F0%9D%97%96%F0%9D%97%BF-%F0%9D%97%9C%F0%9D%97%A3%F0%9D%97%A2-%F0%9D%97%AE-%F0%9D%98%83%F0%9D%97%AE%F0%9D%97%B9%F0%9D%98%82%F0%9D%97%AE%F0%9D%98%81%F0%9D%97%B6%F0%9D%97%BC%F0%9D%97%BB-%F0%9D%97%BC%F0%9D%97%B3-%F0%9D%9F%AD%F0%9D%9F%B1-%F0%9D%9F%AE%F0%9D%97%AF%F0%9D%97%BB-%F0%9D%9F%AD%F0%9D%9F%AF%F0%9D%97%B8-%F0%9D%97%96%F0%9D%97%BF%F0%9D%98%80-%F0%9D%9F%AD%F0%9D%9F%B4%F0%9D%97%B8/1203721941770463",
+      "date": "unknown"
+    }
   },
   "trend_history": {
     "stock": [],
@@ -58,26 +62,30 @@
         "value": 2873
       },
       {
+        "period": "FY2024",
+        "value": 31350000000
+      },
+      {
         "period": "FY2025",
-        "value": 30978000000
+        "value": 30970000000
       }
     ]
   },
   "business_updates": [
     {
-      "headline": "boAt FY26 net profit rises 38% to ₹84.5 crore as wearables turn profitable",
-      "date": "",
+      "headline": "boAt parent Imagine Marketing files updated confidential DRHP aiming to raise nearly ₹1,500 crore via IPO",
+      "date": "unknown",
       "source": {
-        "name": "Business Standard",
-        "url": "https://www.business-standard.com/companies/quarterly-results/boat-fy26-net-profit-rises-38-to-84-5-crore-wearables-turn-profitable-126082600278_1.html"
+        "name": "Kotak Neo",
+        "url": "https://www.facebook.com/kotakneo/videos/indias-leading-audio-brand-boat-is-back-in-the-news-with-a-major-ipo-update-its-/1187128480151084"
       }
     },
     {
-      "headline": "Imagine Marketing plans ₹2,000 crore raise via IPO",
-      "date": "",
+      "headline": "boAt reports 38% net profit surge in FY26 to ₹84.5 crore",
+      "date": "unknown",
       "source": {
-        "name": "Inc42",
-        "url": "https://www.facebook.com/Inc42/videos/%F0%9D%90%85%F0%9D%90%AB%F0%9D%90%A8%F0%9D%90%A6-%F0%9D%90%8D%F0%9D%90%9E%F0%9D%90%9A%F0%9D%90%AB-%F0%9D%90%8B%F0%9D%90%A8%F0%9D%90%AC%F0%9D%90%AC%F0%9D%90%9E%F0%9D%90%AC-%F0%9D%90%93%F0%9D%90%A8-%F0%9D%9F%94%F0%9D%9F%8E-%F0%9D%90%82%F0%9D%90%AB-%F0%9D%90%8F%F0%9D%90%AB%F0%9D%90%A8%F0%9D%90%9F%F0%9D%90%A2%F0%9D%90%AD-%F0%9D%90%9Bo%F0%9D%90%80%F0%9D%90%AD%F0%9D%90%AC-%F0%9D%90%82%F0%9D%90%A8%F0%9D%90%A6%F0%9D%90%9E%F0%9D%90%9B%F0%9D%90%9A%F0%9D%90%9C%F0%9D%90%A4-%F0%9D%90%92%F0%9D%90%AD%F0%9D%90%A8%F0%9D%90%AB%F0%9D%90%B2-boats-growth-story-has-com/1472998377138466"
+        "name": "Instagram",
+        "url": "https://www.instagram.com/p/DciMG7zMWU5"
       }
     }
   ]

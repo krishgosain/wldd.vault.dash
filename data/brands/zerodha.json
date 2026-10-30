@@ -4,71 +4,51 @@
   "parent": "Zerodha Broking Ltd.",
   "entity_type": "india_private_registered",
   "category": "Fintech / Broking",
-  "description": "Zerodha is an Indian online stockbroking platform and financial services firm owned by Zerodha Broking Ltd.",
-  "last_refreshed": "2026-10-25T08:39:12.492Z",
+  "description": "Zerodha is an Indian online discount brokerage and financial services platform operated by Zerodha Broking Ltd.",
+  "last_refreshed": "2026-10-30T10:25:03.298Z",
   "stock": {
     "applicable": false,
     "value": null,
     "currency": "INR",
     "ticker": null,
     "as_of": null,
-    "note": "Zerodha is a privately held unlisted company.",
+    "note": "Unlisted private entity",
     "confidence": "not_applicable"
   },
   "revenue": {
-    "value": 88470000000,
+    "value": 99900000000,
     "currency": "INR",
-    "period": "FY2025",
+    "period": "FY2024",
     "confidence": "disclosed",
     "source": {
-      "name": "The Economic Times",
-      "url": "https://m.economictimes.com/markets/stocks/earnings/zerodhas-fy26-net-profit-rises-1-2-to-4283-crore-amid-revenue-slowdown/articleshow/133553571.cms",
-      "date": "2026-04-01"
+      "name": "Tracxn",
+      "url": "https://tracxn.com/d/legal-entities/india/zerodha-broking-limited/__IDZylZ-lZipwUy1MMfWMAMXXxBMbMn3wJ13Q_MW2qD4",
+      "date": "2025-01-01"
     }
   },
   "operating_profit": {
     "value": 42830000000,
     "currency": "INR",
     "period": "FY2026",
-    "confidence": "disclosed",
+    "confidence": "press_estimate",
     "source": {
-      "name": "The Economic Times",
-      "url": "https://m.economictimes.com/markets/stocks/earnings/zerodhas-fy26-net-profit-rises-1-2-to-4283-crore-amid-revenue-slowdown/articleshow/133553571.cms",
-      "date": "2026-04-01"
+      "name": "The CEO Magazine",
+      "url": "https://www.facebook.com/theceo.in/posts/zerodha-posted-a-net-profit-of-rs-4283-crore-in-fy26-up-around-12-from-rs-4231-c/1530723145749904",
+      "date": "2026-08-28"
     }
   },
   "expenses": {
-    "breakdown": [
-      {
-        "label": "Employee Expenses",
-        "value": 708200000,
-        "confidence": "disclosed"
-      },
-      {
-        "label": "Marketing Expenses",
-        "value": 480300000,
-        "confidence": "disclosed"
-      },
-      {
-        "label": "Information Technology Expenses",
-        "value": 699400000,
-        "confidence": "disclosed"
-      }
-    ],
-    "confidence": "disclosed"
+    "breakdown": [],
+    "confidence": "not_found"
   },
   "marketing_spend": {
-    "value_low": 480300000,
-    "value_high": 480300000,
+    "value_low": 100000000,
+    "value_high": 500000000,
     "currency": "INR",
-    "period": "FY2025",
-    "tier": "1_disclosed",
-    "derivation": "Disclosed as Marketing Expenses of ₹48.03 crore (4,803 Lakhs) in FY 2024-25 financial performance metrics reported via Tracxn.",
-    "source": {
-      "name": "Tracxn",
-      "url": "https://tracxn.com/d/legal-entities/india/zerodha-broking-limited/__v553aNZpzCj2Bvf4xhnL-tRmJFFZ-TN4gXVbm8w0W1Y",
-      "date": "2026-04-01"
-    }
+    "period": "FY2024",
+    "tier": "3_modeled",
+    "derivation": "Modeled using a minimal 0.1% to 0.5% marketing-to-revenue ratio applied against FY2024 revenue of ₹9,990 crore, reflecting Zerodha's zero-paid-marketing strategy and reliance on organic referral growth.",
+    "source": null
   },
   "trend_history": {
     "stock": [],
@@ -79,11 +59,11 @@
       },
       {
         "period": "FY2023",
-        "value": 69100000000
+        "value": 68750000000
       },
       {
         "period": "FY2024",
-        "value": 71410000000
+        "value": 99900000000
       },
       {
         "period": "FY2025",
@@ -93,19 +73,19 @@
   },
   "business_updates": [
     {
-      "headline": "Zerodha signals potential move to charge brokerage fees for equity delivery trades in FY26",
-      "date": "2025-11-01",
+      "headline": "Zerodha reports Rs 4,283 crore net profit in FY26 as trading revenue growth slows",
+      "date": "2026-08-28",
       "source": {
-        "name": "Inc42 Media",
-        "url": "https://www.linkedin.com/posts/inc42_news-zerodha-revenue-activity-7273716356959617024-y3jS"
+        "name": "The CEO Magazine",
+        "url": "https://www.facebook.com/theceo.in/posts/zerodha-posted-a-net-profit-of-rs-4283-crore-in-fy26-up-around-12-from-rs-4231-c/1530723145749904"
       }
     },
     {
-      "headline": "Zerodha invests in Tijori Finance to scale AI-driven market research tools",
-      "date": "2025-11-01",
+      "headline": "CEO Nithin Kamath advocates raising corporate tax to 27% instead of 2% CSR mandate",
+      "date": "2026-09-29",
       "source": {
-        "name": "Wikipedia",
-        "url": "https://en.wikipedia.org/wiki/Zerodha"
+        "name": "CB Insights",
+        "url": "https://www.cbinsights.com/company/zerodha"
       }
     }
   ]

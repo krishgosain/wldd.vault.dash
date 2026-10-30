@@ -4,50 +4,62 @@
   "parent": "Tata Group",
   "entity_type": "public_standalone",
   "category": "IT Services",
-  "description": "Tata Consultancy Services (TCS) is an Indian multinational information technology services and consulting company, majority-owned by Tata Sons as part of the Tata Group.",
-  "last_refreshed": "2026-10-11T10:16:03.710Z",
+  "description": "Tata Consultancy Services (TCS) is a global IT services, consulting, and business solutions organization operating as a subsidiary of Tata Group.",
+  "last_refreshed": "2026-10-30T10:22:06.564Z",
   "stock": {
     "applicable": true,
-    "value": 2075,
+    "value": 2502.6,
     "currency": "INR",
     "ticker": "TCS.NS",
-    "as_of": "2026-10-02",
-    "note": "Reflects TCS standalone equity share price on NSE/BSE.",
+    "as_of": "2026-10-30",
+    "note": "Reflects TCS stock price on the National Stock Exchange of India (NSE)",
     "confidence": "disclosed"
   },
   "revenue": {
-    "value": 2714230000000,
+    "value": 731880000000,
     "currency": "INR",
-    "period": "FY2026",
+    "period": "Q2 FY2027",
     "confidence": "disclosed",
     "source": {
-      "name": "Wikipedia - Tata Consultancy Services",
-      "url": "https://en.wikipedia.org/wiki/Tata_Consultancy_Services",
-      "date": "2026-01-01"
+      "name": "Reuters",
+      "url": "https://www.reuters.com/world/india/indias-tcs-marginally-beats-second-quarter-revenue-estimates-2026-10-08",
+      "date": "2026-10-08"
     }
   },
   "operating_profit": {
-    "value": 700130000000,
+    "value": null,
     "currency": "INR",
-    "period": "FY2026",
-    "confidence": "disclosed",
-    "source": {
-      "name": "Wikipedia - Tata Consultancy Services",
-      "url": "https://en.wikipedia.org/wiki/Tata_Consultancy_Services",
-      "date": "2026-01-01"
-    }
+    "period": "Q2 FY2027",
+    "confidence": "not_found",
+    "source": null
   },
   "expenses": {
-    "breakdown": [],
-    "confidence": "not_found"
+    "breakdown": [
+      {
+        "label": "Cost of revenue",
+        "value": 432420000000,
+        "confidence": "disclosed"
+      },
+      {
+        "label": "Selling, general, and admin expenses",
+        "value": 9870000000,
+        "confidence": "disclosed"
+      },
+      {
+        "label": "Operating expense",
+        "value": 123910000000,
+        "confidence": "disclosed"
+      }
+    ],
+    "confidence": "disclosed"
   },
   "marketing_spend": {
-    "value_low": 13570000000,
-    "value_high": 40710000000,
+    "value_low": 3659400000,
+    "value_high": 7318800000,
     "currency": "INR",
-    "period": "FY2026",
+    "period": "Q2 FY2027",
     "tier": "3_modeled",
-    "derivation": "Estimated as 0.5% to 1.5% of total FY2026 revenue (₹2,714,230,000,000), aligned with standard global IT services industry benchmarks for B2B sales promotion, brand partnerships, and global event sponsorships.",
+    "derivation": "Modeled assuming standard enterprise IT services ad/marketing spend benchmark of 0.5% to 1.0% applied to Q2 revenue of 731.88B INR.",
     "source": null
   },
   "trend_history": {
@@ -63,6 +75,10 @@
       {
         "date": "2026-10-02",
         "value": 2075
+      },
+      {
+        "date": "2026-10-30",
+        "value": 2502.6
       }
     ],
     "revenue": [
@@ -109,32 +125,20 @@
       {
         "period": "Sep 2025",
         "value": 657990000000
+      },
+      {
+        "period": "Sep 2026",
+        "value": 731880000000
       }
     ]
   },
   "business_updates": [
     {
-      "headline": "TCS and IEM Kolkata partner to establish an AI-focused Centre of Excellence to advance industry-academia innovation",
-      "date": "2026-09-28",
+      "headline": "India's TCS posts second quarter consolidated revenue of 731.88 billion rupees, up 11.2% year-on-year",
+      "date": "2026-10-08",
       "source": {
-        "name": "TCS Investor Relations",
-        "url": "https://www.tcs.com/investor-relations"
-      }
-    },
-    {
-      "headline": "TCS launches next-gen system-on-chip design services for automotive and semiconductor companies",
-      "date": "2026-09-17",
-      "source": {
-        "name": "TCS Investor Relations",
-        "url": "https://www.tcs.com/investor-relations"
-      }
-    },
-    {
-      "headline": "TCS deepens partnership with Google Cloud to power AI-native autonomous enterprises",
-      "date": "2026-04-24",
-      "source": {
-        "name": "TCS Investor Relations",
-        "url": "https://www.tcs.com/investor-relations"
+        "name": "Reuters",
+        "url": "https://www.reuters.com/world/india/indias-tcs-marginally-beats-second-quarter-revenue-estimates-2026-10-08"
       }
     }
   ]

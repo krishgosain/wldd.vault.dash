@@ -4,50 +4,56 @@
   "parent": null,
   "entity_type": "public_standalone",
   "category": "Auto / EV",
-  "description": "Ola Electric Mobility Ltd is an Indian vertically integrated electric vehicle manufacturer focused on electric two-wheelers and battery technology.",
-  "last_refreshed": "2026-10-25T08:40:18.338Z",
+  "description": "Ola Electric Mobility Limited is an Indian electric vehicle manufacturer specializing in electric two-wheelers and EV components.",
+  "last_refreshed": "2026-10-30T10:26:08.294Z",
   "stock": {
     "applicable": true,
-    "value": 35.17,
+    "value": 33.18,
     "currency": "INR",
     "ticker": "OLAELEC.NS",
-    "as_of": "2026-10-16",
-    "note": "Reflects share price of Ola Electric Mobility Ltd on NSE/BSE",
+    "as_of": "2026-10-30",
+    "note": "Reflects standalone public listing ticker OLAELEC.NS on the National Stock Exchange of India",
     "confidence": "disclosed"
   },
   "revenue": {
-    "value": 45140000000,
+    "value": 7800000,
     "currency": "INR",
-    "period": "FY2025",
+    "period": "Mar 2026",
     "confidence": "disclosed",
     "source": {
-      "name": "INDmoney",
-      "url": "https://www.indmoney.com/stocks/ola-electric-mobility-ltd-share-price",
-      "date": "2026-10-16"
+      "name": "Bajaj Finserv",
+      "url": "https://www.bajajfinserv.in/investments/olaelec-share-price",
+      "date": "2026-10-26"
     }
   },
   "operating_profit": {
-    "value": -17620000000,
+    "value": -33080000,
     "currency": "INR",
-    "period": "FY2025",
+    "period": "Mar 2026",
     "confidence": "disclosed",
     "source": {
-      "name": "INDmoney",
-      "url": "https://www.indmoney.com/stocks/ola-electric-mobility-ltd-share-price",
-      "date": "2026-10-16"
+      "name": "Bajaj Finserv",
+      "url": "https://www.bajajfinserv.in/investments/olaelec-share-price",
+      "date": "2026-10-26"
     }
   },
   "expenses": {
-    "breakdown": [],
-    "confidence": "not_found"
+    "breakdown": [
+      {
+        "label": "Operating expense",
+        "value": 66950000,
+        "confidence": "disclosed"
+      }
+    ],
+    "confidence": "disclosed"
   },
   "marketing_spend": {
-    "value_low": 1350000000,
-    "value_high": 2250000000,
+    "value_low": 5000000,
+    "value_high": 10000000,
     "currency": "INR",
-    "period": "FY2025",
+    "period": "Mar 2026",
     "tier": "3_modeled",
-    "derivation": "Modeled using an industry standard 3% to 5% marketing-to-revenue benchmark for consumer electric two-wheeler automotive brands applied to reported FY2025 revenue of ₹4,514 Crore.",
+    "derivation": "Estimated at ~10-15% of operating expenses (₹66.95 crore) based on standard EV category marketing expenditure patterns, as direct ad spend disclosures were unavailable in context.",
     "source": null
   },
   "trend_history": {
@@ -67,9 +73,21 @@
       {
         "date": "2026-10-23",
         "value": 31.94
+      },
+      {
+        "date": "2026-10-26",
+        "value": 29.94
+      },
+      {
+        "date": "2026-10-30",
+        "value": 33.18
       }
     ],
     "revenue": [
+      {
+        "period": "Dec 2025",
+        "value": 3900000
+      },
       {
         "period": "FY2022",
         "value": 3734200000
@@ -89,25 +107,12 @@
       {
         "period": "FY2026",
         "value": 22530000000
+      },
+      {
+        "period": "Mar 2026",
+        "value": 7800000
       }
     ]
   },
-  "business_updates": [
-    {
-      "headline": "Ola Electric announces mass rollout of MoveOS 5",
-      "date": "2025-12-31",
-      "source": {
-        "name": "Ola Electric Investor Relations",
-        "url": "https://www.olaelectric.com/investor-relations"
-      }
-    },
-    {
-      "headline": "Ola Electric reports Q3 FY26 revenue down 55% YoY with volumes dropping 61% YoY",
-      "date": "2026-02-15",
-      "source": {
-        "name": "CNBC TV18",
-        "url": "https://www.youtube.com/watch?v=inf2uwaOcBo"
-      }
-    }
-  ]
+  "business_updates": []
 }

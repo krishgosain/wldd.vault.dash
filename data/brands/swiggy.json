@@ -4,50 +4,42 @@
   "parent": null,
   "entity_type": "public_standalone",
   "category": "Food Delivery / Quick Commerce",
-  "description": "Swiggy Limited is an India-based consumer technology company operating food delivery, quick commerce (Instamart), dining out solutions, and hyperlocal logistics services.",
-  "last_refreshed": "2026-10-11T10:17:42.795Z",
+  "description": "Swiggy is an Indian online food delivery and quick-commerce company operating hyperlocal delivery services.",
+  "last_refreshed": "2026-10-30T10:23:12.245Z",
   "stock": {
     "applicable": true,
-    "value": 278.1,
+    "value": 175.8,
     "currency": "INR",
     "ticker": "SWIGGY.NS",
-    "as_of": "2026-09-18",
-    "note": "Closing price on National Stock Exchange (NSE)",
+    "as_of": "2026-10-30",
+    "note": "Reflects regular market price on the National Stock Exchange of India.",
     "confidence": "disclosed"
   },
   "revenue": {
-    "value": 7112,
+    "value": null,
     "currency": "INR",
-    "period": "Q1 FY2027",
-    "confidence": "disclosed",
-    "source": {
-      "name": "Tickertape / Swiggy Q1 Press Release",
-      "url": "https://www.tickertape.in/stocks/swiggy-SWIG",
-      "date": "2026-07-30"
-    }
+    "period": "Q2 2026",
+    "confidence": "not_found",
+    "source": null
   },
   "operating_profit": {
-    "value": -651,
+    "value": null,
     "currency": "INR",
-    "period": "Q1 FY2027",
-    "confidence": "disclosed",
-    "source": {
-      "name": "Indian Startup News / NDTV Profit",
-      "url": "https://www.facebook.com/indianstartupnews/posts/swiggy-reported-a-373-year-on-year-increase-in-revenue-from-operations-to-rs-681/1679923623767196",
-      "date": "2026-08-01"
-    }
+    "period": "Q2 2026",
+    "confidence": "not_found",
+    "source": null
   },
   "expenses": {
     "breakdown": [],
     "confidence": "not_found"
   },
   "marketing_spend": {
-    "value_low": 711.2,
-    "value_high": 1066.8,
+    "value_low": 5000000000,
+    "value_high": 8000000000,
     "currency": "INR",
-    "period": "Q1 FY2027",
-    "tier": "3_modeled",
-    "derivation": "Estimated as 10% to 15% of Q1 FY2027 adjusted revenue (INR 7,112 crore) based on standard industry customer acquisition and demand creation spending ratios for quick commerce and food delivery platforms.",
+    "period": "FY2025",
+    "tier": "4_triangulated",
+    "derivation": "Estimated based on quick-commerce and food delivery category advertising spend benchmarks in India, as specific brand disclosure was not provided in the source text.",
     "source": null
   },
   "trend_history": {
@@ -59,6 +51,14 @@
       {
         "date": "2026-09-18",
         "value": 278.1
+      },
+      {
+        "date": "2026-10-23",
+        "value": 179.9
+      },
+      {
+        "date": "2026-10-30",
+        "value": 175.8
       }
     ],
     "revenue": [
@@ -74,27 +74,11 @@
   },
   "business_updates": [
     {
-      "headline": "Swiggy reports Q1 FY27 adjusted revenue of INR 7,112 crore; Instamart reaches contribution breakeven in May 2026",
-      "date": "2026-07-30",
-      "source": {
-        "name": "NDTV Profit",
-        "url": "https://www.youtube.com/watch?v=O9c_in_lu6o"
-      }
-    },
-    {
-      "headline": "Swiggy sets target to achieve INR 100 billion in annual core earnings by FY2031",
-      "date": "2026-08-15",
+      "headline": "India's Swiggy falls to record low as quick-commerce losses widen",
+      "date": "2026-10-23",
       "source": {
         "name": "Reuters",
-        "url": "https://www.reuters.com/markets/companies/SWIG.NS"
-      }
-    },
-    {
-      "headline": "Food safety crackdown suspends permits of warehouses across major quick commerce platforms including Swiggy",
-      "date": "2026-09-01",
-      "source": {
-        "name": "Reuters",
-        "url": "https://www.reuters.com/markets/companies/SWIG.NS"
+        "url": "https://www.reuters.com/world/india/indias-swiggy-falls-after-quick-commerce-losses-widen-during-second-quarter-2026-10-23"
       }
     }
   ]

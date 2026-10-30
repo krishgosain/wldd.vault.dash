@@ -1,36 +1,36 @@
 {
   "name": "PhonePe",
   "slug": "phonepe",
-  "parent": "PhonePe Pvt Ltd",
+  "parent": "Walmart Inc.",
   "entity_type": "india_private_registered",
   "category": "Fintech",
-  "description": "PhonePe is an Indian digital payments and fintech company majority-owned by US retail corporation Walmart Inc.",
-  "last_refreshed": "2026-10-11T10:18:04.684Z",
+  "description": "PhonePe is an Indian digital payments and financial services platform majority-owned by Walmart Inc.",
+  "last_refreshed": "2026-10-30T10:23:35.456Z",
   "stock": {
     "applicable": false,
     "value": null,
     "currency": "INR",
     "ticker": null,
     "as_of": null,
-    "note": "PhonePe is a private registered entity majority-owned by Walmart and is not separately listed.",
+    "note": "PhonePe is an unlisted private entity majority-owned by Walmart; planned IPO was paused in 2026.",
     "confidence": "not_applicable"
   },
   "revenue": {
-    "value": 761000000,
-    "currency": "USD",
-    "period": "FY2025",
-    "confidence": "disclosed",
+    "value": 79200000000,
+    "currency": "INR",
+    "period": "FY2026",
+    "confidence": "press_estimate",
     "source": {
-      "name": "Multiples.vc",
-      "url": "https://multiples.vc/private-comps/phonepe",
-      "date": "2025-10-01"
+      "name": "The Hindu",
+      "url": "https://en.wikipedia.org/wiki/PhonePe",
+      "date": "2026-07-25"
     }
   },
   "operating_profit": {
     "value": -14440000000,
     "currency": "INR",
     "period": "H1 FY2026",
-    "confidence": "disclosed",
+    "confidence": "press_estimate",
     "source": {
       "name": "Yahoo Finance",
       "url": "https://finance.yahoo.com/news/walmart-backed-phonepe-shelves-ipo-130247711.html",
@@ -42,17 +42,13 @@
     "confidence": "not_found"
   },
   "marketing_spend": {
-    "value_low": 114000000,
-    "value_high": 152000000,
-    "currency": "USD",
-    "period": "FY2025",
+    "value_low": 11880000000,
+    "value_high": 15840000000,
+    "currency": "INR",
+    "period": "FY2026",
     "tier": "3_modeled",
-    "derivation": "Modeled using a standard fintech marketing-to-revenue benchmark ratio of 15% to 20% applied against PhonePe's reported FY2025 revenue of $761 million.",
-    "source": {
-      "name": "Multiples.vc",
-      "url": "https://multiples.vc/private-comps/phonepe",
-      "date": "2025-10-01"
-    }
+    "derivation": "Estimated by applying a standard Indian consumer fintech marketing ratio of 15% to 20% to the reported FY2026 revenue of ₹7,920 crore.",
+    "source": null
   },
   "trend_history": {
     "stock": [],
@@ -70,34 +66,34 @@
         "value": 504000000
       },
       {
+        "period": "FY2023",
+        "value": 29140000000
+      },
+      {
         "period": "FY2025",
         "value": 761000000
+      },
+      {
+        "period": "FY2026",
+        "value": 79200000000
       }
     ]
   },
   "business_updates": [
     {
-      "headline": "PhonePe pauses $1.3B IPO plans due to global market volatility",
+      "headline": "PhonePe revenue grows to ₹7,920 crore in FY26",
+      "date": "2026-07-25",
+      "source": {
+        "name": "The Hindu",
+        "url": "https://en.wikipedia.org/wiki/PhonePe"
+      }
+    },
+    {
+      "headline": "Walmart-backed PhonePe shelves IPO plans amid market volatility",
       "date": "2026-03-01",
       "source": {
         "name": "Yahoo Finance",
         "url": "https://finance.yahoo.com/news/walmart-backed-phonepe-shelves-ipo-130247711.html"
-      }
-    },
-    {
-      "headline": "PhonePe processes 9.3 billion UPI transactions worth ₹13.1 trillion in February 2026",
-      "date": "2026-02-28",
-      "source": {
-        "name": "Yahoo Finance",
-        "url": "https://finance.yahoo.com/news/walmart-backed-phonepe-shelves-ipo-130247711.html"
-      }
-    },
-    {
-      "headline": "Walmart ownership stake updated to 71.77% in PhonePe's revised draft prospectus",
-      "date": "2026-10-08",
-      "source": {
-        "name": "Instagram / Marketing Stories",
-        "url": "https://www.instagram.com/reel/DUkcE_-Ex2j?hl=en"
       }
     }
   ]

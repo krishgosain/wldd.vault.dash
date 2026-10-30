@@ -4,37 +4,37 @@
   "parent": "Dreamplug Technologies Pvt Ltd",
   "entity_type": "india_private_registered",
   "category": "Fintech",
-  "description": "CRED is an Indian financial technology platform operated by Dreamplug Technologies Private Limited that offers credit card bill payments, lending, and consumer financial management services.",
-  "last_refreshed": "2026-10-25T08:39:31.039Z",
+  "description": "CRED is an Indian financial technology platform owned and operated by Dreamplug Technologies Private Limited that offers credit card payments, lending, and consumer financial services.",
+  "last_refreshed": "2026-10-30T10:25:23.393Z",
   "stock": {
     "applicable": false,
     "value": null,
     "currency": "INR",
     "ticker": null,
     "as_of": null,
-    "note": "Private unlisted company",
+    "note": "Private company, stock not publicly traded.",
     "confidence": "not_applicable"
   },
   "revenue": {
-    "value": 24730000000,
+    "value": 27350000000,
     "currency": "INR",
-    "period": "FY2024",
+    "period": "FY2025",
     "confidence": "disclosed",
     "source": {
-      "name": "Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Cred_(company)",
-      "date": "2024"
+      "name": "Multiples",
+      "url": "https://multiples.vc/private-comps/cred",
+      "date": "2026-01-01"
     }
   },
   "operating_profit": {
-    "value": -16440000000,
+    "value": -298000000,
     "currency": "INR",
-    "period": "FY2024",
+    "period": "FY2025",
     "confidence": "disclosed",
     "source": {
-      "name": "Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Cred_(company)",
-      "date": "2024"
+      "name": "Multiples",
+      "url": "https://multiples.vc/private-comps/cred",
+      "date": "2026-01-01"
     }
   },
   "expenses": {
@@ -42,16 +42,16 @@
     "confidence": "not_found"
   },
   "marketing_spend": {
-    "value_low": 7419000000,
-    "value_high": 9892000000,
+    "value_low": 4100000000,
+    "value_high": 5470000000,
     "currency": "INR",
-    "period": "FY2024",
+    "period": "FY2025",
     "tier": "3_modeled",
-    "derivation": "Modeled assuming a standard 30% to 40% marketing-to-revenue ratio typical for high-growth consumer fintech platforms, applied to CRED's reported FY24 revenue of ₹2,473 crore.",
+    "derivation": "Modeled by applying an estimated 15% to 20% marketing-to-revenue ratio on CRED's reported FY25 consolidated operating revenue of ₹2,735 crore, typical for high-growth consumer fintech apps in India.",
     "source": {
-      "name": "Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Cred_(company)",
-      "date": "2024"
+      "name": "Multiples",
+      "url": "https://multiples.vc/private-comps/cred",
+      "date": "2026-01-01"
     }
   },
   "trend_history": {
@@ -69,15 +69,15 @@
   },
   "business_updates": [
     {
-      "headline": "CRED reported FY24 revenue of ₹2,473 crore with net loss of ₹1,644 crore",
-      "date": "2024-01-01",
+      "headline": "CRED reported consolidated operating revenue of ₹2,735 crore while operating losses halved to ₹298 crore",
+      "date": "2026-01-01",
       "source": {
-        "name": "Wikipedia",
-        "url": "https://en.wikipedia.org/wiki/Cred_(company)"
+        "name": "Multiples",
+        "url": "https://multiples.vc/private-comps/cred"
       }
     },
     {
-      "headline": "CRED valuation stands at approximately US$4.5 billion",
+      "headline": "CRED valuation reached around US$4.5 billion",
       "date": "2026-01-01",
       "source": {
         "name": "Wikipedia",

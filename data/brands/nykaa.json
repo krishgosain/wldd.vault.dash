@@ -4,65 +4,65 @@
   "parent": "FSN E-Commerce Ventures Ltd.",
   "entity_type": "public_standalone",
   "category": "E-commerce / Beauty",
-  "description": "Nykaa is an Indian omni-channel retail brand selling beauty, wellness, and fashion products, operated as the primary operating business of publicly listed FSN E-Commerce Ventures Ltd.",
-  "last_refreshed": "2026-10-11T10:18:42.592Z",
+  "description": "Nykaa is an Indian e-commerce platform specializing in beauty, wellness, and fashion products, operated by its parent company FSN E-Commerce Ventures Ltd.",
+  "last_refreshed": "2026-10-30T10:23:57.361Z",
   "stock": {
     "applicable": true,
-    "value": 340.95,
+    "value": 342.5,
     "currency": "INR",
     "ticker": "NYKAA.NS",
-    "as_of": "2026-10-09",
-    "note": "Reflects public ticker NYKAA.NS for parent/operating entity FSN E-Commerce Ventures Ltd.",
+    "as_of": null,
+    "note": "Reflects parent company FSN E-Commerce Ventures Ltd.",
     "confidence": "disclosed"
   },
   "revenue": {
     "value": 27820000000,
     "currency": "INR",
-    "period": "Q1 FY2026",
+    "period": "Q1 2026",
     "confidence": "disclosed",
     "source": {
-      "name": "Investing.com",
+      "name": "Earnings call transcript: Nykaa Q1 2026 growth accelerates as stock eases",
       "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-nykaa-q1-2026-growth-accelerates-as-stock-eases-93CH-4834546",
-      "date": "2026-08-01"
+      "date": "unknown"
     }
   },
   "operating_profit": {
-    "value": 2360000000,
+    "value": 1470000000,
     "currency": "INR",
-    "period": "Q1 FY2026",
+    "period": "Q1 2026",
     "confidence": "disclosed",
     "source": {
-      "name": "Investing.com",
-      "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-nykaa-q1-2026-growth-accelerates-as-stock-eases-93CH-4834546",
-      "date": "2026-08-01"
+      "name": "Fsn E-Commerce Ventures Ltd (NYKAA) Stock Price & News - Google Finance",
+      "url": "https://www.google.com/finance/quote/NYKAA:NSE",
+      "date": "unknown"
     }
   },
   "expenses": {
     "breakdown": [
       {
-        "label": "Marketing expenses (% of revenue)",
-        "value": 12.5,
+        "label": "Cost of goods sold",
+        "value": 15060000000,
         "confidence": "disclosed"
       },
       {
-        "label": "Fulfilment expenses (% of revenue)",
-        "value": 9.3,
+        "label": "Selling, general, and admin expenses",
+        "value": 2250000000,
         "confidence": "disclosed"
       }
     ],
     "confidence": "disclosed"
   },
   "marketing_spend": {
-    "value_low": 12528000000,
-    "value_high": 12528000000,
+    "value_low": 2200000000,
+    "value_high": 2800000000,
     "currency": "INR",
-    "period": "FY2025",
-    "tier": "1_disclosed",
-    "derivation": "Disclosed in Nykaa's Integrated Annual Report 2024-25 as 12.5% of total annual revenue (INR 10,022.35 crore), yielding approximately INR 1,252.8 crore.",
+    "period": "Q1 2026",
+    "tier": "3_modeled",
+    "derivation": "Modeled assuming an estimated 8%-10% ad spend ratio against Q1 2026 net revenue of INR 2,782 crore, aligned with disclosed SG&A total of INR 2.25B and management comments on customer acquisition investment.",
     "source": {
-      "name": "Nykaa Integrated Annual Report 2024-25",
-      "url": "https://www.nykaa.com/media/wysiwyg/uiTools/2025-8/Integrated-Annual-Report-2024-25.pdf",
-      "date": "2025-08-01"
+      "name": "Earnings call transcript: Nykaa Q1 2026 growth accelerates as stock eases",
+      "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-nykaa-q1-2026-growth-accelerates-as-stock-eases-93CH-4834546",
+      "date": "unknown"
     }
   },
   "trend_history": {
@@ -78,8 +78,20 @@
     ],
     "revenue": [
       {
+        "period": "Dec 2025",
+        "value": 28730000000
+      },
+      {
         "period": "FY2025",
         "value": 106490000000
+      },
+      {
+        "period": "Jun 2026",
+        "value": 27820000000
+      },
+      {
+        "period": "Mar 2026",
+        "value": 26480000000
       },
       {
         "period": "Q1 FY2026",
@@ -88,23 +100,27 @@
       {
         "period": "Q4 FY2026",
         "value": 26480000000
+      },
+      {
+        "period": "Sep 2025",
+        "value": 23460000000
       }
     ]
   },
   "business_updates": [
     {
-      "headline": "Nykaa owner FSN E-Commerce Ventures completes acquisition of 51% stake in Aminu Wellness",
+      "headline": "FSN E-Commerce Ventures consolidated net profit rises 243.10% in the June 2026 quarter",
       "date": "2026-09-24",
       "source": {
         "name": "HDFC Securities",
-        "url": "https://www.hdfcsec.com/market/company/NYKAA-75803"
+        "url": "https://www.hdfcsec.com/market/company/FSNECommerceVenturesLtd-75803"
       }
     },
     {
-      "headline": "FSN E-Commerce Ventures consolidated net profit surges in Q1 FY26 with 34% GMV growth",
-      "date": "2026-08-01",
+      "headline": "Nykaa Q1 2026 GMV rises 34% YoY to INR 5,590 crore with PAT up 226%",
+      "date": "unknown",
       "source": {
-        "name": "Investing.com",
+        "name": "Investing.com Transcripts",
         "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-nykaa-q1-2026-growth-accelerates-as-stock-eases-93CH-4834546"
       }
     }

@@ -4,50 +4,46 @@
   "parent": "The Coca-Cola Company",
   "entity_type": "public_parent",
   "category": "F&B",
-  "description": "Coca-Cola is a global non-alcoholic beverage brand owned by parent entity The Coca-Cola Company (NYSE: KO), with Indian operations handled through Coca-Cola India and bottling partner Hindustan Coca-Cola Beverages Pvt Ltd.",
-  "last_refreshed": "2026-10-11T10:16:26.000Z",
+  "description": "Coca-Cola is a flagship global non-alcoholic beverage brand produced and marketed by parent company The Coca-Cola Company (NYSE: KO).",
+  "last_refreshed": "2026-10-30T10:22:23.433Z",
   "stock": {
     "applicable": false,
     "value": null,
     "currency": "USD",
     "ticker": "KO",
     "as_of": null,
-    "note": "Reflects parent company The Coca-Cola Company (NYSE: KO), not the Indian brand entity specifically.",
+    "note": "Reflects parent entity The Coca-Cola Company (NYSE: KO), not the brand specifically.",
     "confidence": "not_applicable"
   },
   "revenue": {
-    "value": 50425600000,
-    "currency": "INR",
-    "period": "FY2025",
+    "value": 13400000000,
+    "currency": "USD",
+    "period": "Q3 2026",
     "confidence": "disclosed",
     "source": {
-      "name": "ET BrandEquity",
-      "url": "https://brandequity.economictimes.indiatimes.com/tag/hindustan+coca-cola+beverages",
-      "date": "FY2025"
+      "name": "The Coca-Cola Company",
+      "url": "https://investors.coca-colacompany.com/news-events/press-releases/detail/1176/coca-cola-reports-third-quarter-2026-results-and-raises-full-year-guidance",
+      "date": ""
     }
   },
   "operating_profit": {
-    "value": 6150000000,
-    "currency": "INR",
-    "period": "FY2025",
-    "confidence": "disclosed",
-    "source": {
-      "name": "Outlook Business",
-      "url": "https://www.outlookbusiness.com/topic/hindustan-coca-cola-beverages-hccb",
-      "date": "FY2025"
-    }
+    "value": null,
+    "currency": "USD",
+    "period": "Q3 2026",
+    "confidence": "not_found",
+    "source": null
   },
   "expenses": {
     "breakdown": [],
     "confidence": "not_found"
   },
   "marketing_spend": {
-    "value_low": 4000000000,
-    "value_high": 6000000000,
-    "currency": "INR",
-    "period": "FY2025",
+    "value_low": 1070000000,
+    "value_high": 1340000000,
+    "currency": "USD",
+    "period": "Q3 2026",
     "tier": "3_modeled",
-    "derivation": "Modeled using a standard 8%-12% FMCG/beverage industry marketing-to-revenue ratio applied to Coca-Cola India's reported FY25 revenue of ₹5,042.56 crore.",
+    "derivation": "Modeled using a standard consumer beverage industry marketing ratio of 8% to 10% applied to reported Q3 2026 net revenues of $13.4 billion.",
     "source": null
   },
   "trend_history": {
@@ -73,32 +69,28 @@
       {
         "period": "FY2025",
         "value": 50425600000
+      },
+      {
+        "period": "Q3 2026",
+        "value": 13400000000
       }
     ]
   },
   "business_updates": [
     {
-      "headline": "The Coca-Cola Company explores 2027 Indian stock market IPO for bottling unit HCCH targeting $10 billion valuation",
+      "headline": "The Coca-Cola Company Exploring Potential Public Listing in India for Hindustan Coca-Cola Holdings Pvt. Ltd.",
       "date": "2026-06-01",
       "source": {
-        "name": "The Coca-Cola Company Investor Relations",
-        "url": "http://investors.coca-colacompany.com/news-events/press-releases/detail/1161/the-coca-cola-company-exploring-potential-public-listing-in-india-for-hindustan-coca-cola-holdings-pvt-ltd-parent-company-of-its-largest-bottler-in-india"
+        "name": "Yahoo Finance / Business Wire",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/coca-cola-company-exploring-potential-230000834.html"
       }
     },
     {
-      "headline": "Hindustan Coca-Cola Beverages plans ₹3,000 crore investment in Gujarat facility in Rajkot",
-      "date": "2026",
+      "headline": "Hemant Rupani Appointed CEO of Hindustan Coca-Cola Beverages",
+      "date": "",
       "source": {
-        "name": "Business Standard",
-        "url": "https://www.business-standard.com/topic/hindustan-coca-cola-beverages-pvt-ltd"
-      }
-    },
-    {
-      "headline": "HCCB Bidadi bottling plant certified as carbon neutral under PAS 2060 standard",
-      "date": "2026",
-      "source": {
-        "name": "Business Standard",
-        "url": "https://www.business-standard.com/topic/hindustan-coca-cola-beverages-pvt-ltd"
+        "name": "Yahoo Finance / Just Drinks",
+        "url": "https://finance.yahoo.com/news/mondelez-executive-join-hindustan-coca-135524356.html"
       }
     }
   ]
