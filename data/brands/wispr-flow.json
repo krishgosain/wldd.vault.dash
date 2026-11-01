@@ -4,28 +4,32 @@
   "parent": "Wispr AI",
   "entity_type": "foreign_private",
   "category": "Consumer Tech / AI",
-  "description": "Wispr Flow is an AI voice operating system and dictation application developed by Wispr AI.",
-  "last_refreshed": "2026-10-30T10:21:29.674Z",
+  "description": "Wispr Flow is an AI-powered voice dictation platform and voice operating system developed by Wispr AI.",
+  "last_refreshed": "2026-11-01T10:51:22.493Z",
   "stock": {
     "applicable": false,
     "value": null,
     "currency": "USD",
     "ticker": null,
     "as_of": null,
-    "note": "Wispr Flow is a privately held brand and does not have a public stock ticker.",
+    "note": "Wispr AI is a privately held company and does not have a public stock ticker.",
     "confidence": "not_applicable"
   },
   "revenue": {
-    "value": null,
+    "value": 10000000,
     "currency": "USD",
-    "period": "FY2025",
-    "confidence": "not_found",
-    "source": null
+    "period": "Oct 2025",
+    "confidence": "press_estimate",
+    "source": {
+      "name": "Postbeam",
+      "url": "https://www.postbeam.ai/blog/how-wisprflow-grows",
+      "date": "2025-06-01"
+    }
   },
   "operating_profit": {
     "value": null,
     "currency": "USD",
-    "period": "FY2025",
+    "period": "Oct 2025",
     "confidence": "not_found",
     "source": null
   },
@@ -34,16 +38,16 @@
     "confidence": "not_found"
   },
   "marketing_spend": {
-    "value_low": 5000000,
-    "value_high": 15000000,
+    "value_low": 1000000,
+    "value_high": 2000000,
     "currency": "USD",
     "period": "FY2025",
     "tier": "3_modeled",
-    "derivation": "Modeled using reported user-growth metrics (~5M monthly web visits with ~26.6% coming from paid search and paid social) combined with creator spending for a YTD UGC campaign generating 512.9M views.",
+    "derivation": "Modeled using a product-led growth (PLG) SaaS benchmark of 10–20% marketing spend relative to reported ARR ($10M in late 2025), reflecting growth driven by zero cold outreach and organic word-of-mouth adoption.",
     "source": {
       "name": "Postbeam",
       "url": "https://www.postbeam.ai/blog/how-wisprflow-grows",
-      "date": "2026-06-01"
+      "date": "2025-06-01"
     }
   },
   "trend_history": {
@@ -56,29 +60,25 @@
       {
         "period": "FY2025",
         "value": 10000000
+      },
+      {
+        "period": "Oct 2025",
+        "value": 10000000
       }
     ]
   },
   "business_updates": [
     {
-      "headline": "Wispr Flow valued at $2 billion in latest $280 million funding round",
-      "date": "2026-08-17",
+      "headline": "Wispr raises $280 million at $2 billion valuation as voice AI push accelerates",
+      "date": "2026-05-01",
       "source": {
-        "name": "Reuters",
-        "url": "https://www.reuters.com/technology/wispr-flow-valued-2-billion-latest-funding-round-2026-08-17"
+        "name": "Pulse 2.0",
+        "url": "https://pulse2.com/wispr-raises-280-million-at-2-billion-valuation-as-revenue-grows-150-quarterly-and-voice-ai-push-accelerates"
       }
     },
     {
-      "headline": "Wispr AI raises Series A2 funding, bringing total funding to $81M prior to mega-round",
-      "date": "2026-06-01",
-      "source": {
-        "name": "LinkedIn",
-        "url": "https://www.linkedin.com/posts/tankots_we-just-raised-another-25m-after-10xing-activity-7397302293429268480-Yf3H"
-      }
-    },
-    {
-      "headline": "Wispr Flow hits 5.5M monthly visits and 512.9M year-to-date UGC views",
-      "date": "2026-06-01",
+      "headline": "Wispr Flow achieves 150x revenue and 200x user growth in one year with zero cold outreach",
+      "date": "2026-05-01",
       "source": {
         "name": "Postbeam",
         "url": "https://www.postbeam.ai/blog/how-wisprflow-grows"

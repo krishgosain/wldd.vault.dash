@@ -1,18 +1,18 @@
 {
   "name": "Audible",
   "slug": "audible",
-  "parent": "Amazon",
+  "parent": "Amazon.com, Inc.",
   "entity_type": "public_parent",
   "category": "Audio Streaming",
-  "description": "Audible is an audio streaming and audiobook platform operating as a wholly-owned subsidiary of Amazon.",
-  "last_refreshed": "2026-10-29T10:19:41.362Z",
+  "description": "Audible is an audio streaming and digital audiobook service operating as a wholly-owned subsidiary of Amazon.com, Inc.",
+  "last_refreshed": "2026-11-01T10:48:24.114Z",
   "stock": {
     "applicable": false,
     "value": null,
     "currency": "USD",
     "ticker": null,
     "as_of": null,
-    "note": "Audible is a wholly-owned subsidiary of Amazon.com, Inc. (NASDAQ: AMZN) and does not have an independent stock ticker.",
+    "note": "Audible is a wholly-owned subsidiary of Amazon.com, Inc. (NASDAQ: AMZN) and is not independently listed.",
     "confidence": "not_applicable"
   },
   "revenue": {
@@ -34,26 +34,17 @@
     "confidence": "not_found"
   },
   "marketing_spend": {
-    "value_low": 100000000,
+    "value_low": 150000000,
     "value_high": 300000000,
     "currency": "USD",
     "period": "FY2025",
     "tier": "3_modeled",
-    "derivation": "Modeled using audio streaming category benchmark ad spend ratios (10-15% of estimated revenue) for major digital subscription platforms, as Amazon does not separately report Audible's standalone financial metrics.",
+    "derivation": "Modeled estimate based on standard audio streaming ad spend ratios, as Amazon does not separately disclose marketing expenses for the Audible subsidiary.",
     "source": null
   },
   "trend_history": {
     "stock": [],
     "revenue": []
   },
-  "business_updates": [
-    {
-      "headline": "Amazon acquires Audible as a wholly-owned subsidiary via tender offer",
-      "date": "2008-03-11",
-      "source": {
-        "name": "SEC Edgar",
-        "url": "https://www.sec.gov/Archives/edgar/data/1018724/000119312508062806/dex99a1j.htm"
-      }
-    }
-  ]
+  "business_updates": []
 }

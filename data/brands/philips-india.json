@@ -4,15 +4,15 @@
   "parent": "Koninklijke Philips N.V.",
   "entity_type": "india_private_registered",
   "category": "Consumer Electronics",
-  "description": "Philips India Limited is an active unlisted public company operating in healthcare technology and personal health, and is a subsidiary of Dutch multinational Koninklijke Philips N.V.",
-  "last_refreshed": "2026-10-25T08:44:34.318Z",
+  "description": "Philips India Limited is an unlisted Indian operating subsidiary of Dutch health-technology and consumer electronics conglomerate Koninklijke Philips N.V.",
+  "last_refreshed": "2026-11-01T10:46:55.310Z",
   "stock": {
     "applicable": false,
     "value": null,
-    "currency": "INR",
+    "currency": "EUR",
     "ticker": null,
     "as_of": null,
-    "note": "Philips India Limited is an unlisted public company; parent entity Koninklijke Philips N.V. trades on Euronext Amsterdam (PHIA.AS) and the NYSE (PHG).",
+    "note": "Philips India Limited is an unlisted entity; parent company Koninklijke Philips N.V. trades on Euronext Amsterdam under ticker PHIA.AS and NYSE as PHG.",
     "confidence": "not_applicable"
   },
   "revenue": {
@@ -26,11 +26,11 @@
     "value": 4480000000,
     "currency": "INR",
     "period": "FY2025",
-    "confidence": "disclosed",
+    "confidence": "press_estimate",
     "source": {
-      "name": "unlistedcart.com",
+      "name": "Philips India Limited - unlistedcart.com",
       "url": "https://unlistedcart.com/philips-india-limited",
-      "date": "2025-01-01"
+      "date": "2026-01-01"
     }
   },
   "expenses": {
@@ -38,17 +38,13 @@
     "confidence": "not_found"
   },
   "marketing_spend": {
-    "value_low": 1500000000,
-    "value_high": 2500000000,
+    "value_low": 1000000000,
+    "value_high": 2000000000,
     "currency": "INR",
     "period": "FY2025",
     "tier": "3_modeled",
-    "derivation": "Estimated based on FY2024-25 Profit Before Tax of ~₹448 crore and Profit After Tax of ~₹309 crore, implying a revenue base of ~₹3,500-4,500 crore, multiplied by a typical consumer electronics and personal health industry ad-spend ratio of 4-6%.",
-    "source": {
-      "name": "unlistedcart.com",
-      "url": "https://unlistedcart.com/philips-india-limited",
-      "date": "2025-01-01"
-    }
+    "derivation": "Modeled using a standard 3-5% consumer tech marketing-to-revenue benchmark applied against Philips India's operating scale and reported FY2024-25 Profit After Tax (PAT) of ~₹309 crore.",
+    "source": null
   },
   "trend_history": {
     "stock": [
@@ -60,25 +56,41 @@
     "revenue": [
       {
         "period": "FY2023",
-        "value": 57340000000
+        "value": 19660228000
       },
       {
         "period": "FY2024",
-        "value": 60000000000
+        "value": 19500503000
       },
       {
         "period": "FY2025",
-        "value": 65420000000
+        "value": 20116861000
       }
     ]
   },
   "business_updates": [
     {
-      "headline": "Philips India reports improved FY2024-25 performance with PBT reaching ~₹448 crore and PAT reaching ~₹309 crore",
-      "date": "2025-01-01",
+      "headline": "EXIT-CVD research consortium launches clinical studies to transform cardiovascular care across Europe",
+      "date": "2026-10-15",
       "source": {
-        "name": "unlistedcart.com",
-        "url": "https://unlistedcart.com/philips-india-limited"
+        "name": "Investor Relations | Philips",
+        "url": "https://www.philips.com/a-w/about/investor-relations.html"
+      }
+    },
+    {
+      "headline": "Philips Oral Healthcare establishes Global Clinical Advisory Board to help shape the future of oral care through scientific and clinical insight",
+      "date": "2026-10-08",
+      "source": {
+        "name": "Investor Relations | Philips",
+        "url": "https://www.philips.com/a-w/about/investor-relations.html"
+      }
+    },
+    {
+      "headline": "Philips-led projects win ITEA awards for advancing AI-enabled healthcare innovation",
+      "date": "2026-09-16",
+      "source": {
+        "name": "Investor Relations | Philips",
+        "url": "https://www.philips.com/a-w/about/investor-relations.html"
       }
     }
   ]

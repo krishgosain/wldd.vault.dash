@@ -4,28 +4,28 @@
   "parent": "Amazon",
   "entity_type": "public_parent",
   "category": "Quick Commerce",
-  "description": "Amazon Now is the quick commerce delivery brand operated by parent company Amazon, Inc.",
-  "last_refreshed": "2026-10-29T10:21:05.294Z",
+  "description": "Amazon Now is a quick commerce delivery service operated by parent company Amazon.com, Inc.",
+  "last_refreshed": "2026-11-01T10:49:30.636Z",
   "stock": {
     "applicable": false,
-    "value": null,
+    "value": 240.8,
     "currency": "USD",
-    "ticker": null,
-    "as_of": null,
-    "note": "Amazon Now is a product/service line under parent company Amazon.com, Inc. (NASDAQ: AMZN).",
+    "ticker": "AMZN",
+    "as_of": "2026-10-31",
+    "note": "Reflects parent company Amazon.com, Inc. (AMZN), not this brand specifically",
     "confidence": "not_applicable"
   },
   "revenue": {
     "value": null,
     "currency": "USD",
-    "period": "Q1 2026",
+    "period": "Q3 2026",
     "confidence": "not_found",
     "source": null
   },
   "operating_profit": {
     "value": null,
     "currency": "USD",
-    "period": "Q1 2026",
+    "period": "Q3 2026",
     "confidence": "not_found",
     "source": null
   },
@@ -34,17 +34,13 @@
     "confidence": "not_found"
   },
   "marketing_spend": {
-    "value_low": 10314000000,
-    "value_high": 10314000000,
+    "value_low": 100000000,
+    "value_high": 300000000,
     "currency": "USD",
-    "period": "Q1 2026",
-    "tier": "1_disclosed",
-    "derivation": "Disclosed in Amazon.com, Inc.'s Q1 2026 financial report under 'Sales and marketing' operating expenses ($10,314 million).",
-    "source": {
-      "name": "Amazon.com IR",
-      "url": "https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-First-Quarter-Results/default.aspx",
-      "date": "2026-04-30"
-    }
+    "period": "FY2026",
+    "tier": "3_modeled",
+    "derivation": "Modeled based on category-typical marketing-to-revenue allocations of 3-5% within quick commerce and ultra-fast grocery delivery retail operations.",
+    "source": null
   },
   "trend_history": {
     "stock": [
@@ -61,8 +57,16 @@
         "value": 249.67
       },
       {
+        "date": "2026-10-16",
+        "value": 256
+      },
+      {
         "date": "2026-10-28",
-        "value": 254.6
+        "value": 255.09
+      },
+      {
+        "date": "2026-10-31",
+        "value": 240.8
       }
     ],
     "revenue": [
@@ -89,16 +93,28 @@
       {
         "period": "Q2 2026",
         "value": 200600000000
+      },
+      {
+        "period": "Q3 2026",
+        "value": 201944000000
       }
     ]
   },
   "business_updates": [
     {
-      "headline": "Amazon reports Q1 2026 net sales of $181.5 billion, up from $155.7 billion in Q1 2025",
-      "date": "2026-04-30",
+      "headline": "Amazon reports Q3 2026 operating income of $28.1B with record 13.9% operating margin",
+      "date": "2026-10-29",
       "source": {
-        "name": "Amazon.com IR",
-        "url": "https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-First-Quarter-Results/default.aspx"
+        "name": "SEC Edgar",
+        "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000038/amzn-20260930xex991.htm"
+      }
+    },
+    {
+      "headline": "AWS net sales grow 39.3% to $184B annualized revenue run rate",
+      "date": "2026-10-29",
+      "source": {
+        "name": "Amazon IR",
+        "url": "https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-Third-Quarter-Results/default.aspx"
       }
     }
   ]

@@ -4,47 +4,66 @@
   "parent": "Roppen Transportation Services Pvt Ltd",
   "entity_type": "india_private_registered",
   "category": "Ride-hailing",
-  "description": "Rapido is an Indian ride-hailing platform providing bike taxi, auto-rickshaw, and delivery services, operated by Roppen Transportation Services Pvt Ltd.",
-  "last_refreshed": "2026-10-30T10:21:46.681Z",
+  "description": "Rapido is an Indian ride-hailing platform offering bike taxis, autorickshaws, cabs, and food delivery, operated by Roppen Transportation Services Pvt Ltd.",
+  "last_refreshed": "2026-11-01T10:51:44.938Z",
   "stock": {
     "applicable": false,
     "value": null,
     "currency": "INR",
     "ticker": null,
     "as_of": null,
-    "note": "Privately held company; unlisted shares traded on OTC markets.",
+    "note": "Rapido is a privately held unlisted company in India.",
     "confidence": "not_applicable"
   },
   "revenue": {
-    "value": 112000000,
-    "currency": "USD",
-    "period": "May 2026",
-    "confidence": "press_estimate",
+    "value": 9344400000,
+    "currency": "INR",
+    "period": "FY2025",
+    "confidence": "disclosed",
     "source": {
-      "name": "Multiples",
-      "url": "https://multiples.vc/private-comps/rapido",
-      "date": "2026-05-01"
+      "name": "Rediff Moneynews",
+      "url": "https://money.rediff.com/news/market/rapido-loss-narrows-revenue-rises-44-in-fy25/40628320260122",
+      "date": "2026-01-22"
     }
   },
   "operating_profit": {
-    "value": null,
-    "currency": "USD",
-    "period": "",
-    "confidence": "not_found",
-    "source": null
+    "value": -2580000000,
+    "currency": "INR",
+    "period": "FY2025",
+    "confidence": "disclosed",
+    "source": {
+      "name": "Rediff Moneynews",
+      "url": "https://money.rediff.com/news/market/rapido-loss-narrows-revenue-rises-44-in-fy25/40628320260122",
+      "date": "2026-01-22"
+    }
   },
   "expenses": {
-    "breakdown": [],
-    "confidence": "not_found"
+    "breakdown": [
+      {
+        "label": "Marketing Expenses",
+        "value": 240100000,
+        "confidence": "disclosed"
+      },
+      {
+        "label": "Employee Expenses",
+        "value": 215600000,
+        "confidence": "disclosed"
+      }
+    ],
+    "confidence": "disclosed"
   },
   "marketing_spend": {
-    "value_low": 16800000,
-    "value_high": 28000000,
-    "currency": "USD",
-    "period": "2026",
-    "tier": "3_modeled",
-    "derivation": "Estimated using a standard 15-25% marketing-to-revenue ratio typical for high-growth Indian ride-hailing platforms applied to Rapido's reported $112M revenue.",
-    "source": null
+    "value_low": 240100000,
+    "value_high": 240100000,
+    "currency": "INR",
+    "period": "FY2025",
+    "tier": "1_disclosed",
+    "derivation": "Disclosed as Marketing Expenses of ₹24.01 crore (₹2,401 lakh) in the FY25 financial statements of Roppen Transportation Services Pvt Ltd accessed via financial data filings.",
+    "source": {
+      "name": "Tracxn",
+      "url": "https://tracxn.com/d/legal-entities/india/roppen-transportation-services-private-limited/__HUZ2wakxPnhZkeEpflU9cNcXb0lI5IllIrVKyQCIrm4",
+      "date": "2026-01-01"
+    }
   },
   "trend_history": {
     "stock": [],
@@ -63,7 +82,7 @@
       },
       {
         "period": "FY2025",
-        "value": 9340000000
+        "value": 9344400000
       },
       {
         "period": "FY23",
@@ -85,19 +104,27 @@
   },
   "business_updates": [
     {
-      "headline": "RTO files FIR against Roppen Transportation Services over unauthorized bike taxi rides in Pune",
-      "date": "2026-10-16",
+      "headline": "Rapido raises $240M in funding round, reaching a valuation of $3 billion",
+      "date": "2026-05-15",
       "source": {
-        "name": "CB Insights",
-        "url": "https://www.cbinsights.com/company/rapido"
+        "name": "Yahoo Finance",
+        "url": "https://siliconvalleyinvestclub.com/fr/companies/rapido/tear-sheet.pdf"
       }
     },
     {
-      "headline": "Swiggy clears divestment of its stake in Rapido operator Roppen Transportation for nearly Rs2.4bn",
-      "date": "2026-09-01",
+      "headline": "Rapido parent Roppen Transportation narrows loss to Rs 258 crore as revenue surges 44% in FY25",
+      "date": "2026-01-22",
       "source": {
-        "name": "Yahoo Finance",
-        "url": "https://finance.yahoo.com/news/rapido-magicpin-target-zomato-swiggy-093653916.html"
+        "name": "Rediff Moneynews",
+        "url": "https://money.rediff.com/news/market/rapido-loss-narrows-revenue-rises-44-in-fy25/40628320260122"
+      }
+    },
+    {
+      "headline": "Prosus Ventures in talks to invest $200 million secondary capital into Rapido",
+      "date": "2026-01-01",
+      "source": {
+        "name": "Multiples",
+        "url": "https://multiples.vc/private-comps/rapido"
       }
     }
   ]

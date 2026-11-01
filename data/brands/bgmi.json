@@ -4,28 +4,28 @@
   "parent": "Krafton Inc.",
   "entity_type": "public_parent",
   "category": "Gaming",
-  "description": "Battlegrounds Mobile India (BGMI) is a popular battle royale mobile game developed and published by South Korean gaming publisher Krafton Inc. specifically for the Indian market.",
-  "last_refreshed": "2026-10-29T10:21:47.372Z",
+  "description": "BGMI (Battlegrounds Mobile India) is a mobile battle-royale video game developed and published by South Korean publisher Krafton Inc. specifically for the Indian market.",
+  "last_refreshed": "2026-11-01T10:50:10.774Z",
   "stock": {
     "applicable": false,
     "value": null,
     "currency": "KRW",
     "ticker": null,
     "as_of": null,
-    "note": "Reflects a brand/game title owned by Krafton Inc. (259960.KS), which is listed on the Korea Exchange.",
+    "note": "BGMI is a game title owned by Krafton Inc. (259960.KS), which is publicly traded on the KOSPI.",
     "confidence": "not_applicable"
   },
   "revenue": {
     "value": null,
     "currency": "KRW",
-    "period": "FY2024",
+    "period": "FY2025",
     "confidence": "not_found",
     "source": null
   },
   "operating_profit": {
     "value": null,
     "currency": "KRW",
-    "period": "FY2024",
+    "period": "FY2025",
     "confidence": "not_found",
     "source": null
   },
@@ -34,20 +34,20 @@
     "confidence": "not_found"
   },
   "marketing_spend": {
-    "value_low": 50000000000,
-    "value_high": 100000000000,
+    "value_low": 20000000000,
+    "value_high": 40000000000,
     "currency": "KRW",
-    "period": "FY2024",
+    "period": "FY2025",
     "tier": "3_modeled",
-    "derivation": "Modeled using a standard mobile gaming industry marketing-to-revenue ratio of 10-15% applied to BGMI's estimated revenue share within parent Krafton Inc.'s total 2024 revenue of 2.71 trillion KRW.",
-    "source": {
-      "name": "Koala Gains",
-      "url": "https://koalagains.com/stocks/KOSPI/259960",
-      "date": "2026-10-29"
-    }
+    "derivation": "Modeled assuming BGMI accounts for a key portion of Krafton's mobile segment revenue in India, applying an industry-standard 10-15% marketing ratio against estimated regional game revenues within Krafton's total FY2025 revenue of KRW 3.3266 trillion.",
+    "source": null
   },
   "trend_history": {
     "stock": [
+      {
+        "date": "2026-03-31",
+        "value": 181200
+      },
       {
         "date": "2026-09-02",
         "value": 224000
@@ -67,12 +67,20 @@
     ],
     "revenue": [
       {
+        "period": "2022",
+        "value": 1854016090000
+      },
+      {
+        "period": "2023",
+        "value": 1910576180000
+      },
+      {
         "period": "2024",
-        "value": 2709774110000
+        "value": 2709800000000
       },
       {
         "period": "2025",
-        "value": 3326553690000
+        "value": 3326600000000
       },
       {
         "period": "FY2024 (Krafton)",
@@ -90,27 +98,19 @@
   },
   "business_updates": [
     {
-      "headline": "BGMI 4.3 update collaborates with CSK and KKR for Indian Premier League 2026 season",
-      "date": "2026-04-30",
+      "headline": "BGMI 4.3 update introduces IPL 2026 content featuring collaborations with CSK and KKR",
+      "date": "2026-04-01",
       "source": {
         "name": "Stock Analysis",
         "url": "https://stockanalysis.com/quote/krx/259960"
       }
     },
     {
-      "headline": "Krafton expands startup incubator program in India to boost local game ecosystem and user acquisition",
-      "date": "2026-04-30",
+      "headline": "Krafton Q1 2026 results report a 17% YoY increase in BGMI paying users and record BGIS tournament viewership",
+      "date": "2026-05-01",
       "source": {
-        "name": "Stock Analysis",
-        "url": "https://stockanalysis.com/quote/krx/259960"
-      }
-    },
-    {
-      "headline": "Krafton achieves record Q3 2025 revenue driven by BGMI growth in India and PUBG ecosystem content",
-      "date": "2025-11-01",
-      "source": {
-        "name": "Flash Stock Sentinel",
-        "url": "https://flash.stocksentinel.ai/stock/259960.KS"
+        "name": "Krafton Inc",
+        "url": "https://www.krafton.com/en/news/press/krafton-announces-first-quarter-2026-results"
       }
     }
   ]

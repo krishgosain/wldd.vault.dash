@@ -4,37 +4,37 @@
   "parent": null,
   "entity_type": "public_standalone",
   "category": "EdTech",
-  "description": "Duolingo, Inc. is a publicly traded mobile learning platform offering language learning and digital education programs.",
-  "last_refreshed": "2026-10-25T08:41:15.513Z",
+  "description": "Duolingo, Inc. is a digital learning platform offering mobile language education, premium subscription tiers, and standardized English proficiency testing.",
+  "last_refreshed": "2026-11-01T10:45:41.602Z",
   "stock": {
     "applicable": true,
-    "value": 139.5,
+    "value": 133,
     "currency": "USD",
     "ticker": "DUOL",
-    "as_of": "2026-10-14",
-    "note": "Standalone public listing on NASDAQ",
+    "as_of": "2026-10-29",
+    "note": "Reflects standalone share price on NASDAQ",
     "confidence": "disclosed"
   },
   "revenue": {
-    "value": 298500000,
+    "value": 1037589000,
     "currency": "USD",
-    "period": "Q2 2026",
+    "period": "FY2025",
     "confidence": "disclosed",
     "source": {
-      "name": "Quiver Quantitative",
-      "url": "https://www.quiverquant.com/news/Duolingo+(DUOL)+Stock+Falls+on+Q2+2026+Earnings",
-      "date": "2026-08-01"
+      "name": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DUOL",
+      "date": "2026-02-27"
     }
   },
   "operating_profit": {
-    "value": 33900000,
+    "value": 141112104,
     "currency": "USD",
-    "period": "Q2 2026",
-    "confidence": "disclosed",
+    "period": "FY2025",
+    "confidence": "press_estimate",
     "source": {
-      "name": "Quiver Quantitative",
-      "url": "https://www.quiverquant.com/news/Duolingo+(DUOL)+Stock+Falls+on+Q2+2026+Earnings",
-      "date": "2026-08-01"
+      "name": "TIKR.com",
+      "url": "https://www.tikr.com/blog/duolingo-stock-fell-70-in-one-year-while-revenue-surged-40-is-a-2026-rebound-coming",
+      "date": "2026-01-01"
     }
   },
   "expenses": {
@@ -42,17 +42,13 @@
     "confidence": "not_found"
   },
   "marketing_spend": {
-    "value_low": 53730000,
-    "value_high": 59700000,
+    "value_low": 155000000,
+    "value_high": 208000000,
     "currency": "USD",
-    "period": "Q2 2026",
+    "period": "FY2025",
     "tier": "3_modeled",
-    "derivation": "Calculated by applying an estimated 18%-20% sales and marketing spend ratio to Q2 2026 revenue ($298.5 million), taking into account reported 35.3% quarter-over-quarter growth in sales and marketing expenses.",
-    "source": {
-      "name": "YouTube / Earnings Analysis",
-      "url": "https://www.youtube.com/watch?v=5bYvnSZyh3U",
-      "date": "2026-08-01"
-    }
+    "derivation": "Modeled using a standard consumer EdTech sales and marketing ratio of 15% to 20% applied to FY2025 revenue of $1.038 billion.",
+    "source": null
   },
   "trend_history": {
     "stock": [
@@ -63,38 +59,62 @@
       {
         "date": "2026-10-14",
         "value": 139.73
+      },
+      {
+        "date": "2026-10-29",
+        "value": 133
       }
     ],
     "revenue": [
       {
+        "period": "FY2022",
+        "value": 369495000
+      },
+      {
+        "period": "FY2023",
+        "value": 531109000
+      },
+      {
+        "period": "FY2024",
+        "value": 748024000
+      },
+      {
         "period": "FY2025",
-        "value": 1040000000
+        "value": 1037589000
       },
       {
         "period": "Q1 2026",
-        "value": 291900000
+        "value": 291967000
       },
       {
         "period": "Q2 2026",
-        "value": 298500000
+        "value": 298454000
       }
     ]
   },
   "business_updates": [
     {
-      "headline": "Duolingo reports Q2 2026 revenue of $298.5M, up 18.3% YoY, while marketing spend increases 35.3%",
-      "date": "2026-08-01",
+      "headline": "Duolingo Invests in World-Class Motion Design with Acquisition of Animade",
+      "date": "2026-08-13",
       "source": {
-        "name": "Quiver Quantitative",
-        "url": "https://www.quiverquant.com/news/Duolingo+(DUOL)+Stock+Falls+on+Q2+2026+Earnings"
+        "name": "Duolingo Investor Relations",
+        "url": "http://investors.duolingo.com/investor-relations"
       }
     },
     {
-      "headline": "Securities Fraud Class Action Lawsuit Notice Issued to Duolingo Investors",
-      "date": "2026-10-09",
+      "headline": "Duolingo Appoints Sallie Krawcheck to Board of Directors",
+      "date": "2026-08-10",
       "source": {
-        "name": "Gotrade / Business Wire",
-        "url": "https://www.heygotrade.com/en/us-stock/duol"
+        "name": "Duolingo Investor Relations",
+        "url": "http://investors.duolingo.com/investor-relations"
+      }
+    },
+    {
+      "headline": "Duolingo Reports Q2 2026 Revenue of $298.5M, Up 18.3% Year-over-Year",
+      "date": "2026-08-05",
+      "source": {
+        "name": "StockStory",
+        "url": "https://stockstory.org/us/stocks/nasdaq/duol/news/earnings/duolingo-nasdaqduol-posts-better-than-expected-sales-in-q2-cy2026-but-stock-drops-12percent"
       }
     }
   ]

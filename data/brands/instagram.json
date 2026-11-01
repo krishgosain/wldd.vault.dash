@@ -4,60 +4,50 @@
   "parent": "Meta Platforms",
   "entity_type": "public_parent",
   "category": "Social",
-  "description": "Instagram is a photo and video sharing social networking platform owned by parent company Meta Platforms.",
-  "last_refreshed": "2026-10-25T08:43:12.771Z",
+  "description": "Instagram is a social media photo and video sharing platform owned by parent company Meta Platforms, Inc.",
+  "last_refreshed": "2026-11-01T10:45:58.202Z",
   "stock": {
     "applicable": false,
     "value": null,
     "currency": "USD",
-    "ticker": "META",
-    "as_of": "2026-10-23",
-    "note": "Reflects parent company Meta Platforms, Inc. (NASDAQ: META), as Instagram is not independently listed.",
+    "ticker": null,
+    "as_of": null,
+    "note": "Reflects parent company Meta Platforms (META); Instagram does not trade under a standalone ticker.",
     "confidence": "not_applicable"
   },
   "revenue": {
-    "value": 64601000000,
+    "value": 71000000000,
     "currency": "USD",
-    "period": "Q3 2026",
-    "confidence": "disclosed",
+    "period": "FY2025",
+    "confidence": "press_estimate",
     "source": {
-      "name": "Marketing4eCommerce",
-      "url": "https://marketing4ecommerce.net/en/metas-revenue-increases-while-its-operating-income-decreases",
-      "date": "2026-10-23"
+      "name": "The Motley Fool",
+      "url": "https://www.fool.com/investing/how-to-invest/stocks/how-does-instagram-make-money",
+      "date": "2025-09-01"
     }
   },
   "operating_profit": {
-    "value": 12988000000,
+    "value": null,
     "currency": "USD",
-    "period": "Q3 2026",
-    "confidence": "disclosed",
-    "source": {
-      "name": "Marketing4eCommerce",
-      "url": "https://marketing4ecommerce.net/en/metas-revenue-increases-while-its-operating-income-decreases",
-      "date": "2026-10-23"
-    }
+    "period": "FY2025",
+    "confidence": "not_found",
+    "source": null
   },
   "expenses": {
-    "breakdown": [
-      {
-        "label": "Multistate teen mental health legal settlement charge",
-        "value": 9890000000,
-        "confidence": "disclosed"
-      }
-    ],
-    "confidence": "disclosed"
+    "breakdown": [],
+    "confidence": "not_found"
   },
   "marketing_spend": {
-    "value_low": 3230050000,
-    "value_high": 6460100000,
+    "value_low": 3550000000,
+    "value_high": 5680000000,
     "currency": "USD",
-    "period": "Q3 2026",
+    "period": "FY2025",
     "tier": "3_modeled",
-    "derivation": "Calculated using an estimated sales and marketing expenditure benchmark of 5% to 10% applied to Meta Platforms' Q3 2026 consolidated revenue of $64.601 billion.",
+    "derivation": "Modeled assuming an industry-standard 5% to 8% marketing reinvestment ratio against Instagram's estimated $71 billion global revenue for FY2025.",
     "source": {
-      "name": "Marketing4eCommerce",
-      "url": "https://marketing4ecommerce.net/en/metas-revenue-increases-while-its-operating-income-decreases",
-      "date": "2026-10-23"
+      "name": "The Motley Fool",
+      "url": "https://www.fool.com/investing/how-to-invest/stocks/how-does-instagram-make-money",
+      "date": "2025-09-01"
     }
   },
   "trend_history": {
@@ -78,7 +68,7 @@
     "revenue": [
       {
         "period": "FY2025",
-        "value": 201000000000
+        "value": 71000000000
       },
       {
         "period": "Q1 2026",
@@ -96,27 +86,27 @@
   },
   "business_updates": [
     {
-      "headline": "Meta agrees to $9.89 billion multistate legal settlement over social media impact on youth mental health",
-      "date": "2026-10-23",
+      "headline": "Instagram reaches 3 billion monthly active users milestone",
+      "date": "2025-09-01",
       "source": {
-        "name": "Marketing4eCommerce",
-        "url": "https://marketing4ecommerce.net/en/metas-revenue-increases-while-its-operating-income-decreases"
+        "name": "The Motley Fool",
+        "url": "https://www.fool.com/investing/how-to-invest/stocks/how-does-instagram-make-money"
       }
     },
     {
-      "headline": "Meta introduces AI-based assistant for creators to guide content strategy and audience engagement",
-      "date": "2026-06-01",
+      "headline": "Meta rolls out paid subscription plans across Facebook, Instagram, and WhatsApp",
+      "date": "2026-05-28",
       "source": {
-        "name": "Wikipedia - Meta Platforms",
+        "name": "Meta Platforms - Wikipedia",
         "url": "https://en.wikipedia.org/wiki/Meta_Platforms"
       }
     },
     {
-      "headline": "Meta reports 26% year-over-year Q3 2026 revenue growth to $64.6 billion",
-      "date": "2026-10-23",
+      "headline": "Meta unleashes next-generation AI tools to transform advertising and creator marketing",
+      "date": "2026-06-24",
       "source": {
-        "name": "Bozeman Daily Chronicle / AP",
-        "url": "https://www.bozemandailychronicle.com/wire/business/meta-q3-revenue-tops-estimates-and-zuckerberg-says-muse-accounts-have-topped-10-million/article_d5c8eecd-38b4-5998-b14f-0acb1e0a8fe4.html"
+        "name": "Meta Platforms - Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Meta_Platforms"
       }
     }
   ]

@@ -1,46 +1,60 @@
 {
   "name": "Prime Video",
   "slug": "prime-video",
-  "parent": "Amazon.com, Inc.",
+  "parent": "Amazon",
   "entity_type": "public_parent",
   "category": "OTT",
-  "description": "Prime Video is an over-the-top (OTT) video streaming service owned and operated by Amazon.com, Inc.",
-  "last_refreshed": "2026-10-29T10:21:20.954Z",
+  "description": "Prime Video is an over-the-top (OTT) streaming and video-on-demand service owned and operated by Amazon.com, Inc.",
+  "last_refreshed": "2026-11-01T10:49:48.867Z",
   "stock": {
     "applicable": false,
     "value": null,
     "currency": "USD",
     "ticker": null,
     "as_of": null,
-    "note": "Prime Video does not have a standalone stock ticker; parent company Amazon.com, Inc. trades on NASDAQ under ticker AMZN.",
+    "note": "Prime Video is a subsidiary business segment of Amazon.com, Inc. (NASDAQ: AMZN) and does not trade independently.",
     "confidence": "not_applicable"
   },
   "revenue": {
-    "value": null,
+    "value": 14000000000,
     "currency": "USD",
-    "period": "FY2025",
-    "confidence": "not_found",
-    "source": null
+    "period": "FY2023",
+    "confidence": "press_estimate",
+    "source": {
+      "name": "Business of Apps",
+      "url": "https://www.businessofapps.com/data/amazon-prime-video-statistics",
+      "date": "2026"
+    }
   },
   "operating_profit": {
     "value": null,
     "currency": "USD",
-    "period": "FY2025",
+    "period": "FY2023",
     "confidence": "not_found",
     "source": null
   },
   "expenses": {
-    "breakdown": [],
-    "confidence": "not_found"
+    "breakdown": [
+      {
+        "label": "Content Spend",
+        "value": 18900000000,
+        "confidence": "disclosed"
+      }
+    ],
+    "confidence": "press_estimate"
   },
   "marketing_spend": {
-    "value_low": 2000000000,
-    "value_high": 4000000000,
+    "value_low": 2100000000,
+    "value_high": 3500000000,
     "currency": "USD",
-    "period": "FY2025",
+    "period": "FY2023",
     "tier": "3_modeled",
-    "derivation": "Modeled based on standard OTT marketing-to-revenue benchmarks of 10%-15% applied against estimated Prime Video global subscription and ad sales revenues.",
-    "source": null
+    "derivation": "Modeled by applying a standard OTT industry marketing-to-revenue ratio of 15% to 25% against Prime Video's estimated $14 billion FY2023 revenue.",
+    "source": {
+      "name": "Business of Apps",
+      "url": "https://www.businessofapps.com/data/amazon-prime-video-statistics",
+      "date": "2026"
+    }
   },
   "trend_history": {
     "stock": [
@@ -77,24 +91,60 @@
       {
         "period": "2024",
         "value": 13500000000
+      },
+      {
+        "period": "FY2018",
+        "value": 4400000000
+      },
+      {
+        "period": "FY2019",
+        "value": 5400000000
+      },
+      {
+        "period": "FY2020",
+        "value": 7800000000
+      },
+      {
+        "period": "FY2021",
+        "value": 10300000000
+      },
+      {
+        "period": "FY2022",
+        "value": 11500000000
+      },
+      {
+        "period": "FY2023",
+        "value": 12800000000
+      },
+      {
+        "period": "FY2024",
+        "value": 13500000000
       }
     ]
   },
   "business_updates": [
     {
-      "headline": "Delivered strong viewership for inaugural season of NBA on Prime Video, with a peak of 6.5 million U.S. viewers for Game 7 of the Eastern Conference Semifinals.",
-      "date": "2026-07-29",
+      "headline": "Prime Video secures exclusive global broadcasting rights for the Emmys from 2027 through 2033",
+      "date": "2026-10-30",
       "source": {
-        "name": "Business Wire",
-        "url": "https://www.businesswire.com/news/home/20260729379483/en/Amazon.com-Announces-Second-Quarter-Results"
+        "name": "TheWrap",
+        "url": "https://www.thewrap.com/industry-news/business/amazon-earnings-q3-2026"
       }
     },
     {
-      "headline": "Debuted exclusive coverage of NBA SoFi Play-In Tournament, averaging nearly 2.8 million U.S. viewers across six exclusive broadcasts.",
-      "date": "2026-04-30",
+      "headline": "Prime Video ad tier expands to reach over 315 million monthly active users worldwide",
+      "date": "2026-10-30",
       "source": {
-        "name": "Amazon Investor Relations",
-        "url": "https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-First-Quarter-Results/default.aspx"
+        "name": "Investing.com",
+        "url": "https://www.investing.com/analysis/amazon-says-prime-video-revenue-is-running-at-tens-of-billions-200690565"
+      }
+    },
+    {
+      "headline": "Amazon increases annual Prime Video content spend to $18.9 billion",
+      "date": "2026-01-01",
+      "source": {
+        "name": "Business of Apps",
+        "url": "https://www.businessofapps.com/data/amazon-prime-video-statistics"
       }
     }
   ]

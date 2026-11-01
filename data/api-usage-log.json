@@ -748,6 +748,153 @@
       "tavily_credits": 1,
       "gemini_requests": 1,
       "timestamp": "2026-10-30T10:26:08.294Z"
+    },
+    {
+      "source": "daily_refresh",
+      "brand": "Uber",
+      "tavily_credits": 1,
+      "gemini_requests": 1,
+      "timestamp": "2026-11-01T10:45:23.274Z"
+    },
+    {
+      "source": "daily_refresh",
+      "brand": "Duolingo",
+      "tavily_credits": 1,
+      "gemini_requests": 1,
+      "timestamp": "2026-11-01T10:45:41.602Z"
+    },
+    {
+      "source": "daily_refresh",
+      "brand": "Instagram",
+      "tavily_credits": 1,
+      "gemini_requests": 1,
+      "timestamp": "2026-11-01T10:45:58.203Z"
+    },
+    {
+      "source": "daily_refresh",
+      "brand": "ChatGPT",
+      "tavily_credits": 1,
+      "gemini_requests": 1,
+      "timestamp": "2026-11-01T10:46:14.361Z"
+    },
+    {
+      "source": "daily_refresh",
+      "brand": "Tata Motors",
+      "tavily_credits": 1,
+      "gemini_requests": 1,
+      "timestamp": "2026-11-01T10:46:35.070Z"
+    },
+    {
+      "source": "daily_refresh",
+      "brand": "Philips India",
+      "tavily_credits": 1,
+      "gemini_requests": 1,
+      "timestamp": "2026-11-01T10:46:55.311Z"
+    },
+    {
+      "source": "daily_refresh",
+      "brand": "Spotify",
+      "tavily_credits": 1,
+      "gemini_requests": 1,
+      "timestamp": "2026-11-01T10:47:16.176Z"
+    },
+    {
+      "source": "daily_refresh",
+      "brand": "Netflix",
+      "tavily_credits": 1,
+      "gemini_requests": 1,
+      "timestamp": "2026-11-01T10:47:39.142Z"
+    },
+    {
+      "source": "daily_refresh",
+      "brand": "Tinder",
+      "tavily_credits": 1,
+      "gemini_requests": 1,
+      "timestamp": "2026-11-01T10:47:52.326Z"
+    },
+    {
+      "source": "daily_refresh",
+      "brand": "District",
+      "tavily_credits": 1,
+      "gemini_requests": 1,
+      "timestamp": "2026-11-01T10:48:10.507Z"
+    },
+    {
+      "source": "daily_refresh",
+      "brand": "Audible",
+      "tavily_credits": 1,
+      "gemini_requests": 1,
+      "timestamp": "2026-11-01T10:48:24.114Z"
+    },
+    {
+      "source": "daily_refresh",
+      "brand": "JioHotstar",
+      "tavily_credits": 1,
+      "gemini_requests": 1,
+      "timestamp": "2026-11-01T10:48:46.487Z"
+    },
+    {
+      "source": "daily_refresh",
+      "brand": "Amazon Shopping",
+      "tavily_credits": 1,
+      "gemini_requests": 1,
+      "timestamp": "2026-11-01T10:49:09.777Z"
+    },
+    {
+      "source": "daily_refresh",
+      "brand": "Amazon Now",
+      "tavily_credits": 1,
+      "gemini_requests": 1,
+      "timestamp": "2026-11-01T10:49:30.636Z"
+    },
+    {
+      "source": "daily_refresh",
+      "brand": "Prime Video",
+      "tavily_credits": 1,
+      "gemini_requests": 1,
+      "timestamp": "2026-11-01T10:49:48.868Z"
+    },
+    {
+      "source": "daily_refresh",
+      "brand": "BGMI",
+      "tavily_credits": 1,
+      "gemini_requests": 1,
+      "timestamp": "2026-11-01T10:50:10.775Z"
+    },
+    {
+      "source": "daily_refresh",
+      "brand": "Paper Boat",
+      "tavily_credits": 1,
+      "gemini_requests": 1,
+      "timestamp": "2026-11-01T10:50:27.301Z"
+    },
+    {
+      "source": "daily_refresh",
+      "brand": "Bajaj EV",
+      "tavily_credits": 1,
+      "gemini_requests": 1,
+      "timestamp": "2026-11-01T10:50:44.606Z"
+    },
+    {
+      "source": "daily_refresh",
+      "brand": "Agilitas",
+      "tavily_credits": 1,
+      "gemini_requests": 1,
+      "timestamp": "2026-11-01T10:51:07.199Z"
+    },
+    {
+      "source": "daily_refresh",
+      "brand": "Wispr Flow",
+      "tavily_credits": 1,
+      "gemini_requests": 1,
+      "timestamp": "2026-11-01T10:51:22.494Z"
+    },
+    {
+      "source": "daily_refresh",
+      "brand": "Rapido",
+      "tavily_credits": 1,
+      "gemini_requests": 1,
+      "timestamp": "2026-11-01T10:51:44.938Z"
     }
   ]
 }

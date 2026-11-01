@@ -4,28 +4,28 @@
   "parent": "Bajaj Auto Ltd.",
   "entity_type": "public_parent",
   "category": "Auto / EV",
-  "description": "Bajaj EV is the electric mobility division of Bajaj Auto Ltd., manufacturing electric two-wheelers and three-wheelers.",
-  "last_refreshed": "2026-10-29T10:22:43.609Z",
+  "description": "Bajaj EV is the electric vehicle portfolio of Bajaj Auto Ltd., a leading global manufacturer of two-wheelers and three-wheelers.",
+  "last_refreshed": "2026-11-01T10:50:44.605Z",
   "stock": {
     "applicable": false,
-    "value": 10335,
+    "value": 10350,
     "currency": "INR",
     "ticker": "BAJAJ-AUTO.NS",
-    "as_of": "2026-10-29",
+    "as_of": "2026-10-30",
     "note": "Reflects parent company Bajaj Auto Ltd., not Bajaj EV specifically.",
     "confidence": "not_applicable"
   },
   "revenue": {
     "value": null,
     "currency": "INR",
-    "period": "TTM",
+    "period": "FY2026",
     "confidence": "not_found",
     "source": null
   },
   "operating_profit": {
     "value": null,
     "currency": "INR",
-    "period": "TTM",
+    "period": "FY2026",
     "confidence": "not_found",
     "source": null
   },
@@ -39,7 +39,7 @@
     "currency": "INR",
     "period": "FY2026",
     "tier": "3_modeled",
-    "derivation": "Modeled assuming a 15-25% allocation of Bajaj Auto's overall sales and after-sales expenditure towards marketing and expanding the Bajaj EV distribution footprint.",
+    "derivation": "Estimated by applying an industry-standard 3-5% marketing spend ratio against the projected EV segment revenue contribution within parent company Bajaj Auto Ltd.'s FY2026 operations.",
     "source": null
   },
   "trend_history": {
@@ -63,6 +63,10 @@
       {
         "date": "2026-10-29",
         "value": 10335
+      },
+      {
+        "date": "2026-10-30",
+        "value": 10350
       }
     ],
     "revenue": [
@@ -84,11 +88,11 @@
       },
       {
         "period": "FY2024",
-        "value": 446852.3
+        "value": 448700000000
       },
       {
         "period": "FY2025",
-        "value": 500103.1
+        "value": 509950000000
       },
       {
         "period": "FY2025 (EV segment)",
@@ -96,7 +100,7 @@
       },
       {
         "period": "FY2026",
-        "value": 587324.8
+        "value": 629050000000
       },
       {
         "period": "Jun 2026",
@@ -114,19 +118,19 @@
   },
   "business_updates": [
     {
-      "headline": "Bajaj Auto launches RE EV 9.0 electric passenger 3-wheeler",
-      "date": "2026-03-31",
+      "headline": "Bajaj Auto reports highest ever revenue from operations of ₹58,732 crore in FY2026",
+      "date": "2026-05-29",
       "source": {
-        "name": "Bajaj Auto Annual Report",
-        "url": "https://investors.bajajauto.com/management-discussion-analysis"
+        "name": "Annual Report 2025-26",
+        "url": "https://investors.bajajauto.com/ar26"
       }
     },
     {
-      "headline": "Bajaj Auto plans EV distribution expansion to 600 stores",
-      "date": "2024-04-18",
+      "headline": "Bajaj Auto expects to gain market share in 125cc+ segments and continue strong export momentum",
+      "date": "2026-03-20",
       "source": {
         "name": "CNBC TV18",
-        "url": "https://www.youtube.com/watch?v=q0Jjx2kEuus"
+        "url": "https://www.youtube.com/watch?v=Y7KzYsOz3sQ"
       }
     }
   ]

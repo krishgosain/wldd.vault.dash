@@ -4,55 +4,53 @@
   "parent": "OpenAI",
   "entity_type": "foreign_private",
   "category": "Consumer Tech / AI",
-  "description": "ChatGPT is an artificial intelligence answer engine and conversational platform developed by private parent company OpenAI.",
-  "last_refreshed": "2026-10-25T08:43:39.345Z",
+  "description": "ChatGPT is an artificial intelligence chatbot and answer engine developed by private parent company OpenAI.",
+  "last_refreshed": "2026-11-01T10:46:14.360Z",
   "stock": {
     "applicable": false,
     "value": null,
     "currency": "USD",
     "ticker": null,
     "as_of": null,
-    "note": "OpenAI is a private company, though an IPO is reportedly planned for 2027.",
+    "note": "Not applicable; OpenAI is a privately held company.",
     "confidence": "not_applicable"
   },
   "revenue": {
-    "value": 6700000000,
-    "currency": "USD",
-    "period": "Q2 2026",
-    "confidence": "press_estimate",
-    "source": {
-      "name": "fatjoe",
-      "url": "https://fatjoe.com/blog/chatgpt-stats",
-      "date": "2026-10-01"
-    }
-  },
-  "operating_profit": {
-    "value": -12300000000,
-    "currency": "USD",
-    "period": "Q2 2026",
-    "confidence": "press_estimate",
-    "source": {
-      "name": "fatjoe",
-      "url": "https://fatjoe.com/blog/chatgpt-stats",
-      "date": "2026-10-01"
-    }
-  },
-  "expenses": {
-    "breakdown": [],
-    "confidence": "not_found"
-  },
-  "marketing_spend": {
-    "value_low": 1200000000,
-    "value_high": 1600000000,
+    "value": 8000000000,
     "currency": "USD",
     "period": "FY2025",
-    "tier": "3_modeled",
-    "derivation": "Modeled using a revenue-ratio method based on FY2025 ChatGPT revenue of $8,000,000,000 USD and an estimated 15–20% sales and marketing expenditure allocation typical for fast-growing consumer tech and SaaS businesses.",
+    "confidence": "press_estimate",
     "source": {
       "name": "Business of Apps",
       "url": "https://www.businessofapps.com/data/chatgpt-statistics",
       "date": "2026-01-01"
     }
+  },
+  "operating_profit": {
+    "value": null,
+    "currency": "USD",
+    "period": "FY2025",
+    "confidence": "not_found",
+    "source": null
+  },
+  "expenses": {
+    "breakdown": [
+      {
+        "label": "Research (OpenAI total)",
+        "value": 19000000000,
+        "confidence": "disclosed"
+      }
+    ],
+    "confidence": "press_estimate"
+  },
+  "marketing_spend": {
+    "value_low": 400000000,
+    "value_high": 800000000,
+    "currency": "USD",
+    "period": "FY2025",
+    "tier": "3_modeled",
+    "derivation": "Modeled by applying a standard 5% to 10% consumer tech marketing benchmark to ChatGPT's reported FY2025 revenue of $8 billion.",
+    "source": null
   },
   "trend_history": {
     "stock": [],
@@ -85,7 +83,7 @@
   },
   "business_updates": [
     {
-      "headline": "ChatGPT Ads Reaches $1 Billion Annualized Revenue Run Rate",
+      "headline": "ChatGPT Ads reaches $1 billion in annualized revenue run rate",
       "date": "2026-08-31",
       "source": {
         "name": "OpenAI",
@@ -93,19 +91,19 @@
       }
     },
     {
-      "headline": "Enterprise Revenue Overtakes Consumer Revenue in ChatGPT Business",
-      "date": "2026-08-14",
+      "headline": "ChatGPT consumer subscribers exceed 50 million with 9 million paying business users",
+      "date": "2026-02-01",
       "source": {
-        "name": "fatjoe",
-        "url": "https://fatjoe.com/blog/chatgpt-stats"
+        "name": "Sacra",
+        "url": "https://sacra.com/c/openai"
       }
     },
     {
-      "headline": "OpenAI Rules Out 2026 IPO, Shifting Target to 2027",
-      "date": "2026-10-01",
+      "headline": "OpenAI projects $2.5 billion in advertising revenue for 2026",
+      "date": "2026-04-01",
       "source": {
-        "name": "Yahoo Finance",
-        "url": "https://finance.yahoo.com/technology/ai/articles/openai-revenue-20b-below-previous-181839907.html"
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/OpenAI"
       }
     }
   ]

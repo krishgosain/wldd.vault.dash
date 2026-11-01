@@ -4,62 +4,78 @@
   "parent": "Agilitas Sports Pvt Ltd",
   "entity_type": "india_private_registered",
   "category": "Footwear / Sports",
-  "description": "Agilitas is an Indian sportswear and athletic footwear brand operated by Agilitas Sports Pvt Ltd, utilizing a vertically integrated ecosystem from manufacturing to retail.",
-  "last_refreshed": "2026-10-29T10:23:11.177Z",
+  "description": "Agilitas is an Indian sports footwear and athleisure manufacturing brand platform operated by Agilitas Sports Private Limited.",
+  "last_refreshed": "2026-11-01T10:51:07.199Z",
   "stock": {
     "applicable": false,
     "value": null,
     "currency": "INR",
     "ticker": null,
     "as_of": null,
-    "note": "Agilitas Sports Pvt Ltd is a privately held unlisted entity.",
+    "note": "Agilitas Sports Private Limited is a privately registered company and is not publicly listed.",
     "confidence": "not_applicable"
   },
   "revenue": {
-    "value": 141.29,
-    "currency": "USD",
-    "period": "FY2026",
-    "confidence": "press_estimate",
+    "value": 15950000000,
+    "currency": "INR",
+    "period": "FY2025",
+    "confidence": "disclosed",
     "source": {
-      "name": "CB Insights",
-      "url": "https://www.cbinsights.com/company/agilitas-sports/financials",
-      "date": "2026-06-01"
+      "name": "Tracxn",
+      "url": "https://tracxn.com/d/legal-entities/india/agilitas-sports-private-limited/__--eXRpv1ljriYRhElLZR3qYbvGa3fsYBwn5y1iAMBsE",
+      "date": "2026-01-01"
     }
   },
   "operating_profit": {
-    "value": null,
-    "currency": "USD",
-    "period": "FY2026",
-    "confidence": "not_found",
-    "source": null
+    "value": 21060000000,
+    "currency": "INR",
+    "period": "FY2025",
+    "confidence": "disclosed",
+    "source": {
+      "name": "Tracxn",
+      "url": "https://tracxn.com/d/legal-entities/india/agilitas-sports-private-limited/__--eXRpv1ljriYRhElLZR3qYbvGa3fsYBwn5y1iAMBsE",
+      "date": "2026-01-01"
+    }
   },
   "expenses": {
-    "breakdown": [],
-    "confidence": "not_found"
+    "breakdown": [
+      {
+        "label": "Operating Expenses",
+        "value": 60560000000,
+        "confidence": "disclosed"
+      },
+      {
+        "label": "Employee Expenses",
+        "value": 51720000000,
+        "confidence": "disclosed"
+      },
+      {
+        "label": "Interest Expenses",
+        "value": 70000000000,
+        "confidence": "disclosed"
+      }
+    ],
+    "confidence": "disclosed"
   },
   "marketing_spend": {
-    "value_low": 11.3,
-    "value_high": 16.95,
-    "currency": "USD",
-    "period": "FY2026",
+    "value_low": 797500000,
+    "value_high": 1276000000,
+    "currency": "INR",
+    "period": "FY2025",
     "tier": "3_modeled",
-    "derivation": "Calculated as 8% to 12% of reported FY2026 revenue ($141.29M) based on standard ad-spend-to-revenue benchmarks for footwear and sportswear brands.",
-    "source": {
-      "name": "CB Insights",
-      "url": "https://www.cbinsights.com/company/agilitas-sports/financials",
-      "date": "2026-06-01"
-    }
+    "derivation": "Modeled as 5% to 8% of FY 2024-25 reported revenue of ₹1,595 crore, based on typical footwear and athleisure industry ad-spend intensity benchmarks.",
+    "source": null
   },
   "trend_history": {
     "stock": [],
     "revenue": [
       {
         "period": "FY2024",
-        "value": 7280000000
+        "value": 30130000000
       },
       {
         "period": "FY2025",
-        "value": 10150000000
+        "value": 15950000000
       },
       {
         "period": "FY2026",
@@ -69,7 +85,15 @@
   },
   "business_updates": [
     {
-      "headline": "Agilitas Sports raises ₹225 Crore venture funding led by Nexus Venture Partners",
+      "headline": "Shraddha Shetty Takes Charge of Lotto Marketing at Agilitas",
+      "date": "2026-09-28",
+      "source": {
+        "name": "Women Entrepreneurs Review",
+        "url": "https://equityzen.com/company/agilitassports"
+      }
+    },
+    {
+      "headline": "Agilitas Sports Private Limited raises INR 2.25 billion in venture funding led by Nexus Venture Partners",
       "date": "2026-05-01",
       "source": {
         "name": "Preqin",
@@ -77,11 +101,11 @@
       }
     },
     {
-      "headline": "Agilitas Sports acquires footwear brand One8 Select",
-      "date": "2025-12-08",
+      "headline": "Lotto welcomes Sania Mirza as Chief Advisor for Women’s Sports",
+      "date": "2026-01-08",
       "source": {
-        "name": "PitchBook",
-        "url": "https://pitchbook.com/profiles/company/527580-10"
+        "name": "LinkedIn",
+        "url": "https://in.linkedin.com/company/agilitas-sport"
       }
     }
   ]
