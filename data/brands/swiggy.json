@@ -4,43 +4,61 @@
   "parent": null,
   "entity_type": "public_standalone",
   "category": "Food Delivery / Quick Commerce",
-  "description": "Swiggy is an Indian online food delivery and quick-commerce company operating hyperlocal delivery services.",
-  "last_refreshed": "2026-10-30T10:23:12.245Z",
+  "description": "Swiggy is an Indian consumer technology company operating an on-demand food delivery and quick commerce platform.",
+  "last_refreshed": "2026-11-02T11:35:58.676Z",
   "stock": {
     "applicable": true,
-    "value": 175.8,
+    "value": 176.6,
     "currency": "INR",
     "ticker": "SWIGGY.NS",
-    "as_of": "2026-10-30",
-    "note": "Reflects regular market price on the National Stock Exchange of India.",
+    "as_of": "2026-11-02",
+    "note": "Standalone listing on NSE",
     "confidence": "disclosed"
   },
   "revenue": {
-    "value": null,
-    "currency": "INR",
-    "period": "Q2 2026",
-    "confidence": "not_found",
-    "source": null
+    "value": 23053,
+    "currency": "INR Crore",
+    "period": "FY2026",
+    "confidence": "disclosed",
+    "source": {
+      "name": "Upstox",
+      "url": "https://upstox.com/stocks/swiggy-limited-share-price/INE00H001014",
+      "date": "2026-10-31"
+    }
   },
   "operating_profit": {
-    "value": null,
-    "currency": "INR",
-    "period": "Q2 2026",
-    "confidence": "not_found",
-    "source": null
+    "value": -4154,
+    "currency": "INR Crore",
+    "period": "FY2026",
+    "confidence": "disclosed",
+    "source": {
+      "name": "Upstox",
+      "url": "https://upstox.com/stocks/swiggy-limited-share-price/INE00H001014",
+      "date": "2026-10-31"
+    }
   },
   "expenses": {
-    "breakdown": [],
-    "confidence": "not_found"
+    "breakdown": [
+      {
+        "label": "Total Consolidated Expenses",
+        "value": 27701,
+        "confidence": "disclosed"
+      }
+    ],
+    "confidence": "disclosed"
   },
   "marketing_spend": {
-    "value_low": 5000000000,
-    "value_high": 8000000000,
-    "currency": "INR",
-    "period": "FY2025",
-    "tier": "4_triangulated",
-    "derivation": "Estimated based on quick-commerce and food delivery category advertising spend benchmarks in India, as specific brand disclosure was not provided in the source text.",
-    "source": null
+    "value_low": 2300,
+    "value_high": 3450,
+    "currency": "INR Crore",
+    "period": "FY2026",
+    "tier": "3_modeled",
+    "derivation": "Estimated at 10% to 15% of consolidated annual revenue (₹23,053 Crore in FY26), based on standard marketing-to-revenue ratios in the hyperlocal food delivery and quick commerce sectors.",
+    "source": {
+      "name": "Upstox",
+      "url": "https://upstox.com/stocks/swiggy-limited-share-price/INE00H001014",
+      "date": "2026-10-31"
+    }
   },
   "trend_history": {
     "stock": [
@@ -53,32 +71,68 @@
         "value": 278.1
       },
       {
+        "date": "2026-10-22",
+        "value": 223.65
+      },
+      {
         "date": "2026-10-23",
         "value": 179.9
       },
       {
         "date": "2026-10-30",
         "value": 175.8
+      },
+      {
+        "date": "2026-10-31",
+        "value": 176.6
+      },
+      {
+        "date": "2026-11-02",
+        "value": 176.6
       }
     ],
     "revenue": [
+      {
+        "period": "Dec 2025",
+        "value": 6148
+      },
       {
         "period": "FY2025",
         "value": 152267500000
       },
       {
+        "period": "Jun 2026",
+        "value": 6812
+      },
+      {
+        "period": "Mar 2026",
+        "value": 6383
+      },
+      {
         "period": "Q1 FY2027",
         "value": 7112
+      },
+      {
+        "period": "Sep 2026",
+        "value": 7571
       }
     ]
   },
   "business_updates": [
     {
-      "headline": "India's Swiggy falls to record low as quick-commerce losses widen",
-      "date": "2026-10-23",
+      "headline": "Swiggy expanded '99 Store' to 500 cities to target price-conscious customers",
+      "date": "2026-10-22",
       "source": {
-        "name": "Reuters",
-        "url": "https://www.reuters.com/world/india/indias-swiggy-falls-after-quick-commerce-losses-widen-during-second-quarter-2026-10-23"
+        "name": "ICICI Direct",
+        "url": "https://www.icicidirect.com/stocks/swiggy-ltd-share-price"
+      }
+    },
+    {
+      "headline": "Swiggy received an ESG rating of 78 from NSE Sustainability Ratings & Analytics",
+      "date": "2026-01-29",
+      "source": {
+        "name": "Swiggy Shareholder Letter",
+        "url": "https://www.swiggy.com/corporate/wp-content/uploads/2026/01/Q3-FY2026-Shareholder-letter.pdf"
       }
     }
   ]

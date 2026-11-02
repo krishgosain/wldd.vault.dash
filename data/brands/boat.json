@@ -4,54 +4,65 @@
   "parent": "Imagine Marketing Ltd.",
   "entity_type": "india_private_registered",
   "category": "Consumer Electronics",
-  "description": "boAt is an Indian consumer electronics and audio brand operated by Imagine Marketing Ltd.",
-  "last_refreshed": "2026-10-30T10:24:30.550Z",
+  "description": "boAt is an Indian consumer tech and lifestyle audio brand owned by privately registered Imagine Marketing Ltd.",
+  "last_refreshed": "2026-11-02T11:37:04.933Z",
   "stock": {
     "applicable": false,
     "value": null,
     "currency": "INR",
     "ticker": null,
     "as_of": null,
-    "note": "Imagine Marketing Ltd. is a privately held Indian entity preparing for an IPO.",
+    "note": "boAt is a brand under Imagine Marketing Ltd., an unlisted private company planning an IPO.",
     "confidence": "not_applicable"
   },
   "revenue": {
-    "value": 30970000000,
+    "value": 29683000000,
     "currency": "INR",
-    "period": "FY2025",
+    "period": "FY2026",
     "confidence": "disclosed",
     "source": {
-      "name": "Planify",
-      "url": "https://www.facebook.com/planify.in/posts/boat-%F0%9D%97%A3%F0%9D%97%AE%F0%9D%97%BF%F0%9D%97%B2%F0%9D%97%BB%F0%9D%98%81-%F0%9D%97%9C%F0%9D%97%BA%F0%9D%97%AE%F0%9D%97%B4%F0%9D%97%B6%F0%9D%97%BB%F0%9D%97%B2-%F0%9D%97%A0%F0%9D%97%AE%F0%9D%97%BF%F0%9D%97%B8%F0%9D%97%B2%F0%9D%98%81%F0%9D%97%B6%F0%9D%97%BB%F0%9D%97%B4-%F0%9D%98%86%F0%9D%97%B2%F0%9D%98%80-%F0%9D%9F%AE%F0%9D%9F%AC%F0%9D%9F%AC%F0%9D%9F%AC-%F0%9D%97%96%F0%9D%97%BF-%F0%9D%97%9C%F0%9D%97%A3%F0%9D%97%A2-%F0%9D%97%AE-%F0%9D%98%83%F0%9D%97%AE%F0%9D%97%B9%F0%9D%98%82%F0%9D%97%AE%F0%9D%98%81%F0%9D%97%B6%F0%9D%97%BC%F0%9D%97%BB-%F0%9D%97%BC%F0%9D%97%B3-%F0%9D%9F%AD%F0%9D%9F%B1-%F0%9D%9F%AE%F0%9D%97%AF%F0%9D%97%BB-%F0%9D%9F%AD%F0%9D%9F%AF%F0%9D%97%B8-%F0%9D%97%96%F0%9D%97%BF%F0%9D%98%80-%F0%9D%9F%AD%F0%9D%9F%B4%F0%9D%97%B8/1203721941770463",
-      "date": "unknown"
+      "name": "UnlistedZone",
+      "url": "https://unlistedzone.com/shares/boat-unlisted-share-imagine-marketing",
+      "date": "2026-08-27"
     }
   },
   "operating_profit": {
-    "value": 610000000,
+    "value": 921000000,
     "currency": "INR",
-    "period": "FY2025",
+    "period": "FY2026",
     "confidence": "disclosed",
     "source": {
-      "name": "Planify",
-      "url": "https://www.facebook.com/planify.in/posts/boat-%F0%9D%97%A3%F0%9D%97%AE%F0%9D%97%BF%F0%9D%97%B2%F0%9D%97%BB%F0%9D%98%81-%F0%9D%97%9C%F0%9D%97%BA%F0%9D%97%AE%F0%9D%97%B4%F0%9D%97%B6%F0%9D%97%BB%F0%9D%97%B2-%F0%9D%97%A0%F0%9D%97%AE%F0%9D%97%BF%F0%9D%97%B8%F0%9D%97%B2%F0%9D%98%81%F0%9D%97%B6%F0%9D%97%BB%F0%9D%97%B4-%F0%9D%98%86%F0%9D%97%B2%F0%9D%98%80-%F0%9D%9F%AE%F0%9D%9F%AC%F0%9D%9F%AC%F0%9D%9F%AC-%F0%9D%97%96%F0%9D%97%BF-%F0%9D%97%9C%F0%9D%97%A3%F0%9D%97%A2-%F0%9D%97%AE-%F0%9D%98%83%F0%9D%97%AE%F0%9D%97%B9%F0%9D%98%82%F0%9D%97%AE%F0%9D%98%81%F0%9D%97%B6%F0%9D%97%BC%F0%9D%97%BB-%F0%9D%97%BC%F0%9D%97%B3-%F0%9D%9F%AD%F0%9D%9F%B1-%F0%9D%9F%AE%F0%9D%97%AF%F0%9D%97%BB-%F0%9D%9F%AD%F0%9D%9F%AF%F0%9D%97%B8-%F0%9D%97%96%F0%9D%97%BF%F0%9D%98%80-%F0%9D%9F%AD%F0%9D%9F%B4%F0%9D%97%B8/1203721941770463",
-      "date": "unknown"
+      "name": "UnlistedZone",
+      "url": "https://unlistedzone.com/shares/boat-unlisted-share-imagine-marketing",
+      "date": "2026-08-27"
     }
   },
   "expenses": {
-    "breakdown": [],
-    "confidence": "not_found"
+    "breakdown": [
+      {
+        "label": "Advertising cost reduction",
+        "value": 500000000,
+        "confidence": "disclosed"
+      },
+      {
+        "label": "Warranty cost reduction",
+        "value": 250000000,
+        "confidence": "disclosed"
+      }
+    ],
+    "confidence": "disclosed"
   },
   "marketing_spend": {
-    "value_low": 2477600000,
-    "value_high": 3716400000,
+    "value_low": 2374640000,
+    "value_high": 2968300000,
     "currency": "INR",
-    "period": "FY2025",
+    "period": "FY2026",
     "tier": "3_modeled",
-    "derivation": "Calculated by applying a standard consumer tech D2C brand marketing ratio of 8% to 12% against boAt's disclosed FY25 revenue of ₹3,097 crore.",
+    "derivation": "Modeled using an estimated 8% to 10% marketing-to-revenue ratio standard for D2C consumer audio and wearables brands applied to boAt's reported FY26 revenue of ₹29,683 million.",
     "source": {
-      "name": "Planify",
-      "url": "https://www.facebook.com/planify.in/posts/boat-%F0%9D%97%A3%F0%9D%97%AE%F0%9D%97%BF%F0%9D%97%B2%F0%9D%97%BB%F0%9D%98%81-%F0%9D%97%9C%F0%9D%97%BA%F0%9D%97%AE%F0%9D%97%B4%F0%9D%97%B6%F0%9D%97%BB%F0%9D%97%B2-%F0%9D%97%A0%F0%9D%97%AE%F0%9D%97%BF%F0%9D%97%B8%F0%9D%97%B2%F0%9D%98%81%F0%9D%97%B6%F0%9D%97%BB%F0%9D%97%B4-%F0%9D%98%86%F0%9D%97%B2%F0%9D%98%80-%F0%9D%9F%AE%F0%9D%9F%AC%F0%9D%9F%AC%F0%9D%9F%AC-%F0%9D%97%96%F0%9D%97%BF-%F0%9D%97%9C%F0%9D%97%A3%F0%9D%97%A2-%F0%9D%97%AE-%F0%9D%98%83%F0%9D%97%AE%F0%9D%97%B9%F0%9D%98%82%F0%9D%97%AE%F0%9D%98%81%F0%9D%97%B6%F0%9D%97%BC%F0%9D%97%BB-%F0%9D%97%BC%F0%9D%97%B3-%F0%9D%9F%AD%F0%9D%9F%B1-%F0%9D%9F%AE%F0%9D%97%AF%F0%9D%97%BB-%F0%9D%9F%AD%F0%9D%9F%AF%F0%9D%97%B8-%F0%9D%97%96%F0%9D%97%BF%F0%9D%98%80-%F0%9D%9F%AD%F0%9D%9F%B4%F0%9D%97%B8/1203721941770463",
-      "date": "unknown"
+      "name": "UnlistedZone",
+      "url": "https://unlistedzone.com/shares/boat-unlisted-share-imagine-marketing",
+      "date": "2026-08-27"
     }
   },
   "trend_history": {
@@ -68,24 +79,28 @@
       {
         "period": "FY2025",
         "value": 30970000000
+      },
+      {
+        "period": "FY2026",
+        "value": 29683000000
       }
     ]
   },
   "business_updates": [
     {
-      "headline": "boAt parent Imagine Marketing files updated confidential DRHP aiming to raise nearly ₹1,500 crore via IPO",
-      "date": "unknown",
+      "headline": "boAt's Parent Imagine Marketing Gets SEBI Nod for ₹1,500-Crore IPO",
+      "date": "2025-10-30",
       "source": {
-        "name": "Kotak Neo",
-        "url": "https://www.facebook.com/kotakneo/videos/indias-leading-audio-brand-boat-is-back-in-the-news-with-a-major-ipo-update-its-/1187128480151084"
+        "name": "UnlistedZone",
+        "url": "https://unlistedzone.com/shares/boat-unlisted-share-imagine-marketing"
       }
     },
     {
-      "headline": "boAt reports 38% net profit surge in FY26 to ₹84.5 crore",
-      "date": "unknown",
+      "headline": "boAt's profit jumped 43% despite revenue drop",
+      "date": "2026-08-27",
       "source": {
-        "name": "Instagram",
-        "url": "https://www.instagram.com/p/DciMG7zMWU5"
+        "name": "UnlistedZone",
+        "url": "https://unlistedzone.com/shares/boat-unlisted-share-imagine-marketing"
       }
     }
   ]

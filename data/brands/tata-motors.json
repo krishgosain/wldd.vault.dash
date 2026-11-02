@@ -1,40 +1,40 @@
 {
   "name": "Tata Motors",
   "slug": "tata-motors",
-  "parent": null,
+  "parent": "Tata Group",
   "entity_type": "public_standalone",
   "category": "Auto",
-  "description": "Tata Motors Limited is a major Indian public automotive manufacturer producing commercial, passenger, and electric vehicles.",
-  "last_refreshed": "2026-11-01T10:46:35.069Z",
+  "description": "Tata Motors Ltd. is an Indian multinational automotive manufacturing company owned by Tata Group, producing commercial vehicles and passenger cars.",
+  "last_refreshed": "2026-11-02T11:40:48.970Z",
   "stock": {
     "applicable": true,
-    "value": 416.7,
+    "value": 401.4,
     "currency": "INR",
     "ticker": "TATAMOTORS.NS",
-    "as_of": "2026-10-15",
-    "note": "Reflects Tata Motors share price; commercial vehicle business listed under ticker TMCV post-demerger.",
+    "as_of": "2026-11-02",
+    "note": "Reflects Tata Motors Ltd. regular market trading price on the National Stock Exchange of India.",
     "confidence": "disclosed"
   },
   "revenue": {
-    "value": 207000000000,
+    "value": 3500000000000,
     "currency": "INR",
-    "period": "Q1 FY27",
+    "period": "FY2026",
     "confidence": "disclosed",
     "source": {
-      "name": "WorldReview1989",
-      "url": "https://www.worldreview1989.com/2026/09/tata-motors-Stock-Analysis.html",
-      "date": "2026-09-01"
+      "name": "Tata Motors Knowledge Base",
+      "url": "https://tavily.com/knowledge/company/aZ23s7vRWCxI",
+      "date": "2026-11-02"
     }
   },
   "operating_profit": {
-    "value": 23000000000,
+    "value": 253300000000,
     "currency": "INR",
-    "period": "Q1 FY27",
+    "period": "FY2026",
     "confidence": "disclosed",
     "source": {
-      "name": "WorldReview1989",
-      "url": "https://www.worldreview1989.com/2026/09/tata-motors-Stock-Analysis.html",
-      "date": "2026-09-01"
+      "name": "Tata Motors Knowledge Base",
+      "url": "https://tavily.com/knowledge/company/aZ23s7vRWCxI",
+      "date": "2026-11-02"
     }
   },
   "expenses": {
@@ -42,12 +42,12 @@
     "confidence": "not_found"
   },
   "marketing_spend": {
-    "value_low": 3105000000,
-    "value_high": 5175000000,
+    "value_low": 52500000000,
+    "value_high": 87500000000,
     "currency": "INR",
-    "period": "Q1 FY27",
+    "period": "FY2026",
     "tier": "3_modeled",
-    "derivation": "Calculated by applying a standard automotive sector marketing expenditure ratio of 1.5% to 2.5% of quarterly revenue against Q1 FY27 consolidated revenue of ₹20,700 crore, as direct advertising spend was not disclosed.",
+    "derivation": "Modeled at 1.5% to 2.5% of FY2026 annual revenue (₹3.50 trillion INR), based on standard automotive industry marketing-to-revenue benchmark ratios.",
     "source": null
   },
   "trend_history": {
@@ -67,6 +67,10 @@
       {
         "date": "2025-08-01",
         "value": 669
+      },
+      {
+        "date": "2025-09-01",
+        "value": 680.2
       },
       {
         "date": "2025-10-01",
@@ -103,6 +107,10 @@
       {
         "date": "2026-10-16",
         "value": 421.05
+      },
+      {
+        "date": "2026-11-02",
+        "value": 401.4
       }
     ],
     "revenue": [
@@ -112,11 +120,11 @@
       },
       {
         "period": "FY2025",
-        "value": 582170000000
+        "value": 4370000000000
       },
       {
         "period": "FY2026",
-        "value": 838550000000
+        "value": 3500000000000
       },
       {
         "period": "Mar 2025",
@@ -131,6 +139,10 @@
         "value": 1044070000000
       },
       {
+        "period": "Q1 FY2027",
+        "value": 193290000000
+      },
+      {
         "period": "Q1 FY26",
         "value": 109000000000
       },
@@ -142,19 +154,19 @@
   },
   "business_updates": [
     {
-      "headline": "Tata Motors reports Q1 FY27 earnings with consolidated revenue up 9% YoY",
-      "date": "2026-08-13",
+      "headline": "Tata Motors Q1 FY27 standalone revenue reached ₹19,329 crore with 11.7% EBITDA margin",
+      "date": "2026-09-01",
       "source": {
-        "name": "CNBC-TV18",
-        "url": "https://www.youtube.com/watch?v=1ZqROCtU94w"
+        "name": "World Review Stock Analysis",
+        "url": "https://www.worldreview1989.com/2026/09/tata-motors-Stock-Analysis.html"
       }
     },
     {
-      "headline": "New corporate structure effective following commercial and passenger vehicle demerger",
-      "date": "2025-10-01",
+      "headline": "Tata Motors posts strong Q2 2027 growth with standalone revenue rising 42% YoY to INR 23,900 crore",
+      "date": "2026-11-01",
       "source": {
-        "name": "WorldReview1989",
-        "url": "https://www.worldreview1989.com/2026/09/tata-motors-Stock-Analysis.html"
+        "name": "Investing.com",
+        "url": "https://ca.investing.com/news/stock-market-news/earnings-call-transcript-tata-motors-posts-strong-q2-2027-growth-as-stock-falls-93CH-4900205"
       }
     }
   ]

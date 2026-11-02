@@ -4,42 +4,50 @@
   "parent": null,
   "entity_type": "public_standalone",
   "category": "E-commerce",
-  "description": "Meesho Limited is an Indian e-commerce marketplace platform providing social commerce and direct retail services.",
-  "last_refreshed": "2026-10-30T10:25:38.113Z",
+  "description": "Meesho is an Indian e-commerce marketplace platform targeting mass-market shoppers primarily in Tier-2 and Tier-3 cities.",
+  "last_refreshed": "2026-11-02T11:38:20.398Z",
   "stock": {
     "applicable": true,
-    "value": 223.01,
+    "value": 222.04,
     "currency": "INR",
     "ticker": "MEESHO.NS",
-    "as_of": "2026-10-30",
-    "note": "Reflects standalone share price for Meesho Limited on the NSE.",
+    "as_of": "2026-11-02",
+    "note": "Standalone listing on NSE and BSE following its December 2025 IPO.",
     "confidence": "disclosed"
   },
   "revenue": {
-    "value": null,
+    "value": 126263480000,
     "currency": "INR",
-    "period": "FY2026",
-    "confidence": "not_found",
-    "source": null
+    "period": "2026",
+    "confidence": "disclosed",
+    "source": {
+      "name": "Yahoo Finance",
+      "url": "https://ca.finance.yahoo.com/quote/MEESHO.NS",
+      "date": "2026-11-02"
+    }
   },
   "operating_profit": {
-    "value": null,
+    "value": -13577380000,
     "currency": "INR",
-    "period": "FY2026",
-    "confidence": "not_found",
-    "source": null
+    "period": "2026",
+    "confidence": "disclosed",
+    "source": {
+      "name": "Yahoo Finance",
+      "url": "https://ca.finance.yahoo.com/quote/MEESHO.NS",
+      "date": "2026-11-02"
+    }
   },
   "expenses": {
     "breakdown": [],
     "confidence": "not_found"
   },
   "marketing_spend": {
-    "value_low": 3000000000,
-    "value_high": 6000000000,
+    "value_low": 12626348000,
+    "value_high": 25252696000,
     "currency": "INR",
-    "period": "FY2025",
-    "tier": "4_triangulated",
-    "derivation": "Estimated based on Indian e-commerce industry ad spend benchmarks and category visibility share relative to key competitors due to lack of explicit disclosures in context.",
+    "period": "2026",
+    "tier": "3_modeled",
+    "derivation": "Modeled by applying a benchmark e-commerce marketing-to-revenue ratio of 10% to 20% against Meesho's reported 2026 revenue of ₹126,263,480,000, as granular marketing expense line items were not explicitly provided.",
     "source": null
   },
   "trend_history": {
@@ -49,18 +57,38 @@
         "value": 210.05
       },
       {
+        "date": "2026-10-02",
+        "value": 218.69
+      },
+      {
         "date": "2026-10-25",
         "value": 220.11
       },
       {
         "date": "2026-10-30",
         "value": 223.01
+      },
+      {
+        "date": "2026-11-02",
+        "value": 222.04
       }
     ],
     "revenue": [
       {
+        "period": "2026",
+        "value": 126263480000
+      },
+      {
+        "period": "FY2023",
+        "value": 58977000000
+      },
+      {
+        "period": "FY2024",
+        "value": 78592000000
+      },
+      {
         "period": "FY2025",
-        "value": 93899000000
+        "value": 99009000000
       },
       {
         "period": "FY25",
@@ -74,11 +102,27 @@
   },
   "business_updates": [
     {
-      "headline": "E-commerce firm Meesho notches $8.8 billion valuation in stock debut after $604 million IPO",
-      "date": "2025-12-10",
+      "headline": "India’s Meesho to acquire B2B commerce platform Kirana Club",
+      "date": "2026-06-30",
       "source": {
-        "name": "Reuters",
-        "url": "https://www.reuters.com/world/india/indias-meesho-debuts-46-premium-after-604-million-ipo-2025-12-10"
+        "name": "Yahoo Finance / Retail Insight Network",
+        "url": "https://finance.yahoo.com/quote/MEESHO.NS/latest-news"
+      }
+    },
+    {
+      "headline": "Valmo Transportation Private Limited incorporated as wholly owned subsidiary",
+      "date": "2026-01-12",
+      "source": {
+        "name": "ICICI Direct",
+        "url": "https://www.icicidirect.com/stocks/meesho-ltd-share-price"
+      }
+    },
+    {
+      "headline": "Meesho completes ₹5,421.2 crore IPO and lists on NSE and BSE",
+      "date": "2025-12-05",
+      "source": {
+        "name": "Mergersight",
+        "url": "https://www.mergersight.com/post/meesho-s-ipo"
       }
     }
   ]

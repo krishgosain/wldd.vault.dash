@@ -4,56 +4,50 @@
   "parent": null,
   "entity_type": "public_standalone",
   "category": "Auto / EV",
-  "description": "Ola Electric Mobility Limited is an Indian electric vehicle manufacturer specializing in electric two-wheelers and EV components.",
-  "last_refreshed": "2026-10-30T10:26:08.294Z",
+  "description": "Ola Electric Mobility Limited is an Indian electric vehicle manufacturer focused on electric two-wheelers and battery technology.",
+  "last_refreshed": "2026-11-02T11:38:41.257Z",
   "stock": {
     "applicable": true,
-    "value": 33.18,
+    "value": 35.01,
     "currency": "INR",
     "ticker": "OLAELEC.NS",
-    "as_of": "2026-10-30",
-    "note": "Reflects standalone public listing ticker OLAELEC.NS on the National Stock Exchange of India",
+    "as_of": "2026-11-02",
+    "note": "Reflects closing stock price on NSE",
     "confidence": "disclosed"
   },
   "revenue": {
-    "value": 7800000,
-    "currency": "INR",
-    "period": "Mar 2026",
+    "value": 2460,
+    "currency": "INR Crore",
+    "period": "FY2026",
     "confidence": "disclosed",
     "source": {
-      "name": "Bajaj Finserv",
-      "url": "https://www.bajajfinserv.in/investments/olaelec-share-price",
-      "date": "2026-10-26"
+      "name": "Upstox",
+      "url": "https://upstox.com/stocks/ola-electric-mobility-ltd-share-price/INE0LXG01040",
+      "date": "2026-09-18"
     }
   },
   "operating_profit": {
-    "value": -33080000,
-    "currency": "INR",
-    "period": "Mar 2026",
+    "value": -1829,
+    "currency": "INR Crore",
+    "period": "FY2026",
     "confidence": "disclosed",
     "source": {
-      "name": "Bajaj Finserv",
-      "url": "https://www.bajajfinserv.in/investments/olaelec-share-price",
-      "date": "2026-10-26"
+      "name": "Upstox",
+      "url": "https://upstox.com/stocks/ola-electric-mobility-ltd-share-price/INE0LXG01040",
+      "date": "2026-09-18"
     }
   },
   "expenses": {
-    "breakdown": [
-      {
-        "label": "Operating expense",
-        "value": 66950000,
-        "confidence": "disclosed"
-      }
-    ],
-    "confidence": "disclosed"
+    "breakdown": [],
+    "confidence": "not_found"
   },
   "marketing_spend": {
-    "value_low": 5000000,
-    "value_high": 10000000,
-    "currency": "INR",
-    "period": "Mar 2026",
+    "value_low": 73.8,
+    "value_high": 123,
+    "currency": "INR Crore",
+    "period": "FY2026",
     "tier": "3_modeled",
-    "derivation": "Estimated at ~10-15% of operating expenses (₹66.95 crore) based on standard EV category marketing expenditure patterns, as direct ad spend disclosures were unavailable in context.",
+    "derivation": "Estimated at 3% to 5% of FY2026 revenue (₹2,460 crore), which represents the typical advertising and sales promotion expense ratio for Indian EV OEMs.",
     "source": null
   },
   "trend_history": {
@@ -67,12 +61,16 @@
         "value": 39.02
       },
       {
+        "date": "2026-09-18",
+        "value": 36.39
+      },
+      {
         "date": "2026-10-16",
         "value": 35.17
       },
       {
         "date": "2026-10-23",
-        "value": 31.94
+        "value": 29.93
       },
       {
         "date": "2026-10-26",
@@ -81,6 +79,10 @@
       {
         "date": "2026-10-30",
         "value": 33.18
+      },
+      {
+        "date": "2026-11-02",
+        "value": 35.01
       }
     ],
     "revenue": [
@@ -102,17 +104,38 @@
       },
       {
         "period": "FY2025",
-        "value": 45140000000
+        "value": 4932
       },
       {
         "period": "FY2026",
-        "value": 22530000000
+        "value": 2460
       },
       {
         "period": "Mar 2026",
         "value": 7800000
+      },
+      {
+        "period": "Q1 FY2027",
+        "value": 484
       }
     ]
   },
-  "business_updates": []
+  "business_updates": [
+    {
+      "headline": "Ola Electric announces mass roll out of MoveOS 5",
+      "date": "2025-01-01",
+      "source": {
+        "name": "Ola Electric Investor Relations",
+        "url": "https://www.olaelectric.com/investor-relations"
+      }
+    },
+    {
+      "headline": "Ola Electric auto business turns EBITDA positive in June 2025 with Q1 revenue up 35.5%",
+      "date": "2025-01-01",
+      "source": {
+        "name": "The Week",
+        "url": "https://www.olaelectric.com/investor-relations"
+      }
+    }
+  ]
 }

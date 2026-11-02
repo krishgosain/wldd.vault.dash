@@ -4,71 +4,75 @@
   "parent": null,
   "entity_type": "public_standalone",
   "category": "Ride-hailing",
-  "description": "Uber Technologies, Inc. is a publicly traded mobility and delivery service provider operating globally.",
-  "last_refreshed": "2026-11-01T10:45:23.266Z",
+  "description": "Uber Technologies, Inc. is a public standalone technology company offering ride-hailing, food delivery, and freight services globally.",
+  "last_refreshed": "2026-11-02T11:39:03.945Z",
   "stock": {
     "applicable": true,
     "value": 65.34,
     "currency": "USD",
     "ticker": "UBER",
     "as_of": "2026-10-31",
-    "note": "Reflects Uber Technologies, Inc. (NYSE: UBER) share price.",
+    "note": "Reflects UBER stock trading price on NYSE",
     "confidence": "disclosed"
   },
   "revenue": {
-    "value": 13203000000,
+    "value": 52017000000,
     "currency": "USD",
-    "period": "Q1 2026",
+    "period": "FY2025",
     "confidence": "disclosed",
     "source": {
-      "name": "Uber Technologies, Inc.",
-      "url": "https://investor.uber.com/news-events/news/press-release-details/2026/Uber-Announces-Results-for-First-Quarter-2026/default.aspx",
-      "date": "2026-03-31"
+      "name": "Macrotrends",
+      "url": "https://www.macrotrends.net/stocks/charts/UBER/uber-technologies/revenue",
+      "date": "2026-01-01"
     }
   },
   "operating_profit": {
-    "value": null,
+    "value": 1890000000,
     "currency": "USD",
-    "period": "Q1 2026",
-    "confidence": "not_found",
-    "source": null
+    "period": "Q2 2026",
+    "confidence": "disclosed",
+    "source": {
+      "name": "Uber Technologies Investor Relations",
+      "url": "https://investor.uber.com/news-events/news/press-release-details/2026/Uber-Announces-Results-for-Second-Quarter-2026/default.aspx",
+      "date": "2026-08-05"
+    }
   },
   "expenses": {
     "breakdown": [
       {
         "label": "Cost of revenue",
-        "value": 7258000000,
+        "value": 8620000000,
         "confidence": "disclosed"
       },
       {
         "label": "Sales and marketing",
-        "value": 1326000000,
+        "value": 1515000000,
         "confidence": "disclosed"
       },
       {
         "label": "Research and development",
-        "value": 951000000,
+        "value": 1043000000,
         "confidence": "disclosed"
       },
       {
-        "label": "Operations and support",
-        "value": 763000000,
+        "label": "General and administrative",
+        "value": 935000000,
         "confidence": "disclosed"
       }
     ],
     "confidence": "disclosed"
   },
   "marketing_spend": {
-    "value_low": 1326000000,
-    "value_high": 1326000000,
+    "value_low": 1515000000,
+    "value_high": 1515000000,
     "currency": "USD",
-    "period": "Q1 2026",
+    "period": "Q2 2026",
     "tier": "1_disclosed",
-    "derivation": "Disclosed as Sales and marketing expense in Uber Technologies, Inc. Q1 2026 condensed consolidated statements of operations ($1,326 million).",
+    "derivation": "Separately disclosed Sales and marketing expense of $1,515 million in Uber Technologies, Inc. Q2 2026 financial report.",
     "source": {
-      "name": "Uber Technologies, Inc.",
-      "url": "https://investor.uber.com/news-events/news/press-release-details/2026/Uber-Announces-Results-for-First-Quarter-2026/default.aspx",
-      "date": "2026-03-31"
+      "name": "Uber Technologies Investor Relations",
+      "url": "https://investor.uber.com/news-events/news/press-release-details/2026/Uber-Announces-Results-for-Second-Quarter-2026/default.aspx",
+      "date": "2026-08-05"
     }
   },
   "trend_history": {
@@ -87,6 +91,22 @@
       }
     ],
     "revenue": [
+      {
+        "period": "2022",
+        "value": 31877000000
+      },
+      {
+        "period": "2023",
+        "value": 37281000000
+      },
+      {
+        "period": "2024",
+        "value": 43978000000
+      },
+      {
+        "period": "2025",
+        "value": 52017000000
+      },
       {
         "period": "Q1 2025",
         "value": 11533000000
@@ -115,19 +135,11 @@
   },
   "business_updates": [
     {
-      "headline": "Uber Announces Results for First Quarter 2026 with $13.2 Billion Revenue",
-      "date": "2026-03-31",
+      "headline": "Uber Announces Results for Second Quarter 2026",
+      "date": "2026-08-05",
       "source": {
-        "name": "Uber Technologies, Inc.",
-        "url": "https://investor.uber.com/news-events/news/press-release-details/2026/Uber-Announces-Results-for-First-Quarter-2026/default.aspx"
-      }
-    },
-    {
-      "headline": "Uber Misses Q1 CY2026 Revenue Estimates, But Stock Soars 8.3%",
-      "date": "2026-03-31",
-      "source": {
-        "name": "StockStory",
-        "url": "https://stockstory.org/us/stocks/nyse/uber/news/earnings/uber-nyseuber-misses-q1-cy2026-revenue-estimates-but-stock-soars-83percent"
+        "name": "Uber Investor Relations",
+        "url": "https://investor.uber.com/news-events/news/press-release-details/2026/Uber-Announces-Results-for-Second-Quarter-2026/default.aspx"
       }
     }
   ]

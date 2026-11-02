@@ -4,62 +4,56 @@
   "parent": "Tata Group",
   "entity_type": "public_standalone",
   "category": "IT Services",
-  "description": "Tata Consultancy Services (TCS) is a global IT services, consulting, and business solutions organization operating as a subsidiary of Tata Group.",
-  "last_refreshed": "2026-10-30T10:22:06.564Z",
+  "description": "Tata Consultancy Services (TCS) is a global IT services, consulting, and business solutions organization, operating as a publicly listed flagship company of the Tata Group.",
+  "last_refreshed": "2026-11-02T11:34:44.301Z",
   "stock": {
     "applicable": true,
     "value": 2502.6,
     "currency": "INR",
     "ticker": "TCS.NS",
-    "as_of": "2026-10-30",
-    "note": "Reflects TCS stock price on the National Stock Exchange of India (NSE)",
+    "as_of": "2026-11-01",
+    "note": "Reflects TCS stock trading price on NSE",
     "confidence": "disclosed"
   },
   "revenue": {
-    "value": 731880000000,
+    "value": 2714230000000,
     "currency": "INR",
-    "period": "Q2 FY2027",
+    "period": "FY2026",
     "confidence": "disclosed",
     "source": {
-      "name": "Reuters",
-      "url": "https://www.reuters.com/world/india/indias-tcs-marginally-beats-second-quarter-revenue-estimates-2026-10-08",
-      "date": "2026-10-08"
+      "name": "Upstox",
+      "url": "https://upstox.com/stocks/tata-consultancy-serv-lt-share-price/INE467B01029",
+      "date": "2026-11-02"
     }
   },
   "operating_profit": {
-    "value": null,
+    "value": 654870000000,
     "currency": "INR",
-    "period": "Q2 FY2027",
-    "confidence": "not_found",
-    "source": null
+    "period": "FY2026",
+    "confidence": "disclosed",
+    "source": {
+      "name": "Upstox",
+      "url": "https://upstox.com/stocks/tata-consultancy-serv-lt-share-price/INE467B01029",
+      "date": "2026-11-02"
+    }
   },
   "expenses": {
     "breakdown": [
       {
-        "label": "Cost of revenue",
-        "value": 432420000000,
-        "confidence": "disclosed"
-      },
-      {
-        "label": "Selling, general, and admin expenses",
-        "value": 9870000000,
-        "confidence": "disclosed"
-      },
-      {
-        "label": "Operating expense",
-        "value": 123910000000,
-        "confidence": "disclosed"
+        "label": "Employee Cost",
+        "value": 1575610515000,
+        "confidence": "modeled"
       }
     ],
     "confidence": "disclosed"
   },
   "marketing_spend": {
-    "value_low": 3659400000,
-    "value_high": 7318800000,
+    "value_low": 13571150000,
+    "value_high": 27142300000,
     "currency": "INR",
-    "period": "Q2 FY2027",
+    "period": "FY2026",
     "tier": "3_modeled",
-    "derivation": "Modeled assuming standard enterprise IT services ad/marketing spend benchmark of 0.5% to 1.0% applied to Q2 revenue of 731.88B INR.",
+    "derivation": "Modeled using an enterprise IT services marketing-to-revenue ratio benchmark of 0.5% to 1.0% applied to TCS's reported FY26 revenue of ₹2,71,423 crore.",
     "source": null
   },
   "trend_history": {
@@ -73,12 +67,24 @@
         "value": 2204.1
       },
       {
+        "date": "2026-09-16",
+        "value": 4100
+      },
+      {
         "date": "2026-10-02",
         "value": 2075
       },
       {
         "date": "2026-10-30",
         "value": 2502.6
+      },
+      {
+        "date": "2026-11-01",
+        "value": 2502.6
+      },
+      {
+        "date": "2026-11-02",
+        "value": 2501.7
       }
     ],
     "revenue": [
@@ -92,11 +98,11 @@
       },
       {
         "period": "FY2025",
-        "value": 2553240000000
+        "value": 2592860000000
       },
       {
         "period": "FY2026",
-        "value": 2670210000000
+        "value": 2714230000000
       },
       {
         "period": "Jun 2026",
@@ -108,11 +114,15 @@
       },
       {
         "period": "Q1 FY2027",
-        "value": 722750000000
+        "value": 738430000000
       },
       {
         "period": "Q2 FY2026",
         "value": 657990000000
+      },
+      {
+        "period": "Q2 FY2027",
+        "value": 745250000000
       },
       {
         "period": "Q3 FY2026",
@@ -134,11 +144,27 @@
   },
   "business_updates": [
     {
-      "headline": "India's TCS posts second quarter consolidated revenue of 731.88 billion rupees, up 11.2% year-on-year",
-      "date": "2026-10-08",
+      "headline": "TCS BaNCS for Treasury marks its entry into Sri Lanka with Indian Bank",
+      "date": "2026-10-19",
       "source": {
-        "name": "Reuters",
-        "url": "https://www.reuters.com/world/india/indias-tcs-marginally-beats-second-quarter-revenue-estimates-2026-10-08"
+        "name": "TCS Investor Relations",
+        "url": "https://www.tcs.com/investor-relations"
+      }
+    },
+    {
+      "headline": "TCS partners with Zoho Corp’s ManageEngine to supercharge sovereign cloud adoption in India",
+      "date": "2026-10-13",
+      "source": {
+        "name": "TCS Investor Relations",
+        "url": "https://www.tcs.com/investor-relations"
+      }
+    },
+    {
+      "headline": "TCS and IEM Kolkata partner to establish an AI-focused Centre of Excellence",
+      "date": "2026-09-28",
+      "source": {
+        "name": "TCS Investor Relations",
+        "url": "https://www.tcs.com/investor-relations"
       }
     }
   ]

@@ -1,18 +1,18 @@
 {
   "name": "Zepto",
   "slug": "zepto",
-  "parent": "Kiranakart Technologies Private Limited",
+  "parent": "Kiranakart Technologies Pvt Ltd",
   "entity_type": "india_private_registered",
   "category": "Quick Commerce",
-  "description": "Zepto is an Indian quick commerce brand operated by Kiranakart Technologies Private Limited, offering rapid grocery and household item deliveries in minutes across major Indian cities.",
-  "last_refreshed": "2026-10-30T10:22:49.581Z",
+  "description": "Zepto is an Indian quick-commerce platform operated by Kiranakart Technologies Pvt Ltd, delivering groceries and daily essentials in minutes across major Indian cities.",
+  "last_refreshed": "2026-11-02T11:35:27.609Z",
   "stock": {
     "applicable": false,
     "value": null,
     "currency": "INR",
     "ticker": null,
     "as_of": null,
-    "note": "Privately held company preparing for an IPO.",
+    "note": "Zepto is a privately held entity that has filed for an IPO.",
     "confidence": "not_applicable"
   },
   "revenue": {
@@ -21,9 +21,9 @@
     "period": "FY2026",
     "confidence": "disclosed",
     "source": {
-      "name": "India Marketing",
+      "name": "Japan India Marketing - Zepto Company Profile",
       "url": "https://india-marketing.jp/en/india-company/zepto",
-      "date": ""
+      "date": "2026-03"
     }
   },
   "operating_profit": {
@@ -32,23 +32,33 @@
     "period": "FY2026",
     "confidence": "disclosed",
     "source": {
-      "name": "India Marketing",
+      "name": "Japan India Marketing - Zepto Company Profile",
       "url": "https://india-marketing.jp/en/india-company/zepto",
-      "date": ""
+      "date": "2026-03"
     }
   },
   "expenses": {
-    "breakdown": [],
-    "confidence": "not_found"
+    "breakdown": [
+      {
+        "label": "Self-Advertising Spend",
+        "value": 13890000000,
+        "confidence": "disclosed"
+      }
+    ],
+    "confidence": "disclosed"
   },
   "marketing_spend": {
-    "value_low": 11311790000,
-    "value_high": 22623580000,
+    "value_low": 13890000000,
+    "value_high": 13890000000,
     "currency": "INR",
     "period": "FY2026",
-    "tier": "3_modeled",
-    "derivation": "Estimated at 5% to 10% of FY2026 operating revenue (₹22,623.58 crore) based on standard quick commerce category ad-spend to revenue benchmarks in India.",
-    "source": null
+    "tier": "1_disclosed",
+    "derivation": "Directly disclosed in Zepto's IPO prospectus filing, which detailed self-advertising expenses of ₹1,389 crore in FY2026.",
+    "source": {
+      "name": "LinkedIn / Zepto IPO Disclosure Analysis",
+      "url": "https://www.linkedin.com/posts/sushant-futureblink_zepto-loses-money-on-your-groceries-brands-activity-7516463309898956801-DCCS",
+      "date": "2026-06"
+    }
   },
   "trend_history": {
     "stock": [],
@@ -69,19 +79,19 @@
   },
   "business_updates": [
     {
-      "headline": "Zepto files for IPO confidentially after doubling FY2026 operating revenue to ₹22,623.58 crore",
-      "date": "2026-06-09",
+      "headline": "Zepto ad revenue reaches ₹1,636 crore in FY2026 as platform order count hits 640 million",
+      "date": "2026-06",
       "source": {
-        "name": "India Marketing",
-        "url": "https://india-marketing.jp/en/india-company/zepto"
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/zepto-ipo-filing-reveals-fast-050717430.html"
       }
     },
     {
-      "headline": "Zepto launches transformer-based dual-sequence reranker for real-time personalized rankings",
-      "date": "2026-06-25",
+      "headline": "Zepto files for IPO confidentially and receives SEBI observation letter",
+      "date": "2026-05",
       "source": {
-        "name": "LeadIQ",
-        "url": "https://leadiq.com/c/zepto/61813f69990e636b3e3e93db"
+        "name": "Japan India Marketing",
+        "url": "https://india-marketing.jp/en/india-company/zepto"
       }
     }
   ]

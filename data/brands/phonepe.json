@@ -4,24 +4,24 @@
   "parent": "Walmart Inc.",
   "entity_type": "india_private_registered",
   "category": "Fintech",
-  "description": "PhonePe is an Indian digital payments and financial services platform majority-owned by Walmart Inc.",
-  "last_refreshed": "2026-10-30T10:23:35.456Z",
+  "description": "PhonePe is an Indian digital payments and financial technology platform majority-owned by retail corporation Walmart Inc.",
+  "last_refreshed": "2026-11-02T11:36:17.817Z",
   "stock": {
     "applicable": false,
     "value": null,
     "currency": "INR",
     "ticker": null,
     "as_of": null,
-    "note": "PhonePe is an unlisted private entity majority-owned by Walmart; planned IPO was paused in 2026.",
+    "note": "Privately held entity majority-owned by Walmart; not separately listed.",
     "confidence": "not_applicable"
   },
   "revenue": {
     "value": 79200000000,
     "currency": "INR",
     "period": "FY2026",
-    "confidence": "press_estimate",
+    "confidence": "disclosed",
     "source": {
-      "name": "The Hindu",
+      "name": "The Hindu / Wikipedia",
       "url": "https://en.wikipedia.org/wiki/PhonePe",
       "date": "2026-07-25"
     }
@@ -30,11 +30,11 @@
     "value": -14440000000,
     "currency": "INR",
     "period": "H1 FY2026",
-    "confidence": "press_estimate",
+    "confidence": "disclosed",
     "source": {
       "name": "Yahoo Finance",
       "url": "https://finance.yahoo.com/news/walmart-backed-phonepe-shelves-ipo-130247711.html",
-      "date": "2026-03-01"
+      "date": "2026-02-01"
     }
   },
   "expenses": {
@@ -47,7 +47,7 @@
     "currency": "INR",
     "period": "FY2026",
     "tier": "3_modeled",
-    "derivation": "Estimated by applying a standard Indian consumer fintech marketing ratio of 15% to 20% to the reported FY2026 revenue of ₹7,920 crore.",
+    "derivation": "Modeled using a category-typical marketing-to-revenue ratio of 15% to 20% applied to PhonePe's reported FY2026 revenue of ₹7,920 crore, reflecting active expansion across smart speakers, insurance, and stockbroking.",
     "source": null
   },
   "trend_history": {
@@ -81,19 +81,27 @@
   },
   "business_updates": [
     {
-      "headline": "PhonePe revenue grows to ₹7,920 crore in FY26",
+      "headline": "PhonePe shelves IPO plans as global market tensions rattle investors",
+      "date": "2026-02-01",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/news/walmart-backed-phonepe-shelves-ipo-130247711.html"
+      }
+    },
+    {
+      "headline": "PhonePe records 9.3 billion transactions worth ₹13.1 trillion in February 2026",
+      "date": "2026-02-01",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/news/walmart-backed-phonepe-shelves-ipo-130247711.html"
+      }
+    },
+    {
+      "headline": "PhonePe FY26 revenue rises to ₹7,920 crore",
       "date": "2026-07-25",
       "source": {
         "name": "The Hindu",
         "url": "https://en.wikipedia.org/wiki/PhonePe"
-      }
-    },
-    {
-      "headline": "Walmart-backed PhonePe shelves IPO plans amid market volatility",
-      "date": "2026-03-01",
-      "source": {
-        "name": "Yahoo Finance",
-        "url": "https://finance.yahoo.com/news/walmart-backed-phonepe-shelves-ipo-130247711.html"
       }
     }
   ]

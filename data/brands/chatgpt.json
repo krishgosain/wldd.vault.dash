@@ -4,15 +4,15 @@
   "parent": "OpenAI",
   "entity_type": "foreign_private",
   "category": "Consumer Tech / AI",
-  "description": "ChatGPT is an artificial intelligence chatbot and answer engine developed by private parent company OpenAI.",
-  "last_refreshed": "2026-11-01T10:46:14.360Z",
+  "description": "ChatGPT is an artificial intelligence chatbot and conversational application developed by private technology company OpenAI.",
+  "last_refreshed": "2026-11-02T11:40:20.723Z",
   "stock": {
     "applicable": false,
     "value": null,
     "currency": "USD",
     "ticker": null,
     "as_of": null,
-    "note": "Not applicable; OpenAI is a privately held company.",
+    "note": "ChatGPT is a product of OpenAI, which is a private company.",
     "confidence": "not_applicable"
   },
   "revenue": {
@@ -34,23 +34,21 @@
     "source": null
   },
   "expenses": {
-    "breakdown": [
-      {
-        "label": "Research (OpenAI total)",
-        "value": 19000000000,
-        "confidence": "disclosed"
-      }
-    ],
-    "confidence": "press_estimate"
+    "breakdown": [],
+    "confidence": "not_found"
   },
   "marketing_spend": {
-    "value_low": 400000000,
-    "value_high": 800000000,
+    "value_low": 800000000,
+    "value_high": 1200000000,
     "currency": "USD",
     "period": "FY2025",
     "tier": "3_modeled",
-    "derivation": "Modeled by applying a standard 5% to 10% consumer tech marketing benchmark to ChatGPT's reported FY2025 revenue of $8 billion.",
-    "source": null
+    "derivation": "Modeled by applying an industry-standard 10% to 15% marketing-to-revenue ratio for high-growth consumer technology platforms to ChatGPT's estimated FY2025 revenue of $8 billion.",
+    "source": {
+      "name": "Business of Apps",
+      "url": "https://www.businessofapps.com/data/chatgpt-statistics",
+      "date": "2026-01-01"
+    }
   },
   "trend_history": {
     "stock": [],
@@ -91,19 +89,19 @@
       }
     },
     {
-      "headline": "ChatGPT consumer subscribers exceed 50 million with 9 million paying business users",
-      "date": "2026-02-01",
+      "headline": "ChatGPT active users reach 700 million milestone",
+      "date": "2025-01-01",
       "source": {
-        "name": "Sacra",
-        "url": "https://sacra.com/c/openai"
+        "name": "Business of Apps",
+        "url": "https://www.businessofapps.com/data/chatgpt-statistics"
       }
     },
     {
-      "headline": "OpenAI projects $2.5 billion in advertising revenue for 2026",
-      "date": "2026-04-01",
+      "headline": "ChatGPT Pro subscriber base hits 125,000, adding $300M in annual revenue",
+      "date": "2025-01-01",
       "source": {
-        "name": "Wikipedia",
-        "url": "https://en.wikipedia.org/wiki/OpenAI"
+        "name": "Future Search",
+        "url": "https://futuresearch.ai/openai-revenue-forecast"
       }
     }
   ]

@@ -4,51 +4,61 @@
   "parent": "Zerodha Broking Ltd.",
   "entity_type": "india_private_registered",
   "category": "Fintech / Broking",
-  "description": "Zerodha is an Indian online discount brokerage and financial services platform operated by Zerodha Broking Ltd.",
-  "last_refreshed": "2026-10-30T10:25:03.298Z",
+  "description": "Zerodha is an Indian online financial services and discount brokerage company operated by Zerodha Broking Ltd.",
+  "last_refreshed": "2026-11-02T11:37:33.964Z",
   "stock": {
     "applicable": false,
     "value": null,
     "currency": "INR",
     "ticker": null,
     "as_of": null,
-    "note": "Unlisted private entity",
+    "note": "Zerodha Broking Ltd. is a privately held entity and is not publicly listed on stock exchanges.",
     "confidence": "not_applicable"
   },
   "revenue": {
-    "value": 99900000000,
+    "value": 88470000000,
     "currency": "INR",
-    "period": "FY2024",
+    "period": "FY2025",
     "confidence": "disclosed",
     "source": {
-      "name": "Tracxn",
-      "url": "https://tracxn.com/d/legal-entities/india/zerodha-broking-limited/__IDZylZ-lZipwUy1MMfWMAMXXxBMbMn3wJ13Q_MW2qD4",
-      "date": "2025-01-01"
+      "name": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Zerodha",
+      "date": "2025"
     }
   },
   "operating_profit": {
-    "value": 42830000000,
+    "value": 42370000000,
     "currency": "INR",
-    "period": "FY2026",
-    "confidence": "press_estimate",
+    "period": "FY2025",
+    "confidence": "disclosed",
     "source": {
-      "name": "The CEO Magazine",
-      "url": "https://www.facebook.com/theceo.in/posts/zerodha-posted-a-net-profit-of-rs-4283-crore-in-fy26-up-around-12-from-rs-4231-c/1530723145749904",
-      "date": "2026-08-28"
+      "name": "The Second Angle",
+      "url": "https://thesecondangle.com/zerodha-case-study",
+      "date": "2025"
     }
   },
   "expenses": {
-    "breakdown": [],
-    "confidence": "not_found"
+    "breakdown": [
+      {
+        "label": "Advertising spend",
+        "value": 470000000,
+        "confidence": "disclosed"
+      }
+    ],
+    "confidence": "disclosed"
   },
   "marketing_spend": {
-    "value_low": 100000000,
-    "value_high": 500000000,
+    "value_low": 470000000,
+    "value_high": 470000000,
     "currency": "INR",
-    "period": "FY2024",
-    "tier": "3_modeled",
-    "derivation": "Modeled using a minimal 0.1% to 0.5% marketing-to-revenue ratio applied against FY2024 revenue of ₹9,990 crore, reflecting Zerodha's zero-paid-marketing strategy and reliance on organic referral growth.",
-    "source": null
+    "period": "FY2025",
+    "tier": "1_disclosed",
+    "derivation": "Disclosed in RoC filings reported via Entrackr as Rs 47 crore advertising spend for FY 2024-25, representing ~0.5% of operating revenue.",
+    "source": {
+      "name": "The Second Angle",
+      "url": "https://thesecondangle.com/zerodha-case-study",
+      "date": "2025"
+    }
   },
   "trend_history": {
     "stock": [],
@@ -63,7 +73,7 @@
       },
       {
         "period": "FY2024",
-        "value": 99900000000
+        "value": 99930000000
       },
       {
         "period": "FY2025",
@@ -73,7 +83,7 @@
   },
   "business_updates": [
     {
-      "headline": "Zerodha reports Rs 4,283 crore net profit in FY26 as trading revenue growth slows",
+      "headline": "Zerodha posted a net profit of Rs 4,283 crore in FY26 as trading revenue growth slows",
       "date": "2026-08-28",
       "source": {
         "name": "The CEO Magazine",
@@ -81,11 +91,11 @@
       }
     },
     {
-      "headline": "CEO Nithin Kamath advocates raising corporate tax to 27% instead of 2% CSR mandate",
-      "date": "2026-09-29",
+      "headline": "Zerodha recorded 67.62 lakh active NSE clients in July 2026",
+      "date": "2026-07-31",
       "source": {
-        "name": "CB Insights",
-        "url": "https://www.cbinsights.com/company/zerodha"
+        "name": "The Second Angle",
+        "url": "https://thesecondangle.com/zerodha-case-study"
       }
     }
   ]

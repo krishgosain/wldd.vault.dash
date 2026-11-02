@@ -4,46 +4,66 @@
   "parent": "The Coca-Cola Company",
   "entity_type": "public_parent",
   "category": "F&B",
-  "description": "Coca-Cola is a flagship global non-alcoholic beverage brand produced and marketed by parent company The Coca-Cola Company (NYSE: KO).",
-  "last_refreshed": "2026-10-30T10:22:23.433Z",
+  "description": "Coca-Cola is a non-alcoholic beverage brand owned and produced globally by The Coca-Cola Company.",
+  "last_refreshed": "2026-11-02T11:35:06.036Z",
   "stock": {
-    "applicable": false,
-    "value": null,
+    "applicable": true,
+    "value": 93.87,
     "currency": "USD",
     "ticker": "KO",
-    "as_of": null,
-    "note": "Reflects parent entity The Coca-Cola Company (NYSE: KO), not the brand specifically.",
-    "confidence": "not_applicable"
+    "as_of": "2026-10-17",
+    "note": "Reflects parent company stock price on NYSE.",
+    "confidence": "disclosed"
   },
   "revenue": {
-    "value": 13400000000,
+    "value": 13380000000,
     "currency": "USD",
     "period": "Q3 2026",
     "confidence": "disclosed",
     "source": {
-      "name": "The Coca-Cola Company",
-      "url": "https://investors.coca-colacompany.com/news-events/press-releases/detail/1176/coca-cola-reports-third-quarter-2026-results-and-raises-full-year-guidance",
-      "date": ""
+      "name": "Coca-Cola Q3 EPS rises 8% to $0.93; revenue up 7% | KO 8-K Filing",
+      "url": "https://www.stocktitan.net/sec-filings/KO/8-k-coca-cola-co-reports-material-event-b0143b385094.html",
+      "date": "2026-10-27"
     }
   },
   "operating_profit": {
-    "value": null,
+    "value": 4465000000,
     "currency": "USD",
     "period": "Q3 2026",
-    "confidence": "not_found",
-    "source": null
+    "confidence": "disclosed",
+    "source": {
+      "name": "Coca-Cola Q3 EPS rises 8% to $0.93; revenue up 7% | KO 8-K Filing",
+      "url": "https://www.stocktitan.net/sec-filings/KO/8-k-coca-cola-co-reports-material-event-b0143b385094.html",
+      "date": "2026-10-27"
+    }
   },
   "expenses": {
-    "breakdown": [],
-    "confidence": "not_found"
+    "breakdown": [
+      {
+        "label": "Cost of goods sold",
+        "value": 4930000000,
+        "confidence": "disclosed"
+      },
+      {
+        "label": "Selling, general and administrative expenses",
+        "value": 3975000000,
+        "confidence": "disclosed"
+      },
+      {
+        "label": "Other operating charges",
+        "value": 10000000,
+        "confidence": "disclosed"
+      }
+    ],
+    "confidence": "disclosed"
   },
   "marketing_spend": {
     "value_low": 1070000000,
-    "value_high": 1340000000,
+    "value_high": 1338000000,
     "currency": "USD",
     "period": "Q3 2026",
     "tier": "3_modeled",
-    "derivation": "Modeled using a standard consumer beverage industry marketing ratio of 8% to 10% applied to reported Q3 2026 net revenues of $13.4 billion.",
+    "derivation": "Estimated using an 8% to 10% ad-to-revenue ratio benchmark typical for global non-alcoholic beverage leaders applied to Q3 2026 net operating revenue of $13.38 billion.",
     "source": null
   },
   "trend_history": {
@@ -55,9 +75,37 @@
       {
         "date": "2026-09-09",
         "value": 88.42
+      },
+      {
+        "date": "2026-10-17",
+        "value": 93.87
       }
     ],
     "revenue": [
+      {
+        "period": "1Q2026",
+        "value": 12471000000
+      },
+      {
+        "period": "2021",
+        "value": 79000000000
+      },
+      {
+        "period": "2022",
+        "value": 82500000000
+      },
+      {
+        "period": "2Q2026",
+        "value": 13373000000
+      },
+      {
+        "period": "3Q2026",
+        "value": 13380000000
+      },
+      {
+        "period": "4Q2025",
+        "value": 11817000000
+      },
       {
         "period": "FY2023",
         "value": 46085100000
@@ -78,19 +126,19 @@
   },
   "business_updates": [
     {
-      "headline": "The Coca-Cola Company Exploring Potential Public Listing in India for Hindustan Coca-Cola Holdings Pvt. Ltd.",
-      "date": "2026-06-01",
+      "headline": "Coca-Cola Reports Third Quarter 2026 Results and Raises Full Year Guidance",
+      "date": "2026-10-27",
       "source": {
-        "name": "Yahoo Finance / Business Wire",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/coca-cola-company-exploring-potential-230000834.html"
+        "name": "The Coca-Cola Company (KO)",
+        "url": "https://investors.coca-colacompany.com/news-events/press-releases/detail/1176/coca-cola-reports-third-quarter-2026-results-and-raises-full-year-guidance"
       }
     },
     {
-      "headline": "Hemant Rupani Appointed CEO of Hindustan Coca-Cola Beverages",
-      "date": "",
+      "headline": "The Coca-Cola Company Exploring Potential Public Listing in India for Hindustan Coca-Cola Holdings Pvt. Ltd.",
+      "date": "2026-06-01",
       "source": {
-        "name": "Yahoo Finance / Just Drinks",
-        "url": "https://finance.yahoo.com/news/mondelez-executive-join-hindustan-coca-135524356.html"
+        "name": "Business Wire",
+        "url": "https://www.businesswire.com/news/home/20260601782312/en/The-Coca-Cola-Company-Exploring-Potential-Public-Listing-in-India-for-Hindustan-Coca-Cola-Holdings-Pvt.-Ltd.-Parent-Company-of-its-Largest-Bottler-in-India"
       }
     }
   ]

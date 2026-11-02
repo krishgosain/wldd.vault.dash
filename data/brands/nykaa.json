@@ -4,69 +4,68 @@
   "parent": "FSN E-Commerce Ventures Ltd.",
   "entity_type": "public_standalone",
   "category": "E-commerce / Beauty",
-  "description": "Nykaa is an Indian e-commerce platform specializing in beauty, wellness, and fashion products, operated by its parent company FSN E-Commerce Ventures Ltd.",
-  "last_refreshed": "2026-10-30T10:23:57.361Z",
+  "description": "Nykaa is an Indian omnichannel retailer specializing in beauty, wellness, and fashion products, operating as the flagship brand of public parent company FSN E-Commerce Ventures Ltd.",
+  "last_refreshed": "2026-11-02T11:36:44.298Z",
   "stock": {
     "applicable": true,
-    "value": 342.5,
+    "value": 353.65,
     "currency": "INR",
     "ticker": "NYKAA.NS",
-    "as_of": null,
-    "note": "Reflects parent company FSN E-Commerce Ventures Ltd.",
+    "as_of": "2026-11-02",
+    "note": "Reflects parent entity FSN E-Commerce Ventures Ltd. listed on NSE",
     "confidence": "disclosed"
   },
   "revenue": {
-    "value": 27820000000,
+    "value": 100223500000,
     "currency": "INR",
-    "period": "Q1 2026",
+    "period": "TTM FY2026",
     "confidence": "disclosed",
     "source": {
-      "name": "Earnings call transcript: Nykaa Q1 2026 growth accelerates as stock eases",
-      "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-nykaa-q1-2026-growth-accelerates-as-stock-eases-93CH-4834546",
-      "date": "unknown"
+      "name": "Tickertape",
+      "url": "https://www.tickertape.in/stocks/fsn-e-commerce-ventures-NYK",
+      "date": "2026-11-02"
     }
   },
   "operating_profit": {
-    "value": 1470000000,
+    "value": 7195400000,
     "currency": "INR",
-    "period": "Q1 2026",
+    "period": "TTM FY2026",
     "confidence": "disclosed",
     "source": {
-      "name": "Fsn E-Commerce Ventures Ltd (NYKAA) Stock Price & News - Google Finance",
-      "url": "https://www.google.com/finance/quote/NYKAA:NSE",
-      "date": "unknown"
+      "name": "Tickertape",
+      "url": "https://www.tickertape.in/stocks/fsn-e-commerce-ventures-NYK",
+      "date": "2026-11-02"
     }
   },
   "expenses": {
     "breakdown": [
       {
-        "label": "Cost of goods sold",
-        "value": 15060000000,
-        "confidence": "disclosed"
-      },
-      {
-        "label": "Selling, general, and admin expenses",
-        "value": 2250000000,
+        "label": "Employee benefits expense",
+        "value": 2248500000,
         "confidence": "disclosed"
       }
     ],
     "confidence": "disclosed"
   },
   "marketing_spend": {
-    "value_low": 2200000000,
-    "value_high": 2800000000,
+    "value_low": 9000000000,
+    "value_high": 11000000000,
     "currency": "INR",
-    "period": "Q1 2026",
+    "period": "TTM FY2026",
     "tier": "3_modeled",
-    "derivation": "Modeled assuming an estimated 8%-10% ad spend ratio against Q1 2026 net revenue of INR 2,782 crore, aligned with disclosed SG&A total of INR 2.25B and management comments on customer acquisition investment.",
+    "derivation": "Modeled assuming a 9% to 11% marketing-to-revenue benchmark for online beauty and fashion e-tailers applied to FSN E-Commerce Ventures TTM FY26 revenue of INR 10,022.35 crore.",
     "source": {
-      "name": "Earnings call transcript: Nykaa Q1 2026 growth accelerates as stock eases",
-      "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-nykaa-q1-2026-growth-accelerates-as-stock-eases-93CH-4834546",
-      "date": "unknown"
+      "name": "Tickertape",
+      "url": "https://www.tickertape.in/stocks/fsn-e-commerce-ventures-NYK",
+      "date": "2026-11-02"
     }
   },
   "trend_history": {
     "stock": [
+      {
+        "date": "2026-02-06",
+        "value": 268.52
+      },
       {
         "date": "2026-09-09",
         "value": 339
@@ -74,6 +73,10 @@
       {
         "date": "2026-10-09",
         "value": 340.95
+      },
+      {
+        "date": "2026-11-02",
+        "value": 353.65
       }
     ],
     "revenue": [
@@ -83,7 +86,7 @@
       },
       {
         "period": "FY2025",
-        "value": 106490000000
+        "value": 79500000000
       },
       {
         "period": "Jun 2026",
@@ -92,6 +95,10 @@
       {
         "period": "Mar 2026",
         "value": 26480000000
+      },
+      {
+        "period": "Q1 2026",
+        "value": 27820000000
       },
       {
         "period": "Q1 FY2026",
@@ -104,24 +111,36 @@
       {
         "period": "Sep 2025",
         "value": 23460000000
+      },
+      {
+        "period": "TTM FY2026",
+        "value": 100223500000
       }
     ]
   },
   "business_updates": [
     {
-      "headline": "FSN E-Commerce Ventures consolidated net profit rises 243.10% in the June 2026 quarter",
-      "date": "2026-09-24",
+      "headline": "Nykaa Q1 FY26 revenue from operations surges 29% YOY to INR 2,782 crore as net profit expands",
+      "date": "2026-08-01",
       "source": {
-        "name": "HDFC Securities",
-        "url": "https://www.hdfcsec.com/market/company/FSNECommerceVenturesLtd-75803"
+        "name": "Investing.com",
+        "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-nykaa-q1-2026-growth-accelerates-as-stock-eases-93CH-4834546"
       }
     },
     {
-      "headline": "Nykaa Q1 2026 GMV rises 34% YoY to INR 5,590 crore with PAT up 226%",
-      "date": "unknown",
+      "headline": "Nykaa expects net revenue growth in late-20% range for Q4FY26",
+      "date": "2026-04-07",
       "source": {
-        "name": "Investing.com Transcripts",
-        "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-nykaa-q1-2026-growth-accelerates-as-stock-eases-93CH-4834546"
+        "name": "Reuters via Tijori Finance",
+        "url": "https://zstocks.tijorifinance.com/markets/stocks/NSE/NYKAA"
+      }
+    },
+    {
+      "headline": "Nykaa's Q3 consolidated profit more than doubles to 633.1 million rupees on steady beauty demand",
+      "date": "2026-02-05",
+      "source": {
+        "name": "Reuters via Tijori Finance",
+        "url": "https://zstocks.tijorifinance.com/markets/stocks/NSE/NYKAA"
       }
     }
   ]

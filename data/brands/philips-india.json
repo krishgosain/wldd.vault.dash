@@ -4,15 +4,15 @@
   "parent": "Koninklijke Philips N.V.",
   "entity_type": "india_private_registered",
   "category": "Consumer Electronics",
-  "description": "Philips India Limited is an unlisted Indian operating subsidiary of Dutch health-technology and consumer electronics conglomerate Koninklijke Philips N.V.",
-  "last_refreshed": "2026-11-01T10:46:55.310Z",
+  "description": "Philips India is an Indian private subsidiary of Koninklijke Philips N.V., operating in consumer electronics, personal health, and healthcare technology.",
+  "last_refreshed": "2026-11-02T11:41:15.295Z",
   "stock": {
     "applicable": false,
     "value": null,
     "currency": "EUR",
     "ticker": null,
     "as_of": null,
-    "note": "Philips India Limited is an unlisted entity; parent company Koninklijke Philips N.V. trades on Euronext Amsterdam under ticker PHIA.AS and NYSE as PHG.",
+    "note": "Philips India is a private unlisted entity; parent company Koninklijke Philips N.V. is listed on Euronext Amsterdam under PHIA.AS and NYSE under PHG.",
     "confidence": "not_applicable"
   },
   "revenue": {
@@ -23,48 +23,60 @@
     "source": null
   },
   "operating_profit": {
-    "value": 4480000000,
+    "value": null,
     "currency": "INR",
     "period": "FY2025",
-    "confidence": "press_estimate",
-    "source": {
-      "name": "Philips India Limited - unlistedcart.com",
-      "url": "https://unlistedcart.com/philips-india-limited",
-      "date": "2026-01-01"
-    }
+    "confidence": "not_found",
+    "source": null
   },
   "expenses": {
     "breakdown": [],
     "confidence": "not_found"
   },
   "marketing_spend": {
-    "value_low": 1000000000,
-    "value_high": 2000000000,
-    "currency": "INR",
+    "value_low": 713360000,
+    "value_high": 1070040000,
+    "currency": "EUR",
     "period": "FY2025",
     "tier": "3_modeled",
-    "derivation": "Modeled using a standard 3-5% consumer tech marketing-to-revenue benchmark applied against Philips India's operating scale and reported FY2024-25 Profit After Tax (PAT) of ~₹309 crore.",
-    "source": null
+    "derivation": "Modeled by applying an industry-typical 4% to 6% marketing spend ratio to parent company Koninklijke Philips N.V.'s reported FY2025 global revenue of €17,834,000,000.",
+    "source": {
+      "name": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/PHIA.AS",
+      "date": "2026-11-02"
+    }
   },
   "trend_history": {
     "stock": [
       {
         "date": "2026-03-03",
         "value": 25.69
+      },
+      {
+        "date": "2026-10-30",
+        "value": 27.11
+      },
+      {
+        "date": "2026-11-02",
+        "value": 24.54
       }
     ],
     "revenue": [
       {
+        "period": "FY2022",
+        "value": 17827000000
+      },
+      {
         "period": "FY2023",
-        "value": 19660228000
+        "value": 18169000000
       },
       {
         "period": "FY2024",
-        "value": 19500503000
+        "value": 18021000000
       },
       {
         "period": "FY2025",
-        "value": 20116861000
+        "value": 17834000000
       }
     ]
   },
@@ -73,15 +85,15 @@
       "headline": "EXIT-CVD research consortium launches clinical studies to transform cardiovascular care across Europe",
       "date": "2026-10-15",
       "source": {
-        "name": "Investor Relations | Philips",
+        "name": "Philips Investor Relations",
         "url": "https://www.philips.com/a-w/about/investor-relations.html"
       }
     },
     {
-      "headline": "Philips Oral Healthcare establishes Global Clinical Advisory Board to help shape the future of oral care through scientific and clinical insight",
+      "headline": "Philips Oral Healthcare establishes Global Clinical Advisory Board to help shape the future of oral care",
       "date": "2026-10-08",
       "source": {
-        "name": "Investor Relations | Philips",
+        "name": "Philips Investor Relations",
         "url": "https://www.philips.com/a-w/about/investor-relations.html"
       }
     },
@@ -89,7 +101,7 @@
       "headline": "Philips-led projects win ITEA awards for advancing AI-enabled healthcare innovation",
       "date": "2026-09-16",
       "source": {
-        "name": "Investor Relations | Philips",
+        "name": "Philips Investor Relations",
         "url": "https://www.philips.com/a-w/about/investor-relations.html"
       }
     }

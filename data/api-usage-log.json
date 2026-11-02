@@ -895,6 +895,125 @@
       "tavily_credits": 1,
       "gemini_requests": 1,
       "timestamp": "2026-11-01T10:51:44.938Z"
+    },
+    {
+      "source": "daily_refresh",
+      "brand": "TCS",
+      "tavily_credits": 1,
+      "gemini_requests": 1,
+      "timestamp": "2026-11-02T11:34:44.306Z"
+    },
+    {
+      "source": "daily_refresh",
+      "brand": "Coca-Cola",
+      "tavily_credits": 1,
+      "gemini_requests": 1,
+      "timestamp": "2026-11-02T11:35:06.037Z"
+    },
+    {
+      "source": "daily_refresh",
+      "brand": "Zepto",
+      "tavily_credits": 1,
+      "gemini_requests": 1,
+      "timestamp": "2026-11-02T11:35:27.609Z"
+    },
+    {
+      "source": "daily_refresh",
+      "brand": "Swiggy",
+      "tavily_credits": 1,
+      "gemini_requests": 1,
+      "timestamp": "2026-11-02T11:35:58.676Z"
+    },
+    {
+      "source": "daily_refresh",
+      "brand": "PhonePe",
+      "tavily_credits": 1,
+      "gemini_requests": 1,
+      "timestamp": "2026-11-02T11:36:17.817Z"
+    },
+    {
+      "source": "daily_refresh",
+      "brand": "Nykaa",
+      "tavily_credits": 1,
+      "gemini_requests": 1,
+      "timestamp": "2026-11-02T11:36:44.298Z"
+    },
+    {
+      "source": "daily_refresh",
+      "brand": "boAt",
+      "tavily_credits": 1,
+      "gemini_requests": 1,
+      "timestamp": "2026-11-02T11:37:04.934Z"
+    },
+    {
+      "source": "daily_refresh",
+      "brand": "Zerodha",
+      "tavily_credits": 1,
+      "gemini_requests": 1,
+      "timestamp": "2026-11-02T11:37:33.964Z"
+    },
+    {
+      "source": "daily_refresh",
+      "brand": "CRED",
+      "tavily_credits": 1,
+      "gemini_requests": 1,
+      "timestamp": "2026-11-02T11:37:58.869Z"
+    },
+    {
+      "source": "daily_refresh",
+      "brand": "Meesho",
+      "tavily_credits": 1,
+      "gemini_requests": 1,
+      "timestamp": "2026-11-02T11:38:20.398Z"
+    },
+    {
+      "source": "daily_refresh",
+      "brand": "Ola Electric",
+      "tavily_credits": 1,
+      "gemini_requests": 1,
+      "timestamp": "2026-11-02T11:38:41.257Z"
+    },
+    {
+      "source": "daily_refresh",
+      "brand": "Uber",
+      "tavily_credits": 1,
+      "gemini_requests": 1,
+      "timestamp": "2026-11-02T11:39:03.946Z"
+    },
+    {
+      "source": "daily_refresh",
+      "brand": "Duolingo",
+      "tavily_credits": 1,
+      "gemini_requests": 1,
+      "timestamp": "2026-11-02T11:39:33.124Z"
+    },
+    {
+      "source": "daily_refresh",
+      "brand": "Instagram",
+      "tavily_credits": 1,
+      "gemini_requests": 1,
+      "timestamp": "2026-11-02T11:39:59.612Z"
+    },
+    {
+      "source": "daily_refresh",
+      "brand": "ChatGPT",
+      "tavily_credits": 1,
+      "gemini_requests": 1,
+      "timestamp": "2026-11-02T11:40:20.723Z"
+    },
+    {
+      "source": "daily_refresh",
+      "brand": "Tata Motors",
+      "tavily_credits": 1,
+      "gemini_requests": 1,
+      "timestamp": "2026-11-02T11:40:48.971Z"
+    },
+    {
+      "source": "daily_refresh",
+      "brand": "Philips India",
+      "tavily_credits": 1,
+      "gemini_requests": 1,
+      "timestamp": "2026-11-02T11:41:15.295Z"
     }
   ]
 }

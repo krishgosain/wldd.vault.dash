@@ -4,59 +4,74 @@
   "parent": "Dreamplug Technologies Pvt Ltd",
   "entity_type": "india_private_registered",
   "category": "Fintech",
-  "description": "CRED is an Indian financial technology platform owned and operated by Dreamplug Technologies Private Limited that offers credit card payments, lending, and consumer financial services.",
-  "last_refreshed": "2026-10-30T10:25:23.393Z",
+  "description": "CRED is an Indian financial technology platform operated by Dreamplug Technologies Pvt Ltd that offers credit card bill payment rewards, peer-to-peer lending, short-term credit, and utility payment management.",
+  "last_refreshed": "2026-11-02T11:37:58.869Z",
   "stock": {
     "applicable": false,
     "value": null,
     "currency": "INR",
     "ticker": null,
     "as_of": null,
-    "note": "Private company, stock not publicly traded.",
+    "note": "CRED is a privately held brand operated by Dreamplug Technologies Pvt Ltd and does not have a public stock ticker.",
     "confidence": "not_applicable"
   },
   "revenue": {
-    "value": 27350000000,
+    "value": 24730000000,
     "currency": "INR",
-    "period": "FY2025",
-    "confidence": "disclosed",
+    "period": "FY24",
+    "confidence": "press_estimate",
     "source": {
-      "name": "Multiples",
-      "url": "https://multiples.vc/private-comps/cred",
-      "date": "2026-01-01"
+      "name": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Cred_(company)",
+      "date": ""
     }
   },
   "operating_profit": {
-    "value": -298000000,
+    "value": -16440000000,
     "currency": "INR",
-    "period": "FY2025",
-    "confidence": "disclosed",
+    "period": "FY24",
+    "confidence": "press_estimate",
     "source": {
-      "name": "Multiples",
-      "url": "https://multiples.vc/private-comps/cred",
-      "date": "2026-01-01"
+      "name": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Cred_(company)",
+      "date": ""
     }
   },
   "expenses": {
-    "breakdown": [],
-    "confidence": "not_found"
+    "breakdown": [
+      {
+        "label": "Marketing and Advertising Expenses (FY21)",
+        "value": 2220000000,
+        "confidence": "disclosed"
+      },
+      {
+        "label": "Marketing and Advertising Expenses (FY20)",
+        "value": 570000000,
+        "confidence": "disclosed"
+      }
+    ],
+    "confidence": "disclosed"
   },
   "marketing_spend": {
-    "value_low": 4100000000,
-    "value_high": 5470000000,
+    "value_low": 2220000000,
+    "value_high": 2220000000,
     "currency": "INR",
-    "period": "FY2025",
-    "tier": "3_modeled",
-    "derivation": "Modeled by applying an estimated 15% to 20% marketing-to-revenue ratio on CRED's reported FY25 consolidated operating revenue of ₹2,735 crore, typical for high-growth consumer fintech apps in India.",
+    "period": "FY21",
+    "tier": "1_disclosed",
+    "derivation": "Officially disclosed marketing expense of ₹222 crore for FY21 as reported in financial filings by parent company Dreamplug Technologies Pvt Ltd.",
     "source": {
-      "name": "Multiples",
-      "url": "https://multiples.vc/private-comps/cred",
-      "date": "2026-01-01"
+      "name": "Startup.Pedia",
+      "url": "https://www.facebook.com/startup.pedia7/posts/cred-owned-and-operated-by-dreamplug-technologies-pvt-ltd-reported-a-45-increase/491744455733928",
+      "date": "2022-03-14"
     }
   },
   "trend_history": {
     "stock": [],
     "revenue": [
+      {
+        "period": "FY20",
+        "value": 181600000
+      },
       {
         "period": "FY2024",
         "value": 24730000000
@@ -64,24 +79,24 @@
       {
         "period": "FY2025",
         "value": 27350000000
+      },
+      {
+        "period": "FY21",
+        "value": 955300000
+      },
+      {
+        "period": "FY24",
+        "value": 24730000000
       }
     ]
   },
   "business_updates": [
     {
-      "headline": "CRED reported consolidated operating revenue of ₹2,735 crore while operating losses halved to ₹298 crore",
-      "date": "2026-01-01",
+      "headline": "CRED valued at $4.5B following Series H funding round",
+      "date": "2026-06",
       "source": {
-        "name": "Multiples",
+        "name": "Multiples.vc",
         "url": "https://multiples.vc/private-comps/cred"
-      }
-    },
-    {
-      "headline": "CRED valuation reached around US$4.5 billion",
-      "date": "2026-01-01",
-      "source": {
-        "name": "Wikipedia",
-        "url": "https://en.wikipedia.org/wiki/Cred_(company)"
       }
     }
   ]
