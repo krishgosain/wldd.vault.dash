@@ -1014,6 +1014,104 @@
       "tavily_credits": 1,
       "gemini_requests": 1,
       "timestamp": "2026-11-02T11:41:15.295Z"
+    },
+    {
+      "source": "daily_refresh",
+      "brand": "Spotify",
+      "tavily_credits": 1,
+      "gemini_requests": 1,
+      "timestamp": "2026-11-06T11:21:48.459Z"
+    },
+    {
+      "source": "daily_refresh",
+      "brand": "Netflix",
+      "tavily_credits": 1,
+      "gemini_requests": 1,
+      "timestamp": "2026-11-06T11:22:20.409Z"
+    },
+    {
+      "source": "daily_refresh",
+      "brand": "Tinder",
+      "tavily_credits": 1,
+      "gemini_requests": 1,
+      "timestamp": "2026-11-06T11:22:38.677Z"
+    },
+    {
+      "source": "daily_refresh",
+      "brand": "District",
+      "tavily_credits": 1,
+      "gemini_requests": 1,
+      "timestamp": "2026-11-06T11:22:59.922Z"
+    },
+    {
+      "source": "daily_refresh",
+      "brand": "Audible",
+      "tavily_credits": 1,
+      "gemini_requests": 1,
+      "timestamp": "2026-11-06T11:23:21.535Z"
+    },
+    {
+      "source": "daily_refresh",
+      "brand": "JioHotstar",
+      "tavily_credits": 1,
+      "gemini_requests": 1,
+      "timestamp": "2026-11-06T11:23:47.695Z"
+    },
+    {
+      "source": "daily_refresh",
+      "brand": "Amazon Shopping",
+      "tavily_credits": 1,
+      "gemini_requests": 1,
+      "timestamp": "2026-11-06T11:24:22.082Z"
+    },
+    {
+      "source": "daily_refresh",
+      "brand": "Amazon Now",
+      "tavily_credits": 1,
+      "gemini_requests": 1,
+      "timestamp": "2026-11-06T11:24:41.119Z"
+    },
+    {
+      "source": "daily_refresh",
+      "brand": "Prime Video",
+      "tavily_credits": 1,
+      "gemini_requests": 1,
+      "timestamp": "2026-11-06T11:25:14.032Z"
+    },
+    {
+      "source": "daily_refresh",
+      "brand": "BGMI",
+      "tavily_credits": 1,
+      "gemini_requests": 1,
+      "timestamp": "2026-11-06T11:25:56.296Z"
+    },
+    {
+      "source": "daily_refresh",
+      "brand": "Paper Boat",
+      "tavily_credits": 1,
+      "gemini_requests": 1,
+      "timestamp": "2026-11-06T11:26:19.339Z"
+    },
+    {
+      "source": "daily_refresh",
+      "brand": "Bajaj EV",
+      "tavily_credits": 1,
+      "gemini_requests": 1,
+      "timestamp": "2026-11-06T11:26:42.512Z"
+    },
+    {
+      "source": "daily_refresh",
+      "brand": "Agilitas",
+      "tavily_credits": 1,
+      "gemini_requests": 1,
+      "timestamp": "2026-11-06T11:27:07.146Z"
+    },
+    {
+      "source": "daily_refresh",
+      "brand": "Wispr Flow",
+      "tavily_credits": 1,
+      "gemini_requests": 1,
+      "timestamp": "2026-11-06T11:28:24.607Z"
     }
   ]
 }

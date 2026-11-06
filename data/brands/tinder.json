@@ -4,50 +4,46 @@
   "parent": "Match Group",
   "entity_type": "public_parent",
   "category": "Social / Dating",
-  "description": "Tinder is a global online dating and geosocial networking application owned by parent company Match Group.",
-  "last_refreshed": "2026-11-01T10:47:52.326Z",
+  "description": "Tinder is an online dating and social discovery application owned by publicly traded parent company Match Group, Inc. (NASDAQ: MTCH).",
+  "last_refreshed": "2026-11-06T11:22:38.677Z",
   "stock": {
     "applicable": false,
     "value": null,
     "currency": "USD",
     "ticker": null,
     "as_of": null,
-    "note": "Tinder is a subsidiary product of Match Group, which trades under ticker MTCH.",
+    "note": "Tinder is a brand portfolio segment of Match Group (NASDAQ: MTCH) and does not have its own stock ticker.",
     "confidence": "not_applicable"
   },
   "revenue": {
-    "value": 1862000000,
+    "value": 493000000,
     "currency": "USD",
-    "period": "FY2025",
+    "period": "Q4 2023",
     "confidence": "disclosed",
     "source": {
-      "name": "Wikipedia - Tinder (app) / Match Group SEC Form 10-K",
-      "url": "https://en.wikipedia.org/wiki/Tinder_(app)",
-      "date": "2026-02-26"
+      "name": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/news/stock-tinders-parent-company-trouble-194700679.html",
+      "date": ""
     }
   },
   "operating_profit": {
-    "value": 832000000,
+    "value": null,
     "currency": "USD",
-    "period": "FY2025",
-    "confidence": "disclosed",
-    "source": {
-      "name": "Wikipedia - Tinder (app) / Match Group SEC Form 10-K",
-      "url": "https://en.wikipedia.org/wiki/Tinder_(app)",
-      "date": "2026-02-26"
-    }
+    "period": "",
+    "confidence": "not_found",
+    "source": null
   },
   "expenses": {
     "breakdown": [],
     "confidence": "not_found"
   },
   "marketing_spend": {
-    "value_low": 279300000,
-    "value_high": 465500000,
+    "value_low": 73950000,
+    "value_high": 123250000,
     "currency": "USD",
-    "period": "FY2025",
+    "period": "Q4 2023",
     "tier": "3_modeled",
-    "derivation": "Modeled based on Tinder's reported FY2025 revenue of $1.862 billion using an industry-typical marketing-to-revenue benchmark range of 15% to 25% for consumer dating and subscription apps.",
+    "derivation": "Modeled as 15% to 25% of Tinder's disclosed Q4 2023 direct revenue ($493M), reflecting typical marketing and customer acquisition spend ratios in the consumer dating app category.",
     "source": null
   },
   "trend_history": {
@@ -67,6 +63,14 @@
       {
         "date": "2026-10-28",
         "value": 42.06
+      },
+      {
+        "date": "2026-11-05",
+        "value": 39.16
+      },
+      {
+        "date": "2026-11-06",
+        "value": 38.4
       }
     ],
     "revenue": [
@@ -103,10 +107,39 @@
         "value": 853000000
       },
       {
+        "period": "Q4 2023",
+        "value": 493000000
+      },
+      {
         "period": "Q4 2025",
         "value": 463800000
       }
     ]
   },
-  "business_updates": []
+  "business_updates": [
+    {
+      "headline": "Tinder's US daily active users return to growth in October as Match ramps up AI efforts",
+      "date": "2026-11-02",
+      "source": {
+        "name": "Reuters",
+        "url": "https://www.heygotrade.com/en/us-stock/mtch"
+      }
+    },
+    {
+      "headline": "Will Tinder's Radical Rebrand Save Match Group From Permanent Decline?",
+      "date": "2026-10-27",
+      "source": {
+        "name": "24/7 Wall Street",
+        "url": "https://www.heygotrade.com/en/us-stock/mtch"
+      }
+    },
+    {
+      "headline": "Match Group: Tinder's AI Push Speeds Releases, Powers Smarter Recommendations",
+      "date": "2026-09-03",
+      "source": {
+        "name": "MarketBeat",
+        "url": "https://www.heygotrade.com/en/us-stock/mtch"
+      }
+    }
+  ]
 }

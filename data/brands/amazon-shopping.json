@@ -1,68 +1,68 @@
 {
   "name": "Amazon Shopping",
   "slug": "amazon-shopping",
-  "parent": "Amazon.com, Inc.",
+  "parent": "Amazon",
   "entity_type": "public_parent",
   "category": "E-commerce",
-  "description": "Amazon Shopping is the flagship e-commerce platform of parent company Amazon.com, Inc., offering direct retail, marketplace seller services, and digital shopping options.",
-  "last_refreshed": "2026-11-01T10:49:09.777Z",
+  "description": "Amazon Shopping is the retail and e-commerce marketplace division operated globally by Amazon.com, Inc. and locally through subsidiaries such as Amazon Seller Services Pvt Ltd.",
+  "last_refreshed": "2026-11-06T11:24:22.082Z",
   "stock": {
     "applicable": false,
-    "value": null,
+    "value": 260.21,
     "currency": "USD",
     "ticker": "AMZN",
-    "as_of": "2026-07-31",
-    "note": "Reflects parent company Amazon.com, Inc. (NASDAQ: AMZN), not Amazon Shopping specifically",
+    "as_of": "2026-11-05",
+    "note": "Reflects parent company Amazon.com, Inc. (NASDAQ: AMZN), not Amazon Shopping specifically.",
     "confidence": "not_applicable"
   },
   "revenue": {
-    "value": 201944000000,
+    "value": 155960000000,
     "currency": "USD",
-    "period": "3Q2026",
+    "period": "Q3 2026",
     "confidence": "disclosed",
     "source": {
-      "name": "Yahoo Finance",
-      "url": "https://finance.yahoo.com/quote/AMZN",
-      "date": "2026-10-29"
+      "name": "Amazon.com, Inc. - Amazon.com Announces Third Quarter Results",
+      "url": "https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-Third-Quarter-Results/default.aspx",
+      "date": "2026-11-05"
     }
   },
   "operating_profit": {
-    "value": 8267000000,
+    "value": 10303000000,
     "currency": "USD",
-    "period": "1Q2026",
+    "period": "Q3 2026",
     "confidence": "disclosed",
     "source": {
-      "name": "Amazon.com, Inc. - Amazon.com Announces First Quarter Results",
-      "url": "https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-First-Quarter-Results/default.aspx",
-      "date": "2026-04-29"
+      "name": "Amazon.com, Inc. - Amazon.com Announces Third Quarter Results",
+      "url": "https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-Third-Quarter-Results/default.aspx",
+      "date": "2026-11-05"
     }
   },
   "expenses": {
     "breakdown": [
       {
-        "label": "Sales and marketing",
-        "value": 42238000000,
+        "label": "North America Operating Expenses",
+        "value": 104129000000,
         "confidence": "disclosed"
       },
       {
-        "label": "General and administrative",
-        "value": 11891000000,
+        "label": "International Operating Expenses",
+        "value": 41528000000,
         "confidence": "disclosed"
       }
     ],
     "confidence": "disclosed"
   },
   "marketing_spend": {
-    "value_low": 42238000000,
-    "value_high": 42238000000,
+    "value_low": 7798000000,
+    "value_high": 12477000000,
     "currency": "USD",
-    "period": "9M FY2025",
-    "tier": "1_disclosed",
-    "derivation": "Disclosed as Sales and Marketing operating expense of $42,238 million in Amazon.com, Inc.'s financial statements.",
+    "period": "Q3 2026",
+    "tier": "3_modeled",
+    "derivation": "Modeled by applying a standard e-commerce marketing-to-revenue ratio of 5% to 8% to Amazon's combined Q3 2026 North America and International segment sales ($155.96 billion).",
     "source": {
-      "name": "AMAZON.COM, INC. - Cloudfront.net",
-      "url": "https://d18rn0p25nwr6d.cloudfront.net/CIK-0001018724/140f55ec-e3ce-40ba-a12a-1925fa354cc8.pdf",
-      "date": "2025"
+      "name": "Amazon.com, Inc. - Amazon.com Announces Third Quarter Results",
+      "url": "https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-Third-Quarter-Results/default.aspx",
+      "date": "2026-11-05"
     }
   },
   "trend_history": {
@@ -86,6 +86,10 @@
       {
         "date": "2026-10-28",
         "value": 254.6
+      },
+      {
+        "date": "2026-11-05",
+        "value": 260.21
       }
     ],
     "revenue": [
@@ -135,7 +139,11 @@
       },
       {
         "period": "Q3 2025",
-        "value": 180170000000
+        "value": 147163000000
+      },
+      {
+        "period": "Q3 2026",
+        "value": 155960000000
       },
       {
         "period": "Q4 2025",
@@ -145,19 +153,11 @@
   },
   "business_updates": [
     {
-      "headline": "Amazon to Shut Down All Amazon Go and Amazon Fresh Stores",
-      "date": "2026-01-27",
+      "headline": "Amazon Announces Q3 2026 Results with Combined North America and International Net Sales of $155.96 Billion",
+      "date": "2026-11-05",
       "source": {
-        "name": "Wikipedia",
-        "url": "https://en.wikipedia.org/wiki/Amazon_(company)"
-      }
-    },
-    {
-      "headline": "Amazon.com Announces Third Quarter 2026 Results with Advertising Revenue Growth",
-      "date": "2026-10-28",
-      "source": {
-        "name": "Business Wire",
-        "url": "https://www.businesswire.com/news/home/20261028373648/en/Amazon.com-Announces-Third-Quarter-Results"
+        "name": "Amazon.com, Inc. - Amazon.com Announces Third Quarter Results",
+        "url": "https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-Third-Quarter-Results/default.aspx"
       }
     }
   ]

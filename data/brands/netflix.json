@@ -4,51 +4,51 @@
   "parent": null,
   "entity_type": "public_standalone",
   "category": "OTT",
-  "description": "Netflix, Inc. is a standalone public provider of subscription streaming entertainment services, acquiring, licensing, and producing original films, television series, and games.",
-  "last_refreshed": "2026-11-01T10:47:39.142Z",
+  "description": "Netflix, Inc. is a standalone publicly traded subscription video streaming and entertainment service company.",
+  "last_refreshed": "2026-11-06T11:22:20.408Z",
   "stock": {
     "applicable": true,
-    "value": 67.85,
+    "value": 65.56,
     "currency": "USD",
     "ticker": "NFLX",
-    "as_of": "2026-10-01",
-    "note": "Reflects Netflix, Inc. standalone stock price.",
+    "as_of": "2026-11-05",
+    "note": "Reflects Netflix, Inc. regular market closing price on NASDAQ.",
     "confidence": "disclosed"
   },
   "revenue": {
-    "value": 49735000000,
+    "value": 45180000000,
     "currency": "USD",
-    "period": "TTM Q3 2026",
+    "period": "FY2025",
     "confidence": "disclosed",
     "source": {
-      "name": "Macrotrends",
-      "url": "https://www.macrotrends.net/stocks/charts/NFLX/netflix/revenue",
-      "date": "2026-09-30"
+      "name": "Netflix",
+      "url": "https://tavily.com/knowledge/company/NIwgV0rP9so8",
+      "date": ""
     }
   },
   "operating_profit": {
-    "value": null,
+    "value": 13330000000,
     "currency": "USD",
-    "period": "FY2026",
-    "confidence": "not_found",
-    "source": null
+    "period": "FY2025",
+    "confidence": "disclosed",
+    "source": {
+      "name": "Netflix",
+      "url": "https://tavily.com/knowledge/company/NIwgV0rP9so8",
+      "date": ""
+    }
   },
   "expenses": {
     "breakdown": [],
     "confidence": "not_found"
   },
   "marketing_spend": {
-    "value_low": 3577000000,
-    "value_high": 4599000000,
+    "value_low": 3162600000,
+    "value_high": 4066200000,
     "currency": "USD",
-    "period": "FY2026",
+    "period": "FY2025",
     "tier": "3_modeled",
-    "derivation": "Calculated using an estimated OTT industry marketing-to-revenue ratio of 7%-9% applied against Netflix's projected full-year 2026 revenue of $51.1 billion.",
-    "source": {
-      "name": "StockTitan",
-      "url": "https://www.stocktitan.net/news/NFLX/netflix-q3-2026-earnings-revenue-12-billion-35pct-margin.html",
-      "date": "2026-10-20"
-    }
+    "derivation": "Estimated using an OTT industry standard sales and marketing spend ratio of 7% to 9% applied against Netflix's reported FY2025 revenue of $45.18 billion.",
+    "source": null
   },
   "trend_history": {
     "stock": [
@@ -69,12 +69,20 @@
         "value": 67.85
       },
       {
+        "date": "2026-10-19",
+        "value": 69.81
+      },
+      {
         "date": "2026-10-20",
         "value": 68.46
       },
       {
         "date": "2026-10-26",
         "value": 63.55
+      },
+      {
+        "date": "2026-11-05",
+        "value": 65.56
       }
     ],
     "revenue": [
@@ -88,7 +96,7 @@
       },
       {
         "period": "FY2025",
-        "value": 45200000000
+        "value": 45180000000
       },
       {
         "period": "Q1 2025",
@@ -142,27 +150,19 @@
   },
   "business_updates": [
     {
-      "headline": "Netflix lowers 2026 advertising revenue forecast to approximately $2.7 billion due to slower ad-product rollout",
-      "date": "2026-10-20",
+      "headline": "Netflix Q3 2026 earnings call: advertising grew over 80%, India revenue rose nearly 20%",
+      "date": "2026-10",
       "source": {
-        "name": "Quartz",
-        "url": "https://qz.com/netflix-ad-revenue-forecast-cut-earnings-102026"
+        "name": "TradingKey",
+        "url": "https://tradingkey.com/markets/stocks/nasdaq-nflx"
       }
     },
     {
-      "headline": "Netflix Q3 2026 revenue reaches $12.87B with operating margin expanding to 34.6%",
-      "date": "2026-10-20",
+      "headline": "Netflix achieved 16% revenue growth in 2025 and forecasts doubling ad sales in 2026 to about $3 billion",
+      "date": "2026-01",
       "source": {
-        "name": "StockTitan",
-        "url": "https://www.stocktitan.net/news/NFLX/netflix-q3-2026-earnings-revenue-12-billion-35pct-margin.html"
-      }
-    },
-    {
-      "headline": "Netflix lands exclusive rights in Spain and Andorra for FIFA World Cup 2030",
-      "date": "2026-10-20",
-      "source": {
-        "name": "Morningstar",
-        "url": "https://www.morningstar.com/stocks/xnas/nflx/quote"
+        "name": "Investing.com",
+        "url": "https://ca.investing.com/news/company-news/netflix-inc-nflx-q4-2025-earnings-call-highlights-strong-revenue-growth-and-strategic--4410643"
       }
     }
   ]

@@ -4,56 +4,65 @@
   "parent": "Amazon",
   "entity_type": "public_parent",
   "category": "OTT",
-  "description": "Prime Video is an over-the-top (OTT) streaming and video-on-demand service owned and operated by Amazon.com, Inc.",
-  "last_refreshed": "2026-11-01T10:49:48.867Z",
+  "description": "Prime Video is an over-the-top subscription video-on-demand and streaming service operated by Amazon.",
+  "last_refreshed": "2026-11-06T11:25:14.031Z",
   "stock": {
     "applicable": false,
     "value": null,
     "currency": "USD",
-    "ticker": null,
+    "ticker": "AMZN",
     "as_of": null,
-    "note": "Prime Video is a subsidiary business segment of Amazon.com, Inc. (NASDAQ: AMZN) and does not trade independently.",
+    "note": "Reflects parent company Amazon (AMZN), not Prime Video specifically.",
     "confidence": "not_applicable"
   },
   "revenue": {
-    "value": 14000000000,
+    "value": null,
     "currency": "USD",
-    "period": "FY2023",
+    "period": "FY2026",
     "confidence": "press_estimate",
     "source": {
-      "name": "Business of Apps",
-      "url": "https://www.businessofapps.com/data/amazon-prime-video-statistics",
-      "date": "2026"
+      "name": "Variety",
+      "url": "https://variety.com/2026/tv/news/prime-video-profitable-content-spending-q3-amazon-ceo-1236935186",
+      "date": "2026-10-30"
     }
   },
   "operating_profit": {
     "value": null,
     "currency": "USD",
-    "period": "FY2023",
-    "confidence": "not_found",
-    "source": null
+    "period": "FY2026",
+    "confidence": "press_estimate",
+    "source": {
+      "name": "Variety",
+      "url": "https://variety.com/2026/tv/news/prime-video-profitable-content-spending-q3-amazon-ceo-1236935186",
+      "date": "2026-10-30"
+    }
   },
   "expenses": {
     "breakdown": [
       {
-        "label": "Content Spend",
-        "value": 18900000000,
+        "label": "Q3 2026 Video and Music Content Spending",
+        "value": 5900000000,
+        "confidence": "disclosed"
+      },
+      {
+        "label": "First 9 Months 2026 Video and Music Content Spending",
+        "value": 18800000000,
         "confidence": "disclosed"
       }
     ],
-    "confidence": "press_estimate"
+    "confidence": "disclosed"
   },
   "marketing_spend": {
-    "value_low": 2100000000,
+    "value_low": 2000000000,
     "value_high": 3500000000,
     "currency": "USD",
-    "period": "FY2023",
+    "period": "FY2026",
     "tier": "3_modeled",
-    "derivation": "Modeled by applying a standard OTT industry marketing-to-revenue ratio of 15% to 25% against Prime Video's estimated $14 billion FY2023 revenue.",
+    "derivation": "Modeled based on Prime Video's disclosed annualized revenue run rate in the tens of billions of dollars (~$20 billion) applying a standard OTT industry marketing-to-revenue ratio of 10% to 15%.",
     "source": {
-      "name": "Business of Apps",
-      "url": "https://www.businessofapps.com/data/amazon-prime-video-statistics",
-      "date": "2026"
+      "name": "Variety",
+      "url": "https://variety.com/2026/tv/news/prime-video-profitable-content-spending-q3-amazon-ceo-1236935186",
+      "date": "2026-10-30"
     }
   },
   "trend_history": {
@@ -124,27 +133,19 @@
   },
   "business_updates": [
     {
-      "headline": "Prime Video secures exclusive global broadcasting rights for the Emmys from 2027 through 2033",
+      "headline": "Amazon CEO Andy Jassy announces Prime Video is profitable with annualized revenue in tens of billions",
       "date": "2026-10-30",
       "source": {
-        "name": "TheWrap",
-        "url": "https://www.thewrap.com/industry-news/business/amazon-earnings-q3-2026"
+        "name": "Variety",
+        "url": "https://variety.com/2026/tv/news/prime-video-profitable-content-spending-q3-amazon-ceo-1236935186"
       }
     },
     {
-      "headline": "Prime Video ad tier expands to reach over 315 million monthly active users worldwide",
+      "headline": "Amazon reports Q3 content spending grew 7% to $5.9 billion driven by hit shows and live sports expansion",
       "date": "2026-10-30",
       "source": {
-        "name": "Investing.com",
-        "url": "https://www.investing.com/analysis/amazon-says-prime-video-revenue-is-running-at-tens-of-billions-200690565"
-      }
-    },
-    {
-      "headline": "Amazon increases annual Prime Video content spend to $18.9 billion",
-      "date": "2026-01-01",
-      "source": {
-        "name": "Business of Apps",
-        "url": "https://www.businessofapps.com/data/amazon-prime-video-statistics"
+        "name": "DEG",
+        "url": "https://www.degonline.org/amazon-ceo-says-prime-video-is-profitable-and-generates-tens-of-billions-of-dollars-annually-content-spending-grew-7-in-q3-to-5-9-billion-variety"
       }
     }
   ]

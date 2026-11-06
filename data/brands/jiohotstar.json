@@ -1,57 +1,49 @@
 {
   "name": "JioHotstar",
   "slug": "jiohotstar",
-  "parent": "JioStar",
+  "parent": "JioStar (Reliance Industries / Disney Joint Venture)",
   "entity_type": "india_private_registered",
   "category": "OTT",
-  "description": "JioHotstar is a leading Indian digital streaming platform operated by JioStar, a joint venture between Reliance Industries, The Walt Disney Company, and Bodhi Tree Systems.",
-  "last_refreshed": "2026-11-01T10:48:46.487Z",
+  "description": "JioHotstar is a premier Indian digital streaming platform operated by JioStar, a joint venture formed by the merger of JioCinema and Disney+ Hotstar under Reliance Industries and The Walt Disney Company.",
+  "last_refreshed": "2026-11-06T11:23:47.694Z",
   "stock": {
     "applicable": false,
     "value": null,
     "currency": "INR",
     "ticker": null,
     "as_of": null,
-    "note": "Reflects joint venture ownership under parent entity JioStar (Reliance Industries / Disney) rather than a direct listing.",
+    "note": "Not independently listed; parent entities Reliance Industries (RELIANCE.NS) and The Walt Disney Company (DIS) are publicly traded.",
     "confidence": "not_applicable"
   },
   "revenue": {
-    "value": 100060000000,
+    "value": null,
     "currency": "INR",
-    "period": "FY25",
-    "confidence": "disclosed",
-    "source": {
-      "name": "JioStar Financial Disclosure",
-      "url": "https://www.instagram.com/p/DI88_NHzo8G",
-      "date": "2025-04-01"
-    }
+    "period": "FY2025",
+    "confidence": "not_found",
+    "source": null
   },
   "operating_profit": {
-    "value": 7740000000,
+    "value": null,
     "currency": "INR",
-    "period": "FY25",
-    "confidence": "disclosed",
-    "source": {
-      "name": "JioStar Financial Disclosure",
-      "url": "https://www.instagram.com/p/DI88_NHzo8G",
-      "date": "2025-04-01"
-    }
+    "period": "FY2025",
+    "confidence": "not_found",
+    "source": null
   },
   "expenses": {
     "breakdown": [],
     "confidence": "not_found"
   },
   "marketing_spend": {
-    "value_low": 10006000000,
-    "value_high": 15009000000,
+    "value_low": 3000000000,
+    "value_high": 6000000000,
     "currency": "INR",
-    "period": "FY25",
+    "period": "FY2025",
     "tier": "3_modeled",
-    "derivation": "Modeled using a 10%-15% marketing-to-revenue ratio benchmark applied to parent entity JioStar's FY25 revenue of ₹10,006 crore to account for heavy platform re-launch promotions and IPL 2025 marketing campaigns.",
+    "derivation": "Modeled using standard OTT sector marketing-to-content investment ratios applied against the joint venture's ₹11,500 crore committed capital and ₹4,000 crore ($444 million) 5-year regional content allocation.",
     "source": {
-      "name": "JioStar Financial Disclosure",
-      "url": "https://www.instagram.com/p/DI88_NHzo8G",
-      "date": "2025-04-01"
+      "name": "Reuters via Yahoo Finance",
+      "url": "https://finance.yahoo.com/news/reliance-disneys-jiohotstar-invest-444-133111191.html",
+      "date": "2024-12-09"
     }
   },
   "trend_history": {
@@ -85,27 +77,19 @@
   },
   "business_updates": [
     {
-      "headline": "JioHotstar officially launched, integrating JioCinema and Disney+ Hotstar assets",
-      "date": "2025-02-14",
+      "headline": "Reliance and Disney complete transaction to form $8.5 billion media joint venture operating JioHotstar",
+      "date": "2024-11-14",
       "source": {
-        "name": "The Hindu / Baiduwiki",
-        "url": "https://baike.baidu.com/en/item/JioStar/6987364"
+        "name": "JioStar",
+        "url": "https://www.jiostar.com/news/reliance-and-disney-announce-completion-of-transaction-to-form-joint-venture-to-bring-together-the-most-iconic-and-engaging-entertainment-brands-in-india"
       }
     },
     {
-      "headline": "JioHotstar commits $444 million (₹40 billion) to south Indian regional content over 5 years",
-      "date": "2025-12-09",
+      "headline": "JioHotstar announces $444 million (₹40 billion) investment over 5 years for south Indian content creation",
+      "date": "2024-12-09",
       "source": {
-        "name": "Reuters",
+        "name": "Reuters via Yahoo Finance",
         "url": "https://finance.yahoo.com/news/reliance-disneys-jiohotstar-invest-444-133111191.html"
-      }
-    },
-    {
-      "headline": "JioStar Digital CEO Kiran Mani steps down to lead OpenAI Asia expansion",
-      "date": "2026-03-25",
-      "source": {
-        "name": "Sina News",
-        "url": "https://baike.baidu.com/en/item/JioStar/6987364"
       }
     }
   ]

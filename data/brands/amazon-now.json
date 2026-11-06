@@ -4,15 +4,15 @@
   "parent": "Amazon",
   "entity_type": "public_parent",
   "category": "Quick Commerce",
-  "description": "Amazon Now is a quick commerce delivery service operated by parent company Amazon.com, Inc.",
-  "last_refreshed": "2026-11-01T10:49:30.636Z",
+  "description": "Amazon Now is a quick commerce delivery service operating under parent e-commerce giant Amazon.com, Inc.",
+  "last_refreshed": "2026-11-06T11:24:41.119Z",
   "stock": {
     "applicable": false,
-    "value": 240.8,
+    "value": 270.43,
     "currency": "USD",
     "ticker": "AMZN",
-    "as_of": "2026-10-31",
-    "note": "Reflects parent company Amazon.com, Inc. (AMZN), not this brand specifically",
+    "as_of": "2026-11-05",
+    "note": "Reflects parent company Amazon.com, Inc. (NASDAQ: AMZN), not Amazon Now specifically.",
     "confidence": "not_applicable"
   },
   "revenue": {
@@ -34,12 +34,12 @@
     "confidence": "not_found"
   },
   "marketing_spend": {
-    "value_low": 100000000,
-    "value_high": 300000000,
+    "value_low": 50000000,
+    "value_high": 150000000,
     "currency": "USD",
-    "period": "FY2026",
+    "period": "FY2025",
     "tier": "3_modeled",
-    "derivation": "Modeled based on category-typical marketing-to-revenue allocations of 3-5% within quick commerce and ultra-fast grocery delivery retail operations.",
+    "derivation": "Modeled using category-typical quick commerce marketing-to-revenue allocation ratios of 5%-10% applied against estimated segment scale.",
     "source": null
   },
   "trend_history": {
@@ -67,6 +67,10 @@
       {
         "date": "2026-10-31",
         "value": 240.8
+      },
+      {
+        "date": "2026-11-05",
+        "value": 270.43
       }
     ],
     "revenue": [
@@ -102,18 +106,18 @@
   },
   "business_updates": [
     {
-      "headline": "Amazon reports Q3 2026 operating income of $28.1B with record 13.9% operating margin",
-      "date": "2026-10-29",
+      "headline": "Amazon selects Uber Eats as its official restaurant delivery partner for Prime members in the United States, replacing GrubHub.",
+      "date": "2026-11-04",
       "source": {
-        "name": "SEC Edgar",
-        "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000038/amzn-20260930xex991.htm"
+        "name": "Robinhood",
+        "url": "https://robinhood.com/us/en/stocks/AMZN"
       }
     },
     {
-      "headline": "AWS net sales grow 39.3% to $184B annualized revenue run rate",
-      "date": "2026-10-29",
+      "headline": "Amazon reports Q3 2026 North America segment operating income of $8.72B on net sales of $112.85B.",
+      "date": "2026-11-05",
       "source": {
-        "name": "Amazon IR",
+        "name": "Amazon Investor Relations",
         "url": "https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-Third-Quarter-Results/default.aspx"
       }
     }

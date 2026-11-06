@@ -4,28 +4,28 @@
   "parent": "Eternal Ltd",
   "entity_type": "public_parent",
   "category": "Events / Ticketing",
-  "description": "District is an events, ticketing, and going-out business vertical operated by Eternal Ltd (formerly Zomato).",
-  "last_refreshed": "2026-11-01T10:48:10.506Z",
+  "description": "District is an entertainment and going-out platform for live event ticketing, dining-out, movies, and experiences, operated by Eternal Ltd (formerly Zomato).",
+  "last_refreshed": "2026-11-06T11:22:59.921Z",
   "stock": {
     "applicable": false,
     "value": null,
     "currency": "INR",
     "ticker": null,
     "as_of": null,
-    "note": "Reflects parent company Eternal Ltd (ETERNAL.NS); District does not have its own stock ticker.",
+    "note": "District is a brand segment of Eternal Ltd (ETERNAL.NS) and does not have its own stock ticker.",
     "confidence": "not_applicable"
   },
   "revenue": {
     "value": null,
     "currency": "INR",
-    "period": "FY2026",
+    "period": "Q4 FY2026",
     "confidence": "not_found",
     "source": null
   },
   "operating_profit": {
     "value": null,
     "currency": "INR",
-    "period": "FY2026",
+    "period": "Q4 FY2026",
     "confidence": "not_found",
     "source": null
   },
@@ -34,17 +34,13 @@
     "confidence": "not_found"
   },
   "marketing_spend": {
-    "value_low": 1500000000,
+    "value_low": 1000000000,
     "value_high": 3000000000,
     "currency": "INR",
     "period": "FY2026",
     "tier": "3_modeled",
-    "derivation": "Modeled by estimating an allocation of 5-10% of parent company Eternal Ltd's total advertising and marketing expenditure toward its newly launched District going-out and events business.",
-    "source": {
-      "name": "Medial",
-      "url": "https://medial.app/news/a-full-picture-of-eternals-q4-fy26-results-from-blinkit-to-zomato-and-beyond-7b08a77c7ce49",
-      "date": "2026-07-21"
-    }
+    "derivation": "Modeled by applying a standard 5-10% marketing-to-revenue benchmark for digital ticketing and entertainment platforms against District's 9.8% contribution to parent Eternal Ltd's adjusted revenue mix.",
+    "source": null
   },
   "trend_history": {
     "stock": [
@@ -90,19 +86,11 @@
   },
   "business_updates": [
     {
-      "headline": "Eternal Ltd consolidated revenue grows significantly driven by food delivery and quick commerce expansion",
-      "date": "2026-07-22",
+      "headline": "District (Going-Out) accounts for 9.8% of Eternal Ltd's adjusted revenue mix",
+      "date": "2026-03-31",
       "source": {
-        "name": "Tickertape",
-        "url": "https://www.tickertape.in/stocks/zomato-ZOM"
-      }
-    },
-    {
-      "headline": "Founder Deepinder Goyal steps away from Group CEO role at Eternal Ltd",
-      "date": "2026-01-21",
-      "source": {
-        "name": "Medial",
-        "url": "https://medial.app/news/a-full-picture-of-eternals-q4-fy26-results-from-blinkit-to-zomato-and-beyond-7b08a77c7ce49"
+        "name": "Finology Ticker",
+        "url": "https://ticker.finology.in/company/ETERNAL"
       }
     }
   ]

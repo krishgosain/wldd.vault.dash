@@ -4,66 +4,46 @@
   "parent": "Agilitas Sports Pvt Ltd",
   "entity_type": "india_private_registered",
   "category": "Footwear / Sports",
-  "description": "Agilitas is an Indian sports footwear and athleisure manufacturing brand platform operated by Agilitas Sports Private Limited.",
-  "last_refreshed": "2026-11-01T10:51:07.199Z",
+  "description": "Agilitas is an Indian sports and athletic footwear ecosystem brand under Agilitas Sports Private Limited, integrating manufacturing, R&D, and brand licensing.",
+  "last_refreshed": "2026-11-06T11:27:07.145Z",
   "stock": {
     "applicable": false,
     "value": null,
     "currency": "INR",
     "ticker": null,
     "as_of": null,
-    "note": "Agilitas Sports Private Limited is a privately registered company and is not publicly listed.",
+    "note": "Private company, not listed on public stock exchanges.",
     "confidence": "not_applicable"
   },
   "revenue": {
-    "value": 15950000000,
+    "value": 10000000000,
     "currency": "INR",
     "period": "FY2025",
-    "confidence": "disclosed",
+    "confidence": "press_estimate",
     "source": {
       "name": "Tracxn",
-      "url": "https://tracxn.com/d/legal-entities/india/agilitas-sports-private-limited/__--eXRpv1ljriYRhElLZR3qYbvGa3fsYBwn5y1iAMBsE",
-      "date": "2026-01-01"
+      "url": "https://tracxn.com/d/companies/agilitas/__TSw7AGSFziiaFwBTtn9eb_qA2C_UcO1FMp0tD8E5a2Y",
+      "date": "2025-03-31"
     }
   },
   "operating_profit": {
-    "value": 21060000000,
+    "value": null,
     "currency": "INR",
     "period": "FY2025",
-    "confidence": "disclosed",
-    "source": {
-      "name": "Tracxn",
-      "url": "https://tracxn.com/d/legal-entities/india/agilitas-sports-private-limited/__--eXRpv1ljriYRhElLZR3qYbvGa3fsYBwn5y1iAMBsE",
-      "date": "2026-01-01"
-    }
+    "confidence": "not_found",
+    "source": null
   },
   "expenses": {
-    "breakdown": [
-      {
-        "label": "Operating Expenses",
-        "value": 60560000000,
-        "confidence": "disclosed"
-      },
-      {
-        "label": "Employee Expenses",
-        "value": 51720000000,
-        "confidence": "disclosed"
-      },
-      {
-        "label": "Interest Expenses",
-        "value": 70000000000,
-        "confidence": "disclosed"
-      }
-    ],
-    "confidence": "disclosed"
+    "breakdown": [],
+    "confidence": "not_found"
   },
   "marketing_spend": {
-    "value_low": 797500000,
-    "value_high": 1276000000,
+    "value_low": 500000000,
+    "value_high": 800000000,
     "currency": "INR",
     "period": "FY2025",
     "tier": "3_modeled",
-    "derivation": "Modeled as 5% to 8% of FY 2024-25 reported revenue of ₹1,595 crore, based on typical footwear and athleisure industry ad-spend intensity benchmarks.",
+    "derivation": "Estimated at 5–8% of the company's reported FY2025 revenue of ₹1,000+ Cr, based on standard ad spend to revenue benchmarks for athletic footwear and D2C sports brands in India.",
     "source": null
   },
   "trend_history": {
@@ -75,7 +55,7 @@
       },
       {
         "period": "FY2025",
-        "value": 15950000000
+        "value": 10000000000
       },
       {
         "period": "FY2026",
@@ -83,30 +63,5 @@
       }
     ]
   },
-  "business_updates": [
-    {
-      "headline": "Shraddha Shetty Takes Charge of Lotto Marketing at Agilitas",
-      "date": "2026-09-28",
-      "source": {
-        "name": "Women Entrepreneurs Review",
-        "url": "https://equityzen.com/company/agilitassports"
-      }
-    },
-    {
-      "headline": "Agilitas Sports Private Limited raises INR 2.25 billion in venture funding led by Nexus Venture Partners",
-      "date": "2026-05-01",
-      "source": {
-        "name": "Preqin",
-        "url": "https://www.preqin.com/data/profile/asset/agilitas-sports-private-limited/545107"
-      }
-    },
-    {
-      "headline": "Lotto welcomes Sania Mirza as Chief Advisor for Women’s Sports",
-      "date": "2026-01-08",
-      "source": {
-        "name": "LinkedIn",
-        "url": "https://in.linkedin.com/company/agilitas-sport"
-      }
-    }
-  ]
+  "business_updates": []
 }
