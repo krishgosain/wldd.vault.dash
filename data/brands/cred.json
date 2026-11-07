@@ -4,49 +4,54 @@
   "parent": "Dreamplug Technologies Pvt Ltd",
   "entity_type": "india_private_registered",
   "category": "Fintech",
-  "description": "CRED is an Indian financial technology platform operated by Dreamplug Technologies Pvt Ltd that offers credit card bill payment rewards, peer-to-peer lending, short-term credit, and utility payment management.",
-  "last_refreshed": "2026-11-02T11:37:58.869Z",
+  "description": "CRED is an Indian reward-based fintech platform operated by parent company Dreamplug Technologies Pvt Ltd, offering credit card bill payments, lending, and personal finance management.",
+  "last_refreshed": "2026-11-07T10:39:58.354Z",
   "stock": {
     "applicable": false,
     "value": null,
     "currency": "INR",
     "ticker": null,
     "as_of": null,
-    "note": "CRED is a privately held brand operated by Dreamplug Technologies Pvt Ltd and does not have a public stock ticker.",
+    "note": "CRED is a brand owned by Dreamplug Technologies Private Limited, a private entity, and is not publicly listed.",
     "confidence": "not_applicable"
   },
   "revenue": {
     "value": 24730000000,
     "currency": "INR",
-    "period": "FY24",
-    "confidence": "press_estimate",
+    "period": "FY2024",
+    "confidence": "disclosed",
     "source": {
       "name": "Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Cred_(company)",
-      "date": ""
+      "date": "2024-01-01"
     }
   },
   "operating_profit": {
     "value": -16440000000,
     "currency": "INR",
-    "period": "FY24",
-    "confidence": "press_estimate",
+    "period": "FY2024",
+    "confidence": "disclosed",
     "source": {
       "name": "Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Cred_(company)",
-      "date": ""
+      "date": "2024-01-01"
     }
   },
   "expenses": {
     "breakdown": [
       {
-        "label": "Marketing and Advertising Expenses (FY21)",
+        "label": "Marketing Expenses (FY21)",
         "value": 2220000000,
         "confidence": "disclosed"
       },
       {
-        "label": "Marketing and Advertising Expenses (FY20)",
-        "value": 570000000,
+        "label": "Share-based payments (FY21)",
+        "value": 440000000,
+        "confidence": "disclosed"
+      },
+      {
+        "label": "Staff welfare expenses (FY21)",
+        "value": 3500000,
         "confidence": "disclosed"
       }
     ],
@@ -56,13 +61,13 @@
     "value_low": 2220000000,
     "value_high": 2220000000,
     "currency": "INR",
-    "period": "FY21",
+    "period": "FY2021",
     "tier": "1_disclosed",
-    "derivation": "Officially disclosed marketing expense of ₹222 crore for FY21 as reported in financial filings by parent company Dreamplug Technologies Pvt Ltd.",
+    "derivation": "Directly cited from company filings reported in financial media (Livemint), which recorded ₹222 crore spent on marketing in FY21 compared to ₹57 crore in FY20.",
     "source": {
-      "name": "Startup.Pedia",
-      "url": "https://www.facebook.com/startup.pedia7/posts/cred-owned-and-operated-by-dreamplug-technologies-pvt-ltd-reported-a-45-increase/491744455733928",
-      "date": "2022-03-14"
+      "name": "Livemint",
+      "url": "https://www.livemint.com/companies/news/cred-fy21-losses-widen-as-marketing-spends-grow-manifold-11646404617147.html",
+      "date": "2022-03-04"
     }
   },
   "trend_history": {
@@ -71,6 +76,14 @@
       {
         "period": "FY20",
         "value": 181600000
+      },
+      {
+        "period": "FY2020",
+        "value": 5200000
+      },
+      {
+        "period": "FY2021",
+        "value": 880000000
       },
       {
         "period": "FY2024",
@@ -92,11 +105,19 @@
   },
   "business_updates": [
     {
-      "headline": "CRED valued at $4.5B following Series H funding round",
-      "date": "2026-06",
+      "headline": "CRED reported revenue of ₹2,473 crore and net loss of ₹1,644 crore in FY24",
+      "date": "2024-01-01",
       "source": {
-        "name": "Multiples.vc",
-        "url": "https://multiples.vc/private-comps/cred"
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Cred_(company)"
+      }
+    },
+    {
+      "headline": "CRED expanded ESOP pool to $500 million while FY21 marketing spends surged to ₹222 crore",
+      "date": "2022-03-04",
+      "source": {
+        "name": "Livemint",
+        "url": "https://www.livemint.com/companies/news/cred-fy21-losses-widen-as-marketing-spends-grow-manifold-11646404617147.html"
       }
     }
   ]

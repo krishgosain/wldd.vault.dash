@@ -4,43 +4,43 @@
   "parent": "FSN E-Commerce Ventures Ltd.",
   "entity_type": "public_standalone",
   "category": "E-commerce / Beauty",
-  "description": "Nykaa is an Indian omnichannel retailer specializing in beauty, wellness, and fashion products, operating as the flagship brand of public parent company FSN E-Commerce Ventures Ltd.",
-  "last_refreshed": "2026-11-02T11:36:44.298Z",
+  "description": "Nykaa is an Indian beauty and lifestyle e-commerce retailer owned and operated by parent company FSN E-Commerce Ventures Ltd.",
+  "last_refreshed": "2026-11-07T10:38:41.424Z",
   "stock": {
     "applicable": true,
-    "value": 353.65,
+    "value": 353,
     "currency": "INR",
     "ticker": "NYKAA.NS",
-    "as_of": "2026-11-02",
-    "note": "Reflects parent entity FSN E-Commerce Ventures Ltd. listed on NSE",
+    "as_of": "2026-11-06",
+    "note": "Reflects ticker NYKAA.NS on the National Stock Exchange of India",
     "confidence": "disclosed"
   },
   "revenue": {
-    "value": 100223500000,
+    "value": 106494100000,
     "currency": "INR",
-    "period": "TTM FY2026",
+    "period": "TTM",
     "confidence": "disclosed",
     "source": {
-      "name": "Tickertape",
-      "url": "https://www.tickertape.in/stocks/fsn-e-commerce-ventures-NYK",
-      "date": "2026-11-02"
+      "name": "GuruFocus",
+      "url": "https://www.gurufocus.com/stock/NSE:NYKAA/summary",
+      "date": "2026-11-06"
     }
   },
   "operating_profit": {
-    "value": 7195400000,
+    "value": 8480000000,
     "currency": "INR",
-    "period": "TTM FY2026",
+    "period": "TTM",
     "confidence": "disclosed",
     "source": {
-      "name": "Tickertape",
-      "url": "https://www.tickertape.in/stocks/fsn-e-commerce-ventures-NYK",
-      "date": "2026-11-02"
+      "name": "Screener",
+      "url": "https://www.screener.in/company/NYKAA/consolidated",
+      "date": "2026-11-06"
     }
   },
   "expenses": {
     "breakdown": [
       {
-        "label": "Employee benefits expense",
+        "label": "Employee benefits expense (Q2 FY26)",
         "value": 2248500000,
         "confidence": "disclosed"
       }
@@ -48,17 +48,13 @@
     "confidence": "disclosed"
   },
   "marketing_spend": {
-    "value_low": 9000000000,
-    "value_high": 11000000000,
+    "value_low": 10650000000,
+    "value_high": 12780000000,
     "currency": "INR",
-    "period": "TTM FY2026",
+    "period": "TTM",
     "tier": "3_modeled",
-    "derivation": "Modeled assuming a 9% to 11% marketing-to-revenue benchmark for online beauty and fashion e-tailers applied to FSN E-Commerce Ventures TTM FY26 revenue of INR 10,022.35 crore.",
-    "source": {
-      "name": "Tickertape",
-      "url": "https://www.tickertape.in/stocks/fsn-e-commerce-ventures-NYK",
-      "date": "2026-11-02"
-    }
+    "derivation": "Modeled at 10% to 12% of Nykaa's TTM revenue (106.49 billion INR), based on category-typical marketing-to-revenue benchmarks for beauty and personal care e-commerce platforms.",
+    "source": null
   },
   "trend_history": {
     "stock": [
@@ -76,7 +72,15 @@
       },
       {
         "date": "2026-11-02",
-        "value": 353.65
+        "value": 351.7
+      },
+      {
+        "date": "2026-11-04",
+        "value": 355.5
+      },
+      {
+        "date": "2026-11-06",
+        "value": 353
       }
     ],
     "revenue": [
@@ -85,8 +89,24 @@
         "value": 28730000000
       },
       {
+        "period": "FY2022",
+        "value": 37740000000
+      },
+      {
+        "period": "FY2023",
+        "value": 51440000000
+      },
+      {
+        "period": "FY2024",
+        "value": 63860000000
+      },
+      {
         "period": "FY2025",
         "value": 79500000000
+      },
+      {
+        "period": "FY2026",
+        "value": 100220000000
       },
       {
         "period": "Jun 2026",
@@ -120,27 +140,27 @@
   },
   "business_updates": [
     {
-      "headline": "Nykaa Q1 FY26 revenue from operations surges 29% YOY to INR 2,782 crore as net profit expands",
-      "date": "2026-08-01",
+      "headline": "Nykaa completed acquisition of 51% stake in Aminu Wellness, making it a subsidiary",
+      "date": "2026-09-24",
       "source": {
-        "name": "Investing.com",
-        "url": "https://www.investing.com/news/transcripts/earnings-call-transcript-nykaa-q1-2026-growth-accelerates-as-stock-eases-93CH-4834546"
+        "name": "Screener",
+        "url": "https://www.screener.in/company/NYKAA/consolidated"
       }
     },
     {
-      "headline": "Nykaa expects net revenue growth in late-20% range for Q4FY26",
-      "date": "2026-04-07",
+      "headline": "Nykaa and L’Oréal’s BOLD fund partner to jointly invest in Indian beauty and wellness startups",
+      "date": "2026-09-01",
       "source": {
-        "name": "Reuters via Tijori Finance",
-        "url": "https://zstocks.tijorifinance.com/markets/stocks/NSE/NYKAA"
+        "name": "Screener",
+        "url": "https://www.screener.in/company/NYKAA/consolidated"
       }
     },
     {
-      "headline": "Nykaa's Q3 consolidated profit more than doubles to 633.1 million rupees on steady beauty demand",
-      "date": "2026-02-05",
+      "headline": "Nykaa confirms talks to acquire stake in skincare brand 82°E",
+      "date": "2026-05-01",
       "source": {
-        "name": "Reuters via Tijori Finance",
-        "url": "https://zstocks.tijorifinance.com/markets/stocks/NSE/NYKAA"
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/NYKAA.NS/chart"
       }
     }
   ]

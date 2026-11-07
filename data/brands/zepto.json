@@ -4,43 +4,43 @@
   "parent": "Kiranakart Technologies Pvt Ltd",
   "entity_type": "india_private_registered",
   "category": "Quick Commerce",
-  "description": "Zepto is an Indian quick-commerce platform operated by Kiranakart Technologies Pvt Ltd, delivering groceries and daily essentials in minutes across major Indian cities.",
-  "last_refreshed": "2026-11-02T11:35:27.609Z",
+  "description": "Zepto is an Indian quick-commerce platform delivering groceries and consumer essentials, operated by parent Kiranakart Technologies Pvt Ltd.",
+  "last_refreshed": "2026-11-07T10:37:04.736Z",
   "stock": {
     "applicable": false,
     "value": null,
     "currency": "INR",
     "ticker": null,
     "as_of": null,
-    "note": "Zepto is a privately held entity that has filed for an IPO.",
+    "note": "Privately held company; IPO is currently pending/deferred",
     "confidence": "not_applicable"
   },
   "revenue": {
-    "value": 226235800000,
+    "value": 115500000000,
     "currency": "INR",
     "period": "FY2026",
     "confidence": "disclosed",
     "source": {
-      "name": "Japan India Marketing - Zepto Company Profile",
-      "url": "https://india-marketing.jp/en/india-company/zepto",
-      "date": "2026-03"
+      "name": "Yahoo Finance / Zepto IPO Filing",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/zepto-ipo-filing-reveals-fast-050717430.html",
+      "date": "2026"
     }
   },
   "operating_profit": {
-    "value": -59051900000,
+    "value": -59100000000,
     "currency": "INR",
     "period": "FY2026",
     "confidence": "disclosed",
     "source": {
-      "name": "Japan India Marketing - Zepto Company Profile",
-      "url": "https://india-marketing.jp/en/india-company/zepto",
-      "date": "2026-03"
+      "name": "Yahoo Finance / Zepto IPO Filing",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/zepto-ipo-filing-reveals-fast-050717430.html",
+      "date": "2026"
     }
   },
   "expenses": {
     "breakdown": [
       {
-        "label": "Self-Advertising Spend",
+        "label": "Advertising and Business Promotion",
         "value": 13890000000,
         "confidence": "disclosed"
       }
@@ -53,11 +53,11 @@
     "currency": "INR",
     "period": "FY2026",
     "tier": "1_disclosed",
-    "derivation": "Directly disclosed in Zepto's IPO prospectus filing, which detailed self-advertising expenses of ₹1,389 crore in FY2026.",
+    "derivation": "Disclosed in Zepto's draft IPO prospectus filing, which reported ₹1,389 crore spent on advertising itself in FY2026 to attract and retain users.",
     "source": {
-      "name": "LinkedIn / Zepto IPO Disclosure Analysis",
+      "name": "Zepto IPO Filing via LinkedIn",
       "url": "https://www.linkedin.com/posts/sushant-futureblink_zepto-loses-money-on-your-groceries-brands-activity-7516463309898956801-DCCS",
-      "date": "2026-06"
+      "date": "2026"
     }
   },
   "trend_history": {
@@ -69,29 +69,29 @@
       },
       {
         "period": "FY2025",
-        "value": 111099400000
+        "value": 93660000000
       },
       {
         "period": "FY2026",
-        "value": 226235800000
+        "value": 115500000000
       }
     ]
   },
   "business_updates": [
     {
-      "headline": "Zepto ad revenue reaches ₹1,636 crore in FY2026 as platform order count hits 640 million",
-      "date": "2026-06",
+      "headline": "Zepto files draft IPO papers revealing ₹115.5 billion operating revenue for FY26",
+      "date": "2026",
       "source": {
         "name": "Yahoo Finance",
         "url": "https://finance.yahoo.com/markets/stocks/articles/zepto-ipo-filing-reveals-fast-050717430.html"
       }
     },
     {
-      "headline": "Zepto files for IPO confidentially and receives SEBI observation letter",
-      "date": "2026-05",
+      "headline": "Zepto defers IPO plans to raise over ₹1,000 crore in pre-IPO round",
+      "date": "2026-07-30",
       "source": {
-        "name": "Japan India Marketing",
-        "url": "https://india-marketing.jp/en/india-company/zepto"
+        "name": "BusinessLine via Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Zepto_(company)"
       }
     }
   ]

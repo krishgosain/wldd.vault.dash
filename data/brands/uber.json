@@ -4,76 +4,67 @@
   "parent": null,
   "entity_type": "public_standalone",
   "category": "Ride-hailing",
-  "description": "Uber Technologies, Inc. is a public standalone technology company offering ride-hailing, food delivery, and freight services globally.",
-  "last_refreshed": "2026-11-02T11:39:03.945Z",
+  "description": "Uber Technologies, Inc. is a publicly traded technology platform offering mobility, ride-hailing, and food delivery services globally.",
+  "last_refreshed": "2026-11-07T10:41:18.662Z",
   "stock": {
     "applicable": true,
-    "value": 65.34,
+    "value": 67.47,
     "currency": "USD",
     "ticker": "UBER",
-    "as_of": "2026-10-31",
-    "note": "Reflects UBER stock trading price on NYSE",
+    "as_of": "2026-11-06",
+    "note": "Reflects standalone public stock price of Uber Technologies, Inc. on NYSE.",
     "confidence": "disclosed"
   },
   "revenue": {
-    "value": 52017000000,
+    "value": 52020000000,
     "currency": "USD",
     "period": "FY2025",
     "confidence": "disclosed",
     "source": {
-      "name": "Macrotrends",
-      "url": "https://www.macrotrends.net/stocks/charts/UBER/uber-technologies/revenue",
-      "date": "2026-01-01"
+      "name": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/UBER",
+      "date": "2026-11-06"
     }
   },
   "operating_profit": {
-    "value": 1890000000,
+    "value": 5570000000,
     "currency": "USD",
-    "period": "Q2 2026",
+    "period": "FY2025",
     "confidence": "disclosed",
     "source": {
-      "name": "Uber Technologies Investor Relations",
-      "url": "https://investor.uber.com/news-events/news/press-release-details/2026/Uber-Announces-Results-for-Second-Quarter-2026/default.aspx",
-      "date": "2026-08-05"
+      "name": "Uber Tavily Knowledge",
+      "url": "https://tavily.com/knowledge/company/tU4a44V7jqK3",
+      "date": "2026-11-06"
     }
   },
   "expenses": {
     "breakdown": [
       {
-        "label": "Cost of revenue",
+        "label": "Cost of revenue (Q2 2026)",
         "value": 8620000000,
         "confidence": "disclosed"
       },
       {
-        "label": "Sales and marketing",
-        "value": 1515000000,
+        "label": "Selling, general, and admin expenses (Q2 2026)",
+        "value": 2450000000,
         "confidence": "disclosed"
       },
       {
-        "label": "Research and development",
-        "value": 1043000000,
-        "confidence": "disclosed"
-      },
-      {
-        "label": "General and administrative",
-        "value": 935000000,
+        "label": "Research and development expenses (Q2 2026)",
+        "value": 1040000000,
         "confidence": "disclosed"
       }
     ],
     "confidence": "disclosed"
   },
   "marketing_spend": {
-    "value_low": 1515000000,
-    "value_high": 1515000000,
+    "value_low": 2601000000,
+    "value_high": 5202000000,
     "currency": "USD",
-    "period": "Q2 2026",
-    "tier": "1_disclosed",
-    "derivation": "Separately disclosed Sales and marketing expense of $1,515 million in Uber Technologies, Inc. Q2 2026 financial report.",
-    "source": {
-      "name": "Uber Technologies Investor Relations",
-      "url": "https://investor.uber.com/news-events/news/press-release-details/2026/Uber-Announces-Results-for-Second-Quarter-2026/default.aspx",
-      "date": "2026-08-05"
-    }
+    "period": "FY2025",
+    "tier": "3_modeled",
+    "derivation": "Modeled as 5% to 10% of FY2025 total revenue ($52.02B USD), representing standard sales and demand-creation expenditures for consumer tech marketplaces.",
+    "source": null
   },
   "trend_history": {
     "stock": [
@@ -88,9 +79,17 @@
       {
         "date": "2026-10-31",
         "value": 65.34
+      },
+      {
+        "date": "2026-11-06",
+        "value": 67.47
       }
     ],
     "revenue": [
+      {
+        "period": "1Q2026",
+        "value": 13203000000
+      },
       {
         "period": "2022",
         "value": 31877000000
@@ -106,6 +105,18 @@
       {
         "period": "2025",
         "value": 52017000000
+      },
+      {
+        "period": "2Q2026",
+        "value": 14191000000
+      },
+      {
+        "period": "3Q2026",
+        "value": 14766000000
+      },
+      {
+        "period": "4Q2025",
+        "value": 14366000000
       },
       {
         "period": "Q1 2025",
@@ -135,11 +146,11 @@
   },
   "business_updates": [
     {
-      "headline": "Uber Announces Results for Second Quarter 2026",
-      "date": "2026-08-05",
+      "headline": "Uber stock faces pressure despite record demand as quarterly profit expectations fall short",
+      "date": "2026-11-04",
       "source": {
-        "name": "Uber Investor Relations",
-        "url": "https://investor.uber.com/news-events/news/press-release-details/2026/Uber-Announces-Results-for-Second-Quarter-2026/default.aspx"
+        "name": "MarketWatch",
+        "url": "https://www.marketwatch.com/story/ubers-stock-as-record-demand-for-rides-fails-to-deliver-the-profit-investors-expected-20b0c4b2"
       }
     }
   ]

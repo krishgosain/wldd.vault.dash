@@ -4,60 +4,54 @@
   "parent": "Zerodha Broking Ltd.",
   "entity_type": "india_private_registered",
   "category": "Fintech / Broking",
-  "description": "Zerodha is an Indian online financial services and discount brokerage company operated by Zerodha Broking Ltd.",
-  "last_refreshed": "2026-11-02T11:37:33.964Z",
+  "description": "Zerodha is an Indian financial services company offering discount brokerage and trading services, operating as a registered private entity under Zerodha Broking Ltd.",
+  "last_refreshed": "2026-11-07T10:39:31.565Z",
   "stock": {
     "applicable": false,
     "value": null,
     "currency": "INR",
     "ticker": null,
     "as_of": null,
-    "note": "Zerodha Broking Ltd. is a privately held entity and is not publicly listed on stock exchanges.",
+    "note": "Zerodha Broking Ltd. is a privately held company and is not publicly traded.",
     "confidence": "not_applicable"
   },
   "revenue": {
     "value": 88470000000,
     "currency": "INR",
-    "period": "FY2025",
+    "period": "FY2026",
     "confidence": "disclosed",
     "source": {
-      "name": "Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Zerodha",
-      "date": "2025"
+      "name": "The Economic Times",
+      "url": "https://m.economictimes.com/markets/stocks/earnings/zerodhas-fy26-net-profit-rises-1-2-to-4283-crore-amid-revenue-slowdown/articleshow/133553571.cms",
+      "date": "2026-08-27"
     }
   },
   "operating_profit": {
-    "value": 42370000000,
+    "value": 42830000000,
     "currency": "INR",
-    "period": "FY2025",
+    "period": "FY2026",
     "confidence": "disclosed",
     "source": {
-      "name": "The Second Angle",
-      "url": "https://thesecondangle.com/zerodha-case-study",
-      "date": "2025"
+      "name": "The Economic Times",
+      "url": "https://m.economictimes.com/markets/stocks/earnings/zerodhas-fy26-net-profit-rises-1-2-to-4283-crore-amid-revenue-slowdown/articleshow/133553571.cms",
+      "date": "2026-08-27"
     }
   },
   "expenses": {
-    "breakdown": [
-      {
-        "label": "Advertising spend",
-        "value": 470000000,
-        "confidence": "disclosed"
-      }
-    ],
-    "confidence": "disclosed"
+    "breakdown": [],
+    "confidence": "not_found"
   },
   "marketing_spend": {
-    "value_low": 470000000,
-    "value_high": 470000000,
+    "value_low": 442350000,
+    "value_high": 884700000,
     "currency": "INR",
-    "period": "FY2025",
-    "tier": "1_disclosed",
-    "derivation": "Disclosed in RoC filings reported via Entrackr as Rs 47 crore advertising spend for FY 2024-25, representing ~0.5% of operating revenue.",
+    "period": "FY2026",
+    "tier": "3_modeled",
+    "derivation": "Modeled using a category-typical zero-to-low marketing spend benchmark of 0.5% to 1.0% applied against Zerodha's FY26 reported revenue of ₹8,847 crore, reflecting its predominantly word-of-mouth acquisition model.",
     "source": {
-      "name": "The Second Angle",
-      "url": "https://thesecondangle.com/zerodha-case-study",
-      "date": "2025"
+      "name": "The Economic Times",
+      "url": "https://m.economictimes.com/markets/stocks/earnings/zerodhas-fy26-net-profit-rises-1-2-to-4283-crore-amid-revenue-slowdown/articleshow/133553571.cms",
+      "date": "2026-08-27"
     }
   },
   "trend_history": {
@@ -78,24 +72,28 @@
       {
         "period": "FY2025",
         "value": 88470000000
+      },
+      {
+        "period": "FY2026",
+        "value": 88470000000
       }
     ]
   },
   "business_updates": [
     {
-      "headline": "Zerodha posted a net profit of Rs 4,283 crore in FY26 as trading revenue growth slows",
-      "date": "2026-08-28",
+      "headline": "Zerodha reports FY26 net profit of ₹4,283 crore with flat revenue as margin trading helps offset broking slowdown",
+      "date": "2026-08-27",
       "source": {
-        "name": "The CEO Magazine",
-        "url": "https://www.facebook.com/theceo.in/posts/zerodha-posted-a-net-profit-of-rs-4283-crore-in-fy26-up-around-12-from-rs-4231-c/1530723145749904"
+        "name": "The Economic Times",
+        "url": "https://m.economictimes.com/markets/stocks/earnings/zerodhas-fy26-net-profit-rises-1-2-to-4283-crore-amid-revenue-slowdown/articleshow/133553571.cms"
       }
     },
     {
-      "headline": "Zerodha recorded 67.62 lakh active NSE clients in July 2026",
-      "date": "2026-07-31",
+      "headline": "Zerodha considers ending free equity delivery trades following 40% drop in Q1 FY26 brokerage revenue due to regulatory changes",
+      "date": "2026-08-27",
       "source": {
-        "name": "The Second Angle",
-        "url": "https://thesecondangle.com/zerodha-case-study"
+        "name": "Inc42 Media",
+        "url": "https://www.linkedin.com/posts/inc42_news-zerodha-revenue-activity-7273716356959617024-y3jS"
       }
     }
   ]

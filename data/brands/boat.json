@@ -4,66 +4,51 @@
   "parent": "Imagine Marketing Ltd.",
   "entity_type": "india_private_registered",
   "category": "Consumer Electronics",
-  "description": "boAt is an Indian consumer tech and lifestyle audio brand owned by privately registered Imagine Marketing Ltd.",
-  "last_refreshed": "2026-11-02T11:37:04.933Z",
+  "description": "boAt is an Indian consumer electronics brand specializing in audio gear, wearables, and mobile accessories, owned by Imagine Marketing Ltd.",
+  "last_refreshed": "2026-11-07T10:39:03.739Z",
   "stock": {
     "applicable": false,
     "value": null,
     "currency": "INR",
     "ticker": null,
     "as_of": null,
-    "note": "boAt is a brand under Imagine Marketing Ltd., an unlisted private company planning an IPO.",
+    "note": "Unlisted company. Share trades on unlisted market desk at indicative price of ₹895 as of November 2026.",
     "confidence": "not_applicable"
   },
   "revenue": {
-    "value": 29683000000,
+    "value": 30700000000,
     "currency": "INR",
-    "period": "FY2026",
+    "period": "FY2025",
     "confidence": "disclosed",
     "source": {
-      "name": "UnlistedZone",
-      "url": "https://unlistedzone.com/shares/boat-unlisted-share-imagine-marketing",
-      "date": "2026-08-27"
+      "name": "HDFC Sky",
+      "url": "https://hdfcsky.com/news/boat-parent-imagine-marketing-swings-to-rs-60-crore-profit-in-fy25-after-two-years-of-losses",
+      "date": "2025"
     }
   },
   "operating_profit": {
-    "value": 921000000,
+    "value": 610000000,
     "currency": "INR",
-    "period": "FY2026",
+    "period": "FY2025",
     "confidence": "disclosed",
     "source": {
-      "name": "UnlistedZone",
-      "url": "https://unlistedzone.com/shares/boat-unlisted-share-imagine-marketing",
-      "date": "2026-08-27"
+      "name": "HDFC Sky",
+      "url": "https://hdfcsky.com/news/boat-parent-imagine-marketing-swings-to-rs-60-crore-profit-in-fy25-after-two-years-of-losses",
+      "date": "2025"
     }
   },
   "expenses": {
-    "breakdown": [
-      {
-        "label": "Advertising cost reduction",
-        "value": 500000000,
-        "confidence": "disclosed"
-      },
-      {
-        "label": "Warranty cost reduction",
-        "value": 250000000,
-        "confidence": "disclosed"
-      }
-    ],
-    "confidence": "disclosed"
+    "breakdown": [],
+    "confidence": "not_found"
   },
   "marketing_spend": {
-    "value_low": 2374640000,
-    "value_high": 2968300000,
+    "value_low": 2456000000,
+    "value_high": 3684000000,
     "currency": "INR",
-    "period": "FY2026",
+    "period": "FY2025",
     "tier": "3_modeled",
-    "derivation": "Modeled using an estimated 8% to 10% marketing-to-revenue ratio standard for D2C consumer audio and wearables brands applied to boAt's reported FY26 revenue of ₹29,683 million.",
-    "source": {
-      "name": "UnlistedZone",
-      "url": "https://unlistedzone.com/shares/boat-unlisted-share-imagine-marketing",
-      "date": "2026-08-27"
-    }
+    "derivation": "Modeled using a category-typical marketing-to-revenue benchmark of 8%-12% for consumer electronics brands, applied to boAt's FY25 revenue of ₹3,070 crore.",
+    "source": null
   },
   "trend_history": {
     "stock": [],
@@ -78,7 +63,7 @@
       },
       {
         "period": "FY2025",
-        "value": 30970000000
+        "value": 30700000000
       },
       {
         "period": "FY2026",
@@ -88,19 +73,19 @@
   },
   "business_updates": [
     {
-      "headline": "boAt's Parent Imagine Marketing Gets SEBI Nod for ₹1,500-Crore IPO",
-      "date": "2025-10-30",
+      "headline": "boAt Parent Imagine Marketing Swings to ₹60 Cr Profit in FY25 after two years of losses",
+      "date": "2025",
       "source": {
-        "name": "UnlistedZone",
-        "url": "https://unlistedzone.com/shares/boat-unlisted-share-imagine-marketing"
+        "name": "HDFC Sky",
+        "url": "https://hdfcsky.com/news/boat-parent-imagine-marketing-swings-to-rs-60-crore-profit-in-fy25-after-two-years-of-losses"
       }
     },
     {
-      "headline": "boAt's profit jumped 43% despite revenue drop",
-      "date": "2026-08-27",
+      "headline": "boAt Unlisted Share Price reported at ₹895",
+      "date": "2026-11-03",
       "source": {
-        "name": "UnlistedZone",
-        "url": "https://unlistedzone.com/shares/boat-unlisted-share-imagine-marketing"
+        "name": "BuyUnlistedShares",
+        "url": "https://buyunlistedshares.com/unlisted-shares/boat"
       }
     }
   ]

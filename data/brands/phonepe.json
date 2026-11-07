@@ -4,15 +4,15 @@
   "parent": "Walmart Inc.",
   "entity_type": "india_private_registered",
   "category": "Fintech",
-  "description": "PhonePe is an Indian digital payments and financial technology platform majority-owned by retail corporation Walmart Inc.",
-  "last_refreshed": "2026-11-02T11:36:17.817Z",
+  "description": "PhonePe is an Indian digital payments and financial services platform that is majority-owned by retail giant Walmart Inc.",
+  "last_refreshed": "2026-11-07T10:38:16.492Z",
   "stock": {
     "applicable": false,
     "value": null,
     "currency": "INR",
     "ticker": null,
     "as_of": null,
-    "note": "Privately held entity majority-owned by Walmart; not separately listed.",
+    "note": "Not separately listed; majority-owned by Walmart Inc.",
     "confidence": "not_applicable"
   },
   "revenue": {
@@ -21,20 +21,20 @@
     "period": "FY2026",
     "confidence": "disclosed",
     "source": {
-      "name": "The Hindu / Wikipedia",
+      "name": "The Hindu",
       "url": "https://en.wikipedia.org/wiki/PhonePe",
       "date": "2026-07-25"
     }
   },
   "operating_profit": {
-    "value": -14440000000,
+    "value": 6300000000,
     "currency": "INR",
-    "period": "H1 FY2026",
+    "period": "FY2025",
     "confidence": "disclosed",
     "source": {
-      "name": "Yahoo Finance",
-      "url": "https://finance.yahoo.com/news/walmart-backed-phonepe-shelves-ipo-130247711.html",
-      "date": "2026-02-01"
+      "name": "Startupro.in / LinkedIn",
+      "url": "https://www.linkedin.com/posts/startupro-in_phonepe-ipo-ofs-activity-7438116962322313216-gf53",
+      "date": "2026-01-01"
     }
   },
   "expenses": {
@@ -42,12 +42,12 @@
     "confidence": "not_found"
   },
   "marketing_spend": {
-    "value_low": 11880000000,
-    "value_high": 15840000000,
+    "value_low": 7115000000,
+    "value_high": 14230000000,
     "currency": "INR",
-    "period": "FY2026",
+    "period": "FY2025",
     "tier": "3_modeled",
-    "derivation": "Modeled using a category-typical marketing-to-revenue ratio of 15% to 20% applied to PhonePe's reported FY2026 revenue of ₹7,920 crore, reflecting active expansion across smart speakers, insurance, and stockbroking.",
+    "derivation": "Modeled using an industry-standard 10% to 20% marketing-to-revenue benchmark ratio for high-growth Indian fintech apps, applied to PhonePe's FY25 operating revenue of ₹7,115 crore.",
     "source": null
   },
   "trend_history": {
@@ -70,8 +70,12 @@
         "value": 29140000000
       },
       {
+        "period": "FY2024",
+        "value": 50000000000
+      },
+      {
         "period": "FY2025",
-        "value": 761000000
+        "value": 71150000000
       },
       {
         "period": "FY2026",
@@ -81,7 +85,7 @@
   },
   "business_updates": [
     {
-      "headline": "PhonePe shelves IPO plans as global market tensions rattle investors",
+      "headline": "PhonePe processed 9.3 billion transactions worth ₹13.1 trillion in February 2026",
       "date": "2026-02-01",
       "source": {
         "name": "Yahoo Finance",
@@ -89,19 +93,11 @@
       }
     },
     {
-      "headline": "PhonePe records 9.3 billion transactions worth ₹13.1 trillion in February 2026",
-      "date": "2026-02-01",
+      "headline": "PhonePe prepares for Indian IPO to raise up to ₹12,000 crore at $15B valuation",
+      "date": "2026-01-01",
       "source": {
-        "name": "Yahoo Finance",
-        "url": "https://finance.yahoo.com/news/walmart-backed-phonepe-shelves-ipo-130247711.html"
-      }
-    },
-    {
-      "headline": "PhonePe FY26 revenue rises to ₹7,920 crore",
-      "date": "2026-07-25",
-      "source": {
-        "name": "The Hindu",
-        "url": "https://en.wikipedia.org/wiki/PhonePe"
+        "name": "LinkedIn / Startupro.in",
+        "url": "https://www.linkedin.com/posts/startupro-in_phonepe-ipo-ofs-activity-7438116962322313216-gf53"
       }
     }
   ]

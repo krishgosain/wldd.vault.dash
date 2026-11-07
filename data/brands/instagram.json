@@ -1,54 +1,54 @@
 {
   "name": "Instagram",
   "slug": "instagram",
-  "parent": "Meta Platforms",
+  "parent": "Meta Platforms, Inc.",
   "entity_type": "public_parent",
   "category": "Social",
-  "description": "Instagram is a popular photo and video sharing social media network owned by parent company Meta Platforms, Inc.",
-  "last_refreshed": "2026-11-02T11:39:59.612Z",
+  "description": "Instagram is a global photo and video sharing social networking platform owned by public parent company Meta Platforms, Inc.",
+  "last_refreshed": "2026-11-07T10:42:07.952Z",
   "stock": {
     "applicable": false,
-    "value": 614.99,
+    "value": null,
     "currency": "USD",
     "ticker": "META",
-    "as_of": "2026-10-30",
-    "note": "reflects parent company Meta Platforms, Inc., not Instagram specifically",
+    "as_of": "2026-11-06",
+    "note": "Reflects parent company Meta Platforms, Inc., as Instagram is not independently listed.",
     "confidence": "not_applicable"
   },
   "revenue": {
-    "value": 64601000000,
+    "value": 86300000000,
     "currency": "USD",
-    "period": "Q3 2026",
-    "confidence": "disclosed",
+    "period": "FY2025",
+    "confidence": "press_estimate",
     "source": {
-      "name": "Meta Reports Third Quarter 2026 Results",
-      "url": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Third-Quarter-2026-Results/default.aspx",
-      "date": "2026-10-30"
+      "name": "Business of Apps",
+      "url": "https://www.businessofapps.com/data/instagram-statistics",
+      "date": "2026-01-01"
     }
   },
   "operating_profit": {
-    "value": 12988000000,
+    "value": null,
     "currency": "USD",
-    "period": "Q3 2026",
-    "confidence": "disclosed",
-    "source": {
-      "name": "Meta Reports Third Quarter 2026 Results",
-      "url": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Third-Quarter-2026-Results/default.aspx",
-      "date": "2026-10-30"
-    }
+    "period": "FY2025",
+    "confidence": "not_found",
+    "source": null
   },
   "expenses": {
     "breakdown": [],
     "confidence": "not_found"
   },
   "marketing_spend": {
-    "value_low": 5168000000,
-    "value_high": 7752000000,
+    "value_low": 4315000000,
+    "value_high": 6904000000,
     "currency": "USD",
-    "period": "Q3 2026",
+    "period": "FY2025",
     "tier": "3_modeled",
-    "derivation": "Modeled assuming an industry-typical sales and marketing ratio of 8% to 12% applied to Meta Platforms' Q3 2026 revenue of $64.60 billion.",
-    "source": null
+    "derivation": "Estimated at 5% to 8% of Instagram's reported FY2025 revenue of $86.3 billion, matching standard digital ad platform sales and marketing benchmarks.",
+    "source": {
+      "name": "Business of Apps",
+      "url": "https://www.businessofapps.com/data/instagram-statistics",
+      "date": "2026-01-01"
+    }
   },
   "trend_history": {
     "stock": [
@@ -67,6 +67,10 @@
       {
         "date": "2026-10-30",
         "value": 614.99
+      },
+      {
+        "date": "2026-11-06",
+        "value": 605.08
       }
     ],
     "revenue": [
@@ -87,8 +91,24 @@
         "value": 59893000000
       },
       {
+        "period": "FY2021",
+        "value": 32000000000
+      },
+      {
+        "period": "FY2022",
+        "value": 36900000000
+      },
+      {
+        "period": "FY2023",
+        "value": 49800000000
+      },
+      {
+        "period": "FY2024",
+        "value": 66900000000
+      },
+      {
         "period": "FY2025",
-        "value": 71000000000
+        "value": 86300000000
       },
       {
         "period": "Q1 2026",
@@ -106,27 +126,19 @@
   },
   "business_updates": [
     {
-      "headline": "Meta rolls out paid subscription plans for Facebook, Instagram and WhatsApp",
-      "date": "2026-05-28",
+      "headline": "Meta Reports Third Quarter 2026 Revenue of $64.60 Billion, Driven by Ad Growth Across Family of Apps",
+      "date": "2026-11-07",
       "source": {
-        "name": "FOXBusiness",
-        "url": "https://en.wikipedia.org/wiki/Meta_Platforms"
+        "name": "Meta Reports Third Quarter 2026 Results",
+        "url": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Third-Quarter-2026-Results/default.aspx"
       }
     },
     {
-      "headline": "Meta launches creator assistant chatbot",
-      "date": "2026-06-12",
+      "headline": "Instagram Share of Meta Revenue Reaches 43.8% in 2025",
+      "date": "2026-01-01",
       "source": {
-        "name": "Social Media Today",
-        "url": "https://en.wikipedia.org/wiki/Meta_Platforms"
-      }
-    },
-    {
-      "headline": "Meta unleashes next generation AI tools to transform advertising, creator marketing",
-      "date": "2026-06-24",
-      "source": {
-        "name": "Marketing Edge Magazine",
-        "url": "https://en.wikipedia.org/wiki/Meta_Platforms"
+        "name": "Business of Apps",
+        "url": "https://www.businessofapps.com/data/instagram-statistics"
       }
     }
   ]

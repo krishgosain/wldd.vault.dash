@@ -4,37 +4,37 @@
   "parent": null,
   "entity_type": "public_standalone",
   "category": "E-commerce",
-  "description": "Meesho is an Indian e-commerce marketplace platform targeting mass-market shoppers primarily in Tier-2 and Tier-3 cities.",
-  "last_refreshed": "2026-11-02T11:38:20.398Z",
+  "description": "Meesho Limited is an Indian e-commerce marketplace connecting small businesses and individual entrepreneurs with consumers in the unorganized retail segment.",
+  "last_refreshed": "2026-11-07T10:40:36.549Z",
   "stock": {
     "applicable": true,
-    "value": 222.04,
+    "value": 233.48,
     "currency": "INR",
     "ticker": "MEESHO.NS",
-    "as_of": "2026-11-02",
-    "note": "Standalone listing on NSE and BSE following its December 2025 IPO.",
+    "as_of": "2026-11-06",
+    "note": "Listed on NSE and BSE following its IPO in December 2025",
     "confidence": "disclosed"
   },
   "revenue": {
-    "value": 126263480000,
+    "value": 99010000000,
     "currency": "INR",
-    "period": "2026",
+    "period": "FY2025",
     "confidence": "disclosed",
     "source": {
-      "name": "Yahoo Finance",
-      "url": "https://ca.finance.yahoo.com/quote/MEESHO.NS",
-      "date": "2026-11-02"
+      "name": "INDmoney",
+      "url": "https://www.indmoney.com/ipo/meesho-ipo",
+      "date": "2025-12-05"
     }
   },
   "operating_profit": {
-    "value": -13577380000,
+    "value": -2200000000,
     "currency": "INR",
-    "period": "2026",
+    "period": "FY2025",
     "confidence": "disclosed",
     "source": {
-      "name": "Yahoo Finance",
-      "url": "https://ca.finance.yahoo.com/quote/MEESHO.NS",
-      "date": "2026-11-02"
+      "name": "INDmoney",
+      "url": "https://www.indmoney.com/ipo/meesho-ipo",
+      "date": "2025-12-05"
     }
   },
   "expenses": {
@@ -42,16 +42,24 @@
     "confidence": "not_found"
   },
   "marketing_spend": {
-    "value_low": 12626348000,
-    "value_high": 25252696000,
+    "value_low": 14850000000,
+    "value_high": 19800000000,
     "currency": "INR",
-    "period": "2026",
+    "period": "FY2025",
     "tier": "3_modeled",
-    "derivation": "Modeled by applying a benchmark e-commerce marketing-to-revenue ratio of 10% to 20% against Meesho's reported 2026 revenue of ₹126,263,480,000, as granular marketing expense line items were not explicitly provided.",
+    "derivation": "Estimated using an e-commerce category benchmark marketing-to-revenue ratio of 15% to 20% applied to Meesho's FY2025 revenue of ₹9,901 crore.",
     "source": null
   },
   "trend_history": {
     "stock": [
+      {
+        "date": "2025-12-18",
+        "value": 254.4
+      },
+      {
+        "date": "2026-03-16",
+        "value": 125.56
+      },
       {
         "date": "2026-09-07",
         "value": 210.05
@@ -71,6 +79,14 @@
       {
         "date": "2026-11-02",
         "value": 222.04
+      },
+      {
+        "date": "2026-11-05",
+        "value": 224.55
+      },
+      {
+        "date": "2026-11-06",
+        "value": 233.48
       }
     ],
     "revenue": [
@@ -80,7 +96,7 @@
       },
       {
         "period": "FY2023",
-        "value": 58977000000
+        "value": 58980000000
       },
       {
         "period": "FY2024",
@@ -88,11 +104,15 @@
       },
       {
         "period": "FY2025",
-        "value": 99009000000
+        "value": 99010000000
       },
       {
         "period": "FY25",
         "value": 93890000000
+      },
+      {
+        "period": "H1 FY2026",
+        "value": 58580000000
       },
       {
         "period": "Q1 FY27",
@@ -102,27 +122,27 @@
   },
   "business_updates": [
     {
-      "headline": "India’s Meesho to acquire B2B commerce platform Kirana Club",
-      "date": "2026-06-30",
+      "headline": "India's Meesho to acquire B2B commerce platform Kirana Club",
+      "date": "2026-07-01",
       "source": {
-        "name": "Yahoo Finance / Retail Insight Network",
+        "name": "Retail Insight Network",
         "url": "https://finance.yahoo.com/quote/MEESHO.NS/latest-news"
       }
     },
     {
-      "headline": "Valmo Transportation Private Limited incorporated as wholly owned subsidiary",
-      "date": "2026-01-12",
+      "headline": "Indian e-commerce firm Meesho's quarterly loss spikes as it ramps up marketing",
+      "date": "2026-03-01",
       "source": {
-        "name": "ICICI Direct",
-        "url": "https://www.icicidirect.com/stocks/meesho-ltd-share-price"
+        "name": "Reuters",
+        "url": "https://finance.yahoo.com/quote/MEESHO.NS/latest-news"
       }
     },
     {
-      "headline": "Meesho completes ₹5,421.2 crore IPO and lists on NSE and BSE",
-      "date": "2025-12-05",
+      "headline": "Meesho lists on NSE and BSE following successful ₹5,421.20 crore IPO",
+      "date": "2025-12-10",
       "source": {
-        "name": "Mergersight",
-        "url": "https://www.mergersight.com/post/meesho-s-ipo"
+        "name": "Chittorgarh",
+        "url": "https://www.chittorgarh.com/ipo/meesho-ipo/2516"
       }
     }
   ]

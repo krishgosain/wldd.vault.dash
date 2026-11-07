@@ -4,66 +4,53 @@
   "parent": null,
   "entity_type": "public_standalone",
   "category": "EdTech",
-  "description": "Duolingo, Inc. is a publicly traded EdTech company offering digital language-learning and educational programs.",
-  "last_refreshed": "2026-11-02T11:39:33.124Z",
+  "description": "Duolingo, Inc. is a publicly traded digital learning platform offering mobile and desktop language courses and educational services.",
+  "last_refreshed": "2026-11-07T10:41:44.848Z",
   "stock": {
     "applicable": true,
-    "value": 131.5,
+    "value": 160.42,
     "currency": "USD",
-    "ticker": "NASDAQ:DUOL",
-    "as_of": "2026-11-02",
-    "note": "Reflects standalone public stock price of Duolingo, Inc.",
+    "ticker": "DUOL",
+    "as_of": "2026-11-07",
+    "note": "Traded on NASDAQ",
     "confidence": "disclosed"
   },
   "revenue": {
-    "value": 298500000,
+    "value": 309007000,
     "currency": "USD",
-    "period": "Q2 2026",
+    "period": "Q3 2026",
     "confidence": "disclosed",
     "source": {
-      "name": "Quiver Quantitative",
-      "url": "https://www.quiverquant.com/news/Duolingo+(DUOL)+Stock+Falls+on+Q2+2026+Earnings",
-      "date": "2026-08-05"
+      "name": "StockTitan / SEC Filing",
+      "url": "https://www.stocktitan.net/sec-filings/DUOL/8-k-duolingo-inc-reports-material-event-9145f96cb356.html",
+      "date": "2026-11-03"
     }
   },
   "operating_profit": {
-    "value": 33900000,
+    "value": null,
     "currency": "USD",
-    "period": "Q2 2026",
-    "confidence": "disclosed",
-    "source": {
-      "name": "Quiver Quantitative",
-      "url": "https://www.quiverquant.com/news/Duolingo+(DUOL)+Stock+Falls+on+Q2+2026+Earnings",
-      "date": "2026-08-05"
-    }
+    "period": "Q3 2026",
+    "confidence": "not_found",
+    "source": null
   },
   "expenses": {
     "breakdown": [
       {
-        "label": "Cost of Revenue",
-        "value": 81800000,
-        "confidence": "modeled"
-      },
-      {
-        "label": "Operating Expenses",
-        "value": 182800000,
-        "confidence": "modeled"
+        "label": "Cost of revenues",
+        "value": 83875000,
+        "confidence": "disclosed"
       }
     ],
-    "confidence": "not_found"
+    "confidence": "disclosed"
   },
   "marketing_spend": {
-    "value_low": 50000000,
-    "value_high": 60000000,
+    "value_low": 46350000,
+    "value_high": 61800000,
     "currency": "USD",
-    "period": "Q2 2026",
+    "period": "Q3 2026",
     "tier": "3_modeled",
-    "derivation": "Modeled by applying standard consumer EdTech S&M-to-revenue ratios (17-20%) against Q2 2026 revenue of $298.5M, aligning with reported 35.3% YoY marketing expenditure growth.",
-    "source": {
-      "name": "YouTube Earnings Analysis",
-      "url": "https://www.youtube.com/watch?v=5bYvnSZyh3U",
-      "date": "2026-08-05"
-    }
+    "derivation": "Modeled using an estimated B2C consumer EdTech marketing-to-revenue ratio of 15% to 20% applied to Duolingo's Q3 2026 revenue of $309.01M.",
+    "source": null
   },
   "trend_history": {
     "stock": [
@@ -72,8 +59,16 @@
         "value": 154.46
       },
       {
+        "date": "2026-09-30",
+        "value": 142.4
+      },
+      {
         "date": "2026-10-14",
         "value": 139.73
+      },
+      {
+        "date": "2026-10-21",
+        "value": 136.01
       },
       {
         "date": "2026-10-29",
@@ -82,9 +77,37 @@
       {
         "date": "2026-11-02",
         "value": 131.5
+      },
+      {
+        "date": "2026-11-04",
+        "value": 161.37
+      },
+      {
+        "date": "2026-11-05",
+        "value": 161.79
+      },
+      {
+        "date": "2026-11-07",
+        "value": 160.42
       }
     ],
     "revenue": [
+      {
+        "period": "1Q2026",
+        "value": 291967000
+      },
+      {
+        "period": "2Q2026",
+        "value": 298454000
+      },
+      {
+        "period": "3Q2026",
+        "value": 309007000
+      },
+      {
+        "period": "4Q2025",
+        "value": 282868000
+      },
       {
         "period": "FY2022",
         "value": 369495000
@@ -113,19 +136,27 @@
   },
   "business_updates": [
     {
-      "headline": "Morgan Stanley raised Duolingo stock price target to $140 from $125",
-      "date": "2026-10-09",
+      "headline": "Duolingo Q3 2026 sales beat estimates as revenue reaches $309 million",
+      "date": "2026-11-03",
       "source": {
-        "name": "Stock Analysis",
-        "url": "https://stockanalysis.com/stocks/duol"
+        "name": "StockStory",
+        "url": "https://stockstory.org/us/stocks/nasdaq/duol/news/earnings/duolingos-nasdaqduol-q3-2026-sales-beat-estimates-stock-jumps-111percent"
       }
     },
     {
-      "headline": "Duolingo reported Q2 2026 revenue of $298.5 million, up 18.3% year over year",
-      "date": "2026-08-05",
+      "headline": "Duolingo invests in motion design with acquisition of Animade",
+      "date": "2026-11-03",
       "source": {
-        "name": "Quiver Quantitative",
-        "url": "https://www.quiverquant.com/news/Duolingo+(DUOL)+Stock+Falls+on+Q2+2026+Earnings"
+        "name": "StockTitan",
+        "url": "https://www.stocktitan.net/overview/DUOL"
+      }
+    },
+    {
+      "headline": "Duolingo appoints Sallie Krawcheck to Board of Directors",
+      "date": "2026-11-03",
+      "source": {
+        "name": "StockTitan",
+        "url": "https://www.stocktitan.net/overview/DUOL"
       }
     }
   ]

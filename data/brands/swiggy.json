@@ -4,61 +4,67 @@
   "parent": null,
   "entity_type": "public_standalone",
   "category": "Food Delivery / Quick Commerce",
-  "description": "Swiggy is an Indian consumer technology company operating an on-demand food delivery and quick commerce platform.",
-  "last_refreshed": "2026-11-02T11:35:58.676Z",
+  "description": "Swiggy Limited is an India-based consumer technology company providing on-demand food delivery, quick commerce, and dining-out reservation services.",
+  "last_refreshed": "2026-11-07T10:37:53.268Z",
   "stock": {
     "applicable": true,
-    "value": 176.6,
+    "value": 191.17,
     "currency": "INR",
     "ticker": "SWIGGY.NS",
-    "as_of": "2026-11-02",
-    "note": "Standalone listing on NSE",
+    "as_of": "2026-11-06",
+    "note": "Standalone entity listed on NSE.",
     "confidence": "disclosed"
   },
   "revenue": {
-    "value": 23053,
-    "currency": "INR Crore",
-    "period": "FY2026",
+    "value": 75710000000,
+    "currency": "INR",
+    "period": "Q2 2027",
     "confidence": "disclosed",
     "source": {
-      "name": "Upstox",
-      "url": "https://upstox.com/stocks/swiggy-limited-share-price/INE00H001014",
-      "date": "2026-10-31"
+      "name": "Google Finance",
+      "url": "https://www.google.com/finance/quote/SWIGGY:NSE",
+      "date": "2026-10-22"
     }
   },
   "operating_profit": {
-    "value": -4154,
-    "currency": "INR Crore",
-    "period": "FY2026",
+    "value": -10780000000,
+    "currency": "INR",
+    "period": "Q2 2027",
     "confidence": "disclosed",
     "source": {
-      "name": "Upstox",
-      "url": "https://upstox.com/stocks/swiggy-limited-share-price/INE00H001014",
-      "date": "2026-10-31"
+      "name": "Google Finance",
+      "url": "https://www.google.com/finance/quote/SWIGGY:NSE",
+      "date": "2026-10-22"
     }
   },
   "expenses": {
     "breakdown": [
       {
-        "label": "Total Consolidated Expenses",
-        "value": 27701,
+        "label": "Cost of revenue",
+        "value": 41190000000,
+        "confidence": "disclosed"
+      },
+      {
+        "label": "Selling, general, and admin expenses",
+        "value": 31930000000,
+        "confidence": "disclosed"
+      },
+      {
+        "label": "Other operating expenses",
+        "value": 10290000000,
         "confidence": "disclosed"
       }
     ],
     "confidence": "disclosed"
   },
   "marketing_spend": {
-    "value_low": 2300,
-    "value_high": 3450,
-    "currency": "INR Crore",
-    "period": "FY2026",
+    "value_low": 7571000000,
+    "value_high": 11356500000,
+    "currency": "INR",
+    "period": "Q2 2027",
     "tier": "3_modeled",
-    "derivation": "Estimated at 10% to 15% of consolidated annual revenue (₹23,053 Crore in FY26), based on standard marketing-to-revenue ratios in the hyperlocal food delivery and quick commerce sectors.",
-    "source": {
-      "name": "Upstox",
-      "url": "https://upstox.com/stocks/swiggy-limited-share-price/INE00H001014",
-      "date": "2026-10-31"
-    }
+    "derivation": "Modeled using an industry-standard 10% to 15% marketing-to-revenue ratio for food delivery and quick commerce, applied to Swiggy's Q2 2027 reported revenue of 75.71 billion INR, as marketing expenses are subsumed within broader SG&A expenses.",
+    "source": null
   },
   "trend_history": {
     "stock": [
@@ -109,8 +115,24 @@
         "value": 6383
       },
       {
+        "period": "Q1 2027",
+        "value": 68120000000
+      },
+      {
         "period": "Q1 FY2027",
         "value": 7112
+      },
+      {
+        "period": "Q2 2027",
+        "value": 75710000000
+      },
+      {
+        "period": "Q3 2026",
+        "value": 61480000000
+      },
+      {
+        "period": "Q4 2026",
+        "value": 63830000000
       },
       {
         "period": "Sep 2026",
@@ -120,19 +142,27 @@
   },
   "business_updates": [
     {
-      "headline": "Swiggy expanded '99 Store' to 500 cities to target price-conscious customers",
-      "date": "2026-10-22",
+      "headline": "Swiggy reports Q1 FY27 results with quick commerce business reaching break-even milestone",
+      "date": "2026-07-30",
       "source": {
-        "name": "ICICI Direct",
-        "url": "https://www.icicidirect.com/stocks/swiggy-ltd-share-price"
+        "name": "NDTV Profit",
+        "url": "https://www.youtube.com/watch?v=O9c_in_lu6o"
       }
     },
     {
-      "headline": "Swiggy received an ESG rating of 78 from NSE Sustainability Ratings & Analytics",
-      "date": "2026-01-29",
+      "headline": "Walmart's Flipkart is quietly building a food delivery challenger to compete with Swiggy",
+      "date": "2026-10-20",
       "source": {
-        "name": "Swiggy Shareholder Letter",
-        "url": "https://www.swiggy.com/corporate/wp-content/uploads/2026/01/Q3-FY2026-Shareholder-letter.pdf"
+        "name": "TechCrunch",
+        "url": "https://finance.yahoo.com/quote/SWIGGY.NS/news"
+      }
+    },
+    {
+      "headline": "Swiggy approves up to 100 billion rupees fundraise via Qualified Institutional Placement (QIP)",
+      "date": "2025-12-01",
+      "source": {
+        "name": "Reuters",
+        "url": "https://finance.yahoo.com/quote/SWIGGY.NS/chart"
       }
     }
   ]

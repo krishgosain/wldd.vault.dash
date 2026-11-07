@@ -4,67 +4,55 @@
   "parent": "The Coca-Cola Company",
   "entity_type": "public_parent",
   "category": "F&B",
-  "description": "Coca-Cola is a non-alcoholic beverage brand owned and produced globally by The Coca-Cola Company.",
-  "last_refreshed": "2026-11-02T11:35:06.036Z",
+  "description": "Coca-Cola is a global non-alcoholic beverage brand owned and manufactured by The Coca-Cola Company.",
+  "last_refreshed": "2026-11-07T10:36:45.788Z",
   "stock": {
     "applicable": true,
-    "value": 93.87,
+    "value": 95.73,
     "currency": "USD",
     "ticker": "KO",
-    "as_of": "2026-10-17",
-    "note": "Reflects parent company stock price on NYSE.",
+    "as_of": "2026-11-06",
+    "note": "Reflects parent company ticker KO on the NYSE",
     "confidence": "disclosed"
   },
   "revenue": {
-    "value": 13380000000,
+    "value": 47940000000,
     "currency": "USD",
-    "period": "Q3 2026",
+    "period": "FY2025",
     "confidence": "disclosed",
     "source": {
-      "name": "Coca-Cola Q3 EPS rises 8% to $0.93; revenue up 7% | KO 8-K Filing",
-      "url": "https://www.stocktitan.net/sec-filings/KO/8-k-coca-cola-co-reports-material-event-b0143b385094.html",
-      "date": "2026-10-27"
+      "name": "The Coca-Cola Company",
+      "url": "https://tavily.com/knowledge/company/Syjuv0vBVpY7",
+      "date": "2026-11-06"
     }
   },
   "operating_profit": {
-    "value": 4465000000,
+    "value": 13760000000,
     "currency": "USD",
-    "period": "Q3 2026",
+    "period": "FY2025",
     "confidence": "disclosed",
     "source": {
-      "name": "Coca-Cola Q3 EPS rises 8% to $0.93; revenue up 7% | KO 8-K Filing",
-      "url": "https://www.stocktitan.net/sec-filings/KO/8-k-coca-cola-co-reports-material-event-b0143b385094.html",
-      "date": "2026-10-27"
+      "name": "The Coca-Cola Company",
+      "url": "https://tavily.com/knowledge/company/Syjuv0vBVpY7",
+      "date": "2026-11-06"
     }
   },
   "expenses": {
-    "breakdown": [
-      {
-        "label": "Cost of goods sold",
-        "value": 4930000000,
-        "confidence": "disclosed"
-      },
-      {
-        "label": "Selling, general and administrative expenses",
-        "value": 3975000000,
-        "confidence": "disclosed"
-      },
-      {
-        "label": "Other operating charges",
-        "value": 10000000,
-        "confidence": "disclosed"
-      }
-    ],
-    "confidence": "disclosed"
+    "breakdown": [],
+    "confidence": "not_found"
   },
   "marketing_spend": {
-    "value_low": 1070000000,
-    "value_high": 1338000000,
+    "value_low": 3835200000,
+    "value_high": 4794000000,
     "currency": "USD",
-    "period": "Q3 2026",
+    "period": "FY2025",
     "tier": "3_modeled",
-    "derivation": "Estimated using an 8% to 10% ad-to-revenue ratio benchmark typical for global non-alcoholic beverage leaders applied to Q3 2026 net operating revenue of $13.38 billion.",
-    "source": null
+    "derivation": "Estimated by applying a standard 8%-10% marketing-to-revenue benchmark for global beverage companies to The Coca-Cola Company's FY2025 annual revenue of $47.94 billion.",
+    "source": {
+      "name": "The Coca-Cola Company",
+      "url": "https://tavily.com/knowledge/company/Syjuv0vBVpY7",
+      "date": "2026-11-06"
+    }
   },
   "trend_history": {
     "stock": [
@@ -112,11 +100,15 @@
       },
       {
         "period": "FY2024",
-        "value": 47133800000
+        "value": 47060000000
       },
       {
         "period": "FY2025",
-        "value": 50425600000
+        "value": 47940000000
+      },
+      {
+        "period": "Q1 2026",
+        "value": 12470000000
       },
       {
         "period": "Q3 2026",
@@ -126,19 +118,19 @@
   },
   "business_updates": [
     {
-      "headline": "Coca-Cola Reports Third Quarter 2026 Results and Raises Full Year Guidance",
-      "date": "2026-10-27",
-      "source": {
-        "name": "The Coca-Cola Company (KO)",
-        "url": "https://investors.coca-colacompany.com/news-events/press-releases/detail/1176/coca-cola-reports-third-quarter-2026-results-and-raises-full-year-guidance"
-      }
-    },
-    {
       "headline": "The Coca-Cola Company Exploring Potential Public Listing in India for Hindustan Coca-Cola Holdings Pvt. Ltd.",
       "date": "2026-06-01",
       "source": {
-        "name": "Business Wire",
-        "url": "https://www.businesswire.com/news/home/20260601782312/en/The-Coca-Cola-Company-Exploring-Potential-Public-Listing-in-India-for-Hindustan-Coca-Cola-Holdings-Pvt.-Ltd.-Parent-Company-of-its-Largest-Bottler-in-India"
+        "name": "The Coca-Cola Company Investor Relations",
+        "url": "https://investors.coca-colacompany.com/news-events/press-releases/detail/1161/the-coca-cola-company-exploring-potential-public-listing-in-india-for-hindustan-coca-cola-holdings-pvt-ltd-parent-company-of-its-largest-bottler-in-india"
+      }
+    },
+    {
+      "headline": "Coca-Cola reports Q3 2026 net revenue growth of 7% and raises full-year guidance",
+      "date": "2026-11-06",
+      "source": {
+        "name": "Stock Titan",
+        "url": "https://www.stocktitan.net/news/KO/coca-cola-reports-third-quarter-2026-results-and-raises-full-year-wvaicxzq0d2m.html"
       }
     }
   ]

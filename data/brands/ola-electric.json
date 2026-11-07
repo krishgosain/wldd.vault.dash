@@ -4,37 +4,37 @@
   "parent": null,
   "entity_type": "public_standalone",
   "category": "Auto / EV",
-  "description": "Ola Electric Mobility Limited is an Indian electric vehicle manufacturer focused on electric two-wheelers and battery technology.",
-  "last_refreshed": "2026-11-02T11:38:41.257Z",
+  "description": "Ola Electric Mobility Limited is an Indian electric vehicle manufacturer focused on producing electric two-wheelers and EV components.",
+  "last_refreshed": "2026-11-07T10:40:57.551Z",
   "stock": {
     "applicable": true,
-    "value": 35.01,
+    "value": 34.21,
     "currency": "INR",
     "ticker": "OLAELEC.NS",
-    "as_of": "2026-11-02",
-    "note": "Reflects closing stock price on NSE",
+    "as_of": "2026-11-06",
+    "note": "Reflects direct standalone stock price on the National Stock Exchange of India (NSE).",
     "confidence": "disclosed"
   },
   "revenue": {
-    "value": 2460,
-    "currency": "INR Crore",
-    "period": "FY2026",
+    "value": 4840000000,
+    "currency": "INR",
+    "period": "Q1 FY2027",
     "confidence": "disclosed",
     "source": {
-      "name": "Upstox",
-      "url": "https://upstox.com/stocks/ola-electric-mobility-ltd-share-price/INE0LXG01040",
-      "date": "2026-09-18"
+      "name": "Kotak Neo",
+      "url": "https://www.kotakneo.com/stocks/ola-electric-mobility-share-price",
+      "date": "2026-10-24"
     }
   },
   "operating_profit": {
-    "value": -1829,
-    "currency": "INR Crore",
-    "period": "FY2026",
+    "value": -3360000000,
+    "currency": "INR",
+    "period": "Q1 FY2027",
     "confidence": "disclosed",
     "source": {
-      "name": "Upstox",
-      "url": "https://upstox.com/stocks/ola-electric-mobility-ltd-share-price/INE0LXG01040",
-      "date": "2026-09-18"
+      "name": "Kotak Neo",
+      "url": "https://www.kotakneo.com/stocks/ola-electric-mobility-share-price",
+      "date": "2026-10-24"
     }
   },
   "expenses": {
@@ -42,12 +42,12 @@
     "confidence": "not_found"
   },
   "marketing_spend": {
-    "value_low": 73.8,
-    "value_high": 123,
-    "currency": "INR Crore",
+    "value_low": 900000000,
+    "value_high": 1600000000,
+    "currency": "INR",
     "period": "FY2026",
     "tier": "3_modeled",
-    "derivation": "Estimated at 3% to 5% of FY2026 revenue (₹2,460 crore), which represents the typical advertising and sales promotion expense ratio for Indian EV OEMs.",
+    "derivation": "Modeled using an estimated 4% to 7% marketing-to-revenue ratio typical for automotive and EV manufacturers applied against reported FY2026 revenue of ₹2,253 crore.",
     "source": null
   },
   "trend_history": {
@@ -73,6 +73,10 @@
         "value": 29.93
       },
       {
+        "date": "2026-10-24",
+        "value": 29.9
+      },
+      {
         "date": "2026-10-26",
         "value": 29.94
       },
@@ -83,6 +87,14 @@
       {
         "date": "2026-11-02",
         "value": 35.01
+      },
+      {
+        "date": "2026-11-04",
+        "value": 35.01
+      },
+      {
+        "date": "2026-11-06",
+        "value": 34.21
       }
     ],
     "revenue": [
@@ -104,11 +116,11 @@
       },
       {
         "period": "FY2025",
-        "value": 4932
+        "value": 45140000000
       },
       {
         "period": "FY2026",
-        "value": 2460
+        "value": 22530000000
       },
       {
         "period": "Mar 2026",
@@ -116,25 +128,17 @@
       },
       {
         "period": "Q1 FY2027",
-        "value": 484
+        "value": 4840000000
       }
     ]
   },
   "business_updates": [
     {
-      "headline": "Ola Electric announces mass roll out of MoveOS 5",
-      "date": "2025-01-01",
+      "headline": "Ola Electric and Axis Energy sign MoU for 20GWh battery storage facility",
+      "date": "2026-09-01",
       "source": {
-        "name": "Ola Electric Investor Relations",
-        "url": "https://www.olaelectric.com/investor-relations"
-      }
-    },
-    {
-      "headline": "Ola Electric auto business turns EBITDA positive in June 2025 with Q1 revenue up 35.5%",
-      "date": "2025-01-01",
-      "source": {
-        "name": "The Week",
-        "url": "https://www.olaelectric.com/investor-relations"
+        "name": "Energy Monitor",
+        "url": "https://finance.yahoo.com/quote/OLAELEC.NS/news"
       }
     }
   ]
