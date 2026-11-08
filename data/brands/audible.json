@@ -4,28 +4,28 @@
   "parent": "Amazon",
   "entity_type": "public_parent",
   "category": "Audio Streaming",
-  "description": "Audible is a digital audio storytelling and audiobook streaming service operating as a wholly-owned subsidiary of Amazon.",
-  "last_refreshed": "2026-11-06T11:23:21.534Z",
+  "description": "Audible is an audio entertainment and audiobook service operating as a wholly-owned subsidiary of Amazon.",
+  "last_refreshed": "2026-11-08T10:45:31.325Z",
   "stock": {
     "applicable": false,
     "value": null,
     "currency": "USD",
     "ticker": null,
     "as_of": null,
-    "note": "Audible is a subsidiary of Amazon (NASDAQ: AMZN) and does not trade under a standalone ticker.",
+    "note": "Audible is a wholly-owned subsidiary of Amazon (NASDAQ: AMZN) and does not trade publicly as a standalone entity.",
     "confidence": "not_applicable"
   },
   "revenue": {
     "value": null,
     "currency": "USD",
-    "period": "FY2026",
+    "period": "FY2025",
     "confidence": "not_found",
     "source": null
   },
   "operating_profit": {
     "value": null,
     "currency": "USD",
-    "period": "FY2026",
+    "period": "FY2025",
     "confidence": "not_found",
     "source": null
   },
@@ -34,12 +34,12 @@
     "confidence": "not_found"
   },
   "marketing_spend": {
-    "value_low": 50000000,
-    "value_high": 150000000,
+    "value_low": 100000000,
+    "value_high": 250000000,
     "currency": "USD",
-    "period": "FY2026",
+    "period": "FY2025",
     "tier": "4_triangulated",
-    "derivation": "Audible's ad spend is consolidated into Amazon's broader sales and marketing financial statements. Triangulated based on standard audio streaming platform advertising budgets and relative category market presence.",
+    "derivation": "Triangulated estimate based on audio streaming industry advertising benchmarks and Audible's market leadership position, as marketing spend is not separately disclosed in Amazon's consolidated financial reports.",
     "source": null
   },
   "trend_history": {
@@ -49,10 +49,18 @@
   "business_updates": [
     {
       "headline": "Audible opens NYC pop-up 'bookless bookstore'",
-      "date": "2026-11-05",
+      "date": "2026-11-06",
       "source": {
         "name": "StockTitan",
         "url": "https://stocktitan.net/news/AMZN/audible-opens-doors-to-first-ever-bookless-u3mhx1sixmfd.html"
+      }
+    },
+    {
+      "headline": "Amazon cuts 5% of Audible division's workforce",
+      "date": "2024-01-11",
+      "source": {
+        "name": "Business Insider",
+        "url": "https://finance.yahoo.com/news/amazon-cuts-5-audible-divisions-183923706.html"
       }
     }
   ]

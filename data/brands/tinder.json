@@ -4,47 +4,55 @@
   "parent": "Match Group",
   "entity_type": "public_parent",
   "category": "Social / Dating",
-  "description": "Tinder is an online dating and social discovery application owned by publicly traded parent company Match Group, Inc. (NASDAQ: MTCH).",
-  "last_refreshed": "2026-11-06T11:22:38.677Z",
+  "description": "Tinder is a global smartphone dating app and the primary operating segment of publicly traded parent company Match Group (NASDAQ: MTCH).",
+  "last_refreshed": "2026-11-08T10:44:15.100Z",
   "stock": {
     "applicable": false,
-    "value": null,
+    "value": 38.5,
     "currency": "USD",
-    "ticker": null,
-    "as_of": null,
-    "note": "Tinder is a brand portfolio segment of Match Group (NASDAQ: MTCH) and does not have its own stock ticker.",
+    "ticker": "MTCH",
+    "as_of": "2026-11-03",
+    "note": "Reflects parent company Match Group, Inc. (MTCH) stock price, not Tinder directly.",
     "confidence": "not_applicable"
   },
   "revenue": {
-    "value": 493000000,
+    "value": 891200000,
     "currency": "USD",
-    "period": "Q4 2023",
+    "period": "Q3 2026",
     "confidence": "disclosed",
     "source": {
-      "name": "Yahoo Finance",
-      "url": "https://finance.yahoo.com/news/stock-tinders-parent-company-trouble-194700679.html",
-      "date": ""
+      "name": "StockStory",
+      "url": "https://stockstory.org/us/stocks/nasdaq/mtch/news/earnings-call/mtch-q3-deep-dive-tinder-user-growth-returns-hinge-expansion-and-margin-discipline-shape-outlook",
+      "date": "2026-11-03"
     }
   },
   "operating_profit": {
-    "value": null,
+    "value": 344500000,
     "currency": "USD",
-    "period": "",
-    "confidence": "not_found",
-    "source": null
+    "period": "Q3 2026",
+    "confidence": "disclosed",
+    "source": {
+      "name": "StockStory",
+      "url": "https://stockstory.org/us/stocks/nasdaq/mtch/news/earnings-call/mtch-q3-deep-dive-tinder-user-growth-returns-hinge-expansion-and-margin-discipline-shape-outlook",
+      "date": "2026-11-03"
+    }
   },
   "expenses": {
     "breakdown": [],
     "confidence": "not_found"
   },
   "marketing_spend": {
-    "value_low": 73950000,
-    "value_high": 123250000,
+    "value_low": 133680000,
+    "value_high": 222800000,
     "currency": "USD",
-    "period": "Q4 2023",
+    "period": "Q3 2026",
     "tier": "3_modeled",
-    "derivation": "Modeled as 15% to 25% of Tinder's disclosed Q4 2023 direct revenue ($493M), reflecting typical marketing and customer acquisition spend ratios in the consumer dating app category.",
-    "source": null
+    "derivation": "Modeled using a standard 15% to 25% marketing-to-revenue ratio typical for dating and consumer tech platforms applied to Match Group's Q3 2026 revenue of $891.2 million.",
+    "source": {
+      "name": "StockStory",
+      "url": "https://stockstory.org/us/stocks/nasdaq/mtch/news/earnings-call/mtch-q3-deep-dive-tinder-user-growth-returns-hinge-expansion-and-margin-discipline-shape-outlook",
+      "date": "2026-11-03"
+    }
   },
   "trend_history": {
     "stock": [
@@ -63,6 +71,10 @@
       {
         "date": "2026-10-28",
         "value": 42.06
+      },
+      {
+        "date": "2026-11-03",
+        "value": 38.5
       },
       {
         "date": "2026-11-05",
@@ -107,6 +119,10 @@
         "value": 853000000
       },
       {
+        "period": "Q3 2026",
+        "value": 891200000
+      },
+      {
         "period": "Q4 2023",
         "value": 493000000
       },
@@ -126,15 +142,15 @@
       }
     },
     {
-      "headline": "Will Tinder's Radical Rebrand Save Match Group From Permanent Decline?",
-      "date": "2026-10-27",
+      "headline": "Match Group meets Q3 2026 revenue estimates at $891.2M with Adjusted EBITDA of $344.5M",
+      "date": "2026-11-03",
       "source": {
-        "name": "24/7 Wall Street",
-        "url": "https://www.heygotrade.com/en/us-stock/mtch"
+        "name": "StockStory",
+        "url": "https://stockstory.org/us/stocks/nasdaq/mtch/news/earnings-call/mtch-q3-deep-dive-tinder-user-growth-returns-hinge-expansion-and-margin-discipline-shape-outlook"
       }
     },
     {
-      "headline": "Match Group: Tinder's AI Push Speeds Releases, Powers Smarter Recommendations",
+      "headline": "Match Group pushes AI features to speed Tinder feature releases and power smarter recommendations",
       "date": "2026-09-03",
       "source": {
         "name": "MarketBeat",

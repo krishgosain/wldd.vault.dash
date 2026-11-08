@@ -4,15 +4,15 @@
   "parent": "Koninklijke Philips N.V.",
   "entity_type": "india_private_registered",
   "category": "Consumer Electronics",
-  "description": "Philips India is an Indian private subsidiary of Koninklijke Philips N.V., operating in consumer electronics, personal health, and healthcare technology.",
-  "last_refreshed": "2026-11-02T11:41:15.295Z",
+  "description": "Philips India Limited is an active unlisted public company in India and subsidiary of health technology leader Koninklijke Philips N.V.",
+  "last_refreshed": "2026-11-08T10:42:52.383Z",
   "stock": {
     "applicable": false,
     "value": null,
-    "currency": "EUR",
+    "currency": "INR",
     "ticker": null,
     "as_of": null,
-    "note": "Philips India is a private unlisted entity; parent company Koninklijke Philips N.V. is listed on Euronext Amsterdam under PHIA.AS and NYSE under PHG.",
+    "note": "Philips India Limited is an unlisted public company; parent company Koninklijke Philips N.V. is publicly traded under ticker PHIA.AS on Euronext Amsterdam and PHG on NYSE.",
     "confidence": "not_applicable"
   },
   "revenue": {
@@ -23,27 +23,31 @@
     "source": null
   },
   "operating_profit": {
-    "value": null,
+    "value": 4480000000,
     "currency": "INR",
     "period": "FY2025",
-    "confidence": "not_found",
-    "source": null
+    "confidence": "disclosed",
+    "source": {
+      "name": "UnlistedCart",
+      "url": "https://unlistedcart.com/philips-india-limited",
+      "date": "2026-11-05"
+    }
   },
   "expenses": {
     "breakdown": [],
     "confidence": "not_found"
   },
   "marketing_spend": {
-    "value_low": 713360000,
-    "value_high": 1070040000,
-    "currency": "EUR",
+    "value_low": 1200000000,
+    "value_high": 2000000000,
+    "currency": "INR",
     "period": "FY2025",
     "tier": "3_modeled",
-    "derivation": "Modeled by applying an industry-typical 4% to 6% marketing spend ratio to parent company Koninklijke Philips N.V.'s reported FY2025 global revenue of €17,834,000,000.",
+    "derivation": "Modeled using a category-typical 3–5% marketing ratio against an estimated revenue base derived from disclosed FY2024-25 Profit Before Tax (PBT) of ₹448 crore.",
     "source": {
-      "name": "Yahoo Finance",
-      "url": "https://finance.yahoo.com/quote/PHIA.AS",
-      "date": "2026-11-02"
+      "name": "UnlistedCart",
+      "url": "https://unlistedcart.com/philips-india-limited",
+      "date": "2026-11-05"
     }
   },
   "trend_history": {
@@ -82,27 +86,11 @@
   },
   "business_updates": [
     {
-      "headline": "EXIT-CVD research consortium launches clinical studies to transform cardiovascular care across Europe",
-      "date": "2026-10-15",
+      "headline": "Philips India reports strong FY2024-25 earnings with PAT reaching ₹309 crore and PBT increasing to ₹448 crore",
+      "date": "2026-11-05",
       "source": {
-        "name": "Philips Investor Relations",
-        "url": "https://www.philips.com/a-w/about/investor-relations.html"
-      }
-    },
-    {
-      "headline": "Philips Oral Healthcare establishes Global Clinical Advisory Board to help shape the future of oral care",
-      "date": "2026-10-08",
-      "source": {
-        "name": "Philips Investor Relations",
-        "url": "https://www.philips.com/a-w/about/investor-relations.html"
-      }
-    },
-    {
-      "headline": "Philips-led projects win ITEA awards for advancing AI-enabled healthcare innovation",
-      "date": "2026-09-16",
-      "source": {
-        "name": "Philips Investor Relations",
-        "url": "https://www.philips.com/a-w/about/investor-relations.html"
+        "name": "UnlistedCart",
+        "url": "https://unlistedcart.com/philips-india-limited"
       }
     }
   ]

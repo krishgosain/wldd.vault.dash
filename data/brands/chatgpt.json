@@ -4,15 +4,15 @@
   "parent": "OpenAI",
   "entity_type": "foreign_private",
   "category": "Consumer Tech / AI",
-  "description": "ChatGPT is an artificial intelligence chatbot and conversational application developed by private technology company OpenAI.",
-  "last_refreshed": "2026-11-02T11:40:20.723Z",
+  "description": "ChatGPT is an artificial intelligence chatbot and product service developed by OpenAI.",
+  "last_refreshed": "2026-11-08T10:42:08.391Z",
   "stock": {
     "applicable": false,
     "value": null,
     "currency": "USD",
     "ticker": null,
     "as_of": null,
-    "note": "ChatGPT is a product of OpenAI, which is a private company.",
+    "note": "Reflects private ownership by OpenAI; standalone public ticker does not exist.",
     "confidence": "not_applicable"
   },
   "revenue": {
@@ -39,16 +39,12 @@
   },
   "marketing_spend": {
     "value_low": 800000000,
-    "value_high": 1200000000,
+    "value_high": 1600000000,
     "currency": "USD",
     "period": "FY2025",
     "tier": "3_modeled",
-    "derivation": "Modeled by applying an industry-standard 10% to 15% marketing-to-revenue ratio for high-growth consumer technology platforms to ChatGPT's estimated FY2025 revenue of $8 billion.",
-    "source": {
-      "name": "Business of Apps",
-      "url": "https://www.businessofapps.com/data/chatgpt-statistics",
-      "date": "2026-01-01"
-    }
+    "derivation": "Estimated at 10% to 20% of ChatGPT's reported $8 billion FY2025 revenue, aligning with typical growth-stage consumer tech and AI software marketing budget allocations.",
+    "source": null
   },
   "trend_history": {
     "stock": [],
@@ -81,7 +77,7 @@
   },
   "business_updates": [
     {
-      "headline": "ChatGPT Ads reaches $1 billion in annualized revenue run rate",
+      "headline": "ChatGPT Ads reaches $1 billion in annualized revenue run rate in under 200 days after launch",
       "date": "2026-08-31",
       "source": {
         "name": "OpenAI",
@@ -89,19 +85,19 @@
       }
     },
     {
-      "headline": "ChatGPT active users reach 700 million milestone",
-      "date": "2025-01-01",
+      "headline": "OpenAI initiates targeted advertising tests within ChatGPT for free users in the US",
+      "date": "2026-10-13",
       "source": {
-        "name": "Business of Apps",
-        "url": "https://www.businessofapps.com/data/chatgpt-statistics"
+        "name": "CryptoRank.io",
+        "url": "https://cryptorank.io/news/feed/7bd37-chatgpt-ads-openai-targeted-advertising"
       }
     },
     {
-      "headline": "ChatGPT Pro subscriber base hits 125,000, adding $300M in annual revenue",
-      "date": "2025-01-01",
+      "headline": "ChatGPT user base surpasses 1 billion active users in 2026",
+      "date": "2026-09-11",
       "source": {
-        "name": "Future Search",
-        "url": "https://futuresearch.ai/openai-revenue-forecast"
+        "name": "Business of Apps",
+        "url": "https://www.businessofapps.com/data/chatgpt-statistics"
       }
     }
   ]

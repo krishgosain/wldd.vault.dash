@@ -4,43 +4,55 @@
   "parent": "Eternal Ltd",
   "entity_type": "public_parent",
   "category": "Events / Ticketing",
-  "description": "District is an entertainment and going-out platform for live event ticketing, dining-out, movies, and experiences, operated by Eternal Ltd (formerly Zomato).",
-  "last_refreshed": "2026-11-06T11:22:59.921Z",
+  "description": "District is the going-out and live events ticketing platform operated by Eternal Ltd (formerly Zomato Limited).",
+  "last_refreshed": "2026-11-08T10:45:03.973Z",
   "stock": {
     "applicable": false,
-    "value": null,
+    "value": 363.15,
     "currency": "INR",
-    "ticker": null,
-    "as_of": null,
-    "note": "District is a brand segment of Eternal Ltd (ETERNAL.NS) and does not have its own stock ticker.",
+    "ticker": "ETERNAL.NS",
+    "as_of": "2026-11-08",
+    "note": "Reflects parent company Eternal Ltd, not District specifically.",
     "confidence": "not_applicable"
   },
   "revenue": {
-    "value": null,
+    "value": 543640000000,
     "currency": "INR",
-    "period": "Q4 FY2026",
-    "confidence": "not_found",
-    "source": null
+    "period": "FY2026",
+    "confidence": "disclosed",
+    "source": {
+      "name": "Screener",
+      "url": "https://www.screener.in/company/ETERNAL/consolidated",
+      "date": "2026-03-31"
+    }
   },
   "operating_profit": {
-    "value": null,
+    "value": 12080000000,
     "currency": "INR",
-    "period": "Q4 FY2026",
-    "confidence": "not_found",
-    "source": null
+    "period": "FY2026",
+    "confidence": "disclosed",
+    "source": {
+      "name": "Screener",
+      "url": "https://www.screener.in/company/ETERNAL/consolidated",
+      "date": "2026-03-31"
+    }
   },
   "expenses": {
     "breakdown": [],
     "confidence": "not_found"
   },
   "marketing_spend": {
-    "value_low": 1000000000,
-    "value_high": 3000000000,
+    "value_low": 5300000000,
+    "value_high": 8000000000,
     "currency": "INR",
     "period": "FY2026",
     "tier": "3_modeled",
-    "derivation": "Modeled by applying a standard 5-10% marketing-to-revenue benchmark for digital ticketing and entertainment platforms against District's 9.8% contribution to parent Eternal Ltd's adjusted revenue mix.",
-    "source": null
+    "derivation": "Calculated by applying an estimated 10%–15% marketing-to-revenue ratio for consumer ticketing and going-out platforms to District's estimated FY2026 segment revenue of ~53.28 billion INR (derived from its 9.8% contribution to Eternal Ltd's 543.64 billion INR total revenue).",
+    "source": {
+      "name": "Ticker Finology",
+      "url": "https://ticker.finology.in/company/ETERNAL",
+      "date": "2026-03-31"
+    }
   },
   "trend_history": {
     "stock": [
@@ -55,16 +67,36 @@
       {
         "date": "2026-11-01",
         "value": 1112.73
+      },
+      {
+        "date": "2026-11-06",
+        "value": 357.4
+      },
+      {
+        "date": "2026-11-08",
+        "value": 363.15
       }
     ],
     "revenue": [
+      {
+        "period": "FY2024",
+        "value": 70790000000
+      },
       {
         "period": "FY2024 (Eternal)",
         "value": 121140000000
       },
       {
+        "period": "FY2025",
+        "value": 202430000000
+      },
+      {
         "period": "FY2025 (Eternal)",
         "value": 202430000000
+      },
+      {
+        "period": "FY2026",
+        "value": 543640000000
       },
       {
         "period": "Q1 FY2027",
@@ -86,11 +118,19 @@
   },
   "business_updates": [
     {
-      "headline": "District (Going-Out) accounts for 9.8% of Eternal Ltd's adjusted revenue mix",
+      "headline": "Eternal Ltd reports Going-Out (District) segment accounted for 9.8% of adjusted revenue in Q4 FY2026.",
       "date": "2026-03-31",
       "source": {
-        "name": "Finology Ticker",
+        "name": "Ticker Finology",
         "url": "https://ticker.finology.in/company/ETERNAL"
+      }
+    },
+    {
+      "headline": "Eternal Ltd quarterly revenue reaches Rs 20,211 crore for Q1 FY2027, up 182% YoY.",
+      "date": "2026-06-30",
+      "source": {
+        "name": "Tickertape",
+        "url": "https://www.tickertape.in/stocks/zomato-ZOM"
       }
     }
   ]

@@ -4,15 +4,15 @@
   "parent": "Tata Group",
   "entity_type": "public_standalone",
   "category": "Auto",
-  "description": "Tata Motors Ltd. is an Indian multinational automotive manufacturing company owned by Tata Group, producing commercial vehicles and passenger cars.",
-  "last_refreshed": "2026-11-02T11:40:48.970Z",
+  "description": "Tata Motors Limited is an Indian multinational automotive manufacturing company and part of the Tata Group.",
+  "last_refreshed": "2026-11-08T10:42:29.497Z",
   "stock": {
     "applicable": true,
-    "value": 401.4,
+    "value": 425.5,
     "currency": "INR",
     "ticker": "TATAMOTORS.NS",
-    "as_of": "2026-11-02",
-    "note": "Reflects Tata Motors Ltd. regular market trading price on the National Stock Exchange of India.",
+    "as_of": "2026-11-08",
+    "note": "Reflects Tata Motors Limited stock price on the National Stock Exchange of India.",
     "confidence": "disclosed"
   },
   "revenue": {
@@ -21,25 +21,41 @@
     "period": "FY2026",
     "confidence": "disclosed",
     "source": {
-      "name": "Tata Motors Knowledge Base",
+      "name": "Tata Motors",
       "url": "https://tavily.com/knowledge/company/aZ23s7vRWCxI",
-      "date": "2026-11-02"
+      "date": "2026-11-08"
     }
   },
   "operating_profit": {
-    "value": 253300000000,
+    "value": 840110000000,
     "currency": "INR",
     "period": "FY2026",
     "confidence": "disclosed",
     "source": {
-      "name": "Tata Motors Knowledge Base",
+      "name": "Tata Motors",
       "url": "https://tavily.com/knowledge/company/aZ23s7vRWCxI",
-      "date": "2026-11-02"
+      "date": "2026-11-08"
     }
   },
   "expenses": {
-    "breakdown": [],
-    "confidence": "not_found"
+    "breakdown": [
+      {
+        "label": "Total Expenditure (Standalone)",
+        "value": 552290000000,
+        "confidence": "disclosed"
+      },
+      {
+        "label": "Depreciation (Standalone)",
+        "value": 27320000000,
+        "confidence": "disclosed"
+      },
+      {
+        "label": "Interest (Standalone)",
+        "value": 2460000000,
+        "confidence": "disclosed"
+      }
+    ],
+    "confidence": "disclosed"
   },
   "marketing_spend": {
     "value_low": 52500000000,
@@ -47,7 +63,7 @@
     "currency": "INR",
     "period": "FY2026",
     "tier": "3_modeled",
-    "derivation": "Modeled at 1.5% to 2.5% of FY2026 annual revenue (₹3.50 trillion INR), based on standard automotive industry marketing-to-revenue benchmark ratios.",
+    "derivation": "Calculated by applying a standard automotive industry marketing-to-revenue ratio of 1.5% to 2.5% against Tata Motors' reported FY2026 consolidated revenue of 3.50 trillion INR.",
     "source": null
   },
   "trend_history": {
@@ -111,6 +127,10 @@
       {
         "date": "2026-11-02",
         "value": 401.4
+      },
+      {
+        "date": "2026-11-08",
+        "value": 425.5
       }
     ],
     "revenue": [
@@ -154,19 +174,11 @@
   },
   "business_updates": [
     {
-      "headline": "Tata Motors Q1 FY27 standalone revenue reached ₹19,329 crore with 11.7% EBITDA margin",
-      "date": "2026-09-01",
+      "headline": "Tata Motors PV Reports Q1FY27 Earnings: Consolidated revenue up 9% YoY while JLR business remains a drag",
+      "date": "2026-08-13",
       "source": {
-        "name": "World Review Stock Analysis",
-        "url": "https://www.worldreview1989.com/2026/09/tata-motors-Stock-Analysis.html"
-      }
-    },
-    {
-      "headline": "Tata Motors posts strong Q2 2027 growth with standalone revenue rising 42% YoY to INR 23,900 crore",
-      "date": "2026-11-01",
-      "source": {
-        "name": "Investing.com",
-        "url": "https://ca.investing.com/news/stock-market-news/earnings-call-transcript-tata-motors-posts-strong-q2-2027-growth-as-stock-falls-93CH-4900205"
+        "name": "CNBC-TV18",
+        "url": "https://www.youtube.com/watch?v=1ZqROCtU94w"
       }
     }
   ]
