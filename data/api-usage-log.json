@@ -1273,6 +1273,104 @@
       "tavily_credits": 1,
       "gemini_requests": 1,
       "timestamp": "2026-11-08T10:45:31.326Z"
+    },
+    {
+      "source": "daily_refresh",
+      "brand": "JioHotstar",
+      "tavily_credits": 1,
+      "gemini_requests": 1,
+      "timestamp": "2026-11-12T11:44:07.322Z"
+    },
+    {
+      "source": "daily_refresh",
+      "brand": "Amazon Shopping",
+      "tavily_credits": 1,
+      "gemini_requests": 1,
+      "timestamp": "2026-11-12T11:47:33.960Z"
+    },
+    {
+      "source": "daily_refresh",
+      "brand": "Amazon Now",
+      "tavily_credits": 1,
+      "gemini_requests": 1,
+      "timestamp": "2026-11-12T11:47:55.391Z"
+    },
+    {
+      "source": "daily_refresh",
+      "brand": "Prime Video",
+      "tavily_credits": 1,
+      "gemini_requests": 1,
+      "timestamp": "2026-11-12T11:48:11.844Z"
+    },
+    {
+      "source": "daily_refresh",
+      "brand": "BGMI",
+      "tavily_credits": 1,
+      "gemini_requests": 1,
+      "timestamp": "2026-11-12T11:48:34.483Z"
+    },
+    {
+      "source": "daily_refresh",
+      "brand": "Paper Boat",
+      "tavily_credits": 1,
+      "gemini_requests": 1,
+      "timestamp": "2026-11-12T11:51:14.150Z"
+    },
+    {
+      "source": "daily_refresh",
+      "brand": "Bajaj EV",
+      "tavily_credits": 1,
+      "gemini_requests": 1,
+      "timestamp": "2026-11-12T11:51:29.801Z"
+    },
+    {
+      "source": "daily_refresh",
+      "brand": "Agilitas",
+      "tavily_credits": 1,
+      "gemini_requests": 1,
+      "timestamp": "2026-11-12T11:51:49.693Z"
+    },
+    {
+      "source": "daily_refresh",
+      "brand": "Wispr Flow",
+      "tavily_credits": 1,
+      "gemini_requests": 1,
+      "timestamp": "2026-11-12T11:52:06.932Z"
+    },
+    {
+      "source": "daily_refresh",
+      "brand": "Rapido",
+      "tavily_credits": 1,
+      "gemini_requests": 1,
+      "timestamp": "2026-11-12T11:52:31.971Z"
+    },
+    {
+      "source": "daily_refresh",
+      "brand": "TCS",
+      "tavily_credits": 1,
+      "gemini_requests": 1,
+      "timestamp": "2026-11-12T11:52:46.962Z"
+    },
+    {
+      "source": "daily_refresh",
+      "brand": "Coca-Cola",
+      "tavily_credits": 1,
+      "gemini_requests": 1,
+      "timestamp": "2026-11-12T11:53:04.460Z"
+    },
+    {
+      "source": "daily_refresh",
+      "brand": "Zepto",
+      "tavily_credits": 1,
+      "gemini_requests": 1,
+      "timestamp": "2026-11-12T11:53:25.932Z"
+    },
+    {
+      "source": "daily_refresh",
+      "brand": "Swiggy",
+      "tavily_credits": 1,
+      "gemini_requests": 1,
+      "timestamp": "2026-11-12T11:53:48.374Z"
     }
   ]
 }

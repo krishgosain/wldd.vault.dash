@@ -4,15 +4,15 @@
   "parent": "Hector Beverages Pvt Ltd",
   "entity_type": "india_private_registered",
   "category": "F&B",
-  "description": "Paper Boat is an Indian brand of traditional beverages and packaged foods manufactured and marketed by Hector Beverages Pvt Ltd.",
-  "last_refreshed": "2026-11-06T11:26:19.338Z",
+  "description": "Paper Boat is an Indian packaged beverage and snacks brand owned by private company Hector Beverages Pvt Ltd.",
+  "last_refreshed": "2026-11-12T11:51:14.149Z",
   "stock": {
     "applicable": false,
     "value": null,
     "currency": "INR",
     "ticker": null,
     "as_of": null,
-    "note": "Hector Beverages Pvt Ltd is an unlisted private company.",
+    "note": "Paper Boat is a private brand owned by Hector Beverages Pvt Ltd and has no public market ticker.",
     "confidence": "not_applicable"
   },
   "revenue": {
@@ -21,42 +21,37 @@
     "period": "FY2026",
     "confidence": "disclosed",
     "source": {
-      "name": "Entrackr",
-      "url": "https://entrackr.com/fintrackr/paper-boat-parent-reports-rs-760-cr-revenue-in-fy26-profit-shrinks-96-12241163",
-      "date": "2026-08-10"
+      "name": "Zane Marketing",
+      "url": "https://zane.marketing/news/paper-boat-fy26-revenue-profit-decline",
+      "date": "2026-08-08"
     }
   },
   "operating_profit": {
-    "value": 20000000,
+    "value": 414000000,
     "currency": "INR",
     "period": "FY2026",
     "confidence": "disclosed",
     "source": {
-      "name": "Entrackr",
-      "url": "https://entrackr.com/fintrackr/paper-boat-parent-reports-rs-760-cr-revenue-in-fy26-profit-shrinks-96-12241163",
-      "date": "2026-08-10"
+      "name": "Zane Marketing",
+      "url": "https://zane.marketing/news/paper-boat-fy26-revenue-profit-decline",
+      "date": "2026-08-08"
     }
   },
   "expenses": {
     "breakdown": [
       {
-        "label": "Advertising and promotional expenses",
-        "value": 280000000,
+        "label": "Material consumption",
+        "value": 4850000000,
         "confidence": "disclosed"
       },
       {
-        "label": "Selling and distribution expenses",
-        "value": 670000000,
+        "label": "Advertising and promotion",
+        "value": 280000000,
         "confidence": "disclosed"
       },
       {
         "label": "Job work charges",
         "value": 250000000,
-        "confidence": "disclosed"
-      },
-      {
-        "label": "Other operating expenses (legal & professional, travelling, rent)",
-        "value": 830000000,
         "confidence": "disclosed"
       }
     ],
@@ -68,11 +63,11 @@
     "currency": "INR",
     "period": "FY2026",
     "tier": "1_disclosed",
-    "derivation": "Disclosed directly as advertising and promotional expenses of ₹28 crore in Hector Beverages Private Limited's FY26 financial statements filed with the Registrar of Companies (RoC).",
+    "derivation": "Disclosed in financial filings and reporting for FY26 as ₹28 crore under advertising and promotion expense, representing 3.7% of total revenue.",
     "source": {
-      "name": "Entrackr",
-      "url": "https://entrackr.com/fintrackr/paper-boat-parent-reports-rs-760-cr-revenue-in-fy26-profit-shrinks-96-12241163",
-      "date": "2026-08-10"
+      "name": "Zane Marketing",
+      "url": "https://zane.marketing/news/paper-boat-fy26-revenue-profit-decline",
+      "date": "2026-08-08"
     }
   },
   "trend_history": {
@@ -84,11 +79,11 @@
       },
       {
         "period": "FY2024",
-        "value": 5848500000
+        "value": 5744800000
       },
       {
         "period": "FY2025",
-        "value": 6680000000
+        "value": 6682800000
       },
       {
         "period": "FY2026",
@@ -110,16 +105,16 @@
   },
   "business_updates": [
     {
-      "headline": "Hector Beverages reports ₹760 Cr revenue in FY26 as profit shrinks 96% to ₹2 Cr",
-      "date": "2026-08-10",
+      "headline": "Hector Beverages appoints Sharath Kumar as AVP Marketing - Platform Head",
+      "date": "2026-10-29",
       "source": {
-        "name": "Entrackr",
-        "url": "https://entrackr.com/fintrackr/paper-boat-parent-reports-rs-760-cr-revenue-in-fy26-profit-shrinks-96-12241163"
+        "name": "Caplight",
+        "url": "https://www.caplight.com/company/paper-boat-1"
       }
     },
     {
-      "headline": "Shift to traded goods drives top line expansion, representing over 75% of FY26 revenue",
-      "date": "2026-08-10",
+      "headline": "Paper Boat parent Hector Beverages reports ₹760 crore operating revenue in FY26 as PAT plunges 96%",
+      "date": "2026-08-08",
       "source": {
         "name": "Zane Marketing",
         "url": "https://zane.marketing/news/paper-boat-fy26-revenue-profit-decline"

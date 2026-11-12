@@ -4,15 +4,15 @@
   "parent": "Tata Group",
   "entity_type": "public_standalone",
   "category": "IT Services",
-  "description": "Tata Consultancy Services (TCS) is a major Indian multinational information technology services and consulting company owned by the Tata Group.",
-  "last_refreshed": "2026-11-07T10:36:26.264Z",
+  "description": "Tata Consultancy Services (TCS) is a major Indian multinational information technology services and consulting company, operating as a publicly traded company controlled by Tata Sons (Tata Group).",
+  "last_refreshed": "2026-11-12T11:52:46.961Z",
   "stock": {
     "applicable": true,
-    "value": 2498.5,
+    "value": 2442.4,
     "currency": "INR",
     "ticker": "TCS.NS",
-    "as_of": "2026-11-06",
-    "note": "Reflects TCS closing stock price on the National Stock Exchange of India (NSE).",
+    "as_of": "2026-11-12",
+    "note": "Traded on National Stock Exchange of India (NSE) and BSE.",
     "confidence": "disclosed"
   },
   "revenue": {
@@ -21,9 +21,9 @@
     "period": "FY2026",
     "confidence": "disclosed",
     "source": {
-      "name": "Tata Consultancy Services - Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Tata_Consultancy_Services",
-      "date": "2026-11-06"
+      "name": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/TCS.NS?p=TCS.NS",
+      "date": "2026-11-12"
     }
   },
   "operating_profit": {
@@ -32,9 +32,9 @@
     "period": "FY2026",
     "confidence": "disclosed",
     "source": {
-      "name": "Tata Consultancy Services - Wikipedia",
+      "name": "Wikipedia - Tata Consultancy Services",
       "url": "https://en.wikipedia.org/wiki/Tata_Consultancy_Services",
-      "date": "2026-11-06"
+      "date": "2026-11-12"
     }
   },
   "expenses": {
@@ -42,12 +42,12 @@
     "confidence": "not_found"
   },
   "marketing_spend": {
-    "value_low": 13351000000,
-    "value_high": 40053000000,
+    "value_low": 13351050000,
+    "value_high": 40053150000,
     "currency": "INR",
     "period": "FY2026",
     "tier": "3_modeled",
-    "derivation": "Modeled using an IT services category benchmark of 0.5% to 1.5% marketing and promotion spend ratio applied to TCS's FY2026 revenue of ₹267,021 crore.",
+    "derivation": "Estimated using an enterprise B2B IT services benchmark ratio of 0.5% to 1.5% applied to TCS's FY2026 revenue of ₹2,670,210,000,000 INR.",
     "source": null
   },
   "trend_history": {
@@ -83,9 +83,29 @@
       {
         "date": "2026-11-06",
         "value": 2498.5
+      },
+      {
+        "date": "2026-11-12",
+        "value": 2442.4
       }
     ],
     "revenue": [
+      {
+        "period": "2023",
+        "value": 2254580000000
+      },
+      {
+        "period": "2024",
+        "value": 2408930000000
+      },
+      {
+        "period": "2025",
+        "value": 2553240000000
+      },
+      {
+        "period": "2026",
+        "value": 2670210000000
+      },
       {
         "period": "Dec 2025",
         "value": 670870000000
@@ -146,19 +166,27 @@
   },
   "business_updates": [
     {
-      "headline": "India’s TCS chair says AI agents may equal headcount, dampen hiring",
-      "date": "2026-07-06",
+      "headline": "TCS Enterprise AI Study: 84% say productivity is AI’s top benefit; just 10% let AI act without human oversight",
+      "date": "2026-11-04",
       "source": {
-        "name": "Reuters",
-        "url": "https://finance.yahoo.com/quote/TCS.NS/latest-news"
+        "name": "TCS Investor Relations",
+        "url": "https://www.tcs.com/investor-relations"
       }
     },
     {
-      "headline": "TCS to acquire Porsche’s MHP subsidiary in $373m deal",
-      "date": "2026-10-15",
+      "headline": "TCS partners with Zoho Corp’s ManageEngine to supercharge sovereign cloud adoption in India",
+      "date": "2026-10-13",
       "source": {
-        "name": "Yahoo Finance",
-        "url": "https://finance.yahoo.com/quote/TCS.NS/latest-news"
+        "name": "TCS Investor Relations",
+        "url": "https://www.tcs.com/investor-relations"
+      }
+    },
+    {
+      "headline": "TCS and IEM Kolkata partner to establish an AI-focused Centre of Excellence to advance industry-academia innovation",
+      "date": "2026-09-28",
+      "source": {
+        "name": "TCS Investor Relations",
+        "url": "https://www.tcs.com/investor-relations"
       }
     }
   ]

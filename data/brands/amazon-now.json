@@ -4,42 +4,66 @@
   "parent": "Amazon",
   "entity_type": "public_parent",
   "category": "Quick Commerce",
-  "description": "Amazon Now is a quick commerce delivery service operating under parent e-commerce giant Amazon.com, Inc.",
-  "last_refreshed": "2026-11-06T11:24:41.119Z",
+  "description": "Amazon Now is a quick commerce fast-delivery service owned and operated by public parent company Amazon.com, Inc.",
+  "last_refreshed": "2026-11-12T11:47:55.390Z",
   "stock": {
     "applicable": false,
-    "value": 270.43,
+    "value": null,
     "currency": "USD",
-    "ticker": "AMZN",
-    "as_of": "2026-11-05",
-    "note": "Reflects parent company Amazon.com, Inc. (NASDAQ: AMZN), not Amazon Now specifically.",
+    "ticker": null,
+    "as_of": null,
+    "note": "Reflects parent company Amazon.com, Inc. (NASDAQ: AMZN); the Amazon Now brand is not individually listed.",
     "confidence": "not_applicable"
   },
   "revenue": {
-    "value": null,
+    "value": 201944000000,
     "currency": "USD",
     "period": "Q3 2026",
-    "confidence": "not_found",
-    "source": null
+    "confidence": "disclosed",
+    "source": {
+      "name": "Amazon.com Announces Third Quarter Results",
+      "url": "https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-Third-Quarter-Results/default.aspx",
+      "date": "2026-10-29"
+    }
   },
   "operating_profit": {
-    "value": null,
+    "value": 28100000000,
     "currency": "USD",
     "period": "Q3 2026",
-    "confidence": "not_found",
-    "source": null
+    "confidence": "disclosed",
+    "source": {
+      "name": "Amazon.com Announces Third Quarter Results",
+      "url": "https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-Third-Quarter-Results/default.aspx",
+      "date": "2026-10-29"
+    }
   },
   "expenses": {
-    "breakdown": [],
-    "confidence": "not_found"
+    "breakdown": [
+      {
+        "label": "North America Operating Expenses (Q1 2025)",
+        "value": 87040000000,
+        "confidence": "disclosed"
+      },
+      {
+        "label": "International Operating Expenses (Q1 2025)",
+        "value": 32490000000,
+        "confidence": "disclosed"
+      },
+      {
+        "label": "AWS Operating Expenses (Q1 2025)",
+        "value": 17720000000,
+        "confidence": "disclosed"
+      }
+    ],
+    "confidence": "disclosed"
   },
   "marketing_spend": {
-    "value_low": 50000000,
-    "value_high": 150000000,
+    "value_low": 4038880000,
+    "value_high": 8077760000,
     "currency": "USD",
-    "period": "FY2025",
+    "period": "Q3 2026",
     "tier": "3_modeled",
-    "derivation": "Modeled using category-typical quick commerce marketing-to-revenue allocation ratios of 5%-10% applied against estimated segment scale.",
+    "derivation": "Modeled using a industry benchmark marketing-to-revenue ratio of 2% to 4% for retail e-commerce platforms applied to parent Amazon's Q3 2026 revenue of $201.94 billion.",
     "source": null
   },
   "trend_history": {
@@ -71,9 +95,21 @@
       {
         "date": "2026-11-05",
         "value": 270.43
+      },
+      {
+        "date": "2026-11-11",
+        "value": 266.17
+      },
+      {
+        "date": "2026-11-12",
+        "value": 267.14
       }
     ],
     "revenue": [
+      {
+        "period": "1Q2026",
+        "value": 181519000000
+      },
       {
         "period": "2022",
         "value": 513983000000
@@ -91,6 +127,18 @@
         "value": 716924000000
       },
       {
+        "period": "2Q2026",
+        "value": 200606000000
+      },
+      {
+        "period": "3Q2026",
+        "value": 201944000000
+      },
+      {
+        "period": "4Q2025",
+        "value": 213386000000
+      },
+      {
         "period": "Q1 2026",
         "value": 181519000000
       },
@@ -106,19 +154,19 @@
   },
   "business_updates": [
     {
-      "headline": "Amazon selects Uber Eats as its official restaurant delivery partner for Prime members in the United States, replacing GrubHub.",
-      "date": "2026-11-04",
+      "headline": "Amazon.com Announces Third Quarter 2026 Results with Highest Operating Margin Ever",
+      "date": "2026-10-29",
       "source": {
-        "name": "Robinhood",
-        "url": "https://robinhood.com/us/en/stocks/AMZN"
+        "name": "Amazon IR",
+        "url": "https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-Third-Quarter-Results/default.aspx"
       }
     },
     {
-      "headline": "Amazon reports Q3 2026 North America segment operating income of $8.72B on net sales of $112.85B.",
-      "date": "2026-11-05",
+      "headline": "AWS net sales increased 39.3% in Q3 2026 to $184 billion annualized revenue run rate",
+      "date": "2026-10-29",
       "source": {
-        "name": "Amazon Investor Relations",
-        "url": "https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-Third-Quarter-Results/default.aspx"
+        "name": "SEC EDGAR",
+        "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000038/amzn-20260930xex991.htm"
       }
     }
   ]

@@ -1,35 +1,35 @@
 {
   "name": "Agilitas",
   "slug": "agilitas",
-  "parent": "Agilitas Sports Pvt Ltd",
+  "parent": "Agilitas Sports Private Limited",
   "entity_type": "india_private_registered",
   "category": "Footwear / Sports",
-  "description": "Agilitas is an Indian sports and athletic footwear ecosystem brand under Agilitas Sports Private Limited, integrating manufacturing, R&D, and brand licensing.",
-  "last_refreshed": "2026-11-06T11:27:07.145Z",
+  "description": "Agilitas is an Indian vertically integrated sportswear and athleisure company operating across footwear manufacturing, brand building, and retail distribution.",
+  "last_refreshed": "2026-11-12T11:51:49.691Z",
   "stock": {
     "applicable": false,
     "value": null,
     "currency": "INR",
     "ticker": null,
     "as_of": null,
-    "note": "Private company, not listed on public stock exchanges.",
+    "note": "Privately held registered company; not listed on public stock exchanges.",
     "confidence": "not_applicable"
   },
   "revenue": {
-    "value": 10000000000,
+    "value": 14000000000,
     "currency": "INR",
-    "period": "FY2025",
+    "period": "FY2026",
     "confidence": "press_estimate",
     "source": {
-      "name": "Tracxn",
-      "url": "https://tracxn.com/d/companies/agilitas/__TSw7AGSFziiaFwBTtn9eb_qA2C_UcO1FMp0tD8E5a2Y",
-      "date": "2025-03-31"
+      "name": "Storyboard18",
+      "url": "https://www.storyboard18.com/brand-marketing/virat-kohlis-stake-in-agilitas-sports-rises-to-6-4-after-one8-merger-113653.htm",
+      "date": "2026-10-29"
     }
   },
   "operating_profit": {
     "value": null,
     "currency": "INR",
-    "period": "FY2025",
+    "period": "FY2026",
     "confidence": "not_found",
     "source": null
   },
@@ -38,13 +38,17 @@
     "confidence": "not_found"
   },
   "marketing_spend": {
-    "value_low": 500000000,
-    "value_high": 800000000,
+    "value_low": 1120000000,
+    "value_high": 1680000000,
     "currency": "INR",
-    "period": "FY2025",
+    "period": "FY2026",
     "tier": "3_modeled",
-    "derivation": "Estimated at 5–8% of the company's reported FY2025 revenue of ₹1,000+ Cr, based on standard ad spend to revenue benchmarks for athletic footwear and D2C sports brands in India.",
-    "source": null
+    "derivation": "Calculated using a standard 8%–12% marketing-to-revenue ratio typical for high-growth Indian sportswear and direct-to-consumer footwear brands, applied against Agilitas' FY2026 reported revenue of ₹1,400 crore.",
+    "source": {
+      "name": "Storyboard18",
+      "url": "https://www.storyboard18.com/brand-marketing/virat-kohlis-stake-in-agilitas-sports-rises-to-6-4-after-one8-merger-113653.htm",
+      "date": "2026-10-29"
+    }
   },
   "trend_history": {
     "stock": [],
@@ -59,9 +63,26 @@
       },
       {
         "period": "FY2026",
-        "value": 141.29
+        "value": 14000000000
       }
     ]
   },
-  "business_updates": []
+  "business_updates": [
+    {
+      "headline": "Virat Kohli's stake in Agilitas Sports rises to 6.4% following one8 merger approval by NCLT",
+      "date": "2026-10-29",
+      "source": {
+        "name": "Storyboard18",
+        "url": "https://www.storyboard18.com/brand-marketing/virat-kohlis-stake-in-agilitas-sports-rises-to-6-4-after-one8-merger-113653.htm"
+      }
+    },
+    {
+      "headline": "Agilitas Sports raises ₹225 crore in funding led by Nexus Venture Partners and Rainmatter",
+      "date": "2026-05-01",
+      "source": {
+        "name": "Preqin",
+        "url": "https://www.preqin.com/data/profile/asset/agilitas-sports-private-limited/545107"
+      }
+    }
+  ]
 }

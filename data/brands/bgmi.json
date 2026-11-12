@@ -4,66 +4,51 @@
   "parent": "Krafton Inc.",
   "entity_type": "public_parent",
   "category": "Gaming",
-  "description": "BGMI (Battlegrounds Mobile India) is a mobile battle royale game developed and published by South Korean video game company Krafton Inc.",
-  "last_refreshed": "2026-11-06T11:25:56.296Z",
+  "description": "BGMI (Battlegrounds Mobile India) is a mobile battle royale game developed and published by South Korean video game developer Krafton Inc.",
+  "last_refreshed": "2026-11-12T11:48:34.482Z",
   "stock": {
     "applicable": false,
-    "value": null,
+    "value": 200000,
     "currency": "KRW",
-    "ticker": null,
-    "as_of": null,
-    "note": "BGMI is a game brand operated by Krafton Inc. (259960.KS); it does not have an independent stock listing.",
+    "ticker": "259960.KS",
+    "as_of": "2026-11-12",
+    "note": "Reflects parent company Krafton Inc., not BGMI specifically.",
     "confidence": "not_applicable"
   },
   "revenue": {
-    "value": 1290000000000,
+    "value": 3330000000000,
     "currency": "KRW",
-    "period": "Q2 2026",
+    "period": "FY2025",
     "confidence": "disclosed",
     "source": {
-      "name": "Google Finance",
-      "url": "https://www.google.com/finance/quote/259960:KRX",
-      "date": "2026-06-30"
+      "name": "KRAFTON Inc.",
+      "url": "https://tavily.com/knowledge/company/pUrJHVP70EcB",
+      "date": "2026-11-12"
     }
   },
   "operating_profit": {
-    "value": 410920000000,
+    "value": 906540000000,
     "currency": "KRW",
-    "period": "Q2 2026",
+    "period": "FY2025",
     "confidence": "disclosed",
     "source": {
-      "name": "Google Finance",
-      "url": "https://www.google.com/finance/quote/259960:KRX",
-      "date": "2026-06-30"
+      "name": "KRAFTON Inc.",
+      "url": "https://tavily.com/knowledge/company/pUrJHVP70EcB",
+      "date": "2026-11-12"
     }
   },
   "expenses": {
-    "breakdown": [
-      {
-        "label": "Selling, general, and admin expenses",
-        "value": 825790000000,
-        "confidence": "disclosed"
-      },
-      {
-        "label": "Total operating expenses",
-        "value": 879310000000,
-        "confidence": "disclosed"
-      }
-    ],
-    "confidence": "disclosed"
+    "breakdown": [],
+    "confidence": "not_found"
   },
   "marketing_spend": {
-    "value_low": 193500000000,
-    "value_high": 322500000000,
+    "value_low": 333000000000,
+    "value_high": 499500000000,
     "currency": "KRW",
-    "period": "Q2 2026",
+    "period": "FY2025",
     "tier": "3_modeled",
-    "derivation": "Modeled using a category-typical marketing-to-revenue ratio of 15% to 25% applied against parent company Krafton Inc.'s reported Q2 2026 total revenue of 1.29 trillion KRW.",
-    "source": {
-      "name": "Google Finance",
-      "url": "https://www.google.com/finance/quote/259960:KRX",
-      "date": "2026-06-30"
-    }
+    "derivation": "Estimated using an industry-standard 10-15% marketing-to-revenue ratio typical for major mobile gaming franchises, applied to Krafton's FY2025 consolidated revenue of 3.33 trillion KRW.",
+    "source": null
   },
   "trend_history": {
     "stock": [
@@ -98,6 +83,18 @@
       {
         "date": "2026-11-06",
         "value": 220500
+      },
+      {
+        "date": "2026-11-08",
+        "value": 220500
+      },
+      {
+        "date": "2026-11-10",
+        "value": 216500
+      },
+      {
+        "date": "2026-11-12",
+        "value": 200000
       }
     ],
     "revenue": [
@@ -118,8 +115,16 @@
         "value": 3326600000000
       },
       {
+        "period": "FY2024",
+        "value": 2710000000000
+      },
+      {
         "period": "FY2024 (Krafton)",
         "value": 2710000000000
+      },
+      {
+        "period": "FY2025",
+        "value": 3330000000000
       },
       {
         "period": "FY2025 (Krafton)",
@@ -145,19 +150,27 @@
   },
   "business_updates": [
     {
-      "headline": "BGMI 4.3 update collaborates with CSK & KKR for IPL '26 featuring team-themed skins",
-      "date": "2026-07-29",
+      "headline": "BGMI 4.3 update: Krafton collaborates with CSK & KKR for IPL '26",
+      "date": "2026-11-12",
       "source": {
         "name": "Stock Analysis",
         "url": "https://stockanalysis.com/quote/krx/259960"
       }
     },
     {
-      "headline": "Krafton expands startup incubation programme in India to strengthen local game development ecosystem",
-      "date": "2026-07-29",
+      "headline": "Krafton hikes India bet with new $670M fund",
+      "date": "2026-01-01",
       "source": {
-        "name": "Stock Analysis",
-        "url": "https://stockanalysis.com/quote/krx/259960"
+        "name": "TechCrunch",
+        "url": "https://finance.yahoo.com/quote/259960.KS/news?fr=sycsrp_catchall"
+      }
+    },
+    {
+      "headline": "PUBG maker Krafton leads South Korean trio in $666 million India tech bet",
+      "date": "2026-01-01",
+      "source": {
+        "name": "Reuters",
+        "url": "https://finance.yahoo.com/quote/259960.KS/news?fr=sycsrp_catchall"
       }
     }
   ]

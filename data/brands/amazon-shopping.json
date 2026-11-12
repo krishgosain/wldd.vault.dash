@@ -1,69 +1,54 @@
 {
   "name": "Amazon Shopping",
   "slug": "amazon-shopping",
-  "parent": "Amazon",
+  "parent": "Amazon.com, Inc.",
   "entity_type": "public_parent",
   "category": "E-commerce",
-  "description": "Amazon Shopping is the retail and e-commerce marketplace division operated globally by Amazon.com, Inc. and locally through subsidiaries such as Amazon Seller Services Pvt Ltd.",
-  "last_refreshed": "2026-11-06T11:24:22.082Z",
+  "description": "Amazon Shopping is the flagship e-commerce marketplace and retail application operated by publicly listed technology parent Amazon.com, Inc.",
+  "last_refreshed": "2026-11-12T11:47:33.959Z",
   "stock": {
     "applicable": false,
-    "value": 260.21,
+    "value": 266.17,
     "currency": "USD",
     "ticker": "AMZN",
-    "as_of": "2026-11-05",
-    "note": "Reflects parent company Amazon.com, Inc. (NASDAQ: AMZN), not Amazon Shopping specifically.",
+    "as_of": "2026-11-11",
+    "note": "Reflects parent company Amazon.com, Inc. (AMZN) stock price, not Amazon Shopping as a separate listed security.",
     "confidence": "not_applicable"
   },
   "revenue": {
-    "value": 155960000000,
+    "value": 201944000000,
     "currency": "USD",
     "period": "Q3 2026",
     "confidence": "disclosed",
     "source": {
-      "name": "Amazon.com, Inc. - Amazon.com Announces Third Quarter Results",
-      "url": "https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-Third-Quarter-Results/default.aspx",
-      "date": "2026-11-05"
+      "name": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/AMZN",
+      "date": "2026-11-11"
     }
   },
   "operating_profit": {
-    "value": 10303000000,
+    "value": 79970000000,
     "currency": "USD",
-    "period": "Q3 2026",
+    "period": "FY2025",
     "confidence": "disclosed",
     "source": {
-      "name": "Amazon.com, Inc. - Amazon.com Announces Third Quarter Results",
-      "url": "https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-Third-Quarter-Results/default.aspx",
-      "date": "2026-11-05"
+      "name": "Tavily Knowledge",
+      "url": "https://tavily.com/knowledge/company/K3Dv448R4Obk",
+      "date": ""
     }
   },
   "expenses": {
-    "breakdown": [
-      {
-        "label": "North America Operating Expenses",
-        "value": 104129000000,
-        "confidence": "disclosed"
-      },
-      {
-        "label": "International Operating Expenses",
-        "value": 41528000000,
-        "confidence": "disclosed"
-      }
-    ],
-    "confidence": "disclosed"
+    "breakdown": [],
+    "confidence": "not_found"
   },
   "marketing_spend": {
-    "value_low": 7798000000,
-    "value_high": 12477000000,
+    "value_low": 28676800000,
+    "value_high": 43015200000,
     "currency": "USD",
-    "period": "Q3 2026",
+    "period": "FY2025",
     "tier": "3_modeled",
-    "derivation": "Modeled by applying a standard e-commerce marketing-to-revenue ratio of 5% to 8% to Amazon's combined Q3 2026 North America and International segment sales ($155.96 billion).",
-    "source": {
-      "name": "Amazon.com, Inc. - Amazon.com Announces Third Quarter Results",
-      "url": "https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-Third-Quarter-Results/default.aspx",
-      "date": "2026-11-05"
-    }
+    "derivation": "Modeled by applying a standard e-commerce category marketing spend benchmark of 4% to 6% against Amazon's disclosed FY2025 total revenue of $716.92 billion USD.",
+    "source": null
   },
   "trend_history": {
     "stock": [
@@ -90,6 +75,10 @@
       {
         "date": "2026-11-05",
         "value": 260.21
+      },
+      {
+        "date": "2026-11-11",
+        "value": 266.17
       }
     ],
     "revenue": [
@@ -153,11 +142,19 @@
   },
   "business_updates": [
     {
-      "headline": "Amazon Announces Q3 2026 Results with Combined North America and International Net Sales of $155.96 Billion",
-      "date": "2026-11-05",
+      "headline": "Amazon reports Q3 2026 revenue of $201.94 billion and expects Q4 advertising revenue to grow in the high teens",
+      "date": "2026-11-12",
       "source": {
-        "name": "Amazon.com, Inc. - Amazon.com Announces Third Quarter Results",
+        "name": "Amazon Investor Relations",
         "url": "https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-Third-Quarter-Results/default.aspx"
+      }
+    },
+    {
+      "headline": "Amazon Ads generates $15.7 billion in quarterly revenue, expanding DSP reach through partnerships with Roku and Disney",
+      "date": "2026-11-11",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/news/amazon-stock-prediction-amzn-hit-160348889.html"
       }
     }
   ]

@@ -4,27 +4,23 @@
   "parent": "Bajaj Auto Ltd.",
   "entity_type": "public_parent",
   "category": "Auto / EV",
-  "description": "Bajaj EV is the electric mobility division of listed manufacturer Bajaj Auto Ltd., producing electric two-wheelers such as the Chetak and electric three-wheelers.",
-  "last_refreshed": "2026-11-06T11:26:42.512Z",
+  "description": "Bajaj EV is the electric vehicle division and product line of listed Indian two-wheeler and three-wheeler manufacturer Bajaj Auto Ltd.",
+  "last_refreshed": "2026-11-12T11:51:29.800Z",
   "stock": {
     "applicable": false,
-    "value": 10900,
+    "value": 11040,
     "currency": "INR",
     "ticker": "BAJAJ-AUTO.NS",
-    "as_of": "2026-11-06",
-    "note": "Reflects parent company Bajaj Auto Ltd., not this brand specifically.",
+    "as_of": "2026-11-12",
+    "note": "Reflects parent company Bajaj Auto Ltd, not this brand specifically.",
     "confidence": "not_applicable"
   },
   "revenue": {
-    "value": 47170000000,
+    "value": null,
     "currency": "INR",
     "period": "FY2026",
-    "confidence": "disclosed",
-    "source": {
-      "name": "Zerodha",
-      "url": "https://zerodha.com/markets/stocks/NSE/BAJAJ-AUTO",
-      "date": "2026-03-31"
-    }
+    "confidence": "not_found",
+    "source": null
   },
   "operating_profit": {
     "value": null,
@@ -38,17 +34,13 @@
     "confidence": "not_found"
   },
   "marketing_spend": {
-    "value_low": 1415100000,
-    "value_high": 2358500000,
+    "value_low": 1500000000,
+    "value_high": 3000000000,
     "currency": "INR",
     "period": "FY2026",
     "tier": "3_modeled",
-    "derivation": "Modeled using a standard 3% to 5% marketing-to-revenue ratio for the electric vehicle sector applied to Bajaj EV's disclosed FY2026 unit revenue of INR 47.17 billion.",
-    "source": {
-      "name": "Zerodha",
-      "url": "https://zerodha.com/markets/stocks/NSE/BAJAJ-AUTO",
-      "date": "2026-03-31"
-    }
+    "derivation": "Modeled using automotive industry ad spend benchmarks (1.5% to 2.5% of revenue) applied to estimated EV segment scale within parent Bajaj Auto Ltd, as standalone marketing expenses for Bajaj EV are not separately disclosed.",
+    "source": null
   },
   "trend_history": {
     "stock": [
@@ -79,6 +71,10 @@
       {
         "date": "2026-11-06",
         "value": 10900
+      },
+      {
+        "date": "2026-11-12",
+        "value": 11040
       }
     ],
     "revenue": [
@@ -130,19 +126,11 @@
   },
   "business_updates": [
     {
-      "headline": "Bajaj Auto EV unit revenue reached INR 47.17 billion for year ended March 31, 2026",
-      "date": "2026-03-31",
+      "headline": "Bajaj Auto Ltd. revealed earnings for its second quarter that increased from the same period last year",
+      "date": "2026-11-06",
       "source": {
-        "name": "Zerodha",
-        "url": "https://zerodha.com/markets/stocks/NSE/BAJAJ-AUTO"
-      }
-    },
-    {
-      "headline": "Bajaj Auto reports quarterly revenue beat on strong vehicle sales",
-      "date": "2026-10-27",
-      "source": {
-        "name": "Google Finance",
-        "url": "https://www.google.com/finance/quote/BAJAJ-AUTO:NSE"
+        "name": "RTTNews",
+        "url": "https://www.rttnews.com/companies/31659/bajaj-auto-ltd-532977"
       }
     }
   ]

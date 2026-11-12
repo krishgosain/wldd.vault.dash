@@ -4,70 +4,73 @@
   "parent": null,
   "entity_type": "public_standalone",
   "category": "Food Delivery / Quick Commerce",
-  "description": "Swiggy Limited is an India-based consumer technology company providing on-demand food delivery, quick commerce, and dining-out reservation services.",
-  "last_refreshed": "2026-11-07T10:37:53.268Z",
+  "description": "Swiggy is an Indian consumer technology company operating online food delivery, quick commerce (Instamart), and logistics services.",
+  "last_refreshed": "2026-11-12T11:53:48.373Z",
   "stock": {
     "applicable": true,
-    "value": 191.17,
+    "value": 188,
     "currency": "INR",
     "ticker": "SWIGGY.NS",
-    "as_of": "2026-11-06",
-    "note": "Standalone entity listed on NSE.",
+    "as_of": null,
+    "note": "Reflects current trading price on Indian exchanges (NSE/BSE).",
     "confidence": "disclosed"
   },
   "revenue": {
-    "value": 75710000000,
+    "value": 55610000000,
     "currency": "INR",
-    "period": "Q2 2027",
+    "period": "Q2 FY26",
     "confidence": "disclosed",
     "source": {
-      "name": "Google Finance",
-      "url": "https://www.google.com/finance/quote/SWIGGY:NSE",
-      "date": "2026-10-22"
+      "name": "Indian Startup News / LinkedIn",
+      "url": "https://www.linkedin.com/posts/indianstartupnews_swiggy-fooddelivery-business-activity-7422901046974242816-mek_",
+      "date": "unknown"
     }
   },
   "operating_profit": {
-    "value": -10780000000,
+    "value": -10920000000,
     "currency": "INR",
-    "period": "Q2 2027",
+    "period": "Q2 FY26",
     "confidence": "disclosed",
     "source": {
-      "name": "Google Finance",
-      "url": "https://www.google.com/finance/quote/SWIGGY:NSE",
-      "date": "2026-10-22"
+      "name": "Indian Startup News / LinkedIn",
+      "url": "https://www.linkedin.com/posts/indianstartupnews_swiggy-fooddelivery-business-activity-7422901046974242816-mek_",
+      "date": "unknown"
     }
   },
   "expenses": {
     "breakdown": [
       {
-        "label": "Cost of revenue",
-        "value": 41190000000,
+        "label": "Advertising spend",
+        "value": 10390000000,
         "confidence": "disclosed"
       },
       {
-        "label": "Selling, general, and admin expenses",
-        "value": 31930000000,
-        "confidence": "disclosed"
-      },
-      {
-        "label": "Other operating expenses",
-        "value": 10290000000,
+        "label": "Total expenses",
+        "value": 67110000000,
         "confidence": "disclosed"
       }
     ],
     "confidence": "disclosed"
   },
   "marketing_spend": {
-    "value_low": 7571000000,
-    "value_high": 11356500000,
+    "value_low": 10390000000,
+    "value_high": 10390000000,
     "currency": "INR",
-    "period": "Q2 2027",
-    "tier": "3_modeled",
-    "derivation": "Modeled using an industry-standard 10% to 15% marketing-to-revenue ratio for food delivery and quick commerce, applied to Swiggy's Q2 2027 reported revenue of 75.71 billion INR, as marketing expenses are subsumed within broader SG&A expenses.",
-    "source": null
+    "period": "Q2 FY26",
+    "tier": "1_disclosed",
+    "derivation": "Directly disclosed advertising spend of ₹1,039 crore in Swiggy's Q2 FY26 financial commentary.",
+    "source": {
+      "name": "Indian Startup News / LinkedIn",
+      "url": "https://www.linkedin.com/posts/indianstartupnews_swiggy-fooddelivery-business-activity-7422901046974242816-mek_",
+      "date": "unknown"
+    }
   },
   "trend_history": {
     "stock": [
+      {
+        "date": "2026-03-31",
+        "value": 188
+      },
       {
         "date": "2026-09-07",
         "value": 278.75
@@ -107,6 +110,18 @@
         "value": 152267500000
       },
       {
+        "period": "FY24",
+        "value": 112470000000
+      },
+      {
+        "period": "FY25",
+        "value": 152270000000
+      },
+      {
+        "period": "FY26",
+        "value": 230530000000
+      },
+      {
         "period": "Jun 2026",
         "value": 6812
       },
@@ -142,27 +157,19 @@
   },
   "business_updates": [
     {
-      "headline": "Swiggy reports Q1 FY27 results with quick commerce business reaching break-even milestone",
-      "date": "2026-07-30",
+      "headline": "Swiggy's Instamart expects to reach contribution margin break-even by June 2026 as it shifts to an inventory-led model.",
+      "date": "unknown",
       "source": {
-        "name": "NDTV Profit",
-        "url": "https://www.youtube.com/watch?v=O9c_in_lu6o"
+        "name": "Indian Startup News / LinkedIn",
+        "url": "https://www.linkedin.com/posts/indianstartupnews_swiggy-fooddelivery-business-activity-7422901046974242816-mek_"
       }
     },
     {
-      "headline": "Walmart's Flipkart is quietly building a food delivery challenger to compete with Swiggy",
-      "date": "2026-10-20",
+      "headline": "Swiggy approves up to 100 billion rupees fundraise via Qualified Institutional Placement (QIP).",
+      "date": "unknown",
       "source": {
-        "name": "TechCrunch",
+        "name": "Reuters / Yahoo Finance",
         "url": "https://finance.yahoo.com/quote/SWIGGY.NS/news"
-      }
-    },
-    {
-      "headline": "Swiggy approves up to 100 billion rupees fundraise via Qualified Institutional Placement (QIP)",
-      "date": "2025-12-01",
-      "source": {
-        "name": "Reuters",
-        "url": "https://finance.yahoo.com/quote/SWIGGY.NS/chart"
       }
     }
   ]

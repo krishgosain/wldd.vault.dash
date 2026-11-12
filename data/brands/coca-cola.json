@@ -4,15 +4,15 @@
   "parent": "The Coca-Cola Company",
   "entity_type": "public_parent",
   "category": "F&B",
-  "description": "Coca-Cola is a global non-alcoholic beverage brand owned and manufactured by The Coca-Cola Company.",
-  "last_refreshed": "2026-11-07T10:36:45.788Z",
+  "description": "Coca-Cola is a leading global non-alcoholic beverage brand owned by public parent company The Coca-Cola Company (NYSE: KO).",
+  "last_refreshed": "2026-11-12T11:53:04.459Z",
   "stock": {
     "applicable": true,
-    "value": 95.73,
+    "value": null,
     "currency": "USD",
     "ticker": "KO",
-    "as_of": "2026-11-06",
-    "note": "Reflects parent company ticker KO on the NYSE",
+    "as_of": null,
+    "note": "Reflects parent company The Coca-Cola Company, not this brand specifically.",
     "confidence": "disclosed"
   },
   "revenue": {
@@ -21,9 +21,9 @@
     "period": "FY2025",
     "confidence": "disclosed",
     "source": {
-      "name": "The Coca-Cola Company",
+      "name": "The Coca-Cola Company Knowledge Base",
       "url": "https://tavily.com/knowledge/company/Syjuv0vBVpY7",
-      "date": "2026-11-06"
+      "date": "2025"
     }
   },
   "operating_profit": {
@@ -32,9 +32,9 @@
     "period": "FY2025",
     "confidence": "disclosed",
     "source": {
-      "name": "The Coca-Cola Company",
+      "name": "The Coca-Cola Company Knowledge Base",
       "url": "https://tavily.com/knowledge/company/Syjuv0vBVpY7",
-      "date": "2026-11-06"
+      "date": "2025"
     }
   },
   "expenses": {
@@ -42,17 +42,13 @@
     "confidence": "not_found"
   },
   "marketing_spend": {
-    "value_low": 3835200000,
-    "value_high": 4794000000,
+    "value_low": 3830000000,
+    "value_high": 4790000000,
     "currency": "USD",
     "period": "FY2025",
     "tier": "3_modeled",
-    "derivation": "Estimated by applying a standard 8%-10% marketing-to-revenue benchmark for global beverage companies to The Coca-Cola Company's FY2025 annual revenue of $47.94 billion.",
-    "source": {
-      "name": "The Coca-Cola Company",
-      "url": "https://tavily.com/knowledge/company/Syjuv0vBVpY7",
-      "date": "2026-11-06"
-    }
+    "derivation": "Modeled using an estimated industry benchmark of 8-10% marketing-to-revenue spend for global beverage leaders applied to parent revenue of $47.94B in FY2025.",
+    "source": null
   },
   "trend_history": {
     "stock": [
@@ -111,6 +107,10 @@
         "value": 12470000000
       },
       {
+        "period": "Q2 2026",
+        "value": 13380000000
+      },
+      {
         "period": "Q3 2026",
         "value": 13400000000
       }
@@ -121,16 +121,16 @@
       "headline": "The Coca-Cola Company Exploring Potential Public Listing in India for Hindustan Coca-Cola Holdings Pvt. Ltd.",
       "date": "2026-06-01",
       "source": {
-        "name": "The Coca-Cola Company Investor Relations",
+        "name": "The Coca-Cola Company Press Release",
         "url": "https://investors.coca-colacompany.com/news-events/press-releases/detail/1161/the-coca-cola-company-exploring-potential-public-listing-in-india-for-hindustan-coca-cola-holdings-pvt-ltd-parent-company-of-its-largest-bottler-in-india"
       }
     },
     {
-      "headline": "Coca-Cola reports Q3 2026 net revenue growth of 7% and raises full-year guidance",
-      "date": "2026-11-06",
+      "headline": "Coca-Cola India FY25 Profit up 46.3% to ₹615 Cr, Revenue at ₹5,042.56 Cr",
+      "date": "2025-01-01",
       "source": {
-        "name": "Stock Titan",
-        "url": "https://www.stocktitan.net/news/KO/coca-cola-reports-third-quarter-2026-results-and-raises-full-year-wvaicxzq0d2m.html"
+        "name": "Outlook Business",
+        "url": "https://www.outlookbusiness.com/topic/hindustan-coca-cola-beverages-hccb"
       }
     }
   ]
