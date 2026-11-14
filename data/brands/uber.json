@@ -4,15 +4,15 @@
   "parent": null,
   "entity_type": "public_standalone",
   "category": "Ride-hailing",
-  "description": "Uber Technologies, Inc. is a publicly traded technology platform offering mobility, ride-hailing, and food delivery services globally.",
-  "last_refreshed": "2026-11-07T10:41:18.662Z",
+  "description": "Uber Technologies, Inc. is a public standalone technology company providing ride-hailing, food delivery, and mobility services globally.",
+  "last_refreshed": "2026-11-14T10:50:35.785Z",
   "stock": {
     "applicable": true,
-    "value": 67.47,
+    "value": 69.69,
     "currency": "USD",
     "ticker": "UBER",
-    "as_of": "2026-11-06",
-    "note": "Reflects standalone public stock price of Uber Technologies, Inc. on NYSE.",
+    "as_of": "2024-07-31",
+    "note": "Traded on the NYSE under ticker UBER",
     "confidence": "disclosed"
   },
   "revenue": {
@@ -21,9 +21,9 @@
     "period": "FY2025",
     "confidence": "disclosed",
     "source": {
-      "name": "Yahoo Finance",
-      "url": "https://finance.yahoo.com/quote/UBER",
-      "date": "2026-11-06"
+      "name": "Uber",
+      "url": "https://tavily.com/knowledge/company/tU4a44V7jqK3",
+      "date": ""
     }
   },
   "operating_profit": {
@@ -32,39 +32,48 @@
     "period": "FY2025",
     "confidence": "disclosed",
     "source": {
-      "name": "Uber Tavily Knowledge",
+      "name": "Uber",
       "url": "https://tavily.com/knowledge/company/tU4a44V7jqK3",
-      "date": "2026-11-06"
+      "date": ""
     }
   },
   "expenses": {
     "breakdown": [
       {
-        "label": "Cost of revenue (Q2 2026)",
-        "value": 8620000000,
+        "label": "Cost of revenue",
+        "value": 7258000000,
         "confidence": "disclosed"
       },
       {
-        "label": "Selling, general, and admin expenses (Q2 2026)",
-        "value": 2450000000,
+        "label": "Sales and marketing",
+        "value": 1326000000,
         "confidence": "disclosed"
       },
       {
-        "label": "Research and development expenses (Q2 2026)",
-        "value": 1040000000,
+        "label": "Research and development",
+        "value": 951000000,
+        "confidence": "disclosed"
+      },
+      {
+        "label": "Operations and support",
+        "value": 763000000,
         "confidence": "disclosed"
       }
     ],
     "confidence": "disclosed"
   },
   "marketing_spend": {
-    "value_low": 2601000000,
-    "value_high": 5202000000,
+    "value_low": 1326000000,
+    "value_high": 1326000000,
     "currency": "USD",
-    "period": "FY2025",
-    "tier": "3_modeled",
-    "derivation": "Modeled as 5% to 10% of FY2025 total revenue ($52.02B USD), representing standard sales and demand-creation expenditures for consumer tech marketplaces.",
-    "source": null
+    "period": "Q1 2026",
+    "tier": "1_disclosed",
+    "derivation": "Disclosed as Sales and marketing expense of $1,326 million in Uber's Q1 2026 condensed consolidated statements of operations.",
+    "source": {
+      "name": "Uber Technologies, Inc. - Uber Announces Results for First Quarter 2026",
+      "url": "https://investor.uber.com/news-events/news/press-release-details/2026/Uber-Announces-Results-for-First-Quarter-2026/default.aspx",
+      "date": ""
+    }
   },
   "trend_history": {
     "stock": [
@@ -146,11 +155,19 @@
   },
   "business_updates": [
     {
-      "headline": "Uber stock faces pressure despite record demand as quarterly profit expectations fall short",
-      "date": "2026-11-04",
+      "headline": "Uber Announces Results for First Quarter 2026 with GAAP Income from operations of $1.9 billion",
+      "date": "",
       "source": {
-        "name": "MarketWatch",
-        "url": "https://www.marketwatch.com/story/ubers-stock-as-record-demand-for-rides-fails-to-deliver-the-profit-investors-expected-20b0c4b2"
+        "name": "Uber Technologies, Inc.",
+        "url": "https://investor.uber.com/news-events/news/press-release-details/2026/Uber-Announces-Results-for-First-Quarter-2026/default.aspx"
+      }
+    },
+    {
+      "headline": "Tractor Supply announces new nationwide partnership with Uber",
+      "date": "",
+      "source": {
+        "name": "Stock Analysis",
+        "url": "https://stockanalysis.com/stocks/uber"
       }
     }
   ]

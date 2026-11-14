@@ -4,27 +4,23 @@
   "parent": "JioStar",
   "entity_type": "india_private_registered",
   "category": "OTT",
-  "description": "JioHotstar is an Indian OTT streaming platform operated by JioStar, a joint venture controlled by Reliance Industries alongside Disney, created by merging JioCinema and Disney+ Hotstar.",
-  "last_refreshed": "2026-11-12T11:44:07.315Z",
+  "description": "JioHotstar is an Indian subscription video-on-demand streaming platform operated by JioStar, a joint venture between Reliance Industries and The Walt Disney Company.",
+  "last_refreshed": "2026-11-14T10:54:38.853Z",
   "stock": {
     "applicable": false,
     "value": null,
     "currency": "INR",
     "ticker": null,
     "as_of": null,
-    "note": "Reflects joint venture ownership by listed parent Reliance Industries (RELIANCE.NS) and Disney (DIS); the brand itself is not individually listed.",
+    "note": "Reflects parent company entities (Reliance Industries RELIANCE.NS and The Walt Disney Company DIS), not this brand specifically.",
     "confidence": "not_applicable"
   },
   "revenue": {
-    "value": 260000000000,
+    "value": null,
     "currency": "INR",
     "period": "FY2024",
-    "confidence": "disclosed",
-    "source": {
-      "name": "JioStar Press Release",
-      "url": "https://www.jiostar.com/news/reliance-and-disney-announce-completion-of-transaction-to-form-joint-venture-to-bring-together-the-most-iconic-and-engaging-entertainment-brands-in-india",
-      "date": "2024-11-14"
-    }
+    "confidence": "not_found",
+    "source": null
   },
   "operating_profit": {
     "value": null,
@@ -38,17 +34,13 @@
     "confidence": "not_found"
   },
   "marketing_spend": {
-    "value_low": 26000000000,
-    "value_high": 39000000000,
+    "value_low": 5000000000,
+    "value_high": 10000000000,
     "currency": "INR",
-    "period": "FY2024",
+    "period": "FY2025",
     "tier": "3_modeled",
-    "derivation": "Estimated by applying a standard 10%-15% media and streaming ad-to-revenue ratio against JioStar's pro forma combined revenue of ₹26,000 crore for FY2024.",
-    "source": {
-      "name": "JioStar Press Release",
-      "url": "https://www.jiostar.com/news/reliance-and-disney-announce-completion-of-transaction-to-form-joint-venture-to-bring-together-the-most-iconic-and-engaging-entertainment-brands-in-india",
-      "date": "2024-11-14"
-    }
+    "derivation": "Modeled using OTT industry standard marketing-to-content investment ratio (~15-25%) against JioHotstar's annual content commitments (including its ₹800 crore annual budget for South Indian content) and user acquisition spend for its 50M+ subscriber base.",
+    "source": null
   },
   "trend_history": {
     "stock": [],
@@ -85,19 +77,19 @@
   },
   "business_updates": [
     {
-      "headline": "Reliance and Disney complete transaction to form joint venture valued at $8.5 billion",
-      "date": "2024-11-14",
+      "headline": "Reliance-Disney's JioHotstar commits $444 million (₹40 billion) over 5 years for South Indian content",
+      "date": "2024-12-09",
       "source": {
-        "name": "JioStar Press Release",
-        "url": "https://www.jiostar.com/news/reliance-and-disney-announce-completion-of-transaction-to-form-joint-venture-to-bring-together-the-most-iconic-and-engaging-entertainment-brands-in-india"
+        "name": "Reuters / Yahoo Finance",
+        "url": "https://finance.yahoo.com/news/reliance-disneys-jiohotstar-invest-444-133111191.html"
       }
     },
     {
-      "headline": "JioHotstar to invest $444 million over five years in South Indian content",
-      "date": "2024-12-09",
+      "headline": "Reliance and Disney complete $8.5 billion transaction to form JioStar media joint venture",
+      "date": "2024-11-14",
       "source": {
-        "name": "Reuters via Yahoo Finance",
-        "url": "https://finance.yahoo.com/news/reliance-disneys-jiohotstar-invest-444-133111191.html?fr=sycsrp_catchall"
+        "name": "StockTitan",
+        "url": "https://www.stocktitan.net/news/DIS/reliance-and-disney-announce-completion-of-transaction-to-form-joint-4eziln0xsl8f.html"
       }
     }
   ]

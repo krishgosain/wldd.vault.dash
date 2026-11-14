@@ -4,54 +4,50 @@
   "parent": "Match Group",
   "entity_type": "public_parent",
   "category": "Social / Dating",
-  "description": "Tinder is a global smartphone dating app and the primary operating segment of publicly traded parent company Match Group (NASDAQ: MTCH).",
-  "last_refreshed": "2026-11-08T10:44:15.100Z",
+  "description": "Tinder is a leading global online dating application owned by publicly traded parent company Match Group, Inc.",
+  "last_refreshed": "2026-11-14T10:53:38.020Z",
   "stock": {
     "applicable": false,
-    "value": 38.5,
+    "value": null,
     "currency": "USD",
-    "ticker": "MTCH",
-    "as_of": "2026-11-03",
-    "note": "Reflects parent company Match Group, Inc. (MTCH) stock price, not Tinder directly.",
+    "ticker": null,
+    "as_of": null,
+    "note": "Tinder is a brand operated by Match Group (NASDAQ: MTCH); stock price applies to the parent entity.",
     "confidence": "not_applicable"
   },
   "revenue": {
-    "value": 891200000,
+    "value": 493000000,
     "currency": "USD",
-    "period": "Q3 2026",
+    "period": "Q4 2023",
     "confidence": "disclosed",
     "source": {
-      "name": "StockStory",
-      "url": "https://stockstory.org/us/stocks/nasdaq/mtch/news/earnings-call/mtch-q3-deep-dive-tinder-user-growth-returns-hinge-expansion-and-margin-discipline-shape-outlook",
-      "date": "2026-11-03"
+      "name": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/news/stock-tinders-parent-company-trouble-194700679.html",
+      "date": "unknown"
     }
   },
   "operating_profit": {
-    "value": 344500000,
+    "value": null,
     "currency": "USD",
-    "period": "Q3 2026",
-    "confidence": "disclosed",
-    "source": {
-      "name": "StockStory",
-      "url": "https://stockstory.org/us/stocks/nasdaq/mtch/news/earnings-call/mtch-q3-deep-dive-tinder-user-growth-returns-hinge-expansion-and-margin-discipline-shape-outlook",
-      "date": "2026-11-03"
-    }
+    "period": "",
+    "confidence": "not_found",
+    "source": null
   },
   "expenses": {
     "breakdown": [],
     "confidence": "not_found"
   },
   "marketing_spend": {
-    "value_low": 133680000,
-    "value_high": 222800000,
+    "value_low": 49300000,
+    "value_high": 73950000,
     "currency": "USD",
-    "period": "Q3 2026",
+    "period": "Q4 2023",
     "tier": "3_modeled",
-    "derivation": "Modeled using a standard 15% to 25% marketing-to-revenue ratio typical for dating and consumer tech platforms applied to Match Group's Q3 2026 revenue of $891.2 million.",
+    "derivation": "Calculated using a standard 10%-15% marketing-to-revenue ratio applied to Tinder's Q4 2023 direct revenue of $493 million.",
     "source": {
-      "name": "StockStory",
-      "url": "https://stockstory.org/us/stocks/nasdaq/mtch/news/earnings-call/mtch-q3-deep-dive-tinder-user-growth-returns-hinge-expansion-and-margin-discipline-shape-outlook",
-      "date": "2026-11-03"
+      "name": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/news/stock-tinders-parent-company-trouble-194700679.html",
+      "date": "unknown"
     }
   },
   "trend_history": {
@@ -87,6 +83,10 @@
     ],
     "revenue": [
       {
+        "period": "1Q2026",
+        "value": 863934000
+      },
+      {
         "period": "2022",
         "value": 3188843000
       },
@@ -101,6 +101,18 @@
       {
         "period": "2025",
         "value": 3487197000
+      },
+      {
+        "period": "2Q2026",
+        "value": 853105000
+      },
+      {
+        "period": "3Q2026",
+        "value": 891232000
+      },
+      {
+        "period": "4Q2025",
+        "value": 878006000
       },
       {
         "period": "FY2025",
@@ -134,27 +146,19 @@
   },
   "business_updates": [
     {
-      "headline": "Tinder's US daily active users return to growth in October as Match ramps up AI efforts",
-      "date": "2026-11-02",
+      "headline": "Match Group reports Q4 2025 earnings and plans strategic investments in Tinder turnaround",
+      "date": "2026-02-03",
       "source": {
-        "name": "Reuters",
-        "url": "https://www.heygotrade.com/en/us-stock/mtch"
+        "name": "CNBC",
+        "url": "https://www.cnbc.com/2026/02/03/match-group-mtch-q4-2025-earnings-.html"
       }
     },
     {
-      "headline": "Match Group meets Q3 2026 revenue estimates at $891.2M with Adjusted EBITDA of $344.5M",
-      "date": "2026-11-03",
+      "headline": "Match Group acquires premium curated dating app The League",
+      "date": "unknown",
       "source": {
-        "name": "StockStory",
-        "url": "https://stockstory.org/us/stocks/nasdaq/mtch/news/earnings-call/mtch-q3-deep-dive-tinder-user-growth-returns-hinge-expansion-and-margin-discipline-shape-outlook"
-      }
-    },
-    {
-      "headline": "Match Group pushes AI features to speed Tinder feature releases and power smarter recommendations",
-      "date": "2026-09-03",
-      "source": {
-        "name": "MarketBeat",
-        "url": "https://www.heygotrade.com/en/us-stock/mtch"
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/news/match-group-mtch-acquires-online-131801243.html"
       }
     }
   ]

@@ -4,57 +4,55 @@
   "parent": "FSN E-Commerce Ventures Ltd.",
   "entity_type": "public_standalone",
   "category": "E-commerce / Beauty",
-  "description": "Nykaa is an Indian beauty and lifestyle e-commerce retailer owned and operated by parent company FSN E-Commerce Ventures Ltd.",
-  "last_refreshed": "2026-11-07T10:38:41.424Z",
+  "description": "Nykaa is an Indian specialty beauty, wellness, and fashion e-commerce retailer owned by listed parent company FSN E-Commerce Ventures Ltd.",
+  "last_refreshed": "2026-11-14T10:48:18.897Z",
   "stock": {
     "applicable": true,
-    "value": 353,
+    "value": 353.9,
     "currency": "INR",
     "ticker": "NYKAA.NS",
-    "as_of": "2026-11-06",
-    "note": "Reflects ticker NYKAA.NS on the National Stock Exchange of India",
+    "as_of": "2026-11-14",
+    "note": "Reflects the ticker NYKAA.NS for parent entity FSN E-Commerce Ventures Ltd. on the National Stock Exchange of India.",
     "confidence": "disclosed"
   },
   "revenue": {
-    "value": 106494100000,
+    "value": 100220000000,
     "currency": "INR",
-    "period": "TTM",
+    "period": "FY2026",
     "confidence": "disclosed",
     "source": {
-      "name": "GuruFocus",
-      "url": "https://www.gurufocus.com/stock/NSE:NYKAA/summary",
-      "date": "2026-11-06"
+      "name": "Stock Analysis",
+      "url": "https://stockanalysis.com/quote/nse/NYKAA",
+      "date": "2026-11-14"
     }
   },
   "operating_profit": {
-    "value": 8480000000,
+    "value": 7285600256,
     "currency": "INR",
     "period": "TTM",
     "confidence": "disclosed",
     "source": {
-      "name": "Screener",
-      "url": "https://www.screener.in/company/NYKAA/consolidated",
-      "date": "2026-11-06"
+      "name": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NYKAA.NS",
+      "date": "2026-11-14"
     }
   },
   "expenses": {
-    "breakdown": [
-      {
-        "label": "Employee benefits expense (Q2 FY26)",
-        "value": 2248500000,
-        "confidence": "disclosed"
-      }
-    ],
-    "confidence": "disclosed"
+    "breakdown": [],
+    "confidence": "not_found"
   },
   "marketing_spend": {
-    "value_low": 10650000000,
-    "value_high": 12780000000,
+    "value_low": 10000000000,
+    "value_high": 12000000000,
     "currency": "INR",
-    "period": "TTM",
+    "period": "FY2026",
     "tier": "3_modeled",
-    "derivation": "Modeled at 10% to 12% of Nykaa's TTM revenue (106.49 billion INR), based on category-typical marketing-to-revenue benchmarks for beauty and personal care e-commerce platforms.",
-    "source": null
+    "derivation": "Estimated by applying an Indian e-commerce beauty industry benchmark marketing-to-revenue range of 10% to 12% against FSN E-Commerce Ventures' disclosed FY2026 revenue of INR 100.22 billion.",
+    "source": {
+      "name": "Stock Analysis",
+      "url": "https://stockanalysis.com/quote/nse/NYKAA",
+      "date": "2026-11-14"
+    }
   },
   "trend_history": {
     "stock": [
@@ -75,12 +73,20 @@
         "value": 351.7
       },
       {
+        "date": "2026-11-03",
+        "value": 353.9
+      },
+      {
         "date": "2026-11-04",
         "value": 355.5
       },
       {
         "date": "2026-11-06",
         "value": 353
+      },
+      {
+        "date": "2026-11-14",
+        "value": 353.9
       }
     ],
     "revenue": [
@@ -140,7 +146,7 @@
   },
   "business_updates": [
     {
-      "headline": "Nykaa completed acquisition of 51% stake in Aminu Wellness, making it a subsidiary",
+      "headline": "Nykaa completed acquisition of a 51% stake in Aminu Wellness, making it a subsidiary.",
       "date": "2026-09-24",
       "source": {
         "name": "Screener",
@@ -148,19 +154,11 @@
       }
     },
     {
-      "headline": "Nykaa and L’Oréal’s BOLD fund partner to jointly invest in Indian beauty and wellness startups",
-      "date": "2026-09-01",
+      "headline": "Nykaa and L’Oréal’s BOLD fund announced joint venture to invest in Indian beauty and wellness startups.",
+      "date": "2026-09-24",
       "source": {
         "name": "Screener",
         "url": "https://www.screener.in/company/NYKAA/consolidated"
-      }
-    },
-    {
-      "headline": "Nykaa confirms talks to acquire stake in skincare brand 82°E",
-      "date": "2026-05-01",
-      "source": {
-        "name": "Yahoo Finance",
-        "url": "https://finance.yahoo.com/quote/NYKAA.NS/chart"
       }
     }
   ]

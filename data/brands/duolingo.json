@@ -4,52 +4,56 @@
   "parent": null,
   "entity_type": "public_standalone",
   "category": "EdTech",
-  "description": "Duolingo, Inc. is a publicly traded digital learning platform offering mobile and desktop language courses and educational services.",
-  "last_refreshed": "2026-11-07T10:41:44.848Z",
+  "description": "Duolingo, Inc. is a publicly traded EdTech company offering digital language-learning and educational applications.",
+  "last_refreshed": "2026-11-14T10:50:58.323Z",
   "stock": {
     "applicable": true,
-    "value": 160.42,
+    "value": 157.3,
     "currency": "USD",
     "ticker": "DUOL",
-    "as_of": "2026-11-07",
-    "note": "Traded on NASDAQ",
+    "as_of": "2026-11-13",
+    "note": "Reflects standalone public stock price on NASDAQ.",
     "confidence": "disclosed"
   },
   "revenue": {
-    "value": 309007000,
+    "value": 1040000000,
     "currency": "USD",
-    "period": "Q3 2026",
+    "period": "FY2025",
     "confidence": "disclosed",
     "source": {
-      "name": "StockTitan / SEC Filing",
-      "url": "https://www.stocktitan.net/sec-filings/DUOL/8-k-duolingo-inc-reports-material-event-9145f96cb356.html",
-      "date": "2026-11-03"
+      "name": "Duolingo Knowledge Graph",
+      "url": "https://tavily.com/knowledge/company/MtWu3VAOtbgT",
+      "date": "2026-01-01"
     }
   },
   "operating_profit": {
-    "value": null,
+    "value": 135570000,
     "currency": "USD",
-    "period": "Q3 2026",
-    "confidence": "not_found",
-    "source": null
+    "period": "FY2025",
+    "confidence": "disclosed",
+    "source": {
+      "name": "Duolingo Knowledge Graph",
+      "url": "https://tavily.com/knowledge/company/MtWu3VAOtbgT",
+      "date": "2026-01-01"
+    }
   },
   "expenses": {
     "breakdown": [
       {
-        "label": "Cost of revenues",
-        "value": 83875000,
+        "label": "Cost of sales (Q1 2026)",
+        "value": 78900000,
         "confidence": "disclosed"
       }
     ],
     "confidence": "disclosed"
   },
   "marketing_spend": {
-    "value_low": 46350000,
-    "value_high": 61800000,
+    "value_low": 150000000,
+    "value_high": 200000000,
     "currency": "USD",
-    "period": "Q3 2026",
+    "period": "FY2025",
     "tier": "3_modeled",
-    "derivation": "Modeled using an estimated B2C consumer EdTech marketing-to-revenue ratio of 15% to 20% applied to Duolingo's Q3 2026 revenue of $309.01M.",
+    "derivation": "Modeled using a category-typical consumer EdTech/SaaS marketing spend ratio of 15%-20% applied against FY2025 revenue of $1.04 billion.",
     "source": null
   },
   "trend_history": {
@@ -89,6 +93,10 @@
       {
         "date": "2026-11-07",
         "value": 160.42
+      },
+      {
+        "date": "2026-11-13",
+        "value": 157.3
       }
     ],
     "revenue": [
@@ -125,38 +133,46 @@
         "value": 1037589000
       },
       {
+        "period": "Q1 2025",
+        "value": 230740000
+      },
+      {
         "period": "Q1 2026",
-        "value": 291967000
+        "value": 291970000
+      },
+      {
+        "period": "Q2 2025",
+        "value": 252260000
       },
       {
         "period": "Q2 2026",
-        "value": 298454000
+        "value": 298450000
+      },
+      {
+        "period": "Q3 2025",
+        "value": 271710000
+      },
+      {
+        "period": "Q4 2025",
+        "value": 282900000
       }
     ]
   },
   "business_updates": [
     {
-      "headline": "Duolingo Q3 2026 sales beat estimates as revenue reaches $309 million",
+      "headline": "Duolingo Q3 2026 Earnings Call: DAU Growth Reaches 29%, Q4 Revenue Seen Up 14%",
       "date": "2026-11-03",
       "source": {
-        "name": "StockStory",
-        "url": "https://stockstory.org/us/stocks/nasdaq/duol/news/earnings/duolingos-nasdaqduol-q3-2026-sales-beat-estimates-stock-jumps-111percent"
+        "name": "TradingKey",
+        "url": "https://www.tradingkey.com/markets/stocks/nasdaq-duol"
       }
     },
     {
-      "headline": "Duolingo invests in motion design with acquisition of Animade",
-      "date": "2026-11-03",
+      "headline": "Duolingo Inc. Reports Q1 2026 Revenue of $292.0 Million, Up 26.5% YoY",
+      "date": "2026-05-01",
       "source": {
-        "name": "StockTitan",
-        "url": "https://www.stocktitan.net/overview/DUOL"
-      }
-    },
-    {
-      "headline": "Duolingo appoints Sallie Krawcheck to Board of Directors",
-      "date": "2026-11-03",
-      "source": {
-        "name": "StockTitan",
-        "url": "https://www.stocktitan.net/overview/DUOL"
+        "name": "Quiver Quantitative",
+        "url": "https://www.quiverquant.com/news/Duolingo+Inc.+%28DUOL%29+Stock+Falls+on+Q1+2026+Earnings"
       }
     }
   ]

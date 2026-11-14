@@ -4,37 +4,37 @@
   "parent": null,
   "entity_type": "public_standalone",
   "category": "Audio Streaming",
-  "description": "Spotify Technology S.A. is a publicly traded audio streaming company offering music and podcast streaming services globally.",
-  "last_refreshed": "2026-11-08T10:43:21.248Z",
+  "description": "Spotify is a audio streaming platform providing subscription-based music and podcast streaming alongside ad-supported tiers.",
+  "last_refreshed": "2026-11-14T10:52:56.274Z",
   "stock": {
     "applicable": true,
-    "value": 519.98,
+    "value": 598.51,
     "currency": "USD",
     "ticker": "SPOT",
-    "as_of": "2026-10-19",
-    "note": "Reflects Spotify Technology S.A. stock price on the NYSE.",
+    "as_of": "2026-11-12",
+    "note": "Reflects direct stock trading price of Spotify Technology S.A. on the NYSE",
     "confidence": "disclosed"
   },
   "revenue": {
-    "value": 4969000000,
-    "currency": "EUR",
-    "period": "Q3 2026",
+    "value": 20200000000,
+    "currency": "USD",
+    "period": "FY2025",
     "confidence": "disclosed",
     "source": {
-      "name": "Investing.com",
-      "url": "https://www.investing.com/news/company-news/spotify-q3-2026-slides-margins-expand-as-ad-revenue-accelerates-93CH-4966363",
-      "date": "2026-10-22"
+      "name": "StockTitan",
+      "url": "https://www.stocktitan.net/overview/SPOT",
+      "date": "2026-11-12"
     }
   },
   "operating_profit": {
-    "value": 820000000,
-    "currency": "EUR",
-    "period": "Q3 2026",
+    "value": 2600000000,
+    "currency": "USD",
+    "period": "FY2025",
     "confidence": "disclosed",
     "source": {
-      "name": "Investing.com",
-      "url": "https://www.investing.com/news/company-news/spotify-q3-2026-slides-margins-expand-as-ad-revenue-accelerates-93CH-4966363",
-      "date": "2026-10-22"
+      "name": "StockTitan",
+      "url": "https://www.stocktitan.net/overview/SPOT",
+      "date": "2026-11-12"
     }
   },
   "expenses": {
@@ -42,13 +42,17 @@
     "confidence": "not_found"
   },
   "marketing_spend": {
-    "value_low": 496900000,
-    "value_high": 645970000,
-    "currency": "EUR",
-    "period": "Q3 2026",
+    "value_low": 1616000000,
+    "value_high": 2424000000,
+    "currency": "USD",
+    "period": "FY2025",
     "tier": "3_modeled",
-    "derivation": "Estimated as 10% to 13% of Q3 2026 reported revenue (€4,969 million), based on typical sales and marketing spend ratios for major audio and video streaming platforms.",
-    "source": null
+    "derivation": "Modeled using a standard audio streaming industry marketing-to-revenue ratio range of 8% to 12% applied to Spotify's FY2025 reported revenue of $20.2B.",
+    "source": {
+      "name": "StockTitan",
+      "url": "https://www.stocktitan.net/overview/SPOT",
+      "date": "2026-11-12"
+    }
   },
   "trend_history": {
     "stock": [
@@ -107,6 +111,14 @@
       {
         "date": "2026-11-05",
         "value": 614.41
+      },
+      {
+        "date": "2026-11-10",
+        "value": 606.22
+      },
+      {
+        "date": "2026-11-12",
+        "value": 598.51
       }
     ],
     "revenue": [
@@ -164,11 +176,11 @@
       },
       {
         "period": "Q2 2026",
-        "value": 4777000000
+        "value": 4780000000
       },
       {
         "period": "Q3 2026",
-        "value": 4969000000
+        "value": 5000000000
       },
       {
         "period": "Q4 2025",
@@ -178,23 +190,15 @@
   },
   "business_updates": [
     {
-      "headline": "Spotify reported Q3 2026 revenue of €4,969 million, up 16% year-over-year, with operating profit expected to reach €820 million.",
-      "date": "2026-10-22",
+      "headline": "Spotify Q3 2026 revenue rose 14% to €5.0 billion with gross margin reaching 33%",
+      "date": "2026-11-12",
       "source": {
-        "name": "Investing.com",
-        "url": "https://www.investing.com/news/company-news/spotify-q3-2026-slides-margins-expand-as-ad-revenue-accelerates-93CH-4966363"
+        "name": "TradingKey",
+        "url": "https://tradingkey.com/markets/stocks/nasdaq-spot"
       }
     },
     {
-      "headline": "Spotify upsized its share repurchase program by $1.5 billion.",
-      "date": "2026-10-14",
-      "source": {
-        "name": "StockTitan",
-        "url": "https://www.stocktitan.net/overview/SPOT"
-      }
-    },
-    {
-      "headline": "Spotify grew to 293 million paying premium subscribers and 761 million monthly active users in Q1 2026.",
+      "headline": "Spotify posted first-quarter revenue gain and record operating income of €715 million",
       "date": "2026-04-28",
       "source": {
         "name": "The Hollywood Reporter",

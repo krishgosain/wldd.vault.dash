@@ -1,35 +1,31 @@
 {
   "name": "Instagram",
   "slug": "instagram",
-  "parent": "Meta Platforms, Inc.",
+  "parent": "Meta Platforms",
   "entity_type": "public_parent",
   "category": "Social",
-  "description": "Instagram is a global photo and video sharing social networking platform owned by public parent company Meta Platforms, Inc.",
-  "last_refreshed": "2026-11-07T10:42:07.952Z",
+  "description": "Instagram is a social networking and video/photo-sharing platform owned by parent company Meta Platforms, Inc.",
+  "last_refreshed": "2026-11-14T10:51:17.694Z",
   "stock": {
     "applicable": false,
     "value": null,
     "currency": "USD",
-    "ticker": "META",
-    "as_of": "2026-11-06",
-    "note": "Reflects parent company Meta Platforms, Inc., as Instagram is not independently listed.",
+    "ticker": null,
+    "as_of": null,
+    "note": "Instagram is a product/subsidiary of Meta Platforms (NASDAQ: META) and does not trade under a standalone ticker.",
     "confidence": "not_applicable"
   },
   "revenue": {
-    "value": 86300000000,
+    "value": null,
     "currency": "USD",
-    "period": "FY2025",
-    "confidence": "press_estimate",
-    "source": {
-      "name": "Business of Apps",
-      "url": "https://www.businessofapps.com/data/instagram-statistics",
-      "date": "2026-01-01"
-    }
+    "period": "Q3 2026",
+    "confidence": "not_found",
+    "source": null
   },
   "operating_profit": {
     "value": null,
     "currency": "USD",
-    "period": "FY2025",
+    "period": "Q3 2026",
     "confidence": "not_found",
     "source": null
   },
@@ -38,16 +34,16 @@
     "confidence": "not_found"
   },
   "marketing_spend": {
-    "value_low": 4315000000,
-    "value_high": 6904000000,
+    "value_low": 3333000000,
+    "value_high": 3333000000,
     "currency": "USD",
-    "period": "FY2025",
-    "tier": "3_modeled",
-    "derivation": "Estimated at 5% to 8% of Instagram's reported FY2025 revenue of $86.3 billion, matching standard digital ad platform sales and marketing benchmarks.",
+    "period": "Q3 2026",
+    "tier": "1_disclosed",
+    "derivation": "Disclosed in Meta Platforms' Q3 2026 financial results under consolidated 'Marketing and sales' expenses of $3,333 million.",
     "source": {
-      "name": "Business of Apps",
-      "url": "https://www.businessofapps.com/data/instagram-statistics",
-      "date": "2026-01-01"
+      "name": "Meta Reports Third Quarter 2026 Results",
+      "url": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Third-Quarter-2026-Results/default.aspx",
+      "date": "2026-09-30"
     }
   },
   "trend_history": {
@@ -55,6 +51,10 @@
       {
         "date": "2026-09-08",
         "value": 613.26
+      },
+      {
+        "date": "2026-09-22",
+        "value": 778
       },
       {
         "date": "2026-10-19",
@@ -108,15 +108,15 @@
       },
       {
         "period": "FY2025",
-        "value": 86300000000
+        "value": 200970000000
       },
       {
         "period": "Q1 2026",
-        "value": 56311000000
+        "value": 56310000000
       },
       {
         "period": "Q2 2026",
-        "value": 60801000000
+        "value": 60800000000
       },
       {
         "period": "Q3 2026",
@@ -126,19 +126,27 @@
   },
   "business_updates": [
     {
-      "headline": "Meta Reports Third Quarter 2026 Revenue of $64.60 Billion, Driven by Ad Growth Across Family of Apps",
-      "date": "2026-11-07",
+      "headline": "Meta reports Q3 2026 total revenue of $64.60 billion, up 26% year-over-year",
+      "date": "2026-09-30",
       "source": {
-        "name": "Meta Reports Third Quarter 2026 Results",
+        "name": "Meta Investor Relations",
         "url": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Third-Quarter-2026-Results/default.aspx"
       }
     },
     {
-      "headline": "Instagram Share of Meta Revenue Reaches 43.8% in 2025",
-      "date": "2026-01-01",
+      "headline": "Meta plans $60 billion to $65 billion in 2025 capital expenditures to expand AI infrastructure",
+      "date": "2025-01-01",
       "source": {
-        "name": "Business of Apps",
-        "url": "https://www.businessofapps.com/data/instagram-statistics"
+        "name": "Yahoo Finance",
+        "url": "https://ca.finance.yahoo.com/news/jim-cramer-meta-platforms-meta-201628463.html"
+      }
+    },
+    {
+      "headline": "Meta launches unified video recommendation system and full-screen video player to boost Reels engagement",
+      "date": "2024-07-31",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/news/analyst-revisits-meta-stock-price-150701674.html"
       }
     }
   ]

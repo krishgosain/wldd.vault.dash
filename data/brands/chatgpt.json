@@ -4,15 +4,15 @@
   "parent": "OpenAI",
   "entity_type": "foreign_private",
   "category": "Consumer Tech / AI",
-  "description": "ChatGPT is an artificial intelligence chatbot and product service developed by OpenAI.",
-  "last_refreshed": "2026-11-08T10:42:08.391Z",
+  "description": "ChatGPT is an artificial intelligence chatbot and conversational platform developed and owned by OpenAI.",
+  "last_refreshed": "2026-11-14T10:51:37.523Z",
   "stock": {
     "applicable": false,
     "value": null,
     "currency": "USD",
     "ticker": null,
     "as_of": null,
-    "note": "Reflects private ownership by OpenAI; standalone public ticker does not exist.",
+    "note": "ChatGPT is owned by OpenAI, a private company, and does not have an independent stock ticker.",
     "confidence": "not_applicable"
   },
   "revenue": {
@@ -27,23 +27,33 @@
     }
   },
   "operating_profit": {
-    "value": null,
+    "value": -20920000000,
     "currency": "USD",
     "period": "FY2025",
-    "confidence": "not_found",
-    "source": null
+    "confidence": "press_estimate",
+    "source": {
+      "name": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/OpenAI",
+      "date": "2026-06-01"
+    }
   },
   "expenses": {
-    "breakdown": [],
-    "confidence": "not_found"
+    "breakdown": [
+      {
+        "label": "Total Spending / Operating Expenditures",
+        "value": 22000000000,
+        "confidence": "modeled"
+      }
+    ],
+    "confidence": "press_estimate"
   },
   "marketing_spend": {
-    "value_low": 800000000,
-    "value_high": 1600000000,
+    "value_low": 400000000,
+    "value_high": 800000000,
     "currency": "USD",
     "period": "FY2025",
     "tier": "3_modeled",
-    "derivation": "Estimated at 10% to 20% of ChatGPT's reported $8 billion FY2025 revenue, aligning with typical growth-stage consumer tech and AI software marketing budget allocations.",
+    "derivation": "Modeled at 5% to 10% of ChatGPT's $8 billion FY2025 revenue, aligning with benchmark consumer tech and software marketing allocations, given high organic user acquisition and computing cost dominance.",
     "source": null
   },
   "trend_history": {
@@ -77,7 +87,7 @@
   },
   "business_updates": [
     {
-      "headline": "ChatGPT Ads reaches $1 billion in annualized revenue run rate in under 200 days after launch",
+      "headline": "ChatGPT Ads reaches $1 billion annualized revenue run rate in under 200 days",
       "date": "2026-08-31",
       "source": {
         "name": "OpenAI",
@@ -85,19 +95,19 @@
       }
     },
     {
-      "headline": "OpenAI initiates targeted advertising tests within ChatGPT for free users in the US",
-      "date": "2026-10-13",
+      "headline": "OpenAI reports enterprise revenue has overtaken ChatGPT consumer business revenue",
+      "date": "2026-08-14",
       "source": {
-        "name": "CryptoRank.io",
-        "url": "https://cryptorank.io/news/feed/7bd37-chatgpt-ads-openai-targeted-advertising"
+        "name": "Unite.AI",
+        "url": "https://www.unite.ai/openai-tells-investors-enterprise-revenue-has-overtaken-its-chatgpt-consumer-business"
       }
     },
     {
-      "headline": "ChatGPT user base surpasses 1 billion active users in 2026",
-      "date": "2026-09-11",
+      "headline": "OpenAI annualized revenue approaches $50 billion at end of September 2026",
+      "date": "2026-09-30",
       "source": {
-        "name": "Business of Apps",
-        "url": "https://www.businessofapps.com/data/chatgpt-statistics"
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/technology/ai/articles/openai-revenue-20b-below-previous-181839907.html"
       }
     }
   ]

@@ -4,15 +4,15 @@
   "parent": "Koninklijke Philips N.V.",
   "entity_type": "india_private_registered",
   "category": "Consumer Electronics",
-  "description": "Philips India Limited is an active unlisted public company in India and subsidiary of health technology leader Koninklijke Philips N.V.",
-  "last_refreshed": "2026-11-08T10:42:52.383Z",
+  "description": "Philips India is the unlisted Indian operating subsidiary of Dutch healthcare technology and personal care company Koninklijke Philips N.V.",
+  "last_refreshed": "2026-11-14T10:52:38.691Z",
   "stock": {
     "applicable": false,
     "value": null,
-    "currency": "INR",
+    "currency": "EUR",
     "ticker": null,
     "as_of": null,
-    "note": "Philips India Limited is an unlisted public company; parent company Koninklijke Philips N.V. is publicly traded under ticker PHIA.AS on Euronext Amsterdam and PHG on NYSE.",
+    "note": "Philips India is an unlisted entity in India; parent company Koninklijke Philips N.V. trades publicly under ticker PHIA.AS on Euronext Amsterdam and PHG on NYSE.",
     "confidence": "not_applicable"
   },
   "revenue": {
@@ -23,32 +23,24 @@
     "source": null
   },
   "operating_profit": {
-    "value": 4480000000,
+    "value": null,
     "currency": "INR",
     "period": "FY2025",
-    "confidence": "disclosed",
-    "source": {
-      "name": "UnlistedCart",
-      "url": "https://unlistedcart.com/philips-india-limited",
-      "date": "2026-11-05"
-    }
+    "confidence": "not_found",
+    "source": null
   },
   "expenses": {
     "breakdown": [],
     "confidence": "not_found"
   },
   "marketing_spend": {
-    "value_low": 1200000000,
-    "value_high": 2000000000,
+    "value_low": 1000000000,
+    "value_high": 2500000000,
     "currency": "INR",
     "period": "FY2025",
-    "tier": "3_modeled",
-    "derivation": "Modeled using a category-typical 3–5% marketing ratio against an estimated revenue base derived from disclosed FY2024-25 Profit Before Tax (PBT) of ₹448 crore.",
-    "source": {
-      "name": "UnlistedCart",
-      "url": "https://unlistedcart.com/philips-india-limited",
-      "date": "2026-11-05"
-    }
+    "tier": "4_triangulated",
+    "derivation": "Triangulated based on category-level ad spend benchmarks for personal health appliances and consumer electronics in India, where major players allocate an estimated 4-6% of revenue to brand marketing and digital ad campaigns.",
+    "source": null
   },
   "trend_history": {
     "stock": [
@@ -62,10 +54,46 @@
       },
       {
         "date": "2026-11-02",
-        "value": 24.54
+        "value": 24.52
+      },
+      {
+        "date": "2026-11-03",
+        "value": 25.7
+      },
+      {
+        "date": "2026-11-04",
+        "value": 27.38
+      },
+      {
+        "date": "2026-11-05",
+        "value": 27.51
+      },
+      {
+        "date": "2026-11-06",
+        "value": 27.33
+      },
+      {
+        "date": "2026-11-09",
+        "value": 27.3
       }
     ],
     "revenue": [
+      {
+        "period": "1Q2026",
+        "value": 3905000000
+      },
+      {
+        "period": "2Q2026",
+        "value": 4360000000
+      },
+      {
+        "period": "3Q2026",
+        "value": 4393000000
+      },
+      {
+        "period": "4Q2025",
+        "value": 5097000000
+      },
       {
         "period": "FY2022",
         "value": 17827000000
@@ -84,14 +112,5 @@
       }
     ]
   },
-  "business_updates": [
-    {
-      "headline": "Philips India reports strong FY2024-25 earnings with PAT reaching ₹309 crore and PBT increasing to ₹448 crore",
-      "date": "2026-11-05",
-      "source": {
-        "name": "UnlistedCart",
-        "url": "https://unlistedcart.com/philips-india-limited"
-      }
-    }
-  ]
+  "business_updates": []
 }

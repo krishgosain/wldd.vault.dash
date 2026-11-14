@@ -4,54 +4,70 @@
   "parent": "Zerodha Broking Ltd.",
   "entity_type": "india_private_registered",
   "category": "Fintech / Broking",
-  "description": "Zerodha is an Indian financial services company offering discount brokerage and trading services, operating as a registered private entity under Zerodha Broking Ltd.",
-  "last_refreshed": "2026-11-07T10:39:31.565Z",
+  "description": "Zerodha is an Indian financial services company and online retail stock broking platform operated by Zerodha Broking Ltd.",
+  "last_refreshed": "2026-11-14T10:49:12.547Z",
   "stock": {
     "applicable": false,
     "value": null,
     "currency": "INR",
     "ticker": null,
     "as_of": null,
-    "note": "Zerodha Broking Ltd. is a privately held company and is not publicly traded.",
+    "note": "Zerodha Broking Ltd. is a private unlisted entity.",
     "confidence": "not_applicable"
   },
   "revenue": {
     "value": 88470000000,
     "currency": "INR",
-    "period": "FY2026",
+    "period": "FY2025",
     "confidence": "disclosed",
     "source": {
-      "name": "The Economic Times",
-      "url": "https://m.economictimes.com/markets/stocks/earnings/zerodhas-fy26-net-profit-rises-1-2-to-4283-crore-amid-revenue-slowdown/articleshow/133553571.cms",
-      "date": "2026-08-27"
+      "name": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Zerodha",
+      "date": "2025-01-01"
     }
   },
   "operating_profit": {
-    "value": 42830000000,
+    "value": 11250000000,
     "currency": "INR",
-    "period": "FY2026",
+    "period": "FY2025",
     "confidence": "disclosed",
     "source": {
-      "name": "The Economic Times",
-      "url": "https://m.economictimes.com/markets/stocks/earnings/zerodhas-fy26-net-profit-rises-1-2-to-4283-crore-amid-revenue-slowdown/articleshow/133553571.cms",
-      "date": "2026-08-27"
+      "name": "Tracxn",
+      "url": "https://tracxn.com/d/legal-entities/india/zerodha-broking-limited/__v553aNZpzCj2Bvf4xhnL-tRmJFFZ-TN4gXVbm8w0W1Y",
+      "date": "2026-01-01"
     }
   },
   "expenses": {
-    "breakdown": [],
-    "confidence": "not_found"
+    "breakdown": [
+      {
+        "label": "Operating Expenses",
+        "value": 72490000000,
+        "confidence": "disclosed"
+      },
+      {
+        "label": "Employee Expenses",
+        "value": 36660000000,
+        "confidence": "disclosed"
+      },
+      {
+        "label": "Marketing Expenses",
+        "value": 70430000000,
+        "confidence": "disclosed"
+      }
+    ],
+    "confidence": "disclosed"
   },
   "marketing_spend": {
-    "value_low": 442350000,
-    "value_high": 884700000,
+    "value_low": 70430000000,
+    "value_high": 70430000000,
     "currency": "INR",
-    "period": "FY2026",
-    "tier": "3_modeled",
-    "derivation": "Modeled using a category-typical zero-to-low marketing spend benchmark of 0.5% to 1.0% applied against Zerodha's FY26 reported revenue of ₹8,847 crore, reflecting its predominantly word-of-mouth acquisition model.",
+    "period": "FY2025",
+    "tier": "1_disclosed",
+    "derivation": "Reported marketing expense line item of ₹7,043 Cr in FY 2024-25 financial statement metrics.",
     "source": {
-      "name": "The Economic Times",
-      "url": "https://m.economictimes.com/markets/stocks/earnings/zerodhas-fy26-net-profit-rises-1-2-to-4283-crore-amid-revenue-slowdown/articleshow/133553571.cms",
-      "date": "2026-08-27"
+      "name": "Tracxn",
+      "url": "https://tracxn.com/d/companies/zerodha/__Y4-fhCi16ZqSaeZkThbyWjKzwKenQDuplhlZ7wpglBU",
+      "date": "2026-01-01"
     }
   },
   "trend_history": {
@@ -59,7 +75,7 @@
     "revenue": [
       {
         "period": "FY2022",
-        "value": 28030000000
+        "value": 49630000000
       },
       {
         "period": "FY2023",
@@ -67,7 +83,7 @@
       },
       {
         "period": "FY2024",
-        "value": 99930000000
+        "value": 100000000000
       },
       {
         "period": "FY2025",
@@ -81,18 +97,26 @@
   },
   "business_updates": [
     {
-      "headline": "Zerodha reports FY26 net profit of ₹4,283 crore with flat revenue as margin trading helps offset broking slowdown",
-      "date": "2026-08-27",
+      "headline": "Zerodha obtains merchant banking licence via subsidiary Zerodha Corporate Advisors",
+      "date": "2026-01-01",
       "source": {
-        "name": "The Economic Times",
-        "url": "https://m.economictimes.com/markets/stocks/earnings/zerodhas-fy26-net-profit-rises-1-2-to-4283-crore-amid-revenue-slowdown/articleshow/133553571.cms"
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Zerodha"
       }
     },
     {
-      "headline": "Zerodha considers ending free equity delivery trades following 40% drop in Q1 FY26 brokerage revenue due to regulatory changes",
-      "date": "2026-08-27",
+      "headline": "Zerodha invests in market data platform Tijori Finance",
+      "date": "2025-11-01",
       "source": {
-        "name": "Inc42 Media",
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Zerodha"
+      }
+    },
+    {
+      "headline": "Zerodha signals potential shift to charge brokerage fees on equity delivery trades",
+      "date": "2025-01-01",
+      "source": {
+        "name": "Inc42 Media via LinkedIn",
         "url": "https://www.linkedin.com/posts/inc42_news-zerodha-revenue-activity-7273716356959617024-y3jS"
       }
     }

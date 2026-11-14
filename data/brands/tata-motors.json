@@ -4,15 +4,15 @@
   "parent": "Tata Group",
   "entity_type": "public_standalone",
   "category": "Auto",
-  "description": "Tata Motors Limited is an Indian multinational automotive manufacturing company and part of the Tata Group.",
-  "last_refreshed": "2026-11-08T10:42:29.497Z",
+  "description": "Tata Motors Ltd. is an Indian multinational automotive manufacturing enterprise and a part of the Tata Group conglomerate.",
+  "last_refreshed": "2026-11-14T10:52:20.118Z",
   "stock": {
     "applicable": true,
-    "value": 425.5,
+    "value": 433.2,
     "currency": "INR",
     "ticker": "TATAMOTORS.NS",
-    "as_of": "2026-11-08",
-    "note": "Reflects Tata Motors Limited stock price on the National Stock Exchange of India.",
+    "as_of": "2024-10-29",
+    "note": "Standalone public listing on National Stock Exchange of India",
     "confidence": "disclosed"
   },
   "revenue": {
@@ -23,7 +23,7 @@
     "source": {
       "name": "Tata Motors",
       "url": "https://tavily.com/knowledge/company/aZ23s7vRWCxI",
-      "date": "2026-11-08"
+      "date": "2026"
     }
   },
   "operating_profit": {
@@ -34,28 +34,12 @@
     "source": {
       "name": "Tata Motors",
       "url": "https://tavily.com/knowledge/company/aZ23s7vRWCxI",
-      "date": "2026-11-08"
+      "date": "2026"
     }
   },
   "expenses": {
-    "breakdown": [
-      {
-        "label": "Total Expenditure (Standalone)",
-        "value": 552290000000,
-        "confidence": "disclosed"
-      },
-      {
-        "label": "Depreciation (Standalone)",
-        "value": 27320000000,
-        "confidence": "disclosed"
-      },
-      {
-        "label": "Interest (Standalone)",
-        "value": 2460000000,
-        "confidence": "disclosed"
-      }
-    ],
-    "confidence": "disclosed"
+    "breakdown": [],
+    "confidence": "not_found"
   },
   "marketing_spend": {
     "value_low": 52500000000,
@@ -63,7 +47,7 @@
     "currency": "INR",
     "period": "FY2026",
     "tier": "3_modeled",
-    "derivation": "Calculated by applying a standard automotive industry marketing-to-revenue ratio of 1.5% to 2.5% against Tata Motors' reported FY2026 consolidated revenue of 3.50 trillion INR.",
+    "derivation": "Calculated by applying an estimated 1.5% to 2.5% auto-industry marketing spend ratio to Tata Motors' reported FY2026 revenue of INR 3.50 Trillion.",
     "source": null
   },
   "trend_history": {
@@ -101,6 +85,14 @@
         "value": 458
       },
       {
+        "date": "2026-06-05",
+        "value": 397.8
+      },
+      {
+        "date": "2026-07-14",
+        "value": 333.35
+      },
+      {
         "date": "2026-08-01",
         "value": 406.45
       },
@@ -117,6 +109,10 @@
         "value": 472.55
       },
       {
+        "date": "2026-09-28",
+        "value": 284.6
+      },
+      {
         "date": "2026-10-15",
         "value": 416.7
       },
@@ -127,6 +123,10 @@
       {
         "date": "2026-11-02",
         "value": 401.4
+      },
+      {
+        "date": "2026-11-04",
+        "value": 278.3
       },
       {
         "date": "2026-11-08",
@@ -174,11 +174,19 @@
   },
   "business_updates": [
     {
-      "headline": "Tata Motors PV Reports Q1FY27 Earnings: Consolidated revenue up 9% YoY while JLR business remains a drag",
-      "date": "2026-08-13",
+      "headline": "Tata Motors reports strong Q2 2027 revenue growth despite profit margin pressure from commodity inflation",
+      "date": "2026-09-30",
       "source": {
-        "name": "CNBC-TV18",
-        "url": "https://www.youtube.com/watch?v=1ZqROCtU94w"
+        "name": "Investing.com",
+        "url": "https://uk.investing.com/news/stock-market-news/earnings-call-transcript-tata-motors-posts-strong-q2-2027-growth-as-stock-falls-93CH-4928967"
+      }
+    },
+    {
+      "headline": "Tata Motors Passenger Vehicles Q1 profit falls 80.2% despite revenue rise to Rs957.99bn",
+      "date": "2026-06-30",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/tata-motors-q1-profit-falls-113035672.html"
       }
     }
   ]

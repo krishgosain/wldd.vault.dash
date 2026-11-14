@@ -1,54 +1,69 @@
 {
   "name": "Ola Electric",
   "slug": "ola-electric",
-  "parent": null,
+  "parent": "ANI Technologies Pvt. Ltd.",
   "entity_type": "public_standalone",
   "category": "Auto / EV",
-  "description": "Ola Electric Mobility Limited is an Indian electric vehicle manufacturer focused on producing electric two-wheelers and EV components.",
-  "last_refreshed": "2026-11-07T10:40:57.551Z",
+  "description": "Ola Electric Mobility Limited is an Indian electric vehicle manufacturer producing electric two-wheelers and EV components.",
+  "last_refreshed": "2026-11-14T10:50:14.329Z",
   "stock": {
     "applicable": true,
-    "value": 34.21,
+    "value": 34.65,
     "currency": "INR",
     "ticker": "OLAELEC.NS",
-    "as_of": "2026-11-06",
-    "note": "Reflects direct standalone stock price on the National Stock Exchange of India (NSE).",
+    "as_of": "2026-11-14",
+    "note": "Reflects standalone share price on the National Stock Exchange of India",
     "confidence": "disclosed"
   },
   "revenue": {
-    "value": 4840000000,
+    "value": 22530000000,
     "currency": "INR",
-    "period": "Q1 FY2027",
+    "period": "FY2026",
     "confidence": "disclosed",
     "source": {
-      "name": "Kotak Neo",
-      "url": "https://www.kotakneo.com/stocks/ola-electric-mobility-share-price",
-      "date": "2026-10-24"
+      "name": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/OLAELEC.NS",
+      "date": "2026-11-14"
     }
   },
   "operating_profit": {
-    "value": -3360000000,
+    "value": -14690000000,
     "currency": "INR",
-    "period": "Q1 FY2027",
+    "period": "FY2026",
     "confidence": "disclosed",
     "source": {
-      "name": "Kotak Neo",
-      "url": "https://www.kotakneo.com/stocks/ola-electric-mobility-share-price",
-      "date": "2026-10-24"
+      "name": "Ola Electric Company Knowledge Base",
+      "url": "https://tavily.com/knowledge/company/E0QzYHNezxTc",
+      "date": "2026-11-14"
     }
   },
   "expenses": {
-    "breakdown": [],
-    "confidence": "not_found"
+    "breakdown": [
+      {
+        "label": "Cost of goods sold (COGS - Jun 2026 quarter)",
+        "value": 3170000000,
+        "confidence": "disclosed"
+      },
+      {
+        "label": "Selling, general, and admin expenses (Mar 2026 quarter)",
+        "value": 2250000000,
+        "confidence": "disclosed"
+      }
+    ],
+    "confidence": "disclosed"
   },
   "marketing_spend": {
-    "value_low": 900000000,
-    "value_high": 1600000000,
+    "value_low": 1126500000,
+    "value_high": 2253000000,
     "currency": "INR",
     "period": "FY2026",
     "tier": "3_modeled",
-    "derivation": "Modeled using an estimated 4% to 7% marketing-to-revenue ratio typical for automotive and EV manufacturers applied against reported FY2026 revenue of ₹2,253 crore.",
-    "source": null
+    "derivation": "Modeled assuming standard 5% to 10% marketing-to-revenue expenditure ratio for EV and automotive OEM brands against total reported FY2026 revenue of ₹22.53 billion.",
+    "source": {
+      "name": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/OLAELEC.NS",
+      "date": "2026-11-14"
+    }
   },
   "trend_history": {
     "stock": [
@@ -95,6 +110,10 @@
       {
         "date": "2026-11-06",
         "value": 34.21
+      },
+      {
+        "date": "2026-11-14",
+        "value": 34.65
       }
     ],
     "revenue": [
@@ -134,10 +153,18 @@
   },
   "business_updates": [
     {
-      "headline": "Ola Electric and Axis Energy sign MoU for 20GWh battery storage facility",
-      "date": "2026-09-01",
+      "headline": "Ola Electric Mobility Ltd Q4 2026 Earnings Call Highlights",
+      "date": "2026-06-14",
       "source": {
-        "name": "Energy Monitor",
+        "name": "GuruFocus",
+        "url": "https://finance.yahoo.com/quote/OLAELEC.NS/news"
+      }
+    },
+    {
+      "headline": "Ola Electric Mobility Ltd Q3 2026 Earnings Call Highlights",
+      "date": "2026-03-14",
+      "source": {
+        "name": "GuruFocus",
         "url": "https://finance.yahoo.com/quote/OLAELEC.NS/news"
       }
     }

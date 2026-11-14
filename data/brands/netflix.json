@@ -4,36 +4,36 @@
   "parent": null,
   "entity_type": "public_standalone",
   "category": "OTT",
-  "description": "Netflix is a subscription video-on-demand streaming service and media company providing films, TV series, and live streaming content.",
-  "last_refreshed": "2026-11-08T10:43:41.080Z",
+  "description": "Netflix, Inc. is a global media services and over-the-top (OTT) streaming provider offering subscription-based video on demand.",
+  "last_refreshed": "2026-11-14T10:53:15.582Z",
   "stock": {
     "applicable": true,
-    "value": 62.28,
+    "value": 69.81,
     "currency": "USD",
     "ticker": "NFLX",
-    "as_of": "2026-10-30",
-    "note": "Reflects Netflix Inc direct listing ticker NFLX",
+    "as_of": "2026-10-19",
+    "note": "Reflects Netflix, Inc. common stock price on NASDAQ.",
     "confidence": "disclosed"
   },
   "revenue": {
-    "value": 12874176000,
+    "value": 45200000000,
     "currency": "USD",
-    "period": "Q3 2026",
-    "confidence": "disclosed",
-    "source": {
-      "name": "Yahoo Finance",
-      "url": "https://finance.yahoo.com/quote/NFLX",
-      "date": "2026-11-06"
-    }
-  },
-  "operating_profit": {
-    "value": 4453000000,
-    "currency": "USD",
-    "period": "Q3 2026",
+    "period": "FY2025",
     "confidence": "disclosed",
     "source": {
       "name": "StockTitan",
-      "url": "https://www.stocktitan.net/news/NFLX/netflix-q3-2026-earnings-revenue-12-billion-35pct-margin.html",
+      "url": "https://www.stocktitan.net/overview/NFLX",
+      "date": "2026-10-19"
+    }
+  },
+  "operating_profit": {
+    "value": 13300000000,
+    "currency": "USD",
+    "period": "FY2025",
+    "confidence": "disclosed",
+    "source": {
+      "name": "StockTitan",
+      "url": "https://www.stocktitan.net/overview/NFLX",
       "date": "2026-10-19"
     }
   },
@@ -42,12 +42,12 @@
     "confidence": "not_found"
   },
   "marketing_spend": {
-    "value_low": 1029934080,
-    "value_high": 1287417600,
+    "value_low": 3616000000,
+    "value_high": 4520000000,
     "currency": "USD",
-    "period": "Q3 2026",
+    "period": "FY2025",
     "tier": "3_modeled",
-    "derivation": "Modeled using an estimated category standard marketing-to-revenue ratio of 8% to 10% applied to Q3 2026 revenue of $12.87B.",
+    "derivation": "Estimated at 8%-10% of total FY2025 revenue ($45.2B), typical for large global subscription video on demand (SVOD) streaming providers.",
     "source": null
   },
   "trend_history": {
@@ -67,6 +67,10 @@
       {
         "date": "2026-10-01",
         "value": 67.85
+      },
+      {
+        "date": "2026-10-16",
+        "value": 70.53
       },
       {
         "date": "2026-10-19",
@@ -170,7 +174,7 @@
   },
   "business_updates": [
     {
-      "headline": "Netflix Q3 2026 Revenue Rises 12% to $12.87 Billion with 34.6% Operating Margin",
+      "headline": "Netflix Q3 2026 revenue rises 12% to $12.9B, lowering 2026 ad revenue target to $2.7B due to slower ad-product rollout",
       "date": "2026-10-19",
       "source": {
         "name": "StockTitan",
@@ -178,11 +182,19 @@
       }
     },
     {
-      "headline": "Netflix Lowers Full-Year 2026 Ad Sales Forecast to $2.7 Billion",
-      "date": "2026-10-19",
+      "headline": "Netflix announces plans to reduce approximately 1,000 corporate positions globally",
+      "date": "2026-10-15",
       "source": {
-        "name": "The Hollywood Reporter",
-        "url": "https://www.hollywoodreporter.com/business/business-news/netflix-q3-2026-earnings-ad-sales-stock-decline-continues-1236735383"
+        "name": "TradingKey",
+        "url": "https://www.tradingkey.com/markets/stocks/nasdaq-nflx"
+      }
+    },
+    {
+      "headline": "Netflix Q3 2026 advertising revenue grows over 80% with India revenue up nearly 20%",
+      "date": "2026-10-21",
+      "source": {
+        "name": "TradingKey",
+        "url": "https://www.tradingkey.com/markets/stocks/nasdaq-nflx"
       }
     }
   ]
