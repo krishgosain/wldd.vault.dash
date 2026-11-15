@@ -1,11 +1,11 @@
 {
   "name": "PhonePe",
   "slug": "phonepe",
-  "parent": "PhonePe Pvt Ltd",
+  "parent": "Walmart Inc.",
   "entity_type": "india_private_registered",
   "category": "Fintech",
-  "description": "PhonePe is an Indian digital payments and financial services platform majority-owned by Walmart.",
-  "last_refreshed": "2026-11-14T10:47:59.302Z",
+  "description": "PhonePe is an Indian digital payments and financial technology platform majority-owned by Walmart through its subsidiary WM Digital Commerce Holdings.",
+  "last_refreshed": "2026-11-15T11:27:39.264Z",
   "stock": {
     "applicable": false,
     "value": null,
@@ -16,14 +16,14 @@
     "confidence": "not_applicable"
   },
   "revenue": {
-    "value": 71150000000,
+    "value": 79200000000,
     "currency": "INR",
-    "period": "FY2025",
+    "period": "FY2026",
     "confidence": "disclosed",
     "source": {
-      "name": "LinkedIn / Startupro.in",
-      "url": "https://www.linkedin.com/posts/startupro-in_phonepe-ipo-ofs-activity-7438116962322313216-gf53",
-      "date": "2025-03-01"
+      "name": "The Hindu via Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/PhonePe",
+      "date": "2026-07-25"
     }
   },
   "operating_profit": {
@@ -34,7 +34,7 @@
     "source": {
       "name": "LinkedIn / Startupro.in",
       "url": "https://www.linkedin.com/posts/startupro-in_phonepe-ipo-ofs-activity-7438116962322313216-gf53",
-      "date": "2025-03-01"
+      "date": "2025-03-31"
     }
   },
   "expenses": {
@@ -42,12 +42,12 @@
     "confidence": "not_found"
   },
   "marketing_spend": {
-    "value_low": 10000000000,
-    "value_high": 14230000000,
+    "value_low": 11880000000,
+    "value_high": 19800000000,
     "currency": "INR",
-    "period": "FY2025",
+    "period": "FY2026",
     "tier": "3_modeled",
-    "derivation": "Modeled by applying a standard Indian fintech market benchmark of 15% to 20% ad/marketing spend against PhonePe's reported FY25 revenue of ₹7,115 crore.",
+    "derivation": "Estimated based on a standard fintech industry sales and marketing spend benchmark of 15% to 25% applied to PhonePe's reported FY2026 revenue of ₹7,920 crore.",
     "source": null
   },
   "trend_history": {
@@ -89,7 +89,7 @@
   },
   "business_updates": [
     {
-      "headline": "Walmart-backed PhonePe shelves IPO plans due to global market conditions",
+      "headline": "PhonePe pauses IPO plans due to volatile global market conditions",
       "date": "2026-02-01",
       "source": {
         "name": "Yahoo Finance",
@@ -97,11 +97,19 @@
       }
     },
     {
-      "headline": "PhonePe prepares for public listing aiming to raise up to ₹12,000 crore",
-      "date": "2025-03-01",
+      "headline": "WM Digital Commerce Holdings (Walmart) holds 71.77% majority stake in PhonePe DRHP filing",
+      "date": "2026-02-01",
       "source": {
-        "name": "LinkedIn / Startupro.in",
-        "url": "https://www.linkedin.com/posts/startupro-in_phonepe-ipo-ofs-activity-7438116962322313216-gf53"
+        "name": "Instagram / DRHP Filings",
+        "url": "https://www.instagram.com/reel/DUkcE_-Ex2j?hl=en"
+      }
+    },
+    {
+      "headline": "PhonePe files confidential DRHP targeting $15B valuation IPO in India",
+      "date": "2026-01-01",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/news/walmart-backed-phonepe-prepares-15b-182530581.html"
       }
     }
   ]

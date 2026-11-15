@@ -4,26 +4,26 @@
   "parent": "Dreamplug Technologies Pvt Ltd",
   "entity_type": "india_private_registered",
   "category": "Fintech",
-  "description": "CRED is an Indian fintech platform operated by Dreamplug Technologies Pvt Ltd that provides credit card bill payments, rewards, digital payments, lending, and personal finance management services.",
-  "last_refreshed": "2026-11-14T10:49:32.792Z",
+  "description": "CRED is an Indian fintech platform operated by Dreamplug Technologies Pvt Ltd that offers rewards for credit card bill payments, lending, digital payments, and wealth management services.",
+  "last_refreshed": "2026-11-15T11:29:24.826Z",
   "stock": {
     "applicable": false,
     "value": null,
     "currency": "INR",
     "ticker": null,
     "as_of": null,
-    "note": "CRED is a privately held company and not publicly traded.",
+    "note": "CRED is a privately held brand under Dreamplug Technologies Private Limited and is not publicly listed.",
     "confidence": "not_applicable"
   },
   "revenue": {
-    "value": 24730000000,
+    "value": 27530000000,
     "currency": "INR",
     "period": "FY2024",
     "confidence": "disclosed",
     "source": {
-      "name": "Wikipedia",
+      "name": "Wikipedia / Tracxn",
       "url": "https://en.wikipedia.org/wiki/Cred_(company)",
-      "date": "unknown"
+      "date": ""
     }
   },
   "operating_profit": {
@@ -34,13 +34,13 @@
     "source": {
       "name": "Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Cred_(company)",
-      "date": "unknown"
+      "date": ""
     }
   },
   "expenses": {
     "breakdown": [
       {
-        "label": "Marketing Spend (FY21)",
+        "label": "Marketing and Advertising Spend (FY2021)",
         "value": 2220000000,
         "confidence": "disclosed"
       }
@@ -53,11 +53,11 @@
     "currency": "INR",
     "period": "FY2021",
     "tier": "1_disclosed",
-    "derivation": "Disclosed financial results for FY2020-21 show marketing spend of ₹222 crore.",
+    "derivation": "Disclosed marketing expense of ₹222 crore for FY2021 (up from ₹57 crore in FY2020) per official filings referenced in financial disclosures.",
     "source": {
       "name": "Startup.Pedia",
       "url": "https://www.facebook.com/startup.pedia7/posts/cred-owned-and-operated-by-dreamplug-technologies-pvt-ltd-reported-a-45-increase/491744455733928",
-      "date": "unknown"
+      "date": ""
     }
   },
   "trend_history": {
@@ -77,7 +77,7 @@
       },
       {
         "period": "FY2024",
-        "value": 24730000000
+        "value": 27530000000
       },
       {
         "period": "FY2025",
@@ -95,19 +95,19 @@
   },
   "business_updates": [
     {
-      "headline": "CRED valued at $4.5 billion following Series H funding round led by Meta",
+      "headline": "CRED valued at around US$4.5 billion following funding rounds",
       "date": "2026",
-      "source": {
-        "name": "Preqin",
-        "url": "https://www.preqin.com/data/profile/asset/dreamplug-technologies-pvt-ltd-/336506"
-      }
-    },
-    {
-      "headline": "CRED reports FY24 revenue of ₹2,473 crore with net income of -₹1,644 crore",
-      "date": "2024",
       "source": {
         "name": "Wikipedia",
         "url": "https://en.wikipedia.org/wiki/Cred_(company)"
+      }
+    },
+    {
+      "headline": "Dreamplug Technologies Pvt Ltd achieves ₹2,753 crore in operating revenue for FY24",
+      "date": "2024",
+      "source": {
+        "name": "Neoma Capital / MCA Filings",
+        "url": "https://www.neomacapital.com/pre-ipo-research/pre-ipo-cred-dreamplug"
       }
     }
   ]

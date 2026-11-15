@@ -4,66 +4,42 @@
   "parent": "Amazon",
   "entity_type": "public_parent",
   "category": "Quick Commerce",
-  "description": "Amazon Now is a quick commerce fast-delivery service owned and operated by public parent company Amazon.com, Inc.",
-  "last_refreshed": "2026-11-12T11:47:55.390Z",
+  "description": "Amazon Now is a quick commerce delivery service operated by Amazon.com, Inc., a publicly listed e-commerce and cloud services corporation.",
+  "last_refreshed": "2026-11-15T11:23:28.905Z",
   "stock": {
     "applicable": false,
     "value": null,
     "currency": "USD",
     "ticker": null,
     "as_of": null,
-    "note": "Reflects parent company Amazon.com, Inc. (NASDAQ: AMZN); the Amazon Now brand is not individually listed.",
+    "note": "Reflects parent company Amazon.com, Inc. (NASDAQ: AMZN), as Amazon Now is a product/service line without a separate ticker.",
     "confidence": "not_applicable"
   },
   "revenue": {
-    "value": 201944000000,
+    "value": null,
     "currency": "USD",
     "period": "Q3 2026",
-    "confidence": "disclosed",
-    "source": {
-      "name": "Amazon.com Announces Third Quarter Results",
-      "url": "https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-Third-Quarter-Results/default.aspx",
-      "date": "2026-10-29"
-    }
+    "confidence": "not_found",
+    "source": null
   },
   "operating_profit": {
-    "value": 28100000000,
+    "value": null,
     "currency": "USD",
     "period": "Q3 2026",
-    "confidence": "disclosed",
-    "source": {
-      "name": "Amazon.com Announces Third Quarter Results",
-      "url": "https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-Third-Quarter-Results/default.aspx",
-      "date": "2026-10-29"
-    }
+    "confidence": "not_found",
+    "source": null
   },
   "expenses": {
-    "breakdown": [
-      {
-        "label": "North America Operating Expenses (Q1 2025)",
-        "value": 87040000000,
-        "confidence": "disclosed"
-      },
-      {
-        "label": "International Operating Expenses (Q1 2025)",
-        "value": 32490000000,
-        "confidence": "disclosed"
-      },
-      {
-        "label": "AWS Operating Expenses (Q1 2025)",
-        "value": 17720000000,
-        "confidence": "disclosed"
-      }
-    ],
-    "confidence": "disclosed"
+    "breakdown": [],
+    "confidence": "not_found"
   },
   "marketing_spend": {
-    "value_low": 4038880000,
-    "value_high": 8077760000,
+    "value_low": 50000000,
+    "value_high": 150000000,
     "currency": "USD",
-    "period": "Q3 2026",
+    "period": "FY2026",
     "tier": "3_modeled",
-    "derivation": "Modeled using a industry benchmark marketing-to-revenue ratio of 2% to 4% for retail e-commerce platforms applied to parent Amazon's Q3 2026 revenue of $201.94 billion.",
+    "derivation": "Specific marketing spend for Amazon Now is not separately disclosed in Amazon's consolidated financial reporting. Range is modeled based on standard quick commerce customer acquisition and retention ad spend estimates relative to parent retail operations.",
     "source": null
   },
   "trend_history": {
@@ -85,6 +61,10 @@
         "value": 256
       },
       {
+        "date": "2026-10-27",
+        "value": 253.1
+      },
+      {
         "date": "2026-10-28",
         "value": 255.09
       },
@@ -103,6 +83,10 @@
       {
         "date": "2026-11-12",
         "value": 267.14
+      },
+      {
+        "date": "2026-11-13",
+        "value": 266.66
       }
     ],
     "revenue": [
@@ -144,7 +128,7 @@
       },
       {
         "period": "Q2 2026",
-        "value": 200600000000
+        "value": 200606000000
       },
       {
         "period": "Q3 2026",
@@ -154,19 +138,19 @@
   },
   "business_updates": [
     {
-      "headline": "Amazon.com Announces Third Quarter 2026 Results with Highest Operating Margin Ever",
+      "headline": "Amazon Reports Third Quarter 2026 Results with Record 13.9% Operating Margin",
       "date": "2026-10-29",
       "source": {
-        "name": "Amazon IR",
+        "name": "Amazon.com, Inc.",
         "url": "https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-Third-Quarter-Results/default.aspx"
       }
     },
     {
-      "headline": "AWS net sales increased 39.3% in Q3 2026 to $184 billion annualized revenue run rate",
-      "date": "2026-10-29",
+      "headline": "Amazon's Ring Debuts Autonomous Security Products With Flying Drone and Robot",
+      "date": "2026-11-13",
       "source": {
-        "name": "SEC EDGAR",
-        "url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000038/amzn-20260930xex991.htm"
+        "name": "Morningstar",
+        "url": "https://www.morningstar.com/stocks/xnas/amzn/quote"
       }
     }
   ]

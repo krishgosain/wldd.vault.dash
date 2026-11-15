@@ -4,15 +4,15 @@
   "parent": "Bajaj Auto Ltd.",
   "entity_type": "public_parent",
   "category": "Auto / EV",
-  "description": "Bajaj EV is the electric vehicle division and product line of listed Indian two-wheeler and three-wheeler manufacturer Bajaj Auto Ltd.",
-  "last_refreshed": "2026-11-12T11:51:29.800Z",
+  "description": "Bajaj EV is the electric vehicle brand division of Bajaj Auto Ltd., an Indian multinational automotive manufacturing company.",
+  "last_refreshed": "2026-11-15T11:24:49.262Z",
   "stock": {
     "applicable": false,
-    "value": 11040,
+    "value": null,
     "currency": "INR",
-    "ticker": "BAJAJ-AUTO.NS",
-    "as_of": "2026-11-12",
-    "note": "Reflects parent company Bajaj Auto Ltd, not this brand specifically.",
+    "ticker": null,
+    "as_of": "2026-11-11",
+    "note": "Bajaj EV is an operating division of parent Bajaj Auto Ltd. (BAJAJ-AUTO.NS), which trades at ₹11,040.00 as of Nov 11, 2026.",
     "confidence": "not_applicable"
   },
   "revenue": {
@@ -34,13 +34,17 @@
     "confidence": "not_found"
   },
   "marketing_spend": {
-    "value_low": 1500000000,
-    "value_high": 3000000000,
+    "value_low": 9057900000,
+    "value_high": 15096500000,
     "currency": "INR",
     "period": "FY2026",
     "tier": "3_modeled",
-    "derivation": "Modeled using automotive industry ad spend benchmarks (1.5% to 2.5% of revenue) applied to estimated EV segment scale within parent Bajaj Auto Ltd, as standalone marketing expenses for Bajaj EV are not separately disclosed.",
-    "source": null
+    "derivation": "Modeled by applying a standard automotive industry marketing-to-revenue ratio of 1.5% to 2.5% to parent company Bajaj Auto Ltd.'s FY2026 revenue of ₹603.86 billion, as segment-specific EV ad spend is not separately disclosed.",
+    "source": {
+      "name": "Bajaj Auto Ltd (BAJAJ-AUTO) Stock Price & News - Google Finance",
+      "url": "https://www.google.com/finance/quote/BAJAJ-AUTO:NSE",
+      "date": "2026-11-11"
+    }
   },
   "trend_history": {
     "stock": [
@@ -73,8 +77,20 @@
         "value": 10900
       },
       {
+        "date": "2026-11-09",
+        "value": 10979
+      },
+      {
+        "date": "2026-11-11",
+        "value": 11040
+      },
+      {
         "date": "2026-11-12",
         "value": 11040
+      },
+      {
+        "date": "2026-11-13",
+        "value": 10850
       }
     ],
     "revenue": [
@@ -95,12 +111,16 @@
         "value": 166404900000
       },
       {
+        "period": "FY2023",
+        "value": 364553800000
+      },
+      {
         "period": "FY2024",
-        "value": 448700000000
+        "value": 448704300000
       },
       {
         "period": "FY2025",
-        "value": 509950000000
+        "value": 509945500000
       },
       {
         "period": "FY2025 (EV segment)",
@@ -108,7 +128,7 @@
       },
       {
         "period": "FY2026",
-        "value": 47170000000
+        "value": 603860000000
       },
       {
         "period": "Jun 2026",
@@ -126,11 +146,27 @@
   },
   "business_updates": [
     {
-      "headline": "Bajaj Auto Ltd. revealed earnings for its second quarter that increased from the same period last year",
-      "date": "2026-11-06",
+      "headline": "Bain Capital-backed Dhoot Transmission bets on India EV shift to drive growth",
+      "date": "2026-08-11",
       "source": {
-        "name": "RTTNews",
-        "url": "https://www.rttnews.com/companies/31659/bajaj-auto-ltd-532977"
+        "name": "Reuters via Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/BAJAJ-AUTO.NS/latest-news"
+      }
+    },
+    {
+      "headline": "Indian EV startup River raises $120M Series C to scale production, launch more models",
+      "date": "2026-08-11",
+      "source": {
+        "name": "TechCrunch via Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/BAJAJ-AUTO.NS/latest-news"
+      }
+    },
+    {
+      "headline": "Bajaj’s Motorcycle Exports Just Keep Going Up, And Up, And Up.",
+      "date": "2026-02-11",
+      "source": {
+        "name": "RideApart via Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/BAJAJ-AUTO.NS/latest-news"
       }
     }
   ]

@@ -4,58 +4,64 @@
   "parent": "FSN E-Commerce Ventures Ltd.",
   "entity_type": "public_standalone",
   "category": "E-commerce / Beauty",
-  "description": "Nykaa is an Indian specialty beauty, wellness, and fashion e-commerce retailer owned by listed parent company FSN E-Commerce Ventures Ltd.",
-  "last_refreshed": "2026-11-14T10:48:18.897Z",
+  "description": "Nykaa is an Indian beauty, fashion, and personal care e-commerce platform operated by parent company FSN E-Commerce Ventures Ltd.",
+  "last_refreshed": "2026-11-15T11:27:57.394Z",
   "stock": {
     "applicable": true,
-    "value": 353.9,
+    "value": 365.2,
     "currency": "INR",
     "ticker": "NYKAA.NS",
-    "as_of": "2026-11-14",
-    "note": "Reflects the ticker NYKAA.NS for parent entity FSN E-Commerce Ventures Ltd. on the National Stock Exchange of India.",
+    "as_of": "2026-11-13",
+    "note": "Reflects parent company FSN E-Commerce Ventures Ltd.",
     "confidence": "disclosed"
   },
   "revenue": {
-    "value": 100220000000,
+    "value": 23460000000,
     "currency": "INR",
-    "period": "FY2026",
+    "period": "Q2 FY26",
     "confidence": "disclosed",
     "source": {
-      "name": "Stock Analysis",
-      "url": "https://stockanalysis.com/quote/nse/NYKAA",
-      "date": "2026-11-14"
+      "name": "Indian Startup News",
+      "url": "https://www.linkedin.com/posts/indianstartupnews_nykaa-business-beauty-activity-7392898306613538816-Wn-B",
+      "date": ""
     }
   },
   "operating_profit": {
-    "value": 7285600256,
-    "currency": "INR",
-    "period": "TTM",
-    "confidence": "disclosed",
-    "source": {
-      "name": "Yahoo Finance",
-      "url": "https://finance.yahoo.com/quote/NYKAA.NS",
-      "date": "2026-11-14"
-    }
+    "value": null,
+    "currency": "USD",
+    "period": "",
+    "confidence": "not_found",
+    "source": null
   },
   "expenses": {
-    "breakdown": [],
-    "confidence": "not_found"
+    "breakdown": [
+      {
+        "label": "Marketing expenses",
+        "value": 3680000000,
+        "confidence": "disclosed"
+      }
+    ],
+    "confidence": "disclosed"
   },
   "marketing_spend": {
-    "value_low": 10000000000,
-    "value_high": 12000000000,
+    "value_low": 3680000000,
+    "value_high": 3680000000,
     "currency": "INR",
-    "period": "FY2026",
-    "tier": "3_modeled",
-    "derivation": "Estimated by applying an Indian e-commerce beauty industry benchmark marketing-to-revenue range of 10% to 12% against FSN E-Commerce Ventures' disclosed FY2026 revenue of INR 100.22 billion.",
+    "period": "Q2 FY26",
+    "tier": "1_disclosed",
+    "derivation": "Disclosed marketing expenses of ₹368 crore in Q2 FY26 reporting by parent company FSN E-Commerce Ventures Ltd.",
     "source": {
-      "name": "Stock Analysis",
-      "url": "https://stockanalysis.com/quote/nse/NYKAA",
-      "date": "2026-11-14"
+      "name": "Indian Startup News",
+      "url": "https://www.linkedin.com/posts/indianstartupnews_nykaa-business-beauty-activity-7392898306613538816-Wn-B",
+      "date": ""
     }
   },
   "trend_history": {
     "stock": [
+      {
+        "date": "2026-01-13",
+        "value": 235
+      },
       {
         "date": "2026-02-06",
         "value": 268.52
@@ -85,6 +91,10 @@
         "value": 353
       },
       {
+        "date": "2026-11-13",
+        "value": 365.2
+      },
+      {
         "date": "2026-11-14",
         "value": 353.9
       }
@@ -100,19 +110,19 @@
       },
       {
         "period": "FY2023",
-        "value": 51440000000
+        "value": 51438000000
       },
       {
         "period": "FY2024",
-        "value": 63860000000
+        "value": 63856260000
       },
       {
         "period": "FY2025",
-        "value": 79500000000
+        "value": 79498200000
       },
       {
         "period": "FY2026",
-        "value": 100220000000
+        "value": 100223500000
       },
       {
         "period": "Jun 2026",
@@ -146,19 +156,19 @@
   },
   "business_updates": [
     {
-      "headline": "Nykaa completed acquisition of a 51% stake in Aminu Wellness, making it a subsidiary.",
-      "date": "2026-09-24",
+      "headline": "Nykaa parent FSN E-Commerce Ventures reports 25% revenue jump in Q2 FY26",
+      "date": "",
       "source": {
-        "name": "Screener",
-        "url": "https://www.screener.in/company/NYKAA/consolidated"
+        "name": "Indian Startup News",
+        "url": "https://www.linkedin.com/posts/indianstartupnews_nykaa-business-beauty-activity-7392898306613538816-Wn-B"
       }
     },
     {
-      "headline": "Nykaa and L’Oréal’s BOLD fund announced joint venture to invest in Indian beauty and wellness startups.",
-      "date": "2026-09-24",
+      "headline": "Nykaa expects Q1 revenue growth near 30% on fashion rebound",
+      "date": "2026-07-05",
       "source": {
-        "name": "Screener",
-        "url": "https://www.screener.in/company/NYKAA/consolidated"
+        "name": "Livemint",
+        "url": "https://www.livemint.com/fsn-e-commerce-ventures/news/companyid-s0005167"
       }
     }
   ]

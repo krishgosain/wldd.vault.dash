@@ -4,15 +4,15 @@
   "parent": "Kiranakart Technologies Pvt Ltd",
   "entity_type": "india_private_registered",
   "category": "Quick Commerce",
-  "description": "Zepto is an Indian quick-commerce brand operated by Kiranakart Technologies Pvt Ltd that delivers groceries, fresh food, and electronics within minutes through a network of micro-warehouses.",
-  "last_refreshed": "2026-11-12T11:53:25.931Z",
+  "description": "Zepto is an Indian quick-commerce brand offering 10-minute grocery and daily essentials delivery, owned and operated by Kiranakart Technologies Pvt Ltd.",
+  "last_refreshed": "2026-11-15T11:27:02.761Z",
   "stock": {
     "applicable": false,
     "value": null,
     "currency": "INR",
     "ticker": null,
     "as_of": null,
-    "note": "Unlisted Indian private company",
+    "note": "Private registered entity in India; pre-IPO stage.",
     "confidence": "not_applicable"
   },
   "revenue": {
@@ -38,25 +38,35 @@
     }
   },
   "expenses": {
-    "breakdown": [],
-    "confidence": "not_found"
+    "breakdown": [
+      {
+        "label": "Advertising and promotion spend",
+        "value": 13890000000,
+        "confidence": "disclosed"
+      }
+    ],
+    "confidence": "disclosed"
   },
   "marketing_spend": {
-    "value_low": 12000000000,
-    "value_high": 16000000000,
+    "value_low": 13890000000,
+    "value_high": 13890000000,
     "currency": "INR",
     "period": "FY2026",
-    "tier": "3_modeled",
-    "derivation": "Estimated at approximately 10–14% of FY2026 operating revenue (₹115.5 billion), supported by disclosures that Zepto's advertising revenue of ₹16.4 billion (₹1,636 crore) exceeded its own total ad and promotion spend.",
+    "tier": "1_disclosed",
+    "derivation": "Disclosed directly in Zepto's regulatory IPO filings, which stated that the company spent ₹1,389 crore on advertising itself during FY2026 to attract and retain users.",
     "source": {
-      "name": "Facebook / DRHP Analysis",
-      "url": "https://www.facebook.com/varun3883/videos/49-crore-to-1636-crore-thats-zeptos-ad-income-in-two-years-it-now-beats-zeptos-o/2400986484048629",
-      "date": "2026-06-19"
+      "name": "LinkedIn / Zepto DRHP Filing",
+      "url": "https://www.linkedin.com/posts/sushant-futureblink_zepto-loses-money-on-your-groceries-brands-activity-7516463309898956801-DCCS",
+      "date": ""
     }
   },
   "trend_history": {
     "stock": [],
     "revenue": [
+      {
+        "period": "FY2023",
+        "value": 20260000000
+      },
       {
         "period": "FY2024",
         "value": 44550000000
@@ -73,7 +83,7 @@
   },
   "business_updates": [
     {
-      "headline": "Zepto files draft IPO prospectus revealing 104% operating revenue growth to ₹115.5 billion in FY2026",
+      "headline": "Zepto advertising revenue reaches ₹1,636 crore in FY2026, surpassing its own self-advertising spend for the first time",
       "date": "2026-06-09",
       "source": {
         "name": "Yahoo Finance",
@@ -81,11 +91,11 @@
       }
     },
     {
-      "headline": "Zepto launches transformer-based dual-sequence reranker for personalized rankings",
-      "date": "2026-06-25",
+      "headline": "Zepto seeks ₹1,000 crore pre-IPO funding round ahead of prospective public listing",
+      "date": "2026-08-01",
       "source": {
-        "name": "ASCII",
-        "url": "https://leadiq.com/c/zepto/61813f69990e636b3e3e93db"
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Zepto_(company)"
       }
     }
   ]

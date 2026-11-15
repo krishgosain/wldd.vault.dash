@@ -4,15 +4,15 @@
   "parent": "Tata Group",
   "entity_type": "public_standalone",
   "category": "IT Services",
-  "description": "Tata Consultancy Services (TCS) is a major Indian multinational information technology services and consulting company, operating as a publicly traded company controlled by Tata Sons (Tata Group).",
-  "last_refreshed": "2026-11-12T11:52:46.961Z",
+  "description": "Tata Consultancy Services (TCS) is a global IT services, consulting, and business solutions organisation, majority-owned by Tata Sons under the Tata Group.",
+  "last_refreshed": "2026-11-15T11:26:27.422Z",
   "stock": {
     "applicable": true,
-    "value": 2442.4,
+    "value": 2407.5,
     "currency": "INR",
     "ticker": "TCS.NS",
-    "as_of": "2026-11-12",
-    "note": "Traded on National Stock Exchange of India (NSE) and BSE.",
+    "as_of": "2026-11-13",
+    "note": "Traded on the National Stock Exchange of India (NSE)",
     "confidence": "disclosed"
   },
   "revenue": {
@@ -22,8 +22,8 @@
     "confidence": "disclosed",
     "source": {
       "name": "Yahoo Finance",
-      "url": "https://finance.yahoo.com/quote/TCS.NS?p=TCS.NS",
-      "date": "2026-11-12"
+      "url": "https://finance.yahoo.com/quote/TCS.NS?ltr=1",
+      "date": "2026-11-15"
     }
   },
   "operating_profit": {
@@ -32,9 +32,9 @@
     "period": "FY2026",
     "confidence": "disclosed",
     "source": {
-      "name": "Wikipedia - Tata Consultancy Services",
+      "name": "Wikipedia",
       "url": "https://en.wikipedia.org/wiki/Tata_Consultancy_Services",
-      "date": "2026-11-12"
+      "date": "2026-11-15"
     }
   },
   "expenses": {
@@ -43,11 +43,11 @@
   },
   "marketing_spend": {
     "value_low": 13351050000,
-    "value_high": 40053150000,
+    "value_high": 26702100000,
     "currency": "INR",
     "period": "FY2026",
     "tier": "3_modeled",
-    "derivation": "Estimated using an enterprise B2B IT services benchmark ratio of 0.5% to 1.5% applied to TCS's FY2026 revenue of ₹2,670,210,000,000 INR.",
+    "derivation": "Modeled assuming a standard B2B IT services marketing-to-revenue benchmark range of 0.5% to 1.0% applied to FY2026 revenue of ₹2,670,210,000,000.",
     "source": null
   },
   "trend_history": {
@@ -69,6 +69,10 @@
         "value": 2075
       },
       {
+        "date": "2026-10-29",
+        "value": 2478
+      },
+      {
         "date": "2026-10-30",
         "value": 2502.6
       },
@@ -81,12 +85,28 @@
         "value": 2501.7
       },
       {
+        "date": "2026-11-03",
+        "value": 2499.1
+      },
+      {
+        "date": "2026-11-04",
+        "value": 2436
+      },
+      {
+        "date": "2026-11-05",
+        "value": 2495.7
+      },
+      {
         "date": "2026-11-06",
         "value": 2498.5
       },
       {
         "date": "2026-11-12",
         "value": 2442.4
+      },
+      {
+        "date": "2026-11-13",
+        "value": 2407.5
       }
     ],
     "revenue": [
@@ -166,14 +186,6 @@
   },
   "business_updates": [
     {
-      "headline": "TCS Enterprise AI Study: 84% say productivity is AI’s top benefit; just 10% let AI act without human oversight",
-      "date": "2026-11-04",
-      "source": {
-        "name": "TCS Investor Relations",
-        "url": "https://www.tcs.com/investor-relations"
-      }
-    },
-    {
       "headline": "TCS partners with Zoho Corp’s ManageEngine to supercharge sovereign cloud adoption in India",
       "date": "2026-10-13",
       "source": {
@@ -184,6 +196,14 @@
     {
       "headline": "TCS and IEM Kolkata partner to establish an AI-focused Centre of Excellence to advance industry-academia innovation",
       "date": "2026-09-28",
+      "source": {
+        "name": "TCS Investor Relations",
+        "url": "https://www.tcs.com/investor-relations"
+      }
+    },
+    {
+      "headline": "TCS launches next-gen system-on-chip design services for automotive and semiconductor companies",
+      "date": "2026-09-17",
       "source": {
         "name": "TCS Investor Relations",
         "url": "https://www.tcs.com/investor-relations"

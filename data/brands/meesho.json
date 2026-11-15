@@ -4,37 +4,37 @@
   "parent": null,
   "entity_type": "public_standalone",
   "category": "E-commerce",
-  "description": "Meesho Limited (formerly Fashnear Technologies Private Limited) is an Indian social e-commerce and value marketplace platform connecting buyers, small businesses, and logistics partners.",
-  "last_refreshed": "2026-11-14T10:49:53.911Z",
+  "description": "Meesho is an Indian value-focused e-commerce marketplace platform.",
+  "last_refreshed": "2026-11-15T11:29:52.634Z",
   "stock": {
     "applicable": true,
     "value": 257.99,
     "currency": "INR",
     "ticker": "MEESHO.NS",
-    "as_of": "2026-11-14",
-    "note": "Reflects Meesho Limited share price on NSE",
+    "as_of": null,
+    "note": "Listed on NSE and BSE on December 10, 2025 following its initial public offering.",
     "confidence": "disclosed"
   },
   "revenue": {
-    "value": 42590000000,
+    "value": 126263480000,
     "currency": "INR",
-    "period": "Q2 FY2027",
+    "period": "FY2026",
     "confidence": "disclosed",
     "source": {
-      "name": "Trendlyne",
-      "url": "https://trendlyne.com/equity/3346816/MEESHO/meesho-ltd",
-      "date": "2026-10-28"
+      "name": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/MEESHO.NS",
+      "date": ""
     }
   },
   "operating_profit": {
-    "value": -1017400000,
+    "value": -14850000000,
     "currency": "INR",
-    "period": "Q2 FY2027",
+    "period": "FY2026",
     "confidence": "disclosed",
     "source": {
-      "name": "Trendlyne",
-      "url": "https://trendlyne.com/equity/3346816/MEESHO/meesho-ltd",
-      "date": "2026-10-28"
+      "name": "Screener",
+      "url": "https://www.screener.in/company/MEESHO/consolidated",
+      "date": ""
     }
   },
   "expenses": {
@@ -42,19 +42,31 @@
     "confidence": "not_found"
   },
   "marketing_spend": {
-    "value_low": 22000000000,
-    "value_high": 29000000000,
+    "value_low": 18939000000,
+    "value_high": 25252000000,
     "currency": "INR",
     "period": "FY2026",
     "tier": "3_modeled",
-    "derivation": "Modeled at 15-20% of annual revenue (approx. ₹14,893 Cr) based on e-commerce industry benchmarks during high-growth customer acquisition phases.",
-    "source": null
+    "derivation": "Modeled by applying a category-typical 15% to 20% marketing-to-revenue ratio for consumer e-commerce platforms to Meesho's FY2026 consolidated revenue of ₹12,626 crore.",
+    "source": {
+      "name": "Screener",
+      "url": "https://www.screener.in/company/MEESHO/consolidated",
+      "date": ""
+    }
   },
   "trend_history": {
     "stock": [
       {
+        "date": "2025-12-10",
+        "value": 162.5
+      },
+      {
         "date": "2025-12-18",
         "value": 254.4
+      },
+      {
+        "date": "2026-01-21",
+        "value": 257.99
       },
       {
         "date": "2026-03-16",
@@ -104,15 +116,19 @@
       },
       {
         "period": "FY2023",
-        "value": 58980000000
+        "value": 57350000000
       },
       {
         "period": "FY2024",
-        "value": 78592000000
+        "value": 76150000000
       },
       {
         "period": "FY2025",
-        "value": 99010000000
+        "value": 93900000000
+      },
+      {
+        "period": "FY2026",
+        "value": 126260000000
       },
       {
         "period": "FY25",
@@ -146,19 +162,19 @@
   },
   "business_updates": [
     {
-      "headline": "Meesho acquires majority stake in Kirana Club and RPLPL",
-      "date": "2026-11-08",
+      "headline": "India's e-commerce firm Meesho draws $28 billion in IPO as institutional investors pile in",
+      "date": "2025-12-05",
       "source": {
-        "name": "Retail Insight Network",
-        "url": "https://finance.yahoo.com/quote/MEESHO.NS/latest-news"
+        "name": "Yahoo Finance / Reuters",
+        "url": "https://sg.finance.yahoo.com/news/indias-e-commerce-firm-meesho-144000376.html"
       }
     },
     {
-      "headline": "India’s Meesho to acquire B2B commerce platform Kirana Club",
-      "date": "2026-11-08",
+      "headline": "UBS raises target price for Meesho following positive outlook on margin improvement and sales growth",
+      "date": "",
       "source": {
-        "name": "Retail Insight Network",
-        "url": "https://finance.yahoo.com/quote/MEESHO.NS/latest-news"
+        "name": "Biz Tak",
+        "url": "https://www.facebook.com/biztakofficial/posts/shares-of-meesho-an-e-commerce-company-included-in-the-nifty-smallcap-100-index-/1587835040025476"
       }
     }
   ]
