@@ -4,37 +4,37 @@
   "parent": null,
   "entity_type": "public_standalone",
   "category": "OTT",
-  "description": "Netflix, Inc. is a global media services and over-the-top (OTT) streaming provider offering subscription-based video on demand.",
-  "last_refreshed": "2026-11-14T10:53:15.582Z",
+  "description": "Netflix, Inc. is a standalone public entertainment company providing subscription video-on-demand streaming services globally.",
+  "last_refreshed": "2026-11-22T11:52:10.872Z",
   "stock": {
     "applicable": true,
-    "value": 69.81,
+    "value": 61.98,
     "currency": "USD",
     "ticker": "NFLX",
-    "as_of": "2026-10-19",
-    "note": "Reflects Netflix, Inc. common stock price on NASDAQ.",
+    "as_of": "2026-11-15",
+    "note": "Traded on NASDAQ under ticker symbol NFLX.",
     "confidence": "disclosed"
   },
   "revenue": {
-    "value": 45200000000,
+    "value": 45180000000,
     "currency": "USD",
     "period": "FY2025",
     "confidence": "disclosed",
     "source": {
-      "name": "StockTitan",
-      "url": "https://www.stocktitan.net/overview/NFLX",
-      "date": "2026-10-19"
+      "name": "Tavily Knowledge / Netflix",
+      "url": "https://tavily.com/knowledge/company/NIwgV0rP9so8",
+      "date": "unknown"
     }
   },
   "operating_profit": {
-    "value": 13300000000,
+    "value": 13330000000,
     "currency": "USD",
     "period": "FY2025",
     "confidence": "disclosed",
     "source": {
-      "name": "StockTitan",
-      "url": "https://www.stocktitan.net/overview/NFLX",
-      "date": "2026-10-19"
+      "name": "Tavily Knowledge / Netflix",
+      "url": "https://tavily.com/knowledge/company/NIwgV0rP9so8",
+      "date": "unknown"
     }
   },
   "expenses": {
@@ -42,12 +42,12 @@
     "confidence": "not_found"
   },
   "marketing_spend": {
-    "value_low": 3616000000,
-    "value_high": 4520000000,
+    "value_low": 3614400000,
+    "value_high": 4518000000,
     "currency": "USD",
     "period": "FY2025",
     "tier": "3_modeled",
-    "derivation": "Estimated at 8%-10% of total FY2025 revenue ($45.2B), typical for large global subscription video on demand (SVOD) streaming providers.",
+    "derivation": "Modeled using a standard industry marketing-to-revenue ratio of 8% to 10% for global OTT streaming platforms, applied to Netflix's reported FY2025 annual revenue of $45.18 billion USD.",
     "source": null
   },
   "trend_history": {
@@ -91,6 +91,10 @@
       {
         "date": "2026-11-05",
         "value": 65.56
+      },
+      {
+        "date": "2026-11-15",
+        "value": 61.98
       }
     ],
     "revenue": [
@@ -174,27 +178,27 @@
   },
   "business_updates": [
     {
-      "headline": "Netflix Q3 2026 revenue rises 12% to $12.9B, lowering 2026 ad revenue target to $2.7B due to slower ad-product rollout",
-      "date": "2026-10-19",
+      "headline": "Piper Sandler lowers Netflix stock price target to $103 due to content spend and investments",
+      "date": "unknown",
       "source": {
-        "name": "StockTitan",
-        "url": "https://www.stocktitan.net/news/NFLX/netflix-q3-2026-earnings-revenue-12-billion-35pct-margin.html"
+        "name": "Investing.com",
+        "url": "https://ca.investing.com/news/analyst-ratings/netflix-stock-price-target-lowered-to-103-by-piper-sandler-on-content-spend-93CH-4411658"
       }
     },
     {
-      "headline": "Netflix announces plans to reduce approximately 1,000 corporate positions globally",
-      "date": "2026-10-15",
+      "headline": "Netflix announced plans to reduce approximately 1,000 corporate positions globally",
+      "date": "unknown",
       "source": {
         "name": "TradingKey",
-        "url": "https://www.tradingkey.com/markets/stocks/nasdaq-nflx"
+        "url": "https://tradingkey.com/markets/stocks/nasdaq-nflx"
       }
     },
     {
-      "headline": "Netflix Q3 2026 advertising revenue grows over 80% with India revenue up nearly 20%",
-      "date": "2026-10-21",
+      "headline": "Netflix reports over 80% advertising growth in Q3 2026 earnings call",
+      "date": "unknown",
       "source": {
         "name": "TradingKey",
-        "url": "https://www.tradingkey.com/markets/stocks/nasdaq-nflx"
+        "url": "http://www.tradingkey.com/markets/stocks/nasdaq-nflx"
       }
     }
   ]

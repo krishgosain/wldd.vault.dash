@@ -1,37 +1,66 @@
 {
   "name": "Instagram",
   "slug": "instagram",
-  "parent": "Meta Platforms",
+  "parent": "Meta Platforms, Inc.",
   "entity_type": "public_parent",
   "category": "Social",
-  "description": "Instagram is a social networking and video/photo-sharing platform owned by parent company Meta Platforms, Inc.",
-  "last_refreshed": "2026-11-14T10:51:17.694Z",
+  "description": "Instagram is a leading photo and short-form video sharing social network owned by parent company Meta Platforms, Inc.",
+  "last_refreshed": "2026-11-22T11:50:25.367Z",
   "stock": {
     "applicable": false,
     "value": null,
     "currency": "USD",
     "ticker": null,
     "as_of": null,
-    "note": "Instagram is a product/subsidiary of Meta Platforms (NASDAQ: META) and does not trade under a standalone ticker.",
+    "note": "Instagram is a division of Meta Platforms, Inc. (NASDAQ: META) and does not trade independently.",
     "confidence": "not_applicable"
   },
   "revenue": {
-    "value": null,
+    "value": 64601000000,
     "currency": "USD",
     "period": "Q3 2026",
-    "confidence": "not_found",
-    "source": null
+    "confidence": "disclosed",
+    "source": {
+      "name": "Meta Reports Third Quarter 2026 Results",
+      "url": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Third-Quarter-2026-Results/default.aspx",
+      "date": "2026-09-30"
+    }
   },
   "operating_profit": {
-    "value": null,
+    "value": 12988000000,
     "currency": "USD",
     "period": "Q3 2026",
-    "confidence": "not_found",
-    "source": null
+    "confidence": "disclosed",
+    "source": {
+      "name": "Meta Reports Third Quarter 2026 Results",
+      "url": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Third-Quarter-2026-Results/default.aspx",
+      "date": "2026-09-30"
+    }
   },
   "expenses": {
-    "breakdown": [],
-    "confidence": "not_found"
+    "breakdown": [
+      {
+        "label": "Cost of revenue",
+        "value": 13369000000,
+        "confidence": "disclosed"
+      },
+      {
+        "label": "Research and development",
+        "value": 20054000000,
+        "confidence": "disclosed"
+      },
+      {
+        "label": "Marketing and sales",
+        "value": 3333000000,
+        "confidence": "disclosed"
+      },
+      {
+        "label": "General and administrative",
+        "value": 14857000000,
+        "confidence": "disclosed"
+      }
+    ],
+    "confidence": "disclosed"
   },
   "marketing_spend": {
     "value_low": 3333000000,
@@ -39,7 +68,7 @@
     "currency": "USD",
     "period": "Q3 2026",
     "tier": "1_disclosed",
-    "derivation": "Disclosed in Meta Platforms' Q3 2026 financial results under consolidated 'Marketing and sales' expenses of $3,333 million.",
+    "derivation": "Meta Platforms disclosed total Marketing and sales expenses of $3,333 million in its Q3 2026 quarterly results filing.",
     "source": {
       "name": "Meta Reports Third Quarter 2026 Results",
       "url": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Third-Quarter-2026-Results/default.aspx",
@@ -48,6 +77,10 @@
   },
   "trend_history": {
     "stock": [
+      {
+        "date": "2026-01-15",
+        "value": 645
+      },
       {
         "date": "2026-09-08",
         "value": 613.26
@@ -91,6 +124,10 @@
         "value": 59893000000
       },
       {
+        "period": "FY 2025",
+        "value": 200970000000
+      },
+      {
         "period": "FY2021",
         "value": 32000000000
       },
@@ -115,8 +152,16 @@
         "value": 56310000000
       },
       {
+        "period": "Q2 2025",
+        "value": 47520000000
+      },
+      {
         "period": "Q2 2026",
         "value": 60800000000
+      },
+      {
+        "period": "Q3 2025",
+        "value": 51242000000
       },
       {
         "period": "Q3 2026",
@@ -126,26 +171,18 @@
   },
   "business_updates": [
     {
-      "headline": "Meta reports Q3 2026 total revenue of $64.60 billion, up 26% year-over-year",
+      "headline": "Meta Reports Q3 2026 Total Revenue of $64.60 Billion, Up 26% Year-Over-Year",
       "date": "2026-09-30",
       "source": {
-        "name": "Meta Investor Relations",
+        "name": "Meta Reports Third Quarter 2026 Results",
         "url": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Third-Quarter-2026-Results/default.aspx"
       }
     },
     {
-      "headline": "Meta plans $60 billion to $65 billion in 2025 capital expenditures to expand AI infrastructure",
-      "date": "2025-01-01",
+      "headline": "Meta Launches Full-Screen Video Player and Unified Recommendation System to Drive Instagram Engagement",
+      "date": "2026-09-20",
       "source": {
-        "name": "Yahoo Finance",
-        "url": "https://ca.finance.yahoo.com/news/jim-cramer-meta-platforms-meta-201628463.html"
-      }
-    },
-    {
-      "headline": "Meta launches unified video recommendation system and full-screen video player to boost Reels engagement",
-      "date": "2024-07-31",
-      "source": {
-        "name": "Yahoo Finance",
+        "name": "Analyst revisits Meta stock price target as Facebook parent ramps AI spend",
         "url": "https://finance.yahoo.com/news/analyst-revisits-meta-stock-price-150701674.html"
       }
     }

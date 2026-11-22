@@ -1,29 +1,29 @@
 {
   "name": "Agilitas",
   "slug": "agilitas",
-  "parent": "Agilitas Sports Private Limited",
+  "parent": "Agilitas Sports Pvt Ltd",
   "entity_type": "india_private_registered",
   "category": "Footwear / Sports",
-  "description": "Agilitas is an Indian sports footwear and athletic performance gear brand operated by Agilitas Sports Private Limited.",
-  "last_refreshed": "2026-11-15T11:25:15.738Z",
+  "description": "Agilitas is an Indian sports footwear and sportswear platform operating a vertically integrated ecosystem from manufacturing to retail and brand management under parent Agilitas Sports Pvt Ltd.",
+  "last_refreshed": "2026-11-22T11:55:29.820Z",
   "stock": {
     "applicable": false,
     "value": null,
     "currency": "INR",
     "ticker": null,
     "as_of": null,
-    "note": "Agilitas Sports Private Limited is a privately held company and is not publicly listed.",
+    "note": "Not applicable as Agilitas Sports Private Limited is a privately held Indian company.",
     "confidence": "not_applicable"
   },
   "revenue": {
     "value": 10000000000,
     "currency": "INR",
     "period": "FY2025",
-    "confidence": "disclosed",
+    "confidence": "press_estimate",
     "source": {
       "name": "Tracxn",
       "url": "https://tracxn.com/d/companies/agilitas/__TSw7AGSFziiaFwBTtn9eb_qA2C_UcO1FMp0tD8E5a2Y",
-      "date": "2025-03-31"
+      "date": "2026-05-01"
     }
   },
   "operating_profit": {
@@ -38,17 +38,13 @@
     "confidence": "not_found"
   },
   "marketing_spend": {
-    "value_low": 700000000,
+    "value_low": 800000000,
     "value_high": 1200000000,
     "currency": "INR",
     "period": "FY2025",
     "tier": "3_modeled",
-    "derivation": "Modeled using an industry-standard 7% to 12% marketing-to-revenue benchmark for athletic footwear and sportswear brands applied against Agilitas' disclosed FY2025 revenue of ₹1,000+ Cr.",
-    "source": {
-      "name": "Tracxn",
-      "url": "https://tracxn.com/d/companies/agilitas/__TSw7AGSFziiaFwBTtn9eb_qA2C_UcO1FMp0tD8E5a2Y",
-      "date": "2025-03-31"
-    }
+    "derivation": "Modeled as 8% to 12% of the reported ₹1,000 crore FY2025 revenue, derived from industry benchmark advertising spend ratios for sportswear and footwear brands.",
+    "source": null
   },
   "trend_history": {
     "stock": [],
@@ -72,8 +68,16 @@
       "headline": "Virat Kohli's stake in Agilitas Sports rises to 6.4% following One8 merger",
       "date": "2026-10-30",
       "source": {
-        "name": "CBInsights",
+        "name": "CB Insights",
         "url": "https://www.cbinsights.com/company/agilitas-sports"
+      }
+    },
+    {
+      "headline": "Agilitas Sports raises ₹225 crore in funding round led by Nexus Venture Partners and Rainmatter",
+      "date": "2026-06-03",
+      "source": {
+        "name": "Retail News India",
+        "url": "https://apparelresources.com/business-news/retail/agilitas-sports-raises-us-23-51-million-retail-manufacturing-push"
       }
     }
   ]

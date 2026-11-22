@@ -1,18 +1,18 @@
 {
   "name": "Prime Video",
   "slug": "prime-video",
-  "parent": "Amazon.com, Inc.",
+  "parent": "Amazon",
   "entity_type": "public_parent",
   "category": "OTT",
-  "description": "Prime Video is an over-the-top subscription video-on-demand and streaming service owned and operated by Amazon.com, Inc.",
-  "last_refreshed": "2026-11-15T11:23:50.468Z",
+  "description": "Prime Video is a global subscription video-on-demand and live streaming service operated as a subsidiary business unit of Amazon (NASDAQ: AMZN).",
+  "last_refreshed": "2026-11-22T11:54:15.294Z",
   "stock": {
     "applicable": false,
     "value": null,
     "currency": "USD",
     "ticker": "AMZN",
-    "as_of": "2026-11-13",
-    "note": "Reflects parent company Amazon.com, Inc. (NASDAQ: AMZN), as Prime Video does not trade separately.",
+    "as_of": null,
+    "note": "Reflects parent company Amazon (NASDAQ: AMZN), not Prime Video specifically.",
     "confidence": "not_applicable"
   },
   "revenue": {
@@ -20,7 +20,11 @@
     "currency": "USD",
     "period": "Q3 2026",
     "confidence": "not_found",
-    "source": null
+    "source": {
+      "name": "Variety",
+      "url": "https://variety.com/2026/tv/news/prime-video-profitable-content-spending-q3-amazon-ceo-1236935186",
+      "date": "2026-10-29"
+    }
   },
   "operating_profit": {
     "value": null,
@@ -32,12 +36,12 @@
   "expenses": {
     "breakdown": [
       {
-        "label": "Q3 2026 Video and Music Expense",
+        "label": "Q3 2026 Total video and music expense",
         "value": 5900000000,
         "confidence": "disclosed"
       },
       {
-        "label": "9M 2026 Total Video and Music Expense",
+        "label": "First 9 months 2026 Total video and music expense",
         "value": 18800000000,
         "confidence": "disclosed"
       }
@@ -45,12 +49,12 @@
     "confidence": "disclosed"
   },
   "marketing_spend": {
-    "value_low": 2360000000,
-    "value_high": 3540000000,
+    "value_low": 2500000000,
+    "value_high": 3750000000,
     "currency": "USD",
     "period": "FY2026",
     "tier": "3_modeled",
-    "derivation": "Modeled by applying a typical 10% to 15% streaming marketing-to-content spend ratio against Amazon's annualized video and music expenses of $23.6 billion ($5.9 billion reported for Q3 2026).",
+    "derivation": "Modeled assuming marketing accounts for 10% to 15% of Amazon's annualized $25 billion video and music expense budget ($18.8 billion disclosed for 9M 2026).",
     "source": {
       "name": "Variety",
       "url": "https://variety.com/2026/tv/news/prime-video-profitable-content-spending-q3-amazon-ceo-1236935186",
@@ -145,7 +149,7 @@
   },
   "business_updates": [
     {
-      "headline": "Prime Video turns profitable with revenue run rate in the tens of billions of dollars, according to CEO Andy Jassy",
+      "headline": "Prime Video turns profitable in its own right with an annualized revenue run rate in the tens of billions",
       "date": "2026-10-29",
       "source": {
         "name": "Variety",
@@ -153,19 +157,19 @@
       }
     },
     {
-      "headline": "Amazon video and music expenses reach $5.9 billion in Q3 2026, up 7% year-over-year",
+      "headline": "Prime Video's Thursday Night Football averages 17.7 million viewers through first six games, up 16% YoY",
       "date": "2026-10-29",
       "source": {
-        "name": "Variety",
-        "url": "https://variety.com/2026/tv/news/prime-video-profitable-content-spending-q3-amazon-ceo-1236935186"
+        "name": "Amazon Investor Relations",
+        "url": "https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-Third-Quarter-Results"
       }
     },
     {
-      "headline": "Introduction of ads on Prime Video projected to generate up to $5 billion in incremental revenue",
-      "date": "2024-01-01",
+      "headline": "Prime Video ad tier reaches over 315 million monthly active users globally, ad-free option increased to $4.99/month",
+      "date": "2026-10-29",
       "source": {
-        "name": "Markets Insider",
-        "url": "https://markets.businessinsider.com/news/stocks/amazon-stock-prime-video-ads-profit-margins-advertisements-streaming-netflix-2024-1"
+        "name": "Investing.com",
+        "url": "https://www.investing.com/analysis/amazon-says-prime-video-revenue-is-running-at-tens-of-billions-200690565"
       }
     }
   ]

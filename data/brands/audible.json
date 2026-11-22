@@ -4,24 +4,24 @@
   "parent": "Amazon.com, Inc.",
   "entity_type": "public_parent",
   "category": "Audio Streaming",
-  "description": "Audible is a leading creator and provider of premium audio storytelling and audiobooks, operating as a wholly-owned subsidiary of public parent company Amazon.com, Inc.",
-  "last_refreshed": "2026-11-14T10:54:12.654Z",
+  "description": "Audible is an audiobook and audio entertainment streaming platform operated as a wholly-owned subsidiary of Amazon.com, Inc.",
+  "last_refreshed": "2026-11-22T11:53:00.247Z",
   "stock": {
     "applicable": false,
     "value": null,
     "currency": "USD",
     "ticker": null,
     "as_of": null,
-    "note": "Audible is a subsidiary of Amazon.com, Inc. (NASDAQ: AMZN) and does not have a separate stock ticker.",
+    "note": "Audible does not have its own stock ticker as it is a wholly-owned subsidiary of public parent Amazon.com, Inc. (NASDAQ: AMZN).",
     "confidence": "not_applicable"
   },
   "revenue": {
     "value": 200000000,
     "currency": "USD",
     "period": "Annual",
-    "confidence": "disclosed",
+    "confidence": "press_estimate",
     "source": {
-      "name": "Audible Knowledge Profile",
+      "name": "Audible Profile Data",
       "url": "https://tavily.com/knowledge/company/GGilaA4WIzuT",
       "date": "unknown"
     }
@@ -39,12 +39,16 @@
   },
   "marketing_spend": {
     "value_low": 30000000,
-    "value_high": 50000000,
+    "value_high": 40000000,
     "currency": "USD",
     "period": "Annual",
     "tier": "3_modeled",
-    "derivation": "Modeled using a category-typical digital audio/subscription streaming marketing expense ratio of 15% to 25% applied against Audible's reported annual revenue of $200 million USD.",
-    "source": null
+    "derivation": "Estimated using a 15% to 20% marketing-to-revenue ratio typical for consumer subscription and audio streaming software platforms, applied against Audible's estimated annual revenue of $200 million.",
+    "source": {
+      "name": "Audible Knowledge Base Profile",
+      "url": "https://tavily.com/knowledge/company/GGilaA4WIzuT",
+      "date": "unknown"
+    }
   },
   "trend_history": {
     "stock": [],
@@ -52,18 +56,10 @@
   },
   "business_updates": [
     {
-      "headline": "Audible opens NYC pop-up Audible Story House, a 6,000+ sq ft bookless bookstore and listening lounge",
-      "date": "2026-05-01",
-      "source": {
-        "name": "Stock Titan",
-        "url": "https://stocktitan.net/news/AMZN/audible-opens-doors-to-first-ever-bookless-u3mhx1sixmfd.html"
-      }
-    },
-    {
-      "headline": "Amazon completes tender offer to make Audible a wholly-owned subsidiary",
+      "headline": "Amazon completes tender offer and acquisition of Audible as a wholly-owned subsidiary",
       "date": "2008-02-11",
       "source": {
-        "name": "SEC Edgar Press Release",
+        "name": "SEC Edgar / Parent Press Release",
         "url": "https://www.sec.gov/Archives/edgar/data/1018724/000119312508062806/dex99a1j.htm"
       }
     }

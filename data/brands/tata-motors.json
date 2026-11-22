@@ -4,15 +4,15 @@
   "parent": "Tata Group",
   "entity_type": "public_standalone",
   "category": "Auto",
-  "description": "Tata Motors Ltd. is an Indian multinational automotive manufacturing enterprise and a part of the Tata Group conglomerate.",
-  "last_refreshed": "2026-11-14T10:52:20.118Z",
+  "description": "Tata Motors Ltd. is an Indian automotive manufacturing company producing commercial and passenger vehicles, operating as a part of Tata Group.",
+  "last_refreshed": "2026-11-22T11:51:11.399Z",
   "stock": {
     "applicable": true,
-    "value": 433.2,
+    "value": 406.45,
     "currency": "INR",
     "ticker": "TATAMOTORS.NS",
     "as_of": "2024-10-29",
-    "note": "Standalone public listing on National Stock Exchange of India",
+    "note": "Reflects Tata Motors Ltd share price on National Stock Exchange of India",
     "confidence": "disclosed"
   },
   "revenue": {
@@ -21,9 +21,9 @@
     "period": "FY2026",
     "confidence": "disclosed",
     "source": {
-      "name": "Tata Motors",
+      "name": "Tata Motors Knowledge Base",
       "url": "https://tavily.com/knowledge/company/aZ23s7vRWCxI",
-      "date": "2026"
+      "date": "2024-10-29"
     }
   },
   "operating_profit": {
@@ -32,9 +32,9 @@
     "period": "FY2026",
     "confidence": "disclosed",
     "source": {
-      "name": "Tata Motors",
+      "name": "Tata Motors Knowledge Base",
       "url": "https://tavily.com/knowledge/company/aZ23s7vRWCxI",
-      "date": "2026"
+      "date": "2024-10-29"
     }
   },
   "expenses": {
@@ -42,12 +42,12 @@
     "confidence": "not_found"
   },
   "marketing_spend": {
-    "value_low": 52500000000,
-    "value_high": 87500000000,
+    "value_low": 35000000000,
+    "value_high": 70000000000,
     "currency": "INR",
     "period": "FY2026",
     "tier": "3_modeled",
-    "derivation": "Calculated by applying an estimated 1.5% to 2.5% auto-industry marketing spend ratio to Tata Motors' reported FY2026 revenue of INR 3.50 Trillion.",
+    "derivation": "Estimated as 1% to 2% of annual revenue (3.50T INR), based on typical auto OEM advertising-to-revenue ratio benchmarks.",
     "source": null
   },
   "trend_history": {
@@ -61,6 +61,10 @@
         "value": 710
       },
       {
+        "date": "2025-06",
+        "value": 688
+      },
+      {
         "date": "2025-06-01",
         "value": 688
       },
@@ -69,8 +73,16 @@
         "value": 669
       },
       {
+        "date": "2025-09",
+        "value": 680.2
+      },
+      {
         "date": "2025-09-01",
         "value": 680.2
+      },
+      {
+        "date": "2025-10",
+        "value": 412.45
       },
       {
         "date": "2025-10-01",
@@ -111,6 +123,10 @@
       {
         "date": "2026-09-28",
         "value": 284.6
+      },
+      {
+        "date": "2026-10",
+        "value": 406.45
       },
       {
         "date": "2026-10-15",
@@ -172,22 +188,5 @@
       }
     ]
   },
-  "business_updates": [
-    {
-      "headline": "Tata Motors reports strong Q2 2027 revenue growth despite profit margin pressure from commodity inflation",
-      "date": "2026-09-30",
-      "source": {
-        "name": "Investing.com",
-        "url": "https://uk.investing.com/news/stock-market-news/earnings-call-transcript-tata-motors-posts-strong-q2-2027-growth-as-stock-falls-93CH-4928967"
-      }
-    },
-    {
-      "headline": "Tata Motors Passenger Vehicles Q1 profit falls 80.2% despite revenue rise to Rs957.99bn",
-      "date": "2026-06-30",
-      "source": {
-        "name": "Yahoo Finance",
-        "url": "https://finance.yahoo.com/markets/stocks/articles/tata-motors-q1-profit-falls-113035672.html"
-      }
-    }
-  ]
+  "business_updates": []
 }

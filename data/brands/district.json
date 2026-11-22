@@ -4,15 +4,15 @@
   "parent": "Eternal Ltd",
   "entity_type": "public_parent",
   "category": "Events / Ticketing",
-  "description": "District is an events, ticketing, entertainment, and dining-out discovery platform operated by Eternal Ltd (formerly Zomato).",
-  "last_refreshed": "2026-11-14T10:53:57.832Z",
+  "description": "District is an events, dining, and entertainment discovery platform operated as a business segment of public parent Eternal Ltd (formerly Zomato).",
+  "last_refreshed": "2026-11-22T11:52:47.888Z",
   "stock": {
     "applicable": false,
-    "value": 311.75,
+    "value": 364,
     "currency": "INR",
     "ticker": "ETERNAL.NS",
-    "as_of": null,
-    "note": "Reflects parent company (Eternal Ltd), not this brand specifically.",
+    "as_of": "2026-11-20",
+    "note": "Reflects parent company Eternal Ltd stock price, not District specifically.",
     "confidence": "not_applicable"
   },
   "revenue": {
@@ -38,13 +38,17 @@
     "confidence": "not_found"
   },
   "marketing_spend": {
-    "value_low": 277000000,
-    "value_high": 415500000,
+    "value_low": 415500000,
+    "value_high": 692500000,
     "currency": "INR",
     "period": "FY2026",
     "tier": "3_modeled",
-    "derivation": "Modeled as 10% to 15% of District's disclosed revenue of Rs 277 crore, aligned with standard marketing-to-revenue ratios for digital ticketing and event discovery platforms.",
-    "source": null
+    "derivation": "Modeled using a standard 15%-25% marketing-to-revenue ratio for digital ticketing and event discovery platforms, applied to District's disclosed segment revenue of ₹277 crore in FY2026.",
+    "source": {
+      "name": "Finology Ticker",
+      "url": "https://ticker.finology.in/company/ETERNAL",
+      "date": "2026-03-31"
+    }
   },
   "trend_history": {
     "stock": [
@@ -67,6 +71,10 @@
       {
         "date": "2026-11-08",
         "value": 363.15
+      },
+      {
+        "date": "2026-11-20",
+        "value": 364
       }
     ],
     "revenue": [
@@ -110,19 +118,11 @@
   },
   "business_updates": [
     {
-      "headline": "Eternal CEO Deepinder Goyal hands over reins to Blinkit chief as quick commerce takes off",
-      "date": "2026-01-01",
+      "headline": "Eternal Ltd reports District Net Order Value of ₹2,736 crore and segment revenue of ₹277 crore",
+      "date": "2026-03-31",
       "source": {
-        "name": "TechCrunch",
-        "url": "https://finance.yahoo.com/quote/ETERNAL.NS/latest-news"
-      }
-    },
-    {
-      "headline": "Zomato removes pricing penalty clause",
-      "date": "2026-04-01",
-      "source": {
-        "name": "Verdict Food Service",
-        "url": "https://finance.yahoo.com/quote/ETERNAL.NS/latest-news"
+        "name": "Finology Ticker",
+        "url": "https://ticker.finology.in/company/ETERNAL"
       }
     }
   ]

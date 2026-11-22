@@ -4,15 +4,15 @@
   "parent": "Krafton Inc.",
   "entity_type": "public_parent",
   "category": "Gaming",
-  "description": "BGMI (Battlegrounds Mobile India) is a mobile battle royale game developed and published by South Korean gaming company Krafton Inc.",
-  "last_refreshed": "2026-11-15T11:24:06.433Z",
+  "description": "BGMI (Battlegrounds Mobile India) is a mobile battle royale video game published by Krafton Inc., a publicly traded South Korean video game publisher.",
+  "last_refreshed": "2026-11-22T11:54:31.316Z",
   "stock": {
     "applicable": false,
-    "value": 199400,
+    "value": null,
     "currency": "KRW",
-    "ticker": "259960.KS",
-    "as_of": "2026-11-13",
-    "note": "Reflects parent company Krafton Inc. (259960.KS), not the BGMI game title directly.",
+    "ticker": null,
+    "as_of": null,
+    "note": "Reflects parent company Krafton Inc. (259960.KS), not BGMI directly.",
     "confidence": "not_applicable"
   },
   "revenue": {
@@ -34,13 +34,17 @@
     "confidence": "not_found"
   },
   "marketing_spend": {
-    "value_low": 500000000,
-    "value_high": 1000000000,
-    "currency": "INR",
+    "value_low": 166330000000,
+    "value_high": 332660000000,
+    "currency": "KRW",
     "period": "FY2025",
     "tier": "3_modeled",
-    "derivation": "BGMI marketing spend is not separately disclosed by Krafton Inc. The range is modeled using standard gaming industry digital user acquisition and promotion benchmarks (15-20% of estimated regional title revenue) in the Indian mobile gaming market.",
-    "source": null
+    "derivation": "Modeled assuming a standard gaming category marketing spend ratio of 5% to 10% applied to parent company Krafton Inc.'s FY2025 total revenue of 3.33 trillion KRW.",
+    "source": {
+      "name": "KRAFTON (KRX:259960) Stock Price & Overview",
+      "url": "https://stockanalysis.com/quote/krx/259960",
+      "date": "2026-02-09"
+    }
   },
   "trend_history": {
     "stock": [
@@ -146,19 +150,19 @@
   },
   "business_updates": [
     {
-      "headline": "Krafton reports record FY2025 revenue driven by PUBG IP franchise growth",
+      "headline": "KRAFTON publishes Q4 2025 annual report showing record revenue of 3.33T KRW driven by PUBG franchise growth",
       "date": "2026-02-09",
       "source": {
-        "name": "Stock Analysis / Krafton Earnings",
+        "name": "KRAFTON (KRX:259960) Stock Price & Overview",
         "url": "https://stockanalysis.com/quote/krx/259960"
       }
     },
     {
-      "headline": "Nexon-Krafton competition intensifies with focused investments in AI and profitability",
-      "date": "2026-11-10",
+      "headline": "KRAFTON posts Q2 2026 quarterly earnings slides citing strong PUBG performance and global expansion",
+      "date": "2026-07-29",
       "source": {
-        "name": "Google Finance",
-        "url": "https://www.google.com/finance/quote/259960:KRX"
+        "name": "KRAFTON (KRX:259960) Stock Price & Overview",
+        "url": "https://stockanalysis.com/quote/krx/259960"
       }
     }
   ]

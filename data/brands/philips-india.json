@@ -4,42 +4,50 @@
   "parent": "Koninklijke Philips N.V.",
   "entity_type": "india_private_registered",
   "category": "Consumer Electronics",
-  "description": "Philips India is the unlisted Indian operating subsidiary of Dutch healthcare technology and personal care company Koninklijke Philips N.V.",
-  "last_refreshed": "2026-11-14T10:52:38.691Z",
+  "description": "Philips India Limited is an unlisted Indian subsidiary of Netherlands-based health technology giant Koninklijke Philips N.V., operating across health systems, innovation services, and personal health.",
+  "last_refreshed": "2026-11-22T11:51:28.808Z",
   "stock": {
     "applicable": false,
     "value": null,
     "currency": "EUR",
     "ticker": null,
     "as_of": null,
-    "note": "Philips India is an unlisted entity in India; parent company Koninklijke Philips N.V. trades publicly under ticker PHIA.AS on Euronext Amsterdam and PHG on NYSE.",
+    "note": "Philips India Limited is an unlisted private subsidiary; parent entity Koninklijke Philips N.V. is listed on Euronext Amsterdam under ticker PHIA.AS.",
     "confidence": "not_applicable"
   },
   "revenue": {
-    "value": null,
+    "value": 65420000000,
     "currency": "INR",
-    "period": "FY2025",
-    "confidence": "not_found",
-    "source": null
+    "period": "FY2024-25",
+    "confidence": "disclosed",
+    "source": {
+      "name": "UnlistedZone",
+      "url": "https://unlistedzone.com/philips-india-limited-fy25-financial-performance-analysis",
+      "date": "2025-03-31"
+    }
   },
   "operating_profit": {
-    "value": null,
+    "value": 5910000000,
     "currency": "INR",
-    "period": "FY2025",
-    "confidence": "not_found",
-    "source": null
+    "period": "FY2024-25",
+    "confidence": "disclosed",
+    "source": {
+      "name": "UnlistedZone",
+      "url": "https://unlistedzone.com/philips-india-limited-fy25-financial-performance-analysis",
+      "date": "2025-03-31"
+    }
   },
   "expenses": {
     "breakdown": [],
     "confidence": "not_found"
   },
   "marketing_spend": {
-    "value_low": 1000000000,
-    "value_high": 2500000000,
+    "value_low": 1962600000,
+    "value_high": 3271000000,
     "currency": "INR",
-    "period": "FY2025",
-    "tier": "4_triangulated",
-    "derivation": "Triangulated based on category-level ad spend benchmarks for personal health appliances and consumer electronics in India, where major players allocate an estimated 4-6% of revenue to brand marketing and digital ad campaigns.",
+    "period": "FY2024-25",
+    "tier": "3_modeled",
+    "derivation": "Modeled using an industry-typical marketing-to-revenue ratio of 3.0% to 5.0% for consumer electronics and healthcare appliances, applied to Philips India's FY2024-25 revenue of ₹6,542 crore.",
     "source": null
   },
   "trend_history": {
@@ -95,6 +103,10 @@
         "value": 5097000000
       },
       {
+        "period": "FY2021-22",
+        "value": 54810000000
+      },
+      {
         "period": "FY2022",
         "value": 17827000000
       },
@@ -103,8 +115,16 @@
         "value": 18169000000
       },
       {
+        "period": "FY2023-24",
+        "value": 60000000000
+      },
+      {
         "period": "FY2024",
         "value": 18021000000
+      },
+      {
+        "period": "FY2024-25",
+        "value": 65420000000
       },
       {
         "period": "FY2025",
@@ -112,5 +132,22 @@
       }
     ]
   },
-  "business_updates": []
+  "business_updates": [
+    {
+      "headline": "Philips India FY25 revenue grows 9% to ₹6,542 crore with EBITDA margin expanding to 9.03%",
+      "date": "2025-03-31",
+      "source": {
+        "name": "UnlistedZone",
+        "url": "https://unlistedzone.com/philips-india-limited-fy25-financial-performance-analysis"
+      }
+    },
+    {
+      "headline": "Royal Philips reports strong Q3 2026 performance with order intake growth and margin expansion",
+      "date": "2026-11-03",
+      "source": {
+        "name": "Philips",
+        "url": "https://www.philips.com/a-w/about/news/archive/corpcomms/news/press/2026/philips-third-quarter-results-2026.html"
+      }
+    }
+  ]
 }

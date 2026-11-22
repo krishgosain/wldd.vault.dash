@@ -4,32 +4,32 @@
   "parent": "Wispr AI",
   "entity_type": "foreign_private",
   "category": "Consumer Tech / AI",
-  "description": "Wispr Flow is an AI-powered voice-to-text dictation software application developed by parent company Wispr AI.",
-  "last_refreshed": "2026-11-15T11:25:44.492Z",
+  "description": "Wispr Flow is an AI-powered voice dictation application developed by Wispr AI, Inc.",
+  "last_refreshed": "2026-11-22T11:55:51.342Z",
   "stock": {
     "applicable": false,
     "value": null,
     "currency": "USD",
     "ticker": null,
     "as_of": null,
-    "note": "Private company; stock is not publicly traded.",
+    "note": "Wispr Flow is a privately held brand and is not publicly traded.",
     "confidence": "not_applicable"
   },
   "revenue": {
-    "value": 37500000,
+    "value": 10000000,
     "currency": "USD",
-    "period": "FY2026",
+    "period": "FY2025",
     "confidence": "press_estimate",
     "source": {
-      "name": "LeadIQ",
-      "url": "https://leadiq.com/c/wispr/616736d2990e636b3e733ded",
-      "date": "2026-10"
+      "name": "The GenAI Magazine",
+      "url": "https://thegenaimagazine.com/wispr-flow-funding-revenue-growth-analysis",
+      "date": "2026-08-17"
     }
   },
   "operating_profit": {
     "value": null,
     "currency": "USD",
-    "period": "FY2026",
+    "period": "FY2025",
     "confidence": "not_found",
     "source": null
   },
@@ -38,16 +38,16 @@
     "confidence": "not_found"
   },
   "marketing_spend": {
-    "value_low": 3750000,
-    "value_high": 12500000,
+    "value_low": 1500000,
+    "value_high": 2500000,
     "currency": "USD",
-    "period": "FY2026",
+    "period": "FY2025",
     "tier": "3_modeled",
-    "derivation": "Modeled by applying a standard tech/SaaS industry marketing spend ratio of 15% to 25% to Wispr Flow's estimated annual revenue range of $25M to $50M for FY2026.",
+    "derivation": "Modeled using a standard 15% to 25% marketing-to-revenue ratio on an estimated $10M ARR base, aligned with Wispr Flow's product-led growth model and modest paid advertising spend across Meta, LinkedIn, and Google.",
     "source": {
-      "name": "LeadIQ",
-      "url": "https://leadiq.com/c/wispr/616736d2990e636b3e733ded",
-      "date": "2026-10"
+      "name": "Postbeam",
+      "url": "https://www.postbeam.ai/blog/how-wisprflow-grows",
+      "date": "2026-01-01"
     }
   },
   "trend_history": {
@@ -60,6 +60,14 @@
       {
         "period": "2025",
         "value": 3800000
+      },
+      {
+        "period": "2025-10",
+        "value": 10000000
+      },
+      {
+        "period": "2026-08",
+        "value": 50000000
       },
       {
         "period": "FY2025",
@@ -77,27 +85,19 @@
   },
   "business_updates": [
     {
-      "headline": "Wispr Flow raised $280M in Series B funding at a $2 billion valuation led by Menlo Ventures",
+      "headline": "Wispr Flow raises $280M Series B round at $2B valuation led by Menlo Ventures",
       "date": "2026-08-17",
       "source": {
-        "name": "Reuters",
-        "url": "https://finance.yahoo.com/technology/ai/articles/wispr-flow-valued-2-billion-134218985.html"
+        "name": "The GenAI Magazine",
+        "url": "https://thegenaimagazine.com/wispr-flow-funding-revenue-growth-analysis"
       }
     },
     {
-      "headline": "Wispr Flow unveiled a preview of Canto, its proprietary speech-recognition AI model",
-      "date": "2026-08-17",
+      "headline": "Wispr secures $25M Series A extension led by Notable Capital",
+      "date": "2025-11-20",
       "source": {
-        "name": "Reuters",
-        "url": "https://finance.yahoo.com/technology/ai/articles/wispr-flow-valued-2-billion-134218985.html"
-      }
-    },
-    {
-      "headline": "Wispr Flow shipped a web version of its voice-to-text tool",
-      "date": "2026-09-09",
-      "source": {
-        "name": "LeadIQ",
-        "url": "https://leadiq.com/c/wispr/616736d2990e636b3e733ded"
+        "name": "Stock Analysis",
+        "url": "https://stockanalysis.com/private/wispr-flow"
       }
     }
   ]

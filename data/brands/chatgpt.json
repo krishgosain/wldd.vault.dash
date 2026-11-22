@@ -4,21 +4,21 @@
   "parent": "OpenAI",
   "entity_type": "foreign_private",
   "category": "Consumer Tech / AI",
-  "description": "ChatGPT is an artificial intelligence chatbot and conversational platform developed and owned by OpenAI.",
-  "last_refreshed": "2026-11-14T10:51:37.523Z",
+  "description": "ChatGPT is a conversational generative artificial intelligence product developed by OpenAI.",
+  "last_refreshed": "2026-11-22T11:50:55.249Z",
   "stock": {
     "applicable": false,
     "value": null,
     "currency": "USD",
     "ticker": null,
     "as_of": null,
-    "note": "ChatGPT is owned by OpenAI, a private company, and does not have an independent stock ticker.",
+    "note": "Reflects a brand of OpenAI, which is a privately held entity without a public ticker.",
     "confidence": "not_applicable"
   },
   "revenue": {
     "value": 8000000000,
     "currency": "USD",
-    "period": "FY2025",
+    "period": "2025",
     "confidence": "press_estimate",
     "source": {
       "name": "Business of Apps",
@@ -27,41 +27,43 @@
     }
   },
   "operating_profit": {
-    "value": -20920000000,
+    "value": null,
     "currency": "USD",
-    "period": "FY2025",
-    "confidence": "press_estimate",
-    "source": {
-      "name": "Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/OpenAI",
-      "date": "2026-06-01"
-    }
+    "period": "2025",
+    "confidence": "not_found",
+    "source": null
   },
   "expenses": {
-    "breakdown": [
-      {
-        "label": "Total Spending / Operating Expenditures",
-        "value": 22000000000,
-        "confidence": "modeled"
-      }
-    ],
-    "confidence": "press_estimate"
+    "breakdown": [],
+    "confidence": "not_found"
   },
   "marketing_spend": {
-    "value_low": 400000000,
-    "value_high": 800000000,
+    "value_low": 800000000,
+    "value_high": 1600000000,
     "currency": "USD",
-    "period": "FY2025",
+    "period": "2025",
     "tier": "3_modeled",
-    "derivation": "Modeled at 5% to 10% of ChatGPT's $8 billion FY2025 revenue, aligning with benchmark consumer tech and software marketing allocations, given high organic user acquisition and computing cost dominance.",
-    "source": null
+    "derivation": "Modeled using a standard consumer tech benchmark of 10% to 20% of total revenue applied to ChatGPT's estimated 2025 revenue of $8 billion.",
+    "source": {
+      "name": "Business of Apps",
+      "url": "https://www.businessofapps.com/data/chatgpt-statistics",
+      "date": "2026-01-01"
+    }
   },
   "trend_history": {
     "stock": [],
     "revenue": [
       {
+        "period": "2023",
+        "value": 1200000000
+      },
+      {
+        "period": "2024",
+        "value": 3500000000
+      },
+      {
         "period": "2025",
-        "value": 13000000000
+        "value": 8000000000
       },
       {
         "period": "FY2023",
@@ -87,7 +89,7 @@
   },
   "business_updates": [
     {
-      "headline": "ChatGPT Ads reaches $1 billion annualized revenue run rate in under 200 days",
+      "headline": "ChatGPT Ads surpasses $1 billion in annualized revenue run rate",
       "date": "2026-08-31",
       "source": {
         "name": "OpenAI",
@@ -95,19 +97,19 @@
       }
     },
     {
-      "headline": "OpenAI reports enterprise revenue has overtaken ChatGPT consumer business revenue",
-      "date": "2026-08-14",
+      "headline": "ChatGPT consumer paid subscribers reach 15.5 million by January 2025",
+      "date": "2025-01-01",
       "source": {
-        "name": "Unite.AI",
-        "url": "https://www.unite.ai/openai-tells-investors-enterprise-revenue-has-overtaken-its-chatgpt-consumer-business"
+        "name": "Futuresearch",
+        "url": "https://futuresearch.ai/openai-revenue-forecast"
       }
     },
     {
-      "headline": "OpenAI annualized revenue approaches $50 billion at end of September 2026",
-      "date": "2026-09-30",
+      "headline": "Criteo joins OpenAI as first ad-tech partner for ChatGPT advertising pilot in the US",
+      "date": "2026-02-01",
       "source": {
-        "name": "Yahoo Finance",
-        "url": "https://finance.yahoo.com/technology/ai/articles/openai-revenue-20b-below-previous-181839907.html"
+        "name": "Stock Titan",
+        "url": "https://www.stocktitan.net/news/CRTO/criteo-joins-open-ai-advertising-pilot-in-chat-hcu7gqbt68nj.html"
       }
     }
   ]

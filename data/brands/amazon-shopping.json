@@ -4,51 +4,81 @@
   "parent": "Amazon.com, Inc.",
   "entity_type": "public_parent",
   "category": "E-commerce",
-  "description": "Amazon Shopping is the online retail marketplace brand owned and operated by public parent company Amazon.com, Inc.",
-  "last_refreshed": "2026-11-15T11:23:13.285Z",
+  "description": "Amazon Shopping is the flagship online retail and e-commerce marketplace platform operated by Amazon.com, Inc.",
+  "last_refreshed": "2026-11-22T11:53:40.409Z",
   "stock": {
     "applicable": false,
-    "value": 264.33,
+    "value": 246.82,
     "currency": "USD",
     "ticker": "AMZN",
-    "as_of": "2026-11-14",
-    "note": "Reflects parent company Amazon.com, Inc. (NASDAQ: AMZN), not this brand specifically",
+    "as_of": "2026-11-20",
+    "note": "Reflects parent company Amazon.com, Inc. (AMZN), not Amazon Shopping specifically.",
     "confidence": "not_applicable"
   },
   "revenue": {
-    "value": 201944000000,
+    "value": 716920000000,
     "currency": "USD",
-    "period": "Q3 2026",
+    "period": "FY2025",
     "confidence": "disclosed",
     "source": {
-      "name": "Yahoo Finance",
-      "url": "https://finance.yahoo.com/quote/AMZN",
-      "date": "2026-10-29"
+      "name": "Amazon",
+      "url": "https://tavily.com/knowledge/company/K3Dv448R4Obk",
+      "date": "2025"
     }
   },
   "operating_profit": {
-    "value": 28100000000,
+    "value": 79970000000,
     "currency": "USD",
-    "period": "Q3 2026",
+    "period": "FY2025",
     "confidence": "disclosed",
     "source": {
-      "name": "Amazon.com, Inc. Investor Relations",
-      "url": "https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-Third-Quarter-Results/default.aspx",
-      "date": "2026-10-29"
+      "name": "Amazon",
+      "url": "https://tavily.com/knowledge/company/K3Dv448R4Obk",
+      "date": "2025"
     }
   },
   "expenses": {
-    "breakdown": [],
-    "confidence": "not_found"
+    "breakdown": [
+      {
+        "label": "Cost of sales",
+        "value": 87463000000,
+        "confidence": "disclosed"
+      },
+      {
+        "label": "Technology and infrastructure",
+        "value": 29567000000,
+        "confidence": "disclosed"
+      },
+      {
+        "label": "Fulfillment",
+        "value": 27289000000,
+        "confidence": "disclosed"
+      },
+      {
+        "label": "Sales and marketing",
+        "value": 10314000000,
+        "confidence": "disclosed"
+      },
+      {
+        "label": "General and administrative",
+        "value": 2587000000,
+        "confidence": "disclosed"
+      }
+    ],
+    "confidence": "disclosed"
   },
   "marketing_spend": {
-    "value_low": 10097200000,
-    "value_high": 16155520000,
+    "value_low": 10314000000,
+    "value_high": 10314000000,
     "currency": "USD",
-    "period": "Q3 2026",
-    "tier": "3_modeled",
-    "derivation": "Calculated by applying a standard 5% to 8% marketing-to-revenue ratio for enterprise e-commerce platforms against Amazon's reported Q3 2026 total revenue of $201.944 billion.",
-    "source": null
+    "period": "Q1 2026",
+    "tier": "1_disclosed",
+    "derivation": "Disclosed separately as 'Sales and marketing' operating expense line item of $10,314 million in Amazon.com, Inc.'s Q1 2026 quarterly results statement.",
+    "source": {
+      "name": "Amazon.com Announces First Quarter Results",
+      "url": "https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-First-Quarter-Results/default.aspx",
+      "date": "2026"
+    }
   },
   "trend_history": {
     "stock": [
@@ -83,6 +113,10 @@
       {
         "date": "2026-11-14",
         "value": 264.33
+      },
+      {
+        "date": "2026-11-20",
+        "value": 246.82
       }
     ],
     "revenue": [
@@ -120,7 +154,7 @@
       },
       {
         "period": "Q1 2026",
-        "value": 181520000000
+        "value": 181519000000
       },
       {
         "period": "Q1 FY2026",
@@ -128,37 +162,37 @@
       },
       {
         "period": "Q2 2026",
-        "value": 200610000000
+        "value": 200606000000
       },
       {
         "period": "Q3 2025",
-        "value": 147163000000
+        "value": 180170000000
       },
       {
         "period": "Q3 2026",
-        "value": 155960000000
+        "value": 201944000000
       },
       {
         "period": "Q4 2025",
-        "value": 213390000000
+        "value": 213386000000
       }
     ]
   },
   "business_updates": [
     {
-      "headline": "Amazon reports Q3 2026 operating income of $28.1 billion with operating margin reaching 13.9%",
-      "date": "2026-10-29",
+      "headline": "Amazon Advertising TTM revenue exceeds $70 billion with Stores unit growth reaching 15%",
+      "date": "2026",
       "source": {
-        "name": "Amazon.com, Inc. Investor Relations",
-        "url": "https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-Third-Quarter-Results/default.aspx"
+        "name": "Amazon.com Announces First Quarter Results",
+        "url": "https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-First-Quarter-Results/default.aspx"
       }
     },
     {
-      "headline": "Amazon warehouse workers in Western Canada set to unionize",
-      "date": "2026-11-14",
+      "headline": "AWS accelerates growth to 28% year-over-year while chip business reaches $20 billion run rate",
+      "date": "2026",
       "source": {
-        "name": "Robinhood",
-        "url": "https://robinhood.com/stocks/AMZN?source=sherwood"
+        "name": "Amazon.com Announces First Quarter Results",
+        "url": "https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-First-Quarter-Results/default.aspx"
       }
     }
   ]

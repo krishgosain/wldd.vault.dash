@@ -1,31 +1,31 @@
 {
   "name": "Amazon Now",
   "slug": "amazon-now",
-  "parent": "Amazon",
+  "parent": "Amazon.com, Inc.",
   "entity_type": "public_parent",
   "category": "Quick Commerce",
-  "description": "Amazon Now is a quick commerce delivery service operated by Amazon.com, Inc., a publicly listed e-commerce and cloud services corporation.",
-  "last_refreshed": "2026-11-15T11:23:28.905Z",
+  "description": "Amazon Now is the quick commerce delivery service line owned and operated by e-commerce giant Amazon.com, Inc.",
+  "last_refreshed": "2026-11-22T11:53:59.523Z",
   "stock": {
     "applicable": false,
-    "value": null,
+    "value": 246.82,
     "currency": "USD",
-    "ticker": null,
-    "as_of": null,
-    "note": "Reflects parent company Amazon.com, Inc. (NASDAQ: AMZN), as Amazon Now is a product/service line without a separate ticker.",
+    "ticker": "AMZN",
+    "as_of": "2026-11-20",
+    "note": "Reflects parent company Amazon.com, Inc. (NASDAQ: AMZN), not this brand specifically.",
     "confidence": "not_applicable"
   },
   "revenue": {
     "value": null,
     "currency": "USD",
-    "period": "Q3 2026",
+    "period": "FY2025",
     "confidence": "not_found",
     "source": null
   },
   "operating_profit": {
     "value": null,
     "currency": "USD",
-    "period": "Q3 2026",
+    "period": "FY2025",
     "confidence": "not_found",
     "source": null
   },
@@ -34,13 +34,17 @@
     "confidence": "not_found"
   },
   "marketing_spend": {
-    "value_low": 50000000,
-    "value_high": 150000000,
+    "value_low": 47129000000,
+    "value_high": 47129000000,
     "currency": "USD",
-    "period": "FY2026",
-    "tier": "3_modeled",
-    "derivation": "Specific marketing spend for Amazon Now is not separately disclosed in Amazon's consolidated financial reporting. Range is modeled based on standard quick commerce customer acquisition and retention ad spend estimates relative to parent retail operations.",
-    "source": null
+    "period": "FY2025",
+    "tier": "1_disclosed",
+    "derivation": "Disclosed as parent company Amazon.com, Inc.'s total annual Sales and Marketing operating expense of $47.129 billion.",
+    "source": {
+      "name": "Amazon.com, Inc. - Amazon.com Announces Fourth Quarter Results",
+      "url": "https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-Fourth-Quarter-Results",
+      "date": "2026-02-01"
+    }
   },
   "trend_history": {
     "stock": [
@@ -87,6 +91,10 @@
       {
         "date": "2026-11-13",
         "value": 266.66
+      },
+      {
+        "date": "2026-11-20",
+        "value": 246.82
       }
     ],
     "revenue": [
@@ -138,19 +146,11 @@
   },
   "business_updates": [
     {
-      "headline": "Amazon Reports Third Quarter 2026 Results with Record 13.9% Operating Margin",
-      "date": "2026-10-29",
+      "headline": "Amazon highlights quick commerce expansion and investments in forward operating guidance",
+      "date": "2026-02-01",
       "source": {
-        "name": "Amazon.com, Inc.",
-        "url": "https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-Third-Quarter-Results/default.aspx"
-      }
-    },
-    {
-      "headline": "Amazon's Ring Debuts Autonomous Security Products With Flying Drone and Robot",
-      "date": "2026-11-13",
-      "source": {
-        "name": "Morningstar",
-        "url": "https://www.morningstar.com/stocks/xnas/amzn/quote"
+        "name": "Amazon.com, Inc. - Amazon.com Announces Fourth Quarter Results",
+        "url": "https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-Fourth-Quarter-Results"
       }
     }
   ]

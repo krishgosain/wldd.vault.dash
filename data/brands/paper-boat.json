@@ -4,15 +4,15 @@
   "parent": "Hector Beverages Pvt Ltd",
   "entity_type": "india_private_registered",
   "category": "F&B",
-  "description": "Paper Boat is an Indian beverage and food brand owned by Hector Beverages Pvt Ltd.",
-  "last_refreshed": "2026-11-15T11:24:27.066Z",
+  "description": "Paper Boat is an Indian brand of traditional packaged beverages and snacks produced and marketed by Hector Beverages Pvt Ltd.",
+  "last_refreshed": "2026-11-22T11:54:54.375Z",
   "stock": {
     "applicable": false,
     "value": null,
     "currency": "INR",
     "ticker": null,
     "as_of": null,
-    "note": "Paper Boat is a private company, so its shares have no public market price.",
+    "note": "Hector Beverages Pvt Ltd is a privately held entity and not publicly traded.",
     "confidence": "not_applicable"
   },
   "revenue": {
@@ -23,7 +23,7 @@
     "source": {
       "name": "Zane Marketing",
       "url": "https://zane.marketing/news/paper-boat-fy26-revenue-profit-decline",
-      "date": "unknown"
+      "date": "2026-08-08"
     }
   },
   "operating_profit": {
@@ -34,7 +34,7 @@
     "source": {
       "name": "Zane Marketing",
       "url": "https://zane.marketing/news/paper-boat-fy26-revenue-profit-decline",
-      "date": "unknown"
+      "date": "2026-08-08"
     }
   },
   "expenses": {
@@ -45,13 +45,13 @@
         "confidence": "disclosed"
       },
       {
-        "label": "Advertising and promotion",
-        "value": 280000000,
+        "label": "Job work charges",
+        "value": 25000000,
         "confidence": "disclosed"
       },
       {
-        "label": "Job work charges",
-        "value": 250000000,
+        "label": "Advertising and promotion",
+        "value": 280000000,
         "confidence": "disclosed"
       }
     ],
@@ -63,11 +63,11 @@
     "currency": "INR",
     "period": "FY2026",
     "tier": "1_disclosed",
-    "derivation": "Disclosed advertising and promotion expense figure of ₹28 crore (representing 3.7% of operating revenue) reported in FY26 financial filings.",
+    "derivation": "Disclosed as ₹28 crore (₹280,000,000) for advertising and promotion expenses in Hector Beverages' FY26 financial disclosures, representing 3.7% of operating revenue.",
     "source": {
       "name": "Zane Marketing",
       "url": "https://zane.marketing/news/paper-boat-fy26-revenue-profit-decline",
-      "date": "unknown"
+      "date": "2026-08-08"
     }
   },
   "trend_history": {
@@ -113,11 +113,19 @@
       }
     },
     {
-      "headline": "Hector Beverages valuation reported at $153M",
-      "date": "2026-08-11",
+      "headline": "Hector Beverages reports ₹760 crore operating revenue for FY26 as PAT plunges 96% to ₹2 crore",
+      "date": "2026-08-08",
       "source": {
-        "name": "Caplight",
-        "url": "https://www.caplight.com/company/paper-boat-1"
+        "name": "Zane Marketing",
+        "url": "https://zane.marketing/news/paper-boat-fy26-revenue-profit-decline"
+      }
+    },
+    {
+      "headline": "Paper Boat launches new flavor Aasman Se Tappu and limited-edition Doori packs",
+      "date": "2025-01-01",
+      "source": {
+        "name": "LeadIQ",
+        "url": "https://leadiq.com/c/hector-beverages/5a1d971f230000590085b71c"
       }
     }
   ]

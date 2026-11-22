@@ -4,15 +4,15 @@
   "parent": null,
   "entity_type": "public_standalone",
   "category": "Audio Streaming",
-  "description": "Spotify is a audio streaming platform providing subscription-based music and podcast streaming alongside ad-supported tiers.",
-  "last_refreshed": "2026-11-14T10:52:56.274Z",
+  "description": "Spotify Technology S.A. is a publicly traded audio streaming platform providing subscription-based music, podcast, and audiobook streaming services worldwide.",
+  "last_refreshed": "2026-11-22T11:51:50.971Z",
   "stock": {
     "applicable": true,
-    "value": 598.51,
+    "value": 578,
     "currency": "USD",
     "ticker": "SPOT",
-    "as_of": "2026-11-12",
-    "note": "Reflects direct stock trading price of Spotify Technology S.A. on the NYSE",
+    "as_of": "2026-11-21",
+    "note": "Traded on the NYSE under ticker SPOT.",
     "confidence": "disclosed"
   },
   "revenue": {
@@ -42,12 +42,12 @@
     "confidence": "not_found"
   },
   "marketing_spend": {
-    "value_low": 1616000000,
-    "value_high": 2424000000,
+    "value_low": 2020000000,
+    "value_high": 2420000000,
     "currency": "USD",
     "period": "FY2025",
     "tier": "3_modeled",
-    "derivation": "Modeled using a standard audio streaming industry marketing-to-revenue ratio range of 8% to 12% applied to Spotify's FY2025 reported revenue of $20.2B.",
+    "derivation": "Modeled at 10% to 12% of FY2025 total revenue ($20.2B USD), consistent with standard marketing-to-revenue benchmarks for global subscription audio and consumer tech services.",
     "source": {
       "name": "StockTitan",
       "url": "https://www.stocktitan.net/overview/SPOT",
@@ -119,9 +119,17 @@
       {
         "date": "2026-11-12",
         "value": 598.51
+      },
+      {
+        "date": "2026-11-21",
+        "value": 578
       }
     ],
     "revenue": [
+      {
+        "period": "1Q2026",
+        "value": 4533000000
+      },
       {
         "period": "2020",
         "value": 7880000000
@@ -145,6 +153,18 @@
       {
         "period": "2025",
         "value": 19444000000
+      },
+      {
+        "period": "2Q2026",
+        "value": 4777000000
+      },
+      {
+        "period": "3Q2026",
+        "value": 4969000000
+      },
+      {
+        "period": "4Q2025",
+        "value": 4531000000
       },
       {
         "period": "FY2023",
@@ -190,19 +210,27 @@
   },
   "business_updates": [
     {
-      "headline": "Spotify Q3 2026 revenue rose 14% to €5.0 billion with gross margin reaching 33%",
-      "date": "2026-11-12",
-      "source": {
-        "name": "TradingKey",
-        "url": "https://tradingkey.com/markets/stocks/nasdaq-spot"
-      }
-    },
-    {
-      "headline": "Spotify posted first-quarter revenue gain and record operating income of €715 million",
+      "headline": "Spotify grows paid premium subscribers to 293 million in Q1 2026 while reaching record operating profit",
       "date": "2026-04-28",
       "source": {
         "name": "The Hollywood Reporter",
         "url": "https://www.hollywoodreporter.com/business/business-news/spotify-q1-earnings-report-subs-stock-drops-outlook-1236578858"
+      }
+    },
+    {
+      "headline": "Spotify stock surges after posting record quarterly operating income and beating analyst estimates",
+      "date": "2026-04-28",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/news/spotifys-stock-pops-streaming-audio-155428149.html"
+      }
+    },
+    {
+      "headline": "United Airlines announces feature letting travelers log into personal Spotify accounts via seatback screens",
+      "date": "2026-11-21",
+      "source": {
+        "name": "Robinhood",
+        "url": "https://robinhood.com/us/en/stocks/SPOT"
       }
     }
   ]
