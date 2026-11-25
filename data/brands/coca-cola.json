@@ -3,37 +3,37 @@
   "slug": "coca-cola",
   "parent": "The Coca-Cola Company",
   "entity_type": "public_parent",
-  "category": "Food & Beverage",
-  "description": "Coca-Cola is a global non-alcoholic beverage brand manufactured and marketed by parent entity The Coca-Cola Company (NYSE: KO), with Indian bottling operations executed through Hindustan Coca-Cola Beverages Pvt. Ltd.",
-  "last_refreshed": "2026-11-15T11:26:46.116Z",
+  "category": "F&B",
+  "description": "Coca-Cola is a global non-alcoholic beverage brand owned and operated by public parent entity The Coca-Cola Company (NYSE: KO).",
+  "last_refreshed": "2026-11-25T13:22:22.330Z",
   "stock": {
     "applicable": true,
     "value": null,
     "currency": "USD",
     "ticker": "KO",
     "as_of": null,
-    "note": "Reflects ticker of parent company The Coca-Cola Company on NYSE.",
+    "note": "Reflects parent company The Coca-Cola Company (NYSE: KO), not this single product brand.",
     "confidence": "disclosed"
   },
   "revenue": {
-    "value": 47940000000,
+    "value": 47941000000,
     "currency": "USD",
     "period": "FY2025",
     "confidence": "disclosed",
     "source": {
-      "name": "The Coca-Cola Company Financials",
-      "url": "https://tavily.com/knowledge/company/Syjuv0vBVpY7",
+      "name": "MarketBeat",
+      "url": "https://www.marketbeat.com/stocks/NYSE/KO/financials",
       "date": ""
     }
   },
   "operating_profit": {
-    "value": 13760000000,
+    "value": 13762000000,
     "currency": "USD",
     "period": "FY2025",
     "confidence": "disclosed",
     "source": {
-      "name": "The Coca-Cola Company Financials",
-      "url": "https://tavily.com/knowledge/company/Syjuv0vBVpY7",
+      "name": "MarketBeat",
+      "url": "https://www.marketbeat.com/stocks/NYSE/KO/financials",
       "date": ""
     }
   },
@@ -42,12 +42,12 @@
     "confidence": "not_found"
   },
   "marketing_spend": {
-    "value_low": 3835200000,
+    "value_low": 3835000000,
     "value_high": 4794000000,
     "currency": "USD",
     "period": "FY2025",
     "tier": "3_modeled",
-    "derivation": "Modeled using a standard global beverage industry ad spend ratio of 8% to 10% against The Coca-Cola Company's total reported revenue of $47.94B USD.",
+    "derivation": "Modeled using a global F&B/beverage industry benchmark of 8% to 10% of gross revenue applied to Coca-Cola's FY2025 revenue of $47.94 billion.",
     "source": null
   },
   "trend_history": {
@@ -91,16 +91,24 @@
         "value": 11817000000
       },
       {
+        "period": "FY2021",
+        "value": 38655000000
+      },
+      {
+        "period": "FY2022",
+        "value": 43004000000
+      },
+      {
         "period": "FY2023",
-        "value": 46085100000
+        "value": 45754000000
       },
       {
         "period": "FY2024",
-        "value": 47060000000
+        "value": 47061000000
       },
       {
         "period": "FY2025",
-        "value": 47940000000
+        "value": 47941000000
       },
       {
         "period": "Q1 2026",
@@ -118,15 +126,15 @@
   },
   "business_updates": [
     {
-      "headline": "Hindustan Coca-Cola Holdings prepares for $1B IPO in India",
-      "date": "2025-07-01",
+      "headline": "The Coca-Cola Company plans dual-listing IPO for Indian bottling parent Hindustan Coca-Cola Holdings in 2027",
+      "date": "2026-06-01",
       "source": {
-        "name": "Facebook - StockGro",
-        "url": "https://www.facebook.com/StockGro/videos/coca-colas-india-bottler-files-1b-ipo-this-week-whats-the-storyevery-time-you-op/1435684972101185"
+        "name": "The Coca-Cola Company Press Release",
+        "url": "http://investors.coca-colacompany.com/news-events/press-releases/detail/1161/the-coca-cola-company-exploring-potential-public-listing-in-india-for-hindustan-coca-cola-holdings-pvt-ltd-parent-company-of-its-largest-bottler-in-india"
       }
     },
     {
-      "headline": "Hindustan Coca-Cola Beverages Names Hemant Rupani as New CEO",
+      "headline": "Hemant Rupani named CEO of Indian bottling entity Hindustan Coca-Cola Beverages",
       "date": "2025-07-15",
       "source": {
         "name": "Yahoo Finance",
@@ -134,11 +142,11 @@
       }
     },
     {
-      "headline": "The Coca-Cola Company explores potential public listing for Hindustan Coca-Cola Holdings Pvt. Ltd.",
-      "date": "2025-07-01",
+      "headline": "Jubilant Bhartia Group acquired a 40% stake in Hindustan Coca-Cola Holdings",
+      "date": "2024-12-01",
       "source": {
-        "name": "The Coca-Cola Company Investor Relations",
-        "url": "http://investors.coca-colacompany.com/news-events/press-releases/detail/1161/the-coca-cola-company-exploring-potential-public-listing-in-india-for-hindustan-coca-cola-holdings-pvt-ltd-parent-company-of-its-largest-bottler-in-india"
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/news/hindustan-coca-cola-beverages-names-074400532.html"
       }
     }
   ]

@@ -1784,6 +1784,90 @@
       "tavily_credits": 1,
       "gemini_requests": 1,
       "timestamp": "2026-11-22T11:55:51.343Z"
+    },
+    {
+      "source": "daily_refresh",
+      "brand": "Rapido",
+      "tavily_credits": 1,
+      "gemini_requests": 1,
+      "timestamp": "2026-11-25T13:21:43.450Z"
+    },
+    {
+      "source": "daily_refresh",
+      "brand": "TCS",
+      "tavily_credits": 1,
+      "gemini_requests": 1,
+      "timestamp": "2026-11-25T13:22:01.819Z"
+    },
+    {
+      "source": "daily_refresh",
+      "brand": "Coca-Cola",
+      "tavily_credits": 1,
+      "gemini_requests": 1,
+      "timestamp": "2026-11-25T13:22:22.331Z"
+    },
+    {
+      "source": "daily_refresh",
+      "brand": "Zepto",
+      "tavily_credits": 1,
+      "gemini_requests": 1,
+      "timestamp": "2026-11-25T13:22:49.765Z"
+    },
+    {
+      "source": "daily_refresh",
+      "brand": "Swiggy",
+      "tavily_credits": 1,
+      "gemini_requests": 1,
+      "timestamp": "2026-11-25T13:23:11.869Z"
+    },
+    {
+      "source": "daily_refresh",
+      "brand": "PhonePe",
+      "tavily_credits": 1,
+      "gemini_requests": 1,
+      "timestamp": "2026-11-25T13:23:35.671Z"
+    },
+    {
+      "source": "daily_refresh",
+      "brand": "Nykaa",
+      "tavily_credits": 1,
+      "gemini_requests": 1,
+      "timestamp": "2026-11-25T13:23:53.545Z"
+    },
+    {
+      "source": "daily_refresh",
+      "brand": "boAt",
+      "tavily_credits": 1,
+      "gemini_requests": 1,
+      "timestamp": "2026-11-25T13:24:24.241Z"
+    },
+    {
+      "source": "daily_refresh",
+      "brand": "Zerodha",
+      "tavily_credits": 1,
+      "gemini_requests": 1,
+      "timestamp": "2026-11-25T13:24:44.348Z"
+    },
+    {
+      "source": "daily_refresh",
+      "brand": "CRED",
+      "tavily_credits": 1,
+      "gemini_requests": 1,
+      "timestamp": "2026-11-25T13:25:05.574Z"
+    },
+    {
+      "source": "daily_refresh",
+      "brand": "Meesho",
+      "tavily_credits": 1,
+      "gemini_requests": 1,
+      "timestamp": "2026-11-25T13:25:25.838Z"
+    },
+    {
+      "source": "daily_refresh",
+      "brand": "Ola Electric",
+      "tavily_credits": 1,
+      "gemini_requests": 1,
+      "timestamp": "2026-11-25T13:26:03.157Z"
     }
   ]
 }

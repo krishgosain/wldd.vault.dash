@@ -4,51 +4,66 @@
   "parent": null,
   "entity_type": "public_standalone",
   "category": "Food Delivery / Quick Commerce",
-  "description": "Swiggy Limited is an Indian tech enterprise operating food delivery, dining-out services, and quick-commerce platform Instamart.",
-  "last_refreshed": "2026-11-15T11:27:23.358Z",
+  "description": "Swiggy Limited is an Indian food delivery and quick commerce platform operating services such as food ordering, Instamart, and Scootsy Logistics.",
+  "last_refreshed": "2026-11-25T13:23:11.869Z",
   "stock": {
     "applicable": true,
-    "value": 189.05,
+    "value": 186.74,
     "currency": "INR",
     "ticker": "SWIGGY.NS",
-    "as_of": null,
-    "note": "Reflects standalone market listing on NSE and BSE.",
+    "as_of": "2026-11-06",
+    "note": "Traded on the National Stock Exchange of India",
     "confidence": "disclosed"
   },
   "revenue": {
-    "value": 75710000000,
+    "value": 230530000000,
     "currency": "INR",
-    "period": "Q2 FY2027",
+    "period": "FY2026",
     "confidence": "disclosed",
     "source": {
-      "name": "Yahoo Finance",
-      "url": "https://finance.yahoo.com/quote/SWIGGY.NS/insider-sentiment",
-      "date": "2026-07-30"
+      "name": "Stock Analysis",
+      "url": "https://stockanalysis.com/quote/nse/SWIGGY",
+      "date": ""
     }
   },
   "operating_profit": {
-    "value": -9220000000,
+    "value": -32350000000,
     "currency": "INR",
-    "period": "Q2 FY2027",
+    "period": "FY2026",
     "confidence": "disclosed",
     "source": {
-      "name": "Yahoo Finance",
-      "url": "https://finance.yahoo.com/quote/SWIGGY.NS/insider-sentiment",
-      "date": "2026-07-30"
+      "name": "Screener",
+      "url": "https://www.screener.in/company/SWIGGY/consolidated",
+      "date": ""
     }
   },
   "expenses": {
-    "breakdown": [],
-    "confidence": "not_found"
+    "breakdown": [
+      {
+        "label": "Advertising spend (Q2 FY26)",
+        "value": 10390000000,
+        "confidence": "disclosed"
+      },
+      {
+        "label": "Total costs (Q2 FY26)",
+        "value": 67110000000,
+        "confidence": "disclosed"
+      }
+    ],
+    "confidence": "disclosed"
   },
   "marketing_spend": {
-    "value_low": 26914000000,
-    "value_high": 40371000000,
+    "value_low": 10390000000,
+    "value_high": 10390000000,
     "currency": "INR",
-    "period": "TTM",
-    "tier": "3_modeled",
-    "derivation": "Modeled as 10% to 15% of TTM revenue (₹269.14 billion), based on industry benchmark marketing-to-revenue ratios for Indian quick-commerce and food delivery platforms.",
-    "source": null
+    "period": "Q2 FY26",
+    "tier": "1_disclosed",
+    "derivation": "Disclosed advertising spend of ₹1,039 crore (up 94% YoY) in Q2 FY26 financial disclosures.",
+    "source": {
+      "name": "Indian Startup News / LinkedIn",
+      "url": "https://www.linkedin.com/posts/indianstartupnews_swiggy-fooddelivery-business-activity-7422901046974242816-mek_",
+      "date": ""
+    }
   },
   "trend_history": {
     "stock": [
@@ -83,6 +98,10 @@
       {
         "date": "2026-11-02",
         "value": 176.6
+      },
+      {
+        "date": "2026-11-06",
+        "value": 186.74
       },
       {
         "date": "2026-11-13",
@@ -131,6 +150,10 @@
         "value": 68120000000
       },
       {
+        "period": "Q1 FY27",
+        "value": 68120000000
+      },
+      {
         "period": "Q2 2027",
         "value": 75710000000
       },
@@ -162,19 +185,19 @@
   },
   "business_updates": [
     {
-      "headline": "Swiggy quick commerce business achieves break-even milestone in Q1 FY27",
-      "date": "2026-07-30",
+      "headline": "Swiggy Share Price Slips 3% After Q1 FY27 Results; Revenue Jumps 37%, Net Loss Narrows",
+      "date": "",
       "source": {
-        "name": "NDTV Profit",
-        "url": "https://www.youtube.com/watch?v=O9c_in_lu6o"
+        "name": "India Infoline",
+        "url": "https://www.indiainfoline.com/news/earnings/swiggy-share-price-slip-3-after-q1-fy27-results-revenue-jumps-37-net-loss-narrows"
       }
     },
     {
-      "headline": "India's Swiggy-owned Instamart key profitability metric improves, plans store expansion",
-      "date": "2026-08-15",
+      "headline": "Swiggy Reports 54% YoY Revenue Rise to ₹5,561 Crore in Q2 FY26",
+      "date": "",
       "source": {
-        "name": "Reuters / Yahoo Finance",
-        "url": "https://finance.yahoo.com/quote/SWIGGY.NS/news"
+        "name": "Indian Startup News / LinkedIn",
+        "url": "https://www.linkedin.com/posts/indianstartupnews_swiggy-fooddelivery-business-activity-7422901046974242816-mek_"
       }
     }
   ]

@@ -4,60 +4,64 @@
   "parent": "FSN E-Commerce Ventures Ltd.",
   "entity_type": "public_standalone",
   "category": "E-commerce / Beauty",
-  "description": "Nykaa is an Indian beauty, fashion, and personal care e-commerce platform operated by parent company FSN E-Commerce Ventures Ltd.",
-  "last_refreshed": "2026-11-15T11:27:57.394Z",
+  "description": "Nykaa is an Indian omnichannel beauty, wellness, and fashion retailer operated by publicly listed FSN E-Commerce Ventures Ltd.",
+  "last_refreshed": "2026-11-25T13:23:53.544Z",
   "stock": {
     "applicable": true,
-    "value": 365.2,
+    "value": 364,
     "currency": "INR",
     "ticker": "NYKAA.NS",
-    "as_of": "2026-11-13",
-    "note": "Reflects parent company FSN E-Commerce Ventures Ltd.",
+    "as_of": "2025-11-20",
+    "note": "Reflects parent company FSN E-Commerce Ventures Ltd stock price",
     "confidence": "disclosed"
   },
   "revenue": {
-    "value": 23460000000,
+    "value": 100223500000,
     "currency": "INR",
-    "period": "Q2 FY26",
+    "period": "FY2026",
     "confidence": "disclosed",
     "source": {
-      "name": "Indian Startup News",
-      "url": "https://www.linkedin.com/posts/indianstartupnews_nykaa-business-beauty-activity-7392898306613538816-Wn-B",
+      "name": "Tickertape",
+      "url": "https://www.tickertape.in/stocks/fsn-e-commerce-ventures-NYK",
       "date": ""
     }
   },
   "operating_profit": {
-    "value": null,
-    "currency": "USD",
-    "period": "",
-    "confidence": "not_found",
-    "source": null
+    "value": 7195400000,
+    "currency": "INR",
+    "period": "FY2026",
+    "confidence": "disclosed",
+    "source": {
+      "name": "Tickertape",
+      "url": "https://www.tickertape.in/stocks/fsn-e-commerce-ventures-NYK",
+      "date": ""
+    }
   },
   "expenses": {
     "breakdown": [
       {
-        "label": "Marketing expenses",
-        "value": 3680000000,
+        "label": "Employee benefits expense",
+        "value": 2248500000,
         "confidence": "disclosed"
       }
     ],
     "confidence": "disclosed"
   },
   "marketing_spend": {
-    "value_low": 3680000000,
-    "value_high": 3680000000,
+    "value_low": 8000000000,
+    "value_high": 12000000000,
     "currency": "INR",
-    "period": "Q2 FY26",
-    "tier": "1_disclosed",
-    "derivation": "Disclosed marketing expenses of ₹368 crore in Q2 FY26 reporting by parent company FSN E-Commerce Ventures Ltd.",
-    "source": {
-      "name": "Indian Startup News",
-      "url": "https://www.linkedin.com/posts/indianstartupnews_nykaa-business-beauty-activity-7392898306613538816-Wn-B",
-      "date": ""
-    }
+    "period": "FY2026",
+    "tier": "3_modeled",
+    "derivation": "Calculated using an estimated industry benchmark of 8% to 12% marketing-to-revenue ratio for beauty e-commerce platforms applied against FY2026 revenue of Rs 10,022.35 crore.",
+    "source": null
   },
   "trend_history": {
     "stock": [
+      {
+        "date": "2025-11-20",
+        "value": 364
+      },
       {
         "date": "2026-01-13",
         "value": 235
@@ -156,19 +160,19 @@
   },
   "business_updates": [
     {
-      "headline": "Nykaa parent FSN E-Commerce Ventures reports 25% revenue jump in Q2 FY26",
+      "headline": "FSN E-Commerce Ventures FY26 revenue crosses Rs 10,000 crore as net profit surges 176.72%",
       "date": "",
       "source": {
-        "name": "Indian Startup News",
-        "url": "https://www.linkedin.com/posts/indianstartupnews_nykaa-business-beauty-activity-7392898306613538816-Wn-B"
+        "name": "Tickertape",
+        "url": "https://www.tickertape.in/stocks/fsn-e-commerce-ventures-NYK"
       }
     },
     {
-      "headline": "Nykaa expects Q1 revenue growth near 30% on fashion rebound",
-      "date": "2026-07-05",
+      "headline": "Nykaa confirms talks to acquire stake in skincare brand 82°E",
+      "date": "",
       "source": {
-        "name": "Livemint",
-        "url": "https://www.livemint.com/fsn-e-commerce-ventures/news/companyid-s0005167"
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/NYKAA.NS/chart"
       }
     }
   ]

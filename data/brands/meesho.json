@@ -4,15 +4,15 @@
   "parent": null,
   "entity_type": "public_standalone",
   "category": "E-commerce",
-  "description": "Meesho is an Indian value-focused e-commerce marketplace platform.",
-  "last_refreshed": "2026-11-15T11:29:52.634Z",
+  "description": "Meesho Limited is an Indian e-commerce marketplace platform focusing on the unorganized retail segment by connecting small businesses and individual entrepreneurs directly with consumers.",
+  "last_refreshed": "2026-11-25T13:25:25.838Z",
   "stock": {
     "applicable": true,
-    "value": 257.99,
+    "value": 255.85,
     "currency": "INR",
     "ticker": "MEESHO.NS",
-    "as_of": null,
-    "note": "Listed on NSE and BSE on December 10, 2025 following its initial public offering.",
+    "as_of": "2026-11-23",
+    "note": "Reflects Meesho Limited listed on NSE/BSE (formerly Fashnear Technologies Pvt Ltd)",
     "confidence": "disclosed"
   },
   "revenue": {
@@ -23,18 +23,18 @@
     "source": {
       "name": "Yahoo Finance",
       "url": "https://finance.yahoo.com/quote/MEESHO.NS",
-      "date": ""
+      "date": "2026-11-23"
     }
   },
   "operating_profit": {
-    "value": -14850000000,
+    "value": -12714510336,
     "currency": "INR",
     "period": "FY2026",
     "confidence": "disclosed",
     "source": {
-      "name": "Screener",
-      "url": "https://www.screener.in/company/MEESHO/consolidated",
-      "date": ""
+      "name": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/MEESHO.NS",
+      "date": "2026-11-23"
     }
   },
   "expenses": {
@@ -42,17 +42,13 @@
     "confidence": "not_found"
   },
   "marketing_spend": {
-    "value_low": 18939000000,
-    "value_high": 25252000000,
+    "value_low": 18939522000,
+    "value_high": 25252696000,
     "currency": "INR",
     "period": "FY2026",
     "tier": "3_modeled",
-    "derivation": "Modeled by applying a category-typical 15% to 20% marketing-to-revenue ratio for consumer e-commerce platforms to Meesho's FY2026 consolidated revenue of ₹12,626 crore.",
-    "source": {
-      "name": "Screener",
-      "url": "https://www.screener.in/company/MEESHO/consolidated",
-      "date": ""
-    }
+    "derivation": "Modeled by applying a standard 15-20% marketing spend-to-revenue ratio for fast-growing e-commerce marketplaces in India to Meesho's reported FY2026 revenue of 126,263,480,000 INR.",
+    "source": null
   },
   "trend_history": {
     "stock": [
@@ -107,6 +103,10 @@
       {
         "date": "2026-11-14",
         "value": 257.99
+      },
+      {
+        "date": "2026-11-23",
+        "value": 255.85
       }
     ],
     "revenue": [
@@ -124,11 +124,11 @@
       },
       {
         "period": "FY2025",
-        "value": 93900000000
+        "value": 0
       },
       {
         "period": "FY2026",
-        "value": 126260000000
+        "value": 126263480000
       },
       {
         "period": "FY25",
@@ -162,19 +162,19 @@
   },
   "business_updates": [
     {
-      "headline": "India's e-commerce firm Meesho draws $28 billion in IPO as institutional investors pile in",
-      "date": "2025-12-05",
+      "headline": "India's Meesho to acquire B2B commerce platform Kirana Club and RPLPL",
+      "date": "2026-11-14",
       "source": {
-        "name": "Yahoo Finance / Reuters",
-        "url": "https://sg.finance.yahoo.com/news/indias-e-commerce-firm-meesho-144000376.html"
+        "name": "Retail Insight Network",
+        "url": "https://ca.finance.yahoo.com/quote/MEESHO.NS/latest-news"
       }
     },
     {
-      "headline": "UBS raises target price for Meesho following positive outlook on margin improvement and sales growth",
-      "date": "",
+      "headline": "Indian e-commerce firm Meesho's quarterly loss spikes as it ramps up marketing",
+      "date": "2026-06-23",
       "source": {
-        "name": "Biz Tak",
-        "url": "https://www.facebook.com/biztakofficial/posts/shares-of-meesho-an-e-commerce-company-included-in-the-nifty-smallcap-100-index-/1587835040025476"
+        "name": "Reuters",
+        "url": "https://ca.finance.yahoo.com/quote/MEESHO.NS/latest-news"
       }
     }
   ]

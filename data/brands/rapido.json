@@ -4,61 +4,51 @@
   "parent": "Roppen Transportation Services Pvt Ltd",
   "entity_type": "india_private_registered",
   "category": "Ride-hailing",
-  "description": "Rapido is an Indian ride-hailing and logistics platform offering bike taxi, auto, cab, and parcel delivery services, operated by Roppen Transportation Services Pvt Ltd.",
-  "last_refreshed": "2026-11-15T11:26:06.036Z",
+  "description": "Rapido is an Indian bike-taxi, auto-rickshaw, cab-hailing, and hyperlocal delivery service platform owned by Roppen Transportation Services Pvt Ltd.",
+  "last_refreshed": "2026-11-25T13:21:43.442Z",
   "stock": {
     "applicable": false,
     "value": null,
     "currency": "INR",
     "ticker": null,
     "as_of": null,
-    "note": "Private company, not listed on public stock exchanges.",
+    "note": "Private company; unlisted shares trade on grey market with plans to initiate an IPO by end of 2026.",
     "confidence": "not_applicable"
   },
   "revenue": {
-    "value": 9340000000,
+    "value": 934.44,
     "currency": "INR",
     "period": "FY2025",
     "confidence": "disclosed",
     "source": {
-      "name": "Unlisted Sahi Hai",
-      "url": "https://www.unlistedsahihai.com/company/rapido",
-      "date": "2025-05-01"
+      "name": "Rediff Moneynews",
+      "url": "https://money.rediff.com/news/market/rapido-loss-narrows-revenue-rises-44-in-fy25/40628320260122",
+      "date": "2026-01-22"
     }
   },
   "operating_profit": {
-    "value": -2580000000,
+    "value": -258,
     "currency": "INR",
     "period": "FY2025",
     "confidence": "disclosed",
     "source": {
-      "name": "Unlisted Sahi Hai",
-      "url": "https://www.unlistedsahihai.com/company/rapido",
-      "date": "2025-05-01"
+      "name": "Rediff Moneynews",
+      "url": "https://money.rediff.com/news/market/rapido-loss-narrows-revenue-rises-44-in-fy25/40628320260122",
+      "date": "2026-01-22"
     }
   },
   "expenses": {
-    "breakdown": [
-      {
-        "label": "Marketing Expenses",
-        "value": 804300000,
-        "confidence": "disclosed"
-      }
-    ],
-    "confidence": "disclosed"
+    "breakdown": [],
+    "confidence": "not_found"
   },
   "marketing_spend": {
-    "value_low": 804300000,
-    "value_high": 804300000,
+    "value_low": 140,
+    "value_high": 187,
     "currency": "INR",
     "period": "FY2025",
-    "tier": "1_disclosed",
-    "derivation": "Disclosed marketing expenses of ₹80.43 crore (8043 Lakhs) in FY2025 MCA financial filings as reported in company profiles.",
-    "source": {
-      "name": "Tracxn",
-      "url": "https://tracxn.com/d/legal-entities/india/roppen-transportation-services-private-limited/__HUZ2wakxPnhZkeEpflU9cNcXb0lI5IllIrVKyQCIrm4",
-      "date": "2026-05-01"
-    }
+    "tier": "3_modeled",
+    "derivation": "Estimated at 15–20% of Rapido's reported FY25 consolidated revenue of ₹934.44 crore, based on typical marketing-to-revenue benchmarks for Indian consumer tech and ride-hailing platforms.",
+    "source": null
   },
   "trend_history": {
     "stock": [],
@@ -73,11 +63,11 @@
       },
       {
         "period": "FY2024",
-        "value": 8420000000
+        "value": 648
       },
       {
         "period": "FY2025",
-        "value": 9340000000
+        "value": 934.44
       },
       {
         "period": "FY23",
@@ -99,27 +89,27 @@
   },
   "business_updates": [
     {
-      "headline": "Rapido bags $240 million in Series F funding led by Prosus at a $3 billion valuation",
+      "headline": "Rapido raised $240 million in Series F round led by Prosus at a $3 billion valuation",
       "date": "2026-05-15",
       "source": {
-        "name": "VCCircle",
-        "url": "https://www.vccircle.com/tag/roppen-transportation-services-pvt-ltd"
+        "name": "Tracxn",
+        "url": "https://tracxn.com/d/legal-entities/india/roppen-transportation-services-private-limited/__HUZ2wakxPnhZkeEpflU9cNcXb0lI5IllIrVKyQCIrm4"
       }
     },
     {
-      "headline": "Rapido's monthly active users hit 31.8 million, overtaking Ola for the first time in Indian ride-hailing history",
-      "date": "2026-01-01",
+      "headline": "Rapido parent company narrowed FY25 consolidated net loss to ₹258 crore with revenue up 44%",
+      "date": "2026-01-22",
       "source": {
-        "name": "Swadeshi Apps",
-        "url": "https://swadeshiapps.com/travel/rapido"
+        "name": "Rediff Moneynews",
+        "url": "https://money.rediff.com/news/market/rapido-loss-narrows-revenue-rises-44-in-fy25/40628320260122"
       }
     },
     {
-      "headline": "Swiggy sells its 12% stake in Rapido for ₹2,400 crore",
-      "date": "2025-09-01",
+      "headline": "Rapido plans to initiate its IPO process by end of 2026",
+      "date": "2026-01-22",
       "source": {
-        "name": "Yahoo Finance",
-        "url": "https://finance.yahoo.com/news/rapido-magicpin-target-zomato-swiggy-093653916.html"
+        "name": "Rediff Moneynews",
+        "url": "https://money.rediff.com/news/market/rapido-loss-narrows-revenue-rises-44-in-fy25/40628320260122"
       }
     }
   ]

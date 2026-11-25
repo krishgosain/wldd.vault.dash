@@ -4,65 +4,65 @@
   "parent": "Imagine Marketing Ltd.",
   "entity_type": "india_private_registered",
   "category": "Consumer Electronics",
-  "description": "boAt is an Indian consumer electronics brand specializing in audio gear and smart wearables, owned by unlisted parent Imagine Marketing Ltd.",
-  "last_refreshed": "2026-11-15T11:28:17.855Z",
+  "description": "boAt is an Indian lifestyle consumer tech brand selling personal audio equipment and wearables, owned by parent company Imagine Marketing Ltd.",
+  "last_refreshed": "2026-11-25T13:24:24.241Z",
   "stock": {
     "applicable": false,
     "value": null,
     "currency": "INR",
     "ticker": null,
     "as_of": null,
-    "note": "Unlisted brand; parent company Imagine Marketing Ltd. has received SEBI approval for a proposed ₹1,500 crore IPO.",
+    "note": "Unlisted private entity; currently filing for an initial public offering (IPO).",
     "confidence": "not_applicable"
   },
   "revenue": {
-    "value": 2931.4,
-    "currency": "INR",
-    "period": "FY2026",
+    "value": 3097.8,
+    "currency": "INR Cr",
+    "period": "FY2025",
     "confidence": "disclosed",
     "source": {
-      "name": "UnlistedZone",
-      "url": "https://unlistedzone.com/shares/boat-unlisted-share-imagine-marketing",
-      "date": "2026-08-27"
+      "name": "boAt Parent Imagine Marketing Swings to ₹60 Cr Profit in FY25",
+      "url": "https://hdfcsky.com/news/boat-parent-imagine-marketing-swings-to-rs-60-crore-profit-in-fy25-after-two-years-of-losses",
+      "date": "2025-10-07"
     }
   },
   "operating_profit": {
-    "value": 117.6,
-    "currency": "INR",
-    "period": "FY2026",
+    "value": 142.5,
+    "currency": "INR Cr",
+    "period": "FY2025",
     "confidence": "disclosed",
     "source": {
-      "name": "UnlistedZone",
-      "url": "https://unlistedzone.com/shares/boat-unlisted-share-imagine-marketing",
-      "date": "2026-08-27"
+      "name": "Shubham Kumar on Facebook",
+      "url": "https://www.facebook.com/groups/startuptalky/posts/4700703640148641",
+      "date": "2025-10-07"
     }
   },
   "expenses": {
     "breakdown": [
       {
-        "label": "Advertising expense cut",
+        "label": "Advertising cost reduction",
         "value": 50,
         "confidence": "disclosed"
       },
       {
-        "label": "Warranty cost cut",
+        "label": "Warranty cost reduction",
         "value": 25,
         "confidence": "disclosed"
       }
     ],
-    "confidence": "press_estimate"
+    "confidence": "disclosed"
   },
   "marketing_spend": {
-    "value_low": 145,
-    "value_high": 235,
-    "currency": "INR",
-    "period": "FY2026",
+    "value_low": 150,
+    "value_high": 300,
+    "currency": "INR Cr",
+    "period": "FY2025",
     "tier": "3_modeled",
-    "derivation": "Modeled by applying a category-typical 5% to 8% ad spend ratio to boAt's FY26 revenue of ₹2,931.4 crore, taking into account reported advertising cuts of ₹50 crore (₹500 million) in the period.",
+    "derivation": "Modeled using a standard 5% to 10% marketing-to-revenue ratio typical for direct-to-consumer electronics brands applied to FY25 consolidated revenue of ₹3,097.8 crore, accounting for reported advertising spend cuts of ₹50 crore (₹500 million).",
     "source": {
-      "name": "UnlistedZone",
+      "name": "Boat Unlisted Share (Imagine Marketing)",
       "url": "https://unlistedzone.com/shares/boat-unlisted-share-imagine-marketing",
-      "date": "2026-08-27"
+      "date": "2025-10-07"
     }
   },
   "trend_history": {
@@ -82,7 +82,7 @@
       },
       {
         "period": "FY2025",
-        "value": 3073
+        "value": 3097.8
       },
       {
         "period": "FY2026",
@@ -92,27 +92,27 @@
   },
   "business_updates": [
     {
-      "headline": "boAt's parent Imagine Marketing gets SEBI nod for ₹1,500-crore IPO",
-      "date": "2025-10-30",
+      "headline": "Imagine Marketing Files DRHP to Raise ₹1,500 Crore via IPO",
+      "date": "2025-12-01",
       "source": {
-        "name": "UnlistedZone",
-        "url": "https://unlistedzone.com/shares/boat-unlisted-share-imagine-marketing"
+        "name": "Kotak Neo on Facebook",
+        "url": "https://www.facebook.com/kotakneo/videos/indias-leading-audio-brand-boat-is-back-in-the-news-with-a-major-ipo-update-its-/1187128480151084"
       }
     },
     {
-      "headline": "boAt parent Imagine Marketing swings to ₹60 Cr profit in FY25",
+      "headline": "boAt Parent Imagine Marketing Returns to Net Profitability of ₹60 Crore in FY25",
       "date": "2025-10-07",
       "source": {
-        "name": "HDFC Sky",
+        "name": "boAt Parent Imagine Marketing Swings to ₹60 Cr Profit in FY25",
         "url": "https://hdfcsky.com/news/boat-parent-imagine-marketing-swings-to-rs-60-crore-profit-in-fy25-after-two-years-of-losses"
       }
     },
     {
-      "headline": "Imagine Marketing files updated DRHP for ₹1,500 Cr IPO",
-      "date": "2025-04-03",
+      "headline": "boAt Appoints Gaurav Nayyar as CEO Ahead of Planned IPO",
+      "date": "2025-09-30",
       "source": {
-        "name": "Kotak Neo",
-        "url": "https://www.facebook.com/kotakneo/videos/indias-leading-audio-brand-boat-is-back-in-the-news-with-a-major-ipo-update-its-/1187128480151084"
+        "name": "Imagine Marketing - Tracxn",
+        "url": "https://tracxn.com/d/companies/imagine-marketing/__WaFOp-ErgyXYik98Npffet0y4rExR2RcNdAdReeR9uM"
       }
     }
   ]

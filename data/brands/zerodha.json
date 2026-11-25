@@ -4,71 +4,51 @@
   "parent": "Zerodha Broking Ltd.",
   "entity_type": "india_private_registered",
   "category": "Fintech / Broking",
-  "description": "Zerodha is an Indian financial services firm providing equity, currency, commodity trading, and mutual fund distribution, operated by Zerodha Broking Ltd.",
-  "last_refreshed": "2026-11-15T11:29:08.674Z",
+  "description": "Zerodha is an Indian financial services company and online discount stock broker owned by Zerodha Broking Ltd.",
+  "last_refreshed": "2026-11-25T13:24:44.348Z",
   "stock": {
     "applicable": false,
     "value": null,
     "currency": "INR",
     "ticker": null,
     "as_of": null,
-    "note": "Zerodha is a privately held company and is not listed on public stock exchanges.",
+    "note": "Zerodha is a privately held unlisted entity.",
     "confidence": "not_applicable"
   },
   "revenue": {
     "value": 88470000000,
     "currency": "INR",
-    "period": "FY2025",
-    "confidence": "disclosed",
+    "period": "FY2026",
+    "confidence": "press_estimate",
     "source": {
-      "name": "Wikipedia",
-      "url": "https://en.wikipedia.org/wiki/Zerodha",
-      "date": "2025"
+      "name": "The HinduBusinessLine",
+      "url": "https://www.thehindubusinessline.com/markets/stock-markets/zerodha-profit-rises-to-4283-crore-in-fy26-despite-flat-revenue/article71395099.ece",
+      "date": "unknown"
     }
   },
   "operating_profit": {
     "value": 42830000000,
     "currency": "INR",
     "period": "FY2026",
-    "confidence": "disclosed",
+    "confidence": "press_estimate",
     "source": {
-      "name": "The Times of India",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/zerodha-fy26-profit-up-1-to-rs-4283-cr-in-fy26/articleshow/133548608.cms",
-      "date": "2026"
+      "name": "The HinduBusinessLine",
+      "url": "https://www.thehindubusinessline.com/markets/stock-markets/zerodha-profit-rises-to-4283-crore-in-fy26-despite-flat-revenue/article71395099.ece",
+      "date": "unknown"
     }
   },
   "expenses": {
-    "breakdown": [
-      {
-        "label": "Marketing Expenses",
-        "value": 646300000,
-        "confidence": "disclosed"
-      },
-      {
-        "label": "Employee Expenses",
-        "value": 366600000,
-        "confidence": "disclosed"
-      },
-      {
-        "label": "Information Technology Expenses",
-        "value": 108600000,
-        "confidence": "disclosed"
-      }
-    ],
-    "confidence": "disclosed"
+    "breakdown": [],
+    "confidence": "not_found"
   },
   "marketing_spend": {
-    "value_low": 646300000,
-    "value_high": 646300000,
+    "value_low": 200000000,
+    "value_high": 450000000,
     "currency": "INR",
-    "period": "FY2025",
-    "tier": "1_disclosed",
-    "derivation": "Disclosed as Marketing Expenses (₹64.63 crore / 6463 Lakhs) in Zerodha Broking Limited's MCA financial report for FY 2024-25.",
-    "source": {
-      "name": "Tracxn",
-      "url": "https://tracxn.com/d/legal-entities/india/zerodha-broking-limited/__v553aNZpzCj2Bvf4xhnL-tRmJFFZ-TN4gXVbm8w0W1Y",
-      "date": "2025"
-    }
+    "period": "FY2026",
+    "tier": "3_modeled",
+    "derivation": "Modeled using Zerodha's zero-paid-ad strategy, estimating promotional and organic educational expenditure at approximately 0.25% to 0.5% of total FY26 revenue (₹8,847 crore).",
+    "source": null
   },
   "trend_history": {
     "stock": [],
@@ -83,11 +63,11 @@
       },
       {
         "period": "FY2024",
-        "value": 100000000000
+        "value": 93720000000
       },
       {
         "period": "FY2025",
-        "value": 88470000000
+        "value": 85000000000
       },
       {
         "period": "FY2026",
@@ -97,24 +77,16 @@
   },
   "business_updates": [
     {
-      "headline": "Zerodha's net profit rises 1.2% to Rs 4,283 crore in FY26 as margin trading facility revenue helps offset core brokerage decline.",
-      "date": "2026",
+      "headline": "Zerodha's net profit rose 1.2% to ₹4,283 crore in FY26 as revenue remained flat at ₹8,847 crore",
+      "date": "2026-01-01",
       "source": {
-        "name": "The Times of India",
-        "url": "https://timesofindia.indiatimes.com/business/india-business/zerodha-fy26-profit-up-1-to-rs-4283-cr-in-fy26/articleshow/133548608.cms"
+        "name": "The HinduBusinessLine",
+        "url": "https://www.thehindubusinessline.com/markets/stock-markets/zerodha-profit-rises-to-4283-crore-in-fy26-despite-flat-revenue/article71395099.ece"
       }
     },
     {
-      "headline": "Zerodha secures merchant banking licence through subsidiary Zerodha Corporate Advisors to offer investment banking services.",
-      "date": "2026",
-      "source": {
-        "name": "Wikipedia",
-        "url": "https://en.wikipedia.org/wiki/Zerodha"
-      }
-    },
-    {
-      "headline": "Zerodha invests in market data and research platform Tijori Finance.",
-      "date": "2025-11",
+      "headline": "Zerodha obtained merchant banking licence through its subsidiary Zerodha Corporate Advisors",
+      "date": "2026-01-01",
       "source": {
         "name": "Wikipedia",
         "url": "https://en.wikipedia.org/wiki/Zerodha"
