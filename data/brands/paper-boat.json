@@ -4,15 +4,15 @@
   "parent": "Hector Beverages Pvt Ltd",
   "entity_type": "india_private_registered",
   "category": "F&B",
-  "description": "Paper Boat is an Indian brand of traditional packaged beverages and snacks produced and marketed by Hector Beverages Pvt Ltd.",
-  "last_refreshed": "2026-11-22T11:54:54.375Z",
+  "description": "Paper Boat is an Indian packaged beverage and traditional snack brand owned by Hector Beverages Pvt Ltd.",
+  "last_refreshed": "2026-11-27T13:11:01.161Z",
   "stock": {
     "applicable": false,
     "value": null,
     "currency": "INR",
     "ticker": null,
     "as_of": null,
-    "note": "Hector Beverages Pvt Ltd is a privately held entity and not publicly traded.",
+    "note": "Paper Boat is a private company with no publicly traded shares.",
     "confidence": "not_applicable"
   },
   "revenue": {
@@ -45,13 +45,13 @@
         "confidence": "disclosed"
       },
       {
-        "label": "Job work charges",
-        "value": 25000000,
+        "label": "Advertising and promotion",
+        "value": 280000000,
         "confidence": "disclosed"
       },
       {
-        "label": "Advertising and promotion",
-        "value": 280000000,
+        "label": "Job work charges",
+        "value": 250000000,
         "confidence": "disclosed"
       }
     ],
@@ -63,7 +63,7 @@
     "currency": "INR",
     "period": "FY2026",
     "tier": "1_disclosed",
-    "derivation": "Disclosed as ₹28 crore (₹280,000,000) for advertising and promotion expenses in Hector Beverages' FY26 financial disclosures, representing 3.7% of operating revenue.",
+    "derivation": "Hector Beverages disclosed advertising and promotion expenses of ₹28 crore in its FY26 financial statements, representing a 55.6% YoY increase.",
     "source": {
       "name": "Zane Marketing",
       "url": "https://zane.marketing/news/paper-boat-fy26-revenue-profit-decline",
@@ -79,7 +79,7 @@
       },
       {
         "period": "FY2024",
-        "value": 5744800000
+        "value": 5850000000
       },
       {
         "period": "FY2025",
@@ -105,6 +105,14 @@
   },
   "business_updates": [
     {
+      "headline": "Hector Beverages appoints Yash Malpani as Senior Vice President - Sales",
+      "date": "2026-11-24",
+      "source": {
+        "name": "Caplight",
+        "url": "https://www.caplight.com/company/paper-boat-1"
+      }
+    },
+    {
       "headline": "Hector Beverages appoints Sharath Kumar as AVP Marketing - Platform Head",
       "date": "2026-10-29",
       "source": {
@@ -113,19 +121,11 @@
       }
     },
     {
-      "headline": "Hector Beverages reports ₹760 crore operating revenue for FY26 as PAT plunges 96% to ₹2 crore",
-      "date": "2026-08-08",
+      "headline": "GIC-backed Paper Boat maker Hector Beverages eyes fresh fundraise",
+      "date": "2026-03-25",
       "source": {
-        "name": "Zane Marketing",
-        "url": "https://zane.marketing/news/paper-boat-fy26-revenue-profit-decline"
-      }
-    },
-    {
-      "headline": "Paper Boat launches new flavor Aasman Se Tappu and limited-edition Doori packs",
-      "date": "2025-01-01",
-      "source": {
-        "name": "LeadIQ",
-        "url": "https://leadiq.com/c/hector-beverages/5a1d971f230000590085b71c"
+        "name": "Tracxn",
+        "url": "https://tracxn.com/d/companies/hectorbeverages/__-EviM7ca4W5OzMm4xkd8ge_Vq5wsximoA4Oat0Gjg00"
       }
     }
   ]

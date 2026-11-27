@@ -4,15 +4,15 @@
   "parent": "Eternal Ltd",
   "entity_type": "public_parent",
   "category": "Events / Ticketing",
-  "description": "District is an events, dining, and entertainment discovery platform operated as a business segment of public parent Eternal Ltd (formerly Zomato).",
-  "last_refreshed": "2026-11-22T11:52:47.888Z",
+  "description": "District is the event ticketing, dining, and entertainment discovery platform operating as a business segment under Eternal Ltd (formerly Zomato).",
+  "last_refreshed": "2026-11-27T13:07:32.230Z",
   "stock": {
     "applicable": false,
-    "value": 364,
+    "value": 311.75,
     "currency": "INR",
     "ticker": "ETERNAL.NS",
-    "as_of": "2026-11-20",
-    "note": "Reflects parent company Eternal Ltd stock price, not District specifically.",
+    "as_of": null,
+    "note": "Reflects parent company Eternal Ltd, not this brand specifically",
     "confidence": "not_applicable"
   },
   "revenue": {
@@ -23,13 +23,13 @@
     "source": {
       "name": "Finology Ticker",
       "url": "https://ticker.finology.in/company/ETERNAL",
-      "date": "2026-03-31"
+      "date": ""
     }
   },
   "operating_profit": {
     "value": null,
     "currency": "INR",
-    "period": "FY2026",
+    "period": "",
     "confidence": "not_found",
     "source": null
   },
@@ -38,17 +38,13 @@
     "confidence": "not_found"
   },
   "marketing_spend": {
-    "value_low": 415500000,
-    "value_high": 692500000,
+    "value_low": 250000000,
+    "value_high": 400000000,
     "currency": "INR",
     "period": "FY2026",
     "tier": "3_modeled",
-    "derivation": "Modeled using a standard 15%-25% marketing-to-revenue ratio for digital ticketing and event discovery platforms, applied to District's disclosed segment revenue of ₹277 crore in FY2026.",
-    "source": {
-      "name": "Finology Ticker",
-      "url": "https://ticker.finology.in/company/ETERNAL",
-      "date": "2026-03-31"
-    }
+    "derivation": "Modeled using an estimated 10%–15% marketing-to-revenue benchmark typical for event discovery and ticketing platforms applied to District's reported segment revenue of Rs 277 crore.",
+    "source": null
   },
   "trend_history": {
     "stock": [
@@ -116,14 +112,5 @@
       }
     ]
   },
-  "business_updates": [
-    {
-      "headline": "Eternal Ltd reports District Net Order Value of ₹2,736 crore and segment revenue of ₹277 crore",
-      "date": "2026-03-31",
-      "source": {
-        "name": "Finology Ticker",
-        "url": "https://ticker.finology.in/company/ETERNAL"
-      }
-    }
-  ]
+  "business_updates": []
 }

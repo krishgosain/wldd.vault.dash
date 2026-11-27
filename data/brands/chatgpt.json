@@ -4,21 +4,21 @@
   "parent": "OpenAI",
   "entity_type": "foreign_private",
   "category": "Consumer Tech / AI",
-  "description": "ChatGPT is a conversational generative artificial intelligence product developed by OpenAI.",
-  "last_refreshed": "2026-11-22T11:50:55.249Z",
+  "description": "ChatGPT is an artificial intelligence conversational assistant developed and operated by foreign private company OpenAI.",
+  "last_refreshed": "2026-11-27T13:02:45.959Z",
   "stock": {
     "applicable": false,
     "value": null,
     "currency": "USD",
     "ticker": null,
     "as_of": null,
-    "note": "Reflects a brand of OpenAI, which is a privately held entity without a public ticker.",
+    "note": "Privately held entity product; stock metrics not applicable.",
     "confidence": "not_applicable"
   },
   "revenue": {
     "value": 8000000000,
     "currency": "USD",
-    "period": "2025",
+    "period": "FY2025",
     "confidence": "press_estimate",
     "source": {
       "name": "Business of Apps",
@@ -29,7 +29,7 @@
   "operating_profit": {
     "value": null,
     "currency": "USD",
-    "period": "2025",
+    "period": "FY2025",
     "confidence": "not_found",
     "source": null
   },
@@ -39,16 +39,12 @@
   },
   "marketing_spend": {
     "value_low": 800000000,
-    "value_high": 1600000000,
+    "value_high": 1200000000,
     "currency": "USD",
-    "period": "2025",
+    "period": "FY2025",
     "tier": "3_modeled",
-    "derivation": "Modeled using a standard consumer tech benchmark of 10% to 20% of total revenue applied to ChatGPT's estimated 2025 revenue of $8 billion.",
-    "source": {
-      "name": "Business of Apps",
-      "url": "https://www.businessofapps.com/data/chatgpt-statistics",
-      "date": "2026-01-01"
-    }
+    "derivation": "Modeled by applying a standard consumer technology / SaaS marketing budget ratio of 10%–15% to ChatGPT's reported FY2025 revenue of $8.0 billion.",
+    "source": null
   },
   "trend_history": {
     "stock": [],
@@ -89,27 +85,27 @@
   },
   "business_updates": [
     {
-      "headline": "ChatGPT Ads surpasses $1 billion in annualized revenue run rate",
+      "headline": "ChatGPT reaches $1 billion annualized advertising revenue run rate",
       "date": "2026-08-31",
       "source": {
-        "name": "OpenAI",
-        "url": "https://openai.com/index/expanding-access-to-ai-with-chatgpt-ads"
+        "name": "Adweek",
+        "url": "https://www.adweek.com/programmatic/chatgpt-openai-billion-advertising-revenue"
       }
     },
     {
-      "headline": "ChatGPT consumer paid subscribers reach 15.5 million by January 2025",
-      "date": "2025-01-01",
-      "source": {
-        "name": "Futuresearch",
-        "url": "https://futuresearch.ai/openai-revenue-forecast"
-      }
-    },
-    {
-      "headline": "Criteo joins OpenAI as first ad-tech partner for ChatGPT advertising pilot in the US",
+      "headline": "Criteo joins OpenAI as first ad-tech partner for ChatGPT advertising pilot in the U.S.",
       "date": "2026-02-01",
       "source": {
         "name": "Stock Titan",
         "url": "https://www.stocktitan.net/news/CRTO/criteo-joins-open-ai-advertising-pilot-in-chat-hcu7gqbt68nj.html"
+      }
+    },
+    {
+      "headline": "ChatGPT paid consumer subscriber count grows to 15.5 million",
+      "date": "2025-01-01",
+      "source": {
+        "name": "Future Search",
+        "url": "https://futuresearch.ai/openai-revenue-forecast"
       }
     }
   ]

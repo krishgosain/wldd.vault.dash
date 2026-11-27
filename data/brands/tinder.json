@@ -4,50 +4,42 @@
   "parent": "Match Group",
   "entity_type": "public_parent",
   "category": "Social / Dating",
-  "description": "Tinder is a mobile dating and social discovery platform owned by publicly listed parent Match Group, Inc.",
-  "last_refreshed": "2026-11-22T11:52:35.051Z",
+  "description": "Tinder is a location-based social discovery and dating application owned by parent company Match Group (NASDAQ: MTCH).",
+  "last_refreshed": "2026-11-27T13:07:00.809Z",
   "stock": {
     "applicable": false,
     "value": null,
     "currency": "USD",
-    "ticker": "MTCH",
-    "as_of": "2026-11-17",
-    "note": "Ticker MTCH applies to parent entity Match Group, Inc., not Tinder specifically.",
+    "ticker": null,
+    "as_of": null,
+    "note": "Tinder does not have its own stock ticker; stock metrics reflect parent company Match Group (NASDAQ: MTCH).",
     "confidence": "not_applicable"
   },
   "revenue": {
-    "value": 3487197000,
+    "value": null,
     "currency": "USD",
-    "period": "FY2025",
-    "confidence": "disclosed",
-    "source": {
-      "name": "Yahoo Finance",
-      "url": "https://finance.yahoo.com/quote/MTCH",
-      "date": "2026-11-13"
-    }
+    "period": "Q3 2026",
+    "confidence": "not_found",
+    "source": null
   },
   "operating_profit": {
-    "value": 872500000,
+    "value": null,
     "currency": "USD",
-    "period": "FY2025",
-    "confidence": "disclosed",
-    "source": {
-      "name": "StockTitan",
-      "url": "https://stocktitan.net/overview/MTCH",
-      "date": "2026-11-13"
-    }
+    "period": "Q3 2026",
+    "confidence": "not_found",
+    "source": null
   },
   "expenses": {
     "breakdown": [],
     "confidence": "not_found"
   },
   "marketing_spend": {
-    "value_low": 520000000,
-    "value_high": 870000000,
+    "value_low": 350000000,
+    "value_high": 600000000,
     "currency": "USD",
-    "period": "FY2025",
+    "period": "FY2026",
     "tier": "3_modeled",
-    "derivation": "Estimated by applying an industry-standard 15% to 25% sales and marketing revenue ratio to Match Group's FY2025 revenue of $3.487 billion, given Tinder is the company's main revenue generator.",
+    "derivation": "Modeled by applying a category-typical consumer social/dating app marketing ratio of 15% to 25% against Match Group's total annual revenue of ~$3.49 billion, given that Tinder accounts for the majority of segment revenue.",
     "source": null
   },
   "trend_history": {
@@ -67,6 +59,10 @@
       {
         "date": "2026-10-28",
         "value": 42.06
+      },
+      {
+        "date": "2026-11-02",
+        "value": 41.41
       },
       {
         "date": "2026-11-03",
@@ -154,19 +150,19 @@
   },
   "business_updates": [
     {
-      "headline": "Match Group Q3 2026 deep dive: Tinder user growth returns, Hinge expansion and margin discipline shape outlook",
+      "headline": "Tinder Daily Active Users Return to Growth in Q3 2026 After Over Three Years of Declines",
+      "date": "2026-11-02",
+      "source": {
+        "name": "Tickeron",
+        "url": "https://tickeron.com/blogs/match-group-mtch-delivers-q3-results-revenue-dips-slightly-as-tinder-dau-growth-returns-26646"
+      }
+    },
+    {
+      "headline": "Match Group Delivers Q3 Adjusted EBITDA of $344.5 Million, Guided by Tinder DAU Recovery and Hinge Expansion",
       "date": "2026-11-03",
       "source": {
         "name": "StockStory",
         "url": "https://stockstory.org/us/stocks/nasdaq/mtch/news/earnings-call/mtch-q3-deep-dive-tinder-user-growth-returns-hinge-expansion-and-margin-discipline-shape-outlook"
-      }
-    },
-    {
-      "headline": "Match Group acquires niche career-oriented online dating app The League",
-      "date": "2022-07-12",
-      "source": {
-        "name": "Yahoo Finance",
-        "url": "https://finance.yahoo.com/news/match-group-mtch-acquires-online-131801243.html"
       }
     }
   ]

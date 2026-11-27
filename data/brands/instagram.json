@@ -4,75 +4,60 @@
   "parent": "Meta Platforms, Inc.",
   "entity_type": "public_parent",
   "category": "Social",
-  "description": "Instagram is a leading photo and short-form video sharing social network owned by parent company Meta Platforms, Inc.",
-  "last_refreshed": "2026-11-22T11:50:25.367Z",
+  "description": "Instagram is a photo and video sharing social networking service owned by public parent company Meta Platforms, Inc.",
+  "last_refreshed": "2026-11-27T12:59:07.988Z",
   "stock": {
     "applicable": false,
     "value": null,
     "currency": "USD",
-    "ticker": null,
+    "ticker": "META",
     "as_of": null,
-    "note": "Instagram is a division of Meta Platforms, Inc. (NASDAQ: META) and does not trade independently.",
+    "note": "Ticker reflects parent company Meta Platforms, Inc., not Instagram directly.",
     "confidence": "not_applicable"
   },
   "revenue": {
-    "value": 64601000000,
+    "value": 200966000000,
     "currency": "USD",
-    "period": "Q3 2026",
+    "period": "FY2025",
     "confidence": "disclosed",
     "source": {
-      "name": "Meta Reports Third Quarter 2026 Results",
-      "url": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Third-Quarter-2026-Results/default.aspx",
-      "date": "2026-09-30"
+      "name": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/META",
+      "date": "2025-01-01"
     }
   },
   "operating_profit": {
-    "value": 12988000000,
+    "value": 83280000000,
     "currency": "USD",
-    "period": "Q3 2026",
+    "period": "FY2025",
     "confidence": "disclosed",
     "source": {
-      "name": "Meta Reports Third Quarter 2026 Results",
-      "url": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Third-Quarter-2026-Results/default.aspx",
-      "date": "2026-09-30"
+      "name": "Tavily / Meta Knowledge Base",
+      "url": "https://tavily.com/knowledge/company/qEUrWqYCMNS1",
+      "date": "2025-01-01"
     }
   },
   "expenses": {
     "breakdown": [
       {
-        "label": "Cost of revenue",
-        "value": 13369000000,
-        "confidence": "disclosed"
-      },
-      {
-        "label": "Research and development",
-        "value": 20054000000,
-        "confidence": "disclosed"
-      },
-      {
-        "label": "Marketing and sales",
-        "value": 3333000000,
-        "confidence": "disclosed"
-      },
-      {
-        "label": "General and administrative",
-        "value": 14857000000,
+        "label": "Total Annual Expenses (2023 Guidance)",
+        "value": 88000000000,
         "confidence": "disclosed"
       }
     ],
     "confidence": "disclosed"
   },
   "marketing_spend": {
-    "value_low": 3333000000,
-    "value_high": 3333000000,
+    "value_low": 10000000000,
+    "value_high": 20000000000,
     "currency": "USD",
-    "period": "Q3 2026",
-    "tier": "1_disclosed",
-    "derivation": "Meta Platforms disclosed total Marketing and sales expenses of $3,333 million in its Q3 2026 quarterly results filing.",
+    "period": "FY2025",
+    "tier": "3_modeled",
+    "derivation": "Calculated by applying a standard tech/social media benchmark ratio of 5%–10% marketing spend against Meta's reported FY2025 total revenue of $200.97 billion.",
     "source": {
-      "name": "Meta Reports Third Quarter 2026 Results",
-      "url": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Third-Quarter-2026-Results/default.aspx",
-      "date": "2026-09-30"
+      "name": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/META",
+      "date": "2025-01-01"
     }
   },
   "trend_history": {
@@ -110,6 +95,22 @@
       {
         "period": "1Q2026",
         "value": 56311000000
+      },
+      {
+        "period": "2022",
+        "value": 116609000000
+      },
+      {
+        "period": "2023",
+        "value": 134902000000
+      },
+      {
+        "period": "2024",
+        "value": 164501000000
+      },
+      {
+        "period": "2025",
+        "value": 200966000000
       },
       {
         "period": "2Q2026",
@@ -171,19 +172,19 @@
   },
   "business_updates": [
     {
-      "headline": "Meta Reports Q3 2026 Total Revenue of $64.60 Billion, Up 26% Year-Over-Year",
-      "date": "2026-09-30",
+      "headline": "Instagram projected to generate more than half of Meta's US ad revenue by 2025",
+      "date": "2024-01-01",
       "source": {
-        "name": "Meta Reports Third Quarter 2026 Results",
-        "url": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Third-Quarter-2026-Results/default.aspx"
+        "name": "Financial Modeling Prep",
+        "url": "https://site.financialmodelingprep.com/market-news/meta-platforms-nasdaq-meta-financial-overview-instagram-impact"
       }
     },
     {
-      "headline": "Meta Launches Full-Screen Video Player and Unified Recommendation System to Drive Instagram Engagement",
-      "date": "2026-09-20",
+      "headline": "Meta beats quarterly profit and revenue expectations on strong digital ad recovery",
+      "date": "2023-10-25",
       "source": {
-        "name": "Analyst revisits Meta stock price target as Facebook parent ramps AI spend",
-        "url": "https://finance.yahoo.com/news/analyst-revisits-meta-stock-price-150701674.html"
+        "name": "Yahoo Finance / Reuters",
+        "url": "https://ca.finance.yahoo.com/news/facebook-parent-meta-beats-revenue-202237164.html"
       }
     }
   ]

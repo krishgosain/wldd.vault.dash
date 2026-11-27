@@ -4,81 +4,51 @@
   "parent": "Amazon.com, Inc.",
   "entity_type": "public_parent",
   "category": "E-commerce",
-  "description": "Amazon Shopping is the flagship online retail and e-commerce marketplace platform operated by Amazon.com, Inc.",
-  "last_refreshed": "2026-11-22T11:53:40.409Z",
+  "description": "Amazon Shopping is the global online retail marketplace platform operated by Amazon.com, Inc.",
+  "last_refreshed": "2026-11-27T13:08:50.791Z",
   "stock": {
     "applicable": false,
-    "value": 246.82,
+    "value": null,
     "currency": "USD",
-    "ticker": "AMZN",
-    "as_of": "2026-11-20",
-    "note": "Reflects parent company Amazon.com, Inc. (AMZN), not Amazon Shopping specifically.",
+    "ticker": null,
+    "as_of": null,
+    "note": "Amazon Shopping is a primary business unit of Amazon.com, Inc., which trades on NASDAQ under ticker AMZN ($251.46 as of 2026-11-25).",
     "confidence": "not_applicable"
   },
   "revenue": {
-    "value": 716920000000,
+    "value": 529540000000,
     "currency": "USD",
-    "period": "FY2025",
-    "confidence": "disclosed",
+    "period": "FY2024",
+    "confidence": "press_estimate",
     "source": {
-      "name": "Amazon",
-      "url": "https://tavily.com/knowledge/company/K3Dv448R4Obk",
-      "date": "2025"
+      "name": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/news/could-buying-amazon-stock-today-081500148.html",
+      "date": ""
     }
   },
   "operating_profit": {
-    "value": 79970000000,
+    "value": 28100000000,
     "currency": "USD",
-    "period": "FY2025",
-    "confidence": "disclosed",
+    "period": "FY2024",
+    "confidence": "press_estimate",
     "source": {
-      "name": "Amazon",
-      "url": "https://tavily.com/knowledge/company/K3Dv448R4Obk",
-      "date": "2025"
+      "name": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/news/could-buying-amazon-stock-today-081500148.html",
+      "date": ""
     }
   },
   "expenses": {
-    "breakdown": [
-      {
-        "label": "Cost of sales",
-        "value": 87463000000,
-        "confidence": "disclosed"
-      },
-      {
-        "label": "Technology and infrastructure",
-        "value": 29567000000,
-        "confidence": "disclosed"
-      },
-      {
-        "label": "Fulfillment",
-        "value": 27289000000,
-        "confidence": "disclosed"
-      },
-      {
-        "label": "Sales and marketing",
-        "value": 10314000000,
-        "confidence": "disclosed"
-      },
-      {
-        "label": "General and administrative",
-        "value": 2587000000,
-        "confidence": "disclosed"
-      }
-    ],
-    "confidence": "disclosed"
+    "breakdown": [],
+    "confidence": "not_found"
   },
   "marketing_spend": {
-    "value_low": 10314000000,
-    "value_high": 10314000000,
+    "value_low": 21180000000,
+    "value_high": 31770000000,
     "currency": "USD",
-    "period": "Q1 2026",
-    "tier": "1_disclosed",
-    "derivation": "Disclosed separately as 'Sales and marketing' operating expense line item of $10,314 million in Amazon.com, Inc.'s Q1 2026 quarterly results statement.",
-    "source": {
-      "name": "Amazon.com Announces First Quarter Results",
-      "url": "https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-First-Quarter-Results/default.aspx",
-      "date": "2026"
-    }
+    "period": "FY2024",
+    "tier": "3_modeled",
+    "derivation": "Estimated by applying a standard e-commerce ad/marketing spend ratio of 4-6% against Amazon's FY2024 retail/e-commerce segment revenue of approximately $529.54 billion (83% of parent total revenue of $638 billion).",
+    "source": null
   },
   "trend_history": {
     "stock": [
@@ -117,6 +87,10 @@
       {
         "date": "2026-11-20",
         "value": 246.82
+      },
+      {
+        "date": "2026-11-25",
+        "value": 251.46
       }
     ],
     "revenue": [
@@ -146,11 +120,11 @@
       },
       {
         "period": "FY2024",
-        "value": 637959000000
+        "value": 638000000000
       },
       {
         "period": "FY2025",
-        "value": 716924000000
+        "value": 716920000000
       },
       {
         "period": "Q1 2026",
@@ -180,19 +154,19 @@
   },
   "business_updates": [
     {
-      "headline": "Amazon Advertising TTM revenue exceeds $70 billion with Stores unit growth reaching 15%",
-      "date": "2026",
+      "headline": "Amazon Autos Plans to Launch Services in U.K. in Early 2027",
+      "date": "2026-11-25",
       "source": {
-        "name": "Amazon.com Announces First Quarter Results",
-        "url": "https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-First-Quarter-Results/default.aspx"
+        "name": "The Wall Street Journal",
+        "url": "https://robinhood.com/us/en/stocks/AMZN?source=sherwood"
       }
     },
     {
-      "headline": "AWS accelerates growth to 28% year-over-year while chip business reaches $20 billion run rate",
-      "date": "2026",
+      "headline": "Bernstein Analyst Notes Walmart Maintains E-Commerce Lead Over Amazon and Costco",
+      "date": "2026-11-25",
       "source": {
-        "name": "Amazon.com Announces First Quarter Results",
-        "url": "https://ir.aboutamazon.com/news-release/news-release-details/2026/Amazon-com-Announces-First-Quarter-Results/default.aspx"
+        "name": "TipRanks",
+        "url": "https://robinhood.com/us/en/stocks/AMZN?source=sherwood"
       }
     }
   ]

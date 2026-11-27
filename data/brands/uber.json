@@ -4,76 +4,51 @@
   "parent": null,
   "entity_type": "public_standalone",
   "category": "Ride-hailing",
-  "description": "Uber Technologies, Inc. is a standalone publicly listed technology company that provides ride-hailing, food delivery, and mobility services worldwide.",
-  "last_refreshed": "2026-11-15T11:30:32.251Z",
+  "description": "Uber Technologies, Inc. is a publicly traded technology platform offering ride-hailing, food delivery, logistics, and advertising services globally.",
+  "last_refreshed": "2026-11-27T12:57:53.574Z",
   "stock": {
     "applicable": true,
-    "value": 70.3,
+    "value": null,
     "currency": "USD",
     "ticker": "UBER",
-    "as_of": "2026-11-12",
-    "note": "Traded on the NYSE under ticker UBER",
+    "as_of": "2024-07-31",
+    "note": "Traded on NYSE under ticker UBER. Market cap was approximately $134.71B as of July 31, 2024.",
     "confidence": "disclosed"
   },
   "revenue": {
-    "value": 52020000000,
+    "value": 14800000000,
     "currency": "USD",
-    "period": "FY2025",
+    "period": "Q3 2026",
     "confidence": "disclosed",
     "source": {
-      "name": "Uber",
-      "url": "https://tavily.com/knowledge/company/tU4a44V7jqK3",
-      "date": "2025"
+      "name": "Walnut AI Investing App",
+      "url": "https://walnutinvest.com/stocks/uber",
+      "date": "2026-11-04"
     }
   },
   "operating_profit": {
-    "value": 5570000000,
+    "value": 1920000000,
     "currency": "USD",
-    "period": "FY2025",
+    "period": "Q1 2026",
     "confidence": "disclosed",
     "source": {
-      "name": "Uber",
+      "name": "Tavily Knowledge Base",
       "url": "https://tavily.com/knowledge/company/tU4a44V7jqK3",
-      "date": "2025"
+      "date": "2026-01-01"
     }
   },
   "expenses": {
-    "breakdown": [
-      {
-        "label": "Cost of revenue",
-        "value": 7258000000,
-        "confidence": "disclosed"
-      },
-      {
-        "label": "Sales and marketing",
-        "value": 1326000000,
-        "confidence": "disclosed"
-      },
-      {
-        "label": "Research and development",
-        "value": 951000000,
-        "confidence": "disclosed"
-      },
-      {
-        "label": "Operations and support",
-        "value": 763000000,
-        "confidence": "disclosed"
-      }
-    ],
-    "confidence": "disclosed"
+    "breakdown": [],
+    "confidence": "not_found"
   },
   "marketing_spend": {
-    "value_low": 1326000000,
-    "value_high": 1326000000,
+    "value_low": 4160000000,
+    "value_high": 5200000000,
     "currency": "USD",
-    "period": "Q1 2026",
-    "tier": "1_disclosed",
-    "derivation": "Disclosed as 'Sales and marketing' expense of $1,326 million in Uber's condensed consolidated statements of operations for the three months ended March 31, 2026.",
-    "source": {
-      "name": "Uber Technologies, Inc. - Uber Announces Results for First Quarter 2026",
-      "url": "https://investor.uber.com/news-events/news/press-release-details/2026/Uber-Announces-Results-for-First-Quarter-2026/default.aspx",
-      "date": "2026"
-    }
+    "period": "FY2025",
+    "tier": "3_modeled",
+    "derivation": "Modeled as 8% to 10% of FY2025 total revenue ($52.02B) based on standard industry sales and marketing ratios for global ride-hailing and consumer delivery platforms.",
+    "source": null
   },
   "trend_history": {
     "stock": [
@@ -132,6 +107,10 @@
         "value": 14366000000
       },
       {
+        "period": "FY 2025",
+        "value": 52020000000
+      },
+      {
         "period": "FY2025",
         "value": 52020000000
       },
@@ -141,7 +120,7 @@
       },
       {
         "period": "Q1 2026",
-        "value": 13203000000
+        "value": 13200000000
       },
       {
         "period": "Q2 2025",
@@ -149,7 +128,7 @@
       },
       {
         "period": "Q2 2026",
-        "value": 14191000000
+        "value": 14190000000
       },
       {
         "period": "Q3 2025",
@@ -157,7 +136,7 @@
       },
       {
         "period": "Q3 2026",
-        "value": 14766000000
+        "value": 14800000000
       },
       {
         "period": "Q4 2025",
@@ -167,27 +146,27 @@
   },
   "business_updates": [
     {
-      "headline": "Uber Technologies and McDonald's announce expanded multi-year global delivery and loyalty partnership across 14 markets",
-      "date": "2026-11-09",
+      "headline": "Uber reports Q3 2026 revenue of $14.8 billion, up 10% year-over-year",
+      "date": "2026-11-04",
       "source": {
-        "name": "Robinhood News",
-        "url": "https://robinhood.com/us/en/stocks/UBER"
+        "name": "Walnut AI Investing App",
+        "url": "https://walnutinvest.com/stocks/uber"
       }
     },
     {
-      "headline": "Uber adds reserved parking feature following acquisition of SpotHero",
-      "date": "2026-11-09",
+      "headline": "Uber achieves sustained GAAP profitability and strong operating leverage",
+      "date": "2026-11-04",
       "source": {
-        "name": "Robinhood News",
-        "url": "https://robinhood.com/us/en/stocks/UBER"
+        "name": "Walnut AI Investing App",
+        "url": "https://walnutinvest.com/stocks/uber"
       }
     },
     {
-      "headline": "Uber management announces stock repurchase authorization of up to an additional $20 billion",
-      "date": "2026",
+      "headline": "Uber executes share buyback strategy with $1.5 billion accelerated program",
+      "date": "2025-01-01",
       "source": {
         "name": "Yahoo Finance",
-        "url": "https://finance.yahoo.com/news/uber-vs-lyft-ride-hailing-145800914.html"
+        "url": "https://finance.yahoo.com/news/uber-vs-lyft-ride-hailing-155600012.html"
       }
     }
   ]

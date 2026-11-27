@@ -1,50 +1,65 @@
 {
   "name": "JioHotstar",
   "slug": "jiohotstar",
-  "parent": "JioStar (Reliance Industries / Disney JV)",
+  "parent": "JioStar",
   "entity_type": "india_private_registered",
   "category": "OTT",
-  "description": "JioHotstar is an Indian digital streaming platform created through the merger of JioCinema and Disney+ Hotstar under JioStar, a joint venture controlled by Reliance Industries and Disney.",
-  "last_refreshed": "2026-11-22T11:53:19.327Z",
+  "description": "JioHotstar is a major Indian digital streaming platform operated by JioStar, a joint venture between Reliance Industries and The Walt Disney Company.",
+  "last_refreshed": "2026-11-27T13:08:21.986Z",
   "stock": {
     "applicable": false,
     "value": null,
     "currency": "INR",
     "ticker": null,
     "as_of": null,
-    "note": "The brand is operated under joint venture entity JioStar (controlled 63.16% by Reliance Industries and 36.84% by Disney) and does not have an independent stock ticker.",
+    "note": "Not applicable as JioHotstar is a brand under privately held joint venture JioStar; parent Reliance Industries trades as RELIANCE.NS and Disney trades as DIS.",
     "confidence": "not_applicable"
   },
   "revenue": {
-    "value": null,
+    "value": 310480000000,
     "currency": "INR",
-    "period": "FY2024",
-    "confidence": "not_found",
-    "source": null
+    "period": "FY2026",
+    "confidence": "disclosed",
+    "source": {
+      "name": "The Economic Times",
+      "url": "https://m.economictimes.com/industry/media/entertainment/jiostar-losses-weigh-less-on-disney-as-india-jv-performance-improves/articleshow/131296128.cms",
+      "date": "2026-03-31"
+    }
   },
   "operating_profit": {
-    "value": null,
+    "value": 48850000000,
     "currency": "INR",
-    "period": "FY2024",
-    "confidence": "not_found",
-    "source": null
+    "period": "FY2026",
+    "confidence": "disclosed",
+    "source": {
+      "name": "The Economic Times",
+      "url": "https://m.economictimes.com/industry/media/entertainment/jiostar-losses-weigh-less-on-disney-as-india-jv-performance-improves/articleshow/131296128.cms",
+      "date": "2026-03-31"
+    }
   },
   "expenses": {
-    "breakdown": [],
-    "confidence": "not_found"
+    "breakdown": [
+      {
+        "label": "South Indian content acquisition and production (5-year commitment)",
+        "value": 40000000000,
+        "confidence": "disclosed"
+      },
+      {
+        "label": "FY25 provisions for expected losses on sports rights contracts",
+        "value": 257600000000,
+        "confidence": "disclosed"
+      }
+    ],
+    "confidence": "disclosed"
   },
   "marketing_spend": {
-    "value_low": 26000000000,
-    "value_high": 39000000000,
+    "value_low": 31048000000,
+    "value_high": 46572000000,
     "currency": "INR",
-    "period": "FY2025",
+    "period": "FY2026",
     "tier": "3_modeled",
-    "derivation": "Modeled using a category-typical OTT media marketing expenditure ratio of 10% to 15% applied against parent JV JioStar's pro forma combined revenue of ₹26,000 crore ($3.1 billion).",
-    "source": {
-      "name": "JioStar Press Release",
-      "url": "https://www.jiostar.com/news/reliance-and-disney-announce-completion-of-transaction-to-form-joint-venture-to-bring-together-the-most-iconic-and-engaging-entertainment-brands-in-india",
-      "date": "2024-11-14"
-    }
+    "derivation": "Estimated by applying a standard OTT industry benchmark ratio of 10% to 15% for marketing and subscriber acquisition against JioStar's disclosed FY26 operating revenue of Rs 31,048 crore.",
+    "source": null
   },
   "trend_history": {
     "stock": [],
@@ -81,27 +96,19 @@
   },
   "business_updates": [
     {
-      "headline": "JioStar officially merges JioCinema and Disney+ Hotstar to form unified streaming platform JioHotstar",
-      "date": "2025-02-14",
-      "source": {
-        "name": "The Hindu",
-        "url": "https://en.wikipedia.org/wiki/Disney_Star"
-      }
-    },
-    {
-      "headline": "JioHotstar announces plan to invest $444 million (₹40 billion) over 5 years in South Indian regional content",
+      "headline": "JioHotstar plans to invest $444 million (Rs 40 billion) over five years in south Indian content",
       "date": "2024-12-09",
       "source": {
-        "name": "Reuters / Yahoo Finance",
+        "name": "Yahoo Finance / Reuters",
         "url": "https://finance.yahoo.com/news/reliance-disneys-jiohotstar-invest-444-133111191.html"
       }
     },
     {
-      "headline": "Reliance Industries and Disney complete $8.5 billion transaction to form JioStar media joint venture",
+      "headline": "Reliance Industries and Disney complete $8.5 billion media merger creating JioStar",
       "date": "2024-11-14",
       "source": {
-        "name": "JioStar Press Release",
-        "url": "https://www.jiostar.com/news/reliance-and-disney-announce-completion-of-transaction-to-form-joint-venture-to-bring-together-the-most-iconic-and-engaging-entertainment-brands-in-india"
+        "name": "StockTitan",
+        "url": "https://www.stocktitan.net/news/DIS/reliance-and-disney-announce-completion-of-transaction-to-form-joint-4eziln0xsl8f.html"
       }
     }
   ]

@@ -4,37 +4,37 @@
   "parent": null,
   "entity_type": "public_standalone",
   "category": "EdTech",
-  "description": "Duolingo, Inc. is a publicly traded EdTech company offering a mobile and web-based language-learning platform and digital English proficiency testing.",
-  "last_refreshed": "2026-11-22T11:49:55.962Z",
+  "description": "Duolingo, Inc. is a mobile learning platform providing language learning applications, digital language proficiency assessments, and educational software.",
+  "last_refreshed": "2026-11-27T12:58:22.416Z",
   "stock": {
     "applicable": true,
-    "value": 145.02,
+    "value": 147.1,
     "currency": "USD",
     "ticker": "DUOL",
-    "as_of": "2026-11-20",
-    "note": "Standalone public company share price on NASDAQ.",
+    "as_of": "2026-11-23",
+    "note": "Closing stock price on NASDAQ",
     "confidence": "disclosed"
   },
   "revenue": {
-    "value": 1040000000,
+    "value": 1182296064,
+    "currency": "USD",
+    "period": "TTM",
+    "confidence": "disclosed",
+    "source": {
+      "name": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/DUOL?p=DUOL.tsrc%3Dfin-srch",
+      "date": "2026-11-23"
+    }
+  },
+  "operating_profit": {
+    "value": 135600000,
     "currency": "USD",
     "period": "FY2025",
     "confidence": "disclosed",
     "source": {
-      "name": "Stock Analysis",
-      "url": "https://stockanalysis.com/stocks/duol",
-      "date": "2026-11-04"
-    }
-  },
-  "operating_profit": {
-    "value": 33950000,
-    "currency": "USD",
-    "period": "Q2 2026",
-    "confidence": "disclosed",
-    "source": {
-      "name": "Tavily Knowledge",
-      "url": "https://tavily.com/knowledge/company/MtWu3VAOtbgT",
-      "date": "2026-08-05"
+      "name": "Stock Titan",
+      "url": "https://www.stocktitan.net/overview/DUOL",
+      "date": "2026-11-23"
     }
   },
   "expenses": {
@@ -42,17 +42,13 @@
     "confidence": "not_found"
   },
   "marketing_spend": {
-    "value_low": 180000000,
-    "value_high": 215000000,
+    "value_low": 118000000,
+    "value_high": 177000000,
     "currency": "USD",
-    "period": "FY2025",
+    "period": "TTM",
     "tier": "3_modeled",
-    "derivation": "Modeled based on reported 35.3% YoY growth in sales and marketing spend in Q2 2026 and an estimated consumer software benchmark ratio of 17-20% against FY2025 revenue of $1.04B.",
-    "source": {
-      "name": "YouTube - Earnings Analysis",
-      "url": "https://www.youtube.com/watch?v=5bYvnSZyh3U",
-      "date": "2026-08-05"
-    }
+    "derivation": "Estimated at 10-15% of TTM revenue ($1.18B), aligning with typical marketing-to-revenue ratios for product-led consumer EdTech platforms.",
+    "source": null
   },
   "trend_history": {
     "stock": [
@@ -99,6 +95,10 @@
       {
         "date": "2026-11-20",
         "value": 145.02
+      },
+      {
+        "date": "2026-11-23",
+        "value": 147.1
       }
     ],
     "revenue": [
@@ -162,19 +162,19 @@
   },
   "business_updates": [
     {
-      "headline": "Duolingo Q3 2026 revenue reaches $309M, beating estimates by 2% driven by AI A/B testing user growth",
-      "date": "2026-11-03",
-      "source": {
-        "name": "Investing.com UK",
-        "url": "https://uk.investing.com/equities/duolingo"
-      }
-    },
-    {
-      "headline": "Duolingo reports Q2 CY2026 revenue of $298.5M ahead of expectations, but stock falls 12%",
+      "headline": "Duolingo Posts Q2 CY2026 Revenue of $298.5 Million, Beating Analyst Estimates",
       "date": "2026-08-05",
       "source": {
         "name": "StockStory",
         "url": "https://stockstory.org/us/stocks/nasdaq/duol/news/earnings/duolingo-nasdaqduol-posts-better-than-expected-sales-in-q2-cy2026-but-stock-drops-12percent"
+      }
+    },
+    {
+      "headline": "Barclays Raises Duolingo Price Target to $133 Following Quarterly Earnings",
+      "date": "2026-11-04",
+      "source": {
+        "name": "Stock Analysis",
+        "url": "https://stockanalysis.com/stocks/duol"
       }
     }
   ]

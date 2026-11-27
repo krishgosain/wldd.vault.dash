@@ -4,37 +4,37 @@
   "parent": "Koninklijke Philips N.V.",
   "entity_type": "india_private_registered",
   "category": "Consumer Electronics",
-  "description": "Philips India Limited is an unlisted Indian subsidiary of Netherlands-based health technology giant Koninklijke Philips N.V., operating across health systems, innovation services, and personal health.",
-  "last_refreshed": "2026-11-22T11:51:28.808Z",
+  "description": "Philips India is an Indian unlisted private subsidiary of Dutch healthcare technology and consumer electronics multinational Koninklijke Philips N.V.",
+  "last_refreshed": "2026-11-27T13:03:48.171Z",
   "stock": {
     "applicable": false,
     "value": null,
     "currency": "EUR",
     "ticker": null,
     "as_of": null,
-    "note": "Philips India Limited is an unlisted private subsidiary; parent entity Koninklijke Philips N.V. is listed on Euronext Amsterdam under ticker PHIA.AS.",
+    "note": "Philips India is unlisted; parent company Koninklijke Philips N.V. trades on Euronext Amsterdam under ticker PHIA.AS.",
     "confidence": "not_applicable"
   },
   "revenue": {
-    "value": 65420000000,
+    "value": 66306000000,
     "currency": "INR",
     "period": "FY2024-25",
     "confidence": "disclosed",
     "source": {
-      "name": "UnlistedZone",
-      "url": "https://unlistedzone.com/philips-india-limited-fy25-financial-performance-analysis",
-      "date": "2025-03-31"
+      "name": "UnlistedCart",
+      "url": "https://unlistedcart.com/philips-india-limited",
+      "date": ""
     }
   },
   "operating_profit": {
-    "value": 5910000000,
+    "value": 6800000000,
     "currency": "INR",
     "period": "FY2024-25",
     "confidence": "disclosed",
     "source": {
-      "name": "UnlistedZone",
-      "url": "https://unlistedzone.com/philips-india-limited-fy25-financial-performance-analysis",
-      "date": "2025-03-31"
+      "name": "UnlistedCart",
+      "url": "https://unlistedcart.com/philips-india-limited",
+      "date": ""
     }
   },
   "expenses": {
@@ -42,12 +42,12 @@
     "confidence": "not_found"
   },
   "marketing_spend": {
-    "value_low": 1962600000,
-    "value_high": 3271000000,
+    "value_low": 2652200000,
+    "value_high": 4641400000,
     "currency": "INR",
     "period": "FY2024-25",
     "tier": "3_modeled",
-    "derivation": "Modeled using an industry-typical marketing-to-revenue ratio of 3.0% to 5.0% for consumer electronics and healthcare appliances, applied to Philips India's FY2024-25 revenue of ₹6,542 crore.",
+    "derivation": "Modeled using a standard consumer electronics category marketing benchmark of 4% to 7% applied to Philips India's FY2024-25 gross revenue of ₹6,630.6 crore.",
     "source": null
   },
   "trend_history": {
@@ -116,7 +116,7 @@
       },
       {
         "period": "FY2023-24",
-        "value": 60000000000
+        "value": 60613000000
       },
       {
         "period": "FY2024",
@@ -124,7 +124,7 @@
       },
       {
         "period": "FY2024-25",
-        "value": 65420000000
+        "value": 66306000000
       },
       {
         "period": "FY2025",
@@ -132,22 +132,5 @@
       }
     ]
   },
-  "business_updates": [
-    {
-      "headline": "Philips India FY25 revenue grows 9% to ₹6,542 crore with EBITDA margin expanding to 9.03%",
-      "date": "2025-03-31",
-      "source": {
-        "name": "UnlistedZone",
-        "url": "https://unlistedzone.com/philips-india-limited-fy25-financial-performance-analysis"
-      }
-    },
-    {
-      "headline": "Royal Philips reports strong Q3 2026 performance with order intake growth and margin expansion",
-      "date": "2026-11-03",
-      "source": {
-        "name": "Philips",
-        "url": "https://www.philips.com/a-w/about/news/archive/corpcomms/news/press/2026/philips-third-quarter-results-2026.html"
-      }
-    }
-  ]
+  "business_updates": []
 }

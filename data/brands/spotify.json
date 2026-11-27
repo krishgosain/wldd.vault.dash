@@ -4,37 +4,37 @@
   "parent": null,
   "entity_type": "public_standalone",
   "category": "Audio Streaming",
-  "description": "Spotify Technology S.A. is a publicly traded audio streaming platform providing subscription-based music, podcast, and audiobook streaming services worldwide.",
-  "last_refreshed": "2026-11-22T11:51:50.971Z",
+  "description": "Spotify is a public standalone audio streaming service providing subscription and ad-supported music, podcasts, and audiobooks.",
+  "last_refreshed": "2026-11-27T13:05:13.917Z",
   "stock": {
     "applicable": true,
-    "value": 578,
+    "value": 616.99,
     "currency": "USD",
     "ticker": "SPOT",
-    "as_of": "2026-11-21",
-    "note": "Traded on the NYSE under ticker SPOT.",
+    "as_of": "2026-11-25",
+    "note": "Reflects Spotify Technology S.A. share price on the NYSE.",
     "confidence": "disclosed"
   },
   "revenue": {
-    "value": 20200000000,
-    "currency": "USD",
-    "period": "FY2025",
+    "value": 4969000000,
+    "currency": "EUR",
+    "period": "Q3 2026",
     "confidence": "disclosed",
     "source": {
-      "name": "StockTitan",
-      "url": "https://www.stocktitan.net/overview/SPOT",
-      "date": "2026-11-12"
+      "name": "Spotify stock: what moves SPOT shares",
+      "url": "https://www.akka.app/post/spotify-stock",
+      "date": "2026-10-22"
     }
   },
   "operating_profit": {
-    "value": 2600000000,
-    "currency": "USD",
-    "period": "FY2025",
+    "value": 672000000,
+    "currency": "EUR",
+    "period": "Q3 2026",
     "confidence": "disclosed",
     "source": {
-      "name": "StockTitan",
-      "url": "https://www.stocktitan.net/overview/SPOT",
-      "date": "2026-11-12"
+      "name": "Spotify stock: what moves SPOT shares",
+      "url": "https://www.akka.app/post/spotify-stock",
+      "date": "2026-10-22"
     }
   },
   "expenses": {
@@ -42,17 +42,13 @@
     "confidence": "not_found"
   },
   "marketing_spend": {
-    "value_low": 2020000000,
-    "value_high": 2420000000,
-    "currency": "USD",
-    "period": "FY2025",
+    "value_low": 397500000,
+    "value_high": 496900000,
+    "currency": "EUR",
+    "period": "Q3 2026",
     "tier": "3_modeled",
-    "derivation": "Modeled at 10% to 12% of FY2025 total revenue ($20.2B USD), consistent with standard marketing-to-revenue benchmarks for global subscription audio and consumer tech services.",
-    "source": {
-      "name": "StockTitan",
-      "url": "https://www.stocktitan.net/overview/SPOT",
-      "date": "2026-11-12"
-    }
+    "derivation": "Modeled as 8% to 10% of Q3 2026 revenue (€4.969 billion), matching standard sales and marketing expenditure ratios for mature global audio streaming platforms.",
+    "source": null
   },
   "trend_history": {
     "stock": [
@@ -123,6 +119,14 @@
       {
         "date": "2026-11-21",
         "value": 578
+      },
+      {
+        "date": "2026-11-25",
+        "value": 616.46
+      },
+      {
+        "date": "2026-11-27",
+        "value": 616.99
       }
     ],
     "revenue": [
@@ -196,11 +200,15 @@
       },
       {
         "period": "Q2 2026",
-        "value": 4780000000
+        "value": 4777000000
+      },
+      {
+        "period": "Q3 2025",
+        "value": 4272000000
       },
       {
         "period": "Q3 2026",
-        "value": 5000000000
+        "value": 4969000000
       },
       {
         "period": "Q4 2025",
@@ -210,27 +218,19 @@
   },
   "business_updates": [
     {
-      "headline": "Spotify grows paid premium subscribers to 293 million in Q1 2026 while reaching record operating profit",
-      "date": "2026-04-28",
+      "headline": "Spotify reports Q3 2026 revenue of €4,969M and operating income of €672M",
+      "date": "2026-10-22",
       "source": {
-        "name": "The Hollywood Reporter",
-        "url": "https://www.hollywoodreporter.com/business/business-news/spotify-q1-earnings-report-subs-stock-drops-outlook-1236578858"
+        "name": "Spotify stock: what moves SPOT shares",
+        "url": "https://www.akka.app/post/spotify-stock"
       }
     },
     {
-      "headline": "Spotify stock surges after posting record quarterly operating income and beating analyst estimates",
-      "date": "2026-04-28",
+      "headline": "Spotify reaches 306 million Premium subscribers and 788 million monthly active users",
+      "date": "2026-10-22",
       "source": {
-        "name": "Yahoo Finance",
-        "url": "https://finance.yahoo.com/news/spotifys-stock-pops-streaming-audio-155428149.html"
-      }
-    },
-    {
-      "headline": "United Airlines announces feature letting travelers log into personal Spotify accounts via seatback screens",
-      "date": "2026-11-21",
-      "source": {
-        "name": "Robinhood",
-        "url": "https://robinhood.com/us/en/stocks/SPOT"
+        "name": "Spotify Technology (SPOT) Stock Price & Overview",
+        "url": "https://stockanalysis.com/stocks/spot"
       }
     }
   ]

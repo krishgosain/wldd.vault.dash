@@ -4,51 +4,66 @@
   "parent": null,
   "entity_type": "public_standalone",
   "category": "OTT",
-  "description": "Netflix, Inc. is a standalone public entertainment company providing subscription video-on-demand streaming services globally.",
-  "last_refreshed": "2026-11-22T11:52:10.872Z",
+  "description": "Netflix, Inc. is a global streaming-entertainment provider offering subscription-based video on demand, television series, films, documentaries, and mobile games.",
+  "last_refreshed": "2026-11-27T13:05:34.875Z",
   "stock": {
     "applicable": true,
-    "value": 61.98,
+    "value": 59.41,
     "currency": "USD",
     "ticker": "NFLX",
-    "as_of": "2026-11-15",
-    "note": "Traded on NASDAQ under ticker symbol NFLX.",
+    "as_of": "2026-11-27",
+    "note": "Reflects Netflix, Inc. closing stock price on NASDAQ.",
     "confidence": "disclosed"
   },
   "revenue": {
     "value": 45180000000,
     "currency": "USD",
-    "period": "FY2025",
+    "period": "FY 2025",
     "confidence": "disclosed",
     "source": {
-      "name": "Tavily Knowledge / Netflix",
-      "url": "https://tavily.com/knowledge/company/NIwgV0rP9so8",
-      "date": "unknown"
+      "name": "The Wall Street Journal",
+      "url": "https://www.wsj.com/market-data/stock/nflx",
+      "date": "2026-11-27"
     }
   },
   "operating_profit": {
     "value": 13330000000,
     "currency": "USD",
-    "period": "FY2025",
+    "period": "FY 2025",
     "confidence": "disclosed",
     "source": {
-      "name": "Tavily Knowledge / Netflix",
+      "name": "Netflix Knowledge Base",
       "url": "https://tavily.com/knowledge/company/NIwgV0rP9so8",
-      "date": "unknown"
+      "date": "2026-11-27"
     }
   },
   "expenses": {
-    "breakdown": [],
+    "breakdown": [
+      {
+        "label": "Cost of Revenue",
+        "value": 23270000000,
+        "confidence": "modeled"
+      },
+      {
+        "label": "Operating Expenses",
+        "value": 8580000000,
+        "confidence": "modeled"
+      }
+    ],
     "confidence": "not_found"
   },
   "marketing_spend": {
     "value_low": 3614400000,
     "value_high": 4518000000,
     "currency": "USD",
-    "period": "FY2025",
+    "period": "FY 2025",
     "tier": "3_modeled",
-    "derivation": "Modeled using a standard industry marketing-to-revenue ratio of 8% to 10% for global OTT streaming platforms, applied to Netflix's reported FY2025 annual revenue of $45.18 billion USD.",
-    "source": null
+    "derivation": "Modeled using a standard OTT streaming benchmark of 8% to 10% marketing-to-revenue ratio applied against Netflix's reported FY 2025 revenue of $45.18 billion.",
+    "source": {
+      "name": "The Wall Street Journal",
+      "url": "https://www.wsj.com/market-data/stock/nflx",
+      "date": "2026-11-27"
+    }
   },
   "trend_history": {
     "stock": [
@@ -95,6 +110,10 @@
       {
         "date": "2026-11-15",
         "value": 61.98
+      },
+      {
+        "date": "2026-11-27",
+        "value": 59.41
       }
     ],
     "revenue": [
@@ -113,6 +132,10 @@
       {
         "period": "4Q2025",
         "value": 12050762000
+      },
+      {
+        "period": "FY 2025",
+        "value": 45180000000
       },
       {
         "period": "FY2021",
@@ -178,24 +201,24 @@
   },
   "business_updates": [
     {
-      "headline": "Piper Sandler lowers Netflix stock price target to $103 due to content spend and investments",
-      "date": "unknown",
+      "headline": "Netflix purchases Radford Studio Center",
+      "date": "2026-11-25",
       "source": {
-        "name": "Investing.com",
-        "url": "https://ca.investing.com/news/analyst-ratings/netflix-stock-price-target-lowered-to-103-by-piper-sandler-on-content-spend-93CH-4411658"
+        "name": "Robinhood",
+        "url": "https://robinhood.com/us/en/stocks/NFLX"
       }
     },
     {
-      "headline": "Netflix announced plans to reduce approximately 1,000 corporate positions globally",
-      "date": "unknown",
+      "headline": "Netflix Q3 2026 advertising revenue grows over 80% with double-digit growth objectives maintained",
+      "date": "2026-10-21",
       "source": {
         "name": "TradingKey",
-        "url": "https://tradingkey.com/markets/stocks/nasdaq-nflx"
+        "url": "https://www.tradingkey.com/markets/stocks/nasdaq-nflx"
       }
     },
     {
-      "headline": "Netflix reports over 80% advertising growth in Q3 2026 earnings call",
-      "date": "unknown",
+      "headline": "Netflix announces plans to reduce approximately 1,000 corporate positions globally",
+      "date": "2026-10-15",
       "source": {
         "name": "TradingKey",
         "url": "http://www.tradingkey.com/markets/stocks/nasdaq-nflx"

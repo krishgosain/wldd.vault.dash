@@ -4,15 +4,15 @@
   "parent": "Amazon.com, Inc.",
   "entity_type": "public_parent",
   "category": "Audio Streaming",
-  "description": "Audible is an audiobook and audio entertainment streaming platform operated as a wholly-owned subsidiary of Amazon.com, Inc.",
-  "last_refreshed": "2026-11-22T11:53:00.247Z",
+  "description": "Audible, Inc. is a leading provider of audiobooks, podcasts, and premium audio storytelling, operating as a wholly owned subsidiary of Amazon.com, Inc.",
+  "last_refreshed": "2026-11-27T13:07:56.583Z",
   "stock": {
     "applicable": false,
     "value": null,
     "currency": "USD",
     "ticker": null,
     "as_of": null,
-    "note": "Audible does not have its own stock ticker as it is a wholly-owned subsidiary of public parent Amazon.com, Inc. (NASDAQ: AMZN).",
+    "note": "Audible is a wholly owned subsidiary of Amazon.com, Inc. (NASDAQ: AMZN) and does not have its own stock ticker.",
     "confidence": "not_applicable"
   },
   "revenue": {
@@ -21,7 +21,7 @@
     "period": "Annual",
     "confidence": "press_estimate",
     "source": {
-      "name": "Audible Profile Data",
+      "name": "Audible Knowledge Base Profile",
       "url": "https://tavily.com/knowledge/company/GGilaA4WIzuT",
       "date": "unknown"
     }
@@ -29,7 +29,7 @@
   "operating_profit": {
     "value": null,
     "currency": "USD",
-    "period": "",
+    "period": "Annual",
     "confidence": "not_found",
     "source": null
   },
@@ -39,16 +39,12 @@
   },
   "marketing_spend": {
     "value_low": 30000000,
-    "value_high": 40000000,
+    "value_high": 50000000,
     "currency": "USD",
     "period": "Annual",
     "tier": "3_modeled",
-    "derivation": "Estimated using a 15% to 20% marketing-to-revenue ratio typical for consumer subscription and audio streaming software platforms, applied against Audible's estimated annual revenue of $200 million.",
-    "source": {
-      "name": "Audible Knowledge Base Profile",
-      "url": "https://tavily.com/knowledge/company/GGilaA4WIzuT",
-      "date": "unknown"
-    }
+    "derivation": "Calculated by applying a standard audio subscription category marketing-to-revenue ratio of 15% to 25% against Audible's estimated annual revenue of $200 million USD.",
+    "source": null
   },
   "trend_history": {
     "stock": [],
@@ -56,11 +52,19 @@
   },
   "business_updates": [
     {
-      "headline": "Amazon completes tender offer and acquisition of Audible as a wholly-owned subsidiary",
-      "date": "2008-02-11",
+      "headline": "Amazon cuts 5% of Audible division's workforce",
+      "date": "2024-01-11",
       "source": {
-        "name": "SEC Edgar / Parent Press Release",
-        "url": "https://www.sec.gov/Archives/edgar/data/1018724/000119312508062806/dex99a1j.htm"
+        "name": "Reuters / Business Insider via Yahoo Finance",
+        "url": "https://finance.yahoo.com/news/amazon-cuts-5-audible-divisions-183923706.html"
+      }
+    },
+    {
+      "headline": "Audible opens first-ever NYC pop-up 'bookless bookstore' (Audible Story House)",
+      "date": "2024-04-30",
+      "source": {
+        "name": "StockTitan",
+        "url": "https://stocktitan.net/news/AMZN/audible-opens-doors-to-first-ever-bookless-u3mhx1sixmfd.html"
       }
     }
   ]
