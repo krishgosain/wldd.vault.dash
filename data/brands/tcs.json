@@ -4,50 +4,46 @@
   "parent": "Tata Group",
   "entity_type": "public_standalone",
   "category": "IT Services",
-  "description": "Tata Consultancy Services (TCS) is a global IT services, consulting, and business solutions organisation affiliated with Tata Group.",
-  "last_refreshed": "2026-11-25T13:22:01.819Z",
+  "description": "Tata Consultancy Services (TCS) is a global IT services, consulting, and business solutions organization, operating as a flagship publicly traded enterprise of the Tata Group.",
+  "last_refreshed": "2026-11-28T12:13:20.324Z",
   "stock": {
     "applicable": true,
-    "value": 2460,
+    "value": 2572.5,
     "currency": "INR",
     "ticker": "TCS.NS",
-    "as_of": "2026-11-25",
-    "note": "Reflects live stock price on NSE",
+    "as_of": "2026-11-27",
+    "note": "Reflects TCS standalone share price on the National Stock Exchange of India (NSE).",
     "confidence": "disclosed"
   },
   "revenue": {
-    "value": 2714230000000,
+    "value": 2670210000000,
     "currency": "INR",
     "period": "FY2026",
     "confidence": "disclosed",
     "source": {
-      "name": "Upstox",
-      "url": "https://upstox.com/stocks/tata-consultancy-serv-lt-share-price",
-      "date": "2026-11-25"
+      "name": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/TCS.NS",
+      "date": "2026-11-27"
     }
   },
   "operating_profit": {
-    "value": 654870000000,
+    "value": null,
     "currency": "INR",
     "period": "FY2026",
-    "confidence": "disclosed",
-    "source": {
-      "name": "Upstox",
-      "url": "https://upstox.com/stocks/tata-consultancy-serv-lt-share-price",
-      "date": "2026-11-25"
-    }
+    "confidence": "not_found",
+    "source": null
   },
   "expenses": {
     "breakdown": [],
     "confidence": "not_found"
   },
   "marketing_spend": {
-    "value_low": 13570000000,
-    "value_high": 40710000000,
+    "value_low": 13351050000,
+    "value_high": 40053150000,
     "currency": "INR",
     "period": "FY2026",
     "tier": "3_modeled",
-    "derivation": "Modeled using a standard B2B enterprise IT services marketing ratio of 0.5% to 1.5% against TCS's disclosed FY2026 revenue of ₹2,71,423 crore.",
+    "derivation": "Modeled based on an estimated IT services enterprise industry benchmark marketing ratio of 0.5% to 1.5% applied to TCS's FY2026 revenue of INR 2,670,210,000,000.",
     "source": null
   },
   "trend_history": {
@@ -67,6 +63,10 @@
       {
         "date": "2026-10-02",
         "value": 2075
+      },
+      {
+        "date": "2026-10-26",
+        "value": 2535
       },
       {
         "date": "2026-10-29",
@@ -109,8 +109,16 @@
         "value": 2407.5
       },
       {
+        "date": "2026-11-18",
+        "value": 2394.5
+      },
+      {
         "date": "2026-11-25",
         "value": 2460
+      },
+      {
+        "date": "2026-11-27",
+        "value": 2572.5
       }
     ],
     "revenue": [
@@ -144,11 +152,11 @@
       },
       {
         "period": "FY2025",
-        "value": 2592860000000
+        "value": 2553240000000
       },
       {
         "period": "FY2026",
-        "value": 2714230000000
+        "value": 2670210000000
       },
       {
         "period": "Jun 2026",
@@ -190,11 +198,11 @@
   },
   "business_updates": [
     {
-      "headline": "TCS reports FY26 revenue of ₹2,71,423 crore with net profit of ₹49,454 crore",
-      "date": "2026-11-25",
+      "headline": "TCS closes FY26 with Improving Sequential Growth Momentum and Strong Deal Wins",
+      "date": "2026-03-31",
       "source": {
-        "name": "Upstox",
-        "url": "https://upstox.com/stocks/tata-consultancy-serv-lt-share-price"
+        "name": "TCS Press Release",
+        "url": "https://www.tcs.com/who-we-are/newsroom/press-release/tcs-financial-results-q4-fy-2026"
       }
     }
   ]

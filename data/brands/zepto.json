@@ -4,43 +4,43 @@
   "parent": "Kiranakart Technologies Pvt Ltd",
   "entity_type": "india_private_registered",
   "category": "Quick Commerce",
-  "description": "Zepto is an Indian quick-commerce platform operated by Kiranakart Technologies Pvt Ltd, offering rapid 10-minute grocery and daily essentials delivery across major Indian metropolitan areas.",
-  "last_refreshed": "2026-11-25T13:22:49.765Z",
+  "description": "Zepto is an Indian quick-commerce company owned by Kiranakart Technologies Pvt Ltd that delivers groceries and daily essentials in minutes.",
+  "last_refreshed": "2026-11-28T12:14:07.545Z",
   "stock": {
     "applicable": false,
     "value": null,
     "currency": "INR",
     "ticker": null,
     "as_of": null,
-    "note": "Zepto is a privately held Indian entity operated by Kiranakart Technologies Pvt Ltd, though it has filed draft red herring prospectus (DRHP) papers for an IPO.",
+    "note": "Private company; filed a confidential DRHP for an IPO in December 2025.",
     "confidence": "not_applicable"
   },
   "revenue": {
-    "value": 226230000000,
+    "value": 226235800000,
     "currency": "INR",
     "period": "FY2026",
     "confidence": "disclosed",
     "source": {
-      "name": "LinkedIn / Zepto DRHP Filing",
-      "url": "https://www.linkedin.com/posts/sushant-futureblink_zepto-loses-money-on-your-groceries-brands-activity-7516463309898956801-DCCS",
-      "date": "2026"
+      "name": "Zepto | The 10-Minute Delivery Player That Doubled Revenue in FY2026",
+      "url": "https://india-marketing.jp/en/india-company/zepto",
+      "date": ""
     }
   },
   "operating_profit": {
-    "value": -59050000000,
+    "value": -59051900000,
     "currency": "INR",
     "period": "FY2026",
     "confidence": "disclosed",
     "source": {
-      "name": "LinkedIn / Zepto DRHP Filing",
-      "url": "https://www.linkedin.com/posts/sushant-futureblink_zepto-loses-money-on-your-groceries-brands-activity-7516463309898956801-DCCS",
-      "date": "2026"
+      "name": "Zepto | The 10-Minute Delivery Player That Doubled Revenue in FY2026",
+      "url": "https://india-marketing.jp/en/india-company/zepto",
+      "date": ""
     }
   },
   "expenses": {
     "breakdown": [
       {
-        "label": "Advertising expense",
+        "label": "Advertising and self-promotion expense",
         "value": 13890000000,
         "confidence": "disclosed"
       }
@@ -53,11 +53,11 @@
     "currency": "INR",
     "period": "FY2026",
     "tier": "1_disclosed",
-    "derivation": "Disclosed in Zepto's updated DRHP filing; the company spent ₹1,389 crore on self-advertising in FY26 to attract and retain app users.",
+    "derivation": "Disclosed in Zepto's updated IPO filings for FY2026 as ₹1,389 crore spent on advertising itself to attract and retain users.",
     "source": {
-      "name": "LinkedIn / Zepto DRHP Filing",
+      "name": "Zepto loses money, but ad revenue surges to ₹1,636 crore | LinkedIn",
       "url": "https://www.linkedin.com/posts/sushant-futureblink_zepto-loses-money-on-your-groceries-brands-activity-7516463309898956801-DCCS",
-      "date": "2026"
+      "date": ""
     }
   },
   "trend_history": {
@@ -65,45 +65,45 @@
     "revenue": [
       {
         "period": "FY2023",
-        "value": 20260000000
+        "value": 20240000000
       },
       {
         "period": "FY2024",
-        "value": 44550000000
+        "value": 44540000000
       },
       {
         "period": "FY2025",
-        "value": 93660000000
+        "value": 111099400000
       },
       {
         "period": "FY2026",
-        "value": 226230000000
+        "value": 226235800000
       }
     ]
   },
   "business_updates": [
     {
-      "headline": "Zepto files updated DRHP for IPO showing revenue doubling to ₹22,623 crore",
-      "date": "2026-06",
+      "headline": "Zepto received SEBI observation letter for IPO following confidential filing",
+      "date": "2026-05",
       "source": {
-        "name": "CNBC-TV18",
-        "url": "https://www.facebook.com/cnbctv18india/videos/zepto-filed-its-updated-drhp-and-it-shows-that-co-saw-revenue-doubling-to-22600/3579245165583423"
+        "name": "Zepto | The 10-Minute Delivery Player That Doubled Revenue in FY2026",
+        "url": "https://india-marketing.jp/en/india-company/zepto"
       }
     },
     {
-      "headline": "Zepto ad revenue reaches ₹1,636 crore in FY26, surpassing its own ad spend for the first time",
+      "headline": "Zepto ad revenue surged 151% to ₹1,636 crore in FY2026",
       "date": "2026",
       "source": {
-        "name": "LinkedIn",
-        "url": "https://www.linkedin.com/posts/sushant-futureblink_zepto-loses-money-on-your-groceries-brands-activity-7516463309898956801-DCCS"
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/markets/stocks/articles/zepto-ipo-filing-reveals-fast-050717430.html"
       }
     },
     {
-      "headline": "Zepto launches in-house ad platform Jarvis, surpassing ₹1,000 crore in annualized ad revenue",
-      "date": "2024-12-03",
+      "headline": "Zepto completed funding round at a $7 billion valuation",
+      "date": "2025-10",
       "source": {
-        "name": "Social Samosa",
-        "url": "https://www.facebook.com/SocialSamosa/posts/zepto-has-hit-a-major-milestone-surpassing-1000-crore-in-annualized-advertising-/964388749048907"
+        "name": "Unlisted Sahi Hai",
+        "url": "https://www.unlistedsahihai.com/company/zepto"
       }
     }
   ]

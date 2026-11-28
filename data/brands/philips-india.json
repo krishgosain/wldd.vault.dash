@@ -4,15 +4,15 @@
   "parent": "Koninklijke Philips N.V.",
   "entity_type": "india_private_registered",
   "category": "Consumer Electronics",
-  "description": "Philips India is an Indian unlisted private subsidiary of Dutch healthcare technology and consumer electronics multinational Koninklijke Philips N.V.",
-  "last_refreshed": "2026-11-27T13:03:48.171Z",
+  "description": "Philips India Limited is an Indian unlisted subsidiary of health technology and consumer electronics major Koninklijke Philips N.V.",
+  "last_refreshed": "2026-11-28T12:21:39.137Z",
   "stock": {
     "applicable": false,
     "value": null,
-    "currency": "EUR",
+    "currency": "INR",
     "ticker": null,
     "as_of": null,
-    "note": "Philips India is unlisted; parent company Koninklijke Philips N.V. trades on Euronext Amsterdam under ticker PHIA.AS.",
+    "note": "Philips India is an unlisted private company; parent Koninklijke Philips N.V. is publicly traded under ticker PHIA.AS.",
     "confidence": "not_applicable"
   },
   "revenue": {
@@ -21,20 +21,20 @@
     "period": "FY2024-25",
     "confidence": "disclosed",
     "source": {
-      "name": "UnlistedCart",
+      "name": "unlistedcart.com",
       "url": "https://unlistedcart.com/philips-india-limited",
-      "date": ""
+      "date": "2025"
     }
   },
   "operating_profit": {
-    "value": 6800000000,
+    "value": 4480000000,
     "currency": "INR",
     "period": "FY2024-25",
     "confidence": "disclosed",
     "source": {
-      "name": "UnlistedCart",
+      "name": "unlistedcart.com",
       "url": "https://unlistedcart.com/philips-india-limited",
-      "date": ""
+      "date": "2025"
     }
   },
   "expenses": {
@@ -42,13 +42,17 @@
     "confidence": "not_found"
   },
   "marketing_spend": {
-    "value_low": 2652200000,
-    "value_high": 4641400000,
+    "value_low": 1989000000,
+    "value_high": 3978000000,
     "currency": "INR",
     "period": "FY2024-25",
     "tier": "3_modeled",
-    "derivation": "Modeled using a standard consumer electronics category marketing benchmark of 4% to 7% applied to Philips India's FY2024-25 gross revenue of ₹6,630.6 crore.",
-    "source": null
+    "derivation": "Modeled as 3% to 6% of FY2024-25 gross income (₹6,630.6 crore), based on standard industry marketing reinvestment ratios for consumer electronics and healthcare technology appliances in India.",
+    "source": {
+      "name": "unlistedcart.com",
+      "url": "https://unlistedcart.com/philips-india-limited",
+      "date": "2025"
+    }
   },
   "trend_history": {
     "stock": [
@@ -132,5 +136,14 @@
       }
     ]
   },
-  "business_updates": []
+  "business_updates": [
+    {
+      "headline": "Philips India reports 9.4% gross income growth to ₹6,630.6 crore and 37% PBT rise for FY2024-25",
+      "date": "2025",
+      "source": {
+        "name": "unlistedcart.com",
+        "url": "https://unlistedcart.com/philips-india-limited"
+      }
+    }
+  ]
 }

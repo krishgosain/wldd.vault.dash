@@ -1,29 +1,29 @@
 {
   "name": "Wispr Flow",
   "slug": "wispr-flow",
-  "parent": "Wispr AI",
+  "parent": "Wispr AI, Inc.",
   "entity_type": "foreign_private",
   "category": "Consumer Tech / AI",
-  "description": "Wispr Flow is an AI-powered voice dictation application developed by Wispr AI, Inc.",
-  "last_refreshed": "2026-11-22T11:55:51.342Z",
+  "description": "Wispr Flow is an AI-powered cross-platform dictation software developed by Wispr AI, Inc. that transforms speech into formatted text across applications.",
+  "last_refreshed": "2026-11-28T12:12:24.583Z",
   "stock": {
     "applicable": false,
     "value": null,
     "currency": "USD",
     "ticker": null,
     "as_of": null,
-    "note": "Wispr Flow is a privately held brand and is not publicly traded.",
+    "note": "Not applicable as Wispr Flow is a privately held company.",
     "confidence": "not_applicable"
   },
   "revenue": {
-    "value": 10000000,
+    "value": 3800000,
     "currency": "USD",
     "period": "FY2025",
     "confidence": "press_estimate",
     "source": {
-      "name": "The GenAI Magazine",
-      "url": "https://thegenaimagazine.com/wispr-flow-funding-revenue-growth-analysis",
-      "date": "2026-08-17"
+      "name": "Tavily Company Knowledge Base",
+      "url": "https://tavily.com/knowledge/company/bo0dUgNDeFdS",
+      "date": "2025-12-31"
     }
   },
   "operating_profit": {
@@ -38,17 +38,13 @@
     "confidence": "not_found"
   },
   "marketing_spend": {
-    "value_low": 1500000,
-    "value_high": 2500000,
+    "value_low": 1140000,
+    "value_high": 1900000,
     "currency": "USD",
     "period": "FY2025",
     "tier": "3_modeled",
-    "derivation": "Modeled using a standard 15% to 25% marketing-to-revenue ratio on an estimated $10M ARR base, aligned with Wispr Flow's product-led growth model and modest paid advertising spend across Meta, LinkedIn, and Google.",
-    "source": {
-      "name": "Postbeam",
-      "url": "https://www.postbeam.ai/blog/how-wisprflow-grows",
-      "date": "2026-01-01"
-    }
+    "derivation": "Modeled assuming a standard 30% to 50% marketing-to-revenue ratio typical for high-growth SaaS and AI software startups, applied to the reported FY2025 revenue of $3.8 million.",
+    "source": null
   },
   "trend_history": {
     "stock": [],
@@ -85,19 +81,19 @@
   },
   "business_updates": [
     {
-      "headline": "Wispr Flow raises $280M Series B round at $2B valuation led by Menlo Ventures",
+      "headline": "Wispr Flow raises $280M Series B at a $2B valuation led by Menlo Ventures",
       "date": "2026-08-17",
       "source": {
-        "name": "The GenAI Magazine",
-        "url": "https://thegenaimagazine.com/wispr-flow-funding-revenue-growth-analysis"
+        "name": "CB Insights",
+        "url": "https://www.cbinsights.com/company/wispr/financials"
       }
     },
     {
-      "headline": "Wispr secures $25M Series A extension led by Notable Capital",
-      "date": "2025-11-20",
+      "headline": "Wispr previews Canto speech foundation model to slash word error rates",
+      "date": "2026-08-17",
       "source": {
-        "name": "Stock Analysis",
-        "url": "https://stockanalysis.com/private/wispr-flow"
+        "name": "LinkedIn / Traded Venture Capital",
+        "url": "https://www.linkedin.com/posts/traded-venture-capital_traded-media-activity-7495188897992392704-CkJC"
       }
     }
   ]

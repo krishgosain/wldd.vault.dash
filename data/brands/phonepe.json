@@ -1,40 +1,40 @@
 {
   "name": "PhonePe",
   "slug": "phonepe",
-  "parent": "PhonePe Pvt Ltd",
+  "parent": "Walmart Inc.",
   "entity_type": "india_private_registered",
   "category": "Fintech",
-  "description": "PhonePe is an Indian digital payments and financial services platform majority-owned by Walmart through WM Digital Commerce Holdings.",
-  "last_refreshed": "2026-11-25T13:23:35.670Z",
+  "description": "PhonePe is an Indian fintech company and digital payments platform majority-owned by retail giant Walmart Inc.",
+  "last_refreshed": "2026-11-28T12:14:56.419Z",
   "stock": {
     "applicable": false,
     "value": null,
     "currency": "INR",
     "ticker": null,
     "as_of": null,
-    "note": "PhonePe is a privately held Indian entity majority-owned by Walmart and is not separately listed.",
+    "note": "PhonePe is a private Indian registered entity majority-owned by Walmart Inc. and is not separately listed.",
     "confidence": "not_applicable"
   },
   "revenue": {
-    "value": 71148000000,
+    "value": 71140000000,
     "currency": "INR",
     "period": "FY2025",
     "confidence": "disclosed",
     "source": {
-      "name": "Inc42 Media",
-      "url": "https://www.linkedin.com/posts/inc42_news-inc42-ipo-activity-7375846418210676736-3VeM",
-      "date": "2025-03-31"
+      "name": "Inc42",
+      "url": "https://www.instagram.com/p/DPGrVIBjlT2?hl=en",
+      "date": "2025-09-27"
     }
   },
   "operating_profit": {
-    "value": 14770000000,
+    "value": 1970000000,
     "currency": "INR",
-    "period": "FY2025",
+    "period": "FY2024",
     "confidence": "disclosed",
     "source": {
-      "name": "Inc42 Media",
-      "url": "https://www.linkedin.com/posts/inc42_news-inc42-ipo-activity-7375846418210676736-3VeM",
-      "date": "2025-03-31"
+      "name": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/news/walmart-backed-phonepe-prepares-indian-131337468.html?fr=sycsrp_catchall",
+      "date": "2024-08-01"
     }
   },
   "expenses": {
@@ -42,12 +42,12 @@
     "confidence": "not_found"
   },
   "marketing_spend": {
-    "value_low": 10672200000,
-    "value_high": 14229600000,
+    "value_low": 10671000000,
+    "value_high": 14228000000,
     "currency": "INR",
     "period": "FY2025",
     "tier": "3_modeled",
-    "derivation": "Estimated at 15% to 20% of PhonePe's FY25 operating revenue (₹7,114.8 crore), based on standard Indian fintech customer acquisition and brand promotion budget benchmarks.",
+    "derivation": "Estimated at 15%–20% of reported FY2025 revenue (₹7,114 crore), based on standard marketing-to-revenue allocation ratios for consumer fintech and digital payment platforms in India.",
     "source": null
   },
   "trend_history": {
@@ -71,11 +71,11 @@
       },
       {
         "period": "FY2024",
-        "value": 50641000000
+        "value": 50000000000
       },
       {
         "period": "FY2025",
-        "value": 71148000000
+        "value": 71140000000
       },
       {
         "period": "FY2026",
@@ -89,27 +89,27 @@
   },
   "business_updates": [
     {
-      "headline": "PhonePe processes 9.3 billion transactions worth ₹13.1 trillion in February 2026",
-      "date": "2026-02-28",
+      "headline": "PhonePe shelves IPO process due to global market tension after processing 9.3 billion transactions in February 2026",
+      "date": "2026-02-01",
       "source": {
         "name": "Yahoo Finance",
         "url": "https://finance.yahoo.com/news/walmart-backed-phonepe-shelves-ipo-130247711.html"
       }
     },
     {
-      "headline": "Walmart subsidiary discloses 71.77% stake in PhonePe ahead of proposed IPO filings",
-      "date": "2025-01-01",
+      "headline": "PhonePe revenue surges 40% to ₹7,114 Crore in FY25",
+      "date": "2025-09-27",
       "source": {
-        "name": "Instagram / DRHP Filings",
-        "url": "https://www.instagram.com/reel/DUkcE_-Ex2j?hl=en"
+        "name": "Inc42",
+        "url": "https://www.instagram.com/p/DPGrVIBjlT2?hl=en"
       }
     },
     {
-      "headline": "PhonePe files draft papers seeking to raise approximately $1.35 billion via IPO",
-      "date": "2025-01-01",
+      "headline": "PhonePe turns profitable in FY24 with ₹1.97 billion consolidated profit before ESOP cost",
+      "date": "2024-08-01",
       "source": {
-        "name": "Investing.com",
-        "url": "https://www.investing.com/news/stock-market-news/walmartbacked-indian-fintech-phonepe-files-for-ipo-of-around-13-bln-report-4252372"
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/news/walmart-backed-phonepe-prepares-indian-131337468.html?fr=sycsrp_catchall"
       }
     }
   ]

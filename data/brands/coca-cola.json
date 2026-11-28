@@ -4,36 +4,36 @@
   "parent": "The Coca-Cola Company",
   "entity_type": "public_parent",
   "category": "F&B",
-  "description": "Coca-Cola is a global non-alcoholic beverage brand owned and operated by public parent entity The Coca-Cola Company (NYSE: KO).",
-  "last_refreshed": "2026-11-25T13:22:22.330Z",
+  "description": "Coca-Cola is a global non-alcoholic ready-to-drink beverage brand manufactured and marketed by The Coca-Cola Company.",
+  "last_refreshed": "2026-11-28T12:13:41.646Z",
   "stock": {
     "applicable": true,
     "value": null,
     "currency": "USD",
     "ticker": "KO",
-    "as_of": null,
-    "note": "Reflects parent company The Coca-Cola Company (NYSE: KO), not this single product brand.",
+    "as_of": "2026-11-27",
+    "note": "Reflects parent company The Coca-Cola Company (NYSE: KO)",
     "confidence": "disclosed"
   },
   "revenue": {
-    "value": 47941000000,
+    "value": 47940000000,
     "currency": "USD",
     "period": "FY2025",
     "confidence": "disclosed",
     "source": {
-      "name": "MarketBeat",
-      "url": "https://www.marketbeat.com/stocks/NYSE/KO/financials",
+      "name": "The Coca-Cola Company Knowledge Base",
+      "url": "https://tavily.com/knowledge/company/Syjuv0vBVpY7",
       "date": ""
     }
   },
   "operating_profit": {
-    "value": 13762000000,
+    "value": 13760000000,
     "currency": "USD",
     "period": "FY2025",
     "confidence": "disclosed",
     "source": {
-      "name": "MarketBeat",
-      "url": "https://www.marketbeat.com/stocks/NYSE/KO/financials",
+      "name": "The Coca-Cola Company Knowledge Base",
+      "url": "https://tavily.com/knowledge/company/Syjuv0vBVpY7",
       "date": ""
     }
   },
@@ -47,8 +47,12 @@
     "currency": "USD",
     "period": "FY2025",
     "tier": "3_modeled",
-    "derivation": "Modeled using a global F&B/beverage industry benchmark of 8% to 10% of gross revenue applied to Coca-Cola's FY2025 revenue of $47.94 billion.",
-    "source": null
+    "derivation": "Calculated by applying a standard beverage industry marketing-to-revenue benchmark ratio of 8% to 10% against The Coca-Cola Company's reported FY2025 revenue of $47.94 billion.",
+    "source": {
+      "name": "The Coca-Cola Company Knowledge Base",
+      "url": "https://tavily.com/knowledge/company/Syjuv0vBVpY7",
+      "date": ""
+    }
   },
   "trend_history": {
     "stock": [
@@ -126,27 +130,27 @@
   },
   "business_updates": [
     {
-      "headline": "The Coca-Cola Company plans dual-listing IPO for Indian bottling parent Hindustan Coca-Cola Holdings in 2027",
-      "date": "2026-06-01",
+      "headline": "The Coca-Cola Company Exploring Potential Public Listing in India for Hindustan Coca-Cola Holdings Pvt. Ltd.",
+      "date": "2026",
       "source": {
-        "name": "The Coca-Cola Company Press Release",
+        "name": "The Coca-Cola Company (KO) Investor Relations",
         "url": "http://investors.coca-colacompany.com/news-events/press-releases/detail/1161/the-coca-cola-company-exploring-potential-public-listing-in-india-for-hindustan-coca-cola-holdings-pvt-ltd-parent-company-of-its-largest-bottler-in-india"
       }
     },
     {
-      "headline": "Hemant Rupani named CEO of Indian bottling entity Hindustan Coca-Cola Beverages",
-      "date": "2025-07-15",
+      "headline": "Hindustan Coca-Cola Beverages Names Hemant Rupani as New CEO",
+      "date": "2026",
       "source": {
         "name": "Yahoo Finance",
         "url": "https://finance.yahoo.com/news/hindustan-coca-cola-beverages-names-074400532.html"
       }
     },
     {
-      "headline": "Jubilant Bhartia Group acquired a 40% stake in Hindustan Coca-Cola Holdings",
-      "date": "2024-12-01",
+      "headline": "Coca-Cola Reports First Quarter 2026 Results and Updates Full Year Guidance",
+      "date": "2026",
       "source": {
-        "name": "Yahoo Finance",
-        "url": "https://finance.yahoo.com/news/hindustan-coca-cola-beverages-names-074400532.html"
+        "name": "The Coca-Cola Company (KO) Investor Relations",
+        "url": "https://investors.coca-colacompany.com/news-events/press-releases/detail/1158/coca-cola-reports-first-quarter-2026-results-and-updates-full-year-guidance"
       }
     }
   ]

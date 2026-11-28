@@ -4,15 +4,15 @@
   "parent": null,
   "entity_type": "public_standalone",
   "category": "E-commerce",
-  "description": "Meesho Limited is an Indian e-commerce marketplace platform focusing on the unorganized retail segment by connecting small businesses and individual entrepreneurs directly with consumers.",
-  "last_refreshed": "2026-11-25T13:25:25.838Z",
+  "description": "Meesho is an Indian value-focused e-commerce marketplace platform operating under Meesho Limited (formerly Fashnear Technologies Private Limited), connecting small businesses, sellers, and consumers.",
+  "last_refreshed": "2026-11-28T12:17:16.238Z",
   "stock": {
     "applicable": true,
-    "value": 255.85,
+    "value": 258.44,
     "currency": "INR",
     "ticker": "MEESHO.NS",
-    "as_of": "2026-11-23",
-    "note": "Reflects Meesho Limited listed on NSE/BSE (formerly Fashnear Technologies Pvt Ltd)",
+    "as_of": "2026-11-27",
+    "note": "Listed on NSE (MEESHO) and BSE (544632)",
     "confidence": "disclosed"
   },
   "revenue": {
@@ -22,8 +22,8 @@
     "confidence": "disclosed",
     "source": {
       "name": "Yahoo Finance",
-      "url": "https://finance.yahoo.com/quote/MEESHO.NS",
-      "date": "2026-11-23"
+      "url": "https://ca.finance.yahoo.com/quote/MEESHO.NS",
+      "date": "2026-11-28"
     }
   },
   "operating_profit": {
@@ -33,8 +33,8 @@
     "confidence": "disclosed",
     "source": {
       "name": "Yahoo Finance",
-      "url": "https://finance.yahoo.com/quote/MEESHO.NS",
-      "date": "2026-11-23"
+      "url": "https://ca.finance.yahoo.com/quote/MEESHO.NS",
+      "date": "2026-11-28"
     }
   },
   "expenses": {
@@ -42,12 +42,12 @@
     "confidence": "not_found"
   },
   "marketing_spend": {
-    "value_low": 18939522000,
-    "value_high": 25252696000,
+    "value_low": 12626348000,
+    "value_high": 18939522000,
     "currency": "INR",
     "period": "FY2026",
     "tier": "3_modeled",
-    "derivation": "Modeled by applying a standard 15-20% marketing spend-to-revenue ratio for fast-growing e-commerce marketplaces in India to Meesho's reported FY2026 revenue of 126,263,480,000 INR.",
+    "derivation": "Modeled by applying a standard Indian value e-commerce marketing-to-revenue benchmark ratio of 10% to 15% to Meesho's reported FY2026 revenue of ₹126,263,480,000.",
     "source": null
   },
   "trend_history": {
@@ -107,6 +107,10 @@
       {
         "date": "2026-11-23",
         "value": 255.85
+      },
+      {
+        "date": "2026-11-27",
+        "value": 258.44
       }
     ],
     "revenue": [
@@ -162,19 +166,19 @@
   },
   "business_updates": [
     {
-      "headline": "India's Meesho to acquire B2B commerce platform Kirana Club and RPLPL",
-      "date": "2026-11-14",
+      "headline": "Meesho acquires majority stake in B2B platform Kirana Club",
+      "date": "2026-11-20",
       "source": {
-        "name": "Retail Insight Network",
-        "url": "https://ca.finance.yahoo.com/quote/MEESHO.NS/latest-news"
+        "name": "Yahoo Finance News",
+        "url": "https://finance.yahoo.com/quote/MEESHO.NS/news"
       }
     },
     {
-      "headline": "Indian e-commerce firm Meesho's quarterly loss spikes as it ramps up marketing",
-      "date": "2026-06-23",
+      "headline": "Meesho completes IPO, raising ₹5,421.2 crore and debuting on NSE and BSE",
+      "date": "2025-12-10",
       "source": {
-        "name": "Reuters",
-        "url": "https://ca.finance.yahoo.com/quote/MEESHO.NS/latest-news"
+        "name": "Mergersight",
+        "url": "https://www.mergersight.com/post/meesho-s-ipo"
       }
     }
   ]

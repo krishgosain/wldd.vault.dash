@@ -4,15 +4,15 @@
   "parent": "Agilitas Sports Pvt Ltd",
   "entity_type": "india_private_registered",
   "category": "Footwear / Sports",
-  "description": "Agilitas is an Indian sports footwear and sportswear platform operating a vertically integrated ecosystem from manufacturing to retail and brand management under parent Agilitas Sports Pvt Ltd.",
-  "last_refreshed": "2026-11-22T11:55:29.820Z",
+  "description": "Agilitas is an Indian sportswear and athletic footwear brand owned and operated by Agilitas Sports Private Limited.",
+  "last_refreshed": "2026-11-28T12:11:29.911Z",
   "stock": {
     "applicable": false,
     "value": null,
     "currency": "INR",
     "ticker": null,
     "as_of": null,
-    "note": "Not applicable as Agilitas Sports Private Limited is a privately held Indian company.",
+    "note": "Agilitas Sports Private Limited is a privately held company.",
     "confidence": "not_applicable"
   },
   "revenue": {
@@ -38,12 +38,12 @@
     "confidence": "not_found"
   },
   "marketing_spend": {
-    "value_low": 800000000,
-    "value_high": 1200000000,
+    "value_low": 1000000000,
+    "value_high": 1500000000,
     "currency": "INR",
     "period": "FY2025",
     "tier": "3_modeled",
-    "derivation": "Modeled as 8% to 12% of the reported ₹1,000 crore FY2025 revenue, derived from industry benchmark advertising spend ratios for sportswear and footwear brands.",
+    "derivation": "Estimated using an industry-standard 10% to 15% marketing-to-revenue benchmark for sportswear and athleisure brands, applied to Agilitas Sports' FY2025 revenue of over ₹1,000 Cr.",
     "source": null
   },
   "trend_history": {
@@ -65,19 +65,19 @@
   },
   "business_updates": [
     {
-      "headline": "Virat Kohli's stake in Agilitas Sports rises to 6.4% following One8 merger",
-      "date": "2026-10-30",
+      "headline": "Agilitas Sports raises ₹400 crore funding round led by Convergent Finance LLP",
+      "date": "2023-05-18",
       "source": {
-        "name": "CB Insights",
-        "url": "https://www.cbinsights.com/company/agilitas-sports"
+        "name": "LinkedIn News / Livemint",
+        "url": "https://www.linkedin.com/posts/linkedin-news-india_agilitas-sports-a-newly-launched-sportswear-activity-7064162428955090945-YX9q"
       }
     },
     {
-      "headline": "Agilitas Sports raises ₹225 crore in funding round led by Nexus Venture Partners and Rainmatter",
-      "date": "2026-06-03",
+      "headline": "Agilitas completes Series C funding rounds backed by Baseline Ventures and Rainmatter",
+      "date": "2026-02-01",
       "source": {
-        "name": "Retail News India",
-        "url": "https://apparelresources.com/business-news/retail/agilitas-sports-raises-us-23-51-million-retail-manufacturing-push"
+        "name": "Tracxn",
+        "url": "https://tracxn.com/d/companies/agilitas/__TSw7AGSFziiaFwBTtn9eb_qA2C_UcO1FMp0tD8E5a2Y"
       }
     }
   ]

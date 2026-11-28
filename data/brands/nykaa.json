@@ -4,15 +4,15 @@
   "parent": "FSN E-Commerce Ventures Ltd.",
   "entity_type": "public_standalone",
   "category": "E-commerce / Beauty",
-  "description": "Nykaa is an Indian omnichannel beauty, wellness, and fashion retailer operated by publicly listed FSN E-Commerce Ventures Ltd.",
-  "last_refreshed": "2026-11-25T13:23:53.544Z",
+  "description": "Nykaa is an Indian omni-channel e-commerce brand specializing in beauty, personal care, and fashion, operated by FSN E-Commerce Ventures Ltd.",
+  "last_refreshed": "2026-11-28T12:15:16.926Z",
   "stock": {
     "applicable": true,
-    "value": 364,
+    "value": 365.2,
     "currency": "INR",
     "ticker": "NYKAA.NS",
-    "as_of": "2025-11-20",
-    "note": "Reflects parent company FSN E-Commerce Ventures Ltd stock price",
+    "as_of": "2026-11-13",
+    "note": "Reflects parent company FSN E-Commerce Ventures Ltd listed on the NSE.",
     "confidence": "disclosed"
   },
   "revenue": {
@@ -21,27 +21,27 @@
     "period": "FY2026",
     "confidence": "disclosed",
     "source": {
-      "name": "Tickertape",
-      "url": "https://www.tickertape.in/stocks/fsn-e-commerce-ventures-NYK",
-      "date": ""
+      "name": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/quote/NYKAA.NS",
+      "date": "2026-11-13"
     }
   },
   "operating_profit": {
-    "value": 7195400000,
+    "value": 7520000000,
     "currency": "INR",
     "period": "FY2026",
     "confidence": "disclosed",
     "source": {
       "name": "Tickertape",
       "url": "https://www.tickertape.in/stocks/fsn-e-commerce-ventures-NYK",
-      "date": ""
+      "date": "2026-11-13"
     }
   },
   "expenses": {
     "breakdown": [
       {
         "label": "Employee benefits expense",
-        "value": 2248500000,
+        "value": 224850000,
         "confidence": "disclosed"
       }
     ],
@@ -53,7 +53,7 @@
     "currency": "INR",
     "period": "FY2026",
     "tier": "3_modeled",
-    "derivation": "Calculated using an estimated industry benchmark of 8% to 12% marketing-to-revenue ratio for beauty e-commerce platforms applied against FY2026 revenue of Rs 10,022.35 crore.",
+    "derivation": "Modeled using a standard 8-12% marketing-to-revenue ratio for B2C e-commerce platforms applied to FY2026 revenue of INR 100,223,500,000.",
     "source": null
   },
   "trend_history": {
@@ -160,19 +160,19 @@
   },
   "business_updates": [
     {
-      "headline": "FSN E-Commerce Ventures FY26 revenue crosses Rs 10,000 crore as net profit surges 176.72%",
-      "date": "",
+      "headline": "Nykaa completed acquisition of a 51% stake in Aminu Wellness",
+      "date": "2026-09-24",
       "source": {
-        "name": "Tickertape",
-        "url": "https://www.tickertape.in/stocks/fsn-e-commerce-ventures-NYK"
+        "name": "Screener",
+        "url": "https://www.screener.in/company/NYKAA/consolidated"
       }
     },
     {
-      "headline": "Nykaa confirms talks to acquire stake in skincare brand 82°E",
-      "date": "",
+      "headline": "Nykaa and L’Oréal’s BOLD fund partner to jointly invest in Indian beauty and wellness startups",
+      "date": "2026-09-01",
       "source": {
-        "name": "Yahoo Finance",
-        "url": "https://finance.yahoo.com/quote/NYKAA.NS/chart"
+        "name": "Screener",
+        "url": "https://www.screener.in/company/NYKAA/consolidated"
       }
     }
   ]

@@ -4,65 +4,54 @@
   "parent": "Dreamplug Technologies Pvt Ltd",
   "entity_type": "india_private_registered",
   "category": "Fintech",
-  "description": "CRED is an Indian fintech platform operated by Dreamplug Technologies Private Limited that offers credit card bill payment management, rewards, lending, and personal finance tools.",
-  "last_refreshed": "2026-11-25T13:25:05.573Z",
+  "description": "CRED is an Indian fintech platform owned by Dreamplug Technologies Pvt Ltd that provides financial management tools, credit card bill payment services, lending, and rewards.",
+  "last_refreshed": "2026-11-28T12:16:55.556Z",
   "stock": {
     "applicable": false,
     "value": null,
     "currency": "INR",
     "ticker": null,
     "as_of": null,
-    "note": "CRED is a privately registered company and is not publicly listed on stock exchanges.",
+    "note": "CRED is a brand operated by privately held Dreamplug Technologies Pvt Ltd and is not publicly listed.",
     "confidence": "not_applicable"
   },
   "revenue": {
     "value": 24730000000,
     "currency": "INR",
-    "period": "FY2024",
+    "period": "FY24",
     "confidence": "disclosed",
     "source": {
-      "name": "Cred (company) - Wikipedia",
+      "name": "Wikipedia / EnTrackr",
       "url": "https://en.wikipedia.org/wiki/Cred_(company)",
-      "date": "2024-01-01"
+      "date": "2024-09-30"
     }
   },
   "operating_profit": {
     "value": -16440000000,
     "currency": "INR",
-    "period": "FY2024",
+    "period": "FY24",
     "confidence": "disclosed",
     "source": {
-      "name": "Cred (company) - Wikipedia",
+      "name": "Wikipedia / EnTrackr",
       "url": "https://en.wikipedia.org/wiki/Cred_(company)",
-      "date": "2024-01-01"
+      "date": "2024-09-30"
     }
   },
   "expenses": {
-    "breakdown": [
-      {
-        "label": "Operating Expenses (Dreamplug Paytech - FY25)",
-        "value": 29970000000,
-        "confidence": "disclosed"
-      },
-      {
-        "label": "Employee Expenses (Dreamplug Paytech - FY25)",
-        "value": 57820000000,
-        "confidence": "disclosed"
-      }
-    ],
-    "confidence": "disclosed"
+    "breakdown": [],
+    "confidence": "not_found"
   },
   "marketing_spend": {
     "value_low": 2220000000,
     "value_high": 2220000000,
     "currency": "INR",
-    "period": "FY2021",
+    "period": "FY21",
     "tier": "1_disclosed",
-    "derivation": "Reported in financial filings as ₹222 crore spent on marketing during FY2020-21 (up from ₹57 crore in FY2019-20).",
+    "derivation": "Disclosed marketing expenditure of ₹222 crore for FY21 reported in company disclosures cited by financial press.",
     "source": {
-      "name": "Startup.Pedia",
-      "url": "https://www.facebook.com/startup.pedia7/posts/cred-owned-and-operated-by-dreamplug-technologies-pvt-ltd-reported-a-45-increase/491744455733928",
-      "date": "2021-01-01"
+      "name": "LiveMint",
+      "url": "https://www.livemint.com/companies/start-ups/cred-raising-series-f-capital-at-6-4-billion-11654790631778.html",
+      "date": "2022-06-09"
     }
   },
   "trend_history": {
@@ -90,7 +79,7 @@
       },
       {
         "period": "FY21",
-        "value": 955300000
+        "value": 880000000
       },
       {
         "period": "FY24",
@@ -100,27 +89,19 @@
   },
   "business_updates": [
     {
-      "headline": "CRED rolls out Circle platform to connect users with vetted domain experts",
-      "date": "2026-08-18",
+      "headline": "CRED revenue nears ₹2,500 crore in FY24, reducing operating losses by 41%",
+      "date": "2024-09-30",
       "source": {
-        "name": "Business Standard via Tracxn",
-        "url": "https://tracxn.com/d/companies/cred/__XH8YJr346Ojjmnmyfg6WayMKrLBc4hgzZ3qN258QxVg"
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Cred_(company)"
       }
     },
     {
-      "headline": "CRED-Backed NewTap Finance's FY26 Profit More Than Doubles To ₹2.4 Cr",
-      "date": "2026-08-15",
+      "headline": "CRED raises Series F funding round valuing parent entity Dreamplug Technologies at $6.4 billion",
+      "date": "2022-06-09",
       "source": {
-        "name": "Inc42 via Tracxn",
-        "url": "https://tracxn.com/d/companies/cred/__XH8YJr346Ojjmnmyfg6WayMKrLBc4hgzZ3qN258QxVg"
-      }
-    },
-    {
-      "headline": "CRED raised approximately INR 85 crore in Series H funding round",
-      "date": "2026-06-01",
-      "source": {
-        "name": "Preqin",
-        "url": "https://www.preqin.com/data/profile/asset/dreamplug-technologies-pvt-ltd-/336506"
+        "name": "LiveMint",
+        "url": "https://www.livemint.com/companies/start-ups/cred-raising-series-f-capital-at-6-4-billion-11654790631778.html"
       }
     }
   ]

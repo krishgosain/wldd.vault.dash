@@ -4,37 +4,37 @@
   "parent": "Zerodha Broking Ltd.",
   "entity_type": "india_private_registered",
   "category": "Fintech / Broking",
-  "description": "Zerodha is an Indian financial services company and online discount stock broker owned by Zerodha Broking Ltd.",
-  "last_refreshed": "2026-11-25T13:24:44.348Z",
+  "description": "Zerodha is an Indian online discount stockbroking platform and financial services firm operated by parent company Zerodha Broking Ltd.",
+  "last_refreshed": "2026-11-28T12:16:33.759Z",
   "stock": {
     "applicable": false,
     "value": null,
     "currency": "INR",
     "ticker": null,
     "as_of": null,
-    "note": "Zerodha is a privately held unlisted entity.",
+    "note": "Zerodha is a private, unlisted company.",
     "confidence": "not_applicable"
   },
   "revenue": {
     "value": 88470000000,
     "currency": "INR",
-    "period": "FY2026",
-    "confidence": "press_estimate",
+    "period": "FY2025",
+    "confidence": "disclosed",
     "source": {
-      "name": "The HinduBusinessLine",
-      "url": "https://www.thehindubusinessline.com/markets/stock-markets/zerodha-profit-rises-to-4283-crore-in-fy26-despite-flat-revenue/article71395099.ece",
-      "date": "unknown"
+      "name": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Zerodha",
+      "date": "2025"
     }
   },
   "operating_profit": {
     "value": 42830000000,
     "currency": "INR",
     "period": "FY2026",
-    "confidence": "press_estimate",
+    "confidence": "disclosed",
     "source": {
-      "name": "The HinduBusinessLine",
-      "url": "https://www.thehindubusinessline.com/markets/stock-markets/zerodha-profit-rises-to-4283-crore-in-fy26-despite-flat-revenue/article71395099.ece",
-      "date": "unknown"
+      "name": "Inc42",
+      "url": "https://inc42.com/buzz/zerodhas-bland-fy26-net-profit-up-a-mere-1-at-%E2%82%B94238-cr-top-line-at-fy25-level",
+      "date": "2026-08-28"
     }
   },
   "expenses": {
@@ -42,13 +42,17 @@
     "confidence": "not_found"
   },
   "marketing_spend": {
-    "value_low": 200000000,
-    "value_high": 450000000,
+    "value_low": 291000000,
+    "value_high": 291000000,
     "currency": "INR",
-    "period": "FY2026",
-    "tier": "3_modeled",
-    "derivation": "Modeled using Zerodha's zero-paid-ad strategy, estimating promotional and organic educational expenditure at approximately 0.25% to 0.5% of total FY26 revenue (₹8,847 crore).",
-    "source": null
+    "period": "FY2025",
+    "tier": "1_disclosed",
+    "derivation": "Separately disclosed marketing expenses line item from Zerodha Broking Limited financial statement metrics for FY 2024-25 (₹29.10 Cr).",
+    "source": {
+      "name": "Tracxn",
+      "url": "https://tracxn.com/d/legal-entities/india/zerodha-broking-limited/__v553aNZpzCj2Bvf4xhnL-tRmJFFZ-TN4gXVbm8w0W1Y",
+      "date": "2025"
+    }
   },
   "trend_history": {
     "stock": [],
@@ -59,15 +63,15 @@
       },
       {
         "period": "FY2023",
-        "value": 68750000000
+        "value": 68328000000
       },
       {
         "period": "FY2024",
-        "value": 93720000000
+        "value": 93721000000
       },
       {
         "period": "FY2025",
-        "value": 85000000000
+        "value": 88470000000
       },
       {
         "period": "FY2026",
@@ -77,19 +81,19 @@
   },
   "business_updates": [
     {
-      "headline": "Zerodha's net profit rose 1.2% to ₹4,283 crore in FY26 as revenue remained flat at ₹8,847 crore",
-      "date": "2026-01-01",
+      "headline": "Zerodha reports FY26 net profit of ₹4,283 Cr, up 1.2% YoY with operating revenue remaining flat at FY25 level",
+      "date": "2026-08-28",
       "source": {
-        "name": "The HinduBusinessLine",
-        "url": "https://www.thehindubusinessline.com/markets/stock-markets/zerodha-profit-rises-to-4283-crore-in-fy26-despite-flat-revenue/article71395099.ece"
+        "name": "Inc42",
+        "url": "https://inc42.com/buzz/zerodhas-bland-fy26-net-profit-up-a-mere-1-at-%E2%82%B94238-cr-top-line-at-fy25-level"
       }
     },
     {
-      "headline": "Zerodha obtained merchant banking licence through its subsidiary Zerodha Corporate Advisors",
-      "date": "2026-01-01",
+      "headline": "SEBI regulatory changes including higher STT on options and reduced weekly expiries impact top-line growth",
+      "date": "2025",
       "source": {
-        "name": "Wikipedia",
-        "url": "https://en.wikipedia.org/wiki/Zerodha"
+        "name": "Indian Startup News",
+        "url": "https://www.instagram.com/p/DPUReNhEgnZ?hl=en"
       }
     }
   ]

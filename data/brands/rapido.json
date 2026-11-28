@@ -4,15 +4,15 @@
   "parent": "Roppen Transportation Services Pvt Ltd",
   "entity_type": "india_private_registered",
   "category": "Ride-hailing",
-  "description": "Rapido is an Indian bike-taxi, auto-rickshaw, cab-hailing, and hyperlocal delivery service platform owned by Roppen Transportation Services Pvt Ltd.",
-  "last_refreshed": "2026-11-25T13:21:43.442Z",
+  "description": "Rapido is an Indian ride-hailing and logistics platform providing bike taxi, auto rickshaw, cab hailing, and delivery services, operated by Roppen Transportation Services Pvt Ltd.",
+  "last_refreshed": "2026-11-28T12:12:57.817Z",
   "stock": {
     "applicable": false,
     "value": null,
     "currency": "INR",
     "ticker": null,
     "as_of": null,
-    "note": "Private company; unlisted shares trade on grey market with plans to initiate an IPO by end of 2026.",
+    "note": "Rapido is a brand under unlisted private entity Roppen Transportation Services Pvt Ltd.",
     "confidence": "not_applicable"
   },
   "revenue": {
@@ -21,7 +21,7 @@
     "period": "FY2025",
     "confidence": "disclosed",
     "source": {
-      "name": "Rediff Moneynews",
+      "name": "Rediff Moneynews / PTI",
       "url": "https://money.rediff.com/news/market/rapido-loss-narrows-revenue-rises-44-in-fy25/40628320260122",
       "date": "2026-01-22"
     }
@@ -32,23 +32,38 @@
     "period": "FY2025",
     "confidence": "disclosed",
     "source": {
-      "name": "Rediff Moneynews",
+      "name": "Rediff Moneynews / PTI",
       "url": "https://money.rediff.com/news/market/rapido-loss-narrows-revenue-rises-44-in-fy25/40628320260122",
       "date": "2026-01-22"
     }
   },
   "expenses": {
-    "breakdown": [],
-    "confidence": "not_found"
+    "breakdown": [
+      {
+        "label": "Consolidated Net Loss",
+        "value": -258,
+        "confidence": "disclosed"
+      },
+      {
+        "label": "Standalone EBITDA Loss",
+        "value": -433.75,
+        "confidence": "disclosed"
+      }
+    ],
+    "confidence": "disclosed"
   },
   "marketing_spend": {
-    "value_low": 140,
-    "value_high": 187,
+    "value_low": 140.16,
+    "value_high": 233.61,
     "currency": "INR",
     "period": "FY2025",
     "tier": "3_modeled",
-    "derivation": "Estimated at 15–20% of Rapido's reported FY25 consolidated revenue of ₹934.44 crore, based on typical marketing-to-revenue benchmarks for Indian consumer tech and ride-hailing platforms.",
-    "source": null
+    "derivation": "Modeled using a 15% to 25% marketing-to-revenue ratio on FY25 consolidated operating revenue of ₹934.44 crore, typical for high-growth Indian mobility and ride-hailing platforms.",
+    "source": {
+      "name": "Rediff Moneynews / PTI",
+      "url": "https://money.rediff.com/news/market/rapido-loss-narrows-revenue-rises-44-in-fy25/40628320260122",
+      "date": "2026-01-22"
+    }
   },
   "trend_history": {
     "stock": [],
@@ -59,11 +74,11 @@
       },
       {
         "period": "FY2023",
-        "value": 6784000000
+        "value": 443
       },
       {
         "period": "FY2024",
-        "value": 648
+        "value": 648.1
       },
       {
         "period": "FY2025",
@@ -89,15 +104,15 @@
   },
   "business_updates": [
     {
-      "headline": "Rapido raised $240 million in Series F round led by Prosus at a $3 billion valuation",
-      "date": "2026-05-15",
+      "headline": "Prosus leads $240 million funding round in Rapido, valuing company at $3 billion",
+      "date": "2025-02-01",
       "source": {
-        "name": "Tracxn",
-        "url": "https://tracxn.com/d/legal-entities/india/roppen-transportation-services-private-limited/__HUZ2wakxPnhZkeEpflU9cNcXb0lI5IllIrVKyQCIrm4"
+        "name": "Prosus",
+        "url": "https://www.prosus.com/news-insights/2026/prosus-leads-us-dollars-240m-primary-funding-in-rapido-demonstrating-conviction-in-indias-digital-economy"
       }
     },
     {
-      "headline": "Rapido parent company narrowed FY25 consolidated net loss to ₹258 crore with revenue up 44%",
+      "headline": "Rapido parent Roppen Transportation narrows FY25 loss to ₹258 crore, revenue reaches ₹934 crore",
       "date": "2026-01-22",
       "source": {
         "name": "Rediff Moneynews",
@@ -105,7 +120,7 @@
       }
     },
     {
-      "headline": "Rapido plans to initiate its IPO process by end of 2026",
+      "headline": "Rapido plans to initiate IPO process by the end of 2026",
       "date": "2026-01-22",
       "source": {
         "name": "Rediff Moneynews",

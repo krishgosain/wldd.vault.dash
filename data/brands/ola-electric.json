@@ -1,18 +1,18 @@
 {
   "name": "Ola Electric",
   "slug": "ola-electric",
-  "parent": null,
+  "parent": "ANI Technologies Pvt. Ltd.",
   "entity_type": "public_standalone",
   "category": "Auto / EV",
-  "description": "Ola Electric Mobility Limited is an Indian electric two-wheeler manufacturer that produces electric scooters including the S1 portfolio.",
-  "last_refreshed": "2026-11-25T13:26:03.157Z",
+  "description": "Ola Electric Mobility Limited is an Indian electric vehicle manufacturer specializing in two-wheeler EV scooters and battery technology development.",
+  "last_refreshed": "2026-11-28T12:17:33.212Z",
   "stock": {
     "applicable": true,
-    "value": 34.85,
+    "value": 32.04,
     "currency": "INR",
     "ticker": "OLAELEC.NS",
-    "as_of": "2026-11-02",
-    "note": "Reflects last traded price on NSE",
+    "as_of": null,
+    "note": "Listed on the National Stock Exchange of India (NSE) and BSE.",
     "confidence": "disclosed"
   },
   "revenue": {
@@ -22,8 +22,8 @@
     "confidence": "disclosed",
     "source": {
       "name": "Yahoo Finance",
-      "url": "https://ca.finance.yahoo.com/quote/OLAELEC.NS",
-      "date": "2026-11-16"
+      "url": "https://finance.yahoo.com/quote/OLAELEC.NS",
+      "date": ""
     }
   },
   "operating_profit": {
@@ -34,7 +34,7 @@
     "source": {
       "name": "Tavily Knowledge Base",
       "url": "https://tavily.com/knowledge/company/E0QzYHNezxTc",
-      "date": "2026-11-16"
+      "date": ""
     }
   },
   "expenses": {
@@ -42,16 +42,20 @@
     "confidence": "not_found"
   },
   "marketing_spend": {
-    "value_low": 675900000,
-    "value_high": 1126500000,
+    "value_low": 900000000,
+    "value_high": 1350000000,
     "currency": "INR",
     "period": "FY2026",
     "tier": "3_modeled",
-    "derivation": "Estimated at 3% to 5% of FY2026 revenue (₹22.53 billion INR), aligned with standard marketing and customer acquisition spend ratios for Indian EV automotive manufacturers.",
+    "derivation": "Modeled at 4% to 6% of reported FY2026 revenue (₹22.53 Billion), based on standard automotive and EV industry marketing spending benchmarks.",
     "source": null
   },
   "trend_history": {
     "stock": [
+      {
+        "date": "2026",
+        "value": 32.04
+      },
       {
         "date": "2026-09-09",
         "value": 37.4
@@ -159,10 +163,18 @@
   "business_updates": [
     {
       "headline": "Ola Electric, Axis Energy sign MoU for 20GWh of battery storage",
-      "date": "2026-08-01",
+      "date": "",
       "source": {
         "name": "Energy Monitor",
         "url": "https://finance.yahoo.com/quote/OLAELEC.NS/news"
+      }
+    },
+    {
+      "headline": "Ola Electric completed a follow on equity offering raising ₹7.80B",
+      "date": "",
+      "source": {
+        "name": "Simply Wall St",
+        "url": "https://simplywall.st/stocks/in/automobiles/nse-olaelec/ola-electric-mobility-shares/health"
       }
     }
   ]

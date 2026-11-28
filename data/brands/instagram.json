@@ -1,63 +1,70 @@
 {
   "name": "Instagram",
   "slug": "instagram",
-  "parent": "Meta Platforms, Inc.",
+  "parent": "Meta Platforms",
   "entity_type": "public_parent",
   "category": "Social",
   "description": "Instagram is a photo and video sharing social networking service owned by public parent company Meta Platforms, Inc.",
-  "last_refreshed": "2026-11-27T12:59:07.988Z",
+  "last_refreshed": "2026-11-28T12:18:34.168Z",
   "stock": {
     "applicable": false,
     "value": null,
     "currency": "USD",
     "ticker": "META",
     "as_of": null,
-    "note": "Ticker reflects parent company Meta Platforms, Inc., not Instagram directly.",
+    "note": "Reflects parent company Meta Platforms, Inc. (META), not Instagram specifically.",
     "confidence": "not_applicable"
   },
   "revenue": {
-    "value": 200966000000,
+    "value": null,
     "currency": "USD",
-    "period": "FY2025",
-    "confidence": "disclosed",
-    "source": {
-      "name": "Yahoo Finance",
-      "url": "https://finance.yahoo.com/quote/META",
-      "date": "2025-01-01"
-    }
+    "period": "Q3 2026",
+    "confidence": "not_found",
+    "source": null
   },
   "operating_profit": {
-    "value": 83280000000,
+    "value": null,
     "currency": "USD",
-    "period": "FY2025",
-    "confidence": "disclosed",
-    "source": {
-      "name": "Tavily / Meta Knowledge Base",
-      "url": "https://tavily.com/knowledge/company/qEUrWqYCMNS1",
-      "date": "2025-01-01"
-    }
+    "period": "Q3 2026",
+    "confidence": "not_found",
+    "source": null
   },
   "expenses": {
     "breakdown": [
       {
-        "label": "Total Annual Expenses (2023 Guidance)",
-        "value": 88000000000,
+        "label": "Cost of revenue",
+        "value": 13369000000,
+        "confidence": "disclosed"
+      },
+      {
+        "label": "Research and development",
+        "value": 20054000000,
+        "confidence": "disclosed"
+      },
+      {
+        "label": "Marketing and sales",
+        "value": 3333000000,
+        "confidence": "disclosed"
+      },
+      {
+        "label": "General and administrative",
+        "value": 14857000000,
         "confidence": "disclosed"
       }
     ],
     "confidence": "disclosed"
   },
   "marketing_spend": {
-    "value_low": 10000000000,
-    "value_high": 20000000000,
+    "value_low": 3333000000,
+    "value_high": 3333000000,
     "currency": "USD",
-    "period": "FY2025",
-    "tier": "3_modeled",
-    "derivation": "Calculated by applying a standard tech/social media benchmark ratio of 5%–10% marketing spend against Meta's reported FY2025 total revenue of $200.97 billion.",
+    "period": "Q3 2026",
+    "tier": "1_disclosed",
+    "derivation": "Disclosed as Marketing and sales expense of $3.333 billion ($3,333 million) in Meta Platforms' Q3 2026 financial results statement.",
     "source": {
-      "name": "Yahoo Finance",
-      "url": "https://finance.yahoo.com/quote/META",
-      "date": "2025-01-01"
+      "name": "Meta Reports Third Quarter 2026 Results",
+      "url": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Third-Quarter-2026-Results/default.aspx",
+      "date": "2026-09-30"
     }
   },
   "trend_history": {
@@ -172,19 +179,19 @@
   },
   "business_updates": [
     {
-      "headline": "Instagram projected to generate more than half of Meta's US ad revenue by 2025",
-      "date": "2024-01-01",
+      "headline": "Meta reports Q3 2026 total revenue of $64.60 billion, up 26% year-over-year",
+      "date": "2026-09-30",
       "source": {
-        "name": "Financial Modeling Prep",
-        "url": "https://site.financialmodelingprep.com/market-news/meta-platforms-nasdaq-meta-financial-overview-instagram-impact"
+        "name": "Meta Investor Relations",
+        "url": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Third-Quarter-2026-Results/default.aspx"
       }
     },
     {
-      "headline": "Meta beats quarterly profit and revenue expectations on strong digital ad recovery",
-      "date": "2023-10-25",
+      "headline": "Meta launches full-screen video player and AI recommendation system to boost Reels engagement on Instagram",
+      "date": "2024-07-31",
       "source": {
-        "name": "Yahoo Finance / Reuters",
-        "url": "https://ca.finance.yahoo.com/news/facebook-parent-meta-beats-revenue-202237164.html"
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/news/analyst-revisits-meta-stock-price-150701674.html"
       }
     }
   ]

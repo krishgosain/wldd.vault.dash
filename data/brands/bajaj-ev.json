@@ -4,51 +4,51 @@
   "parent": "Bajaj Auto Ltd.",
   "entity_type": "public_parent",
   "category": "Auto / EV",
-  "description": "Bajaj EV is the electric vehicle division of publicly traded Indian automaker Bajaj Auto Ltd., manufacturing electric two-wheelers like the Chetak EV scooter and electric three-wheelers.",
-  "last_refreshed": "2026-11-22T11:55:12.564Z",
+  "description": "Bajaj EV is the electric vehicle business line of Bajaj Auto Ltd., encompassing electric two-wheelers (such as the Chetak EV scooter) and electric three-wheelers.",
+  "last_refreshed": "2026-11-28T12:11:08.354Z",
   "stock": {
     "applicable": false,
-    "value": 10765,
+    "value": 10485,
     "currency": "INR",
     "ticker": "BAJAJ-AUTO.NS",
-    "as_of": "2026-11-20",
-    "note": "Reflects parent entity Bajaj Auto Ltd.; Bajaj EV is an unlisted operating unit.",
+    "as_of": "2026-11-27",
+    "note": "Reflects parent company Bajaj Auto Ltd. (BAJAJ-AUTO.NS), not Bajaj EV specifically.",
     "confidence": "not_applicable"
   },
   "revenue": {
-    "value": 47170000000,
+    "value": 587324800000,
     "currency": "INR",
     "period": "FY2026",
     "confidence": "disclosed",
     "source": {
-      "name": "Zerodha Markets",
-      "url": "https://zerodha.com/markets/stocks/NSE/BAJAJ-AUTO",
-      "date": "2026-07-24"
+      "name": "Yahoo Finance / Bajaj Auto Financials",
+      "url": "https://finance.yahoo.com/quote/BAJAJ-AUTO.NS",
+      "date": "2026-03-31"
     }
   },
   "operating_profit": {
-    "value": null,
+    "value": 120190000000,
     "currency": "INR",
-    "period": "",
-    "confidence": "not_found",
-    "source": null
+    "period": "FY2026",
+    "confidence": "disclosed",
+    "source": {
+      "name": "Finology Ticker",
+      "url": "https://ticker.finology.in/company/BAJAJ-AUTO",
+      "date": "2026-03-31"
+    }
   },
   "expenses": {
     "breakdown": [],
     "confidence": "not_found"
   },
   "marketing_spend": {
-    "value_low": 1415100000,
-    "value_high": 2358500000,
+    "value_low": 2936000000,
+    "value_high": 4405000000,
     "currency": "INR",
     "period": "FY2026",
     "tier": "3_modeled",
-    "derivation": "Estimated at 3% to 5% of Bajaj EV division's reported FY2026 revenue of 47.17 billion INR, based on standard automotive industry marketing spend benchmarks.",
-    "source": {
-      "name": "Zerodha Markets",
-      "url": "https://zerodha.com/markets/stocks/NSE/BAJAJ-AUTO",
-      "date": "2026-07-24"
-    }
+    "derivation": "Modeled by applying a category-typical EV marketing-to-revenue benchmark of 2.0% to 3.0% against Bajaj EV's estimated domestic revenue contribution (~25% of parent Bajaj Auto's FY2026 revenue of Rs 58,732 crore, amounting to ~Rs 14,683 crore).",
+    "source": null
   },
   "trend_history": {
     "stock": [
@@ -103,6 +103,10 @@
       {
         "date": "2026-11-22",
         "value": 11210.5
+      },
+      {
+        "date": "2026-11-27",
+        "value": 10485
       }
     ],
     "revenue": [
@@ -140,7 +144,7 @@
       },
       {
         "period": "FY2026",
-        "value": 47170000000
+        "value": 587324800000
       },
       {
         "period": "Jun 2026",
@@ -158,27 +162,27 @@
   },
   "business_updates": [
     {
-      "headline": "Bajaj Auto EV unit reports FY2026 revenue of 47.17 billion rupees",
-      "date": "2026-07-24",
-      "source": {
-        "name": "Zerodha Markets",
-        "url": "https://zerodha.com/markets/stocks/NSE/BAJAJ-AUTO"
-      }
-    },
-    {
-      "headline": "Bajaj Auto announces plans to launch electric motorcycles in fiscal 2028 and expand Chetak EV production",
-      "date": "2026-07-24",
-      "source": {
-        "name": "Zerodha Markets",
-        "url": "https://zerodha.com/markets/stocks/NSE/BAJAJ-AUTO"
-      }
-    },
-    {
-      "headline": "Chetak EV volumes hit 260,033 units in FY2025, representing 125% YoY growth",
+      "headline": "EV portfolio contributes approximately 25% of Bajaj Auto's domestic revenue in early 2026",
       "date": "2026-01-01",
       "source": {
         "name": "Trendlyne",
         "url": "https://trendlyne.com/equity/144/BAJAJ-AUTO/bajaj-auto-ltd"
+      }
+    },
+    {
+      "headline": "Chetak EV volumes reached 260,033 units in FY2025, a 125% YoY increase",
+      "date": "2025-03-31",
+      "source": {
+        "name": "Trendlyne",
+        "url": "https://trendlyne.com/equity/144/BAJAJ-AUTO/bajaj-auto-ltd"
+      }
+    },
+    {
+      "headline": "Bajaj Auto deepens EV push with electric motorcycle plans and Chetak portfolio expansion",
+      "date": "2026-01-01",
+      "source": {
+        "name": "Yahoo Finance",
+        "url": "https://finance.yahoo.com/quote/BAJAJ-AUTO.NS/latest-news"
       }
     }
   ]

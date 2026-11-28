@@ -4,15 +4,15 @@
   "parent": "Tata Group",
   "entity_type": "public_standalone",
   "category": "Auto",
-  "description": "Tata Motors Ltd. is a major Indian multinational automotive manufacturing company operating as part of the Tata Group.",
-  "last_refreshed": "2026-11-27T13:03:08.035Z",
+  "description": "Tata Motors Limited is a prominent Indian multinational automobile manufacturer and part of the Tata Group, specializing in commercial vehicles, passenger cars, utility vehicles, and electric vehicles.",
+  "last_refreshed": "2026-11-28T12:21:12.975Z",
   "stock": {
     "applicable": true,
     "value": 406.45,
     "currency": "INR",
     "ticker": "TATAMOTORS.NS",
     "as_of": "2026-10-01",
-    "note": "Reflects Tata Motors stock price on the National Stock Exchange of India (NSE).",
+    "note": "Reflects standalone ticker TATAMOTORS.NS on the National Stock Exchange of India",
     "confidence": "disclosed"
   },
   "revenue": {
@@ -23,7 +23,7 @@
     "source": {
       "name": "Tata Motors",
       "url": "https://tavily.com/knowledge/company/aZ23s7vRWCxI",
-      "date": "2026-10-01"
+      "date": "2026-06-22"
     }
   },
   "operating_profit": {
@@ -34,7 +34,7 @@
     "source": {
       "name": "Tata Motors",
       "url": "https://tavily.com/knowledge/company/aZ23s7vRWCxI",
-      "date": "2026-10-01"
+      "date": "2026-06-22"
     }
   },
   "expenses": {
@@ -43,11 +43,11 @@
   },
   "marketing_spend": {
     "value_low": 52500000000,
-    "value_high": 105000000000,
+    "value_high": 87500000000,
     "currency": "INR",
     "period": "FY2026",
     "tier": "3_modeled",
-    "derivation": "Estimated at 1.5% to 3.0% of FY2026 revenue (INR 3.50 trillion), reflecting standard auto industry marketing-to-revenue benchmarks.",
+    "derivation": "Modeled using an auto industry benchmark ratio of 1.5% to 2.5% of annual revenue applied to Tata Motors' FY2026 reported revenue of 3.50 trillion INR.",
     "source": null
   },
   "trend_history": {
@@ -198,19 +198,19 @@
   },
   "business_updates": [
     {
-      "headline": "Tata Motors reports FY 2026 revenue of INR 3.50 trillion with EBITDA margin of 13.2%",
+      "headline": "Tata Motors reported FY2026 annual performance with revenue of 3.50 trillion INR and net income of 826.45 billion INR.",
       "date": "2026-06-22",
       "source": {
-        "name": "Tata Motors (NSE:TMCV) Stock Price & Overview",
-        "url": "https://stockanalysis.com/quote/nse/TMCV"
+        "name": "Tata Motors",
+        "url": "https://tavily.com/knowledge/company/aZ23s7vRWCxI"
       }
     },
     {
-      "headline": "Tata Motors Passenger Vehicles Ltd announces Q2FY27 consolidated results",
-      "date": "2026-11-13",
+      "headline": "Tata Motors passenger vehicles reported a Q2 net loss of 5,531 crores due to dragging luxury segment performance and geopolitical tensions.",
+      "date": "2026-06-22",
       "source": {
-        "name": "Trendlyne",
-        "url": "https://trendlyne.com/equity/1362/TMPV/tata-motors-passenger-vehicles-ltd"
+        "name": "ET Now",
+        "url": "https://www.youtube.com/watch?v=NEx3VZVfJgg"
       }
     }
   ]

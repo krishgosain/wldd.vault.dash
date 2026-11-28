@@ -4,54 +4,93 @@
   "parent": null,
   "entity_type": "public_standalone",
   "category": "Ride-hailing",
-  "description": "Uber Technologies, Inc. is a publicly traded technology platform offering ride-hailing, food delivery, logistics, and advertising services globally.",
-  "last_refreshed": "2026-11-27T12:57:53.574Z",
+  "description": "Uber Technologies, Inc. is a technology platform that operates mobility, delivery, and freight services worldwide.",
+  "last_refreshed": "2026-11-28T12:17:52.465Z",
   "stock": {
     "applicable": true,
-    "value": null,
+    "value": 66.7,
     "currency": "USD",
     "ticker": "UBER",
-    "as_of": "2024-07-31",
-    "note": "Traded on NYSE under ticker UBER. Market cap was approximately $134.71B as of July 31, 2024.",
+    "as_of": "2026-11-26",
+    "note": "Reflects Uber Technologies, Inc. stock price on the NYSE.",
     "confidence": "disclosed"
   },
   "revenue": {
-    "value": 14800000000,
+    "value": 14766000000,
     "currency": "USD",
     "period": "Q3 2026",
     "confidence": "disclosed",
     "source": {
-      "name": "Walnut AI Investing App",
-      "url": "https://walnutinvest.com/stocks/uber",
+      "name": "Uber Announces Results for Third Quarter 2026",
+      "url": "https://investor.uber.com/news-events/news/press-release-details/2026/Uber-Announces-Results-for-Third-Quarter-2026/default.aspx",
       "date": "2026-11-04"
     }
   },
   "operating_profit": {
-    "value": 1920000000,
+    "value": 1447000000,
     "currency": "USD",
-    "period": "Q1 2026",
+    "period": "Q3 2026",
     "confidence": "disclosed",
     "source": {
-      "name": "Tavily Knowledge Base",
-      "url": "https://tavily.com/knowledge/company/tU4a44V7jqK3",
-      "date": "2026-01-01"
+      "name": "Uber Announces Results for Third Quarter 2026",
+      "url": "https://investor.uber.com/news-events/news/press-release-details/2026/Uber-Announces-Results-for-Third-Quarter-2026/default.aspx",
+      "date": "2026-11-04"
     }
   },
   "expenses": {
-    "breakdown": [],
-    "confidence": "not_found"
+    "breakdown": [
+      {
+        "label": "Cost of revenue",
+        "value": 8349000000,
+        "confidence": "disclosed"
+      },
+      {
+        "label": "Sales and marketing",
+        "value": 1563000000,
+        "confidence": "disclosed"
+      },
+      {
+        "label": "Research and development",
+        "value": 1273000000,
+        "confidence": "disclosed"
+      },
+      {
+        "label": "General and administrative",
+        "value": 1047000000,
+        "confidence": "disclosed"
+      },
+      {
+        "label": "Operations and support",
+        "value": 875000000,
+        "confidence": "disclosed"
+      },
+      {
+        "label": "Depreciation and amortization",
+        "value": 212000000,
+        "confidence": "disclosed"
+      }
+    ],
+    "confidence": "disclosed"
   },
   "marketing_spend": {
-    "value_low": 4160000000,
-    "value_high": 5200000000,
+    "value_low": 1563000000,
+    "value_high": 1563000000,
     "currency": "USD",
-    "period": "FY2025",
-    "tier": "3_modeled",
-    "derivation": "Modeled as 8% to 10% of FY2025 total revenue ($52.02B) based on standard industry sales and marketing ratios for global ride-hailing and consumer delivery platforms.",
-    "source": null
+    "period": "Q3 2026",
+    "tier": "1_disclosed",
+    "derivation": "Disclosed as 'Sales and marketing' line item of $1,563 million in Uber's Q3 2026 financial statement.",
+    "source": {
+      "name": "Uber Announces Results for Third Quarter 2026",
+      "url": "https://investor.uber.com/news-events/news/press-release-details/2026/Uber-Announces-Results-for-Third-Quarter-2026/default.aspx",
+      "date": "2026-11-04"
+    }
   },
   "trend_history": {
     "stock": [
+      {
+        "date": "2025-12-08",
+        "value": 92.78
+      },
       {
         "date": "2026-09-08",
         "value": 75.76
@@ -71,6 +110,14 @@
       {
         "date": "2026-11-12",
         "value": 70.3
+      },
+      {
+        "date": "2026-11-20",
+        "value": 63.29
+      },
+      {
+        "date": "2026-11-26",
+        "value": 66.7
       }
     ],
     "revenue": [
@@ -146,27 +193,27 @@
   },
   "business_updates": [
     {
-      "headline": "Uber reports Q3 2026 revenue of $14.8 billion, up 10% year-over-year",
-      "date": "2026-11-04",
+      "headline": "Uber Technologies Begins Fully Driverless Robotaxi Testing In Bay Area",
+      "date": "2026-11-26",
       "source": {
-        "name": "Walnut AI Investing App",
-        "url": "https://walnutinvest.com/stocks/uber"
+        "name": "Simply Wall St",
+        "url": "https://robinhood.com/us/en/stocks/UBER"
       }
     },
     {
-      "headline": "Uber achieves sustained GAAP profitability and strong operating leverage",
-      "date": "2026-11-04",
+      "headline": "Uber, Nuro, and Lucid take a major step forward with their robotaxi partnership",
+      "date": "2026-11-24",
       "source": {
-        "name": "Walnut AI Investing App",
-        "url": "https://walnutinvest.com/stocks/uber"
+        "name": "Seeking Alpha",
+        "url": "https://robinhood.com/us/en/stocks/UBER"
       }
     },
     {
-      "headline": "Uber executes share buyback strategy with $1.5 billion accelerated program",
-      "date": "2025-01-01",
+      "headline": "Uber and China's Momenta launched robotaxi tests in Munich",
+      "date": "2026-11-01",
       "source": {
-        "name": "Yahoo Finance",
-        "url": "https://finance.yahoo.com/news/uber-vs-lyft-ride-hailing-155600012.html"
+        "name": "TradingView",
+        "url": "https://www.tradingview.com/symbols/NYSE-UBER"
       }
     }
   ]
